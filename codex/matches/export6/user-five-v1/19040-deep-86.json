@@ -1,0 +1,372 @@
+{
+  "action_number": 86,
+  "state": {
+    "side": "CYAN",
+    "actions_left": 1,
+    "round": 22,
+    "action": 86,
+    "pieces": [
+      {
+        "side": "CYAN",
+        "type": "KERNEL",
+        "square": "C5",
+        "rc": [
+          3,
+          2
+        ]
+      },
+      {
+        "side": "MAGENTA",
+        "type": "KERNEL",
+        "square": "E4",
+        "rc": [
+          4,
+          4
+        ]
+      },
+      {
+        "side": "MAGENTA",
+        "type": "TRACE",
+        "square": "F4",
+        "rc": [
+          4,
+          5
+        ]
+      },
+      {
+        "side": "CYAN",
+        "type": "TRACE",
+        "square": "C3",
+        "rc": [
+          5,
+          2
+        ]
+      }
+    ],
+    "locked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      22,
+      23,
+      24,
+      25,
+      30,
+      31,
+      32,
+      33,
+      38,
+      39,
+      40,
+      41,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  "recorded": {
+    "index": 2722,
+    "piece": "TRACE",
+    "side": "CYAN",
+    "move": "C3->C4",
+    "kind": "move"
+  },
+  "horizon": "current own remainder, enemy turn, own turn, second enemy turn; bounded survival is not eventual win",
+  "alternatives": [
+    {
+      "index": 1682,
+      "piece": "KERNEL",
+      "side": "CYAN",
+      "move": "C5->C6",
+      "kind": "move",
+      "bounded_loss": "VERIFIED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 1682,
+              "piece": "KERNEL",
+              "side": "CYAN",
+              "move": "C5->C6",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "VERIFIED",
+            "terminal": true,
+            "witness": [
+              {
+                "index": 1764,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E4->D5",
+                "kind": "move"
+              },
+              {
+                "index": 2349,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "D5->C6",
+                "kind": "move"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 1698,
+      "piece": "KERNEL",
+      "side": "CYAN",
+      "move": "C5->C4",
+      "kind": "move",
+      "bounded_loss": "DISPROVED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 1698,
+              "piece": "KERNEL",
+              "side": "CYAN",
+              "move": "C5->C4",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "DISPROVED",
+            "checked_enemy_completions": 76
+          }
+        }
+      ]
+    },
+    {
+      "index": 1691,
+      "piece": "KERNEL",
+      "side": "CYAN",
+      "move": "C5->D5",
+      "kind": "move",
+      "bounded_loss": "VERIFIED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 1691,
+              "piece": "KERNEL",
+              "side": "CYAN",
+              "move": "C5->D5",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "VERIFIED",
+            "terminal": true,
+            "witness": [
+              {
+                "index": 1763,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E4->E5",
+                "kind": "move"
+              },
+              {
+                "index": 2276,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E5->D5",
+                "kind": "move"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 1683,
+      "piece": "KERNEL",
+      "side": "CYAN",
+      "move": "C5->D6",
+      "kind": "move",
+      "bounded_loss": "VERIFIED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 1683,
+              "piece": "KERNEL",
+              "side": "CYAN",
+              "move": "C5->D6",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "VERIFIED",
+            "terminal": true,
+            "witness": [
+              {
+                "index": 1763,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E4->E5",
+                "kind": "move"
+              },
+              {
+                "index": 2284,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E5->D6",
+                "kind": "move"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 1699,
+      "piece": "KERNEL",
+      "side": "CYAN",
+      "move": "C5->D4",
+      "kind": "move",
+      "bounded_loss": "VERIFIED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 1699,
+              "piece": "KERNEL",
+              "side": "CYAN",
+              "move": "C5->D4",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "VERIFIED",
+            "terminal": true,
+            "witness": [
+              {
+                "index": 1756,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E4->D4",
+                "kind": "move"
+              },
+              {
+                "index": 1756,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E4->D4",
+                "kind": "move"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 2722,
+      "piece": "TRACE",
+      "side": "CYAN",
+      "move": "C3->C4",
+      "kind": "move",
+      "bounded_loss": "DISPROVED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 2722,
+              "piece": "TRACE",
+              "side": "CYAN",
+              "move": "C3->C4",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "DISPROVED",
+            "checked_enemy_completions": 76
+          }
+        }
+      ]
+    },
+    {
+      "index": 2731,
+      "piece": "TRACE",
+      "side": "CYAN",
+      "move": "C3->D3",
+      "kind": "move",
+      "bounded_loss": "VERIFIED",
+      "own_completions": [
+        {
+          "own_line": [
+            {
+              "index": 2731,
+              "piece": "TRACE",
+              "side": "CYAN",
+              "move": "C3->D3",
+              "kind": "move"
+            }
+          ],
+          "proof": {
+            "status": "VERIFIED",
+            "terminal": true,
+            "witness": [
+              {
+                "index": 1756,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "E4->D4",
+                "kind": "move"
+              },
+              {
+                "index": 1829,
+                "piece": "KERNEL",
+                "side": "MAGENTA",
+                "move": "D4->C5",
+                "kind": "move"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "enemy_completions": 170,
+    "leaf_checks": 35,
+    "leaf_nodes": 16688
+  },
+  "source_game": "19040",
+  "source_model": "UNKNOWN",
+  "raw_sha256": "b954ce8e23523bba781dc9fa19dedaa19499d98d419e470316d3c0aac43a429c",
+  "helper": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\19490\\deep_probe.py",
+  "helper_sha256": "45433da3101852263ca08435df0839e01f4477a42f5c8dd525c988f3a4b7280d"
+}

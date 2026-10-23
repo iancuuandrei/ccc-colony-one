@@ -1,14 +1,15 @@
 {
   "baseline": "Shared certificate DATA ONLY; historical GEN02 receipts retained, analysis/teacher models bound per row, actual raw source model UNKNOWN; no models, searches or training runs created",
+  "export6_correction_rows": 3,
   "gen05_correction_rows": 7,
   "holdout_policy": "No holdout_v1 or synthetic held-out data read",
   "inherited_published_rows": 26,
   "kind": "certificate_guided_policy_only_projection",
   "legacy_published_rows": 19,
-  "new_published_rows": 0,
+  "new_published_rows": 3,
   "pending_teacher_rows": 0,
-  "policy_override_file": "policy-overrides-150fdf48d7fec80d0c67.json",
-  "policy_override_sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
+  "policy_override_file": "policy-overrides-0b925f9116a7662d0710.json",
+  "policy_override_sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822",
   "preserved_prior_chunks": [
     {
       "chunk": "chunk-site-tactics-11059-ply030.npz",
@@ -115,17 +116,17 @@
       "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61"
     }
   ],
-  "proof_file": "proofs-150fdf48d7fec80d0c67.json",
-  "proof_file_sha256": "984ecfab7f2780af90a64d8d517bb487cf32ef12f32f38c87d8e7c228d1b02fc",
-  "proof_only_uniform_rows": 16,
-  "report_file": "report-150fdf48d7fec80d0c67.json",
-  "report_sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
-  "rows": 26,
-  "run_id": "150fdf48d7fec80d0c67",
+  "proof_file": "proofs-0b925f9116a7662d0710.json",
+  "proof_file_sha256": "2e46ae4a3f4a3377f34c014bfe45b45f72ee0cb67869c111d32e87eab5b24f1a",
+  "proof_only_uniform_rows": 18,
+  "report_file": "report-0b925f9116a7662d0710.json",
+  "report_sha256": "f9275f51e5897ab9df44f262c315299876930479e6e376618652723c272a9fba",
+  "rows": 29,
+  "run_id": "0b925f9116a7662d0710",
   "scope": "Exact own-turn wins take priority; otherwise bounded next-turn safety only. No full-game optimality claim.",
-  "skipped_no_admissible_rows": 19,
+  "skipped_no_admissible_rows": 20,
   "split_rule": "Keep whole source game group together across every split; do not treat repaired plies as independent games.",
-  "teacher_backed_rows": 10,
+  "teacher_backed_rows": 11,
   "value_contract": "All rows has_value=False,q_valid=False,z=q=0,left=1,has_pol=True",
   "version": 1
 }

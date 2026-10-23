@@ -1,0 +1,615 @@
+[
+  {
+    "case_id": "19101/67",
+    "game_id": "19101",
+    "ply": 67,
+    "actor": "MAGENTA",
+    "user_team": "MAGENTA",
+    "source_model": "UNKNOWN",
+    "group": "site-game-19101",
+    "historical_action": "F5->F6",
+    "historical_winner": "CYAN",
+    "observation_sha256": "585aa4c0a40abad500b018bc92bace6e1239aecc9e4443898d7232d3bb27149e",
+    "model_sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+    "gen07_action": "F5->F6",
+    "gen07_action_index": 2218,
+    "certificate_membership": {
+      "legal": true,
+      "winning": false,
+      "safe": true,
+      "unsafe": false,
+      "unknown": false,
+      "two_enemy_safe": true,
+      "two_enemy_unsafe": false,
+      "two_enemy_unknown": false
+    },
+    "certificate_counts": {
+      "legal": 7,
+      "winning": 0,
+      "safe": 7,
+      "unsafe": 0,
+      "unknown": 0,
+      "two_enemy_safe": 4,
+      "two_enemy_unsafe": 3,
+      "two_enemy_unknown": 0
+    },
+    "after_first_current_turn_win_remains": false,
+    "gen07_actual_second_action": "F6->F5",
+    "gen07_actual_action_indices": [
+      2218,
+      2722
+    ],
+    "saved_two_enemy_actual_completion_certificate": {
+      "own_line": [
+        {
+          "index": 2722,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "F6->F5",
+          "kind": "move"
+        }
+      ],
+      "proof": {
+        "status": "VERIFIED",
+        "terminal": false,
+        "witness": [
+          {
+            "index": 2852,
+            "piece": "KERNEL",
+            "side": "CYAN",
+            "move": "E3->E4",
+            "kind": "move"
+          },
+          {
+            "index": 2220,
+            "piece": "EXPLOIT",
+            "side": "CYAN",
+            "move": "C4->E3",
+            "kind": "move"
+          }
+        ],
+        "next_own_state": {
+          "side": "MAGENTA",
+          "actions_left": 2,
+          "round": 18,
+          "action": 71,
+          "pieces": [
+            {
+              "side": "MAGENTA",
+              "type": "KERNEL",
+              "square": "E6",
+              "rc": [
+                2,
+                4
+              ]
+            },
+            {
+              "side": "MAGENTA",
+              "type": "TRACE",
+              "square": "F5",
+              "rc": [
+                3,
+                5
+              ]
+            },
+            {
+              "side": "CYAN",
+              "type": "KERNEL",
+              "square": "E4",
+              "rc": [
+                4,
+                4
+              ]
+            },
+            {
+              "side": "CYAN",
+              "type": "EXPLOIT",
+              "square": "E3",
+              "rc": [
+                5,
+                4
+              ]
+            }
+          ],
+          "locked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            22,
+            23,
+            24,
+            25,
+            30,
+            31,
+            32,
+            33,
+            38,
+            39,
+            40,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "endpoint_certificate": {
+          "status": "VERIFIED",
+          "nodes": 432,
+          "max_nodes": 250000,
+          "budget_exhausted": false,
+          "per_first_action": {
+            "2787": "VERIFIED",
+            "2796": "VERIFIED",
+            "2794": "VERIFIED",
+            "2788": "VERIFIED",
+            "2218": "VERIFIED",
+            "2202": "VERIFIED",
+            "2211": "VERIFIED"
+          },
+          "meaning": "every own continuation admits enemy terminal win before next own turn"
+        },
+        "checked_enemy_completions": 20
+      }
+    },
+    "saved_two_enemy_completion_lookup_note": "Actual first action exactly reproduces the next recorded observation; reused its complete second-action certificate.",
+    "gen07_turn_events": [
+      {
+        "before": {
+          "action": 67,
+          "round": 17,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 2,
+          "CYAN": {
+            "kernel": [
+              5,
+              4
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "EXPLOIT": [
+                4,
+                2
+              ],
+              "KERNEL": [
+                5,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 7
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [
+              [
+                3,
+                5,
+                "TRACE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                3,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 7
+          }
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            3,
+            5
+          ],
+          "to": [
+            2,
+            5
+          ],
+          "kind": "move",
+          "piece": "TRACE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 68,
+          "round": 17,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 2,
+          "CYAN": {
+            "kernel": [
+              5,
+              4
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "EXPLOIT": [
+                4,
+                2
+              ],
+              "KERNEL": [
+                5,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 7
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                5,
+                "TRACE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                2,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 5
+          }
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            2,
+            5
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move",
+          "piece": "TRACE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      }
+    ],
+    "gen07_actual_turn_terminal": false,
+    "gen07_actual_turn_winner": null,
+    "gen07_actual_turn_win": false,
+    "gen07_actual_turn_allows_enemy_terminal_win": false,
+    "enemy_terminal_witness": [],
+    "certificate_note": "One-enemy-turn and two-enemy-turn bounded safety; eventual values UNKNOWN. Pre71/72 all actions already forced losses.",
+    "query_kind": "REUSED_EXACT_DETERMINISTIC_STATE_ALIAS_NO_NEW_INFERENCE",
+    "equivalence_group": "site-ending-19101-19490",
+    "reused_from_case_id": "19490/67",
+    "alias_receipt_sha256": "2b262f7cebef1305b210e9439314fc77a7e2ba0aae359222856948f43a6999bf"
+  },
+  {
+    "case_id": "19101/68",
+    "game_id": "19101",
+    "ply": 68,
+    "actor": "MAGENTA",
+    "user_team": "MAGENTA",
+    "source_model": "UNKNOWN",
+    "group": "site-game-19101",
+    "historical_action": "F6->F5",
+    "historical_winner": "CYAN",
+    "observation_sha256": "63c4d53d36b9b260496c93e56cd7a019cc584dff92eec6b51882562ec00cb1ee",
+    "model_sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+    "gen07_action": "F6->F5",
+    "gen07_action_index": 2722,
+    "certificate_membership": {
+      "legal": true,
+      "winning": false,
+      "safe": true,
+      "unsafe": false,
+      "unknown": false,
+      "two_enemy_safe": false,
+      "two_enemy_unsafe": true,
+      "two_enemy_unknown": false
+    },
+    "certificate_counts": {
+      "legal": 5,
+      "winning": 0,
+      "safe": 2,
+      "unsafe": 3,
+      "unknown": 0,
+      "two_enemy_safe": 1,
+      "two_enemy_unsafe": 4,
+      "two_enemy_unknown": 0
+    },
+    "after_first_current_turn_win_remains": false,
+    "gen07_actual_second_action": null,
+    "gen07_actual_action_indices": [
+      2722
+    ],
+    "saved_two_enemy_actual_completion_certificate": {
+      "own_line": [
+        {
+          "index": 2722,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "F6->F5",
+          "kind": "move"
+        }
+      ],
+      "proof": {
+        "status": "VERIFIED",
+        "terminal": false,
+        "witness": [
+          {
+            "index": 2852,
+            "piece": "KERNEL",
+            "side": "CYAN",
+            "move": "E3->E4",
+            "kind": "move"
+          },
+          {
+            "index": 2220,
+            "piece": "EXPLOIT",
+            "side": "CYAN",
+            "move": "C4->E3",
+            "kind": "move"
+          }
+        ],
+        "next_own_state": {
+          "side": "MAGENTA",
+          "actions_left": 2,
+          "round": 18,
+          "action": 71,
+          "pieces": [
+            {
+              "side": "MAGENTA",
+              "type": "KERNEL",
+              "square": "E6",
+              "rc": [
+                2,
+                4
+              ]
+            },
+            {
+              "side": "MAGENTA",
+              "type": "TRACE",
+              "square": "F5",
+              "rc": [
+                3,
+                5
+              ]
+            },
+            {
+              "side": "CYAN",
+              "type": "KERNEL",
+              "square": "E4",
+              "rc": [
+                4,
+                4
+              ]
+            },
+            {
+              "side": "CYAN",
+              "type": "EXPLOIT",
+              "square": "E3",
+              "rc": [
+                5,
+                4
+              ]
+            }
+          ],
+          "locked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            22,
+            23,
+            24,
+            25,
+            30,
+            31,
+            32,
+            33,
+            38,
+            39,
+            40,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "endpoint_certificate": {
+          "status": "VERIFIED",
+          "nodes": 432,
+          "max_nodes": 250000,
+          "budget_exhausted": false,
+          "per_first_action": {
+            "2787": "VERIFIED",
+            "2796": "VERIFIED",
+            "2794": "VERIFIED",
+            "2788": "VERIFIED",
+            "2218": "VERIFIED",
+            "2202": "VERIFIED",
+            "2211": "VERIFIED"
+          },
+          "meaning": "every own continuation admits enemy terminal win before next own turn"
+        },
+        "checked_enemy_completions": 20
+      }
+    },
+    "saved_two_enemy_completion_lookup_note": null,
+    "gen07_turn_events": [
+      {
+        "before": {
+          "action": 68,
+          "round": 17,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 2,
+          "CYAN": {
+            "kernel": [
+              5,
+              4
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "EXPLOIT": [
+                4,
+                2
+              ],
+              "KERNEL": [
+                5,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 7
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                5,
+                "TRACE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                2,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 5
+          }
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            2,
+            5
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move",
+          "piece": "TRACE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      }
+    ],
+    "gen07_actual_turn_terminal": false,
+    "gen07_actual_turn_winner": null,
+    "gen07_actual_turn_win": false,
+    "gen07_actual_turn_allows_enemy_terminal_win": false,
+    "enemy_terminal_witness": [],
+    "certificate_note": "One-enemy-turn and two-enemy-turn bounded safety; eventual values UNKNOWN. Pre71/72 all actions already forced losses.",
+    "query_kind": "REUSED_EXACT_DETERMINISTIC_STATE_ALIAS_NO_NEW_INFERENCE",
+    "equivalence_group": "site-ending-19101-19490",
+    "reused_from_case_id": "19490/68",
+    "alias_receipt_sha256": "2b262f7cebef1305b210e9439314fc77a7e2ba0aae359222856948f43a6999bf"
+  }
+]

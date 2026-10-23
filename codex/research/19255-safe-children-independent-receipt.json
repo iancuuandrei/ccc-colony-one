@@ -1,0 +1,216 @@
+{
+  "status": "PASS_STAGE_REVIEW_NOT_RELEASED",
+  "scope": "Exactly two counterfactual children of replayed19255 pre37; every legal second action and every complete immediately following enemy turn enumerated independently. Bounded safety does not establish eventual value.",
+  "stage_path": "data\\ext_site_tactics_v1\\staged-export6-19255-safe-children.json",
+  "stage_sha256": "36f09b5df5413e5b737cd76e3ddfc6cd6b9025052f63d36b8fc0d4d71bd9b8b0",
+  "main_report_sha256_unchanged": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+  "source_protocol_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+  "source_group": "site-game-19255",
+  "rows": [
+    {
+      "first_index": 2666,
+      "first_notation": "B3->C3",
+      "child_ply": 38,
+      "team": "CYAN",
+      "round": 10,
+      "actions_left": 1,
+      "obs_float16_sha256": "1a65576e862e8df22126b174d022a3934a677b7897a6d99c0f46e039146e627d",
+      "legal_indices": [
+        2722,
+        2738,
+        2729,
+        2731,
+        3177,
+        3186
+      ],
+      "safe_second_indices": [
+        2738
+      ],
+      "own_turn_winning_indices": [],
+      "all_alternatives": [
+        {
+          "index": 2722,
+          "notation": "C3->C4",
+          "bounded_safe": false,
+          "enemy_complete_turns": 591,
+          "terminal_losing_endpoints": 3,
+          "example_enemy_witness": [
+            1227,
+            718
+          ]
+        },
+        {
+          "index": 2738,
+          "notation": "C3->C2",
+          "bounded_safe": true,
+          "enemy_complete_turns": 595,
+          "terminal_losing_endpoints": 0,
+          "example_enemy_witness": null
+        },
+        {
+          "index": 2729,
+          "notation": "C3->B3",
+          "bounded_safe": false,
+          "enemy_complete_turns": 594,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1238,
+            1422
+          ]
+        },
+        {
+          "index": 2731,
+          "notation": "C3->D3",
+          "bounded_safe": false,
+          "enemy_complete_turns": 517,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1227,
+            718
+          ]
+        },
+        {
+          "index": 3177,
+          "notation": "B2->B3",
+          "bounded_safe": false,
+          "enemy_complete_turns": 553,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1237,
+            1366
+          ]
+        },
+        {
+          "index": 3186,
+          "notation": "B2->C2",
+          "bounded_safe": false,
+          "enemy_complete_turns": 553,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1237,
+            1357
+          ]
+        }
+      ],
+      "child_construction": "PASS_EXACT_LEGAL_PREFIX",
+      "full_legal_set": "PASS",
+      "exhaustive_enemy_turns": "PASS",
+      "stored_witnesses": "PASS"
+    },
+    {
+      "first_index": 3186,
+      "first_notation": "B2->C2",
+      "child_ply": 38,
+      "team": "CYAN",
+      "round": 10,
+      "actions_left": 1,
+      "obs_float16_sha256": "244b771e25262cc1680c18a6f3cb420620a90ce69d4e728852a474427c1e5689",
+      "legal_indices": [
+        2657,
+        2673,
+        2666,
+        3242,
+        3249,
+        3251,
+        3243
+      ],
+      "safe_second_indices": [
+        2673
+      ],
+      "own_turn_winning_indices": [],
+      "all_alternatives": [
+        {
+          "index": 2657,
+          "notation": "B3->B4",
+          "bounded_safe": false,
+          "enemy_complete_turns": 593,
+          "terminal_losing_endpoints": 6,
+          "example_enemy_witness": [
+            2203,
+            1741
+          ]
+        },
+        {
+          "index": 2673,
+          "notation": "B3->B2",
+          "bounded_safe": true,
+          "enemy_complete_turns": 595,
+          "terminal_losing_endpoints": 0,
+          "example_enemy_witness": null
+        },
+        {
+          "index": 2666,
+          "notation": "B3->C3",
+          "bounded_safe": false,
+          "enemy_complete_turns": 553,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1237,
+            1357
+          ]
+        },
+        {
+          "index": 3242,
+          "notation": "C2->C3",
+          "bounded_safe": false,
+          "enemy_complete_turns": 553,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1237,
+            1237
+          ]
+        },
+        {
+          "index": 3249,
+          "notation": "C2->B2",
+          "bounded_safe": false,
+          "enemy_complete_turns": 594,
+          "terminal_losing_endpoints": 1,
+          "example_enemy_witness": [
+            1238,
+            1422
+          ]
+        },
+        {
+          "index": 3251,
+          "notation": "C2->D2",
+          "bounded_safe": false,
+          "enemy_complete_turns": 609,
+          "terminal_losing_endpoints": 21,
+          "example_enemy_witness": [
+            2673,
+            1228
+          ]
+        },
+        {
+          "index": 3243,
+          "notation": "C2->D3",
+          "bounded_safe": false,
+          "enemy_complete_turns": 472,
+          "terminal_losing_endpoints": 32,
+          "example_enemy_witness": [
+            2673,
+            2196
+          ]
+        }
+      ],
+      "child_construction": "PASS_EXACT_LEGAL_PREFIX",
+      "full_legal_set": "PASS",
+      "exhaustive_enemy_turns": "PASS",
+      "stored_witnesses": "PASS"
+    }
+  ],
+  "counts": {
+    "enemy_complete_turns": 7372,
+    "env_steps": 7724
+  },
+  "seconds": 6.63969874382019,
+  "eventual_value": "UNKNOWN",
+  "publication": "No training rows, overrides, shared manifests, models or trainer files changed. Independent receipt only.",
+  "source_sha256": {
+    "env\\colony_one\\env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "env\\colony_one\\board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "env\\colony_one\\rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "codex\\matches\\site_replay.py": "384b626b4aa3e5f0b8bd31da1af1c2ba7940dfa2a2a06452627550c14c0760cd"
+  }
+}

@@ -1468,135 +1468,135 @@
       "snapshot_once": true
     },
     {
-      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-7525-ply026.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-7525-ply026.npz",
+      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053",
       "snapshot_once": true
     },
     {
-      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-7658-ply055.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-7658-ply055.npz",
+      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c",
       "snapshot_once": true
     },
     {
-      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8079-ply030.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8079-ply030.npz",
+      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b",
       "snapshot_once": true
     },
     {
-      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8185-ply042.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8185-ply042.npz",
+      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6",
       "snapshot_once": true
     },
     {
-      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8228-ply035.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8228-ply035.npz",
+      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8",
       "snapshot_once": true
     },
     {
-      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8443-ply030.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8443-ply030.npz",
+      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731",
       "snapshot_once": true
     },
     {
-      "sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest.json",
       "path": "data/ext_site_tactics_v1/manifest.json",
+      "sha256": "ecf432d91797181893f28d68e0b20f6e057650a683839eda1276c3fc858996de",
       "snapshot_once": true
     },
     {
-      "sha256": "d42e21d5969344595c96c762c655afc1e5d44f26ae76d23e051ab092236d1724",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-91f2620403f5d6f6f112.json",
       "path": "data/ext_site_tactics_v1/policy-overrides-91f2620403f5d6f6f112.json",
+      "sha256": "d42e21d5969344595c96c762c655afc1e5d44f26ae76d23e051ab092236d1724",
       "snapshot_once": true
     },
     {
-      "sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-9f544393a9bbe2f3f513.json",
       "path": "data/ext_site_tactics_v1/policy-overrides-9f544393a9bbe2f3f513.json",
+      "sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25",
       "snapshot_once": true
     },
     {
-      "sha256": "ef73629b57d5476e56fd7cdc6f29fe4ee05cf3747a937f7fa8903f860a55cb18",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-e6307115e2b3d4627af0.json",
       "path": "data/ext_site_tactics_v1/policy-overrides-e6307115e2b3d4627af0.json",
+      "sha256": "ef73629b57d5476e56fd7cdc6f29fe4ee05cf3747a937f7fa8903f860a55cb18",
       "snapshot_once": true
     },
     {
-      "sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides.json",
       "path": "data/ext_site_tactics_v1/policy-overrides.json",
+      "sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822",
       "snapshot_once": true
     },
     {
-      "sha256": "ad1d9e2315597d218776199e3c5dda64b34af8efab368bdf92fba2ee509f5e4c",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-91f2620403f5d6f6f112.json",
       "path": "data/ext_site_tactics_v1/proofs-91f2620403f5d6f6f112.json",
+      "sha256": "ad1d9e2315597d218776199e3c5dda64b34af8efab368bdf92fba2ee509f5e4c",
       "snapshot_once": true
     },
     {
-      "sha256": "4a92df3ddd1a427ad9d4c0bb429c38b7567571688fd7509c4530e37c8a5e22df",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-9f544393a9bbe2f3f513.json",
       "path": "data/ext_site_tactics_v1/proofs-9f544393a9bbe2f3f513.json",
+      "sha256": "4a92df3ddd1a427ad9d4c0bb429c38b7567571688fd7509c4530e37c8a5e22df",
       "snapshot_once": true
     },
     {
-      "sha256": "99e535d53dc4c24cdd3e182b540874c674352802aac0f32cbb8480d25ad450ed",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-c2fbaf9a5fb635b502bd.json",
       "path": "data/ext_site_tactics_v1/proofs-c2fbaf9a5fb635b502bd.json",
+      "sha256": "99e535d53dc4c24cdd3e182b540874c674352802aac0f32cbb8480d25ad450ed",
       "snapshot_once": true
     },
     {
-      "sha256": "436cecb94a549078466485939845e64f90f167dc04176309c9db8cbf810a570c",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-e6307115e2b3d4627af0.json",
       "path": "data/ext_site_tactics_v1/proofs-e6307115e2b3d4627af0.json",
+      "sha256": "436cecb94a549078466485939845e64f90f167dc04176309c9db8cbf810a570c",
       "snapshot_once": true
     },
     {
-      "sha256": "29915082b4e3780303d9bb35fc5e2fb2d63ffb262a6159f40275f34d182dd448",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-91f2620403f5d6f6f112.json",
       "path": "data/ext_site_tactics_v1/report-91f2620403f5d6f6f112.json",
+      "sha256": "29915082b4e3780303d9bb35fc5e2fb2d63ffb262a6159f40275f34d182dd448",
       "snapshot_once": true
     },
     {
-      "sha256": "f8659fdcb59b20ccc54dc0d306068c686ffcfd01b75c7e9575987801b5e10fff",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-9f544393a9bbe2f3f513.json",
       "path": "data/ext_site_tactics_v1/report-9f544393a9bbe2f3f513.json",
+      "sha256": "f8659fdcb59b20ccc54dc0d306068c686ffcfd01b75c7e9575987801b5e10fff",
       "snapshot_once": true
     },
     {
-      "sha256": "efb7a1d4ce2a97ef0549ccf3a984eea4be00ce83d87931326093fce2f2890722",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-c2fbaf9a5fb635b502bd.json",
       "path": "data/ext_site_tactics_v1/report-c2fbaf9a5fb635b502bd.json",
+      "sha256": "efb7a1d4ce2a97ef0549ccf3a984eea4be00ce83d87931326093fce2f2890722",
       "snapshot_once": true
     },
     {
-      "sha256": "0b65b3cbb144c565a33f1403e8348b60684186ca2046684a0eda9d65c56e61b0",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-e6307115e2b3d4627af0.json",
       "path": "data/ext_site_tactics_v1/report-e6307115e2b3d4627af0.json",
+      "sha256": "0b65b3cbb144c565a33f1403e8348b60684186ca2046684a0eda9d65c56e61b0",
       "snapshot_once": true
     },
     {
-      "sha256": "f08c44ca05d3e412599d20a70daf7f5d75460fb1769d71a2282c3210300fe95e",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/summary.json",
       "path": "data/ext_site_tactics_v1/summary.json",
+      "sha256": "ee899dd097b1e09109fc467e53f4b336a947cc3abfc972f01a940dcc103d6966",
       "snapshot_once": true
     },
     {
-      "sha256": "b9ab2976c0092b3e3d090ddd1836fca141821a31437593027584e423bea152fb",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation-05a52daf0e43d3d81a0f.json",
       "path": "data/ext_site_tactics_v1/validation-05a52daf0e43d3d81a0f.json",
+      "sha256": "b9ab2976c0092b3e3d090ddd1836fca141821a31437593027584e423bea152fb",
       "snapshot_once": true
     },
     {
-      "sha256": "37eec7c46836ecb33913782c10068678dde6ea508da337a48dadb6b5a84a7119",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation.json",
       "path": "data/ext_site_tactics_v1/validation.json",
+      "sha256": "d5a2939f23f82146606512dffc9d27513669f3cee9b084dde3a7937ce15dfc8e",
       "snapshot_once": true
     },
     {
@@ -1850,104 +1850,104 @@
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-10762-ply019.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-10762-ply019.npz",
-      "snapshot_once": true,
-      "sha256": "68d816e2b589b705cecaa6490131841b3186f07b979c11d36cf498b376d5f49f"
+      "sha256": "68d816e2b589b705cecaa6490131841b3186f07b979c11d36cf498b376d5f49f",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-10838-ply033.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-10838-ply033.npz",
-      "snapshot_once": true,
-      "sha256": "9d03c8058c67385c98b1b2d5f1dc3a77c764d923fa5fe6f9a5dfd37c8f0bcab7"
+      "sha256": "9d03c8058c67385c98b1b2d5f1dc3a77c764d923fa5fe6f9a5dfd37c8f0bcab7",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-10838-ply037.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-10838-ply037.npz",
-      "snapshot_once": true,
-      "sha256": "30fd1299341c55ed3c7e012dca560d104ea588304fb839a99541afa41cdc7c0b"
+      "sha256": "30fd1299341c55ed3c7e012dca560d104ea588304fb839a99541afa41cdc7c0b",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-11059-ply030.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-11059-ply030.npz",
-      "snapshot_once": true,
-      "sha256": "d6703119807beb8d47bb6ec35de15d86b8b35ba59befb27953f8929e4e818495"
+      "sha256": "d6703119807beb8d47bb6ec35de15d86b8b35ba59befb27953f8929e4e818495",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8623-ply033.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8623-ply033.npz",
-      "snapshot_once": true,
-      "sha256": "bd7e95758e7d7c4d3381063cc16571458ec0222a79490413d0f4f0027b6d9c8b"
+      "sha256": "bd7e95758e7d7c4d3381063cc16571458ec0222a79490413d0f4f0027b6d9c8b",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8745-ply030.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8745-ply030.npz",
-      "snapshot_once": true,
-      "sha256": "7e479b2ab05ab2dfb23a969622aafc68d8dc51e029be94d776e6fdedc707a170"
+      "sha256": "7e479b2ab05ab2dfb23a969622aafc68d8dc51e029be94d776e6fdedc707a170",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8855-ply027.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8855-ply027.npz",
-      "snapshot_once": true,
-      "sha256": "968dbf4162f4692826f9a5c9efe6c1b0790af98fdda82b72817f2d2fd535a8ba"
+      "sha256": "968dbf4162f4692826f9a5c9efe6c1b0790af98fdda82b72817f2d2fd535a8ba",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8944-ply034.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8944-ply034.npz",
-      "snapshot_once": true,
-      "sha256": "78f78472949fcedacca95d8fce9af485c74d1db314c28c609c71d303589126fc"
+      "sha256": "78f78472949fcedacca95d8fce9af485c74d1db314c28c609c71d303589126fc",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8948-ply027.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8948-ply027.npz",
-      "snapshot_once": true,
-      "sha256": "2e7e499223d535246c49705c812f5ecc33d099172ff4f3189cb681ee69690988"
+      "sha256": "2e7e499223d535246c49705c812f5ecc33d099172ff4f3189cb681ee69690988",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-8948-ply047.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-8948-ply047.npz",
-      "snapshot_once": true,
-      "sha256": "d3aea69027589b3cfe96aac286f06e19b6f1aaf6320ddd92a0b656d7f5e66ba6"
+      "sha256": "d3aea69027589b3cfe96aac286f06e19b6f1aaf6320ddd92a0b656d7f5e66ba6",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-9366-ply036.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-9366-ply036.npz",
-      "snapshot_once": true,
-      "sha256": "25f81d465dde3589cbd33e3d2fe86bb0d6b35c8b69a75da02c8e1938bb56408c"
+      "sha256": "25f81d465dde3589cbd33e3d2fe86bb0d6b35c8b69a75da02c8e1938bb56408c",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-9366-ply052.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-9366-ply052.npz",
-      "snapshot_once": true,
-      "sha256": "bee964e3d7e85553210be4877c9315704e4c86737e1ecf703d01354a1f075e14"
+      "sha256": "bee964e3d7e85553210be4877c9315704e4c86737e1ecf703d01354a1f075e14",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-9928-ply028.npz",
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-9928-ply028.npz",
-      "snapshot_once": true,
-      "sha256": "1401ff19bffc7a43ae5780e1b85c3edbd0f6430a1caf0cf147fa709a4195ca32"
+      "sha256": "1401ff19bffc7a43ae5780e1b85c3edbd0f6430a1caf0cf147fa709a4195ca32",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-62cc87cc24107a895bf3.json",
       "path": "data/ext_site_tactics_v1/policy-overrides-62cc87cc24107a895bf3.json",
-      "snapshot_once": true,
-      "sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276"
+      "sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-62cc87cc24107a895bf3.json",
       "path": "data/ext_site_tactics_v1/proofs-62cc87cc24107a895bf3.json",
-      "snapshot_once": true,
-      "sha256": "7e41a6b754ea2e4d4e7724c2c025610fee8c24f5850940ec53aff36809c6d381"
+      "sha256": "7e41a6b754ea2e4d4e7724c2c025610fee8c24f5850940ec53aff36809c6d381",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-62cc87cc24107a895bf3.json",
       "path": "data/ext_site_tactics_v1/report-62cc87cc24107a895bf3.json",
-      "snapshot_once": true,
-      "sha256": "fe6b53b370f08f5a66449c6519ecef839bc76b29eeb535c0ca8f3fb649675efb"
+      "sha256": "fe6b53b370f08f5a66449c6519ecef839bc76b29eeb535c0ca8f3fb649675efb",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation-bdd2932b4bd7eee22569.json",
       "path": "data/ext_site_tactics_v1/validation-bdd2932b4bd7eee22569.json",
-      "snapshot_once": true,
-      "sha256": "16ee08ec1e15686d230c19d459d50139e66a1f9566e85e8d32d08f4b7e94c128"
+      "sha256": "16ee08ec1e15686d230c19d459d50139e66a1f9566e85e8d32d08f4b7e94c128",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/release/gen05/model.onnx",
@@ -2581,98 +2581,98 @@
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-13352-ply034.npz",
-      "sha256": "aea95619cf7daa8c474b97ef094744b50612172fbc464d47db842f8e2422b551",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-13352-ply034.npz",
+      "sha256": "aea95619cf7daa8c474b97ef094744b50612172fbc464d47db842f8e2422b551",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-14009-ply033.npz",
-      "sha256": "c95136bd05e9a23c8bc1ce81988bf6ca4ab5ee4abf57fc7b542868f1bf1f0a01",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-14009-ply033.npz",
+      "sha256": "c95136bd05e9a23c8bc1ce81988bf6ca4ab5ee4abf57fc7b542868f1bf1f0a01",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-14621-ply063.npz",
-      "sha256": "6d0a4030f9fe72c013d439efccd6e0552b76e4d5970beb3e5c46f42fb9694a30",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-14621-ply063.npz",
+      "sha256": "6d0a4030f9fe72c013d439efccd6e0552b76e4d5970beb3e5c46f42fb9694a30",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-14878-ply036.npz",
-      "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-14878-ply036.npz",
+      "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-15116-ply031.npz",
-      "sha256": "2aeec0aac0a75d640bb1ae873d1f0fc3bbe74bd66682768564be596da6d6eec0",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-15116-ply031.npz",
+      "sha256": "2aeec0aac0a75d640bb1ae873d1f0fc3bbe74bd66682768564be596da6d6eec0",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-15116-ply035.npz",
-      "sha256": "900db3c4b36b67e8991ce65a7c91598ff975fdc879f6b10b2b362b247061c5f0",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-15116-ply035.npz",
+      "sha256": "900db3c4b36b67e8991ce65a7c91598ff975fdc879f6b10b2b362b247061c5f0",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-16056-ply036.npz",
-      "sha256": "1cb36da3341f918e7204e1277238116913c6d30c57f5589d662ca44955e67359",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-16056-ply036.npz",
+      "sha256": "1cb36da3341f918e7204e1277238116913c6d30c57f5589d662ca44955e67359",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/manifest-prior-05455b009a522c31d4d1.json",
-      "sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-05455b009a522c31d4d1.json",
+      "sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/manifest-prior-7268014c19da16984048.json",
-      "sha256": "7268014c19da1698404826a68057ce2dc5e69579ec0bdf8b6bd366e2df85daf7",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-7268014c19da16984048.json",
+      "sha256": "7268014c19da1698404826a68057ce2dc5e69579ec0bdf8b6bd366e2df85daf7",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/policy-overrides-150fdf48d7fec80d0c67.json",
-      "sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-150fdf48d7fec80d0c67.json",
+      "sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/policy-overrides-6fda5657de027bb490d5.json",
-      "sha256": "0d0e37dce4f126a925cf5c8765ccca332bfaa1f0c6cdf6d5e9e0da3ba18f7a0f",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-6fda5657de027bb490d5.json",
+      "sha256": "0d0e37dce4f126a925cf5c8765ccca332bfaa1f0c6cdf6d5e9e0da3ba18f7a0f",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/proofs-150fdf48d7fec80d0c67.json",
-      "sha256": "984ecfab7f2780af90a64d8d517bb487cf32ef12f32f38c87d8e7c228d1b02fc",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-150fdf48d7fec80d0c67.json",
+      "sha256": "984ecfab7f2780af90a64d8d517bb487cf32ef12f32f38c87d8e7c228d1b02fc",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/proofs-6fda5657de027bb490d5.json",
-      "sha256": "2b8c99c297a0badbca344def5fd4e229a102804175dac0db6582d60bd39385da",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-6fda5657de027bb490d5.json",
+      "sha256": "2b8c99c297a0badbca344def5fd4e229a102804175dac0db6582d60bd39385da",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/report-150fdf48d7fec80d0c67.json",
-      "sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-150fdf48d7fec80d0c67.json",
+      "sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/report-6fda5657de027bb490d5.json",
-      "sha256": "95829c9656849cd2d03223af67d58dbce1f34e8d0770ab096efa8fa858902394",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-6fda5657de027bb490d5.json",
+      "sha256": "95829c9656849cd2d03223af67d58dbce1f34e8d0770ab096efa8fa858902394",
       "snapshot_once": true
     },
     {
       "path": "data/ext_site_tactics_v1/validation-05455b009a522c31d4d1.json",
-      "sha256": "a1b8c4aa6b33bd80ab28475bd83549e5e3bb8072c734d140f9836b890e6e5fdb",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation-05455b009a522c31d4d1.json",
+      "sha256": "a1b8c4aa6b33bd80ab28475bd83549e5e3bb8072c734d140f9836b890e6e5fdb",
       "snapshot_once": true
     },
     {
@@ -2785,8 +2785,8 @@
     },
     {
       "path": "codex/synthetic/validation/site-gen05-v1/README.md",
-      "sha256": "3d53327bbbf6b4b94df4af7238d6e34fa0fb9eab24cc0f6383bc07db20ea9840",
       "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/README.md",
+      "sha256": "988d0f4ed73a24d5688cbec0784fb7fa6573b37fa6f47f069eff179ceff83917",
       "snapshot_once": true
     },
     {
@@ -2860,6 +2860,570 @@
       "sha256": "bf680e26c56e3477093e37907f431c7eb2583b59b0c84d0d4431c424f87a26aa",
       "source": "workspace/colony-one-level4/data/ext_site_v1/hard_decisions_gen05_v1.json",
       "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-18587-ply036.npz",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-18587-ply036.npz",
+      "snapshot_once": true,
+      "sha256": "f0f861f93a1d133928c20ac70fa80233e7d406084d62ab8cdacf72dab19d1f09"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-18972-ply062.npz",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-18972-ply062.npz",
+      "snapshot_once": true,
+      "sha256": "7e03d25c74753645a2efaead044e1911bf0b8548241b72332745c99646877b53"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-19255-ply037.npz",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-19255-ply037.npz",
+      "snapshot_once": true,
+      "sha256": "732ed3f01f88f29219affe9e12338efa265f2836b2c5f8e3acbe9878829d674f"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/independent-review-5eba20b306ecca4612f7.md",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/independent-review-5eba20b306ecca4612f7.md",
+      "snapshot_once": true,
+      "sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/manifest-prior-ce9ec3cca053fbb43721.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-ce9ec3cca053fbb43721.json",
+      "snapshot_once": true,
+      "sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/policy-overrides-0b925f9116a7662d0710.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-0b925f9116a7662d0710.json",
+      "snapshot_once": true,
+      "sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/proofs-0b925f9116a7662d0710.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-0b925f9116a7662d0710.json",
+      "snapshot_once": true,
+      "sha256": "2e46ae4a3f4a3377f34c014bfe45b45f72ee0cb67869c111d32e87eab5b24f1a"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/report-0b925f9116a7662d0710.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-0b925f9116a7662d0710.json",
+      "snapshot_once": true,
+      "sha256": "f9275f51e5897ab9df44f262c315299876930479e6e376618652723c272a9fba"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/validation-ce9ec3cca053fbb43721.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation-ce9ec3cca053fbb43721.json",
+      "snapshot_once": true,
+      "sha256": "37eec7c46836ecb33913782c10068678dde6ea508da337a48dadb6b5a84a7119"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18587-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18587-hard.npz",
+      "snapshot_once": true,
+      "sha256": "a1faa64456bd620108337c8d77201ffb1457f760d94b32effb8af82df4399752"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18587-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18587-proof.json",
+      "snapshot_once": true,
+      "sha256": "82ddbf452844172abe02701588b607dc1ae0b7deadb47bca1131c2b37ff266b1"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18972-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18972-hard.npz",
+      "snapshot_once": true,
+      "sha256": "119c118ecd246b3ea6b20e4c43cb9cf4985a555172acea4000ac027d886fc2fb"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18972-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18972-proof.json",
+      "snapshot_once": true,
+      "sha256": "e07ea82c7b4e5ff53f4ca2583814686102af982f2baef1f861fb192a44561571"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep-86.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep-86.json",
+      "snapshot_once": true,
+      "sha256": "0b34c036a6814a01bf73a108b7d298091a6e721c690f8b20474c189a209fb5ea"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep-89.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep-89.json",
+      "snapshot_once": true,
+      "sha256": "31b5bdd9d4b710d15616d3a130ca4b929c745f2048929810e6aa729775100917"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep-90.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep-90.json",
+      "snapshot_once": true,
+      "sha256": "e734d58b3b49b25294d0da061dd78932ba9cc0cfa0a6a165e34368bb65464e6e"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep3-85.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep3-85.json",
+      "snapshot_once": true,
+      "sha256": "16dfb126ddfa19fa0df1a4e272cfb4aa2855f4c1d8beb714e17979e821ffa3ce"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep3-86.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep3-86.json",
+      "snapshot_once": true,
+      "sha256": "dc62cc445c212fdb080de0f4ef0ce6c5abad7bd75ce41b01b7b963dae88c0d80"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-hard.npz",
+      "snapshot_once": true,
+      "sha256": "ab54cba2c963b5fa509c607cf1be6932f3c321e7af437cdcd122a644aa5a6f7a"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-proof.json",
+      "snapshot_once": true,
+      "sha256": "77ffc3805e6f8c8f3e7c220b6c642253d5fdb64c0c27be993bcddae494e2a08b"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19101-19490-state-equivalence.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19101-19490-state-equivalence.json",
+      "snapshot_once": true,
+      "sha256": "2b262f7cebef1305b210e9439314fc77a7e2ba0aae359222856948f43a6999bf"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19101-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19101-hard.npz",
+      "snapshot_once": true,
+      "sha256": "82064934b50cea38a23a26b3758ed8258824745ffe2089cb04161492c848f263"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19101-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19101-proof.json",
+      "snapshot_once": true,
+      "sha256": "9f852aca15641e974cc54439d9625f582bd627d067952e10132ae6f7766520ab"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19255-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19255-hard.npz",
+      "snapshot_once": true,
+      "sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19255-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19255-proof.json",
+      "snapshot_once": true,
+      "sha256": "cd10602f11ca5daa8a76b290d19d78f65ab7be9baa6b305bd51cecc446f34a15"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-18587.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-18587.txt",
+      "snapshot_once": true,
+      "sha256": "cd87e59c2381f8aae7b420417ad182b4d800ed52dc73776815ca562aeaec4652"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-18972.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-18972.txt",
+      "snapshot_once": true,
+      "sha256": "5d1f3487cdee120770c30e8f70d13c69051b1fa37e024f771a261e495565dbba"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-19040.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-19040.txt",
+      "snapshot_once": true,
+      "sha256": "b954ce8e23523bba781dc9fa19dedaa19499d98d419e470316d3c0aac43a429c"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-19101.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-19101.txt",
+      "snapshot_once": true,
+      "sha256": "a545ac46fc49db2009957594f2ec55adea6d7e6e0b0ab2ccbaed1d9a2e282289"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-19255.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-19255.txt",
+      "snapshot_once": true,
+      "sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a"
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/REPORT.md",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/REPORT.md",
+      "snapshot_once": true,
+      "sha256": "739b306a8ecd711d04a064e645b60bb39ae8d9737379e931c54547f7a7f7a140"
+    },
+    {
+      "path": "codex/matches/19490/analyze.py",
+      "source": "workspace/colony-one-level4/codex/matches/19490/analyze.py",
+      "snapshot_once": true,
+      "sha256": "97e0f3a69d3acd35bd1a6f46a6fbfd8dc288930df84ce10ea2a631d60e6d7242"
+    },
+    {
+      "path": "codex/matches/19490/critical-states.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/critical-states.json",
+      "snapshot_once": true,
+      "sha256": "381f5b4132de5a0bfaf39d581e8b42a784baf1ce3c3c3444be2cc99a58ed4cc3"
+    },
+    {
+      "path": "codex/matches/19490/critical-states.npz",
+      "source": "workspace/colony-one-level4/codex/matches/19490/critical-states.npz",
+      "snapshot_once": true,
+      "sha256": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d"
+    },
+    {
+      "path": "codex/matches/19490/deep_probe.py",
+      "source": "workspace/colony-one-level4/codex/matches/19490/deep_probe.py",
+      "snapshot_once": true,
+      "sha256": "45433da3101852263ca08435df0839e01f4477a42f5c8dd525c988f3a4b7280d"
+    },
+    {
+      "path": "codex/matches/19490/deep-proofs.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/deep-proofs.json",
+      "snapshot_once": true,
+      "sha256": "7809f9b9cb306d2499f53ea9fba14679ef2d8daa7dfe9fffdc1f5fcdc3943132"
+    },
+    {
+      "path": "codex/matches/19490/diagnostics.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/diagnostics.json",
+      "snapshot_once": true,
+      "sha256": "522c8db6fe2c0b1494ac03742425d81af33d9aff80688e127ba352a5244e716d"
+    },
+    {
+      "path": "codex/matches/19490/finalize.py",
+      "source": "workspace/colony-one-level4/codex/matches/19490/finalize.py",
+      "snapshot_once": true,
+      "sha256": "9b3b9f9e610e2b8a4f08494536f298666ea42cdeaaa5bec9685be81c3c90d31b"
+    },
+    {
+      "path": "codex/matches/19490/match-19490.txt",
+      "source": "workspace/colony-one-level4/codex/matches/19490/match-19490.txt",
+      "snapshot_once": true,
+      "sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb"
+    },
+    {
+      "path": "codex/matches/19490/replay.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/replay.json",
+      "snapshot_once": true,
+      "sha256": "d4468228f9d6b2958291b7c14beab865afc0b5429ce0c607af2af6fbcb85f75a"
+    },
+    {
+      "path": "codex/matches/19490/source-receipt.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/source-receipt.json",
+      "snapshot_once": true,
+      "sha256": "fab2980edb095de3692abc3d692f15442d10e61d4ad7365d8110b7c489064a4c"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/additional-proof-notes.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/additional-proof-notes.json",
+      "snapshot_once": true,
+      "sha256": "1b58b64f7cdeea054cbb24b4a33f0f8c1d8a61e1669e91dd1717e8adf697b6d3"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/aggregate.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/aggregate.py",
+      "snapshot_once": true,
+      "sha256": "d7ad84ac9b64b8e9852ce58981e0a5bf31506a42370971d4a47f8e0defd411e0"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/artifact-hashes.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/artifact-hashes.json",
+      "snapshot_once": true,
+      "sha256": "b2527aedef329598feb8f896f14fbd1add3792679a13461e1f098c600ed3fa23"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-19490.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-19490.json",
+      "snapshot_once": true,
+      "sha256": "404e9b23a7a2caad873c74de53ce82adc3534008b53342699a6294fd9bfa72b2"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-first-two.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-first-two.json",
+      "snapshot_once": true,
+      "sha256": "75a48ffaf125dae97212c4d2ef5924000cfd8e395588d573edd9de847bef1e86"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-game19040.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-game19040.json",
+      "snapshot_once": true,
+      "sha256": "35d1b7799dd82ba7160bcf82e3da4f102fb5de3726a54729be02a7c722f6e95a"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-next-two.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-next-two.json",
+      "snapshot_once": true,
+      "sha256": "8c0556324eec181e590850070eed3276d587d5c06d3cf626380d76fc62d99d68"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/combined-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/combined-summary.json",
+      "snapshot_once": true,
+      "sha256": "a0baaf76b24bcbf3e1b1f2b2d5156671e2714f6a678fb9d3efa4a4b8da9e17b5"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-loop-state-end.json",
+      "snapshot_once": true,
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-manifest.json",
+      "snapshot_once": true,
+      "sha256": "31b15de392ac8ab37fbce0f561536980477ab53d294b73b80ba774de0f692a74"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-results.jsonl",
+      "snapshot_once": true,
+      "sha256": "c0db61e823ad870b352d180bd493129df846672f9a972b6e924f94e547519e39"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-summary.json",
+      "snapshot_once": true,
+      "sha256": "fbcad558b9e6d19ef8784f19795fad5598b96246d7d3c08b8b5cae3efadc725b"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-loop-state-end.json",
+      "snapshot_once": true,
+      "sha256": "1cb154da31321093f27dea63bf84fcc68a90567a7f33a14c7eebebd344925e1e"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-manifest.json",
+      "snapshot_once": true,
+      "sha256": "4de671addd85644f6702dedaf652323d8ddcab6e6020c1ff67d8b2c084af8b3f"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-results.jsonl",
+      "snapshot_once": true,
+      "sha256": "fc4e1b5842f8eb825a41368d779031a12b79c467d726830c8af227eb89eecc74"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-summary.json",
+      "snapshot_once": true,
+      "sha256": "5221753803a6938e9d2a496a0ba4a2aa44cdd87c9149f94769eb95518a93f284"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-loop-state-end.json",
+      "snapshot_once": true,
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-manifest.json",
+      "snapshot_once": true,
+      "sha256": "6820e8916a0c409b5e461b3018f815d03c55adcc909ad0e84a3e3bbc0f32f746"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-results.jsonl",
+      "snapshot_once": true,
+      "sha256": "75f17a177d28410584bb6d8969bdb837e3263711a517621843e93c41a731893b"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-summary.json",
+      "snapshot_once": true,
+      "sha256": "b60f9b7b671009893dfd82e037d908b7f0bb479102d3991c1ba3c2e25866838a"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/identity.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/identity.json",
+      "snapshot_once": true,
+      "sha256": "c9383a7177fda70d76eba31fb4924f027e3c79c76562f32735db0b29a5538437"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/loop-state-start.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/loop-state-start.json",
+      "snapshot_once": true,
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-loop-state-end.json",
+      "snapshot_once": true,
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-manifest.json",
+      "snapshot_once": true,
+      "sha256": "a0f3c3cdb6e6d0ef27a3211110ff5735751bd44e193b21d9785cca247493046d"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-results.jsonl",
+      "snapshot_once": true,
+      "sha256": "ca4f56b1dcf90fb8b67acc6b76b4acf236a0fc11eb443db6648ba5f4fbf9920a"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-summary.json",
+      "snapshot_once": true,
+      "sha256": "4dfde3110c75efa67bfa92ff1e789a85bc910c8f95fce739cdfdd540bc779113"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/prepare_five.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/prepare_five.py",
+      "snapshot_once": true,
+      "sha256": "bfe0a428ffcac18a36599f86d42f2bbe8077a1b21a9cbf3cb37a282c89d57471"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/query.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/query.py",
+      "snapshot_once": true,
+      "sha256": "39a448b5c3062f59142ac0e722a3503b427a96b21815d350910e3bc607d0f3f8"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/REPORT.md",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/REPORT.md",
+      "snapshot_once": true,
+      "sha256": "1f0111a2a4975857099700595108f1ad73934d74df5a1d20bb3a89a64252ece2"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/reuse_aliases.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/reuse_aliases.py",
+      "snapshot_once": true,
+      "sha256": "d17ec04d79e43732bd1bb0bd55f1671abe5114760a3ea29564896955e074892a"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/reused-alias-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/reused-alias-manifest.json",
+      "snapshot_once": true,
+      "sha256": "3f521fa49d4df18c22258840c0ae27b228957144e5b67395d0a52cafa53bc051"
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/reused-alias-results.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/reused-alias-results.json",
+      "snapshot_once": true,
+      "sha256": "2585c3aed63a8742d5ee1fe2fe2a6d2dee1be18298aecf52d721acb31af99b98"
+    },
+    {
+      "path": "codex/synthetic/validation/loss19490-independent/proof.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/loss19490-independent/proof.json",
+      "snapshot_once": true,
+      "sha256": "5513842e9e2c53066ff5130e5d9e03872db43bbbfde4728821a1ceb47fa2e114"
+    },
+    {
+      "path": "codex/synthetic/validation/loss19490-independent/README.md",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/loss19490-independent/README.md",
+      "snapshot_once": true,
+      "sha256": "1792fa1b7eb3e6d21b8837c430dbb485967bef3b51be3d8b4813cab442c9fdc8"
+    },
+    {
+      "path": "codex/synthetic/validation/loss19490-independent/verify.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/loss19490-independent/verify.py",
+      "snapshot_once": true,
+      "sha256": "a3aabd6b123f65afd0b7b8a87c7d682089b4334fd7d4deb8329d04a293f8d328"
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/build_stage.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/build_stage.py",
+      "snapshot_once": true,
+      "sha256": "f2c0d5825a28c2dadeaf51e21b47b4ad1a867cf07fea51ea12484b0d2c18b2a7"
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/packet.json",
+      "snapshot_once": true,
+      "sha256": "fb1f87da2d2f5c8cb05eae9af2dbd07ae507706ce82ca2609d8c875e95095392"
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/README.md",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/README.md",
+      "snapshot_once": true,
+      "sha256": "13acbecdd6c0cd5b05bfc67829735d7aaa3838f36be6a91c34faad2f6803552a"
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/ext_deep19490_proposal/chunk0000.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/ext_deep19490_proposal/chunk0000.npz",
+      "snapshot_once": true,
+      "sha256": "42e9d162b2e4105d1f8e5bec262ce62e7813d1d0a57cd506666191ff6c349bc0"
+    },
+    {
+      "path": "data/ext_astra_site_gen05_v1/chunk0000.npz",
+      "source": "workspace/colony-one-level4/data/ext_astra_site_gen05_v1/chunk0000.npz",
+      "snapshot_once": true,
+      "sha256": "9e0c9989b16589411681cc8eb65e1e969a5fd9ff00a6122d7ffe9cbce764e6e1"
+    },
+    {
+      "path": "data/ext_astra_site_gen05_v1/provenance.json",
+      "source": "workspace/colony-one-level4/data/ext_astra_site_gen05_v1/provenance.json",
+      "snapshot_once": true,
+      "sha256": "cecbf5a32bba3eb949e4ba6abc1270c521f835179beb3534204eec4dc993974f"
+    },
+    {
+      "path": "codex/research/user-six-gen07-handoff.md",
+      "source": "workspace/colony-one-level4/codex/research/user-six-gen07-handoff.md",
+      "snapshot_once": true,
+      "sha256": "2bb467969847907f27c04a447899ff34ced9e24f9bcf65a696ff69c418442241"
+    },
+    {
+      "path": "codex/research/user-six-independent-proof-review.md",
+      "source": "workspace/colony-one-level4/codex/research/user-six-independent-proof-review.md",
+      "snapshot_once": true,
+      "sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986"
+    },
+    {
+      "path": "codex/research/loss-19490-review.md",
+      "source": "workspace/colony-one-level4/codex/research/loss-19490-review.md",
+      "snapshot_once": true,
+      "sha256": "7a20efbbdc7630627d3eb165570f789e4946e0a438b9a021fd0555d2a035a0c0"
+    },
+    {
+      "path": "codex/research/export6-training-dedup-audit.md",
+      "source": "workspace/colony-one-level4/codex/research/export6-training-dedup-audit.md",
+      "snapshot_once": true,
+      "sha256": "854783c60961706ae7a341e34137e37795af1838a357ac08ab407e9dc787e1e8"
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/loader-length-qualified.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/loader-length-qualified.json",
+      "snapshot_once": true,
+      "sha256": "18a70b80d82e949730350a530f8069f5b912ac4671715f735a4aca8b1cdb764c"
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/published-loader.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/published-loader.json",
+      "snapshot_once": true,
+      "sha256": "1fb52345dc21d6c53232e4a959e29f81e92419bfc3693de1808b00bb5bf6d217"
+    },
+    {
+      "path": "codex/synthetic/validation/qualify_site_gen05.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/qualify_site_gen05.py",
+      "snapshot_once": true,
+      "sha256": "efaed8ef88977f3ef426ec4ba8d4a59cbfd33db0e127cde4380e71d13b961214"
+    },
+    {
+      "path": "codex/synthetic/validation/qualify_site_gen05_loader.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/qualify_site_gen05_loader.py",
+      "snapshot_once": true,
+      "sha256": "d6292799affe87b606df8ff164ab1c624bc68d8ecae882263a304cf86108a799"
+    },
+    {
+      "path": "codex/synthetic/site_gen05_curriculum/MANIFEST.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/site_gen05_curriculum/MANIFEST.json",
+      "snapshot_once": true,
+      "sha256": "38495e68ee90ae08cba9ebecd7a7040205f3c646ac080a1afa7c64705290e769"
+    },
+    {
+      "sha256": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+      "snapshot_once": true,
+      "source": "workspace/colony-one-level4/train.py",
+      "path": "source_snapshots/trainer-fixed-b2d4/train.py"
+    },
+    {
+      "sha256": "36f09b5df5413e5b737cd76e3ddfc6cd6b9025052f63d36b8fc0d4d71bd9b8b0",
+      "snapshot_once": true,
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/staged-export6-19255-safe-children.json",
+      "path": "data/ext_site_tactics_v1/staged-export6-19255-safe-children.json"
+    },
+    {
+      "sha256": "5d541cdfc10bc128436d543b16a1f79c18d8703f3fc2a0ff0e93a21a3caa61d6",
+      "snapshot_once": true,
+      "source": "workspace/colony-one-level4/codex/research/19255-safe-children-independent-receipt.json",
+      "path": "codex/research/19255-safe-children-independent-receipt.json"
     }
   ],
   "schema": 1

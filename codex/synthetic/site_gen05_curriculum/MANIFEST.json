@@ -1,0 +1,45 @@
+{
+  "status": "STAGED_PENDING_INDEPENDENT_ENGINE_VALIDATION",
+  "corpus_id": "site_gen05_curriculum_v1",
+  "states": 28,
+  "actual_states": 4,
+  "constructed_states": 24,
+  "groups": 3,
+  "policy_valid": 14,
+  "exact_wins": 2,
+  "exact_losses": 14,
+  "unknown_values": 12,
+  "source_sha256": "85b783756dc3d0a721b280a846597e8546aca90bb4a393a6cda8f61663f24a9e",
+  "baseline": {
+    "path": "release/gen05/model.onnx",
+    "sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e"
+  },
+  "source_model_identity": "UNKNOWN; reached states are evaluated counterfactually with the named baseline",
+  "engine_sha256": {
+    "env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e"
+  },
+  "oracle_sha256": {
+    "own_turn_oracle.py": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9",
+    "oracle.py": "4a9c4297aa107f4f5df3774aef51af84259299417ebacea8fe2bd7e605fa5dfc"
+  },
+  "dependency_sha256": {
+    "codex\\synthetic\\site_gen02_curriculum\\build.py": "960dfc8c3004df132cdbe06f15a53288f0a65e018ab4233e34a434cb5631e3a5"
+  },
+  "files": {
+    "proposals.json": "7233eee9747dfe5b42cf9d8e5257ea5e5c8b3707733b9ad5c32f12af260afba8",
+    "build.py": "75d6ede212cc2fa3222a3e5785313650f339986315dbfff3cabbf4faec4b5c8a",
+    "states.jsonl": "476ccd42fa97b207495bca1a8029df9740f4c6a66b1d5ec3ecbc4bea0a36a94c",
+    "packet.json": "bf86537f5f3e9ccf2dc39b046006aa0612afa563829063483c1fa365c87652d7",
+    "training_packet.npz": "e0340b14270caf22c0cc6da2636bc533ba44fc2a56578288d24571f507ff7dfc"
+  },
+  "holdout": {
+    "frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+    "hashes_unchanged": true,
+    "d4_orbit_intersections": 0
+  },
+  "scope": "Current-turn terminal win or forced loss before next own turn; survival is not full-game victory. Constructed reachability from opening unproved. No ext release."
+}

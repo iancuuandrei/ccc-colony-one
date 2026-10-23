@@ -1,0 +1,23 @@
+{
+  "source": "D:\\Downloads\\match-19490.txt",
+  "raw_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+  "copy_equal": true,
+  "replay": "PASS",
+  "actions": 74,
+  "winner": "CYAN",
+  "historical_model": "UNKNOWN",
+  "user_side": "UNKNOWN",
+  "file_hashes": {
+    "env\\colony_one\\env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "env\\colony_one\\board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "env\\colony_one\\rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "env\\colony_one\\encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "env\\colony_one\\scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "codex\\engine_audit\\own_turn_oracle.py": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9",
+    "codex\\engine_audit\\oracle.py": "4a9c4297aa107f4f5df3774aef51af84259299417ebacea8fe2bd7e605fa5dfc",
+    "codex\\matches\\site_replay.py": "384b626b4aa3e5f0b8bd31da1af1c2ba7940dfa2a2a06452627550c14c0760cd",
+    "codex\\matches\\19490\\analyze.py": "97e0f3a69d3acd35bd1a6f46a6fbfd8dc288930df84ce10ea2a631d60e6d7242"
+  },
+  "scope": "diagnostics only; no model loading, MCTS, training, outcome import, or release",
+  "seconds": 5.061999999999898
+}

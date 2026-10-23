@@ -1,0 +1,3322 @@
+{
+  "source_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+  "helper_sha256": "45433da3101852263ca08435df0839e01f4477a42f5c8dd525c988f3a4b7280d",
+  "positions": [
+    {
+      "action_number": 68,
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 1,
+        "round": 17,
+        "action": 68,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "E6",
+            "rc": [
+              2,
+              4
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "F6",
+            "rc": [
+              2,
+              5
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "EXPLOIT",
+            "square": "C4",
+            "rc": [
+              4,
+              2
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "E3",
+            "rc": [
+              5,
+              4
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "recorded": {
+        "index": 2722,
+        "piece": "TRACE",
+        "side": "MAGENTA",
+        "move": "F6->F5",
+        "kind": "move"
+      },
+      "horizon": "current own remainder, enemy turn, own turn, second enemy turn; bounded survival is not eventual win",
+      "alternatives": [
+        {
+          "index": 2787,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->E5",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2796,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->D6",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2788,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->D5",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2786,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->F5",
+          "kind": "move",
+          "bounded_loss": "DISPROVED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2786,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "DISPROVED",
+                "checked_enemy_completions": 59
+              }
+            }
+          ]
+        },
+        {
+          "index": 2722,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "F6->F5",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2722,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F6->F5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F5",
+                      "rc": [
+                        3,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 432,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2218": "VERIFIED",
+                    "2202": "VERIFIED",
+                    "2211": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "enemy_completions": 79,
+        "leaf_checks": 15,
+        "leaf_nodes": 6286
+      }
+    },
+    {
+      "action_number": 67,
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 2,
+        "round": 17,
+        "action": 67,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "E6",
+            "rc": [
+              2,
+              4
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "F5",
+            "rc": [
+              3,
+              5
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "EXPLOIT",
+            "square": "C4",
+            "rc": [
+              4,
+              2
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "E3",
+            "rc": [
+              5,
+              4
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "recorded": {
+        "index": 2218,
+        "piece": "TRACE",
+        "side": "MAGENTA",
+        "move": "F5->F6",
+        "kind": "move"
+      },
+      "horizon": "current own remainder, enemy turn, own turn, second enemy turn; bounded survival is not eventual win",
+      "alternatives": [
+        {
+          "index": 2787,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->E5",
+          "kind": "move",
+          "bounded_loss": "DISPROVED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2283,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E5->E6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F5",
+                      "rc": [
+                        3,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 432,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2218": "VERIFIED",
+                    "2202": "VERIFIED",
+                    "2211": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2267,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E5->E4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2276,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E5->D5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2284,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E5->D6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2282,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E5->F6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "DISPROVED",
+                "checked_enemy_completions": 59
+              }
+            }
+          ]
+        },
+        {
+          "index": 2796,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->D6",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2852,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D6->D5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2861,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D6->C6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 1810,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "E5->C6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2859,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D6->E6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F5",
+                      "rc": [
+                        3,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 432,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2218": "VERIFIED",
+                    "2202": "VERIFIED",
+                    "2211": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2853,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D6->C5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2851,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->D4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2266,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "D4->C5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2851,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D6->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2218,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2211,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2794,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->F6",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2794,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2731,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "F6->E6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F5",
+                      "rc": [
+                        3,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 432,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2218": "VERIFIED",
+                    "2202": "VERIFIED",
+                    "2211": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2794,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2723,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "F6->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2794,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "F6",
+                      "rc": [
+                        2,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F4",
+                      "rc": [
+                        4,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 179,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2722": "VERIFIED",
+                    "2731": "VERIFIED",
+                    "2723": "VERIFIED",
+                    "1698": "VERIFIED",
+                    "1682": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2794,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2211,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "F6",
+                      "rc": [
+                        2,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "E5",
+                      "rc": [
+                        3,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 240,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2722": "VERIFIED",
+                    "2731": "VERIFIED",
+                    "2283": "VERIFIED",
+                    "2276": "VERIFIED",
+                    "2274": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            }
+          ]
+        },
+        {
+          "index": 2788,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "E6->D5",
+          "kind": "move",
+          "bounded_loss": "DISPROVED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2348,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->D6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2332,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->D4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2851,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->D4",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2341,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->C5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2851,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->D4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2266,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "D4->C5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2339,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2349,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->C6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 1810,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "E5->C6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2347,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->E6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F5",
+                      "rc": [
+                        3,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 432,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2218": "VERIFIED",
+                    "2202": "VERIFIED",
+                    "2211": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2333,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->C4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2859,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->D3",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2786,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "D3->C4",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2331,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "D5->E4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2218,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2211,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "DISPROVED",
+                "checked_enemy_completions": 59
+              }
+            }
+          ]
+        },
+        {
+          "index": 2218,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "F5->F6",
+          "kind": "move",
+          "bounded_loss": "DISPROVED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2218,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2218,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2218,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2218,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F6",
+                  "kind": "move"
+                },
+                {
+                  "index": 2786,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "DISPROVED",
+                "checked_enemy_completions": 59
+              }
+            }
+          ]
+        },
+        {
+          "index": 2202,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "F5->F4",
+          "kind": "move",
+          "bounded_loss": "VERIFIED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 2787,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->E5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2204,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 2794,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "F6",
+                      "rc": [
+                        2,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F4",
+                      "rc": [
+                        4,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 179,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2722": "VERIFIED",
+                    "2731": "VERIFIED",
+                    "2723": "VERIFIED",
+                    "1698": "VERIFIED",
+                    "1682": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2331,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E4->D5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 2786,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2853,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->F4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2397,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "F4->F5",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 1698,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F4->F5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F5",
+                      "rc": [
+                        3,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 432,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2218": "VERIFIED",
+                    "2202": "VERIFIED",
+                    "2211": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 1682,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F4->F3",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "F3",
+                      "rc": [
+                        5,
+                        5
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 275,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2786": "VERIFIED",
+                    "1178": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2202,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->F4",
+                  "kind": "move"
+                },
+                {
+                  "index": 1691,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F4->E4",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "E6",
+                      "rc": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 143,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2787": "VERIFIED",
+                    "2796": "VERIFIED",
+                    "2794": "VERIFIED",
+                    "2788": "VERIFIED",
+                    "2786": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            }
+          ]
+        },
+        {
+          "index": 2211,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "F5->E5",
+          "kind": "move",
+          "bounded_loss": "DISPROVED",
+          "own_completions": [
+            {
+              "own_line": [
+                {
+                  "index": 2211,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2796,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": true,
+                "witness": [
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2195,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->D6",
+                    "kind": "move"
+                  }
+                ]
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2211,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2794,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->F6",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "VERIFIED",
+                "terminal": false,
+                "witness": [
+                  {
+                    "index": 2852,
+                    "piece": "KERNEL",
+                    "side": "CYAN",
+                    "move": "E3->E4",
+                    "kind": "move"
+                  },
+                  {
+                    "index": 2220,
+                    "piece": "EXPLOIT",
+                    "side": "CYAN",
+                    "move": "C4->E3",
+                    "kind": "move"
+                  }
+                ],
+                "next_own_state": {
+                  "side": "MAGENTA",
+                  "actions_left": 2,
+                  "round": 18,
+                  "action": 71,
+                  "pieces": [
+                    {
+                      "side": "MAGENTA",
+                      "type": "KERNEL",
+                      "square": "F6",
+                      "rc": [
+                        2,
+                        5
+                      ]
+                    },
+                    {
+                      "side": "MAGENTA",
+                      "type": "TRACE",
+                      "square": "E5",
+                      "rc": [
+                        3,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "KERNEL",
+                      "square": "E4",
+                      "rc": [
+                        4,
+                        4
+                      ]
+                    },
+                    {
+                      "side": "CYAN",
+                      "type": "EXPLOIT",
+                      "square": "E3",
+                      "rc": [
+                        5,
+                        4
+                      ]
+                    }
+                  ],
+                  "locked": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    22,
+                    23,
+                    24,
+                    25,
+                    30,
+                    31,
+                    32,
+                    33,
+                    38,
+                    39,
+                    40,
+                    41,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                  ]
+                },
+                "endpoint_certificate": {
+                  "status": "VERIFIED",
+                  "nodes": 240,
+                  "max_nodes": 250000,
+                  "budget_exhausted": false,
+                  "per_first_action": {
+                    "2722": "VERIFIED",
+                    "2731": "VERIFIED",
+                    "2283": "VERIFIED",
+                    "2276": "VERIFIED",
+                    "2274": "VERIFIED"
+                  },
+                  "meaning": "every own continuation admits enemy terminal win before next own turn"
+                },
+                "checked_enemy_completions": 20
+              }
+            },
+            {
+              "own_line": [
+                {
+                  "index": 2211,
+                  "piece": "TRACE",
+                  "side": "MAGENTA",
+                  "move": "F5->E5",
+                  "kind": "move"
+                },
+                {
+                  "index": 2788,
+                  "piece": "KERNEL",
+                  "side": "MAGENTA",
+                  "move": "E6->D5",
+                  "kind": "move"
+                }
+              ],
+              "proof": {
+                "status": "DISPROVED",
+                "checked_enemy_completions": 59
+              }
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "enemy_completions": 535,
+        "leaf_checks": 74,
+        "leaf_nodes": 29621
+      }
+    }
+  ]
+}

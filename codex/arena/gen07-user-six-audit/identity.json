@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-23T16:03:22.047301+00:00",
+  "model_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen07-endgame.onnx",
+  "model_sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+  "model_bytes": 1479694,
+  "loop_state_start_sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e",
+  "loop_state_best": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen07-endgame.onnx",
+  "release_model_same_bytes": true,
+  "source_model": "UNKNOWN",
+  "scope": "counterfactual queries only; six supplied games, no strength games"
+}

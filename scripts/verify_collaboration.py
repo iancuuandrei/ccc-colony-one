@@ -60,7 +60,7 @@ result = {'status': 'PASS', 'scope': 'Artifact hash bindings; not a new playing-
           'constructed_curriculum_states': manifest['states'], 'source_limitations': unavailable_sources}
 import numpy as np
 datasets = []
-for name, expected_rows in (('ext_astra_policy_v1', 144), ('ext_astra_site_gen02_v1', 55), ('ext_site_tactics_v1', 26)):
+for name, expected_rows in (('ext_astra_policy_v1', 144), ('ext_astra_site_gen02_v1', 55), ('ext_site_tactics_v1', 29)):
     base = root / 'data' / name
     rows = value_rows = policy_rows = 0
     for path in base.glob('chunk*.npz'):
@@ -101,6 +101,12 @@ for item in archive19['files']:
     if item['path'].endswith('.npz'):
         assert sha(root / 'data/ext_site_tactics_v1' / Path(item['path']).name) == item['sha256']
 result['historical_nineteen_row_snapshot'] = 'PASS: exact archived hashes preserved'
+archive26 = json.loads((root / 'provenance/ext-site-tactics-twentysix.json').read_text(encoding='utf-8'))
+for item in archive26['files']:
+    assert sha(root / item['path']) == item['sha256']
+    if item['path'].endswith('.npz'):
+        assert sha(root / 'data/ext_site_tactics_v1' / Path(item['path']).name) == item['sha256']
+result['historical_twentysix_row_snapshot'] = 'PASS: archived hashes and current chunk bytes preserved'
 deep = root / 'data/ext_site_deep10910_v1'
 prov = json.loads((deep / 'provenance.json').read_text(encoding='utf-8'))
 assert sha(deep / 'chunk0000.npz') == prov['chunk_sha256']
@@ -161,15 +167,61 @@ for batch in numeric['batches'].values():
 assert json.loads((new_audit / 'numeric-violations.json').read_text(encoding='utf-8')) == []
 result['preserved_numeric_audit'] = 'PASS: source report covers GEN06 raw ORT outputs on 4105 observed states at batch 1/8/16; not a new execution'
 primary = json.loads((root / 'data/ext_site_tactics_v1/validation.json').read_text(encoding='utf-8'))
-assert primary['data_validation'] == 'PASS' and primary['published_rows'] == 26
-assert primary['actual_loader_primary_policy_and_value_Q_masks'] == 'PASS'
-assert primary['gumbel_alternate_target_guard'].startswith('FAIL_FOR_NONZERO_POLICY_MIX')
+assert primary['data_validation'] == 'PASS' and primary['published_rows'] == 29
+assert primary['current_policy_rows_value_Q_length_masks'] == 'PASS'
+assert primary['actual_pval_g_mix_guard'].startswith('PASS:')
+assert primary['actual_loader_rows'] == 2490 and len(primary['actual_loader_rs_replacements']) == 11
 known_failures = root / 'codex/synthetic/validation/site-gen05-v1'
 length_bug = json.loads((known_failures / 'length-mask-before-fix.json').read_text(encoding='utf-8'))
 mix_bug = json.loads((known_failures / 'policy-mix-regression.json').read_text(encoding='utf-8'))
 assert length_bug['status'].startswith('FAIL_') and mix_bug['status'].startswith('FAIL_')
-result['trainer_qualification'] = {'primary_default_policy_overrides': 'PASS in preserved source-specific report',
-    'length_mask': length_bug['status'], 'nonzero_policy_mix': mix_bug['status'],
-    'scope': 'Known failures pending Opus fixes; this sync changes no trainer or deployed model.'}
+result['historical_trainer_regressions'] = {'length_mask': length_bug['status'], 'nonzero_policy_mix': mix_bug['status']}
+length_fixed = json.loads((known_failures / 'loader-length-qualified.json').read_text(encoding='utf-8'))
+published28 = json.loads((known_failures / 'published-loader.json').read_text(encoding='utf-8'))
+fixed_train = root / 'source_snapshots/trainer-fixed-b2d4/train.py'
+assert sha(fixed_train) == primary['trainer_sha256'] == length_fixed['train_sha256'] == 'b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3'
+assert length_fixed['status'] == 'PASS_CURRENT_LENGTH_DEFAULTS_TRAIN_HOLDOUT_GRADIENTS_AND_DEDUP'
+for gradient in length_fixed['gradient']:
+    assert gradient['unknown_length_gradient'] == 0 and gradient['exact_value_gradient_retained']
+    assert gradient['known_length_gradient_retained'] and gradient['length_normalization'] == 'PASS'
+release28 = root / 'data/ext_astra_site_gen05_v1'
+prov28 = json.loads((release28 / 'provenance.json').read_text(encoding='utf-8'))
+assert sha(release28 / 'chunk0000.npz') == prov28['chunk_sha256'] == published28['published_chunk_sha256']
+assert sha(known_failures / 'report.json') == prov28['independent_report_sha256']
+assert sha(known_failures / 'loader-length-qualified.json') == prov28['loader_length_audit_sha256']
+assert sha(root / 'codex/synthetic/site_gen05_curriculum/MANIFEST.json') == prov28['source_manifest_sha256']
+assert published28['actual_published_path_loader'] == 'PASS'
+with np.load(release28 / 'chunk0000.npz', allow_pickle=False) as z:
+    assert len(z['obs']) == 28 and int(z['has_value'].sum()) == 16
+    assert int(z['has_pol'].sum()) == 14 and int(z['has_length'].sum()) == 4
+    assert not z['q_valid'].any()
+result['trainer_qualification'] = {'qualified_source': primary['trainer_sha256'], 'length_mask': 'PASS_TRAIN_AND_HOLDOUT_GRADIENTS',
+    'policy_mix': 'PASS_0_0.25_0.5_1', 'published28_loader': 'PASS',
+    'scope': 'Preserved source-specific fixed qualification; no historical model-build attribution, training or gradient execution by this sync.'}
+assert sha(root / 'codex/research/user-six-gen07-handoff.md') == '2bb467969847907f27c04a447899ff34ced9e24f9bcf65a696ff69c418442241'
+assert sha(root / 'codex/research/user-six-independent-proof-review.md') == primary['independent_review_sha256'] == '5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986'
+six = root / 'codex/arena/gen07-user-six-audit'
+for name, expected in json.loads((six / 'artifact-hashes.json').read_text(encoding='utf-8')).items():
+    assert sha(six / name) == expected, name
+summary_six = json.loads((six / 'combined-summary.json').read_text(encoding='utf-8'))
+assert summary_six['model_sha256'] == '8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd'
+assert summary_six['reported_case_count_including_reused_aliases'] == 14 and summary_six['distinct_queried_observations'] == 10
+assert summary_six['distinct_missed_nonempty_support_observations'] == 4
+raw19490 = root / 'codex/matches/19490'
+raw_receipt = json.loads((raw19490 / 'source-receipt.json').read_text(encoding='utf-8'))
+assert sha(raw19490 / 'match-19490.txt') == raw_receipt['raw_sha256']
+assert raw_receipt['replay'] == 'PASS' and raw_receipt['user_side'] == raw_receipt['historical_model'] == 'UNKNOWN'
+staged19490 = root / 'codex/synthetic/validation/deep19490-stage/ext_deep19490_proposal/chunk0000.npz'
+assert sha(staged19490) == '42e9d162b2e4105d1f8e5bec262ce62e7813d1d0a57cd506666191ff6c349bc0'
+assert not (root / 'data/ext_deep19490_proposal').exists()
+with np.load(staged19490, allow_pickle=False) as z:
+    assert len(z['obs']) == 3 and z['has_pol'].tolist() == [True, False, False]
+    assert z['has_value'].tolist() == [False, True, True] and z['has_length'].tolist() == [False, True, True]
+    assert not z['q_valid'].any()
+children = json.loads((root / 'codex/research/19255-safe-children-independent-receipt.json').read_text(encoding='utf-8'))
+assert children['status'] == 'PASS_STAGE_REVIEW_NOT_RELEASED'
+assert sha(root / 'data/ext_site_tactics_v1/staged-export6-19255-safe-children.json') == children['stage_sha256']
+assert sha(root / 'codex/matches/export6/user-five-v1/match-19255.txt') == children['source_protocol_sha256']
+result['six_game_gen07_review'] = 'PASS: frozen handoff, artifact-hash table, reviewed raw19490 source and diagnostic/staged mask bindings; no GEN07 model or deployment added'
 print(json.dumps(result, indent=2))
 (root / 'provenance/collaboration-integrity.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')

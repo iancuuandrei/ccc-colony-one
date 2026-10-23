@@ -1,0 +1,18 @@
+{
+  "cases": 4,
+  "game_ids": [
+    "19490"
+  ],
+  "selected_winning_first_actions": [],
+  "actual_model_terminal_wins": [],
+  "selected_safe_first_actions": [
+    "19490/67",
+    "19490/68"
+  ],
+  "actual_model_turn_allows_enemy_terminal_win": [
+    "19490/71",
+    "19490/72"
+  ],
+  "end_model_and_input_hashes_verified": true,
+  "seconds": 4.936999999999898
+}

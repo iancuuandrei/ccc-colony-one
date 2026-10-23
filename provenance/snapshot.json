@@ -575,6 +575,198 @@
       "bytes": 3609
     },
     {
+      "path": "codex/arena/gen07-user-six-audit/REPORT.md",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/REPORT.md",
+      "sha256": "1f0111a2a4975857099700595108f1ad73934d74df5a1d20bb3a89a64252ece2",
+      "bytes": 4660
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/additional-proof-notes.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/additional-proof-notes.json",
+      "sha256": "1b58b64f7cdeea054cbb24b4a33f0f8c1d8a61e1669e91dd1717e8adf697b6d3",
+      "bytes": 1156
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/aggregate.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/aggregate.py",
+      "sha256": "d7ad84ac9b64b8e9852ce58981e0a5bf31506a42370971d4a47f8e0defd411e0",
+      "bytes": 6754
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/artifact-hashes.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/artifact-hashes.json",
+      "sha256": "b2527aedef329598feb8f896f14fbd1add3792679a13461e1f098c600ed3fa23",
+      "bytes": 2980
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-19490.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-19490.json",
+      "sha256": "404e9b23a7a2caad873c74de53ce82adc3534008b53342699a6294fd9bfa72b2",
+      "bytes": 4547
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-first-two.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-first-two.json",
+      "sha256": "75a48ffaf125dae97212c4d2ef5924000cfd8e395588d573edd9de847bef1e86",
+      "bytes": 3505
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-game19040.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-game19040.json",
+      "sha256": "35d1b7799dd82ba7160bcf82e3da4f102fb5de3726a54729be02a7c722f6e95a",
+      "bytes": 1748
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/cases-next-two.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/cases-next-two.json",
+      "sha256": "8c0556324eec181e590850070eed3276d587d5c06d3cf626380d76fc62d99d68",
+      "bytes": 1761
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/combined-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/combined-summary.json",
+      "sha256": "a0baaf76b24bcbf3e1b1f2b2d5156671e2714f6a678fb9d3efa4a4b8da9e17b5",
+      "bytes": 1655
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-loop-state-end.json",
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e",
+      "bytes": 12632
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-manifest.json",
+      "sha256": "31b15de392ac8ab37fbce0f561536980477ab53d294b73b80ba774de0f692a74",
+      "bytes": 4774
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-results.jsonl",
+      "sha256": "c0db61e823ad870b352d180bd493129df846672f9a972b6e924f94e547519e39",
+      "bytes": 13676
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/first-two-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/first-two-summary.json",
+      "sha256": "fbcad558b9e6d19ef8784f19795fad5598b96246d7d3c08b8b5cae3efadc725b",
+      "bytes": 390
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-loop-state-end.json",
+      "sha256": "1cb154da31321093f27dea63bf84fcc68a90567a7f33a14c7eebebd344925e1e",
+      "bytes": 13148
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-manifest.json",
+      "sha256": "4de671addd85644f6702dedaf652323d8ddcab6e6020c1ff67d8b2c084af8b3f",
+      "bytes": 4311
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-results.jsonl",
+      "sha256": "fc4e1b5842f8eb825a41368d779031a12b79c467d726830c8af227eb89eecc74",
+      "bytes": 6995
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19040-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19040-summary.json",
+      "sha256": "5221753803a6938e9d2a496a0ba4a2aa44cdd87c9149f94769eb95518a93f284",
+      "bytes": 341
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-loop-state-end.json",
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e",
+      "bytes": 12632
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-manifest.json",
+      "sha256": "6820e8916a0c409b5e461b3018f815d03c55adcc909ad0e84a3e3bbc0f32f746",
+      "bytes": 4502
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-results.jsonl",
+      "sha256": "75f17a177d28410584bb6d8969bdb837e3263711a517621843e93c41a731893b",
+      "bytes": 14776
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/game19490-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/game19490-summary.json",
+      "sha256": "b60f9b7b671009893dfd82e037d908b7f0bb479102d3991c1ba3c2e25866838a",
+      "bytes": 379
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/identity.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/identity.json",
+      "sha256": "c9383a7177fda70d76eba31fb4924f027e3c79c76562f32735db0b29a5538437",
+      "bytes": 611
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/loop-state-start.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/loop-state-start.json",
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e",
+      "bytes": 12632
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-loop-state-end.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-loop-state-end.json",
+      "sha256": "fdd5774df3b9576c1173d8bf3930122016d7c6136641c246e91cbc811331916e",
+      "bytes": 12632
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-manifest.json",
+      "sha256": "a0f3c3cdb6e6d0ef27a3211110ff5735751bd44e193b21d9785cca247493046d",
+      "bytes": 4777
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-results.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-results.jsonl",
+      "sha256": "ca4f56b1dcf90fb8b67acc6b76b4acf236a0fc11eb443db6648ba5f4fbf9920a",
+      "bytes": 6177
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/next-two-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/next-two-summary.json",
+      "sha256": "4dfde3110c75efa67bfa92ff1e789a85bc910c8f95fce739cdfdd540bc779113",
+      "bytes": 357
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/prepare_five.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/prepare_five.py",
+      "sha256": "bfe0a428ffcac18a36599f86d42f2bbe8077a1b21a9cbf3cb37a282c89d57471",
+      "bytes": 1744
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/query.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/query.py",
+      "sha256": "39a448b5c3062f59142ac0e722a3503b427a96b21815d350910e3bc607d0f3f8",
+      "bytes": 9455
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/reuse_aliases.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/reuse_aliases.py",
+      "sha256": "d17ec04d79e43732bd1bb0bd55f1671abe5114760a3ea29564896955e074892a",
+      "bytes": 1964
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/reused-alias-manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/reused-alias-manifest.json",
+      "sha256": "3f521fa49d4df18c22258840c0ae27b228957144e5b67395d0a52cafa53bc051",
+      "bytes": 721
+    },
+    {
+      "path": "codex/arena/gen07-user-six-audit/reused-alias-results.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen07-user-six-audit/reused-alias-results.json",
+      "sha256": "2585c3aed63a8742d5ee1fe2fe2a6d2dee1be18298aecf52d721acb31af99b98",
+      "bytes": 14976
+    },
+    {
       "path": "codex/arena/h1-v-l3-control40000/harness_snapshot.py",
       "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control40000/harness_snapshot.py",
       "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
@@ -1229,10 +1421,202 @@
       "bytes": 1746
     },
     {
+      "path": "codex/matches/19490/analyze.py",
+      "source": "workspace/colony-one-level4/codex/matches/19490/analyze.py",
+      "sha256": "97e0f3a69d3acd35bd1a6f46a6fbfd8dc288930df84ce10ea2a631d60e6d7242",
+      "bytes": 7019
+    },
+    {
+      "path": "codex/matches/19490/critical-states.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/critical-states.json",
+      "sha256": "381f5b4132de5a0bfaf39d581e8b42a784baf1ce3c3c3444be2cc99a58ed4cc3",
+      "bytes": 227646
+    },
+    {
+      "path": "codex/matches/19490/critical-states.npz",
+      "source": "workspace/colony-one-level4/codex/matches/19490/critical-states.npz",
+      "sha256": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d",
+      "bytes": 4419
+    },
+    {
+      "path": "codex/matches/19490/deep-proofs.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/deep-proofs.json",
+      "sha256": "7809f9b9cb306d2499f53ea9fba14679ef2d8daa7dfe9fffdc1f5fcdc3943132",
+      "bytes": 96410
+    },
+    {
+      "path": "codex/matches/19490/deep_probe.py",
+      "source": "workspace/colony-one-level4/codex/matches/19490/deep_probe.py",
+      "sha256": "45433da3101852263ca08435df0839e01f4477a42f5c8dd525c988f3a4b7280d",
+      "bytes": 3682
+    },
+    {
+      "path": "codex/matches/19490/diagnostics.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/diagnostics.json",
+      "sha256": "522c8db6fe2c0b1494ac03742425d81af33d9aff80688e127ba352a5244e716d",
+      "bytes": 319291
+    },
+    {
+      "path": "codex/matches/19490/finalize.py",
+      "source": "workspace/colony-one-level4/codex/matches/19490/finalize.py",
+      "sha256": "9b3b9f9e610e2b8a4f08494536f298666ea42cdeaaa5bec9685be81c3c90d31b",
+      "bytes": 2159
+    },
+    {
+      "path": "codex/matches/19490/match-19490.txt",
+      "source": "workspace/colony-one-level4/codex/matches/19490/match-19490.txt",
+      "sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+      "bytes": 2651
+    },
+    {
+      "path": "codex/matches/19490/replay.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/replay.json",
+      "sha256": "d4468228f9d6b2958291b7c14beab865afc0b5429ce0c607af2af6fbcb85f75a",
+      "bytes": 125836
+    },
+    {
+      "path": "codex/matches/19490/source-receipt.json",
+      "source": "workspace/colony-one-level4/codex/matches/19490/source-receipt.json",
+      "sha256": "fab2980edb095de3692abc3d692f15442d10e61d4ad7365d8110b7c489064a4c",
+      "bytes": 1384
+    },
+    {
       "path": "codex/matches/diagnostics.md",
       "source": "workspace/colony-one-level4/codex/matches/diagnostics.md",
       "sha256": "7abad9b7fd41bf44f7ec2924ba5e178c0e480b123014c011ed74849adfaa2944",
       "bytes": 2895
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18587-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18587-hard.npz",
+      "sha256": "a1faa64456bd620108337c8d77201ffb1457f760d94b32effb8af82df4399752",
+      "bytes": 1367
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18587-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18587-proof.json",
+      "sha256": "82ddbf452844172abe02701588b607dc1ae0b7deadb47bca1131c2b37ff266b1",
+      "bytes": 8931
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18972-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18972-hard.npz",
+      "sha256": "119c118ecd246b3ea6b20e4c43cb9cf4985a555172acea4000ac027d886fc2fb",
+      "bytes": 1359
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/18972-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/18972-proof.json",
+      "sha256": "e07ea82c7b4e5ff53f4ca2583814686102af982f2baef1f861fb192a44561571",
+      "bytes": 9716
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep-86.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep-86.json",
+      "sha256": "0b34c036a6814a01bf73a108b7d298091a6e721c690f8b20474c189a209fb5ea",
+      "bytes": 8188
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep-89.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep-89.json",
+      "sha256": "31b5bdd9d4b710d15616d3a130ca4b929c745f2048929810e6aa729775100917",
+      "bytes": 74405
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep-90.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep-90.json",
+      "sha256": "e734d58b3b49b25294d0da061dd78932ba9cc0cfa0a6a165e34368bb65464e6e",
+      "bytes": 13658
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep3-85.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep3-85.json",
+      "sha256": "16dfb126ddfa19fa0df1a4e272cfb4aa2855f4c1d8beb714e17979e821ffa3ce",
+      "bytes": 358793
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-deep3-86.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-deep3-86.json",
+      "sha256": "dc62cc445c212fdb080de0f4ef0ce6c5abad7bd75ce41b01b7b963dae88c0d80",
+      "bytes": 107414
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-hard.npz",
+      "sha256": "ab54cba2c963b5fa509c607cf1be6932f3c321e7af437cdcd122a644aa5a6f7a",
+      "bytes": 1458
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19040-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19040-proof.json",
+      "sha256": "77ffc3805e6f8c8f3e7c220b6c642253d5fdb64c0c27be993bcddae494e2a08b",
+      "bytes": 11396
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19101-19490-state-equivalence.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19101-19490-state-equivalence.json",
+      "sha256": "2b262f7cebef1305b210e9439314fc77a7e2ba0aae359222856948f43a6999bf",
+      "bytes": 2751
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19101-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19101-hard.npz",
+      "sha256": "82064934b50cea38a23a26b3758ed8258824745ffe2089cb04161492c848f263",
+      "bytes": 1466
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19101-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19101-proof.json",
+      "sha256": "9f852aca15641e974cc54439d9625f582bd627d067952e10132ae6f7766520ab",
+      "bytes": 8235
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19255-hard.npz",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19255-hard.npz",
+      "sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22",
+      "bytes": 1464
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/19255-proof.json",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/19255-proof.json",
+      "sha256": "cd10602f11ca5daa8a76b290d19d78f65ab7be9baa6b305bd51cecc446f34a15",
+      "bytes": 8815
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/REPORT.md",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/REPORT.md",
+      "sha256": "739b306a8ecd711d04a064e645b60bb39ae8d9737379e931c54547f7a7f7a140",
+      "bytes": 6755
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-18587.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-18587.txt",
+      "sha256": "cd87e59c2381f8aae7b420417ad182b4d800ed52dc73776815ca562aeaec4652",
+      "bytes": 1422
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-18972.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-18972.txt",
+      "sha256": "5d1f3487cdee120770c30e8f70d13c69051b1fa37e024f771a261e495565dbba",
+      "bytes": 2289
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-19040.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-19040.txt",
+      "sha256": "b954ce8e23523bba781dc9fa19dedaa19499d98d419e470316d3c0aac43a429c",
+      "bytes": 3402
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-19101.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-19101.txt",
+      "sha256": "a545ac46fc49db2009957594f2ec55adea6d7e6e0b0ab2ccbaed1d9a2e282289",
+      "bytes": 2651
+    },
+    {
+      "path": "codex/matches/export6/user-five-v1/match-19255.txt",
+      "source": "workspace/colony-one-level4/codex/matches/export6/user-five-v1/match-19255.txt",
+      "sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+      "bytes": 1491
     },
     {
       "path": "codex/matches/ext-site-gen05-v1-validation.json",
@@ -1373,6 +1757,12 @@
       "bytes": 5984
     },
     {
+      "path": "codex/research/19255-safe-children-independent-receipt.json",
+      "source": "workspace/colony-one-level4/codex/research/19255-safe-children-independent-receipt.json",
+      "sha256": "5d541cdfc10bc128436d543b16a1f79c18d8703f3fc2a0ff0e93a21a3caa61d6",
+      "bytes": 6447
+    },
+    {
       "path": "codex/research/certified_policy_repair.py",
       "source": "workspace/colony-one-level4/codex/research/certified_policy_repair.py",
       "sha256": "5e1f408da5efba1aa7a2af34a02d9da1bedd4b55646434833b63be9ff71388c9",
@@ -1391,6 +1781,12 @@
       "bytes": 10162
     },
     {
+      "path": "codex/research/export6-training-dedup-audit.md",
+      "source": "workspace/colony-one-level4/codex/research/export6-training-dedup-audit.md",
+      "sha256": "854783c60961706ae7a341e34137e37795af1838a357ac08ab407e9dc787e1e8",
+      "bytes": 10655
+    },
+    {
       "path": "codex/research/integration-decision.md",
       "source": "workspace/colony-one-level4/codex/research/integration-decision.md",
       "sha256": "75058148c8a8084bdcdf8046471899fe0cb88e8cf439a0ca3081990aebd453b6",
@@ -1407,6 +1803,12 @@
       "source": "workspace/colony-one-level4/codex/research/loss-11059-review.md",
       "sha256": "230b12c6492f3e3fdf2c120e9a3252e068a8b87656736ff104fe89e678b840f5",
       "bytes": 5107
+    },
+    {
+      "path": "codex/research/loss-19490-review.md",
+      "source": "workspace/colony-one-level4/codex/research/loss-19490-review.md",
+      "sha256": "7a20efbbdc7630627d3eb165570f789e4946e0a438b9a021fd0555d2a035a0c0",
+      "bytes": 6185
     },
     {
       "path": "codex/research/loss-mechanism-audit.md",
@@ -1485,6 +1887,18 @@
       "source": "workspace/colony-one-level4/codex/research/search-replay-review.md",
       "sha256": "f1e6a5e098cb4dcbcc8193aa242d943a09cf166c5ace1f941c321d00a1583731",
       "bytes": 15201
+    },
+    {
+      "path": "codex/research/user-six-gen07-handoff.md",
+      "source": "workspace/colony-one-level4/codex/research/user-six-gen07-handoff.md",
+      "sha256": "2bb467969847907f27c04a447899ff34ced9e24f9bcf65a696ff69c418442241",
+      "bytes": 6687
+    },
+    {
+      "path": "codex/research/user-six-independent-proof-review.md",
+      "source": "workspace/colony-one-level4/codex/research/user-six-independent-proof-review.md",
+      "sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+      "bytes": 10675
     },
     {
       "path": "codex/synthetic/astra/author_discovery_proposals.py",
@@ -1709,6 +2123,12 @@
       "bytes": 263458
     },
     {
+      "path": "codex/synthetic/site_gen05_curriculum/MANIFEST.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/site_gen05_curriculum/MANIFEST.json",
+      "sha256": "38495e68ee90ae08cba9ebecd7a7040205f3c646ac080a1afa7c64705290e769",
+      "bytes": 2266
+    },
+    {
       "path": "codex/synthetic/site_gen05_curriculum/validation14958/proof.json",
       "source": "workspace/colony-one-level4/codex/synthetic/site_gen05_curriculum/validation14958/proof.json",
       "sha256": "1680f7a165f66fac80336eb95b7724aa95d59c9db16e50784ebfbfcbd2b00afb",
@@ -1811,6 +2231,30 @@
       "bytes": 1726
     },
     {
+      "path": "codex/synthetic/validation/deep19490-stage/README.md",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/README.md",
+      "sha256": "13acbecdd6c0cd5b05bfc67829735d7aaa3838f36be6a91c34faad2f6803552a",
+      "bytes": 5376
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/build_stage.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/build_stage.py",
+      "sha256": "f2c0d5825a28c2dadeaf51e21b47b4ad1a867cf07fea51ea12484b0d2c18b2a7",
+      "bytes": 8173
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/ext_deep19490_proposal/chunk0000.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/ext_deep19490_proposal/chunk0000.npz",
+      "sha256": "42e9d162b2e4105d1f8e5bec262ce62e7813d1d0a57cd506666191ff6c349bc0",
+      "bytes": 4458
+    },
+    {
+      "path": "codex/synthetic/validation/deep19490-stage/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep19490-stage/packet.json",
+      "sha256": "fb1f87da2d2f5c8cb05eae9af2dbd07ae507706ce82ca2609d8c875e95095392",
+      "bytes": 11746
+    },
+    {
       "path": "codex/synthetic/validation/hard0001/gen01-independent-difficulty.json",
       "source": "workspace/colony-one-level4/codex/synthetic/validation/hard0001/gen01-independent-difficulty.json",
       "sha256": "367c5b95528fc89946c483767570592d799a57016843600aa88065c1870ec23e",
@@ -1821,6 +2265,24 @@
       "source": "workspace/colony-one-level4/codex/synthetic/validation/integrate.py",
       "sha256": "134e1db6c21bbb054334bb64feef94089f19b7827a974de2b25e5e0604a48d82",
       "bytes": 5113
+    },
+    {
+      "path": "codex/synthetic/validation/loss19490-independent/README.md",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/loss19490-independent/README.md",
+      "sha256": "1792fa1b7eb3e6d21b8837c430dbb485967bef3b51be3d8b4813cab442c9fdc8",
+      "bytes": 2174
+    },
+    {
+      "path": "codex/synthetic/validation/loss19490-independent/proof.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/loss19490-independent/proof.json",
+      "sha256": "5513842e9e2c53066ff5130e5d9e03872db43bbbfde4728821a1ceb47fa2e114",
+      "bytes": 1309139
+    },
+    {
+      "path": "codex/synthetic/validation/loss19490-independent/verify.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/loss19490-independent/verify.py",
+      "sha256": "a3aabd6b123f65afd0b7b8a87c7d682089b4334fd7d4deb8329d04a293f8d328",
+      "bytes": 8653
     },
     {
       "path": "codex/synthetic/validation/policy-v1/actual-loader-audit.json",
@@ -1839,6 +2301,18 @@
       "source": "workspace/colony-one-level4/codex/synthetic/validation/probe_gen01.py",
       "sha256": "f9eccc05d1f14906d7cbf3074b0e533f0b7b15eddc6551330c27918710da1f0d",
       "bytes": 2870
+    },
+    {
+      "path": "codex/synthetic/validation/qualify_site_gen05.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/qualify_site_gen05.py",
+      "sha256": "efaed8ef88977f3ef426ec4ba8d4a59cbfd33db0e127cde4380e71d13b961214",
+      "bytes": 11059
+    },
+    {
+      "path": "codex/synthetic/validation/qualify_site_gen05_loader.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/qualify_site_gen05_loader.py",
+      "sha256": "d6292799affe87b606df8ff164ab1c624bc68d8ecae882263a304cf86108a799",
+      "bytes": 8614
     },
     {
       "path": "codex/synthetic/validation/site-gen02-v1/report.json",
@@ -1879,8 +2353,8 @@
     {
       "path": "codex/synthetic/validation/site-gen05-v1/README.md",
       "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/README.md",
-      "sha256": "3d53327bbbf6b4b94df4af7238d6e34fa0fb9eab24cc0f6383bc07db20ea9840",
-      "bytes": 1908
+      "sha256": "988d0f4ed73a24d5688cbec0784fb7fa6573b37fa6f47f069eff179ceff83917",
+      "bytes": 2820
     },
     {
       "path": "codex/synthetic/validation/site-gen05-v1/length-mask-before-fix.json",
@@ -1889,10 +2363,22 @@
       "bytes": 701
     },
     {
+      "path": "codex/synthetic/validation/site-gen05-v1/loader-length-qualified.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/loader-length-qualified.json",
+      "sha256": "18a70b80d82e949730350a530f8069f5b912ac4671715f735a4aca8b1cdb764c",
+      "bytes": 1803
+    },
+    {
       "path": "codex/synthetic/validation/site-gen05-v1/policy-mix-regression.json",
       "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/policy-mix-regression.json",
       "sha256": "808875e0a314ff54b4372b1ad2a6e3f35bf4b16e14526db257ebaf1fa790a149",
       "bytes": 1276
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/published-loader.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/published-loader.json",
+      "sha256": "1fb52345dc21d6c53232e4a959e29f81e92419bfc3693de1808b00bb5bf6d217",
+      "bytes": 2080
     },
     {
       "path": "codex/synthetic/validation/site-gen05-v1/report.json",
@@ -2441,6 +2927,18 @@
       "bytes": 35669
     },
     {
+      "path": "data/ext_astra_site_gen05_v1/chunk0000.npz",
+      "source": "workspace/colony-one-level4/data/ext_astra_site_gen05_v1/chunk0000.npz",
+      "sha256": "9e0c9989b16589411681cc8eb65e1e969a5fd9ff00a6122d7ffe9cbce764e6e1",
+      "bytes": 2790
+    },
+    {
+      "path": "data/ext_astra_site_gen05_v1/provenance.json",
+      "source": "workspace/colony-one-level4/data/ext_astra_site_gen05_v1/provenance.json",
+      "sha256": "cecbf5a32bba3eb949e4ba6abc1270c521f835179beb3534204eec4dc993974f",
+      "bytes": 22220
+    },
+    {
       "path": "data/ext_site_deep10910_v1/chunk0000.npz",
       "source": "workspace/colony-one-level4/data/ext_site_deep10910_v1/chunk0000.npz",
       "sha256": "408b4bb38505e6a1c3579f78774bb7fd374b755c8dd2aec65c56b633902fc39f",
@@ -2529,6 +3027,24 @@
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-16056-ply036.npz",
       "sha256": "1cb36da3341f918e7204e1277238116913c6d30c57f5589d662ca44955e67359",
       "bytes": 1754
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-18587-ply036.npz",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-18587-ply036.npz",
+      "sha256": "f0f861f93a1d133928c20ac70fa80233e7d406084d62ab8cdacf72dab19d1f09",
+      "bytes": 1951
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-18972-ply062.npz",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-18972-ply062.npz",
+      "sha256": "7e03d25c74753645a2efaead044e1911bf0b8548241b72332745c99646877b53",
+      "bytes": 1949
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-19255-ply037.npz",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-19255-ply037.npz",
+      "sha256": "732ed3f01f88f29219affe9e12338efa265f2836b2c5f8e3acbe9878829d674f",
+      "bytes": 1932
     },
     {
       "path": "data/ext_site_tactics_v1/chunk-site-tactics-7525-ply026.npz",
@@ -2621,6 +3137,12 @@
       "bytes": 1785
     },
     {
+      "path": "data/ext_site_tactics_v1/independent-review-5eba20b306ecca4612f7.md",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/independent-review-5eba20b306ecca4612f7.md",
+      "sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+      "bytes": 10675
+    },
+    {
       "path": "data/ext_site_tactics_v1/manifest-prior-05455b009a522c31d4d1.json",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-05455b009a522c31d4d1.json",
       "sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
@@ -2633,10 +3155,22 @@
       "bytes": 111251
     },
     {
-      "path": "data/ext_site_tactics_v1/manifest.json",
-      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest.json",
+      "path": "data/ext_site_tactics_v1/manifest-prior-ce9ec3cca053fbb43721.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-ce9ec3cca053fbb43721.json",
       "sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
       "bytes": 113794
+    },
+    {
+      "path": "data/ext_site_tactics_v1/manifest.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest.json",
+      "sha256": "ecf432d91797181893f28d68e0b20f6e057650a683839eda1276c3fc858996de",
+      "bytes": 126466
+    },
+    {
+      "path": "data/ext_site_tactics_v1/policy-overrides-0b925f9116a7662d0710.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-0b925f9116a7662d0710.json",
+      "sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822",
+      "bytes": 214585
     },
     {
       "path": "data/ext_site_tactics_v1/policy-overrides-150fdf48d7fec80d0c67.json",
@@ -2677,8 +3211,14 @@
     {
       "path": "data/ext_site_tactics_v1/policy-overrides.json",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides.json",
-      "sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
-      "bytes": 192053
+      "sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822",
+      "bytes": 214585
+    },
+    {
+      "path": "data/ext_site_tactics_v1/proofs-0b925f9116a7662d0710.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-0b925f9116a7662d0710.json",
+      "sha256": "2e46ae4a3f4a3377f34c014bfe45b45f72ee0cb67869c111d32e87eab5b24f1a",
+      "bytes": 387578
     },
     {
       "path": "data/ext_site_tactics_v1/proofs-150fdf48d7fec80d0c67.json",
@@ -2723,6 +3263,12 @@
       "bytes": 143319
     },
     {
+      "path": "data/ext_site_tactics_v1/report-0b925f9116a7662d0710.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-0b925f9116a7662d0710.json",
+      "sha256": "f9275f51e5897ab9df44f262c315299876930479e6e376618652723c272a9fba",
+      "bytes": 126326
+    },
+    {
       "path": "data/ext_site_tactics_v1/report-150fdf48d7fec80d0c67.json",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-150fdf48d7fec80d0c67.json",
       "sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
@@ -2765,10 +3311,16 @@
       "bytes": 39526
     },
     {
+      "path": "data/ext_site_tactics_v1/staged-export6-19255-safe-children.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/staged-export6-19255-safe-children.json",
+      "sha256": "36f09b5df5413e5b737cd76e3ddfc6cd6b9025052f63d36b8fc0d4d71bd9b8b0",
+      "bytes": 52050
+    },
+    {
       "path": "data/ext_site_tactics_v1/summary.json",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/summary.json",
-      "sha256": "f08c44ca05d3e412599d20a70daf7f5d75460fb1769d71a2282c3210300fe95e",
-      "bytes": 5348
+      "sha256": "ee899dd097b1e09109fc467e53f4b336a947cc3abfc972f01a940dcc103d6966",
+      "bytes": 5380
     },
     {
       "path": "data/ext_site_tactics_v1/validation-05455b009a522c31d4d1.json",
@@ -2789,10 +3341,16 @@
       "bytes": 1712
     },
     {
-      "path": "data/ext_site_tactics_v1/validation.json",
-      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation.json",
+      "path": "data/ext_site_tactics_v1/validation-ce9ec3cca053fbb43721.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation-ce9ec3cca053fbb43721.json",
       "sha256": "37eec7c46836ecb33913782c10068678dde6ea508da337a48dadb6b5a84a7119",
       "bytes": 5680
+    },
+    {
+      "path": "data/ext_site_tactics_v1/validation.json",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation.json",
+      "sha256": "d5a2939f23f82146606512dffc9d27513669f3cee9b084dde3a7937ce15dfc8e",
+      "bytes": 4355
     },
     {
       "path": "data/ext_site_v1/hard_decisions_gen05_v1.json",
@@ -3319,6 +3877,12 @@
       "bytes": 194
     },
     {
+      "path": "source_snapshots/trainer-fixed-b2d4/train.py",
+      "source": "workspace/colony-one-level4/train.py",
+      "sha256": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+      "bytes": 13531
+    },
+    {
       "path": "task/level-4.pdf",
       "source": "challenge/current/task/level-4.pdf",
       "sha256": "573f686905a971a9b94afd0f07b709e33ab8fe05cdff9f55c8526167e8b4c81f",
@@ -3356,5 +3920,5 @@
     }
   ],
   "missing_optional": [],
-  "snapshot_utc": "2026-10-23T15:53:42.805564+00:00"
+  "snapshot_utc": "2026-10-23T16:22:53.863211+00:00"
 }

@@ -2,11 +2,12 @@
   "baseline": "Shared certificate DATA ONLY; historical GEN02 receipts retained, analysis/teacher models bound per row, actual raw source model UNKNOWN; no models, searches or training runs created",
   "dependencies": {
     "additional_source_receipts": {
+      "codex/matches/export6/user-five-v1/18587-proof.json": "82ddbf452844172abe02701588b607dc1ae0b7deadb47bca1131c2b37ff266b1",
+      "codex/matches/export6/user-five-v1/18972-proof.json": "e07ea82c7b4e5ff53f4ca2583814686102af982f2baef1f861fb192a44561571",
+      "codex/matches/export6/user-five-v1/19255-proof.json": "cd10602f11ca5daa8a76b290d19d78f65ab7be9baa6b305bd51cecc446f34a15",
       "codex/matches/site-external-aliases.json": "a4ff1b56e8360059cd89f57154133f80055ef3e90956485eedd1881b1f2978fd",
-      "codex/matches/site-gen05-attribution-v2.json": "195cb03e0b99a0cf3289bbba81fa5eb2a6b483527908976d73afedd9111148a0",
-      "codex/matches/site-gen05-loss-mining-v1.json": "31418e5c8a20969d569ed1e567dbba0ef3f1bb9c9b50cade620a7a7ddaeb4836",
-      "codex/matches/site-gen05-loss-mining-v2.json": "b56881c0c4257a503bec6888e6b51b8b252826c6ab98e54bb3008ced026f3db2",
-      "codex/matches/site-raw/tournament-matches-export5.json": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+      "codex/matches/site-raw/tournament-matches-export6.json": "f6351e120c8f81950b460e67761cb0930e8e705db52b4c06e01b715ad515a731",
+      "codex/research/user-six-independent-proof-review.md": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986"
     },
     "baseline_sha256": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0",
     "engine_sha256": {
@@ -65,10 +66,22 @@
       {
         "path": "codex/matches/site-gen05-loss-hard-v1.npz",
         "sha256": "85b783756dc3d0a721b280a846597e8546aca90bb4a393a6cda8f61663f24a9e"
+      },
+      {
+        "path": "codex/matches/export6/user-five-v1/18587-hard.npz",
+        "sha256": "a1faa64456bd620108337c8d77201ffb1457f760d94b32effb8af82df4399752"
+      },
+      {
+        "path": "codex/matches/export6/user-five-v1/18972-hard.npz",
+        "sha256": "119c118ecd246b3ea6b20e4c43cb9cf4985a555172acea4000ac027d886fc2fb"
+      },
+      {
+        "path": "codex/matches/export6/user-five-v1/19255-hard.npz",
+        "sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22"
       }
     ],
-    "inherited_manifest_receipt": "manifest-prior-7268014c19da16984048.json",
-    "inherited_manifest_sha256": "7268014c19da1698404826a68057ce2dc5e69579ec0bdf8b6bd366e2df85daf7",
+    "inherited_manifest_receipt": "manifest-prior-ce9ec3cca053fbb43721.json",
+    "inherited_manifest_sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
     "own_turn_oracle_sha256": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9",
     "preserved_prior_chunks": [
       {
@@ -176,63 +189,87 @@
         "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61"
       }
     ],
-    "raw_site_manifest_sha256": "50ce9af40cd67e8e7c27addd300dbf3dab00625daff47f37ed42b02169624b39",
-    "script_sha256": "5e1f408da5efba1aa7a2af34a02d9da1bedd4b55646434833b63be9ff71388c9",
+    "raw_site_manifest_sha256": "8de0b5c7dd5c810e11bd117d96fa4642aa126d265c653408a5c11bfaa49f62aa",
+    "script_sha256": "a99daacd6334814b94d1e09fc076423479c6ef5d6ba4933ef84b9be723a87c57",
     "teacher": {
       "fallback": {
-        "files": [
-          {
-            "path": "data/ext_site_v1_rs/chunk0000.npz",
+        "fallback": {
+          "files": [
+            {
+              "path": "data/ext_site_v1_rs/chunk0000.npz",
+              "rows": 1965,
+              "sha256": "30a87062762b88c11b24eddd646e0ca93713fe43a8fba9ba3003a989f77f3836"
+            }
+          ],
+          "historical_model_hash_in_teacher_manifest": null,
+          "identity_limit": "Teacher manifest declares model path; current bytes verified. Historical generation hash was not recorded unless shown above.",
+          "manifest": {
+            "model": "ckpt/gen02-endgame.onnx",
+            "note": "policy-only re-search; has_value=False",
             "rows": 1965,
-            "sha256": "30a87062762b88c11b24eddd646e0ca93713fe43a8fba9ba3003a989f77f3836"
-          }
-        ],
-        "historical_model_hash_in_teacher_manifest": null,
-        "identity_limit": "Teacher manifest declares model path; current bytes verified. Historical generation hash was not recorded unless shown above.",
-        "manifest": {
-          "model": "ckpt/gen02-endgame.onnx",
-          "note": "policy-only re-search; has_value=False",
-          "rows": 1965,
-          "seconds": 152.5,
-          "sims": 800,
-          "source": "data/ext_site_v1"
+            "seconds": 152.5,
+            "sims": 800,
+            "source": "data/ext_site_v1"
+          },
+          "manifest_sha256": "19692466671d045de8187983b90da43d20e2263f9f9f02b2ce151a8603b80673",
+          "model_sha256_current_verified": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0"
         },
-        "manifest_sha256": "19692466671d045de8187983b90da43d20e2263f9f9f02b2ce151a8603b80673",
-        "model_sha256_current_verified": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0"
+        "preferred": {
+          "files": [
+            {
+              "path": "data/ext_site_gen05_losses_rs/chunk0000.npz",
+              "rows": 328,
+              "sha256": "351e2227bccd24c2aaed338f7e8897fbd57b5eb25caeafa06a7d9eb1c91e36df"
+            }
+          ],
+          "historical_model_hash_in_teacher_manifest": null,
+          "identity_limit": "Teacher manifest declares model path; current bytes verified. Historical generation hash was not recorded unless shown above.",
+          "manifest": {
+            "model": "ckpt/gen06-endgame.onnx",
+            "note": "policy-only re-search; has_value=False",
+            "rows": 328,
+            "seconds": 75.3,
+            "sims": 800,
+            "source": "data/ext_site_gen05_losses"
+          },
+          "manifest_sha256": "c0a33520e0e64948bc06d106636923c53c233b763019e2823a18c9f9c351e1e1",
+          "model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+        }
       },
       "preferred": {
         "files": [
           {
-            "path": "data/ext_site_gen05_losses_rs/chunk0000.npz",
-            "rows": 328,
-            "sha256": "351e2227bccd24c2aaed338f7e8897fbd57b5eb25caeafa06a7d9eb1c91e36df"
+            "path": "data/ext_site_losses_b_rs/chunk0000.npz",
+            "rows": 168,
+            "sha256": "06e7f5a56d3017da5c7b0faa95619addae00056005ea96ed1ae2d2a5d73267b5"
           }
         ],
         "historical_model_hash_in_teacher_manifest": null,
         "identity_limit": "Teacher manifest declares model path; current bytes verified. Historical generation hash was not recorded unless shown above.",
         "manifest": {
-          "model": "ckpt/gen06-endgame.onnx",
+          "model": "ckpt/gen07-endgame.onnx",
           "note": "policy-only re-search; has_value=False",
-          "rows": 328,
-          "seconds": 75.3,
+          "rows": 168,
+          "seconds": 48.2,
           "sims": 800,
-          "source": "data/ext_site_gen05_losses"
+          "source": "data/ext_site_losses_b"
         },
-        "manifest_sha256": "c0a33520e0e64948bc06d106636923c53c233b763019e2823a18c9f9c351e1e1",
-        "model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+        "manifest_sha256": "94d7f57302bd8355e7e18d538dc9c2b99e8b8c307079d36b184a9870059c441b",
+        "model_sha256_current_verified": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd"
       }
     }
   },
+  "export6_correction_rows": 3,
   "gen05_correction_rows": 7,
   "holdout_policy": "No holdout_v1 or synthetic held-out data read",
   "inherited_published_rows": 26,
   "kind": "certificate_guided_policy_only_projection",
   "legacy_published_rows": 19,
-  "new_published_rows": 0,
+  "new_published_rows": 3,
   "pending": [],
   "pending_teacher_rows": 0,
-  "policy_override_file": "policy-overrides-150fdf48d7fec80d0c67.json",
-  "policy_override_sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
+  "policy_override_file": "policy-overrides-0b925f9116a7662d0710.json",
+  "policy_override_sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822",
   "preserved_prior_chunks": [
     {
       "chunk": "chunk-site-tactics-11059-ply030.npz",
@@ -339,9 +376,9 @@
       "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61"
     }
   ],
-  "proof_file": "proofs-150fdf48d7fec80d0c67.json",
-  "proof_file_sha256": "984ecfab7f2780af90a64d8d517bb487cf32ef12f32f38c87d8e7c228d1b02fc",
-  "proof_only_uniform_rows": 16,
+  "proof_file": "proofs-0b925f9116a7662d0710.json",
+  "proof_file_sha256": "2e46ae4a3f4a3377f34c014bfe45b45f72ee0cb67869c111d32e87eab5b24f1a",
+  "proof_only_uniform_rows": 18,
   "published": [
     {
       "actions_left": 1,
@@ -2163,12 +2200,211 @@
       "unsafe_probability_before_status": "MEASURED_EXISTING_800SIM",
       "user_result": "LOSS",
       "user_team": "MAGENTA"
+    },
+    {
+      "actions_left": 1,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "analysis_baseline_model_sha256": null,
+      "analyzed_actor": "MAGENTA",
+      "approximate_q_training": false,
+      "bounded_safe_indices": [
+        3306
+      ],
+      "certificate_kind": "bounded_next_opponent_turn_safe",
+      "chunk": "chunk-site-tactics-18587-ply036.npz",
+      "chunk_sha256": "f0f861f93a1d133928c20ac70fa80233e7d406084d62ab8cdacf72dab19d1f09",
+      "derived_protocol_file_sha256": "cd87e59c2381f8aae7b420417ad182b4d800ed52dc73776815ca562aeaec4652",
+      "fallback": null,
+      "full_game_value_training": false,
+      "game_id": "18587",
+      "group": "site-game-18587",
+      "identical_teacher_rows": 1,
+      "identity_basis": "Exact protocol equality with fresh export JSON explicit you field; no source model hash",
+      "independent_review_sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+      "legal_indices": [
+        3307,
+        3316,
+        3314,
+        3308,
+        3306,
+        2153,
+        2137,
+        2146,
+        2124
+      ],
+      "matching_teacher_rows": [
+        {
+          "file": "data/ext_site_losses_b_rs/chunk0000.npz",
+          "file_sha256": "06e7f5a56d3017da5c7b0faa95619addae00056005ea96ed1ae2d2a5d73267b5",
+          "row": 165,
+          "stored_probability_sum": 1.0001592636108398,
+          "teacher_folder": "data/ext_site_losses_b_rs",
+          "teacher_model_sha256_current_verified": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd"
+        }
+      ],
+      "model_sha256": "UNKNOWN",
+      "observation_float16_sha256": "e7707d8c752d23b081a7629d016049ed0f57e406e46a9f40353ecbbb2524bbe7",
+      "outside_selected_probability_after": 0.0,
+      "outside_selected_probability_before": 0.9700059976562418,
+      "own_turn_winning_indices": [],
+      "ply": 36,
+      "projection": "conditional teacher distribution; KL(p||teacher) optimum only when retained mass>0",
+      "proof_sha256": "f54505e3e8c2400fbf6f3bf16ff1c3732faa771bb78330ae5c77aee884d4d343",
+      "protocol_sha256": "cd87e59c2381f8aae7b420417ad182b4d800ed52dc73776815ca562aeaec4652",
+      "raw_model_identity": "UNKNOWN",
+      "round": 9,
+      "rows": 1,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn",
+      "source_extension": "EXPORT6_ONE_ENEMY_TURN",
+      "source_game_json_sha256": "f6351e120c8f81950b460e67761cb0930e8e705db52b4c06e01b715ad515a731",
+      "source_npz": "codex/matches/export6/user-five-v1/18587-hard.npz",
+      "source_npz_row": 0,
+      "source_npz_sha256": "a1faa64456bd620108337c8d77201ffb1457f760d94b32effb8af82df4399752",
+      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
+      "teacher": {
+        "file": "data/ext_site_losses_b_rs/chunk0000.npz",
+        "file_sha256": "06e7f5a56d3017da5c7b0faa95619addae00056005ea96ed1ae2d2a5d73267b5",
+        "row": 165,
+        "stored_probability_sum": 1.0001592636108398,
+        "teacher_folder": "data/ext_site_losses_b_rs",
+        "teacher_model_sha256_current_verified": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd"
+      },
+      "teacher_mass_on_admissible": 0.029994002343758194,
+      "teacher_model_sha256_current_verified": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+      "teacher_source": "EXISTING_800SIM",
+      "team": "MAGENTA",
+      "unsafe_probability_after": 0.0,
+      "unsafe_probability_before": 0.9700059976562418,
+      "unsafe_probability_before_status": "MEASURED_EXISTING_800SIM",
+      "user_result": "LOSS",
+      "user_team": "MAGENTA"
+    },
+    {
+      "actions_left": 1,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "analysis_baseline_model_sha256": null,
+      "analyzed_actor": "CYAN",
+      "approximate_q_training": false,
+      "bounded_safe_indices": [
+        2209
+      ],
+      "certificate_kind": "bounded_next_opponent_turn_safe",
+      "chunk": "chunk-site-tactics-18972-ply062.npz",
+      "chunk_sha256": "7e03d25c74753645a2efaead044e1911bf0b8548241b72332745c99646877b53",
+      "derived_protocol_file_sha256": "5d1f3487cdee120770c30e8f70d13c69051b1fa37e024f771a261e495565dbba",
+      "fallback": "PROOF_ONLY_UNIFORM_MISSING_TEACHER",
+      "full_game_value_training": false,
+      "game_id": "18972",
+      "group": "site-game-18972",
+      "identical_teacher_rows": 0,
+      "identity_basis": "Exact protocol equality with fresh export JSON explicit you field; no source model hash",
+      "independent_review_sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+      "legal_indices": [
+        1682,
+        1689,
+        1691,
+        1681,
+        1683,
+        1697,
+        1699,
+        2218,
+        2209,
+        2211
+      ],
+      "matching_teacher_rows": [],
+      "model_sha256": "UNKNOWN",
+      "observation_float16_sha256": "80e5e02f16a2c5c14bfd0a458fb8188e5c8d508c62485c012c3245c578249b91",
+      "outside_selected_probability_after": 0.0,
+      "outside_selected_probability_before": null,
+      "own_turn_winning_indices": [],
+      "ply": 62,
+      "projection": "uniform over independently certified set; no teacher",
+      "proof_sha256": "f9edfb2ea2824a31d1de8dcb5d4064811dea1e0de0bd34ac07b3e5d68afc8115",
+      "protocol_sha256": "5d1f3487cdee120770c30e8f70d13c69051b1fa37e024f771a261e495565dbba",
+      "raw_model_identity": "UNKNOWN",
+      "round": 16,
+      "rows": 1,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn",
+      "source_extension": "EXPORT6_ONE_ENEMY_TURN",
+      "source_game_json_sha256": "f6351e120c8f81950b460e67761cb0930e8e705db52b4c06e01b715ad515a731",
+      "source_npz": "codex/matches/export6/user-five-v1/18972-hard.npz",
+      "source_npz_row": 0,
+      "source_npz_sha256": "119c118ecd246b3ea6b20e4c43cb9cf4985a555172acea4000ac027d886fc2fb",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "teacher": null,
+      "teacher_mass_on_admissible": null,
+      "teacher_model_sha256_current_verified": null,
+      "teacher_source": "NONE",
+      "team": "CYAN",
+      "unsafe_probability_after": 0.0,
+      "unsafe_probability_before": null,
+      "unsafe_probability_before_status": "UNKNOWN",
+      "user_result": "LOSS",
+      "user_team": "CYAN"
+    },
+    {
+      "actions_left": 2,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "analysis_baseline_model_sha256": null,
+      "analyzed_actor": "CYAN",
+      "approximate_q_training": false,
+      "bounded_safe_indices": [
+        2666,
+        3186
+      ],
+      "certificate_kind": "bounded_next_opponent_turn_safe",
+      "chunk": "chunk-site-tactics-19255-ply037.npz",
+      "chunk_sha256": "732ed3f01f88f29219affe9e12338efa265f2836b2c5f8e3acbe9878829d674f",
+      "derived_protocol_file_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+      "fallback": "PROOF_ONLY_UNIFORM_MISSING_TEACHER",
+      "full_game_value_training": false,
+      "game_id": "19255",
+      "group": "site-game-19255",
+      "identical_teacher_rows": 0,
+      "identity_basis": "Exact protocol equality with fresh export JSON explicit you field; no source model hash",
+      "independent_review_sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+      "legal_indices": [
+        2657,
+        2666,
+        3186,
+        3178
+      ],
+      "matching_teacher_rows": [],
+      "model_sha256": "UNKNOWN",
+      "observation_float16_sha256": "563c13524535e8b3bb129e71810795a3a65bd2594d45187b8a741caa794ccbb8",
+      "outside_selected_probability_after": 0.0,
+      "outside_selected_probability_before": null,
+      "own_turn_winning_indices": [],
+      "ply": 37,
+      "projection": "uniform over independently certified set; no teacher",
+      "proof_sha256": "4541b940d7142ce887d19ba6778ea2b72ef45f02df6f7ec39a239c2ec739e331",
+      "protocol_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+      "raw_model_identity": "UNKNOWN",
+      "round": 10,
+      "rows": 1,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn",
+      "source_extension": "EXPORT6_ONE_ENEMY_TURN",
+      "source_game_json_sha256": "f6351e120c8f81950b460e67761cb0930e8e705db52b4c06e01b715ad515a731",
+      "source_npz": "codex/matches/export6/user-five-v1/19255-hard.npz",
+      "source_npz_row": 0,
+      "source_npz_sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "teacher": null,
+      "teacher_mass_on_admissible": null,
+      "teacher_model_sha256_current_verified": null,
+      "teacher_source": "NONE",
+      "team": "CYAN",
+      "unsafe_probability_after": 0.0,
+      "unsafe_probability_before": null,
+      "unsafe_probability_before_status": "UNKNOWN",
+      "user_result": "LOSS",
+      "user_team": "CYAN"
     }
   ],
-  "report_file": "report-150fdf48d7fec80d0c67.json",
-  "report_sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
-  "rows": 26,
-  "run_id": "150fdf48d7fec80d0c67",
+  "report_file": "report-0b925f9116a7662d0710.json",
+  "report_sha256": "f9275f51e5897ab9df44f262c315299876930479e6e376618652723c272a9fba",
+  "rows": 29,
+  "run_id": "0b925f9116a7662d0710",
   "scope": "Exact own-turn wins take priority; otherwise bounded next-turn safety only. No full-game optimality claim.",
   "skipped": [
     {
@@ -2847,11 +3083,50 @@
       "team": "CYAN",
       "user_result": "LOSS",
       "user_team": "CYAN"
+    },
+    {
+      "actions_left": 1,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "analysis_baseline_model_sha256": null,
+      "analyzed_actor": "CYAN",
+      "bounded_safe_indices": [],
+      "certificate_kind": "bounded_next_opponent_turn_safe",
+      "derived_protocol_file_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+      "game_id": "19255",
+      "group": "site-game-19255",
+      "identity_basis": "Exact protocol equality with fresh export JSON explicit you field; no source model hash",
+      "independent_review_sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+      "legal_indices": [
+        2137,
+        2153,
+        2146,
+        3177,
+        3186,
+        3178
+      ],
+      "model_sha256": "UNKNOWN",
+      "observation_float16_sha256": "1fb897d4d19c5d0ec5d972fe761153b18f8df8852b7529779e5fe8b85d3b32eb",
+      "own_turn_winning_indices": [],
+      "ply": 38,
+      "proof_sha256": "441b54e5e4457d39ddf31ed2df212b6b673bb92931694153b50e2f9416b20f62",
+      "protocol_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+      "raw_model_identity": "UNKNOWN",
+      "reason": "No admissible action within the certified bound; earlier recoverable hard snapshot processed separately",
+      "round": 10,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn",
+      "source_extension": "EXPORT6_ONE_ENEMY_TURN",
+      "source_game_json_sha256": "f6351e120c8f81950b460e67761cb0930e8e705db52b4c06e01b715ad515a731",
+      "source_npz": "codex/matches/export6/user-five-v1/19255-hard.npz",
+      "source_npz_row": 1,
+      "source_npz_sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22",
+      "team": "CYAN",
+      "user_result": "LOSS",
+      "user_team": "CYAN"
     }
   ],
-  "skipped_no_admissible_rows": 19,
+  "skipped_no_admissible_rows": 20,
   "split_rule": "Keep whole source game group together across every split; do not treat repaired plies as independent games.",
-  "teacher_backed_rows": 10,
+  "teacher_backed_rows": 11,
   "value_contract": "All rows has_value=False,q_valid=False,z=q=0,left=1,has_pol=True",
   "version": 1
 }

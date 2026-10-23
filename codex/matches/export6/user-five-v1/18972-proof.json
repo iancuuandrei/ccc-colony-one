@@ -1,0 +1,445 @@
+{
+  "game_id": "18972",
+  "user_team": "CYAN",
+  "winner": "MAGENTA",
+  "group": "site-game-18972",
+  "source_model": "UNKNOWN: export has no per-match model hash",
+  "played_at": "2026-10-23T15:53:45+00:00",
+  "raw_supplied": "D:\\Downloads\\match-18972.txt",
+  "raw_sha256": "5d1f3487cdee120770c30e8f70d13c69051b1fa37e024f771a261e495565dbba",
+  "export_sha256": "f6351e120c8f81950b460e67761cb0930e8e705db52b4c06e01b715ad515a731",
+  "supplied_txt_equals_export_protocol": "PASS_LINE_EXACT",
+  "replay": "PASS_COMPLETE_EPISODE",
+  "total_actions": 64,
+  "own_actions_checked": 32,
+  "records": [
+    {
+      "game_id": "18972",
+      "action": 62,
+      "kind": "ALLOWED_ENEMY_TERMINAL_WIN",
+      "played": "C4->C3",
+      "played_piece": "TRACE",
+      "immediate_terminal_cause": null,
+      "typed_witness": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            3,
+            4
+          ],
+          "notation": "E4->E5",
+          "kind": "move",
+          "piece": "ICE",
+          "capture": null,
+          "actual_target": null,
+          "terminal_cause": null
+        },
+        {
+          "fr": [
+            3,
+            4
+          ],
+          "to": [
+            3,
+            2
+          ],
+          "notation": "E5->C5",
+          "kind": "move",
+          "piece": "ICE",
+          "capture": "KERNEL",
+          "actual_target": [
+            3,
+            2
+          ],
+          "terminal_cause": "kernel_capture"
+        }
+      ],
+      "admissible_count": 1,
+      "total": 10,
+      "alternatives": [
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            2,
+            2
+          ],
+          "notation": "C5->C6",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                3,
+                5
+              ],
+              "to": [
+                2,
+                5
+              ],
+              "notation": "F5->F6",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                4,
+                4
+              ],
+              "to": [
+                2,
+                2
+              ],
+              "notation": "E4->C6",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            3,
+            1
+          ],
+          "notation": "C5->B5",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                3,
+                5
+              ],
+              "to": [
+                2,
+                5
+              ],
+              "notation": "F5->F6",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                2,
+                5
+              ],
+              "to": [
+                1,
+                5
+              ],
+              "notation": "F6->F7",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "notation": "C5->D5",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                4,
+                4
+              ],
+              "to": [
+                4,
+                2
+              ],
+              "notation": "E4->C4",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                4,
+                2
+              ],
+              "to": [
+                3,
+                3
+              ],
+              "notation": "C4->D5",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            2,
+            1
+          ],
+          "notation": "C5->B6",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                3,
+                5
+              ],
+              "to": [
+                2,
+                5
+              ],
+              "notation": "F5->F6",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                2,
+                5
+              ],
+              "to": [
+                1,
+                5
+              ],
+              "notation": "F6->F7",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            2,
+            3
+          ],
+          "notation": "C5->D6",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                3,
+                5
+              ],
+              "to": [
+                3,
+                4
+              ],
+              "notation": "F5->E5",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                3,
+                4
+              ],
+              "to": [
+                2,
+                3
+              ],
+              "notation": "E5->D6",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            4,
+            1
+          ],
+          "notation": "C5->B4",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                3,
+                5
+              ],
+              "to": [
+                2,
+                5
+              ],
+              "notation": "F5->F6",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                2,
+                5
+              ],
+              "to": [
+                1,
+                5
+              ],
+              "notation": "F6->F7",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            3,
+            2
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "C5->D4",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                4,
+                4
+              ],
+              "to": [
+                4,
+                3
+              ],
+              "notation": "E4->D4",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                4,
+                4
+              ],
+              "to": [
+                4,
+                3
+              ],
+              "notation": "E4->D4",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            4,
+            2
+          ],
+          "to": [
+            5,
+            2
+          ],
+          "notation": "C4->C3",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                4,
+                4
+              ],
+              "to": [
+                3,
+                4
+              ],
+              "notation": "E4->E5",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                3,
+                4
+              ],
+              "to": [
+                3,
+                2
+              ],
+              "notation": "E5->C5",
+              "kind": "move"
+            }
+          ]
+        },
+        {
+          "fr": [
+            4,
+            2
+          ],
+          "to": [
+            4,
+            1
+          ],
+          "notation": "C4->B4",
+          "kind": "move",
+          "safe": true,
+          "witness": null
+        },
+        {
+          "fr": [
+            4,
+            2
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "C4->D4",
+          "kind": "move",
+          "safe": false,
+          "witness": [
+            {
+              "fr": [
+                4,
+                4
+              ],
+              "to": [
+                4,
+                3
+              ],
+              "notation": "E4->D4",
+              "kind": "move"
+            },
+            {
+              "fr": [
+                4,
+                3
+              ],
+              "to": [
+                3,
+                2
+              ],
+              "notation": "D4->C5",
+              "kind": "move"
+            }
+          ]
+        }
+      ],
+      "preceding_action": 61,
+      "preceding_safe_starts": null,
+      "first_alternatives": []
+    }
+  ],
+  "hard_npz": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\18972-hard.npz",
+  "hard_npz_sha256": "119c118ecd246b3ea6b20e4c43cb9cf4985a555172acea4000ac027d886fc2fb",
+  "hard_states": [
+    {
+      "action": 62,
+      "mask_kind": "BOUNDED_NEXT_ENEMY_TURN_SAFE",
+      "legal_count": 10,
+      "admissible_count": 1
+    }
+  ],
+  "scope": "Exact current own-turn wins; next-enemy-turn terminal-win avoidance, with own first-action safe completions. Bounded safety is not eventual victory. No model diagnostics or 800-sim search."
+}

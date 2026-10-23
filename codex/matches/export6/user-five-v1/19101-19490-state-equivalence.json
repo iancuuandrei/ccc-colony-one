@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "game_id": "19101",
+      "raw_sha256": "a545ac46fc49db2009957594f2ec55adea6d7e6e0b0ab2ccbaed1d9a2e282289"
+    },
+    {
+      "game_id": "19490",
+      "raw_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb"
+    }
+  ],
+  "states": [
+    {
+      "action": 63,
+      "full_deterministic_state_equal": true,
+      "observation_equal": true,
+      "state_sha256": "a7e47516cecb68799bec15ce893409cde7b0b692cee36c3bd295b3c649027ae4",
+      "observation_sha256": "08e272fc45edccda9a9f783709b4d8454759b9ba7bd60506db7e91ce36529c8e",
+      "legal_indices_equal": true
+    },
+    {
+      "action": 65,
+      "full_deterministic_state_equal": true,
+      "observation_equal": true,
+      "state_sha256": "92427555fa4520102db42a593666c42f980584c4a65fbd5a0730440a792bf306",
+      "observation_sha256": "998474f1d3d288956df8047b0d207855a2167ab1bafe1c417ef65b87f3ddd5d2",
+      "legal_indices_equal": true
+    },
+    {
+      "action": 67,
+      "full_deterministic_state_equal": true,
+      "observation_equal": true,
+      "state_sha256": "4b98894cde8103fb94e59c882ad5967095c79fd6317f03d1f6fb3ed52617ec95",
+      "observation_sha256": "585aa4c0a40abad500b018bc92bace6e1239aecc9e4443898d7232d3bb27149e",
+      "legal_indices_equal": true
+    },
+    {
+      "action": 68,
+      "full_deterministic_state_equal": true,
+      "observation_equal": true,
+      "state_sha256": "d5a49250bd123776d24e50b94cd4afb906a30bed6aa11cd94fb88cf507bbf498",
+      "observation_sha256": "63c4d53d36b9b260496c93e56cd7a019cc584dff92eec6b51882562ec00cb1ee",
+      "legal_indices_equal": true
+    },
+    {
+      "action": 71,
+      "full_deterministic_state_equal": true,
+      "observation_equal": true,
+      "state_sha256": "db236eb53062f258ae5e26f1be850d4c755c5a0f45418ad7bc7c2b6d7a503282",
+      "observation_sha256": "ded27187c33fce188587876915f7b18f6d283215a7a351bcaaad4b7673c9f58b",
+      "legal_indices_equal": true
+    },
+    {
+      "action": 72,
+      "full_deterministic_state_equal": true,
+      "observation_equal": true,
+      "state_sha256": "13a9ba1a381712b6b7ac8ecb39b56caae304be2d75247a84c783eae39c5f157f",
+      "observation_sha256": "d1303717685d95296327e1bbc78dc03ee275e786cb3c712242888d9737eec454",
+      "legal_indices_equal": true
+    }
+  ],
+  "proof_reuse": "PASS",
+  "equivalence_group": "site-ending-19101-19490",
+  "split_rule": "Link site-game-19101 and site-game-19490 for state-derived proof counts and train/holdout splitting; two source games, one repeated ending.",
+  "excluded": "PRNG state: no stochastic game transitions; all deterministic board internals, piece flags, phase, clocks, action number and source scene are compared."
+}

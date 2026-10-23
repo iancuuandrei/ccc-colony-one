@@ -1,0 +1,44 @@
+{
+  "status": "PASS_CURRENT_LENGTH_DEFAULTS_TRAIN_HOLDOUT_GRADIENTS_AND_DEDUP",
+  "train_sha256": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+  "staged_chunk_sha256": "9e0c9989b16589411681cc8eb65e1e969a5fd9ff00a6122d7ffe9cbce764e6e1",
+  "independent_engine_report_sha256": "b07934bd0678f60e08637f6e75c10076446e32fcc824926f739b0ac9d6595252",
+  "gradient": [
+    {
+      "mode": "train",
+      "exact_value_unknown_length_rows": 14,
+      "unknown_length_gradient": 0,
+      "exact_value_gradient_retained": true,
+      "known_length_unknown_value_rows": 2,
+      "known_length_gradient_retained": true,
+      "length_normalization": "PASS"
+    },
+    {
+      "mode": "holdout",
+      "exact_value_unknown_length_rows": 14,
+      "unknown_length_gradient": 0,
+      "exact_value_gradient_retained": true,
+      "known_length_unknown_value_rows": 2,
+      "known_length_gradient_retained": true,
+      "length_normalization": "PASS"
+    }
+  ],
+  "actual_holdout_branch_executed": true,
+  "production_train_and_holdout_pass_explicit_length_mask": true,
+  "defaults": {
+    "legacy_selfplay": true,
+    "undeclared_external": false,
+    "explicit_external_true_preserved": true
+  },
+  "dedup": {
+    "excluded_chunk_bytes_preserved": true,
+    "excluded_raw_folder_not_in_intake": true,
+    "rs_policy_folder_retained": true,
+    "external_rows_before_release": 7935
+  },
+  "holdout_frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+  "source_stage_unchanged": true,
+  "no_models_or_training": true,
+  "pval_g_audit_owner": "onnx_validation",
+  "nonblocking_limit": "Mixed holdout value metric aggregation still weights chunk-batch means by all rows; current normal selfplay holdout has all value rows, and this does not change per-row loss masks."
+}

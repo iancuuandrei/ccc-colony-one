@@ -1,0 +1,441 @@
+{
+  "status": "STAGED_REVIEWABLE_NOT_RELEASED",
+  "live_ext_release": false,
+  "rows": [
+    {
+      "position_id": "site-ending-19101-19490:pre68",
+      "source_group": "site-ending-19101-19490",
+      "source_aliases": [
+        "19101",
+        "19490"
+      ],
+      "action_number": 68,
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 1,
+        "round": 17,
+        "action": 68,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "E6",
+            "rc": [
+              2,
+              4
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "F6",
+            "rc": [
+              2,
+              5
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "EXPLOIT",
+            "square": "C4",
+            "rc": [
+              4,
+              2
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "E3",
+            "rc": [
+              5,
+              4
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "observation_float32_sha256": "63c4d53d36b9b260496c93e56cd7a019cc584dff92eec6b51882562ec00cb1ee",
+      "observation_float16_sha256": "572cb58e96610a98b825bc03a40403baaca681a0d44454afca0e584c11c4ff5a",
+      "legal_indices": [
+        2787,
+        2796,
+        2788,
+        2786,
+        2722
+      ],
+      "certified_safe_indices": [
+        2786
+      ],
+      "certificate_scope": "own remainder, enemy turn, own turn, second enemy turn",
+      "has_pol": true,
+      "has_value": false,
+      "q_valid": false,
+      "has_length": false,
+      "length_target": 1.0,
+      "length_semantics": "UNKNOWN; 1 is masked placeholder",
+      "value_target": 0.0,
+      "value_semantics": "UNKNOWN eventual value; 0 is masked placeholder",
+      "policy_semantics": "one-hot unique fully classified bounded-safe action 2786; identical pval_g"
+    },
+    {
+      "position_id": "site-ending-19101-19490:pre71",
+      "source_group": "site-ending-19101-19490",
+      "source_aliases": [
+        "19101",
+        "19490"
+      ],
+      "action_number": 71,
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 2,
+        "round": 18,
+        "action": 71,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "E6",
+            "rc": [
+              2,
+              4
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "F5",
+            "rc": [
+              3,
+              5
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "E4",
+            "rc": [
+              4,
+              4
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "EXPLOIT",
+            "square": "E3",
+            "rc": [
+              5,
+              4
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "observation_float32_sha256": "ded27187c33fce188587876915f7b18f6d283215a7a351bcaaad4b7673c9f58b",
+      "observation_float16_sha256": "f69cf9cc89279880e00148f827bad613049b5a2dc6ffa795f7b938ce306fe96c",
+      "legal_indices": [
+        2787,
+        2796,
+        2794,
+        2788,
+        2218,
+        2202,
+        2211
+      ],
+      "certified_safe_indices": [],
+      "certificate_scope": "all own completions lose within next enemy turn",
+      "has_pol": false,
+      "has_value": true,
+      "q_valid": false,
+      "has_length": true,
+      "length_target": 4.0,
+      "length_semantics": "recorded remaining actions including current action, not an optimal-mate-distance claim",
+      "value_target": -1.0,
+      "value_semantics": "exact forced loss for current actor",
+      "policy_semantics": "no policy supervision; all legal pidx retained with zero pval/pval_g"
+    },
+    {
+      "position_id": "site-ending-19101-19490:pre72",
+      "source_group": "site-ending-19101-19490",
+      "source_aliases": [
+        "19101",
+        "19490"
+      ],
+      "action_number": 72,
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 1,
+        "round": 18,
+        "action": 72,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "E6",
+            "rc": [
+              2,
+              4
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "F6",
+            "rc": [
+              2,
+              5
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "E4",
+            "rc": [
+              4,
+              4
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "EXPLOIT",
+            "square": "E3",
+            "rc": [
+              5,
+              4
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31,
+          32,
+          33,
+          38,
+          39,
+          40,
+          41,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "observation_float32_sha256": "d1303717685d95296327e1bbc78dc03ee275e786cb3c712242888d9737eec454",
+      "observation_float16_sha256": "22a3d35d9df0753afb574473fa342cd0d7a0523a6b7d23029bb84822a746e7f3",
+      "legal_indices": [
+        2787,
+        2796,
+        2788,
+        2786,
+        2722
+      ],
+      "certified_safe_indices": [],
+      "certificate_scope": "all own completions lose within next enemy turn",
+      "has_pol": false,
+      "has_value": true,
+      "q_valid": false,
+      "has_length": true,
+      "length_target": 3.0,
+      "length_semantics": "recorded remaining actions including current action, not an optimal-mate-distance claim",
+      "value_target": -1.0,
+      "value_semantics": "exact forced loss for current actor",
+      "policy_semantics": "no policy supervision; all legal pidx retained with zero pval/pval_g"
+    }
+  ],
+  "chunk": "codex\\synthetic\\validation\\deep19490-stage\\ext_deep19490_proposal\\chunk0000.npz",
+  "chunk_sha256": "42e9d162b2e4105d1f8e5bec262ce62e7813d1d0a57cd506666191ff6c349bc0",
+  "source_game_count": 2,
+  "unique_certified_ending_count": 1,
+  "supervised_rows": 3,
+  "duplication": "19101 complete raw-outcome coverage already exists in data/ext_site_v1/chunk-site-19101.npz (74 rows); these3 exact obs occur at0based67/70/71. No19490 raw outcome import. Intentional certified emphasis, not3 fresh independent samples.",
+  "split_rule": "Link source groups site-game-19101,site-game-19490 and site-ending-19101-19490 for split and weighting; do not count this ending twice.",
+  "existing_overlap": [
+    {
+      "file": "data/ext_site_v1/chunk-site-19101.npz",
+      "file_sha256": "99277f927d197db5f316cc7fa8bd1589755027ea5aacac7ede3511ff2edd5da1",
+      "row": 67,
+      "proposal_action": 68,
+      "has_pol": false,
+      "has_value": true,
+      "q_valid": false,
+      "z": -1.0,
+      "q": -1.0,
+      "pval_total_mass": 0.0,
+      "pval_safe2786_mass": 0.0,
+      "pval_certified_unsafe_mass": 0.0
+    },
+    {
+      "file": "data/ext_site_v1/chunk-site-19101.npz",
+      "file_sha256": "99277f927d197db5f316cc7fa8bd1589755027ea5aacac7ede3511ff2edd5da1",
+      "row": 70,
+      "proposal_action": 71,
+      "has_pol": false,
+      "has_value": true,
+      "q_valid": false,
+      "z": -1.0,
+      "q": -1.0,
+      "pval_total_mass": 0.0
+    },
+    {
+      "file": "data/ext_site_v1/chunk-site-19101.npz",
+      "file_sha256": "99277f927d197db5f316cc7fa8bd1589755027ea5aacac7ede3511ff2edd5da1",
+      "row": 71,
+      "proposal_action": 72,
+      "has_pol": false,
+      "has_value": true,
+      "q_valid": false,
+      "z": -1.0,
+      "q": -1.0,
+      "pval_total_mass": 0.0
+    }
+  ],
+  "bindings": {
+    "codex\\matches\\19490\\critical-states.npz": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d",
+    "codex\\matches\\19490\\critical-states.json": "381f5b4132de5a0bfaf39d581e8b42a784baf1ce3c3c3444be2cc99a58ed4cc3",
+    "codex\\matches\\19490\\deep-proofs.json": "7809f9b9cb306d2499f53ea9fba14679ef2d8daa7dfe9fffdc1f5fcdc3943132",
+    "codex\\synthetic\\validation\\loss19490-independent\\proof.json": "5513842e9e2c53066ff5130e5d9e03872db43bbbfde4728821a1ceb47fa2e114",
+    "codex\\matches\\export6\\user-five-v1\\19101-19490-state-equivalence.json": "2b262f7cebef1305b210e9439314fc77a7e2ba0aae359222856948f43a6999bf",
+    "train.py": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+    "codex\\synthetic\\validation\\deep19490-stage\\build_stage.py": "f2c0d5825a28c2dadeaf51e21b47b4ad1a867cf07fea51ea12484b0d2c18b2a7"
+  },
+  "loader_audit": {
+    "status": "PASS",
+    "method": "AST-extracted current train.load/apply_overrides/KEYS; exact masks and pval_g retained; is_ext=True; has_npol=False; policy mix0/.5/1 invariant",
+    "train_sha256": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3"
+  },
+  "integration_blocker": "Append-only is insufficient when same observations have contradictory approximate policy/Q rows. Opus+onnx_validation must coordinate source-qualified, observation-keyed precedence supporting policy-only and value-only modes; existing policy-only single manifest cannot silently represent both."
+}

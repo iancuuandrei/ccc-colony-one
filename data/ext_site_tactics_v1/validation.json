@@ -1,195 +1,152 @@
 {
   "data_validation": "PASS",
-  "published_rows": 26,
-  "old19_chunk_bytes_and_observation_keys": "PASS_UNCHANGED",
-  "new_rows": [
+  "published_rows": 29,
+  "old26_chunks_byte_identical": "PASS",
+  "new_export6_rows": [
     {
-      "game_id": "16056",
+      "game_id": "18587",
       "ply": 36,
-      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
-      "target_source": "PROOF_ONLY_UNIFORM",
-      "unsafe_probability_before": null,
-      "teacher_model_sha256_current_verified": null
-    },
-    {
-      "game_id": "14009",
-      "ply": 33,
-      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
-      "target_source": "PROOF_ONLY_UNIFORM",
-      "unsafe_probability_before": null,
-      "teacher_model_sha256_current_verified": null
-    },
-    {
-      "game_id": "13352",
-      "ply": 34,
-      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
-      "target_source": "PROOF_ONLY_UNIFORM",
-      "unsafe_probability_before": null,
-      "teacher_model_sha256_current_verified": null
-    },
-    {
-      "game_id": "15116",
-      "ply": 31,
-      "actor_attribution": "OPPONENT_ERROR_IN_OUR_WIN",
+      "legal_indices": [
+        3307,
+        3316,
+        3314,
+        3308,
+        3306,
+        2153,
+        2137,
+        2146,
+        2124
+      ],
+      "bounded_safe_indices": [
+        3306
+      ],
+      "teacher_source": "EXISTING_800SIM",
       "target_source": "TEACHER_CONDITIONAL_PROJECTION",
-      "unsafe_probability_before": 0.6700615659258919,
-      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+      "unsafe_probability_before": 0.9700059976562418,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn"
     },
     {
-      "game_id": "15116",
-      "ply": 35,
-      "actor_attribution": "OPPONENT_ERROR_IN_OUR_WIN",
-      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
-      "unsafe_probability_before": 0.5574951171875,
-      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+      "game_id": "18972",
+      "ply": 62,
+      "legal_indices": [
+        1682,
+        1689,
+        1691,
+        1681,
+        1683,
+        1697,
+        1699,
+        2218,
+        2209,
+        2211
+      ],
+      "bounded_safe_indices": [
+        2209
+      ],
+      "teacher_source": "NONE",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "unsafe_probability_before": null,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn"
     },
+    {
+      "game_id": "19255",
+      "ply": 37,
+      "legal_indices": [
+        2657,
+        2666,
+        3186,
+        3178
+      ],
+      "bounded_safe_indices": [
+        2666,
+        3186
+      ],
+      "teacher_source": "NONE",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "unsafe_probability_before": null,
+      "safe_completion_quantifier": "EXISTS remaining own-turn completion, then NO enemy terminal win on the immediately following enemy turn"
+    }
+  ],
+  "exact_observation_dedup": "PASS_29_UNIQUE_KEYS",
+  "independent_review_sha256": "5eba20b306ecca4612f71a58ea48933348d9d8db4661c5702f05db9d20a67986",
+  "actual_loader_rows": 2490,
+  "actual_loader_rs_replacements": [
     {
       "game_id": "14621",
       "ply": 63,
-      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
-      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
-      "unsafe_probability_before": 0.8375182609823361,
-      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+      "source_row": 100,
+      "excluded_probability_all_mix_coefficients": 0.0
     },
     {
       "game_id": "14878",
       "ply": 36,
-      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
-      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
-      "unsafe_probability_before": 0.8024778018330775,
-      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
-    }
-  ],
-  "new_teacher_backed_rows": 4,
-  "new_proof_only_uniform_rows": 3,
-  "total_teacher_backed_rows": 10,
-  "total_proof_only_rows": 16,
-  "no_admissible_skipped_total": 19,
-  "single_active_override_manifest": "PASS",
-  "source_routing_folders": [
-    "data/ext_site_gen05_losses_rs",
-    "data/ext_site_v1_rs"
-  ],
-  "actual_loader_primary_policy_replacements": [
+      "source_row": 139,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "15116",
+      "ply": 31,
+      "source_row": 264,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "15116",
+      "ply": 35,
+      "source_row": 268,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "18587",
+      "ply": 36,
+      "source_row": 493,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
     {
       "game_id": "7525",
       "ply": 26,
-      "source_row": 1680
+      "source_row": 2176,
+      "excluded_probability_all_mix_coefficients": 0.0
     },
     {
       "game_id": "7658",
       "ply": 55,
-      "source_row": 1737
-    },
-    {
-      "game_id": "8079",
-      "ply": 30,
-      "source_row": 1808
-    },
-    {
-      "game_id": "8185",
-      "ply": 42,
-      "source_row": 1872
-    },
-    {
-      "game_id": "8228",
-      "ply": 35,
-      "source_row": 1909
-    },
-    {
-      "game_id": "8443",
-      "ply": 30,
-      "source_row": 1962
-    },
-    {
-      "game_id": "14621",
-      "ply": 63,
-      "source_row": 2065
-    },
-    {
-      "game_id": "14878",
-      "ply": 36,
-      "source_row": 2104
-    },
-    {
-      "game_id": "15116",
-      "ply": 31,
-      "source_row": 2229
-    },
-    {
-      "game_id": "15116",
-      "ply": 35,
-      "source_row": 2233
-    }
-  ],
-  "actual_loader_primary_policy_and_value_Q_masks": "PASS",
-  "raw_outcome_folders_untouched": "PASS",
-  "future26_routing_fixture": "PASS_IN_MEMORY_ONLY",
-  "gumbel_alternate_target_guard": "FAIL_FOR_NONZERO_POLICY_MIX: current trainer does not override pval_g; replacement metadata now supplies certified pval_g",
-  "gumbel_fixture_failures": [
-    {
-      "source_row": 1680,
-      "game_id": "7525",
-      "ply": 26,
-      "excluded_mass_at_policy_mix_0_5": 0.041880130767822266
-    },
-    {
-      "source_row": 1737,
-      "game_id": "7658",
-      "ply": 55,
-      "excluded_mass_at_policy_mix_0_5": 0.4099855422973633
-    },
-    {
-      "source_row": 1808,
-      "game_id": "8079",
-      "ply": 30,
-      "excluded_mass_at_policy_mix_0_5": 0.47683143615722656
-    },
-    {
-      "source_row": 1872,
-      "game_id": "8185",
-      "ply": 42,
-      "excluded_mass_at_policy_mix_0_5": 0.3475341796875
-    },
-    {
-      "source_row": 1909,
-      "game_id": "8228",
-      "ply": 35,
-      "excluded_mass_at_policy_mix_0_5": 0.4468994140625
-    },
-    {
-      "source_row": 1962,
-      "game_id": "8443",
-      "ply": 30,
-      "excluded_mass_at_policy_mix_0_5": 0.48250246047973633
-    },
-    {
-      "source_row": 2065,
-      "game_id": "14621",
-      "ply": 63,
-      "excluded_mass_at_policy_mix_0_5": 0.23750877380371094
-    },
-    {
-      "source_row": 2104,
-      "game_id": "14878",
-      "ply": 36,
-      "excluded_mass_at_policy_mix_0_5": 0.4993433952331543
-    },
-    {
-      "source_row": 2229,
-      "game_id": "15116",
-      "ply": 31,
-      "excluded_mass_at_policy_mix_0_5": 0.3481712341308594
-    },
-    {
       "source_row": 2233,
-      "game_id": "15116",
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "8079",
+      "ply": 30,
+      "source_row": 2304,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "8185",
+      "ply": 42,
+      "source_row": 2368,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "8228",
       "ply": 35,
-      "excluded_mass_at_policy_mix_0_5": 0.32501220703125
+      "source_row": 2405,
+      "excluded_probability_all_mix_coefficients": 0.0
+    },
+    {
+      "game_id": "8443",
+      "ply": 30,
+      "source_row": 2458,
+      "excluded_probability_all_mix_coefficients": 0.0
     }
   ],
-  "trainer_edit": "NONE; Opus must apply alternate target metadata",
-  "trainer_sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
-  "manifest_sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
-  "override_sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c"
+  "actual_pval_g_mix_guard": "PASS: current implementation preserves certificates for mix0,0.25,0.5,1",
+  "current_policy_rows_value_Q_length_masks": "PASS",
+  "length_gradient_qualification": "OWNED_BY_TRAINING_AUDIT_NOT_DUPLICATED",
+  "raw_folder_guard_fixture": "PASS_NO_REPLACEMENT",
+  "future29_route_fixture": "PASS_IN_MEMORY_ONLY_NOT_NEW_TEACHER_DATA",
+  "single_active_override_manifest": "PASS",
+  "trainer_sha256": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+  "trainer_edit": "NONE",
+  "excluded_deeper_states": "19490/19101 and19040 deeper horizons not added",
+  "manifest_sha256": "ecf432d91797181893f28d68e0b20f6e057650a683839eda1276c3fc858996de",
+  "override_sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822"
 }

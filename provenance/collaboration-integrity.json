@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "Artifact hash bindings; not a new playing-strength test or fresh certificate run",
-  "immutable_pins": 313,
+  "immutable_pins": 407,
   "teacher_labels": 32,
   "constructed_curriculum_states": 224,
   "source_limitations": [
@@ -31,13 +31,14 @@
     },
     {
       "name": "ext_site_tactics_v1",
-      "rows": 26,
-      "policy_rows": 26,
+      "rows": 29,
+      "policy_rows": 29,
       "exact_value_rows": 0
     }
   ],
   "historical_six_row_snapshot": "PASS: exact archived hashes preserved",
   "historical_nineteen_row_snapshot": "PASS: exact archived hashes preserved",
+  "historical_twentysix_row_snapshot": "PASS: archived hashes and current chunk bytes preserved",
   "deep10910_two_row_snapshot": "PASS: chunk, proof, packet, loader audit and value/policy masks",
   "override_audit_captured_source_binding": {
     "train.py": {
@@ -85,10 +86,16 @@
   "export5_receipts": "PASS: 118 unique episodes / 4105 rows; bounded receipts only",
   "deep14958_two_value_rows": "PASS: exact chunk/proof/final-audit bindings, explicit value-only and observed-length masks",
   "preserved_numeric_audit": "PASS: source report covers GEN06 raw ORT outputs on 4105 observed states at batch 1/8/16; not a new execution",
-  "trainer_qualification": {
-    "primary_default_policy_overrides": "PASS in preserved source-specific report",
+  "historical_trainer_regressions": {
     "length_mask": "FAIL_UNKNOWN_LENGTH_RECEIVES_NONZERO_GRADIENT",
-    "nonzero_policy_mix": "FAIL_POLICY_MIX_REINTRODUCES_UNSAFE_TARGETS",
-    "scope": "Known failures pending Opus fixes; this sync changes no trainer or deployed model."
-  }
+    "nonzero_policy_mix": "FAIL_POLICY_MIX_REINTRODUCES_UNSAFE_TARGETS"
+  },
+  "trainer_qualification": {
+    "qualified_source": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+    "length_mask": "PASS_TRAIN_AND_HOLDOUT_GRADIENTS",
+    "policy_mix": "PASS_0_0.25_0.5_1",
+    "published28_loader": "PASS",
+    "scope": "Preserved source-specific fixed qualification; no historical model-build attribution, training or gradient execution by this sync."
+  },
+  "six_game_gen07_review": "PASS: frozen handoff, artifact-hash table, reviewed raw19490 source and diagnostic/staged mask bindings; no GEN07 model or deployment added"
 }

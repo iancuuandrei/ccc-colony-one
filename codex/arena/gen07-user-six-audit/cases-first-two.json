@@ -1,0 +1,82 @@
+[
+  {
+    "case_id": "19255/37",
+    "game_id": "19255",
+    "ply": 37,
+    "actor": "CYAN",
+    "user_team": "CYAN",
+    "source_path": "D:\\Downloads\\match-19255.txt",
+    "source_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+    "packet_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19255-hard.npz",
+    "packet_sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22",
+    "packet_row": 0,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "safe": "safe_start_mask"
+    },
+    "proof_files": [
+      "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19255-proof.json"
+    ],
+    "certificate_note": "BOUNDED_SAFE_FIRST_ACTION; empty support supplies no corrective action; historical model UNKNOWN"
+  },
+  {
+    "case_id": "19255/38",
+    "game_id": "19255",
+    "ply": 38,
+    "actor": "CYAN",
+    "user_team": "CYAN",
+    "source_path": "D:\\Downloads\\match-19255.txt",
+    "source_sha256": "4f32f8f79eebc7f83c9fe02d1776740853696cc44391031084fbca89e7748d2a",
+    "packet_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19255-hard.npz",
+    "packet_sha256": "42226f3c87829e6a49003ce870c5517d97537605c1559eed7031a7e9c024bd22",
+    "packet_row": 1,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "safe": "safe_start_mask"
+    },
+    "proof_files": [
+      "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19255-proof.json"
+    ],
+    "certificate_note": "BOUNDED_NEXT_ENEMY_TURN_SAFE; empty support supplies no corrective action; historical model UNKNOWN"
+  },
+  {
+    "case_id": "19101/71",
+    "game_id": "19101",
+    "ply": 71,
+    "actor": "MAGENTA",
+    "user_team": "MAGENTA",
+    "source_path": "D:\\Downloads\\match-19101.txt",
+    "source_sha256": "a545ac46fc49db2009957594f2ec55adea6d7e6e0b0ab2ccbaed1d9a2e282289",
+    "packet_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19101-hard.npz",
+    "packet_sha256": "82064934b50cea38a23a26b3758ed8258824745ffe2089cb04161492c848f263",
+    "packet_row": 0,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "safe": "safe_start_mask"
+    },
+    "proof_files": [
+      "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19101-proof.json"
+    ],
+    "certificate_note": "BOUNDED_SAFE_FIRST_ACTION; empty support supplies no corrective action; historical model UNKNOWN"
+  },
+  {
+    "case_id": "19101/72",
+    "game_id": "19101",
+    "ply": 72,
+    "actor": "MAGENTA",
+    "user_team": "MAGENTA",
+    "source_path": "D:\\Downloads\\match-19101.txt",
+    "source_sha256": "a545ac46fc49db2009957594f2ec55adea6d7e6e0b0ab2ccbaed1d9a2e282289",
+    "packet_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19101-hard.npz",
+    "packet_sha256": "82064934b50cea38a23a26b3758ed8258824745ffe2089cb04161492c848f263",
+    "packet_row": 1,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "safe": "safe_start_mask"
+    },
+    "proof_files": [
+      "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19101-proof.json"
+    ],
+    "certificate_note": "BOUNDED_NEXT_ENEMY_TURN_SAFE; empty support supplies no corrective action; historical model UNKNOWN"
+  }
+]

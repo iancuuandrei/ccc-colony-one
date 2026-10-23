@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "19040/93",
+    "game_id": "19040",
+    "ply": 93,
+    "actor": "CYAN",
+    "user_team": "CYAN",
+    "source_path": "D:\\Downloads\\match-19040.txt",
+    "source_sha256": "b954ce8e23523bba781dc9fa19dedaa19499d98d419e470316d3c0aac43a429c",
+    "packet_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19040-hard.npz",
+    "packet_sha256": "ab54cba2c963b5fa509c607cf1be6932f3c321e7af437cdcd122a644aa5a6f7a",
+    "packet_row": 0,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "safe": "safe_start_mask"
+    },
+    "proof_files": [
+      "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19040-proof.json"
+    ],
+    "certificate_note": "BOUNDED_SAFE_FIRST_ACTION; empty support supplies no corrective action; historical model UNKNOWN"
+  },
+  {
+    "case_id": "19040/94",
+    "game_id": "19040",
+    "ply": 94,
+    "actor": "CYAN",
+    "user_team": "CYAN",
+    "source_path": "D:\\Downloads\\match-19040.txt",
+    "source_sha256": "b954ce8e23523bba781dc9fa19dedaa19499d98d419e470316d3c0aac43a429c",
+    "packet_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19040-hard.npz",
+    "packet_sha256": "ab54cba2c963b5fa509c607cf1be6932f3c321e7af437cdcd122a644aa5a6f7a",
+    "packet_row": 1,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "safe": "safe_start_mask"
+    },
+    "proof_files": [
+      "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19040-proof.json"
+    ],
+    "certificate_note": "BOUNDED_NEXT_ENEMY_TURN_SAFE; empty support supplies no corrective action; historical model UNKNOWN"
+  }
+]

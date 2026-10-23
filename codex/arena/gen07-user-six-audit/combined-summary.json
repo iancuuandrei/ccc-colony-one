@@ -1,0 +1,62 @@
+{
+  "model_sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+  "queried_case_count": 12,
+  "reported_case_count_including_reused_aliases": 14,
+  "distinct_queried_observations": 10,
+  "queried_game_ids": [
+    "18587",
+    "18972",
+    "19040",
+    "19101",
+    "19255",
+    "19490"
+  ],
+  "duplicate_observation_groups": [
+    {
+      "observation_sha256": "585aa4c0a40abad500b018bc92bace6e1239aecc9e4443898d7232d3bb27149e",
+      "case_ids": [
+        "19101/67",
+        "19490/67"
+      ]
+    },
+    {
+      "observation_sha256": "63c4d53d36b9b260496c93e56cd7a019cc584dff92eec6b51882562ec00cb1ee",
+      "case_ids": [
+        "19101/68",
+        "19490/68"
+      ]
+    },
+    {
+      "observation_sha256": "ded27187c33fce188587876915f7b18f6d283215a7a351bcaaad4b7673c9f58b",
+      "case_ids": [
+        "19101/71",
+        "19490/71"
+      ]
+    },
+    {
+      "observation_sha256": "d1303717685d95296327e1bbc78dc03ee275e786cb3c712242888d9737eec454",
+      "case_ids": [
+        "19101/72",
+        "19490/72"
+      ]
+    }
+  ],
+  "missed_nonempty_certified_support_cases": [
+    "18587/36",
+    "18972/62",
+    "19101/68",
+    "19255/37",
+    "19490/68"
+  ],
+  "distinct_missed_nonempty_support_observations": 4,
+  "empty_support_forced_cases": [
+    "19040/93",
+    "19040/94",
+    "19101/71",
+    "19101/72",
+    "19255/38",
+    "19490/71",
+    "19490/72"
+  ],
+  "limitation": "State counterfactuals only. Existing safe first actions may still be followed by an unsafe actual second action. Bounded survival is not eventual victory. Historical model UNKNOWN."
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "case_id": "19490/67",
+    "game_id": "19490",
+    "ply": 67,
+    "actor": "MAGENTA",
+    "user_team": "UNKNOWN",
+    "source_path": "codex/matches/19490/match-19490.txt",
+    "source_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+    "packet_path": "codex/matches/19490/critical-states.npz",
+    "packet_sha256": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d",
+    "packet_row": 0,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "winning": "winning_mask",
+      "safe": "safe_mask",
+      "unsafe": "unsafe_mask",
+      "unknown": "unknown_mask",
+      "two_enemy_safe": "two_enemy_safe_mask",
+      "two_enemy_unsafe": "two_enemy_unsafe_mask",
+      "two_enemy_unknown": "two_enemy_unknown_mask"
+    },
+    "proof_files": [
+      "codex/matches/19490/critical-states.json",
+      "codex/matches/19490/deep-proofs.json"
+    ],
+    "deep_proof_path": "codex/matches/19490/deep-proofs.json",
+    "certificate_note": "One-enemy-turn and two-enemy-turn bounded safety; eventual values UNKNOWN. Pre71/72 all actions already forced losses."
+  },
+  {
+    "case_id": "19490/68",
+    "game_id": "19490",
+    "ply": 68,
+    "actor": "MAGENTA",
+    "user_team": "UNKNOWN",
+    "source_path": "codex/matches/19490/match-19490.txt",
+    "source_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+    "packet_path": "codex/matches/19490/critical-states.npz",
+    "packet_sha256": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d",
+    "packet_row": 1,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "winning": "winning_mask",
+      "safe": "safe_mask",
+      "unsafe": "unsafe_mask",
+      "unknown": "unknown_mask",
+      "two_enemy_safe": "two_enemy_safe_mask",
+      "two_enemy_unsafe": "two_enemy_unsafe_mask",
+      "two_enemy_unknown": "two_enemy_unknown_mask"
+    },
+    "proof_files": [
+      "codex/matches/19490/critical-states.json",
+      "codex/matches/19490/deep-proofs.json"
+    ],
+    "deep_proof_path": "codex/matches/19490/deep-proofs.json",
+    "certificate_note": "One-enemy-turn and two-enemy-turn bounded safety; eventual values UNKNOWN. Pre71/72 all actions already forced losses."
+  },
+  {
+    "case_id": "19490/71",
+    "game_id": "19490",
+    "ply": 71,
+    "actor": "MAGENTA",
+    "user_team": "UNKNOWN",
+    "source_path": "codex/matches/19490/match-19490.txt",
+    "source_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+    "packet_path": "codex/matches/19490/critical-states.npz",
+    "packet_sha256": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d",
+    "packet_row": 2,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "winning": "winning_mask",
+      "safe": "safe_mask",
+      "unsafe": "unsafe_mask",
+      "unknown": "unknown_mask",
+      "two_enemy_safe": "two_enemy_safe_mask",
+      "two_enemy_unsafe": "two_enemy_unsafe_mask",
+      "two_enemy_unknown": "two_enemy_unknown_mask"
+    },
+    "proof_files": [
+      "codex/matches/19490/critical-states.json",
+      "codex/matches/19490/deep-proofs.json"
+    ],
+    "deep_proof_path": "codex/matches/19490/deep-proofs.json",
+    "certificate_note": "One-enemy-turn and two-enemy-turn bounded safety; eventual values UNKNOWN. Pre71/72 all actions already forced losses."
+  },
+  {
+    "case_id": "19490/72",
+    "game_id": "19490",
+    "ply": 72,
+    "actor": "MAGENTA",
+    "user_team": "UNKNOWN",
+    "source_path": "codex/matches/19490/match-19490.txt",
+    "source_sha256": "d52cc466fa8e9ed53b91fe561022ff6056973d6f89f0a7035bb9e44e063e97cb",
+    "packet_path": "codex/matches/19490/critical-states.npz",
+    "packet_sha256": "333dbc28bfa7a06967c5267a0dc97e039ef9b0fb9c9a7e2d807d971b5a47495d",
+    "packet_row": 3,
+    "mask_fields": {
+      "legal": "legal_mask",
+      "winning": "winning_mask",
+      "safe": "safe_mask",
+      "unsafe": "unsafe_mask",
+      "unknown": "unknown_mask",
+      "two_enemy_safe": "two_enemy_safe_mask",
+      "two_enemy_unsafe": "two_enemy_unsafe_mask",
+      "two_enemy_unknown": "two_enemy_unknown_mask"
+    },
+    "proof_files": [
+      "codex/matches/19490/critical-states.json",
+      "codex/matches/19490/deep-proofs.json"
+    ],
+    "deep_proof_path": "codex/matches/19490/deep-proofs.json",
+    "certificate_note": "One-enemy-turn and two-enemy-turn bounded safety; eventual values UNKNOWN. Pre71/72 all actions already forced losses."
+  }
+]

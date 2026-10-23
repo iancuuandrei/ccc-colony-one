@@ -1,0 +1,10 @@
+{
+  "receipt_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\export6\\user-five-v1\\19101-19490-state-equivalence.json",
+  "receipt_sha256": "2b262f7cebef1305b210e9439314fc77a7e2ba0aae359222856948f43a6999bf",
+  "source_result_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\arena\\gen07-user-six-audit\\game19490-results.jsonl",
+  "source_result_sha256": "75f17a177d28410584bb6d8969bdb837e3263711a517621843e93c41a731893b",
+  "equivalence_group": "site-ending-19101-19490",
+  "harness_sha256": "d17ec04d79e43732bd1bb0bd55f1671abe5114760a3ea29564896955e074892a",
+  "new_inference_calls": 0,
+  "claim": "Two source games, one repeated ending; count identical states once."
+}

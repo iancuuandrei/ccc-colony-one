@@ -1,0 +1,18 @@
+{
+  "scope": "Frozen six-file review, source-specific fixed trainer qualification and bounded data publication; no model/training/website/CCC-OMNI mutation",
+  "deployed_release_unchanged": "GEN06",
+  "deployed_model_sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+  "handoff_sha256": "2bb467969847907f27c04a447899ff34ced9e24f9bcf65a696ff69c418442241",
+  "counterfactual_gen07_sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+  "historical_match_model_identity": "UNKNOWN unless individually sourced; GEN07 audit is counterfactual, not deployment evidence",
+  "tactical29_manifest_sha256": "ecf432d91797181893f28d68e0b20f6e057650a683839eda1276c3fc858996de",
+  "single_override_sha256": "4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822",
+  "old26": "Archived coherently; all current inherited chunk bytes unchanged",
+  "published28_chunk_sha256": "9e0c9989b16589411681cc8eb65e1e969a5fd9ff00a6122d7ffe9cbce764e6e1",
+  "fixed_trainer_evidence_sha256": "b2d4bdf6a0b17ff7c225c3c67ed2cfc562bf643224d557d770b40b68e39f6bb3",
+  "fixed_qualification": "PASS in preserved length-gradient and current mixed-policy receipts, scoped to that source; historical failing reports retained",
+  "deep19490": "Three rows staged outside live data/ext folders; diagnostic only, NOT TRAINING RELEASE",
+  "safe19255_children": "Stage-only independent receipt PASS,13 second actions/7372 complete enemy turns; zero live rows or overrides added",
+  "safe19255_receipt_sha256": "5d541cdfc10bc128436d543b16a1f79c18d8703f3fc2a0ff0e93a21a3caa61d6",
+  "limitations": "386 legal recorded actions and counterfactual diagnostics do not establish eventual safety, whole-tournament strength, historical build identity or GEN07 deployment. Shared repeated endings are not independent cases."
+}
