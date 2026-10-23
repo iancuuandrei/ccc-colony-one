@@ -1,0 +1,45 @@
+{
+  "status": "READY_INDEPENDENTLY_VERIFIED_TRAINING",
+  "rows": 2,
+  "chunk_sha256": "6fd955351da4676e58d0a7e48c0b32e7c6038a4c9c731d6b1dcd2672f43c93a3",
+  "source_group": "site-game-14958",
+  "source_group_aliases": [
+    "site:14958",
+    "14958"
+  ],
+  "source_model": "UNKNOWN",
+  "scope": "TERMINAL_LOSS_THROUGH_SECOND_FOLLOWING_OPPONENT_TURN",
+  "source_path": "D:\\Downloads\\match-14958.txt",
+  "source_sha256": "ea86a25da8f5e3667a9cef0293b656a20c0987c07ad0bc5bb84c21a8429e0a3a",
+  "source_packet_sha256": "501d877f1be086e3ba4338e88458fbba84f68ab50f957de3ce6ad552d76e9944",
+  "independent_proof_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\site_gen05_curriculum\\validation14958\\proof.json",
+  "independent_proof_sha256": "1680f7a165f66fac80336eb95b7724aa95d59c9db16e50784ebfbfcbd2b00afb",
+  "final_audit_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\validation\\deep14958-final\\report.json",
+  "final_audit_sha256": "55ae4d0acd20cc8a1003a9ea49a8638e4cbe58f500d67f166be669e849ceec77",
+  "records": [
+    {
+      "position_id": "14958-a37",
+      "source_group": "site-game-14958",
+      "legal_actions": 14,
+      "own_completions_bound_to_independent_proof": 208,
+      "left": 8,
+      "has_value": true,
+      "has_length": true,
+      "has_pol": false
+    },
+    {
+      "position_id": "14958-a38",
+      "source_group": "site-game-14958",
+      "legal_actions": 12,
+      "own_completions_bound_to_independent_proof": 12,
+      "left": 7,
+      "has_value": true,
+      "has_length": true,
+      "has_pol": false
+    }
+  ],
+  "policy_claim": "NONE: all legal actions already forced losing; value only, no fabricated policy preference.",
+  "length_provenance": "Observed remaining action count in the fully replayed44-action source episode, not a minimax duration.",
+  "duplicate_weighting": "These observations also occur in actual-outcome corpora; explicit certificate reinforcement is intentional, not two new independent games.",
+  "quarantine": "No frozen holdout inputs released; unrelated28-state curriculum remains staged."
+}

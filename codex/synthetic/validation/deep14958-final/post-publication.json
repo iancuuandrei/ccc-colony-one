@@ -1,0 +1,9 @@
+{
+  "status": "PASS_ACTUAL_PUBLISHED_PATH_LOADER",
+  "chunk_sha256": "6fd955351da4676e58d0a7e48c0b32e7c6038a4c9c731d6b1dcd2672f43c93a3",
+  "train_sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
+  "trainer_changed_since_regressions": false,
+  "has_length_in_current_loader": false,
+  "new28_source_hashes_unchanged": true,
+  "new28_ext_unpublished": true
+}

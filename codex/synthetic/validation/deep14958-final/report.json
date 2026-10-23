@@ -1,0 +1,37 @@
+{
+  "status": "PASS_FINAL_SCHEMA_PROVENANCE_AND_ACTUAL_LOADER",
+  "source_sha256": "ea86a25da8f5e3667a9cef0293b656a20c0987c07ad0bc5bb84c21a8429e0a3a",
+  "source_packet_sha256": "501d877f1be086e3ba4338e88458fbba84f68ab50f957de3ce6ad552d76e9944",
+  "source_json_sha256": "26c3eaf669d8bd6931f4bbb333e833873c6dea3c8eb4d8d8f6750743804e6da6",
+  "independent_proof_sha256": "1680f7a165f66fac80336eb95b7724aa95d59c9db16e50784ebfbfcbd2b00afb",
+  "independent_verifier_sha256": "f1b9afec432d97a90db43f46cff287b70c85253a8c1e90abd8bce69eb39dd426",
+  "train_sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
+  "loader_has_length_supported": false,
+  "length_compatibility": "Observed lengths8/7 are valid under either legacy has_value-coupled length loss or future separate has_length; no unknown-length placeholders here.",
+  "checks": [
+    {
+      "position_id": "14958-a37",
+      "source_group": "site-game-14958",
+      "legal_actions": 14,
+      "own_completions_bound_to_independent_proof": 208,
+      "left": 8,
+      "has_value": true,
+      "has_length": true,
+      "has_pol": false
+    },
+    {
+      "position_id": "14958-a38",
+      "source_group": "site-game-14958",
+      "legal_actions": 12,
+      "own_completions_bound_to_independent_proof": 12,
+      "left": 7,
+      "has_value": true,
+      "has_length": true,
+      "has_pol": false
+    }
+  ],
+  "holdout_frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+  "D4_holdout_intersections": 0,
+  "engine_proof": "Astra independent full-tree proof bound and all enumerated own completions legally replayed; no duplicate deeper search.",
+  "new28_quarantine_unchanged": true
+}

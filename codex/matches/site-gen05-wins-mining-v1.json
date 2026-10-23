@@ -1,0 +1,64 @@
+{
+  "baseline_sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e",
+  "winning_episodes": 20,
+  "own_actions": 390,
+  "own_turns": 195,
+  "records": [
+    {
+      "game_id": "15116",
+      "action": 33,
+      "analyzed_actor": "CYAN",
+      "actor_final_outcome": 1,
+      "played": "C6->C3",
+      "played_piece": "DAEMON",
+      "flags": [
+        {
+          "kind": "MISSED_CURRENT_TURN_WIN",
+          "typed_witness": [
+            {
+              "fr": [
+                2,
+                2
+              ],
+              "to": [
+                2,
+                5
+              ],
+              "notation": "C6->F6",
+              "kind": "move",
+              "piece": "DAEMON",
+              "capture": null,
+              "actual_target": null,
+              "terminal_cause": null
+            },
+            {
+              "fr": [
+                2,
+                5
+              ],
+              "to": [
+                3,
+                6
+              ],
+              "notation": "F6->G5",
+              "kind": "shoot",
+              "piece": "DAEMON",
+              "capture": "KERNEL",
+              "actual_target": [
+                3,
+                6
+              ],
+              "terminal_cause": "kernel_capture"
+            }
+          ]
+        }
+      ],
+      "baseline_selected": "C6->C3",
+      "baseline_keeps_win": false,
+      "baseline_allows_enemy_win": false,
+      "group": "site-game-15116",
+      "source_sha256": "7bd8860588d4af2e27b0b802848a98f72ef5d7ecca988040b8b3644595d6fe44"
+    }
+  ],
+  "scope": "Actual winning actors from confirmed winning user episodes. Current-turn and next-enemy-turn certificates only; baseline evaluation is counterfactual, not source-model identity."
+}

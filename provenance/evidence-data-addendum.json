@@ -1,0 +1,26 @@
+{
+  "scope": "Bounded evidence/data addendum; no model, trainer, website or CCC-OMNI source edits",
+  "deployed_release_unchanged": "GEN06",
+  "model_sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+  "site_tactics": {
+    "rows": 26,
+    "manifest_sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
+    "single_override_sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
+    "teacher_projected": 10,
+    "proof_only_uniform": 16,
+    "previous19_chunks": "BYTE_EXACT_PRESERVED; coherent historical dataset separately archived",
+    "primary_default_policy_overrides": "PASS",
+    "nonzero_policy_mix": "FAIL_PENDING_OPUS_FIX"
+  },
+  "deep14958": {
+    "rows": 2,
+    "chunk_sha256": "6fd955351da4676e58d0a7e48c0b32e7c6038a4c9c731d6b1dcd2672f43c93a3",
+    "targets": "Value only; both certified losses, no policy/Q target, observed lengths8/7",
+    "qualification": "Independent proof plus final schema/provenance/actual-loader check",
+    "unrelated28_state_packet": "EXCLUDED; not published as training-ready"
+  },
+  "new_site_tactical_audit": "Eight cases from six games; one certificate pass and seven remaining case failures",
+  "numeric_audit": "Source report PASS over4105 observed states at raw ORT batch1/8/16; no nonfinite policy/value or values outside[-1,1]. This sync did not rerun inference.",
+  "trainer_length_mask": "FAIL_PENDING_OPUS_FIX: captured trainer uses has_value for length auxiliary and ignores separate has_length",
+  "provenance_limits": "Source-specific reports do not establish historical generation-build source identity or that newly shared data trained GEN06. Staged28 and raw bulk inputs remain outside this addendum."
+}

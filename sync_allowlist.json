@@ -1327,7 +1327,9 @@
     },
     {
       "path": "codex/research/certified_policy_repair.py",
-      "source": "workspace/colony-one-level4/codex/research/certified_policy_repair.py"
+      "source": "workspace/colony-one-level4/codex/research/certified_policy_repair.py",
+      "sha256": "5e1f408da5efba1aa7a2af34a02d9da1bedd4b55646434833b63be9ff71388c9",
+      "snapshot_once": true
     },
     {
       "path": "codex/research/distillation-review.md",
@@ -1502,7 +1504,7 @@
       "snapshot_once": true
     },
     {
-      "sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
+      "sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest.json",
       "path": "data/ext_site_tactics_v1/manifest.json",
       "snapshot_once": true
@@ -1526,7 +1528,7 @@
       "snapshot_once": true
     },
     {
-      "sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276",
+      "sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides.json",
       "path": "data/ext_site_tactics_v1/policy-overrides.json",
       "snapshot_once": true
@@ -1580,7 +1582,7 @@
       "snapshot_once": true
     },
     {
-      "sha256": "a99d994c830c071eec777be3afd68c2cfcaaf032c110fd0d702c9605fc918a97",
+      "sha256": "f08c44ca05d3e412599d20a70daf7f5d75460fb1769d71a2282c3210300fe95e",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/summary.json",
       "path": "data/ext_site_tactics_v1/summary.json",
       "snapshot_once": true
@@ -1592,7 +1594,7 @@
       "snapshot_once": true
     },
     {
-      "sha256": "a1b8c4aa6b33bd80ab28475bd83549e5e3bb8072c734d140f9836b890e6e5fdb",
+      "sha256": "37eec7c46836ecb33913782c10068678dde6ea508da337a48dadb6b5a84a7119",
       "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation.json",
       "path": "data/ext_site_tactics_v1/validation.json",
       "snapshot_once": true
@@ -1654,9 +1656,9 @@
       "source_group": "research_inputs"
     },
     {
-      "sha256": "84f4e219504df1ff5f7eb5977686fc240a0b6f5d7989a860f3bce0a627d5f776",
       "path": "codex/research/integration-decision.md",
       "source": "workspace/colony-one-level4/codex/research/integration-decision.md",
+      "sha256": "75058148c8a8084bdcdf8046471899fe0cb88e8cf439a0ca3081990aebd453b6",
       "snapshot_once": true
     },
     {
@@ -2576,6 +2578,288 @@
       "sha256": "a4ff1b56e8360059cd89f57154133f80055ef3e90956485eedd1881b1f2978fd",
       "source": "workspace/colony-one-level4/codex/matches/site-external-aliases.json",
       "path": "codex/matches/site-external-aliases.json"
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-13352-ply034.npz",
+      "sha256": "aea95619cf7daa8c474b97ef094744b50612172fbc464d47db842f8e2422b551",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-13352-ply034.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-14009-ply033.npz",
+      "sha256": "c95136bd05e9a23c8bc1ce81988bf6ca4ab5ee4abf57fc7b542868f1bf1f0a01",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-14009-ply033.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-14621-ply063.npz",
+      "sha256": "6d0a4030f9fe72c013d439efccd6e0552b76e4d5970beb3e5c46f42fb9694a30",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-14621-ply063.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-14878-ply036.npz",
+      "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-14878-ply036.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-15116-ply031.npz",
+      "sha256": "2aeec0aac0a75d640bb1ae873d1f0fc3bbe74bd66682768564be596da6d6eec0",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-15116-ply031.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-15116-ply035.npz",
+      "sha256": "900db3c4b36b67e8991ce65a7c91598ff975fdc879f6b10b2b362b247061c5f0",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-15116-ply035.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/chunk-site-tactics-16056-ply036.npz",
+      "sha256": "1cb36da3341f918e7204e1277238116913c6d30c57f5589d662ca44955e67359",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/chunk-site-tactics-16056-ply036.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/manifest-prior-05455b009a522c31d4d1.json",
+      "sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-05455b009a522c31d4d1.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/manifest-prior-7268014c19da16984048.json",
+      "sha256": "7268014c19da1698404826a68057ce2dc5e69579ec0bdf8b6bd366e2df85daf7",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/manifest-prior-7268014c19da16984048.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/policy-overrides-150fdf48d7fec80d0c67.json",
+      "sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-150fdf48d7fec80d0c67.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/policy-overrides-6fda5657de027bb490d5.json",
+      "sha256": "0d0e37dce4f126a925cf5c8765ccca332bfaa1f0c6cdf6d5e9e0da3ba18f7a0f",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/policy-overrides-6fda5657de027bb490d5.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/proofs-150fdf48d7fec80d0c67.json",
+      "sha256": "984ecfab7f2780af90a64d8d517bb487cf32ef12f32f38c87d8e7c228d1b02fc",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-150fdf48d7fec80d0c67.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/proofs-6fda5657de027bb490d5.json",
+      "sha256": "2b8c99c297a0badbca344def5fd4e229a102804175dac0db6582d60bd39385da",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/proofs-6fda5657de027bb490d5.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/report-150fdf48d7fec80d0c67.json",
+      "sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-150fdf48d7fec80d0c67.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/report-6fda5657de027bb490d5.json",
+      "sha256": "95829c9656849cd2d03223af67d58dbce1f34e8d0770ab096efa8fa858902394",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/report-6fda5657de027bb490d5.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_tactics_v1/validation-05455b009a522c31d4d1.json",
+      "sha256": "a1b8c4aa6b33bd80ab28475bd83549e5e3bb8072c734d140f9836b890e6e5fdb",
+      "source": "workspace/colony-one-level4/data/ext_site_tactics_v1/validation-05455b009a522c31d4d1.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_deep14958_v1/chunk0000.npz",
+      "sha256": "6fd955351da4676e58d0a7e48c0b32e7c6038a4c9c731d6b1dcd2672f43c93a3",
+      "source": "workspace/colony-one-level4/data/ext_site_deep14958_v1/chunk0000.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_deep14958_v1/provenance.json",
+      "sha256": "346038de1962d108d3ec93f42a9504ba732fdb8c2a37ce56f56627b5f9cb8742",
+      "source": "workspace/colony-one-level4/data/ext_site_deep14958_v1/provenance.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/site_gen05_curriculum/validation14958/proof.json",
+      "sha256": "1680f7a165f66fac80336eb95b7724aa95d59c9db16e50784ebfbfcbd2b00afb",
+      "source": "workspace/colony-one-level4/codex/synthetic/site_gen05_curriculum/validation14958/proof.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/site_gen05_curriculum/validation14958/verify.py",
+      "sha256": "f1b9afec432d97a90db43f46cff287b70c85253a8c1e90abd8bce69eb39dd426",
+      "source": "workspace/colony-one-level4/codex/synthetic/site_gen05_curriculum/validation14958/verify.py",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/validation/deep14958-final/post-publication.json",
+      "sha256": "14e273c3e2fefd841ad533e108d70f5e9d0c50c8abaa233a63a3ac9b1962ee53",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep14958-final/post-publication.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/validation/deep14958-final/report.json",
+      "sha256": "55ae4d0acd20cc8a1003a9ea49a8638e4cbe58f500d67f166be669e849ceec77",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep14958-final/report.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/audit.py",
+      "sha256": "68da2bdd60117acc324de5cc38fb19592c2e09d2e8b363b0cb8ed83920b96f10",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/audit.py",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/manifest.json",
+      "sha256": "b44122f198e295a50c3949d79862028081cc5bf56368d3fde2d7f2796849f7ae",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/manifest.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/NUMERIC_REPORT.md",
+      "sha256": "1f7a4a40ed8822840aac8e8b997d82266438a6a1653586ad63caa55fb5ba3f4a",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/NUMERIC_REPORT.md",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/numeric_scan.py",
+      "sha256": "23fdd21cbcea9d7d876128be6707e4311faa0f633632de0d26f2395f612731a5",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/numeric_scan.py",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/numeric-observation-index.jsonl",
+      "sha256": "bf0676a09ef74484013df2ec4e052ace25ecc993e454ff67fafd584ea68fbf71",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/numeric-observation-index.jsonl",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/numeric-summary.json",
+      "sha256": "47664eb0931f7b75c53b686dd5c6353efc65d46af0e8fef0eec6fa8d9908b83f",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/numeric-summary.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/numeric-violations.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/numeric-violations.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/REPORT.md",
+      "sha256": "d9effc1a3a7f74962aaf0239f1211c209562c609d20837cd250fd736dd2938a2",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/REPORT.md",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/results.jsonl",
+      "sha256": "42f633d099927cb36a57b9bc8394c570bb4ad068b90dfedf7cfb83c39a3e77e3",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/results.jsonl",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/arena/gen06-new-site-audit/summary.json",
+      "sha256": "e0275c9237f38b24dbae6da78039f984341172d99583773462e8e126ef5909f1",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-new-site-audit/summary.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/length-mask-before-fix.json",
+      "sha256": "9ffb03195d7fc2351b27e3cdf44a15f969c36074d300c8d0a3c5352e4e3f9ff9",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/length-mask-before-fix.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/policy-mix-regression.json",
+      "sha256": "808875e0a314ff54b4372b1ad2a6e3f35bf4b16e14526db257ebaf1fa790a149",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/policy-mix-regression.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/README.md",
+      "sha256": "3d53327bbbf6b4b94df4af7238d6e34fa0fb9eab24cc0f6383bc07db20ea9840",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/README.md",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/synthetic/validation/site-gen05-v1/report.json",
+      "sha256": "b07934bd0678f60e08637f6e75c10076446e32fcc824926f739b0ac9d6595252",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/site-gen05-v1/report.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-report-v1.md",
+      "sha256": "d3a37f9bc6bff00c3b4234abbb7f98a0d786fcee5cfbf81de78aad5c8d0c0bc6",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-report-v1.md",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-loss-hard-v1.npz",
+      "sha256": "85b783756dc3d0a721b280a846597e8546aca90bb4a393a6cda8f61663f24a9e",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-loss-hard-v1.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-loss-hard-v2.npz",
+      "sha256": "a71051f87c1c54deff9eae0140c3e50c9c2043f3c7df4a7e1a17742785509d24",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-loss-hard-v2.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-loss-mining-v1.json",
+      "sha256": "31418e5c8a20969d569ed1e567dbba0ef3f1bb9c9b50cade620a7a7ddaeb4836",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-loss-mining-v1.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-loss-mining-v2.json",
+      "sha256": "b56881c0c4257a503bec6888e6b51b8b252826c6ab98e54bb3008ced026f3db2",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-loss-mining-v2.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-wins-hard-v1.npz",
+      "sha256": "d42e9a23653a77f96ee2e5ddd6a9e9fd99aa1a769aab8e9825248c39d985081f",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-wins-hard-v1.npz",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-wins-mining-v1.json",
+      "sha256": "34619f0e0a31786dd0bd9eafd547ef988e0650df323d53e261948a781479b441",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-wins-mining-v1.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-earlier-first-actions-v1.json",
+      "sha256": "6d2139cf8264354020312ea1637b92a5e037660ce0a0de2726a21703dd04800c",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-earlier-first-actions-v1.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-earlier-first-actions-v2.json",
+      "sha256": "03a618b7e3b2119951e21ce0edf4f2968bc1f5ab0f4ada1eef6eb3b232366914",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-earlier-first-actions-v2.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "codex/matches/site-gen05-14958-earlier-reply-v1.json",
+      "sha256": "9b4e98f0114c943b7cd06f012a58bd070176b7a2886704bc345d7b9e060ab8fb",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-14958-earlier-reply-v1.json",
+      "snapshot_once": true
+    },
+    {
+      "path": "data/ext_site_v1/hard_decisions_gen05_v1.json",
+      "sha256": "bf680e26c56e3477093e37907f431c7eb2583b59b0c84d0d4431c424f87a26aa",
+      "source": "workspace/colony-one-level4/data/ext_site_v1/hard_decisions_gen05_v1.json",
+      "snapshot_once": true
     }
   ],
   "schema": 1

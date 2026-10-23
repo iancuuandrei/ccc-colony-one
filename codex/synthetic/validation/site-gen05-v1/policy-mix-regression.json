@@ -1,0 +1,54 @@
+{
+  "train_sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
+  "status": "FAIL_POLICY_MIX_REINTRODUCES_UNSAFE_TARGETS",
+  "rows": [
+    {
+      "game": "7525",
+      "ply": 26,
+      "row": 1680,
+      "certified_bad_mass": 0.0,
+      "mixed_bad_mass": 0.041880130767822266,
+      "pval_g_differs": true
+    },
+    {
+      "game": "7658",
+      "ply": 55,
+      "row": 1737,
+      "certified_bad_mass": 0.0,
+      "mixed_bad_mass": 0.4099855422973633,
+      "pval_g_differs": true
+    },
+    {
+      "game": "8079",
+      "ply": 30,
+      "row": 1808,
+      "certified_bad_mass": 0.0,
+      "mixed_bad_mass": 0.47683143615722656,
+      "pval_g_differs": true
+    },
+    {
+      "game": "8185",
+      "ply": 42,
+      "row": 1872,
+      "certified_bad_mass": 0.0,
+      "mixed_bad_mass": 0.3475341796875,
+      "pval_g_differs": true
+    },
+    {
+      "game": "8228",
+      "ply": 35,
+      "row": 1909,
+      "certified_bad_mass": 0.0,
+      "mixed_bad_mass": 0.4468994140625,
+      "pval_g_differs": true
+    },
+    {
+      "game": "8443",
+      "ply": 30,
+      "row": 1962,
+      "certified_bad_mass": 0.0,
+      "mixed_bad_mass": 0.48250246047973633,
+      "pval_g_differs": true
+    }
+  ]
+}

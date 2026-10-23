@@ -1,0 +1,159 @@
+{
+  "result": "PASS",
+  "rows": 19,
+  "actual_teacher_projected_rows": 6,
+  "proof_only_uniform_rows": 13,
+  "pending_teacher_rows": 0,
+  "skipped_no_admissible_rows": 3,
+  "preserved_old_six_chunks_byte_exact": [
+    {
+      "chunk": "chunk-site-tactics-7525-ply026.npz",
+      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053"
+    },
+    {
+      "chunk": "chunk-site-tactics-7658-ply055.npz",
+      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c"
+    },
+    {
+      "chunk": "chunk-site-tactics-8079-ply030.npz",
+      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b"
+    },
+    {
+      "chunk": "chunk-site-tactics-8185-ply042.npz",
+      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6"
+    },
+    {
+      "chunk": "chunk-site-tactics-8443-ply030.npz",
+      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731"
+    },
+    {
+      "chunk": "chunk-site-tactics-8228-ply035.npz",
+      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8"
+    }
+  ],
+  "checks": [
+    {
+      "game": "11059",
+      "ply": 30,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "9928",
+      "ply": 28,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "9366",
+      "ply": 36,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "9366",
+      "ply": 52,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8944",
+      "ply": 34,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8745",
+      "ply": 30,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "7525",
+      "ply": 26,
+      "source": "TEACHER_CONDITIONAL_PROJECTION",
+      "result": "PASS"
+    },
+    {
+      "game": "7658",
+      "ply": 55,
+      "source": "TEACHER_CONDITIONAL_PROJECTION",
+      "result": "PASS"
+    },
+    {
+      "game": "8079",
+      "ply": 30,
+      "source": "TEACHER_CONDITIONAL_PROJECTION",
+      "result": "PASS"
+    },
+    {
+      "game": "8185",
+      "ply": 42,
+      "source": "TEACHER_CONDITIONAL_PROJECTION",
+      "result": "PASS"
+    },
+    {
+      "game": "8443",
+      "ply": 30,
+      "source": "TEACHER_CONDITIONAL_PROJECTION",
+      "result": "PASS"
+    },
+    {
+      "game": "10838",
+      "ply": 33,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "10838",
+      "ply": 37,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "10762",
+      "ply": 19,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8948",
+      "ply": 27,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8948",
+      "ply": 47,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8855",
+      "ply": 27,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8623",
+      "ply": 33,
+      "source": "PROOF_ONLY_UNIFORM",
+      "result": "PASS"
+    },
+    {
+      "game": "8228",
+      "ply": 35,
+      "source": "TEACHER_CONDITIONAL_PROJECTION",
+      "result": "PASS"
+    }
+  ],
+  "current_train_loader": "PASS",
+  "mixed_current_teacher_and19_repaired_loader": "PASS",
+  "actual_six_approximate_rows_override_dry_application": "PASS",
+  "future_19_matching_rows_routing_fixture": "PASS_IN_MEMORY_ONLY_NOT_NEW_TEACHER_DATA",
+  "trainer_sha256": "db6f7ad1c588b987b66a4cd35c371d3d1bfea6ac74c3ae81b12a0515a894475e",
+  "actual_trainer_integration": "NOT_RUN by this worker; Opus owns trainer",
+  "longer_horizon10910_a39": "EXCLUDED; separate proof scope required",
+  "manifest_sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
+  "override_sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276"
+}

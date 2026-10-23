@@ -1,159 +1,195 @@
 {
-  "result": "PASS",
-  "rows": 19,
-  "actual_teacher_projected_rows": 6,
-  "proof_only_uniform_rows": 13,
-  "pending_teacher_rows": 0,
-  "skipped_no_admissible_rows": 3,
-  "preserved_old_six_chunks_byte_exact": [
+  "data_validation": "PASS",
+  "published_rows": 26,
+  "old19_chunk_bytes_and_observation_keys": "PASS_UNCHANGED",
+  "new_rows": [
     {
-      "chunk": "chunk-site-tactics-7525-ply026.npz",
-      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053"
-    },
-    {
-      "chunk": "chunk-site-tactics-7658-ply055.npz",
-      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c"
-    },
-    {
-      "chunk": "chunk-site-tactics-8079-ply030.npz",
-      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b"
-    },
-    {
-      "chunk": "chunk-site-tactics-8185-ply042.npz",
-      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6"
-    },
-    {
-      "chunk": "chunk-site-tactics-8443-ply030.npz",
-      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731"
-    },
-    {
-      "chunk": "chunk-site-tactics-8228-ply035.npz",
-      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8"
-    }
-  ],
-  "checks": [
-    {
-      "game": "11059",
-      "ply": 30,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "9928",
-      "ply": 28,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "9366",
+      "game_id": "16056",
       "ply": 36,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "unsafe_probability_before": null,
+      "teacher_model_sha256_current_verified": null
     },
     {
-      "game": "9366",
-      "ply": 52,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
+      "game_id": "14009",
+      "ply": 33,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "unsafe_probability_before": null,
+      "teacher_model_sha256_current_verified": null
     },
     {
-      "game": "8944",
+      "game_id": "13352",
       "ply": 34,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "target_source": "PROOF_ONLY_UNIFORM",
+      "unsafe_probability_before": null,
+      "teacher_model_sha256_current_verified": null
     },
     {
-      "game": "8745",
-      "ply": 30,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
+      "game_id": "15116",
+      "ply": 31,
+      "actor_attribution": "OPPONENT_ERROR_IN_OUR_WIN",
+      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
+      "unsafe_probability_before": 0.6700615659258919,
+      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
     },
     {
-      "game": "7525",
-      "ply": 26,
-      "source": "TEACHER_CONDITIONAL_PROJECTION",
-      "result": "PASS"
-    },
-    {
-      "game": "7658",
-      "ply": 55,
-      "source": "TEACHER_CONDITIONAL_PROJECTION",
-      "result": "PASS"
-    },
-    {
-      "game": "8079",
-      "ply": 30,
-      "source": "TEACHER_CONDITIONAL_PROJECTION",
-      "result": "PASS"
-    },
-    {
-      "game": "8185",
-      "ply": 42,
-      "source": "TEACHER_CONDITIONAL_PROJECTION",
-      "result": "PASS"
-    },
-    {
-      "game": "8443",
-      "ply": 30,
-      "source": "TEACHER_CONDITIONAL_PROJECTION",
-      "result": "PASS"
-    },
-    {
-      "game": "10838",
-      "ply": 33,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "10838",
-      "ply": 37,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "10762",
-      "ply": 19,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "8948",
-      "ply": 27,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "8948",
-      "ply": 47,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "8855",
-      "ply": 27,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "8623",
-      "ply": 33,
-      "source": "PROOF_ONLY_UNIFORM",
-      "result": "PASS"
-    },
-    {
-      "game": "8228",
+      "game_id": "15116",
       "ply": 35,
-      "source": "TEACHER_CONDITIONAL_PROJECTION",
-      "result": "PASS"
+      "actor_attribution": "OPPONENT_ERROR_IN_OUR_WIN",
+      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
+      "unsafe_probability_before": 0.5574951171875,
+      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+    },
+    {
+      "game_id": "14621",
+      "ply": 63,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
+      "unsafe_probability_before": 0.8375182609823361,
+      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+    },
+    {
+      "game_id": "14878",
+      "ply": 36,
+      "actor_attribution": "OUR_ERROR_IN_OUR_LOSS",
+      "target_source": "TEACHER_CONDITIONAL_PROJECTION",
+      "unsafe_probability_before": 0.8024778018330775,
+      "teacher_model_sha256_current_verified": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
     }
   ],
-  "current_train_loader": "PASS",
-  "mixed_current_teacher_and19_repaired_loader": "PASS",
-  "actual_six_approximate_rows_override_dry_application": "PASS",
-  "future_19_matching_rows_routing_fixture": "PASS_IN_MEMORY_ONLY_NOT_NEW_TEACHER_DATA",
-  "trainer_sha256": "db6f7ad1c588b987b66a4cd35c371d3d1bfea6ac74c3ae81b12a0515a894475e",
-  "actual_trainer_integration": "NOT_RUN by this worker; Opus owns trainer",
-  "longer_horizon10910_a39": "EXCLUDED; separate proof scope required",
-  "manifest_sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013",
-  "override_sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276"
+  "new_teacher_backed_rows": 4,
+  "new_proof_only_uniform_rows": 3,
+  "total_teacher_backed_rows": 10,
+  "total_proof_only_rows": 16,
+  "no_admissible_skipped_total": 19,
+  "single_active_override_manifest": "PASS",
+  "source_routing_folders": [
+    "data/ext_site_gen05_losses_rs",
+    "data/ext_site_v1_rs"
+  ],
+  "actual_loader_primary_policy_replacements": [
+    {
+      "game_id": "7525",
+      "ply": 26,
+      "source_row": 1680
+    },
+    {
+      "game_id": "7658",
+      "ply": 55,
+      "source_row": 1737
+    },
+    {
+      "game_id": "8079",
+      "ply": 30,
+      "source_row": 1808
+    },
+    {
+      "game_id": "8185",
+      "ply": 42,
+      "source_row": 1872
+    },
+    {
+      "game_id": "8228",
+      "ply": 35,
+      "source_row": 1909
+    },
+    {
+      "game_id": "8443",
+      "ply": 30,
+      "source_row": 1962
+    },
+    {
+      "game_id": "14621",
+      "ply": 63,
+      "source_row": 2065
+    },
+    {
+      "game_id": "14878",
+      "ply": 36,
+      "source_row": 2104
+    },
+    {
+      "game_id": "15116",
+      "ply": 31,
+      "source_row": 2229
+    },
+    {
+      "game_id": "15116",
+      "ply": 35,
+      "source_row": 2233
+    }
+  ],
+  "actual_loader_primary_policy_and_value_Q_masks": "PASS",
+  "raw_outcome_folders_untouched": "PASS",
+  "future26_routing_fixture": "PASS_IN_MEMORY_ONLY",
+  "gumbel_alternate_target_guard": "FAIL_FOR_NONZERO_POLICY_MIX: current trainer does not override pval_g; replacement metadata now supplies certified pval_g",
+  "gumbel_fixture_failures": [
+    {
+      "source_row": 1680,
+      "game_id": "7525",
+      "ply": 26,
+      "excluded_mass_at_policy_mix_0_5": 0.041880130767822266
+    },
+    {
+      "source_row": 1737,
+      "game_id": "7658",
+      "ply": 55,
+      "excluded_mass_at_policy_mix_0_5": 0.4099855422973633
+    },
+    {
+      "source_row": 1808,
+      "game_id": "8079",
+      "ply": 30,
+      "excluded_mass_at_policy_mix_0_5": 0.47683143615722656
+    },
+    {
+      "source_row": 1872,
+      "game_id": "8185",
+      "ply": 42,
+      "excluded_mass_at_policy_mix_0_5": 0.3475341796875
+    },
+    {
+      "source_row": 1909,
+      "game_id": "8228",
+      "ply": 35,
+      "excluded_mass_at_policy_mix_0_5": 0.4468994140625
+    },
+    {
+      "source_row": 1962,
+      "game_id": "8443",
+      "ply": 30,
+      "excluded_mass_at_policy_mix_0_5": 0.48250246047973633
+    },
+    {
+      "source_row": 2065,
+      "game_id": "14621",
+      "ply": 63,
+      "excluded_mass_at_policy_mix_0_5": 0.23750877380371094
+    },
+    {
+      "source_row": 2104,
+      "game_id": "14878",
+      "ply": 36,
+      "excluded_mass_at_policy_mix_0_5": 0.4993433952331543
+    },
+    {
+      "source_row": 2229,
+      "game_id": "15116",
+      "ply": 31,
+      "excluded_mass_at_policy_mix_0_5": 0.3481712341308594
+    },
+    {
+      "source_row": 2233,
+      "game_id": "15116",
+      "ply": 35,
+      "excluded_mass_at_policy_mix_0_5": 0.32501220703125
+    }
+  ],
+  "trainer_edit": "NONE; Opus must apply alternate target metadata",
+  "trainer_sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
+  "manifest_sha256": "ce9ec3cca053fbb437211ba2622fdc60fa43a7bb411b6c9073a3b8de66999c77",
+  "override_sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c"
 }

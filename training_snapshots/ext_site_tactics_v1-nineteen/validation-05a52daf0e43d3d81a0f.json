@@ -1,0 +1,57 @@
+{
+  "result": "PASS",
+  "rows": 6,
+  "current_train_loader": "PASS",
+  "mixed_existing_800sim_and_repaired_loader": "PASS",
+  "in_memory_override_application_to_original_teacher": "PASS",
+  "replaced_source_rows": [
+    {
+      "game": "7525",
+      "ply": 26,
+      "teacher_row": 1680,
+      "conflicting_policy_replaced": "PASS",
+      "proof_and_teacher_hashes": "PASS"
+    },
+    {
+      "game": "7658",
+      "ply": 55,
+      "teacher_row": 1737,
+      "conflicting_policy_replaced": "PASS",
+      "proof_and_teacher_hashes": "PASS"
+    },
+    {
+      "game": "8079",
+      "ply": 30,
+      "teacher_row": 1808,
+      "conflicting_policy_replaced": "PASS",
+      "proof_and_teacher_hashes": "PASS"
+    },
+    {
+      "game": "8185",
+      "ply": 42,
+      "teacher_row": 1872,
+      "conflicting_policy_replaced": "PASS",
+      "proof_and_teacher_hashes": "PASS"
+    },
+    {
+      "game": "8228",
+      "ply": 35,
+      "teacher_row": 1909,
+      "conflicting_policy_replaced": "PASS",
+      "proof_and_teacher_hashes": "PASS"
+    },
+    {
+      "game": "8443",
+      "ply": 30,
+      "teacher_row": 1962,
+      "conflicting_policy_replaced": "PASS",
+      "proof_and_teacher_hashes": "PASS"
+    }
+  ],
+  "actual_trainer_integration": "NOT_RUN: Opus owns trainer; override manifest handed off",
+  "pending_teacher_rows": 10,
+  "skipped_no_admissible_rows": 3,
+  "weight_changes": "NONE",
+  "manifest_sha256": "05a52daf0e43d3d81a0fa4227fb22cdf597c7a29bee9b269019bdf255f7d95f4",
+  "override_sha256": "ef73629b57d5476e56fd7cdc6f29fe4ee05cf3747a937f7fa8903f860a55cb18"
+}

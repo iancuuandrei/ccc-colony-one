@@ -1,0 +1,21 @@
+{
+  "cases": 8,
+  "independent_games": 6,
+  "gen05_saved_certificate_passes": 0,
+  "gen06_certificate_passes": 1,
+  "remaining_own_loss_failures": [
+    "14621/63",
+    "16056/36",
+    "14009/33",
+    "13352/34"
+  ],
+  "remaining_opponent_defense_failures": [
+    "15116/31",
+    "15116/35"
+  ],
+  "remaining_missed_own_wins": [
+    "15116/33"
+  ],
+  "end_model_and_input_hashes_verified": true,
+  "elapsed_seconds": 7.046999999999571
+}

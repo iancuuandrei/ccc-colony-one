@@ -1,0 +1,470 @@
+{
+  "accepted": true,
+  "checked": 28,
+  "rows": 28,
+  "errors": [],
+  "checks": [
+    {
+      "row": 0,
+      "position_id": "p-4ca864655010bac7",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 577,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": true,
+      "left": 4
+    },
+    {
+      "row": 1,
+      "position_id": "p-9227c52196e8e0cb",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 10,
+      "safety_nodes": 86,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": true,
+      "left": 3
+    },
+    {
+      "row": 2,
+      "position_id": "p-d57bb50847b9f3fc",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 367,
+      "preferred": [
+        2788,
+        2796,
+        2804
+      ],
+      "value": null,
+      "has_length": true,
+      "left": 4
+    },
+    {
+      "row": 3,
+      "position_id": "p-f1c8eb2ad47cd656",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 926,
+      "preferred": [
+        1161
+      ],
+      "value": null,
+      "has_length": true,
+      "left": 3
+    },
+    {
+      "row": 4,
+      "position_id": "p-fadf6740fb6b0011",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 1753,
+      "preferred": [
+        2786,
+        2787,
+        2788,
+        2794,
+        2796,
+        2803,
+        2804,
+        3242,
+        3249,
+        3251
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 5,
+      "position_id": "p-6f6887ed076edf51",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 1851,
+      "preferred": [
+        1097,
+        1106,
+        1113,
+        1682,
+        1683,
+        1689,
+        1691,
+        1697,
+        1698,
+        1699
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 6,
+      "position_id": "p-c8705099eeb61257",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 284,
+      "preferred": [
+        2786,
+        2787,
+        2788,
+        2794,
+        2796,
+        2803,
+        2804,
+        3242,
+        3249,
+        3251
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 7,
+      "position_id": "p-4ef0b3bad27b79e8",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 269,
+      "preferred": [
+        1097,
+        1106,
+        1113,
+        1682,
+        1683,
+        1689,
+        1691,
+        1697,
+        1698,
+        1699
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 8,
+      "position_id": "p-585a87a2fef1edd1",
+      "status": "PASS",
+      "legal": 11,
+      "own_nodes": 117,
+      "safety_nodes": 375,
+      "preferred": [
+        2788,
+        2796,
+        2804
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 9,
+      "position_id": "p-810e9936f4fadb31",
+      "status": "PASS",
+      "legal": 11,
+      "own_nodes": 117,
+      "safety_nodes": 479,
+      "preferred": [
+        1697,
+        1698,
+        1699
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 10,
+      "position_id": "p-4883fea7ef3f1272",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 0,
+      "preferred": [
+        2786,
+        2787
+      ],
+      "value": 1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 11,
+      "position_id": "p-5ade0694f1108b05",
+      "status": "PASS",
+      "legal": 10,
+      "own_nodes": 106,
+      "safety_nodes": 0,
+      "preferred": [
+        1683,
+        1691
+      ],
+      "value": 1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 12,
+      "position_id": "p-527624eb19bf67e7",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 1073,
+      "preferred": [
+        1161,
+        1169
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 13,
+      "position_id": "p-686fd32534e81b0f",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 1030,
+      "preferred": [
+        1357,
+        1358
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 14,
+      "position_id": "p-edf05032d828d8ef",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 789,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 15,
+      "position_id": "p-e198f8d5e713de78",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 461,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 16,
+      "position_id": "p-2e798fef5005baae",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 893,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 17,
+      "position_id": "p-4e2e59d98e9c9bdb",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 8,
+      "safety_nodes": 730,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 18,
+      "position_id": "p-fcc3c66282995a9f",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 55,
+      "safety_nodes": 1282,
+      "preferred": [
+        1162,
+        1169
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 19,
+      "position_id": "p-d19661f225ece271",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 55,
+      "safety_nodes": 1511,
+      "preferred": [
+        1357,
+        1366
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 20,
+      "position_id": "p-071528ed2cfc6cf8",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 725,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 21,
+      "position_id": "p-e165182f311bfd00",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 1490,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 22,
+      "position_id": "p-341d1daab25db243",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 217,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 23,
+      "position_id": "p-6c9918fc95ec2c24",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 1324,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 24,
+      "position_id": "p-9ae34c5e66715338",
+      "status": "PASS",
+      "legal": 3,
+      "own_nodes": 21,
+      "safety_nodes": 558,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 25,
+      "position_id": "p-ca5fb4fc24b7119e",
+      "status": "PASS",
+      "legal": 3,
+      "own_nodes": 21,
+      "safety_nodes": 1286,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 26,
+      "position_id": "p-d50578c2db5a7928",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 617,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    },
+    {
+      "row": 27,
+      "position_id": "p-214358dea0987c1b",
+      "status": "PASS",
+      "legal": 5,
+      "own_nodes": 34,
+      "safety_nodes": 1897,
+      "preferred": [],
+      "value": -1.0,
+      "has_length": false,
+      "left": 1
+    }
+  ],
+  "source_hashes": {
+    "proposals.json": "7233eee9747dfe5b42cf9d8e5257ea5e5c8b3707733b9ad5c32f12af260afba8",
+    "build.py": "75d6ede212cc2fa3222a3e5785313650f339986315dbfff3cabbf4faec4b5c8a",
+    "states.jsonl": "476ccd42fa97b207495bca1a8029df9740f4c6a66b1d5ec3ecbc4bea0a36a94c",
+    "packet.json": "bf86537f5f3e9ccf2dc39b046006aa0612afa563829063483c1fa365c87652d7",
+    "training_packet.npz": "e0340b14270caf22c0cc6da2636bc533ba44fc2a56578288d24571f507ff7dfc",
+    "MANIFEST.json": "38495e68ee90ae08cba9ebecd7a7040205f3c646ac080a1afa7c64705290e769",
+    "auxiliary_metadata.json": "9a2f539a75bb7cd68e044987cca5b37ee928db7ed6ac2d4c404f55e90259162e",
+    "LENGTH_MASK_REQUIREMENT.md": "7a3735db9bf343004c399bdb06c55582ae366af6ad2f5257095a0d05473d5a9b"
+  },
+  "source_stable": true,
+  "source_game_sha256": {
+    "14594": "7d18105cd32e696285ef9526a8b6f50362f523cb50bcaedfd7fbc17faa6f10c1",
+    "14621": "cb987a1b8eaf80cd3254307548087c82de30328fda15bf1a21acc81118b1eec9",
+    "14878": "63fff3fe0d6f4e6848528d36c678a91a29fddb0ecb0eefddbfeb557a0363c59c"
+  },
+  "holdout_frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+  "D4_holdout_collisions": 0,
+  "groups": {
+    "14594": [
+      "site:14594"
+    ],
+    "14621": [
+      "site:14621"
+    ],
+    "14878": [
+      "site:14878"
+    ]
+  },
+  "length_semantics": "Four observed recorded episode lengths; all24 constructed lengths UNKNOWN",
+  "turn_order_flip": [
+    {
+      "row": 18,
+      "position_id": "p-fcc3c66282995a9f",
+      "status": "PASS",
+      "legal": 8,
+      "own_nodes": 55,
+      "safety_nodes": 1282,
+      "preferred": [
+        1162,
+        1169
+      ],
+      "value": null,
+      "has_length": false,
+      "left": 1
+    }
+  ],
+  "seconds": 9.655999999999949,
+  "method": "Independent full env.clone/step own-turn winning mask and complete next-opponent-turn minimax for every row; producer oracle not imported. No model/search/training.",
+  "release_status": "STAGED_PENDING_CURRENT_HAS_LENGTH_LOADER_AND_GRADIENT_QUALIFICATION"
+}

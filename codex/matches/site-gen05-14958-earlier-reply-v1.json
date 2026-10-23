@@ -1,0 +1,454 @@
+{
+  "game_id": "14958",
+  "action": 38,
+  "actual": "C3->B3",
+  "actual_opponent_response": [
+    "E4->D4",
+    "D4->B2"
+  ],
+  "alternatives": [
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        4,
+        2
+      ],
+      "notation": "C3->C4",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        3,
+        2
+      ],
+      "notation": "C3->C5",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        6,
+        2
+      ],
+      "notation": "C3->C2",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            6,
+            2
+          ],
+          "notation": "E4->C2",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            6,
+            2
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "C2->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        5,
+        1
+      ],
+      "notation": "C3->B3",
+      "kind": "move",
+      "current_enemy_win": null,
+      "recorded_response_legal": true,
+      "next_safe_completion": null,
+      "status": "RECORDED_REPLY_FORCES_LOSS_NEXT_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        5,
+        3
+      ],
+      "notation": "C3->D3",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        5,
+        4
+      ],
+      "notation": "C3->E3",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        4,
+        1
+      ],
+      "notation": "C3->B4",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "notation": "C3->D4",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        3,
+        4
+      ],
+      "notation": "C3->E5",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        5,
+        2
+      ],
+      "to": [
+        6,
+        3
+      ],
+      "notation": "C3->D2",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "notation": "E4->D4",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            6,
+            1
+          ],
+          "notation": "D4->B2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    },
+    {
+      "fr": [
+        6,
+        1
+      ],
+      "to": [
+        5,
+        1
+      ],
+      "notation": "B2->B3",
+      "kind": "move",
+      "current_enemy_win": null,
+      "recorded_response_legal": false,
+      "next_safe_completion": null,
+      "status": "RESPONSE_ILLEGAL_UNKNOWN"
+    },
+    {
+      "fr": [
+        6,
+        1
+      ],
+      "to": [
+        6,
+        2
+      ],
+      "notation": "B2->C2",
+      "kind": "move",
+      "current_enemy_win": [
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            6,
+            2
+          ],
+          "notation": "E4->C2",
+          "kind": "move"
+        },
+        {
+          "fr": [
+            4,
+            4
+          ],
+          "to": [
+            6,
+            2
+          ],
+          "notation": "E4->C2",
+          "kind": "move"
+        }
+      ],
+      "recorded_response_legal": null,
+      "next_safe_completion": null,
+      "status": "CERTIFIED_LOSS_WITHIN_ONE_ENEMY_TURN"
+    }
+  ],
+  "scope": "One fixed recorded opponent response, plus exact own full-turn safety. Evading this response is not proof of survival against all opponent choices."
+}

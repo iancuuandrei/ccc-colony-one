@@ -1,0 +1,200 @@
+{
+  "scope": "Coherent previous 19-row dataset before qualified 26-row extension",
+  "files": [
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-10762-ply019.npz",
+      "bytes": 1799,
+      "sha256": "68d816e2b589b705cecaa6490131841b3186f07b979c11d36cf498b376d5f49f"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-10838-ply033.npz",
+      "bytes": 1751,
+      "sha256": "9d03c8058c67385c98b1b2d5f1dc3a77c764d923fa5fe6f9a5dfd37c8f0bcab7"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-10838-ply037.npz",
+      "bytes": 1750,
+      "sha256": "30fd1299341c55ed3c7e012dca560d104ea588304fb839a99541afa41cdc7c0b"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-11059-ply030.npz",
+      "bytes": 1748,
+      "sha256": "d6703119807beb8d47bb6ec35de15d86b8b35ba59befb27953f8929e4e818495"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-7525-ply026.npz",
+      "bytes": 1794,
+      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-7658-ply055.npz",
+      "bytes": 1752,
+      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8079-ply030.npz",
+      "bytes": 1745,
+      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8185-ply042.npz",
+      "bytes": 1760,
+      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8228-ply035.npz",
+      "bytes": 1749,
+      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8443-ply030.npz",
+      "bytes": 1784,
+      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8623-ply033.npz",
+      "bytes": 1770,
+      "sha256": "bd7e95758e7d7c4d3381063cc16571458ec0222a79490413d0f4f0027b6d9c8b"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8745-ply030.npz",
+      "bytes": 1749,
+      "sha256": "7e479b2ab05ab2dfb23a969622aafc68d8dc51e029be94d776e6fdedc707a170"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8855-ply027.npz",
+      "bytes": 1789,
+      "sha256": "968dbf4162f4692826f9a5c9efe6c1b0790af98fdda82b72817f2d2fd535a8ba"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8944-ply034.npz",
+      "bytes": 1778,
+      "sha256": "78f78472949fcedacca95d8fce9af485c74d1db314c28c609c71d303589126fc"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8948-ply027.npz",
+      "bytes": 1746,
+      "sha256": "2e7e499223d535246c49705c812f5ecc33d099172ff4f3189cb681ee69690988"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-8948-ply047.npz",
+      "bytes": 1748,
+      "sha256": "d3aea69027589b3cfe96aac286f06e19b6f1aaf6320ddd92a0b656d7f5e66ba6"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-9366-ply036.npz",
+      "bytes": 1765,
+      "sha256": "25f81d465dde3589cbd33e3d2fe86bb0d6b35c8b69a75da02c8e1938bb56408c"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-9366-ply052.npz",
+      "bytes": 1757,
+      "sha256": "bee964e3d7e85553210be4877c9315704e4c86737e1ecf703d01354a1f075e14"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/chunk-site-tactics-9928-ply028.npz",
+      "bytes": 1785,
+      "sha256": "1401ff19bffc7a43ae5780e1b85c3edbd0f6430a1caf0cf147fa709a4195ca32"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/manifest.json",
+      "bytes": 57318,
+      "sha256": "05455b009a522c31d4d194f5d00072edc569fc9886cbe85953f18d6ebc7c6013"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/policy-overrides-62cc87cc24107a895bf3.json",
+      "bytes": 98049,
+      "sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/policy-overrides-91f2620403f5d6f6f112.json",
+      "bytes": 31523,
+      "sha256": "d42e21d5969344595c96c762c655afc1e5d44f26ae76d23e051ab092236d1724"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/policy-overrides-9f544393a9bbe2f3f513.json",
+      "bytes": 31510,
+      "sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/policy-overrides-e6307115e2b3d4627af0.json",
+      "bytes": 31523,
+      "sha256": "ef73629b57d5476e56fd7cdc6f29fe4ee05cf3747a937f7fa8903f860a55cb18"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/policy-overrides.json",
+      "bytes": 98049,
+      "sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/proofs-62cc87cc24107a895bf3.json",
+      "bytes": 173586,
+      "sha256": "7e41a6b754ea2e4d4e7724c2c025610fee8c24f5850940ec53aff36809c6d381"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/proofs-91f2620403f5d6f6f112.json",
+      "bytes": 172692,
+      "sha256": "ad1d9e2315597d218776199e3c5dda64b34af8efab368bdf92fba2ee509f5e4c"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/proofs-9f544393a9bbe2f3f513.json",
+      "bytes": 172606,
+      "sha256": "4a92df3ddd1a427ad9d4c0bb429c38b7567571688fd7509c4530e37c8a5e22df"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/proofs-c2fbaf9a5fb635b502bd.json",
+      "bytes": 115036,
+      "sha256": "99e535d53dc4c24cdd3e182b540874c674352802aac0f32cbb8480d25ad450ed"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/proofs-e6307115e2b3d4627af0.json",
+      "bytes": 143319,
+      "sha256": "436cecb94a549078466485939845e64f90f167dc04176309c9db8cbf810a570c"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/report-62cc87cc24107a895bf3.json",
+      "bytes": 57178,
+      "sha256": "fe6b53b370f08f5a66449c6519ecef839bc76b29eeb535c0ca8f3fb649675efb"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/report-91f2620403f5d6f6f112.json",
+      "bytes": 44742,
+      "sha256": "29915082b4e3780303d9bb35fc5e2fb2d63ffb262a6159f40275f34d182dd448"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/report-9f544393a9bbe2f3f513.json",
+      "bytes": 44632,
+      "sha256": "f8659fdcb59b20ccc54dc0d306068c686ffcfd01b75c7e9575987801b5e10fff"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/report-c2fbaf9a5fb635b502bd.json",
+      "bytes": 31687,
+      "sha256": "efb7a1d4ce2a97ef0549ccf3a984eea4be00ce83d87931326093fce2f2890722"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/report-e6307115e2b3d4627af0.json",
+      "bytes": 39526,
+      "sha256": "0b65b3cbb144c565a33f1403e8348b60684186ca2046684a0eda9d65c56e61b0"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/summary.json",
+      "bytes": 2116,
+      "sha256": "a99d994c830c071eec777be3afd68c2cfcaaf032c110fd0d702c9605fc918a97"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/validation-05a52daf0e43d3d81a0f.json",
+      "bytes": 1631,
+      "sha256": "b9ab2976c0092b3e3d090ddd1836fca141821a31437593027584e423bea152fb"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/validation-bdd2932b4bd7eee22569.json",
+      "bytes": 1712,
+      "sha256": "16ee08ec1e15686d230c19d459d50139e66a1f9566e85e8d32d08f4b7e94c128"
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-nineteen/validation.json",
+      "bytes": 4174,
+      "sha256": "a1b8c4aa6b33bd80ab28475bd83549e5e3bb8072c734d140f9836b890e6e5fdb"
+    }
+  ]
+}

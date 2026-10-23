@@ -116,14 +116,15 @@ def prove(env):
     return legal, win, safe, {'counts': counts, 'actions': details,
                              'independent_own_turn_oracle': 'PASS'}
 
-def teacher_index(folder):
+def teacher_index(folder, expected_model_sha=None):
     manifest_data = (folder / 'manifest.json').read_bytes()
     manifest = json.loads(manifest_data)
     if manifest['sims'] != 800:
         raise ValueError('Expected existing 800-simulation teacher')
     model_path = ROOT / manifest['model']
-    if sha(model_path.read_bytes()) != BASE_SHA:
-        raise ValueError('Teacher-declared model path differs from authoritative GEN02')
+    model_sha = sha(model_path.read_bytes())
+    if expected_model_sha is not None and model_sha != expected_model_sha:
+        raise ValueError('Teacher-declared model path differs from expected release')
     index, files = {}, []
     for path in sorted(folder.glob('chunk*.npz')):
         raw = path.read_bytes()
@@ -145,12 +146,14 @@ def teacher_index(folder):
                 raise ValueError('Empty teacher target')
             dense /= total
             entry = {'file': path.relative_to(ROOT).as_posix(), 'file_sha256': file_hash,
-                     'row': i, 'probability': dense, 'stored_probability_sum': float(total)}
+                     'row': i, 'probability': dense, 'stored_probability_sum': float(total),
+                     'teacher_model_sha256_current_verified': model_sha,
+                     'teacher_folder': folder.relative_to(ROOT).as_posix()}
             index.setdefault(obs_key(obs), []).append(entry)
         files.append({'path': path.relative_to(ROOT).as_posix(), 'sha256': file_hash,
                       'rows': len(z['obs'])})
     return index, {'manifest': manifest, 'manifest_sha256': sha(manifest_data), 'files': files,
-                   'model_sha256_current_verified': BASE_SHA,
+                   'model_sha256_current_verified': model_sha,
                    'historical_model_hash_in_teacher_manifest': manifest.get('model_sha256'),
                    'identity_limit': 'Teacher manifest declares model path; current bytes verified. Historical generation hash was not recorded unless shown above.'}
 
@@ -174,6 +177,7 @@ def main():
     p.add_argument('--teacher', type=Path, default=ROOT / 'data/ext_site_v1_rs')
     p.add_argument('--out', type=Path, default=ROOT / 'data/ext_site_tactics_v1')
     p.add_argument('--hard', type=Path, nargs='*')
+    p.add_argument('--extend-gen05', action='store_true', help='Append gen05 proof packets while preserving prior published targets and their proofs')
     args = p.parse_args()
     args.teacher = args.teacher.resolve()
     args.out = args.out.resolve()
@@ -182,16 +186,32 @@ def main():
     baseline = ROOT / 'release/gen02/model.onnx'
     if sha(baseline.read_bytes()) != BASE_SHA:
         raise ValueError('Authoritative GEN02 bytes changed; review before integration')
-    sources = args.hard or sorted((ROOT / 'codex/matches').glob('site-gen02-loss-hard-v*.npz'), reverse=True) + sorted((ROOT / 'codex/matches').glob('site-gen02-wins-hard-v*.npz'), reverse=True)
+    sources = args.hard or (sorted((ROOT / 'codex/matches').glob('site-gen05-loss-hard-v*.npz'), reverse=True) if args.extend_gen05 else sorted((ROOT / 'codex/matches').glob('site-gen02-loss-hard-v*.npz'), reverse=True) + sorted((ROOT / 'codex/matches').glob('site-gen02-wins-hard-v*.npz'), reverse=True))
     if any('holdout' in str(s).lower() for s in sources):
         raise ValueError('Held-out input prohibited')
-    index, teacher = teacher_index(args.teacher)
+    index, teacher = teacher_index(args.teacher, BASE_SHA)
+    override_folders = [args.teacher.relative_to(ROOT).as_posix()]
+    extra_teacher = ROOT / 'data/ext_site_gen05_losses_rs'
+    if args.extend_gen05 and extra_teacher.exists():
+        newer_index, newer_teacher = teacher_index(extra_teacher)
+        if newer_teacher['model_sha256_current_verified'] != sha((ROOT / 'release/gen06/model.onnx').read_bytes()):
+            raise ValueError('New teacher model does not match the qualified GEN06 release')
+        # Prefer the relevant source folder, never average policies from distinct models.
+        for key, entries in index.items():
+            newer_index.setdefault(key, entries)
+        index = newer_index
+        teacher = {'preferred': newer_teacher, 'fallback': teacher}
+    if args.extend_gen05:
+        override_folders.append('data/ext_site_gen05_losses_rs')
     raw_manifest_bytes = (ROOT / 'data/ext_site_v1/manifest.json').read_bytes()
     episodes = {x['game_id']: x for x in json.loads(raw_manifest_bytes)['episodes']}
     args.out.mkdir(parents=True, exist_ok=True)
     prior_chunks = []
+    prior_manifest = None
+    prior_manifest_bytes = None
     if (args.out / 'manifest.json').exists():
-        prior_manifest = json.loads((args.out / 'manifest.json').read_text())
+        prior_manifest_bytes = (args.out / 'manifest.json').read_bytes()
+        prior_manifest = json.loads(prior_manifest_bytes)
         for row in prior_manifest['published']:
             digest = sha((args.out / row['chunk']).read_bytes())
             if digest != row['chunk_sha256']:
@@ -199,6 +219,43 @@ def main():
             prior_chunks.append({'chunk': row['chunk'], 'sha256': digest})
     rows, pending, skipped, proof_records, source_files = [], [], [], [], []
     seen, games = set(), {}
+    extra_sources = {}
+    mining_baselines = {}
+    json_games = {}
+    if args.extend_gen05:
+        if prior_manifest is None:
+            raise ValueError('Extension requires an existing immutable base manifest')
+        proof_path = args.out / prior_manifest['proof_file']
+        if sha(proof_path.read_bytes()) != prior_manifest['proof_file_sha256']:
+            raise ValueError('Prior certificate bundle hash changed')
+        for path, digest in prior_manifest['dependencies']['engine_sha256'].items():
+            if sha((ROOT / path).read_bytes()) != digest:
+                raise ValueError('Engine changed since prior certificates')
+        proof_records = json.loads(proof_path.read_text())['states']
+        prior_receipt_name = 'manifest-prior-' + sha(prior_manifest_bytes)[:20] + '.json'
+        atomic_json(args.out / prior_receipt_name, prior_manifest, immutable=True)
+        for proof in proof_records:
+            if sha(json_bytes({k: v for k, v in proof.items() if k != 'proof_sha256'})) != proof['proof_sha256']:
+                raise ValueError('Prior proof record hash changed')
+        rows = list(prior_manifest['published'])
+        skipped = list(prior_manifest['skipped'])
+        source_files = list(prior_manifest['dependencies']['hard_sources'])
+        seen = {(p['game_id'], p['ply']) for p in proof_records}
+        json_path = ROOT / 'codex/matches/site-raw/tournament-matches-export5.json'
+        json_raw = json_path.read_bytes()
+        json_games = {str(g['match_id']): g for g in json.loads(json_raw.decode('utf-8-sig'))}
+        extra_sources[json_path.relative_to(ROOT).as_posix()] = sha(json_raw)
+        attribution = ROOT / 'codex/matches/site-gen05-attribution-v2.json'
+        extra_sources[attribution.relative_to(ROOT).as_posix()] = sha(attribution.read_bytes())
+        aliases = ROOT / 'codex/matches/site-external-aliases.json'
+        extra_sources[aliases.relative_to(ROOT).as_posix()] = sha(aliases.read_bytes())
+        for source in sources:
+            mining = source.with_name(source.name.replace('-loss-hard-', '-loss-mining-')).with_suffix('.json')
+            packet = json.loads(mining.read_text())
+            if packet['baseline_sha256'] != sha((ROOT / 'release/gen05/model.onnx').read_bytes()):
+                raise ValueError('Counterfactual analysis baseline bytes changed')
+            mining_baselines[source.name] = packet['baseline_sha256']
+            extra_sources[mining.relative_to(ROOT).as_posix()] = sha(mining.read_bytes())
     for source in sources:
         raw = source.read_bytes()
         source_files.append({'path': source.relative_to(ROOT).as_posix(), 'sha256': sha(raw)})
@@ -210,13 +267,24 @@ def main():
             seen.add((gid, ply))
             if gid not in games:
                 protocol = ROOT / 'codex/matches/site-all-v1-derived' / ('match-' + gid + '.txt')
+                if args.extend_gen05:
+                    raw_protocol = ROOT / 'codex/matches/site-gen05-raw' / ('match-' + gid + '.txt')
+                    if raw_protocol.exists():
+                        protocol = raw_protocol
                 game, states = parse(protocol, None)
                 # Windows write_text translates LF to CRLF in derived files;
                 # the exporter records the original protocol string's UTF-8.
-                if sha(protocol.read_text(encoding='utf-8-sig').encode()) != episodes[gid]['protocol_sha256']:
-                    raise ValueError('Protocol lineage mismatch: ' + gid)
-                if sha(Path(episodes[gid]['source']).read_bytes()) != episodes[gid]['source_sha256']:
-                    raise ValueError('Raw source game file lineage mismatch: ' + gid)
+                if args.extend_gen05:
+                    raw_game = json_games[gid]
+                    if raw_game['protocol'].splitlines() != protocol.read_text(encoding='utf-8-sig').splitlines():
+                        raise ValueError('Raw text and explicit-identity JSON protocol disagree: ' + gid)
+                    episodes[gid] = {'protocol_sha256': sha(raw_game['protocol'].encode()),
+                                     'source_sha256': sha(json_raw), 'user_team': raw_game['you']}
+                else:
+                    if sha(protocol.read_text(encoding='utf-8-sig').encode()) != episodes[gid]['protocol_sha256']:
+                        raise ValueError('Protocol lineage mismatch: ' + gid)
+                    if sha(Path(episodes[gid]['source']).read_bytes()) != episodes[gid]['source_sha256']:
+                        raise ValueError('Raw source game file lineage mismatch: ' + gid)
                 games[gid] = (game, states)
             state = games[gid][1][ply - 1]
             if state.action != ply or not np.array_equal(state.observation(), obs):
@@ -236,6 +304,14 @@ def main():
                         'model_sha256': BASE_SHA, 'legal_indices': legal.tolist(),
                         'own_turn_winning_indices': np.flatnonzero(win).tolist(),
                         'bounded_safe_indices': np.flatnonzero(safe).tolist()}
+            if args.extend_gen05:
+                user = episodes[gid]['user_team']
+                result = 'WIN' if games[gid][0]['winner'] == user else 'LOSS'
+                identity.update(model_sha256='UNKNOWN', raw_model_identity='UNKNOWN',
+                                analysis_baseline_model_sha256=mining_baselines[source.name],
+                                user_team=user, user_result=result, analyzed_actor=state.current_team,
+                                actor_attribution='OPPONENT_ERROR_IN_OUR_WIN' if result == 'WIN' and state.current_team != user else 'OUR_ERROR_IN_OUR_LOSS' if result == 'LOSS' and state.current_team == user else 'OTHER_ACTOR_CONTEXT',
+                                identity_basis='Exact protocol equality with fresh JSON5 explicit you field; no source model hash')
             proof = dict(identity, proof=certificate)
             proof_hash = sha(json_bytes(proof))
             proof_records.append(dict(proof, proof_sha256=proof_hash))
@@ -291,6 +367,7 @@ def main():
                        teacher=teacher_receipt, teacher_source=teacher_source, target_source=target_source,
                        matching_teacher_rows=[{k: v for k, v in t.items() if k != 'probability'} for t in teachers],
                        identical_teacher_rows=len(teachers), teacher_mass_on_admissible=mass,
+                       teacher_model_sha256_current_verified=teachers[0].get('teacher_model_sha256_current_verified') if teachers else None,
                        unsafe_probability_before=before_unsafe,
                        unsafe_probability_before_status='UNKNOWN' if not teachers else 'MEASURED_EXISTING_800SIM',
                        outside_selected_probability_before=before_excluded,
@@ -304,6 +381,9 @@ def main():
                               'target_source': target_source, 'fallback': fallback}), flush=True)
     dependencies = {'baseline_sha256': BASE_SHA, 'teacher': teacher,
                     'preserved_prior_chunks': prior_chunks,
+                    'additional_source_receipts': extra_sources,
+                    'inherited_manifest_sha256': sha(prior_manifest_bytes) if args.extend_gen05 else None,
+                    'inherited_manifest_receipt': prior_receipt_name if args.extend_gen05 else None,
                     'raw_site_manifest_sha256': sha(raw_manifest_bytes), 'hard_sources': source_files,
                     'engine_sha256': {p.relative_to(ROOT).as_posix(): sha(p.read_bytes())
                         for p in sorted((ROOT / 'env/colony_one').glob('*.py'))},
@@ -317,6 +397,7 @@ def main():
         with np.load(args.out / row['chunk'], allow_pickle=False) as repaired:
             replacement = {'chunk': row['chunk'], 'chunk_sha256': row['chunk_sha256'], 'row': 0,
                            'pidx': repaired['pidx'][0].tolist(), 'pval': repaired['pval'][0].tolist(),
+                           'pval_g': repaired['pval'][0].tolist(),
                            'has_pol': True, 'has_value': False, 'q_valid': False,
                            'z': 0., 'q': 0., 'left': 1.}
         override_entries.append({'observation_float16_sha256': row['observation_float16_sha256'],
@@ -326,14 +407,18 @@ def main():
                                  'proof_record_sha256': row['proof_sha256'],
                                  'teacher_source_rows': row['matching_teacher_rows'],
                                  'teacher_source': row['teacher_source'], 'target_source': row['target_source'],
-                                 'teacher_model_sha256_current_verified': BASE_SHA if row['teacher_source'] != 'NONE' else None,
+                                 'teacher_model_sha256_current_verified': row.get('teacher_model_sha256_current_verified', BASE_SHA if row['teacher_source'] != 'NONE' else None),
+                                 'raw_source_model_identity': row.get('raw_model_identity', 'UNKNOWN'),
+                                 'analysis_baseline_model_sha256': row.get('analysis_baseline_model_sha256', BASE_SHA),
+                                 'actor_attribution': row.get('actor_attribution'),
                                  'future_approximate_rows': 'Apply by exact observation hash even when no teacher source row existed at publication',
                                  'full_game_win_claim': False})
     overrides = {'version': 1, 'run_id': run_id, 'authoritative_policy_override': True,
                  'baseline_model_sha256': BASE_SHA, 'entries': override_entries,
                  'key_rule': 'SHA256 of contiguous float16 (16,8,8) observation bytes; exact equality, no fuzzy matching',
-                 'apply_to_source_folders': [args.teacher.relative_to(ROOT).as_posix()],
+                 'apply_to_source_folders': sorted(set(override_folders)),
                  'replacement_rule': 'Replace matching approximate search-policy targets, including all matching teacher rows; set q_valid=False and has_value=False. Do not merely sample corrective duplicates alongside conflicting original targets.',
+                 'alternate_policy_rule': 'Also replace pval_g when present with the certified target before any policy-mix operation; otherwise a mixture can reintroduce excluded actions.',
                  'raw_outcome_rule': 'Do not overwrite separate real-game outcome labels in data/ext_site_v1.',
                  'weighting_rule': 'Sampling weights are a separate Opus-owned decision; this file changes no weights or trainer code.'}
     override_name = f'policy-overrides-{run_id}.json'
@@ -343,12 +428,16 @@ def main():
               'rows': len(rows), 'pending_teacher_rows': len(pending), 'skipped_no_admissible_rows': len(skipped),
               'teacher_backed_rows': sum(row['teacher_source'] != 'NONE' for row in rows),
               'proof_only_uniform_rows': sum(row['target_source'] == 'PROOF_ONLY_UNIFORM' for row in rows),
+              'inherited_published_rows': len(prior_chunks) if args.extend_gen05 else 0,
+              'new_published_rows': len(rows) - len(prior_chunks) if args.extend_gen05 else len(rows),
+              'gen05_correction_rows': sum('analysis_baseline_model_sha256' in row for row in rows),
+              'legacy_published_rows': sum('analysis_baseline_model_sha256' not in row for row in rows),
               'preserved_prior_chunks': prior_chunks,
               'published': rows, 'pending': pending, 'skipped': skipped, 'proof_file': proof_name,
               'proof_file_sha256': sha((args.out / proof_name).read_bytes()), 'dependencies': dependencies,
               'policy_override_file': override_name,
               'policy_override_sha256': sha((args.out / override_name).read_bytes()),
-              'baseline': 'GEN02 authoritative; no models, searches or training runs created',
+              'baseline': 'Shared certificate DATA ONLY; historical GEN02 receipts retained, analysis/teacher models bound per row, actual raw source model UNKNOWN; no models, searches or training runs created',
               'value_contract': 'All rows has_value=False,q_valid=False,z=q=0,left=1,has_pol=True',
               'scope': 'Exact own-turn wins take priority; otherwise bounded next-turn safety only. No full-game optimality claim.',
               'holdout_policy': 'No holdout_v1 or synthetic held-out data read',

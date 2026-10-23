@@ -1,11 +1,39 @@
 {
-  "baseline": "GEN02 authoritative; no models, searches or training runs created",
+  "baseline": "Shared certificate DATA ONLY; historical GEN02 receipts retained, analysis/teacher models bound per row, actual raw source model UNKNOWN; no models, searches or training runs created",
+  "gen05_correction_rows": 7,
   "holdout_policy": "No holdout_v1 or synthetic held-out data read",
+  "inherited_published_rows": 26,
   "kind": "certificate_guided_policy_only_projection",
+  "legacy_published_rows": 19,
+  "new_published_rows": 0,
   "pending_teacher_rows": 0,
-  "policy_override_file": "policy-overrides-62cc87cc24107a895bf3.json",
-  "policy_override_sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276",
+  "policy_override_file": "policy-overrides-150fdf48d7fec80d0c67.json",
+  "policy_override_sha256": "d5eebd3996e614c2946467054ebcda29bb46986db708884d8fb08fa147a1977c",
   "preserved_prior_chunks": [
+    {
+      "chunk": "chunk-site-tactics-11059-ply030.npz",
+      "sha256": "d6703119807beb8d47bb6ec35de15d86b8b35ba59befb27953f8929e4e818495"
+    },
+    {
+      "chunk": "chunk-site-tactics-9928-ply028.npz",
+      "sha256": "1401ff19bffc7a43ae5780e1b85c3edbd0f6430a1caf0cf147fa709a4195ca32"
+    },
+    {
+      "chunk": "chunk-site-tactics-9366-ply036.npz",
+      "sha256": "25f81d465dde3589cbd33e3d2fe86bb0d6b35c8b69a75da02c8e1938bb56408c"
+    },
+    {
+      "chunk": "chunk-site-tactics-9366-ply052.npz",
+      "sha256": "bee964e3d7e85553210be4877c9315704e4c86737e1ecf703d01354a1f075e14"
+    },
+    {
+      "chunk": "chunk-site-tactics-8944-ply034.npz",
+      "sha256": "78f78472949fcedacca95d8fce9af485c74d1db314c28c609c71d303589126fc"
+    },
+    {
+      "chunk": "chunk-site-tactics-8745-ply030.npz",
+      "sha256": "7e479b2ab05ab2dfb23a969622aafc68d8dc51e029be94d776e6fdedc707a170"
+    },
     {
       "chunk": "chunk-site-tactics-7525-ply026.npz",
       "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053"
@@ -27,21 +55,77 @@
       "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731"
     },
     {
+      "chunk": "chunk-site-tactics-10838-ply033.npz",
+      "sha256": "9d03c8058c67385c98b1b2d5f1dc3a77c764d923fa5fe6f9a5dfd37c8f0bcab7"
+    },
+    {
+      "chunk": "chunk-site-tactics-10838-ply037.npz",
+      "sha256": "30fd1299341c55ed3c7e012dca560d104ea588304fb839a99541afa41cdc7c0b"
+    },
+    {
+      "chunk": "chunk-site-tactics-10762-ply019.npz",
+      "sha256": "68d816e2b589b705cecaa6490131841b3186f07b979c11d36cf498b376d5f49f"
+    },
+    {
+      "chunk": "chunk-site-tactics-8948-ply027.npz",
+      "sha256": "2e7e499223d535246c49705c812f5ecc33d099172ff4f3189cb681ee69690988"
+    },
+    {
+      "chunk": "chunk-site-tactics-8948-ply047.npz",
+      "sha256": "d3aea69027589b3cfe96aac286f06e19b6f1aaf6320ddd92a0b656d7f5e66ba6"
+    },
+    {
+      "chunk": "chunk-site-tactics-8855-ply027.npz",
+      "sha256": "968dbf4162f4692826f9a5c9efe6c1b0790af98fdda82b72817f2d2fd535a8ba"
+    },
+    {
+      "chunk": "chunk-site-tactics-8623-ply033.npz",
+      "sha256": "bd7e95758e7d7c4d3381063cc16571458ec0222a79490413d0f4f0027b6d9c8b"
+    },
+    {
       "chunk": "chunk-site-tactics-8228-ply035.npz",
       "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8"
+    },
+    {
+      "chunk": "chunk-site-tactics-16056-ply036.npz",
+      "sha256": "1cb36da3341f918e7204e1277238116913c6d30c57f5589d662ca44955e67359"
+    },
+    {
+      "chunk": "chunk-site-tactics-14009-ply033.npz",
+      "sha256": "c95136bd05e9a23c8bc1ce81988bf6ca4ab5ee4abf57fc7b542868f1bf1f0a01"
+    },
+    {
+      "chunk": "chunk-site-tactics-13352-ply034.npz",
+      "sha256": "aea95619cf7daa8c474b97ef094744b50612172fbc464d47db842f8e2422b551"
+    },
+    {
+      "chunk": "chunk-site-tactics-15116-ply031.npz",
+      "sha256": "2aeec0aac0a75d640bb1ae873d1f0fc3bbe74bd66682768564be596da6d6eec0"
+    },
+    {
+      "chunk": "chunk-site-tactics-15116-ply035.npz",
+      "sha256": "900db3c4b36b67e8991ce65a7c91598ff975fdc879f6b10b2b362b247061c5f0"
+    },
+    {
+      "chunk": "chunk-site-tactics-14621-ply063.npz",
+      "sha256": "6d0a4030f9fe72c013d439efccd6e0552b76e4d5970beb3e5c46f42fb9694a30"
+    },
+    {
+      "chunk": "chunk-site-tactics-14878-ply036.npz",
+      "sha256": "3eb85c072499acf1f9f3c80c77b8a1cf5447e7565a923f79191c463fef9eaf61"
     }
   ],
-  "proof_file": "proofs-62cc87cc24107a895bf3.json",
-  "proof_file_sha256": "7e41a6b754ea2e4d4e7724c2c025610fee8c24f5850940ec53aff36809c6d381",
-  "proof_only_uniform_rows": 13,
-  "report_file": "report-62cc87cc24107a895bf3.json",
-  "report_sha256": "fe6b53b370f08f5a66449c6519ecef839bc76b29eeb535c0ca8f3fb649675efb",
-  "rows": 19,
-  "run_id": "62cc87cc24107a895bf3",
+  "proof_file": "proofs-150fdf48d7fec80d0c67.json",
+  "proof_file_sha256": "984ecfab7f2780af90a64d8d517bb487cf32ef12f32f38c87d8e7c228d1b02fc",
+  "proof_only_uniform_rows": 16,
+  "report_file": "report-150fdf48d7fec80d0c67.json",
+  "report_sha256": "566f09d84b52bbbed3eb0d21d7f6a2b69238a4d523771c0971937888a09e13fd",
+  "rows": 26,
+  "run_id": "150fdf48d7fec80d0c67",
   "scope": "Exact own-turn wins take priority; otherwise bounded next-turn safety only. No full-game optimality claim.",
-  "skipped_no_admissible_rows": 3,
+  "skipped_no_admissible_rows": 19,
   "split_rule": "Keep whole source game group together across every split; do not treat repaired plies as independent games.",
-  "teacher_backed_rows": 6,
+  "teacher_backed_rows": 10,
   "value_contract": "All rows has_value=False,q_valid=False,z=q=0,left=1,has_pol=True",
   "version": 1
 }

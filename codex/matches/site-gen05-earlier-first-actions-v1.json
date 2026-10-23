@@ -1,0 +1,224 @@
+[
+  {
+    "game_id": "15116",
+    "action": 31,
+    "actual_first": "F6->G6",
+    "baseline_selected": "F6->E5",
+    "baseline_first_safe": false,
+    "safe_starts": [
+      "F6->F5",
+      "F6->G5"
+    ],
+    "continuations": [
+      {
+        "fr": [
+          2,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "F6->F5",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              3,
+              5
+            ],
+            "to": [
+              4,
+              6
+            ],
+            "notation": "F5->G4",
+            "kind": "move"
+          }
+        ]
+      },
+      {
+        "fr": [
+          2,
+          5
+        ],
+        "to": [
+          3,
+          6
+        ],
+        "notation": "F6->G5",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              3,
+              6
+            ],
+            "to": [
+              4,
+              6
+            ],
+            "notation": "G5->G4",
+            "kind": "move"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "15116",
+    "action": 35,
+    "actual_first": "G5->F5",
+    "baseline_selected": "G5->F5",
+    "baseline_first_safe": false,
+    "safe_starts": [
+      "G5->G6",
+      "G5->F6"
+    ],
+    "continuations": [
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "G5->G6",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              2,
+              6
+            ],
+            "to": [
+              1,
+              6
+            ],
+            "notation": "G6->G7",
+            "kind": "move"
+          }
+        ]
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "G5->F6",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              2,
+              5
+            ],
+            "to": [
+              1,
+              5
+            ],
+            "notation": "F6->F7",
+            "kind": "move"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "game_id": "14621",
+    "action": 63,
+    "actual_first": "F7->F6",
+    "baseline_selected": "F7->F6",
+    "baseline_first_safe": false,
+    "safe_starts": [
+      "E6->D6",
+      "E6->D7",
+      "E6->D5"
+    ],
+    "continuations": [
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          2,
+          3
+        ],
+        "notation": "E6->D6",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              2,
+              3
+            ],
+            "to": [
+              2,
+              2
+            ],
+            "notation": "D6->C6",
+            "kind": "move"
+          }
+        ]
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          1,
+          3
+        ],
+        "notation": "E6->D7",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              1,
+              3
+            ],
+            "to": [
+              2,
+              2
+            ],
+            "notation": "D7->C6",
+            "kind": "move"
+          }
+        ]
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "E6->D5",
+        "kind": "move",
+        "safe_completion": [
+          {
+            "fr": [
+              3,
+              3
+            ],
+            "to": [
+              3,
+              2
+            ],
+            "notation": "D5->C5",
+            "kind": "move"
+          }
+        ]
+      }
+    ]
+  }
+]
