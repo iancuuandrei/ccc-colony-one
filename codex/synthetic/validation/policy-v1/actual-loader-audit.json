@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "train_sha256": "81ea60002338705f743dc82de4f18c320d9d36bc5d9bb06c4be7ff949b87bd66",
+  "rows": 224,
+  "legacy_exact_rows_default_has_value_true": 80,
+  "explicit_policy_only_rows_has_value_false": 144,
+  "all_q_valid_false": true,
+  "all_has_pol_true": true,
+  "all_is_ext_true": true,
+  "source_sha256": {
+    "data\\ext_astra_synthetic_v1\\chunk0000.npz": "b0d1e2c78b5c0dbd418562a56b42b6a4b4e6c3c4fe210a4ad8002818f268c48f",
+    "data\\ext_astra_policy_v1\\chunk0000.npz": "b413c9fa6265468141063a8c4c9c6955520329466b924d5a29c0acad669b0019"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "files": [
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/chunk-site-tactics-7525-ply026.npz",
+      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053",
+      "bytes": 1794
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/chunk-site-tactics-7658-ply055.npz",
+      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c",
+      "bytes": 1752
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/chunk-site-tactics-8079-ply030.npz",
+      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b",
+      "bytes": 1745
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/chunk-site-tactics-8185-ply042.npz",
+      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6",
+      "bytes": 1760
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/chunk-site-tactics-8228-ply035.npz",
+      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8",
+      "bytes": 1749
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/chunk-site-tactics-8443-ply030.npz",
+      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731",
+      "bytes": 1784
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/manifest.json",
+      "sha256": "bdd2932b4bd7eee225697895d96eb8c4d3444fd599fcaed703c5a20afe370bd1",
+      "bytes": 44772
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/policy-overrides-91f2620403f5d6f6f112.json",
+      "sha256": "d42e21d5969344595c96c762c655afc1e5d44f26ae76d23e051ab092236d1724",
+      "bytes": 31523
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/policy-overrides-9f544393a9bbe2f3f513.json",
+      "sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25",
+      "bytes": 31510
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/policy-overrides-e6307115e2b3d4627af0.json",
+      "sha256": "ef73629b57d5476e56fd7cdc6f29fe4ee05cf3747a937f7fa8903f860a55cb18",
+      "bytes": 31523
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/policy-overrides.json",
+      "sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25",
+      "bytes": 31510
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/proofs-91f2620403f5d6f6f112.json",
+      "sha256": "ad1d9e2315597d218776199e3c5dda64b34af8efab368bdf92fba2ee509f5e4c",
+      "bytes": 172692
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/proofs-9f544393a9bbe2f3f513.json",
+      "sha256": "4a92df3ddd1a427ad9d4c0bb429c38b7567571688fd7509c4530e37c8a5e22df",
+      "bytes": 172606
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/proofs-c2fbaf9a5fb635b502bd.json",
+      "sha256": "99e535d53dc4c24cdd3e182b540874c674352802aac0f32cbb8480d25ad450ed",
+      "bytes": 115036
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/proofs-e6307115e2b3d4627af0.json",
+      "sha256": "436cecb94a549078466485939845e64f90f167dc04176309c9db8cbf810a570c",
+      "bytes": 143319
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/report-91f2620403f5d6f6f112.json",
+      "sha256": "29915082b4e3780303d9bb35fc5e2fb2d63ffb262a6159f40275f34d182dd448",
+      "bytes": 44742
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/report-9f544393a9bbe2f3f513.json",
+      "sha256": "f8659fdcb59b20ccc54dc0d306068c686ffcfd01b75c7e9575987801b5e10fff",
+      "bytes": 44632
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/report-c2fbaf9a5fb635b502bd.json",
+      "sha256": "efb7a1d4ce2a97ef0549ccf3a984eea4be00ce83d87931326093fce2f2890722",
+      "bytes": 31687
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/report-e6307115e2b3d4627af0.json",
+      "sha256": "0b65b3cbb144c565a33f1403e8348b60684186ca2046684a0eda9d65c56e61b0",
+      "bytes": 39526
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/summary.json",
+      "sha256": "70c989de7a3890472473f190d993a2446cf978c3445636f4f65fc280cc57fcef",
+      "bytes": 1127
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/validation-05a52daf0e43d3d81a0f.json",
+      "sha256": "b9ab2976c0092b3e3d090ddd1836fca141821a31437593027584e423bea152fb",
+      "bytes": 1631
+    },
+    {
+      "path": "training_snapshots/ext_site_tactics_v1-six/validation.json",
+      "sha256": "16ee08ec1e15686d230c19d459d50139e66a1f9566e85e8d32d08f4b7e94c128",
+      "bytes": 1712
+    }
+  ],
+  "scope": "Historical coherent 6-row dataset before final 19-row extension; original chunk bytes preserved"
+}

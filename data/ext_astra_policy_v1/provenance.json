@@ -1,0 +1,4901 @@
+{
+  "status": "READY_POLICY_ONLY_TRAINING",
+  "rows": 144,
+  "full_game_value": "UNKNOWN_FOR_ALL_ROWS",
+  "has_value": false,
+  "q_valid": false,
+  "has_pol": true,
+  "groups": [
+    "astra-family-firewall_then_last_piece_adjudication",
+    "astra-family-guarded_kernel_approach_cage",
+    "astra-family-poisoned_first_kernel_capture",
+    "astra-family-two_kernel_ping_cage"
+  ],
+  "source_packet_sha256": "68c2d0a41b383076a539e55c00040f9f43beeca5787eca9b9157b18b779cd8ae",
+  "independent_proof_report": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\validation\\policy-v1\\report.json",
+  "proof_sha256": "bf4feeec182316c5ac206aa112e82dc9c71c09f156697076ba6f1eca5103e11b",
+  "train_mask_audit_sha256": "145d12b4df51495bdd744de8c8fe3acedccc2c47a3185f35042004f0b9310fc3",
+  "audited_train_sha256": "81ea60002338705f743dc82de4f18c320d9d36bc5d9bb06c4be7ff949b87bd66",
+  "chunk_sha256": "b413c9fa6265468141063a8c4c9c6955520329466b924d5a29c0acad669b0019",
+  "policy_mass_max_error": 0.000244140625,
+  "holdout_quarantine": "TEST_ONLY preserved; zero D4-orbit intersections with holdout_v1",
+  "holdout_frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+  "records": [
+    {
+      "row": 0,
+      "position_id": "p-1110852918b18b0c",
+      "state_sha256": "1110852918b18b0c11b3f55eece1281c05e53040ae10247c68c515e3dbff7098",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2274,
+        2276,
+        2282,
+        2283,
+        2284,
+        3298,
+        3681,
+        3689,
+        3697,
+        3704,
+        3706,
+        3707,
+        3708
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        3300,
+        3305,
+        3309,
+        3325
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 1,
+      "position_id": "p-e0782f7b513b1fe5",
+      "state_sha256": "e0782f7b513b1fe57c4546683e921813dc46ecb5346212ea506add34364e475a",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        512,
+        521,
+        522,
+        523,
+        528,
+        536,
+        544,
+        1619,
+        1746,
+        1747,
+        1754,
+        1762,
+        1763
+      ],
+      "unsafe_first_actions": [
+        1610,
+        1635,
+        1640,
+        1642,
+        1748,
+        1756,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 2,
+      "position_id": "p-86e75e473f0a9b98",
+      "state_sha256": "86e75e473f0a9b9844c3e342556aa6b7440c92c225277d03f0e373061c6be5e1",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        387,
+        388,
+        389,
+        391,
+        398,
+        406,
+        414,
+        797,
+        1811,
+        1812,
+        1813,
+        1819,
+        1821
+      ],
+      "unsafe_first_actions": [
+        770,
+        786,
+        790,
+        795,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 3,
+      "position_id": "p-a3b091dbff4c3839",
+      "state_sha256": "a3b091dbff4c38392e2a15ab8eb6059b44b9ef098057ef6ba66304fc6f3fb6d3",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2332,
+        2333,
+        2341,
+        2348,
+        2349,
+        2476,
+        3551,
+        3559,
+        3567,
+        3572,
+        3573,
+        3574,
+        3583
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2339,
+        2347,
+        2453,
+        2455,
+        2460,
+        2485
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 4,
+      "position_id": "p-3355302eb735287f",
+      "state_sha256": "3355302eb735287fe8714769991e196bb766d5f73b6e8624135c3e6ef4d0be9c",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2339,
+        2341,
+        2347,
+        2348,
+        2349,
+        3365,
+        4006,
+        4014,
+        4022,
+        4027,
+        4028,
+        4029,
+        4031
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        3363,
+        3370,
+        3374,
+        3386
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 5,
+      "position_id": "p-1d1f8aa3c0326cbc",
+      "state_sha256": "1d1f8aa3c0326cbc87affeae799ce092a0c000162f369a3fb96597f72d05f213",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2155,
+        2266,
+        2267,
+        2274,
+        2282,
+        2283,
+        3096,
+        3104,
+        3112,
+        3121,
+        3122,
+        3123,
+        3128
+      ],
+      "unsafe_first_actions": [
+        2128,
+        2130,
+        2139,
+        2162,
+        2268,
+        2276,
+        2284
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 6,
+      "position_id": "p-b0aceff74b227b90",
+      "state_sha256": "b0aceff74b227b90e7f7100661020f8c7dacade38eff7aca45a9bf46156740f2",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        64,
+        66,
+        67,
+        68,
+        73,
+        81,
+        89,
+        730,
+        1746,
+        1747,
+        1748,
+        1754,
+        1756
+      ],
+      "unsafe_first_actions": [
+        709,
+        721,
+        725,
+        732,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 7,
+      "position_id": "p-59b16db92940fc0c",
+      "state_sha256": "59b16db92940fc0c094f21a6a09e6f32b0b005385aec8483e04f24f78bd73a5f",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        967,
+        972,
+        973,
+        974,
+        983,
+        991,
+        999,
+        1812,
+        1813,
+        1821,
+        1828,
+        1829,
+        1940
+      ],
+      "unsafe_first_actions": [
+        1811,
+        1819,
+        1827,
+        1933,
+        1956,
+        1965,
+        1967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 8,
+      "position_id": "p-96f92b7837b26ace",
+      "state_sha256": "96f92b7837b26acef0d954352ddc5a2547345b8111f885467f2b59ddd02019bf",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2274,
+        2276,
+        2282,
+        2283,
+        2284,
+        3298,
+        3300,
+        3832,
+        3833,
+        3834,
+        3836,
+        3837,
+        3838
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        3305,
+        3309,
+        3321,
+        3325
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 9,
+      "position_id": "p-d1d6cde831688ba3",
+      "state_sha256": "d1d6cde831688ba3dad1fa45744e47a8bdc831dffb0dc9d24411b2533ad063d3",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1536,
+        1544,
+        1552,
+        1568,
+        1576,
+        1584,
+        1619,
+        1635,
+        1746,
+        1747,
+        1754,
+        1762,
+        1763
+      ],
+      "unsafe_first_actions": [
+        1608,
+        1610,
+        1640,
+        1642,
+        1748,
+        1756,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 10,
+      "position_id": "p-2fd9ba48af0831ee",
+      "state_sha256": "2fd9ba48af0831eea9cba87fc434933c946610293815840dd4f042de5c253952",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        257,
+        258,
+        259,
+        261,
+        262,
+        263,
+        795,
+        797,
+        1811,
+        1812,
+        1813,
+        1819,
+        1821
+      ],
+      "unsafe_first_actions": [
+        770,
+        774,
+        786,
+        790,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 11,
+      "position_id": "p-cbe68599a3d97883",
+      "state_sha256": "cbe68599a3d978835845b02bd57901b54eeee0c6cabaec39e45e1894098229c0",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2332,
+        2333,
+        2341,
+        2348,
+        2349,
+        2460,
+        2476,
+        2511,
+        2519,
+        2527,
+        2543,
+        2551,
+        2559
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2339,
+        2347,
+        2453,
+        2455,
+        2485,
+        2487
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 12,
+      "position_id": "p-55105bc943bd8453",
+      "state_sha256": "55105bc943bd84537b7436a4855ea7e1270c34fec9fdd2cfc0bc3e441abe963d",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2339,
+        2341,
+        2347,
+        2348,
+        2349,
+        3363,
+        3365,
+        3897,
+        3898,
+        3899,
+        3901,
+        3902,
+        3903
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        3370,
+        3374,
+        3386,
+        3390
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 13,
+      "position_id": "p-eae656765412226b",
+      "state_sha256": "eae656765412226bda9b65d508dcd2f4ff426970d92bb94fd07e13554f26d0be",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2056,
+        2064,
+        2072,
+        2088,
+        2096,
+        2104,
+        2139,
+        2155,
+        2266,
+        2267,
+        2274,
+        2282,
+        2283
+      ],
+      "unsafe_first_actions": [
+        2128,
+        2130,
+        2160,
+        2162,
+        2268,
+        2276,
+        2284
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 14,
+      "position_id": "p-38cfd5dd618f04ee",
+      "state_sha256": "38cfd5dd618f04ee4d1d440f79272dfc9278775a41b016cd80259dd76950fcf9",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        192,
+        193,
+        194,
+        196,
+        197,
+        198,
+        730,
+        732,
+        1746,
+        1747,
+        1748,
+        1754,
+        1756
+      ],
+      "unsafe_first_actions": [
+        705,
+        709,
+        721,
+        725,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 15,
+      "position_id": "p-6469c61f0d7d00ad",
+      "state_sha256": "6469c61f0d7d00ad27328582bc279b4df1a392adb550ea9abab0e14329f15487",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1812,
+        1813,
+        1821,
+        1828,
+        1829,
+        1940,
+        1956,
+        1991,
+        1999,
+        2007,
+        2023,
+        2031,
+        2039
+      ],
+      "unsafe_first_actions": [
+        1811,
+        1819,
+        1827,
+        1933,
+        1935,
+        1965,
+        1967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 16,
+      "position_id": "p-d9377e5450e4f784",
+      "state_sha256": "d9377e5450e4f78425a9989d37c1a342a705bd0268540fdc172a41ed74fd0390",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2274,
+        2276,
+        2282,
+        2283,
+        2284,
+        3298,
+        3300,
+        3876,
+        3884,
+        3892,
+        3897,
+        3898,
+        3899,
+        3901,
+        3902,
+        3903
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        3305,
+        3309,
+        3321,
+        3325
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 17,
+      "position_id": "p-301cc7d01508b6ea",
+      "state_sha256": "301cc7d01508b6ea5e6ffccdb7d742a079e9f5569129d3108cd190b91e45c5e6",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1619,
+        1635,
+        1746,
+        1747,
+        1754,
+        1762,
+        1763,
+        2056,
+        2064,
+        2072,
+        2081,
+        2082,
+        2083,
+        2088,
+        2096,
+        2104
+      ],
+      "unsafe_first_actions": [
+        1608,
+        1610,
+        1640,
+        1642,
+        1748,
+        1756,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 18,
+      "position_id": "p-6e2a01c87b2011b4",
+      "state_sha256": "6e2a01c87b2011b4306c38290af81bed802d5e88d7ee9f27e6bdd0b235bfb78c",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        192,
+        193,
+        194,
+        196,
+        197,
+        198,
+        203,
+        211,
+        219,
+        795,
+        797,
+        1811,
+        1812,
+        1813,
+        1819,
+        1821
+      ],
+      "unsafe_first_actions": [
+        770,
+        774,
+        786,
+        790,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 19,
+      "position_id": "p-b17231bc35605704",
+      "state_sha256": "b17231bc3560570485998dbc8b63067778e114c6d9aafb63f97f243c06c676e0",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1991,
+        1999,
+        2007,
+        2012,
+        2013,
+        2014,
+        2023,
+        2031,
+        2039,
+        2332,
+        2333,
+        2341,
+        2348,
+        2349,
+        2460,
+        2476
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2339,
+        2347,
+        2453,
+        2455,
+        2485,
+        2487
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 20,
+      "position_id": "p-a3ab8937de653dc5",
+      "state_sha256": "a3ab8937de653dc5c00e660c76c72d8c3131f5056d5604f7211853b1d2a530b3",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2339,
+        2341,
+        2347,
+        2348,
+        2349,
+        3363,
+        3365,
+        3811,
+        3819,
+        3827,
+        3832,
+        3833,
+        3834,
+        3836,
+        3837,
+        3838
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        3370,
+        3374,
+        3386,
+        3390
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 21,
+      "position_id": "p-a78b51431e70295a",
+      "state_sha256": "a78b51431e70295a79b366be99a7eb6a7981ae05f6c0f2e3397f18a8b0a6bfe9",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1536,
+        1544,
+        1552,
+        1561,
+        1562,
+        1563,
+        1568,
+        1576,
+        1584,
+        2139,
+        2155,
+        2266,
+        2267,
+        2274,
+        2282,
+        2283
+      ],
+      "unsafe_first_actions": [
+        2128,
+        2130,
+        2160,
+        2162,
+        2268,
+        2276,
+        2284
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 22,
+      "position_id": "p-7844482aa53139bb",
+      "state_sha256": "7844482aa53139bbb3a263a610d3a2703e89bcc64c48e2589892b508916bb4b4",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        257,
+        258,
+        259,
+        261,
+        262,
+        263,
+        268,
+        276,
+        284,
+        730,
+        732,
+        1746,
+        1747,
+        1748,
+        1754,
+        1756
+      ],
+      "unsafe_first_actions": [
+        705,
+        709,
+        721,
+        725,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 23,
+      "position_id": "p-c783b77d9d45fd54",
+      "state_sha256": "c783b77d9d45fd54ea00855ea1570318981fdb53555cd28231aa4b410248f9cb",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_2",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1812,
+        1813,
+        1821,
+        1828,
+        1829,
+        1940,
+        1956,
+        2511,
+        2519,
+        2527,
+        2532,
+        2533,
+        2534,
+        2543,
+        2551,
+        2559
+      ],
+      "unsafe_first_actions": [
+        1811,
+        1819,
+        1827,
+        1933,
+        1935,
+        1965,
+        1967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 24,
+      "position_id": "p-5dd6d54131c1ad4b",
+      "state_sha256": "5dd6d54131c1ad4b7102f3b2881676002af44198c9a26667f3dc9fdd41ba4281",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2282,
+        2283,
+        2284,
+        3298,
+        3300,
+        3746,
+        3754,
+        3762
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        3305,
+        3309,
+        3321,
+        3325,
+        3768,
+        3769,
+        3771,
+        3772,
+        3773
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 25,
+      "position_id": "p-752c8e04e732fb00",
+      "state_sha256": "752c8e04e732fb00dc5d62a4b3ea8aecbd24a4417d8ad8dce62a02004ab821bf",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1041,
+        1042,
+        1043,
+        1619,
+        1635,
+        1746,
+        1754,
+        1762
+      ],
+      "unsafe_first_actions": [
+        1024,
+        1032,
+        1048,
+        1056,
+        1064,
+        1608,
+        1610,
+        1640,
+        1642,
+        1747,
+        1748,
+        1756,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 26,
+      "position_id": "p-86390910ed3004a6",
+      "state_sha256": "86390910ed3004a6b4eaad3b2ad345de43da4217020ada8e24008010c42ed6d1",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        333,
+        341,
+        349,
+        795,
+        797,
+        1811,
+        1812,
+        1813
+      ],
+      "unsafe_first_actions": [
+        322,
+        323,
+        324,
+        326,
+        327,
+        770,
+        774,
+        786,
+        790,
+        1819,
+        1821,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 27,
+      "position_id": "p-dc47242633cc7574",
+      "state_sha256": "dc47242633cc7574862dcead41e047e9c86f774189fa62ad5108888aae9c1c38",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2333,
+        2341,
+        2349,
+        2460,
+        2476,
+        3052,
+        3053,
+        3054
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2339,
+        2347,
+        2348,
+        2453,
+        2455,
+        2485,
+        2487,
+        3031,
+        3039,
+        3047,
+        3063,
+        3071
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 28,
+      "position_id": "p-a2b4b9d298ecadbf",
+      "state_sha256": "a2b4b9d298ecadbfdae21722f16d4bfec23c71615c27114c4a6613d50469e50d",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2347,
+        2348,
+        2349,
+        3363,
+        3365,
+        3941,
+        3949,
+        3957
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2341,
+        3370,
+        3374,
+        3386,
+        3390,
+        3962,
+        3963,
+        3964,
+        3966,
+        3967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 29,
+      "position_id": "p-5dff193cea01d16b",
+      "state_sha256": "5dff193cea01d16b15d903ecb37a57ac7f07ff1f4be6206ba29888aeb73fb9a6",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2139,
+        2155,
+        2266,
+        2274,
+        2282,
+        2601,
+        2602,
+        2603
+      ],
+      "unsafe_first_actions": [
+        2128,
+        2130,
+        2160,
+        2162,
+        2267,
+        2268,
+        2276,
+        2283,
+        2284,
+        2576,
+        2584,
+        2592,
+        2608,
+        2616
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 30,
+      "position_id": "p-8a7a960996706dbd",
+      "state_sha256": "8a7a960996706dbd710def6cebbb6d81fc7d22e2982da4f499c3fce9f9399fbf",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        138,
+        146,
+        154,
+        730,
+        732,
+        1746,
+        1747,
+        1748
+      ],
+      "unsafe_first_actions": [
+        128,
+        129,
+        131,
+        132,
+        133,
+        705,
+        709,
+        721,
+        725,
+        1754,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 31,
+      "position_id": "p-b1edf12809981f16",
+      "state_sha256": "b1edf12809981f167646eb00a151b4fc8848204cddcad0c8081462fa05bb5cbe",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_3",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1492,
+        1493,
+        1494,
+        1813,
+        1821,
+        1829,
+        1940,
+        1956
+      ],
+      "unsafe_first_actions": [
+        1479,
+        1487,
+        1503,
+        1511,
+        1519,
+        1811,
+        1812,
+        1819,
+        1827,
+        1828,
+        1933,
+        1935,
+        1965,
+        1967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 32,
+      "position_id": "p-c2adc7271a6f2926",
+      "state_sha256": "c2adc7271a6f29261b25f74bbd04c9613710c56e33086b6cc77fc153bb821db4",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2274,
+        2276,
+        2282,
+        2283,
+        2284,
+        3298,
+        3300,
+        3746,
+        3754,
+        3762,
+        3768,
+        3769,
+        3771,
+        3772,
+        3773
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        3305,
+        3309,
+        3321,
+        3325
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 33,
+      "position_id": "p-e767fa2b50b62977",
+      "state_sha256": "e767fa2b50b6297746ce87f9bc86f17b283e94b15a5a2f44e17b6218d40e386a",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1024,
+        1032,
+        1041,
+        1042,
+        1043,
+        1048,
+        1056,
+        1064,
+        1619,
+        1635,
+        1746,
+        1747,
+        1754,
+        1762,
+        1763
+      ],
+      "unsafe_first_actions": [
+        1608,
+        1610,
+        1640,
+        1642,
+        1748,
+        1756,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 34,
+      "position_id": "p-fc218db7e495e430",
+      "state_sha256": "fc218db7e495e430e78ae112bf64eec3beba3a50de58361862271a2278be78f9",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        322,
+        323,
+        324,
+        326,
+        327,
+        333,
+        341,
+        349,
+        795,
+        797,
+        1811,
+        1812,
+        1813,
+        1819,
+        1821
+      ],
+      "unsafe_first_actions": [
+        770,
+        774,
+        786,
+        790,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 35,
+      "position_id": "p-982deb09d6fe54bb",
+      "state_sha256": "982deb09d6fe54bbe844c29b5f9f36f1a672053eb99fe3e242b2b2881e4ec76f",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2332,
+        2333,
+        2341,
+        2348,
+        2349,
+        2460,
+        2476,
+        3031,
+        3039,
+        3047,
+        3052,
+        3053,
+        3054,
+        3063,
+        3071
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2339,
+        2347,
+        2453,
+        2455,
+        2485,
+        2487
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 36,
+      "position_id": "p-f8d742c80b88cb6c",
+      "state_sha256": "f8d742c80b88cb6cd42949ce1c43c0c8fc41d09d1ca93910ac68307b958ec967",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2339,
+        2341,
+        2347,
+        2348,
+        2349,
+        3363,
+        3365,
+        3941,
+        3949,
+        3957,
+        3962,
+        3963,
+        3964,
+        3966,
+        3967
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        3370,
+        3374,
+        3386,
+        3390
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 37,
+      "position_id": "p-14e3731ca7b0879e",
+      "state_sha256": "14e3731ca7b0879e8b81d8215aa7a041528811bd7ccf424b9fa2af9740051441",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2139,
+        2155,
+        2266,
+        2267,
+        2274,
+        2282,
+        2283,
+        2576,
+        2584,
+        2592,
+        2601,
+        2602,
+        2603,
+        2608,
+        2616
+      ],
+      "unsafe_first_actions": [
+        2128,
+        2130,
+        2160,
+        2162,
+        2268,
+        2276,
+        2284
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 38,
+      "position_id": "p-eef2ecd2fb781c0f",
+      "state_sha256": "eef2ecd2fb781c0f3d0793849aec01eb8cc1197fa03191570309065c4aa4aada",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        128,
+        129,
+        131,
+        132,
+        133,
+        138,
+        146,
+        154,
+        730,
+        732,
+        1746,
+        1747,
+        1748,
+        1754,
+        1756
+      ],
+      "unsafe_first_actions": [
+        705,
+        709,
+        721,
+        725,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 39,
+      "position_id": "p-42fe9ce7f38a4686",
+      "state_sha256": "42fe9ce7f38a46865218c44ea0227ebeb9a5f9d485217a699ea2cc9b104ba1f2",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_4",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1479,
+        1487,
+        1492,
+        1493,
+        1494,
+        1503,
+        1511,
+        1519,
+        1812,
+        1813,
+        1821,
+        1828,
+        1829,
+        1940,
+        1956
+      ],
+      "unsafe_first_actions": [
+        1811,
+        1819,
+        1827,
+        1933,
+        1935,
+        1965,
+        1967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 40,
+      "position_id": "p-6727d88f0710339b",
+      "state_sha256": "6727d88f0710339baae538e9e751f770e2fb0925f3462d195a40e9a5c9e5ed7b",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2274,
+        2276,
+        2282,
+        2283,
+        2284,
+        3298,
+        3300,
+        3746,
+        3754,
+        3762,
+        3768,
+        3769,
+        3771,
+        3772,
+        3773
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        3305,
+        3309,
+        3321,
+        3325
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 41,
+      "position_id": "p-0ee8e5865561777d",
+      "state_sha256": "0ee8e5865561777d63e50d2676c9b776a4d7b2e0c68bebeef5012212a9478ebb",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1024,
+        1032,
+        1041,
+        1042,
+        1043,
+        1048,
+        1056,
+        1064,
+        1619,
+        1635,
+        1746,
+        1747,
+        1754,
+        1762,
+        1763
+      ],
+      "unsafe_first_actions": [
+        1608,
+        1610,
+        1640,
+        1642,
+        1748,
+        1756,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 42,
+      "position_id": "p-ac4f0e42ad363c80",
+      "state_sha256": "ac4f0e42ad363c800c4863138a7f3c98cc0bbee3ae5f6724bb843ffe2f24f4c6",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        322,
+        323,
+        324,
+        326,
+        327,
+        333,
+        341,
+        349,
+        795,
+        797,
+        1811,
+        1812,
+        1813,
+        1819,
+        1821
+      ],
+      "unsafe_first_actions": [
+        770,
+        774,
+        786,
+        790,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 43,
+      "position_id": "p-829a0d5b41272ec0",
+      "state_sha256": "829a0d5b41272ec028870bb4c2038ca3f0413b3e1e77466d923b0c4bd7ad9b6f",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2332,
+        2333,
+        2341,
+        2348,
+        2349,
+        2460,
+        2476,
+        3031,
+        3039,
+        3047,
+        3052,
+        3053,
+        3054,
+        3063,
+        3071
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2339,
+        2347,
+        2453,
+        2455,
+        2485,
+        2487
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 44,
+      "position_id": "p-e616711af5f67582",
+      "state_sha256": "e616711af5f675829710183ab96f3efe143cde5b9c285bb1b22b46bf951b0c69",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2339,
+        2341,
+        2347,
+        2348,
+        2349,
+        3363,
+        3365,
+        3941,
+        3949,
+        3957,
+        3962,
+        3963,
+        3964,
+        3966,
+        3967
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        3370,
+        3374,
+        3386,
+        3390
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 45,
+      "position_id": "p-3184492094ef1c69",
+      "state_sha256": "3184492094ef1c6960441a6b6552864e83a77b3859c1bd161987c605f8b53285",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2139,
+        2155,
+        2266,
+        2267,
+        2274,
+        2282,
+        2283,
+        2576,
+        2584,
+        2592,
+        2601,
+        2602,
+        2603,
+        2608,
+        2616
+      ],
+      "unsafe_first_actions": [
+        2128,
+        2130,
+        2160,
+        2162,
+        2268,
+        2276,
+        2284
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 46,
+      "position_id": "p-f2e34efba923ae9c",
+      "state_sha256": "f2e34efba923ae9c716024350e0169b84a8df5e2da3f24a60a180efea2a72063",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        128,
+        129,
+        131,
+        132,
+        133,
+        138,
+        146,
+        154,
+        730,
+        732,
+        1746,
+        1747,
+        1748,
+        1754,
+        1756
+      ],
+      "unsafe_first_actions": [
+        705,
+        709,
+        721,
+        725,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 47,
+      "position_id": "p-ee2a3699c6c6668a",
+      "state_sha256": "ee2a3699c6c6668a9ee283cc798a55cba2d37162a53b1c2e098cf6bb69f78160",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_5",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1479,
+        1487,
+        1492,
+        1493,
+        1494,
+        1503,
+        1511,
+        1519,
+        1812,
+        1813,
+        1821,
+        1828,
+        1829,
+        1940,
+        1956
+      ],
+      "unsafe_first_actions": [
+        1811,
+        1819,
+        1827,
+        1933,
+        1935,
+        1965,
+        1967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 48,
+      "position_id": "p-ff1cc485650472cd",
+      "state_sha256": "ff1cc485650472cd0a27e207014cd291762185527c59fed5588667e66f6a1085",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2282,
+        2283,
+        2284,
+        3170,
+        3179,
+        3746,
+        3754,
+        3762
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        3168,
+        3195,
+        3768,
+        3769,
+        3771,
+        3772,
+        3773
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 49,
+      "position_id": "p-48e61110e00397e7",
+      "state_sha256": "48e61110e00397e740e40c74df958ff33500b805b0756d8125f04cd680583997",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        595,
+        602,
+        1041,
+        1042,
+        1043,
+        1746,
+        1754,
+        1762
+      ],
+      "unsafe_first_actions": [
+        579,
+        600,
+        1024,
+        1032,
+        1048,
+        1056,
+        1064,
+        1747,
+        1748,
+        1756,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 50,
+      "position_id": "p-281a4d011b388b22",
+      "state_sha256": "281a4d011b388b22e6c2d063d2b10edee52174bf70fa17add8e0959c00a16ba5",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        333,
+        341,
+        349,
+        916,
+        925,
+        1811,
+        1812,
+        1813
+      ],
+      "unsafe_first_actions": [
+        322,
+        323,
+        324,
+        326,
+        327,
+        900,
+        927,
+        1819,
+        1821,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 51,
+      "position_id": "p-5d2452056a75566b",
+      "state_sha256": "5d2452056a75566b9e3eb3b9108710eeee8b24dd16eebe6ccea78804b3df8c91",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2333,
+        2341,
+        2349,
+        3052,
+        3053,
+        3054,
+        3493,
+        3500
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2339,
+        2347,
+        2348,
+        3031,
+        3039,
+        3047,
+        3063,
+        3071,
+        3495,
+        3516
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 52,
+      "position_id": "p-fd04c33af182d3a2",
+      "state_sha256": "fd04c33af182d3a25f6ef8f6ef3a8c02cfccfdd7128ca44dfce12b9043bde3f9",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2347,
+        2348,
+        2349,
+        3493,
+        3500,
+        3941,
+        3949,
+        3957
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2341,
+        3495,
+        3516,
+        3962,
+        3963,
+        3964,
+        3966,
+        3967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 53,
+      "position_id": "p-10d8ad5e58f07062",
+      "state_sha256": "10d8ad5e58f070629f3749711f7ed496e011042bde31f9568120feea94a1050f",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2266,
+        2274,
+        2282,
+        2601,
+        2602,
+        2603,
+        3170,
+        3179
+      ],
+      "unsafe_first_actions": [
+        2267,
+        2268,
+        2276,
+        2283,
+        2284,
+        2576,
+        2584,
+        2592,
+        2608,
+        2616,
+        3168,
+        3195
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 54,
+      "position_id": "p-3361e77cf0da63a6",
+      "state_sha256": "3361e77cf0da63a6576dd014c355832907c5a31dfbfcd936a98ac167ddc4ecef",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        138,
+        146,
+        154,
+        595,
+        602,
+        1746,
+        1747,
+        1748
+      ],
+      "unsafe_first_actions": [
+        128,
+        129,
+        131,
+        132,
+        133,
+        579,
+        600,
+        1754,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 55,
+      "position_id": "p-76382c9583bdcc02",
+      "state_sha256": "76382c9583bdcc027d6d8d21458790ea359b1547722496dae95b42ccfedd32a7",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_6",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        916,
+        925,
+        1492,
+        1493,
+        1494,
+        1813,
+        1821,
+        1829
+      ],
+      "unsafe_first_actions": [
+        900,
+        927,
+        1479,
+        1487,
+        1503,
+        1511,
+        1519,
+        1811,
+        1812,
+        1819,
+        1827,
+        1828
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 56,
+      "position_id": "p-94375fbb4216f44d",
+      "state_sha256": "94375fbb4216f44d477026d9ff2404107aeabcb61b438e6136ff30a93f9f8800",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2282,
+        2283,
+        2284,
+        3746,
+        3754,
+        3762,
+        3948,
+        3955
+      ],
+      "unsafe_first_actions": [
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        3768,
+        3769,
+        3771,
+        3772,
+        3950,
+        3959
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 57,
+      "position_id": "p-6197a41f585ec6c1",
+      "state_sha256": "6197a41f585ec6c16abf6436ed79a01c4d7cd3a6300d92d2223bd5defeac8c33",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1041,
+        1042,
+        1043,
+        1746,
+        1754,
+        1762,
+        2585,
+        2594
+      ],
+      "unsafe_first_actions": [
+        1024,
+        1032,
+        1048,
+        1056,
+        1747,
+        1748,
+        1756,
+        1763,
+        1764,
+        2610,
+        2617
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 58,
+      "position_id": "p-66d6e60d19d4c53c",
+      "state_sha256": "66d6e60d19d4c53c4fae02490d9bb1312da34a72daf9b658c311173f57b11b95",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        140,
+        147,
+        333,
+        341,
+        349,
+        1811,
+        1812,
+        1813
+      ],
+      "unsafe_first_actions": [
+        136,
+        145,
+        323,
+        324,
+        326,
+        327,
+        1819,
+        1821,
+        1827,
+        1828,
+        1829
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 59,
+      "position_id": "p-acc42643b85c0668",
+      "state_sha256": "acc42643b85c06680cde2c346b09013557ff7a1f358d0334de0e952e64965441",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1501,
+        1510,
+        2333,
+        2341,
+        2349,
+        3052,
+        3053,
+        3054
+      ],
+      "unsafe_first_actions": [
+        1478,
+        1485,
+        2331,
+        2332,
+        2339,
+        2347,
+        2348,
+        3039,
+        3047,
+        3063,
+        3071
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 60,
+      "position_id": "p-b126779d5c46c93c",
+      "state_sha256": "b126779d5c46c93c56a276e35f822f6d4a79f61e09d97e1fbdf4691c84c61bae",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2347,
+        2348,
+        2349,
+        3755,
+        3764,
+        3941,
+        3949,
+        3957
+      ],
+      "unsafe_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2341,
+        3753,
+        3760,
+        3963,
+        3964,
+        3966,
+        3967
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 61,
+      "position_id": "p-ef817188683785c5",
+      "state_sha256": "ef817188683785c5b9f78d1b8b562cadfb2beca8d59fff1d4a1c80deb6e2b3d5",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1050,
+        1057,
+        2266,
+        2274,
+        2282,
+        2601,
+        2602,
+        2603
+      ],
+      "unsafe_first_actions": [
+        1025,
+        1034,
+        2267,
+        2268,
+        2276,
+        2283,
+        2284,
+        2584,
+        2592,
+        2608,
+        2616
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 62,
+      "position_id": "p-4d147eed817627ae",
+      "state_sha256": "4d147eed817627ae85f4f40d6a525fbba81aa53291e371b93a2d5cbad10418a7",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        138,
+        146,
+        154,
+        331,
+        340,
+        1746,
+        1747,
+        1748
+      ],
+      "unsafe_first_actions": [
+        128,
+        129,
+        131,
+        132,
+        335,
+        342,
+        1754,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 63,
+      "position_id": "p-c3cee1602b181c49",
+      "state_sha256": "c3cee1602b181c49c5a8167e55a6bb53a75f53325e4a14fe3ae62102f2b87ccc",
+      "group_id": "astra-family-poisoned_first_kernel_capture",
+      "original_motif": "poisoned_capture_counterfactual_7",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1492,
+        1493,
+        1494,
+        1813,
+        1821,
+        1829,
+        3038,
+        3045
+      ],
+      "unsafe_first_actions": [
+        1479,
+        1487,
+        1503,
+        1511,
+        1811,
+        1812,
+        1819,
+        1827,
+        1828,
+        3061,
+        3070
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 64,
+      "position_id": "p-2843007c5094ac98",
+      "state_sha256": "2843007c5094ac98957f55702a68f4cc261507353b29449e1bcafe0937591f42",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        3241,
+        3249
+      ],
+      "unsafe_first_actions": [
+        3242,
+        3243,
+        3251
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 65,
+      "position_id": "p-fde31752ba33f305",
+      "state_sha256": "fde31752ba33f3058b586fb59a41c71afe444cdb05fbd81712b2edcd13ba8b46",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1097,
+        1098
+      ],
+      "unsafe_first_actions": [
+        1106,
+        1113,
+        1114
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 66,
+      "position_id": "p-addc0d4b608e581c",
+      "state_sha256": "addc0d4b608e581ca5fdf0bb2e209b939684b5e52d8b9ccc35ada803692534aa",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        846,
+        854
+      ],
+      "unsafe_first_actions": [
+        844,
+        852,
+        853
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 67,
+      "position_id": "p-7754b6134be0b4dc",
+      "state_sha256": "7754b6134be0b4dc7bce13190a7cc151b81f2579553c9888f0111e7f3f368fe2",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2997,
+        2998
+      ],
+      "unsafe_first_actions": [
+        2981,
+        2982,
+        2989
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 68,
+      "position_id": "p-1703b07a19a8430e",
+      "state_sha256": "1703b07a19a8430e9c16c6a6494ac0fec458da6e07c34690c7f7a1c5c22f66c0",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        3438,
+        3446
+      ],
+      "unsafe_first_actions": [
+        3436,
+        3437,
+        3444
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 69,
+      "position_id": "p-fdfaee8332cb9cd5",
+      "state_sha256": "fdfaee8332cb9cd5462082b18159e87c5aafc14dddd33bfec143a6f44e44f523",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2673,
+        2674
+      ],
+      "unsafe_first_actions": [
+        2657,
+        2658,
+        2666
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 70,
+      "position_id": "p-411ed7a96167b967",
+      "state_sha256": "411ed7a96167b9672a3ef45ecd331e9f74232a8ae9445f46df9269967ea99458",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        649,
+        657
+      ],
+      "unsafe_first_actions": [
+        651,
+        658,
+        659
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 71,
+      "position_id": "p-be8fec29a4293296",
+      "state_sha256": "be8fec29a4293296027940e8257d09e94224dd3cedde49e99119ff9877edd4a5",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1421,
+        1422
+      ],
+      "unsafe_first_actions": [
+        1429,
+        1437,
+        1438
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 72,
+      "position_id": "p-b93bc14244860556",
+      "state_sha256": "b93bc142448605567c6ac771b08a8f2dca8524fe9679b4ce52096bbb6b60995d",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        3241,
+        3249,
+        3251
+      ],
+      "unsafe_first_actions": [
+        3242,
+        3243
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 73,
+      "position_id": "p-849b9967a8222d4a",
+      "state_sha256": "849b9967a8222d4a530ada727d52beaa83bbde52b6503bf40dfd2db546186ada",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1097,
+        1098,
+        1113
+      ],
+      "unsafe_first_actions": [
+        1106,
+        1114
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 74,
+      "position_id": "p-012cd8aff1fbc8ad",
+      "state_sha256": "012cd8aff1fbc8adfa573ae1d7537a7c1d0fa99a4c2870e1016bd85f71af3e97",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        844,
+        846,
+        854
+      ],
+      "unsafe_first_actions": [
+        852,
+        853
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 75,
+      "position_id": "p-c0e0d7fda5faf512",
+      "state_sha256": "c0e0d7fda5faf5128f60d6b06757bb3242454c8ec88fcafbcd28e881b1ab9a9a",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2982,
+        2997,
+        2998
+      ],
+      "unsafe_first_actions": [
+        2981,
+        2989
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 76,
+      "position_id": "p-609bef5db2a5cad4",
+      "state_sha256": "609bef5db2a5cad48104f27068d5a2ca6e7c424be444a6f5b641ebf74858d257",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        3438,
+        3444,
+        3446
+      ],
+      "unsafe_first_actions": [
+        3436,
+        3437
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 77,
+      "position_id": "p-9224d22df6eea8a5",
+      "state_sha256": "9224d22df6eea8a5839e544a65a865e8ea92df240e08b6be1a1ce415aedd62ae",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2657,
+        2673,
+        2674
+      ],
+      "unsafe_first_actions": [
+        2658,
+        2666
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 78,
+      "position_id": "p-43b66c73c67d6b01",
+      "state_sha256": "43b66c73c67d6b01aafe8bf7dc96809d88ca5909a814b8693abd0b05fb9f7c12",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        649,
+        651,
+        657
+      ],
+      "unsafe_first_actions": [
+        658,
+        659
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 79,
+      "position_id": "p-b158e117147c7136",
+      "state_sha256": "b158e117147c7136a9a163d461325e9da856b73f733dd1ea658ffe3da232c589",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1421,
+        1422,
+        1438
+      ],
+      "unsafe_first_actions": [
+        1429,
+        1437
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 80,
+      "position_id": "p-dc8130c67039e086",
+      "state_sha256": "dc8130c67039e086e9299be7ad9c7fd14feee7f9f05e7a98af58a59a5086b732",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        3241,
+        3249,
+        3251
+      ],
+      "unsafe_first_actions": [
+        3242,
+        3243
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 81,
+      "position_id": "p-7349f13016bb099a",
+      "state_sha256": "7349f13016bb099ab60bd922c0e09f6c257cb4d197eb616a7e10e326f36e95b0",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1097,
+        1098,
+        1113
+      ],
+      "unsafe_first_actions": [
+        1106,
+        1114
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 82,
+      "position_id": "p-ed0a8fd47d74d402",
+      "state_sha256": "ed0a8fd47d74d4021c84daeed4a15d4a8f9c30b264e06e91a1cf45d2bbc4054a",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        844,
+        846,
+        854
+      ],
+      "unsafe_first_actions": [
+        852,
+        853
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 83,
+      "position_id": "p-916639e8cf45333b",
+      "state_sha256": "916639e8cf45333be2ac7dfc22c63213c954b4eb501b23b45b95ef61b412359a",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2982,
+        2997,
+        2998
+      ],
+      "unsafe_first_actions": [
+        2981,
+        2989
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 84,
+      "position_id": "p-6d486dfe4d2e8dd6",
+      "state_sha256": "6d486dfe4d2e8dd68668ca70a833e6a6b25786eeff1e537e6bde6f6d37e70264",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        3438,
+        3444,
+        3446
+      ],
+      "unsafe_first_actions": [
+        3436,
+        3437
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 85,
+      "position_id": "p-7e085895b8c254ac",
+      "state_sha256": "7e085895b8c254ac8e8004fb2c2265a4f89fd98941fe8d561d1c4c615e95203a",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2657,
+        2673,
+        2674
+      ],
+      "unsafe_first_actions": [
+        2658,
+        2666
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 86,
+      "position_id": "p-5952e4e264d76862",
+      "state_sha256": "5952e4e264d76862a7e39226acaeeff8e09a3ed762a70f8d5956250791a3a3c0",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        649,
+        651,
+        657
+      ],
+      "unsafe_first_actions": [
+        658,
+        659
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 87,
+      "position_id": "p-01379a6a93ef13c8",
+      "state_sha256": "01379a6a93ef13c812154e0ca514c1225b70f770f45e3ba41a0690084a9b65a3",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_2",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1421,
+        1422,
+        1438
+      ],
+      "unsafe_first_actions": [
+        1429,
+        1437
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 88,
+      "position_id": "p-ca172626ef89f426",
+      "state_sha256": "ca172626ef89f42643cca67c453ecd0496b3c670fb93dd660af2de2bc1768259",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        3241,
+        3249
+      ],
+      "unsafe_first_actions": [
+        3242,
+        3243,
+        3251
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 89,
+      "position_id": "p-ed2d81fbda831655",
+      "state_sha256": "ed2d81fbda831655904ec17b362e3545adea8d4d8d0fb50bacd427d31ac58600",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1097,
+        1098
+      ],
+      "unsafe_first_actions": [
+        1106,
+        1113,
+        1114
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 90,
+      "position_id": "p-a167194fb95205b9",
+      "state_sha256": "a167194fb95205b9eb61ba4edbdec243e3b10d8be199a1394d53f559a79751b7",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        846,
+        854
+      ],
+      "unsafe_first_actions": [
+        844,
+        852,
+        853
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 91,
+      "position_id": "p-5bf45d47e4e85de8",
+      "state_sha256": "5bf45d47e4e85de83f8b3aad752c51941af346e7863d5fcf9782ad6498225365",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2997,
+        2998
+      ],
+      "unsafe_first_actions": [
+        2981,
+        2982,
+        2989
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 92,
+      "position_id": "p-20c20af61ddc8376",
+      "state_sha256": "20c20af61ddc83761e9c2ea58af7e96db033b55440ec9a4c1193d70f5c3a5c2e",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        3438,
+        3446
+      ],
+      "unsafe_first_actions": [
+        3436,
+        3437,
+        3444
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 93,
+      "position_id": "p-52b835fc2475c4e7",
+      "state_sha256": "52b835fc2475c4e70aa6e45f43328c01c93d0f909f1b2e1a3aec4379c9b6fd3c",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2673,
+        2674
+      ],
+      "unsafe_first_actions": [
+        2657,
+        2658,
+        2666
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 94,
+      "position_id": "p-c9f5debda6c7ef38",
+      "state_sha256": "c9f5debda6c7ef38ff3725a774a8139aa044cd021277d0be04153d9bfff964b4",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        649,
+        657
+      ],
+      "unsafe_first_actions": [
+        651,
+        658,
+        659
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 95,
+      "position_id": "p-0ac54c881c942dd8",
+      "state_sha256": "0ac54c881c942dd82026745cc1f3e52456801e4fc3c0e470435cf985cb9ac8c1",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_3",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1421,
+        1422
+      ],
+      "unsafe_first_actions": [
+        1429,
+        1437,
+        1438
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 96,
+      "position_id": "p-d67b552b0f5be8ad",
+      "state_sha256": "d67b552b0f5be8ad31437a17b37fd327f6992986b7a9f44881e60c23bf90eb6d",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        3251
+      ],
+      "unsafe_first_actions": [
+        3241,
+        3242,
+        3243,
+        3249
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 97,
+      "position_id": "p-352bcf87149e6f1b",
+      "state_sha256": "352bcf87149e6f1bce5ebd4673c3f2a65c8cc8a6e5ad5e78e138a47ef06d013c",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1113
+      ],
+      "unsafe_first_actions": [
+        1097,
+        1098,
+        1106,
+        1114
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 98,
+      "position_id": "p-ba74babaa94807d5",
+      "state_sha256": "ba74babaa94807d5c406066ee7b53d2729075382d112041fec83d144371f7224",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        844
+      ],
+      "unsafe_first_actions": [
+        846,
+        852,
+        853,
+        854
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 99,
+      "position_id": "p-3ba44c77bab27d4b",
+      "state_sha256": "3ba44c77bab27d4b928359b8d1ae60b8e85edc646121d13eb0248e000cda2281",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2982
+      ],
+      "unsafe_first_actions": [
+        2981,
+        2989,
+        2997,
+        2998
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 100,
+      "position_id": "p-b909d43b5d94f82a",
+      "state_sha256": "b909d43b5d94f82a214ea1adc8cf52b775d6d7805c60497e264735d14f238d21",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        3444
+      ],
+      "unsafe_first_actions": [
+        3436,
+        3437,
+        3438,
+        3446
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 101,
+      "position_id": "p-589db991cfc9e86a",
+      "state_sha256": "589db991cfc9e86a50ef313b32ccca8e1c42c2f38daa4c8b4556c033797ba795",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2657
+      ],
+      "unsafe_first_actions": [
+        2658,
+        2666,
+        2673,
+        2674
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 102,
+      "position_id": "p-b31fdca4fbc8c451",
+      "state_sha256": "b31fdca4fbc8c451b2dd4d4272cf821205a77e405facec4c6b1ceb76ce7d1be8",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        651
+      ],
+      "unsafe_first_actions": [
+        649,
+        657,
+        658,
+        659
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 103,
+      "position_id": "p-52a918b8bd076934",
+      "state_sha256": "52a918b8bd07693418e39cc6ed3d9e19c7eca183d2258b31981c4ceaa667b4b4",
+      "group_id": "astra-family-guarded_kernel_approach_cage",
+      "original_motif": "ping_cage_counterfactual_4",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1438
+      ],
+      "unsafe_first_actions": [
+        1421,
+        1422,
+        1429,
+        1437
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 104,
+      "position_id": "p-5af954fa757d96d9",
+      "state_sha256": "5af954fa757d96d971f6bae3ec2f5de2ceb8b5beacf083826f4bd48c6c96a545",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2721,
+        2729,
+        2737
+      ],
+      "unsafe_first_actions": [
+        2722,
+        2723,
+        2731,
+        2738,
+        2739
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 105,
+      "position_id": "p-669149df89285bfd",
+      "state_sha256": "669149df89285bfdbb4425ba8b8f180c27b6eaa69461cabbc7f964ac9bfe974a",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1161,
+        1162,
+        1163
+      ],
+      "unsafe_first_actions": [
+        1169,
+        1171,
+        1177,
+        1178,
+        1179
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 106,
+      "position_id": "p-6e72ea4c2066a7a5",
+      "state_sha256": "6e72ea4c2066a7a599e0e87f4c5123e6deae70f3b469bfd47ca0df876fa12a34",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1358,
+        1366,
+        1374
+      ],
+      "unsafe_first_actions": [
+        1356,
+        1357,
+        1364,
+        1372,
+        1373
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 107,
+      "position_id": "p-7e2f6ede75a601a8",
+      "state_sha256": "7e2f6ede75a601a84b9e78718c266f04e9202c4989c54035b4052877ee4ce1d0",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2932,
+        2933,
+        2934
+      ],
+      "unsafe_first_actions": [
+        2916,
+        2917,
+        2918,
+        2924,
+        2926
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 108,
+      "position_id": "p-30a7ca40be0ef24c",
+      "state_sha256": "30a7ca40be0ef24c19bd0aaf10e2f1e9e102fe697c04e5f60ba2418092d3a28e",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2918,
+        2926,
+        2934
+      ],
+      "unsafe_first_actions": [
+        2916,
+        2917,
+        2924,
+        2932,
+        2933
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 109,
+      "position_id": "p-80439dccec064157",
+      "state_sha256": "80439dccec0641576b6907653d60fb14d3085ee2963af1517885b718a5eb0f3a",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2737,
+        2738,
+        2739
+      ],
+      "unsafe_first_actions": [
+        2721,
+        2722,
+        2723,
+        2729,
+        2731
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 110,
+      "position_id": "p-fdf3aba51ab9bc34",
+      "state_sha256": "fdf3aba51ab9bc34faa9532c643d21f357628f95cdc0961c0e8b7607ab4fb998",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1161,
+        1169,
+        1177
+      ],
+      "unsafe_first_actions": [
+        1162,
+        1163,
+        1171,
+        1178,
+        1179
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 111,
+      "position_id": "p-cef55a76d125621c",
+      "state_sha256": "cef55a76d125621c4c9efaced4e6cd891eb38af4466bae52dc6965cf8d4e0437",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1356,
+        1357,
+        1358
+      ],
+      "unsafe_first_actions": [
+        1364,
+        1366,
+        1372,
+        1373,
+        1374
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 112,
+      "position_id": "p-cb89dac51de4ab5c",
+      "state_sha256": "cb89dac51de4ab5c0a2a091dea8914e0c9bd3d68467e7e726291b3d70551fa24",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2721,
+        2729,
+        2737
+      ],
+      "unsafe_first_actions": [
+        2722,
+        2723,
+        2731,
+        2738,
+        2739
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 113,
+      "position_id": "p-38ac8db2badc0689",
+      "state_sha256": "38ac8db2badc06899ebe80be267d56cd6797e630e1d6313692a69c25453461d2",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1161,
+        1162,
+        1163
+      ],
+      "unsafe_first_actions": [
+        1169,
+        1171,
+        1177,
+        1178,
+        1179
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 114,
+      "position_id": "p-8e6b17dd17e13fbd",
+      "state_sha256": "8e6b17dd17e13fbdf323f88688331a6a6fb3052e11c153ee4852b816f07267f5",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1358,
+        1366,
+        1374
+      ],
+      "unsafe_first_actions": [
+        1356,
+        1357,
+        1364,
+        1372,
+        1373
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 115,
+      "position_id": "p-6224967096bec136",
+      "state_sha256": "6224967096bec136ac5c31a64304de26de9eaa8a8817a7232aed8e84a9257b0f",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2932,
+        2933,
+        2934
+      ],
+      "unsafe_first_actions": [
+        2916,
+        2917,
+        2918,
+        2924,
+        2926
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 116,
+      "position_id": "p-b9b0b961d9ac5130",
+      "state_sha256": "b9b0b961d9ac51308b7963147e379f47450dec649622517f305bbedd1a96ecf9",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2918,
+        2926,
+        2934
+      ],
+      "unsafe_first_actions": [
+        2916,
+        2917,
+        2924,
+        2932,
+        2933
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 117,
+      "position_id": "p-408c13b240fcdeef",
+      "state_sha256": "408c13b240fcdeefe758dd5bb970440c8569f36e7906ad2ee3875bffe6707298",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2737,
+        2738,
+        2739
+      ],
+      "unsafe_first_actions": [
+        2721,
+        2722,
+        2723,
+        2729,
+        2731
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 118,
+      "position_id": "p-a573c60a94aa7947",
+      "state_sha256": "a573c60a94aa794706097f6c48484e3313b53d14df5d6a009c09b44d839b0ded",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1161,
+        1169,
+        1177
+      ],
+      "unsafe_first_actions": [
+        1162,
+        1163,
+        1171,
+        1178,
+        1179
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 119,
+      "position_id": "p-0647b785afe19be3",
+      "state_sha256": "0647b785afe19be3e4f4480e9738dfd1996365bad3813023a8c44ba4c3c6bf7a",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1356,
+        1357,
+        1358
+      ],
+      "unsafe_first_actions": [
+        1364,
+        1366,
+        1372,
+        1373,
+        1374
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 120,
+      "position_id": "p-8e89cf501a412524",
+      "state_sha256": "8e89cf501a41252408ecd90d6a2dadb0f2a37b444e9ae448641c492e465983ef",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2721,
+        2737
+      ],
+      "unsafe_first_actions": [
+        2722,
+        2723,
+        2729,
+        2731,
+        2738,
+        2739
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 121,
+      "position_id": "p-7d4a621a5d4c4c6b",
+      "state_sha256": "7d4a621a5d4c4c6bd944cc90a556a96832d4f398670841823ed272252f9f6f03",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1161,
+        1163
+      ],
+      "unsafe_first_actions": [
+        1162,
+        1169,
+        1171,
+        1177,
+        1178,
+        1179
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 122,
+      "position_id": "p-5f2b5ee8e8496536",
+      "state_sha256": "5f2b5ee8e8496536fcca08c4ec04862f4bd6a89538656f06308cc10387b2a054",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1358,
+        1374
+      ],
+      "unsafe_first_actions": [
+        1356,
+        1357,
+        1364,
+        1366,
+        1372,
+        1373
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 123,
+      "position_id": "p-d22a103bdc8d0ed9",
+      "state_sha256": "d22a103bdc8d0ed997908433682add51186d32bd6ce4f2647ceed6825d065b84",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2932,
+        2934
+      ],
+      "unsafe_first_actions": [
+        2916,
+        2917,
+        2918,
+        2924,
+        2926,
+        2933
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 124,
+      "position_id": "p-2a7f94fa734bbac5",
+      "state_sha256": "2a7f94fa734bbac543d43b70e386256873da527d9664d287d210adb9742cfc49",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2918,
+        2934
+      ],
+      "unsafe_first_actions": [
+        2916,
+        2917,
+        2924,
+        2926,
+        2932,
+        2933
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 125,
+      "position_id": "p-a9ebfe7671a6f9bd",
+      "state_sha256": "a9ebfe7671a6f9bd77053d01868b38725b4b201cd9662f76208550c5d3093816",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2737,
+        2739
+      ],
+      "unsafe_first_actions": [
+        2721,
+        2722,
+        2723,
+        2729,
+        2731,
+        2738
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 126,
+      "position_id": "p-579b1644fc2cd074",
+      "state_sha256": "579b1644fc2cd074ef0925f664d5aed47157adc6b4a13869eae25188ddb5fb72",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1161,
+        1177
+      ],
+      "unsafe_first_actions": [
+        1162,
+        1163,
+        1169,
+        1171,
+        1178,
+        1179
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 127,
+      "position_id": "p-1647e67242ba7840",
+      "state_sha256": "1647e67242ba78400b9daed46fac462d652b9cf7648e57409aab5d274b0f364a",
+      "group_id": "astra-family-two_kernel_ping_cage",
+      "original_motif": "opposing_kernel_cage_2",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1356,
+        1358
+      ],
+      "unsafe_first_actions": [
+        1357,
+        1364,
+        1366,
+        1372,
+        1373,
+        1374
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 128,
+      "position_id": "p-435b899d031e5936",
+      "state_sha256": "435b899d031e59363131e5c68bcf476f5c71d99714791971e8f30ca34137f9d0",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2777,
+        2786,
+        2787,
+        2793,
+        2794,
+        2796,
+        2797,
+        2802,
+        2803,
+        2804,
+        3112,
+        3128,
+        3177,
+        3178,
+        3186
+      ],
+      "unsafe_first_actions": [
+        2779,
+        2781,
+        2788,
+        2809,
+        2811,
+        2813,
+        3176,
+        3192,
+        3193,
+        3194
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 129,
+      "position_id": "p-61837484e156a5fa",
+      "state_sha256": "61837484e156a5fa01ec0f60e5c1f1486a330bb6fa570e144b0d33f58d04068c",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        64,
+        66,
+        586,
+        593,
+        594,
+        1674,
+        1676,
+        1681,
+        1682,
+        1683,
+        1689,
+        1691,
+        1697,
+        1698,
+        1706
+      ],
+      "unsafe_first_actions": [
+        576,
+        578,
+        584,
+        592,
+        1672,
+        1688,
+        1692,
+        1699,
+        1704,
+        1708
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 130,
+      "position_id": "p-78354ecc44b0727e",
+      "state_sha256": "78354ecc44b0727e21eb335e46835ac45e95cbcd0a14b48bea4a4ad332d1b7d5",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        909,
+        917,
+        918,
+        967,
+        983,
+        1291,
+        1292,
+        1293,
+        1298,
+        1299,
+        1301,
+        1302,
+        1308,
+        1309,
+        1318
+      ],
+      "unsafe_first_actions": [
+        901,
+        902,
+        903,
+        919,
+        1282,
+        1284,
+        1286,
+        1307,
+        1314,
+        1316
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 131,
+      "position_id": "p-c63a3204b4ba7929",
+      "state_sha256": "c63a3204b4ba7929c2f4ce847da2c9e08d9702ce7ac64c36321ae5234709e5e8",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2389,
+        2397,
+        2398,
+        2404,
+        2406,
+        2412,
+        2413,
+        2414,
+        2419,
+        2421,
+        3501,
+        3502,
+        3509,
+        4029,
+        4031
+      ],
+      "unsafe_first_actions": [
+        2387,
+        2391,
+        2396,
+        2403,
+        2407,
+        2423,
+        3503,
+        3511,
+        3517,
+        3519
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 132,
+      "position_id": "p-ccc0eae7bf9e05b3",
+      "state_sha256": "ccc0eae7bf9e05b38a7f067c0021bb5921dc01e465626a433784484d30de6c58",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2846,
+        2852,
+        2853,
+        2858,
+        2859,
+        2861,
+        2862,
+        2867,
+        2868,
+        2869,
+        3501,
+        3502,
+        3509,
+        3567,
+        3583
+      ],
+      "unsafe_first_actions": [
+        2842,
+        2844,
+        2851,
+        2874,
+        2876,
+        2878,
+        3503,
+        3517,
+        3518,
+        3519
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 133,
+      "position_id": "p-eec4e1a19ecf1782",
+      "state_sha256": "eec4e1a19ecf1782727e7f03fea3eca812965293b3dd9ae73c9002734372dbae",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2194,
+        2201,
+        2202,
+        2209,
+        2211,
+        2217,
+        2218,
+        2219,
+        2226,
+        2228,
+        3177,
+        3178,
+        3186,
+        3704,
+        3706
+      ],
+      "unsafe_first_actions": [
+        2192,
+        2196,
+        2203,
+        2208,
+        2212,
+        2224,
+        3176,
+        3184,
+        3192,
+        3194
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 134,
+      "position_id": "p-45c13cef28fd6186",
+      "state_sha256": "45c13cef28fd6186716886f063a96e0e6ba4af9300749a0e966820d8896fe61f",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        512,
+        528,
+        586,
+        593,
+        594,
+        1226,
+        1227,
+        1228,
+        1233,
+        1234,
+        1236,
+        1237,
+        1242,
+        1243,
+        1249
+      ],
+      "unsafe_first_actions": [
+        576,
+        577,
+        578,
+        592,
+        1217,
+        1219,
+        1221,
+        1244,
+        1251,
+        1253
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 135,
+      "position_id": "p-0eb7319054591841",
+      "state_sha256": "0eb7319054591841e589476783850c5a20947632174ce17e1fcf7139f88c14c6",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_0",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        389,
+        391,
+        909,
+        917,
+        918,
+        1867,
+        1869,
+        1876,
+        1877,
+        1878,
+        1884,
+        1886,
+        1893,
+        1894,
+        1901
+      ],
+      "unsafe_first_actions": [
+        901,
+        903,
+        911,
+        919,
+        1871,
+        1883,
+        1887,
+        1892,
+        1899,
+        1903
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 136,
+      "position_id": "p-00ce1428e6b98e78",
+      "state_sha256": "00ce1428e6b98e78bb86a2078022523ff0bb5e2da5400c80a4560e9512b9064b",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        2842,
+        2851,
+        2858,
+        2859,
+        2861,
+        2862,
+        2867,
+        2868,
+        2869,
+        3112,
+        3128,
+        3177,
+        3178,
+        3186
+      ],
+      "unsafe_first_actions": [
+        2844,
+        2846,
+        2852,
+        2853,
+        2874,
+        2876,
+        2878,
+        3176,
+        3192,
+        3193,
+        3194
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 137,
+      "position_id": "p-c45960a45698f85b",
+      "state_sha256": "c45960a45698f85b5b643168479e1f0df699c0cbcab920a35ee7fb8798ad129b",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        64,
+        66,
+        586,
+        593,
+        594,
+        2194,
+        2196,
+        2201,
+        2202,
+        2203,
+        2209,
+        2217,
+        2218,
+        2226
+      ],
+      "unsafe_first_actions": [
+        576,
+        578,
+        584,
+        592,
+        2192,
+        2208,
+        2211,
+        2212,
+        2219,
+        2224,
+        2228
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 138,
+      "position_id": "p-311d7e883b39e9c5",
+      "state_sha256": "311d7e883b39e9c5c8e16a98dea7e58ef36b3d87bd8fac1e42e337e6263c5ca5",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        909,
+        917,
+        918,
+        967,
+        983,
+        1226,
+        1227,
+        1228,
+        1233,
+        1234,
+        1236,
+        1237,
+        1244,
+        1253
+      ],
+      "unsafe_first_actions": [
+        901,
+        902,
+        903,
+        919,
+        1217,
+        1219,
+        1221,
+        1242,
+        1243,
+        1249,
+        1251
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 139,
+      "position_id": "p-6770caace15c9d3b",
+      "state_sha256": "6770caace15c9d3b14829b2c31856408126a7ee40dd1c31c7ecc77d2a82d5504",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": false
+      },
+      "safe_first_actions": [
+        1869,
+        1877,
+        1878,
+        1886,
+        1892,
+        1893,
+        1894,
+        1899,
+        1901,
+        3501,
+        3502,
+        3509,
+        4029,
+        4031
+      ],
+      "unsafe_first_actions": [
+        1867,
+        1871,
+        1876,
+        1883,
+        1884,
+        1887,
+        1903,
+        3503,
+        3511,
+        3517,
+        3519
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 140,
+      "position_id": "p-34f68b4e557c7717",
+      "state_sha256": "34f68b4e557c77172d441da58a7c0928a63a6d07db1642f4c08fc7cb83c407ca",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 0,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        2781,
+        2788,
+        2793,
+        2794,
+        2796,
+        2797,
+        2802,
+        2803,
+        2804,
+        3501,
+        3502,
+        3509,
+        3567,
+        3583
+      ],
+      "unsafe_first_actions": [
+        2777,
+        2779,
+        2786,
+        2787,
+        2809,
+        2811,
+        2813,
+        3503,
+        3517,
+        3518,
+        3519
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 141,
+      "position_id": "p-6b32b758daddee61",
+      "state_sha256": "6b32b758daddee616f785f5fd3c55d63e241287ace6f638ca605741825ebb80a",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 1,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        1674,
+        1681,
+        1682,
+        1689,
+        1697,
+        1698,
+        1699,
+        1706,
+        1708,
+        3177,
+        3178,
+        3186,
+        3704,
+        3706
+      ],
+      "unsafe_first_actions": [
+        1672,
+        1676,
+        1683,
+        1688,
+        1691,
+        1692,
+        1704,
+        3176,
+        3184,
+        3192,
+        3194
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 142,
+      "position_id": "p-46245f97083b430f",
+      "state_sha256": "46245f97083b430f0807d0074e3e653e5f8ba4b57702b4c530f66016abd5d42e",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 2,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        512,
+        528,
+        586,
+        593,
+        594,
+        1291,
+        1292,
+        1293,
+        1298,
+        1299,
+        1301,
+        1302,
+        1307,
+        1314
+      ],
+      "unsafe_first_actions": [
+        576,
+        577,
+        578,
+        592,
+        1282,
+        1284,
+        1286,
+        1308,
+        1309,
+        1316,
+        1318
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    },
+    {
+      "row": 143,
+      "position_id": "p-47752a7644e7f13b",
+      "state_sha256": "47752a7644e7f13bcc8e79d22b77b1a56ba9d30b90cc04c1f5ef53d527a49696",
+      "group_id": "astra-family-firewall_then_last_piece_adjudication",
+      "original_motif": "firewall_last_piece_1",
+      "variant": {
+        "rotation": 3,
+        "reflection": true
+      },
+      "safe_first_actions": [
+        389,
+        391,
+        909,
+        917,
+        918,
+        2387,
+        2389,
+        2396,
+        2397,
+        2398,
+        2406,
+        2413,
+        2414,
+        2421
+      ],
+      "unsafe_first_actions": [
+        901,
+        903,
+        911,
+        919,
+        2391,
+        2403,
+        2404,
+        2407,
+        2412,
+        2419,
+        2423
+      ],
+      "value": "UNKNOWN",
+      "label_source": "INDEPENDENT_ENV_STEP_BOUNDED_SAFETY_CERTIFICATE",
+      "proposal_author": "ASTRA_LLM_AUTHORED_CONSTRUCTED_SCENARIO",
+      "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING"
+    }
+  ],
+  "policy_semantics": "Uniform mass over first actions with an independently proved own continuation avoiding terminal defeat through the entire opponent turn; every legal alternative remains in the mask with target0. This is bounded-horizon safety, not an eventual-win claim.",
+  "placeholder_semantics": "z=0,q=0,left=1 are finite storage placeholders; has_value=False masks outcome/length losses and q_valid=False masks Q losses. No zero/full-game draw target is asserted.",
+  "split_policy": "Every exported motif family and D4 relative is TRAINING data. Do not count relatives as held-out synthetic performance. holdout_v1 remains quarantined and is never exported.",
+  "reachability": "CONSTRUCTED_NOT_PROVEN_REACHABLE"
+}

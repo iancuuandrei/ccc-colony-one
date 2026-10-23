@@ -1,0 +1,952 @@
+{
+  "status": "INDEPENDENTLY_VERIFIED_TRAINING",
+  "rows": 55,
+  "actual": 15,
+  "constructed": 40,
+  "policy_rows": 52,
+  "exact_value_rows": 12,
+  "masked_unknown_rows": 43,
+  "chunk_sha256": "2572aa1a2f75f913588a4e91b1b114b501a4b17798c7c762f820abe07d457c73",
+  "independent_report_sha256": "c0c043b171f4f961265c35d57b644614a877cb72dae2f510d4c4956c0681bb70",
+  "source_manifest_sha256": "a61a129b5d508f05284a9f25fb93508d2c5c69a72d6801bdf4338d3c5eda720c",
+  "source_groups": [
+    "site-game-7525",
+    "site-game-7658",
+    "site-game-8079",
+    "site-game-8185",
+    "site-game-8228",
+    "site-game-8443",
+    "site-game-8623",
+    "site-game-8745",
+    "site-game-8855",
+    "site-game-8944",
+    "site-game-8948",
+    "site-game-9366"
+  ],
+  "records": [
+    {
+      "row": 0,
+      "position_id": "p-0df939edb2a11146",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "7525",
+        "ply": 26,
+        "path": "sources\\site-gen02-loss-hard-v1.npz",
+        "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "row_index": 0,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 1,
+      "position_id": "p-74e8e6e2cec55862",
+      "group_id": "site-game-7658",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "7658",
+        "ply": 55,
+        "path": "sources\\site-gen02-loss-hard-v1.npz",
+        "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "row_index": 1,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 2,
+      "position_id": "p-4773fdfd934e9f21",
+      "group_id": "site-game-7658",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "7658",
+        "ply": 56,
+        "path": "sources\\site-gen02-loss-hard-v1.npz",
+        "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "row_index": 2,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": true,
+      "policy_valid": false
+    },
+    {
+      "row": 3,
+      "position_id": "p-df45989a73989b06",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8079",
+        "ply": 30,
+        "path": "sources\\site-gen02-loss-hard-v1.npz",
+        "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "row_index": 3,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 4,
+      "position_id": "p-90dee38bc23eb9e9",
+      "group_id": "site-game-8185",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8185",
+        "ply": 42,
+        "path": "sources\\site-gen02-loss-hard-v1.npz",
+        "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "row_index": 4,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 5,
+      "position_id": "p-30cb47377090db6c",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8443",
+        "ply": 30,
+        "path": "sources\\site-gen02-loss-hard-v1.npz",
+        "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "row_index": 5,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 6,
+      "position_id": "p-98b681889ef6885a",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "9366",
+        "ply": 36,
+        "path": "sources\\site-gen02-loss-hard-v2.npz",
+        "sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "row_index": 0,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 7,
+      "position_id": "p-97bdc2c640ea11a2",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "9366",
+        "ply": 52,
+        "path": "sources\\site-gen02-loss-hard-v2.npz",
+        "sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "row_index": 1,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 8,
+      "position_id": "p-2914ede88f3bcfea",
+      "group_id": "site-game-8944",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8944",
+        "ply": 34,
+        "path": "sources\\site-gen02-loss-hard-v2.npz",
+        "sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "row_index": 2,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 9,
+      "position_id": "p-bcdbe297d9ce7ed8",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8745",
+        "ply": 30,
+        "path": "sources\\site-gen02-loss-hard-v2.npz",
+        "sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "row_index": 3,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 10,
+      "position_id": "p-0f668bec2ca9bcc8",
+      "group_id": "site-game-8228",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8228",
+        "ply": 35,
+        "path": "sources\\site-gen02-wins-hard-v1.npz",
+        "sha256": "22e34d322e2fcdabff8ece1b71ff7c1386a9d8449a506097bf64f83706e48875",
+        "row_index": 0,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 11,
+      "position_id": "p-541f9b701b52b4fd",
+      "group_id": "site-game-8948",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8948",
+        "ply": 27,
+        "path": "sources\\site-gen02-wins-hard-v2.npz",
+        "sha256": "506fb91b841e8dca976425e68eb71edda1342db865588e5c721bdab38275756a",
+        "row_index": 0,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 12,
+      "position_id": "p-b15a31e2ba471bda",
+      "group_id": "site-game-8948",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8948",
+        "ply": 47,
+        "path": "sources\\site-gen02-wins-hard-v2.npz",
+        "sha256": "506fb91b841e8dca976425e68eb71edda1342db865588e5c721bdab38275756a",
+        "row_index": 1,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 13,
+      "position_id": "p-b09bdbf005e6b758",
+      "group_id": "site-game-8855",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8855",
+        "ply": 27,
+        "path": "sources\\site-gen02-wins-hard-v2.npz",
+        "sha256": "506fb91b841e8dca976425e68eb71edda1342db865588e5c721bdab38275756a",
+        "row_index": 2,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 14,
+      "position_id": "p-6d1b917f11e38be3",
+      "group_id": "site-game-8623",
+      "source": {
+        "kind": "ACTUAL_OBSERVED_REPLAY",
+        "game_id": "8623",
+        "ply": 33,
+        "path": "sources\\site-gen02-wins-hard-v2.npz",
+        "sha256": "506fb91b841e8dca976425e68eb71edda1342db865588e5c721bdab38275756a",
+        "row_index": 3,
+        "reachability": "RECOVERED_FROM_ENGINE_REPLAY_BY_MATCH_ANALYSIS"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 15,
+      "position_id": "p-ae43ec686c01b378",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "daemon_farther",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 16,
+      "position_id": "p-2fe4744066ec7b12",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "daemon_farther",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 17,
+      "position_id": "p-d3eb9e05ee697ef0",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "daemon_nearer",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 18,
+      "position_id": "p-970d82a802c8ba16",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "daemon_nearer",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 19,
+      "position_id": "p-12b3f3ef6a499b8c",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "daemon_two_own_actions",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 20,
+      "position_id": "p-780911a3e42f5a7f",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "daemon_two_own_actions",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 21,
+      "position_id": "p-86a8bfc535a4e365",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "guard_already_forward",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 22,
+      "position_id": "p-988c54f5d05cc3df",
+      "group_id": "site-game-8079",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8079",
+        "source_actual": "8079:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 3,
+        "proposal_id": "guard_already_forward",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 23,
+      "position_id": "p-fcc7d7e2a32606cb",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "ping_more_distant",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 24,
+      "position_id": "p-ca07ea85ce4286f6",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "ping_more_distant",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 25,
+      "position_id": "p-a47ab5f0d454847f",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "ice_intercepts_approach",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 26,
+      "position_id": "p-1029598b23ca8895",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "ice_intercepts_approach",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 27,
+      "position_id": "p-bf862d4d05b54ed8",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "redirect_repair_action",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 28,
+      "position_id": "p-fcb5fa222f61c592",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "redirect_repair_action",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 29,
+      "position_id": "p-868ff552ce131945",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "redirect_guard_relocated",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 30,
+      "position_id": "p-0648d8a3dee78401",
+      "group_id": "site-game-7525",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "7525",
+        "source_actual": "7525:26",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 0,
+        "proposal_id": "redirect_guard_relocated",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 31,
+      "position_id": "p-41bc93c5d2580be0",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "trace_farther_from_line",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 32,
+      "position_id": "p-101c4aea46163c32",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "trace_farther_from_line",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 33,
+      "position_id": "p-80a7e8f356d3e7a4",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "trace_other_file",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 34,
+      "position_id": "p-f7f00ccd8875bbe6",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "trace_other_file",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 35,
+      "position_id": "p-d7d034b65fa5dfa1",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "ice_guard_departed",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 36,
+      "position_id": "p-63cde7c20927955d",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "ice_guard_departed",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 37,
+      "position_id": "p-6f1905410e3c4922",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "ice_capture_then_defend",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 38,
+      "position_id": "p-baa9ba35db676934",
+      "group_id": "site-game-8443",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8443",
+        "source_actual": "8443:30",
+        "source_sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+        "source_row": 5,
+        "proposal_id": "ice_capture_then_defend",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 39,
+      "position_id": "p-689ede75e9143c94",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "trace_shifted_left",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 40,
+      "position_id": "p-23c877a140fec532",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "trace_shifted_left",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 41,
+      "position_id": "p-390dcc385989dd41",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "bait_ice_shifted",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 42,
+      "position_id": "p-12568b295c3d2877",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "bait_ice_shifted",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 43,
+      "position_id": "p-ef44ef5d95c888eb",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "own_trace_repositioned",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": true,
+      "policy_valid": false
+    },
+    {
+      "row": 44,
+      "position_id": "p-41f8c02a267d7890",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "own_trace_repositioned",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": true,
+      "policy_valid": false
+    },
+    {
+      "row": 45,
+      "position_id": "p-dd19da24f0d5a575",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "kernel_capture_then_retreat",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 46,
+      "position_id": "p-ba7b3c1f84edf300",
+      "group_id": "site-game-8745",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "8745",
+        "source_actual": "8745:30",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 3,
+        "proposal_id": "kernel_capture_then_retreat",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 47,
+      "position_id": "p-aa10a050d6dcb505",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_nearer_kernel",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 48,
+      "position_id": "p-f50308e1605640e2",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_nearer_kernel",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 49,
+      "position_id": "p-2d43c1f62be41c52",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_target_shifted",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 50,
+      "position_id": "p-56407715a2894112",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_target_shifted",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 51,
+      "position_id": "p-3aae6fa1da536109",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_extra_action",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 52,
+      "position_id": "p-ea8760b0b41a83bc",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_extra_action",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": true,
+      "policy_valid": true
+    },
+    {
+      "row": 53,
+      "position_id": "p-b06599488790c674",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_kernel_centrality",
+        "rotation_quarter_turns": 0,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    },
+    {
+      "row": 54,
+      "position_id": "p-4c2a22de41d51290",
+      "group_id": "site-game-9366",
+      "source": {
+        "kind": "LLM_AUTHORED_COUNTERFACTUAL",
+        "game_id": "9366",
+        "source_actual": "9366:52",
+        "source_sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+        "source_row": 1,
+        "proposal_id": "last_daemon_kernel_centrality",
+        "rotation_quarter_turns": 1,
+        "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING; legal-state constructions derived from observed positions, not actual replays"
+      },
+      "value_valid": false,
+      "policy_valid": true
+    }
+  ],
+  "quarantine": "holdout_v1 TEST_ONLY unchanged, zero D4-orbit intersections",
+  "label_authority": "Engine exact terminal/bounded-safety targets; Astra authored scenarios/explanations",
+  "warning": "Actual states also exist in replay/research corpora; additional exact rows do not override conflicting800sim targets. Respect explicit policy overrides and whole-game source grouping.",
+  "unknown_value_semantics": "has_value=False and q_valid=False; finite placeholders z=q=0,left=1 carry no value/length target"
+}

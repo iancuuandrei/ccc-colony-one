@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "rows": 6,
+  "pending_teacher_rows": 13,
+  "skipped_no_admissible_rows": 3,
+  "checks": [
+    {
+      "game": "7525",
+      "ply": 26,
+      "result": "PASS",
+      "chunk_sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053"
+    },
+    {
+      "game": "7658",
+      "ply": 55,
+      "result": "PASS",
+      "chunk_sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c"
+    },
+    {
+      "game": "8079",
+      "ply": 30,
+      "result": "PASS",
+      "chunk_sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b"
+    },
+    {
+      "game": "8185",
+      "ply": 42,
+      "result": "PASS",
+      "chunk_sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6"
+    },
+    {
+      "game": "8443",
+      "ply": 30,
+      "result": "PASS",
+      "chunk_sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731"
+    },
+    {
+      "game": "8228",
+      "ply": 35,
+      "result": "PASS",
+      "chunk_sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8"
+    }
+  ],
+  "override_target_proof_teacher_binding": "PASS",
+  "all_legal_denominators_and_disabled_value_Q": "PASS",
+  "prior_actual_loader_and_in_memory_override_validation": "validation-05a52daf0e43d3d81a0f.json",
+  "prior_validation_sha256": "b9ab2976c0092b3e3d090ddd1836fca141821a31437593027584e423bea152fb",
+  "trainer_integration": "NOT_RUN by this worker; Opus owns trainer",
+  "manifest_sha256": "bdd2932b4bd7eee225697895d96eb8c4d3444fd599fcaed703c5a20afe370bd1",
+  "override_sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25"
+}

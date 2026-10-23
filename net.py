@@ -155,10 +155,14 @@ class Net(nn.Module):
         self.v_fc1 = nn.Linear(8 * 64 + channels, 128)
         self.v_fc2 = nn.Linear(128, 1)
         self.aux = nn.Linear(128, 2)  # root-Q and log remaining actions (training only)
+        self.p2_conv = nn.Conv2d(channels, 2 * emb + 2, 1)  # next-mover policy (training only, KataGo)
         # Export-time calibration for the fixed referee search: policy softmax
         # temperature and value scale (value scale s acts like c_puct / s).
         self.register_buffer('ptemp', torch.ones(1), persistent=False)
         self.register_buffer('vscale', torch.ones(1), persistent=False)
+        # Opening sharpening: the referee samples rounds 1-2 by visit counts; a sharper prior
+        # there concentrates visits on our best move (noise share stays 15%).
+        self.register_buffer('open_gain', torch.ones(1), persistent=False)
 
     def trunk(self, x):
         feats, win, ek = self.feat(x)
@@ -178,6 +182,10 @@ class Net(nn.Module):
         logits, v = self.heads(h)
         value = torch.tanh(self.v_fc2(v)).reshape(-1) * self.vscale
         logits = logits / self.ptemp
+        urg = x[:, 14].mean((1, 2))
+        nlock = x[:, 12].sum((1, 2))
+        is_open = torch.clamp((0.3 - urg) * 100.0, 0.0, 1.0) * torch.clamp(1.0 - nlock, 0.0, 1.0)
+        logits = logits * (1.0 + (self.open_gain - 1.0) * is_open).reshape(-1, 1)
         w = win.reshape(-1)
         value = value + w * (0.99 - value)
         # Every legal action aimed at the enemy Kernel square is an attack on it.
@@ -189,14 +197,23 @@ class Net(nn.Module):
         logits, value, _ = self.outputs(x)
         return logits, value
 
-    def forward_train(self, x):
-        logits, value, v = self.outputs(x)
-        return logits, value, self.aux(v)
+    def forward_train(self, x, with_next=False):
+        h, win, ek = self.trunk(x)
+        logits, v = self.heads(h)
+        value = torch.tanh(self.v_fc2(v)).reshape(-1)
+        value = value + win.reshape(-1) * (0.99 - value)
+        logits = (logits.reshape(-1, 64, 64) + (30.0 * ek).reshape(-1, 1, 64)).reshape(-1, 4096)
+        if not with_next:
+            return logits, value, self.aux(v)
+        q = self.p2_conv(h).reshape(-1, 2 * self.emb + 2, 64)
+        nl = torch.matmul(q[:, :self.emb].transpose(1, 2), q[:, self.emb:2 * self.emb]) * (self.emb ** -0.5)
+        nl = nl + q[:, 2 * self.emb][:, :, None] + q[:, 2 * self.emb + 1][:, None, :]
+        return logits, value, self.aux(v), nl.reshape(-1, 4096)
 
 
-def export(net: Net, path, ptemp=1.0, vscale=1.0):
+def export(net: Net, path, ptemp=1.0, vscale=1.0, open_gain=1.0):
     net = net.eval().cpu()
-    net.ptemp.fill_(ptemp); net.vscale.fill_(vscale)
+    net.ptemp.fill_(ptemp); net.vscale.fill_(vscale); net.open_gain.fill_(open_gain)
     x = torch.zeros(2, 16, 8, 8)
     torch.onnx.export(net, (x,), str(path), input_names=['observation'], output_names=['policy', 'value'],
                       dynamic_axes={'observation': {0: 'batch'}, 'policy': {0: 'batch'}, 'value': {0: 'batch'}},
@@ -227,4 +244,4 @@ def export(net: Net, path, ptemp=1.0, vscale=1.0):
     del m.graph.value_info[:]; m.graph.value_info.extend(kept_vi)
     onnx.checker.check_model(m)
     onnx.save(m, str(path), save_as_external_data=False)
-    net.ptemp.fill_(1.0); net.vscale.fill_(1.0)
+    net.ptemp.fill_(1.0); net.vscale.fill_(1.0); net.open_gain.fill_(1.0)

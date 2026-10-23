@@ -1,0 +1,59 @@
+{
+  "counts": {
+    "states": 44352,
+    "actions": 283648,
+    "winning_states": 35624,
+    "losing_states": 8728,
+    "policy_mismatches": 0,
+    "value_mismatches": 0,
+    "disabled": 0
+  },
+  "strata": [
+    {
+      "round": 1,
+      "states": 16128
+    },
+    {
+      "round": 8,
+      "states": 16128
+    },
+    {
+      "round": 9,
+      "states": 5040
+    },
+    {
+      "round": 16,
+      "states": 5040
+    },
+    {
+      "round": 17,
+      "states": 960
+    },
+    {
+      "round": 24,
+      "states": 960
+    },
+    {
+      "round": 25,
+      "states": 48
+    },
+    {
+      "round": 26,
+      "states": 48
+    }
+  ],
+  "mismatches": [],
+  "nonbare_unchanged": {
+    "boards": 256,
+    "policy_exact": true,
+    "value_exact": true
+  },
+  "seconds": 182.03907871246338,
+  "sources": {
+    "env\\colony_one\\env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "env\\colony_one\\board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "env\\colony_one\\rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "codex\\endgame\\prove_endgame.py": "af3b5d9fab00415529abcc7fae7b4a7f74a0de4064bedfc1cceb8099cf5912aa"
+  },
+  "proof_sha256": "f9d58a579daeab8c99d4fd68005686601b6202b71ff86edf93297f770e2f98ab"
+}

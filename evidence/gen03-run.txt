@@ -1,0 +1,25 @@
+
+$ D:\dev\CCC-OMNI\.venv\Scripts\python.exe selfplay.py --model D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen02-endgame.onnx --pool model-l3.onnx model-h1.onnx codex/tactical/model-tactical-v2.onnx ckpt/gen01.onnx --pool-prob 0.2 --games 3000 --workers 20 --seed0 3000000 --out D:\dev\CCC-OMNI\workspace\colony-one-level4\data\gen03
+
+$ wsl -e bash /mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/wpy.sh train.py --data data/ext_astra_synthetic_v1 data/ext_site_v1 data/gen00 data/gen00b data/gen02 --init ckpt/gen02.pt --out ckpt/gen03.pt --steps 5000 --lr 0.0015 --holdout-last
+
+$ wsl -e bash /mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/wpy.sh train.py --data data/ext_astra_synthetic_v1 data/ext_site_v1 data/ext_site_v1_rs data/gen00 data/gen00b data/gen02 data/sp_gen02-endgame_1792765638 data/sp_gen02-endgame_1792765799 data/sp_gen02-endgame_1792765906 data/vps_gen02-endgame_1792765868 data/sp_gen02-endgame_1792766034 data/vps_gen02-endgame_1792766073 data/sp_gen02-endgame_1792766178 --init ckpt/gen02.pt --out ckpt/gen03.pt --steps 3000 --lr 0.0015 --holdout-last
+/mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/train.py{"step": 500, "policy_kl": 0.3237554132938385, "value_mse": 0.5995827913284302, "aux": 0.062319688498973846, "sec": 36.4, "hold_policy_kl": 0.40188649391842746, "hold_value_mse": 0.41585436120328956}
+{"step": 1000, "policy_kl": 0.2970510721206665, "value_mse": 0.6227284073829651, "aux": 0.048147063702344894, "sec": 74.8, "hold_policy_kl": 0.3869676267577786, "hold_value_mse": 0.4146712865384616}
+{"step": 1500, "policy_kl": 0.2572501301765442, "value_mse": 0.6131969094276428, "aux": 0.05918757617473602, "sec": 98.3, "hold_policy_kl": 0.38335965685212126, "hold_value_mse": 0.4183228353280724}
+{"step": 2000, "policy_kl": 0.2935603857040405, "value_mse": 0.5946778059005737, "aux": 0.04968775063753128, "sec": 124.0, "hold_policy_kl": 0.36353674949938847, "hold_value_mse": 0.39714111845482025}
+{"step": 2500, "policy_kl": 0.30099302530288696, "value_mse": 0.6155510544776917, "aux": 0.04896631836891174, "sec": 148.8, "hold_policy_kl": 0.36340055365861945, "hold_value_mse": 0.3930589359215485}
+{"step": 3000, "policy_kl": 0.3062618672847748, "value_mse": 0.5748153328895569, "aux": 0.06709402799606323, "sec": 178.2, "hold_policy_kl": 0.35887669185817184, "hold_value_mse": 0.3901825072823386}
+{"saved": "ckpt/gen03.pt", "onnx": "ckpt/gen03.onnx", "positions": 649507}
+
+$ D:\dev\CCC-OMNI\.venv\Scripts\python.exe codex/endgame/build_endgame.py --base D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen03.onnx --output D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen03-endgame.onnx
+{"base": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen03.onnx", "base_sha256": "392bf6fc82e1a6e4431c88c393a0ce135ea0605fa10b90364524fcef31f01022", "output": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen03-endgame.onnx", "sha256": "0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f", "bytes": 1477761, "added_nodes": 88, "added_weight_bytes": 33572}
+
+$ D:\dev\CCC-OMNI\.venv\Scripts\python.exe check_onnx.py D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen03-endgame.onnx
+{"model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen03-endgame.onnx", "bytes": 1477761, "nodes": 682, "disallowed_ops": [], "dry_run_s": 1.0963, "batch8_ms": 4.394, "ops": {"Reshape": 15, "Slice": 8, "ReduceSum": 17, "Gather": 32, "Sub": 10, "Clip": 24, "MatMul": 156, "Mul": 132, "Add": 178, "ReduceMean": 4, "Abs": 1, "Unsqueeze": 27, "Concat": 3, "Conv": 13, "Relu": 15, "Gemm": 6, "Sigmoid": 2, "Transpose": 1, "Tanh": 1, "Div": 1, "ReduceMax": 2, "Greater": 6, "Equal": 10, "And": 7, "Or": 4, "Cast": 2, "Max": 1, "Where": 4}}
+
+$ D:\dev\CCC-OMNI\.venv\Scripts\python.exe arena.py D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen03-endgame.onnx D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen02-endgame.onnx --games 200 --workers 24 --start 903000 --out D:\dev\CCC-OMNI\workspace\colony-one-level4\logs\gen03-gate.json
+{"a": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen03-endgame.onnx", "b": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen02-endgame.onnx", "games": 400, "a_wins": 296, "a_rate": 0.74, "a_cyan_wins": 145, "a_magenta_wins": 151, "mean_actions": 46.8425, "seconds": 82.37961149215698}
+
+$ D:\dev\CCC-OMNI\.venv\Scripts\python.exe arena.py D:\dev\CCC-OMNI\workspace\colony-one-level4\ckpt\gen03-endgame.onnx codex/tactical/model-tactical-v2.onnx --games 50 --workers 24 --start 803000 --out D:\dev\CCC-OMNI\workspace\colony-one-level4\logs\gen03-tactical.json
+{"a": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen03-endgame.onnx", "b": "codex/tactical/model-tactical-v2.onnx", "games": 100, "a_wins": 98, "a_rate": 0.98, "a_cyan_wins": 48, "a_magenta_wins": 50, "mean_actions": 38.48, "seconds": 21.731761693954468}

@@ -1,0 +1,9 @@
+{
+  "base": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen02.onnx",
+  "base_sha256": "5b075d10ad06e2464741dfb6cf0b00cdd1de57c7cc0227b8ed63f8ef4ed3e537",
+  "output": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen02-endgame.onnx",
+  "sha256": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0",
+  "bytes": 1477761,
+  "added_nodes": 88,
+  "added_weight_bytes": 33572
+}

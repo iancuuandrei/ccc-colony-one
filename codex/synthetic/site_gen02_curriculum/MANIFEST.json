@@ -1,0 +1,62 @@
+{
+  "corpus_id": "site_gen02_curriculum_v1",
+  "status": "TEACHER_COMPLETE_INDEPENDENT_QUALIFICATION_REQUIRED",
+  "purpose": "TRAINING_CANDIDATE_REQUIRING_INDEPENDENT_QUALIFICATION",
+  "states": 55,
+  "actual_states": 15,
+  "constructed_states": 40,
+  "game_groups": 12,
+  "exact_win_values": 9,
+  "exact_loss_values": 3,
+  "unknown_values": 43,
+  "policy_valid": 52,
+  "sources": {
+    "site-gen02-loss-hard-v1.npz": {
+      "original_path": "codex\\matches\\site-gen02-loss-hard-v1.npz",
+      "snapshot_path": "sources\\site-gen02-loss-hard-v1.npz",
+      "sha256": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+      "rows": 6
+    },
+    "site-gen02-loss-hard-v2.npz": {
+      "original_path": "codex\\matches\\site-gen02-loss-hard-v2.npz",
+      "snapshot_path": "sources\\site-gen02-loss-hard-v2.npz",
+      "sha256": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+      "rows": 4
+    },
+    "site-gen02-wins-hard-v1.npz": {
+      "original_path": "codex\\matches\\site-gen02-wins-hard-v1.npz",
+      "snapshot_path": "sources\\site-gen02-wins-hard-v1.npz",
+      "sha256": "22e34d322e2fcdabff8ece1b71ff7c1386a9d8449a506097bf64f83706e48875",
+      "rows": 1
+    },
+    "site-gen02-wins-hard-v2.npz": {
+      "original_path": "codex\\matches\\site-gen02-wins-hard-v2.npz",
+      "snapshot_path": "sources\\site-gen02-wins-hard-v2.npz",
+      "sha256": "506fb91b841e8dca976425e68eb71edda1342db865588e5c721bdab38275756a",
+      "rows": 4
+    }
+  },
+  "engine_sha256": {
+    "env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e"
+  },
+  "oracle_sha256": {
+    "own_turn_oracle.py": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9",
+    "oracle.py": "4a9c4297aa107f4f5df3774aef51af84259299417ebacea8fe2bd7e605fa5dfc"
+  },
+  "files": {
+    "proposals.json": "d93ba0d7c33ff621effdca1f238fcca4705079d09fdd75688bcd18faa24215c4",
+    "build.py": "960dfc8c3004df132cdbe06f15a53288f0a65e018ab4233e34a434cb5631e3a5",
+    "states.jsonl": "8e303c650a297eec80e746c6cd775dd4cdf980f61a2cbdbd37183f940b771fc8",
+    "packet.json": "da91ec81f5048eb05dfe678adcc8ae8b00451c609c18f0d08cf751dd22b6c84a",
+    "certified_states.npz": "806d4f06bd7ac5d06d8d8def71812035a1997bee543e3dbc8ceb08f4bd700774"
+  },
+  "baseline": {
+    "path": "release/gen02/model.onnx",
+    "sha256": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0"
+  },
+  "qualification": "Exact current-turn wins and bounded next-turn safety only. No eventual-win inference from survival. Constructed histories unproven. No direct ext release. Frozen holdout_v1 is separate and untouched."
+}

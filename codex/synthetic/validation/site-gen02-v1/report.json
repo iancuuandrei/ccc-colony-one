@@ -1,0 +1,13 @@
+{
+  "accepted": true,
+  "rows": 55,
+  "checked": 55,
+  "errors": [],
+  "source_manifest_sha256": "a61a129b5d508f05284a9f25fb93508d2c5c69a72d6801bdf4338d3c5eda720c",
+  "source_states_sha256": "8e303c650a297eec80e746c6cd775dd4cdf980f61a2cbdbd37183f940b771fc8",
+  "validator_sha256": "a8a70edcb3eb1c6c3431f73aa4e42193c8bb419fbd9bee7498262449da200358",
+  "holdout_frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+  "holdout_D4_collisions": 0,
+  "seconds": 62.1880000000001,
+  "qualification": "Independent full env.step winning/safety minimax, source reconstruction and typed witness checks. Unknown values remain masked; constructed reachability unproved; no model inference."
+}

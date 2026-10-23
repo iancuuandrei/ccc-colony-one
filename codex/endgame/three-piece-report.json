@@ -1,0 +1,1714 @@
+{
+  "status": "PASS_ELIGIBLE_GEOMETRY_AND_REDUCED_TYPES",
+  "scope": "Exhaustive all admitted positive geometries for PING at every live lock stage, both teams, both remaining-action counts; every advertised path engine-executed. Other four types and every legal clock crosschecked; extension to all enemy non-Kernel types/clocks uses documented semantic irrelevance argument. Not a complete three-piece solver or a reachable-from-start claim.",
+  "eligible_geometry_states": 68800,
+  "verified_geometry_paths": 111920,
+  "strata": [
+    {
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 1,
+      "eligible_geometry_states": 7936,
+      "verified_paths": 7936
+    },
+    {
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 2,
+      "eligible_geometry_states": 13396,
+      "verified_paths": 27220
+    },
+    {
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "eligible_geometry_states": 13540,
+      "verified_paths": 13540
+    },
+    {
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "eligible_geometry_states": 21836,
+      "verified_paths": 43932
+    },
+    {
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 1,
+      "eligible_geometry_states": 1536,
+      "verified_paths": 1536
+    },
+    {
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 2,
+      "eligible_geometry_states": 2124,
+      "verified_paths": 4396
+    },
+    {
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "eligible_geometry_states": 3276,
+      "verified_paths": 3276
+    },
+    {
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "eligible_geometry_states": 4580,
+      "verified_paths": 9204
+    },
+    {
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 1,
+      "eligible_geometry_states": 0,
+      "verified_paths": 0
+    },
+    {
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 2,
+      "eligible_geometry_states": 0,
+      "verified_paths": 0
+    },
+    {
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "eligible_geometry_states": 244,
+      "verified_paths": 244
+    },
+    {
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "eligible_geometry_states": 332,
+      "verified_paths": 636
+    },
+    {
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 1,
+      "eligible_geometry_states": 0,
+      "verified_paths": 0
+    },
+    {
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 2,
+      "eligible_geometry_states": 0,
+      "verified_paths": 0
+    },
+    {
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "eligible_geometry_states": 0,
+      "verified_paths": 0
+    },
+    {
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "eligible_geometry_states": 0,
+      "verified_paths": 0
+    }
+  ],
+  "crosschecks": [
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 63,
+      "paths": 63
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 63,
+      "paths": 63
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 63,
+      "paths": 63
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 63,
+      "paths": 63
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 1,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 2,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 3,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 4,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 5,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 6,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 7,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 64,
+      "paths": 124
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 64,
+      "paths": 124
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 64,
+      "paths": 124
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 64,
+      "paths": 124
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 1,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 2,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 3,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 4,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 5,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 6,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 7,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 14
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 64,
+      "paths": 64
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 64,
+      "paths": 64
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 64,
+      "paths": 64
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 64,
+      "paths": 64
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 1,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 2,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 3,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 4,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 5,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 6,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 7,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 64,
+      "paths": 122
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 64,
+      "paths": 122
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 64,
+      "paths": 122
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 0,
+      "round": 8,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 64,
+      "paths": 122
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 1,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 2,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 3,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 4,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 5,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 6,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 0,
+      "round": 7,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 13,
+      "paths": 13
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 13,
+      "paths": 13
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 13,
+      "paths": 13
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 13,
+      "paths": 13
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 9,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 10,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 11,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 12,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 13,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 14,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 15,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 17,
+      "paths": 34
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 17,
+      "paths": 34
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 17,
+      "paths": 34
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 17,
+      "paths": 34
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 9,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 10,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 11,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 12,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 13,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 14,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 15,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 15
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 26,
+      "paths": 26
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 26,
+      "paths": 26
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 26,
+      "paths": 26
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 26,
+      "paths": 26
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 9,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 10,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 11,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 12,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 13,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 14,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 15,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 8,
+      "paths": 8
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 37,
+      "paths": 78
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 37,
+      "paths": 78
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 37,
+      "paths": 78
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 1,
+      "round": 16,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 37,
+      "paths": 78
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 9,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 10,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 11,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 12,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 13,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 14,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 1,
+      "round": 15,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 8,
+      "paths": 16
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 17,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 18,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 19,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 20,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 21,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 22,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 23,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 17,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 18,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 19,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 20,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 21,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 22,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 23,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 17,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 18,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 19,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 20,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 21,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 22,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 23,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 2,
+      "paths": 2
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 2,
+      "round": 24,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 17,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 18,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 19,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 20,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 21,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 22,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 2,
+      "round": 23,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 3,
+      "paths": 5
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 3,
+      "round": 25,
+      "team": "CYAN",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "CYAN",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 3,
+      "round": 25,
+      "team": "CYAN",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "DAEMON",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "EXPLOIT",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "TRACE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "enemy_type": "ICE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 3,
+      "round": 25,
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "DAEMON",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "EXPLOIT",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "TRACE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_enemy_type",
+      "ring": 3,
+      "round": 26,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "enemy_type": "ICE",
+      "states": 0,
+      "paths": 0
+    },
+    {
+      "kind": "other_legal_clock",
+      "ring": 3,
+      "round": 25,
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "states": 0,
+      "paths": 0
+    }
+  ],
+  "crosscheck_states": 1895,
+  "crosscheck_paths": 2817,
+  "observed": [
+    {
+      "game": "9928",
+      "after_action": 28,
+      "action": "D5->B3",
+      "source_sha256": "71189248cdfbcefa3e327e77a9784018a616d19722b049983022974e1f40bff0",
+      "certificate": {
+        "team": "CYAN",
+        "actions_left": 2,
+        "source": [
+          5,
+          1
+        ],
+        "enemy_kernel": [
+          1,
+          6
+        ],
+        "last_enemy": [
+          3,
+          3
+        ],
+        "enemy_type": "ICE",
+        "paths": [
+          [
+            [
+              [
+                5,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ],
+            [
+              [
+                4,
+                2
+              ],
+              [
+                3,
+                3
+              ]
+            ]
+          ]
+        ],
+        "winning_first_indices": [
+          2658
+        ],
+        "value": 1,
+        "terminal_cause": "bare_kernels",
+        "scope": "sufficient own-turn win; None is UNKNOWN"
+      },
+      "verified_paths": 1
+    },
+    {
+      "game": "9366",
+      "after_action": 52,
+      "action": "E6->E4",
+      "source_sha256": "0e1ac521c228e03a9d8f63c5f786ea8ed7e72dc1fb8022fa402a30ff85e3f551",
+      "certificate": {
+        "team": "CYAN",
+        "actions_left": 2,
+        "source": [
+          5,
+          2
+        ],
+        "enemy_kernel": [
+          1,
+          6
+        ],
+        "last_enemy": [
+          4,
+          4
+        ],
+        "enemy_type": "DAEMON",
+        "paths": [
+          [
+            [
+              [
+                5,
+                2
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            [
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                3
+              ]
+            ],
+            [
+              [
+                5,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          ]
+        ],
+        "winning_first_indices": [
+          2723,
+          2731
+        ],
+        "value": 1,
+        "terminal_cause": "bare_kernels",
+        "scope": "sufficient own-turn win; None is UNKNOWN"
+      },
+      "verified_paths": 2
+    }
+  ],
+  "geometry_validation_digest": "b4454365c2b20792e11542b29572658784f44386f2ee107b9697878e7c88c182",
+  "seconds": 145.15390810000008,
+  "source_sha256": {
+    "codex\\endgame\\three_piece_certificate.py": "c97f7dc7ff2823d9a731a363fb1d8ac7907c379e5ba9ae523e165d8841d4f9f2",
+    "env\\colony_one\\env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "env\\colony_one\\board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "env\\colony_one\\rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "env\\colony_one\\encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58"
+  }
+}

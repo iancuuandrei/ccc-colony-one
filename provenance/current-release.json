@@ -1,0 +1,25 @@
+{
+  "release": "GEN03",
+  "status": "DEPLOYED",
+  "sha256": "0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f",
+  "path": "release/gen03/model.onnx",
+  "root_alias": "model.onnx",
+  "deployment_evidence": "User explicitly confirmed the latest human upload was GEN03; lead agent observed the site accept model.onnx at 1.41 MiB. No duplicate upload was performed by sync agent.",
+  "deployment_qualification": "The site UI does not expose a model SHA; identity rests on the human upload confirmation plus the qualified local release hash.",
+  "comparison_baseline": {
+    "release": "GEN02",
+    "path": "release/gen02/model.onnx",
+    "sha256": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0",
+    "scope": "Fixed user-requested comparison baseline; preserved immutable"
+  },
+  "qualified_evidence": [
+    "codex/validation/gen03-graph-native-linux.json",
+    "codex/validation/gen03-hard-native-linux.json",
+    "codex/validation/gen03-level4-native-linux.json",
+    "codex/validation/gen03-validator-native-linux.txt",
+    "codex/research/evaluation-review.md",
+    "codex/arena/gen03-tactical-audit/REPORT.md"
+  ],
+  "source_build": "UNKNOWN exact historical generation source. release/gen03/source-current is a separately hash-bound capture of later working scripts, which may already contain p2-head changes.",
+  "snapshot_scope": "Bounded allowlisted capture while other workers continued; does not claim every latest report was included. No GEN04 or later promotion is implied."
+}

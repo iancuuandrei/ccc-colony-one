@@ -22,6 +22,7 @@ def inside(root, relative):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, default=REPO.parent / 'CCC-OMNI')
+    parser.add_argument('--research-source', type=Path, help='Directory holding explicitly shared research inputs; needed only on their first import')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     source = args.source.resolve()
@@ -31,7 +32,6 @@ def main():
     previous = {item['path']: item for item in old['files']}
     records, pending, missing = [], [], []
     for entry in entries:
-        src = inside(source, entry['source'])
         dst = inside(REPO, entry['path'])
         if entry.get('snapshot_once') and dst.is_file():
             current = digest(dst.read_bytes())
@@ -39,6 +39,12 @@ def main():
                 raise RuntimeError(f'Frozen snapshot has changed or lost provenance: {dst}')
             records.append(previous[entry['path']])
             continue
+        if entry.get('source_group') == 'research_inputs':
+            if args.research_source is None:
+                raise ValueError('First import of shared research inputs requires --research-source')
+            src = inside(args.research_source.resolve(), entry['source'])
+        else:
+            src = inside(source, entry['source'])
         if not src.is_file():
             if entry.get('optional'):
                 missing.append(entry['source'])
@@ -61,7 +67,10 @@ def main():
         prior = previous.get(entry['path'], {}).get('sha256')
         if current and current != sha and current != prior:
             raise RuntimeError(f'Local edits would be overwritten: {dst}; reconcile them first')
-        records.append({'path': entry['path'], 'source': entry['source'], 'sha256': sha, 'bytes': len(data)})
+        record = {'path': entry['path'], 'source': entry['source'], 'sha256': sha, 'bytes': len(data)}
+        if entry.get('source_group'):
+            record['source_group'] = entry['source_group']
+        records.append(record)
         if current != sha:
             pending.append((dst, data))
     print(json.dumps({'changed': [str(p.relative_to(REPO)) for p, _ in pending], 'missing_optional': missing}))

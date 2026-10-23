@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": "site_win-v1-8228-35",
+    "gen03_actions": [
+      "F6->E5",
+      "E5->D4"
+    ],
+    "terminal_winner": "MAGENTA",
+    "status": "PASS"
+  },
+  {
+    "case_id": "site_win-v2-8623-33",
+    "gen03_actions": [
+      "E6->E5",
+      "E5->G7"
+    ],
+    "terminal_winner": "CYAN",
+    "status": "PASS"
+  }
+]

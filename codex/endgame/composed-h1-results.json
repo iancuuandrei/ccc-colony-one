@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "states": 22176,
+  "policy_exact": true,
+  "value_exact": true,
+  "batch": "dynamic (including final partial)",
+  "seconds": 0.6436634063720703,
+  "sha256": "23a7b2d15ee6cb59f39c7c7b6e18437b964f6421a0adbb38ba229aa34078d28d"
+}

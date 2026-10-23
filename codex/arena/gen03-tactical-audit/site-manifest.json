@@ -1,0 +1,62 @@
+{
+  "models": {
+    "gen02": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen02\\model.onnx",
+      "sha256": "579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0"
+    },
+    "gen03": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen03\\model.onnx",
+      "sha256": "0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f"
+    }
+  },
+  "inputs": {
+    "codex\\matches\\site-gen02-loss-hard-v1.npz": "7fafc93db3452edf460d973aa70cb8181b1850247b69cd7bb7a472f445470113",
+    "codex\\matches\\site-gen02-loss-mining-v1.json": "5734b5c53ea72f16f672823def755035eccd0a62fd1abc200030e61258da7dcd",
+    "codex\\matches\\site-all-v1-derived\\match-7525.txt": "5064c9630f8ca57466395af89dc78a63f054e46778c16af8dbfb4cda729131b1",
+    "codex\\matches\\site-all-v1-derived\\match-7658.txt": "7b897243d4e4d109c2c0e652037233aa269a59696a99007d5cb61a7c3fc2f714",
+    "codex\\matches\\site-all-v1-derived\\match-8079.txt": "65815d6d215ce7885d8c422a168339c30fade86cc93735ed3a18c96bda00f586",
+    "codex\\matches\\site-all-v1-derived\\match-8185.txt": "4d37c9f02e8ad6dc1f9d40a17f9d2a47d7d6361e625a1d6da21987f58d80c239",
+    "codex\\matches\\site-all-v1-derived\\match-8443.txt": "46407fa4c707f7f23c9430f0b86c6b8ab278e919dff91c0fdb68f7d88160eb4f",
+    "codex\\matches\\site-gen02-loss-hard-v2.npz": "ff3426994390cfbb44c49e54be567f3b390603d29639e327a4f264ff8507fb0a",
+    "codex\\matches\\site-gen02-loss-mining-v2.json": "fb58d5823da4ad87abe6436a8d6570017bdcb57f9da6f7d2e9cce6adac2fc2ec",
+    "codex\\matches\\site-all-v1-derived\\match-9366.txt": "0e1ac521c228e03a9d8f63c5f786ea8ed7e72dc1fb8022fa402a30ff85e3f551",
+    "codex\\matches\\site-all-v1-derived\\match-8944.txt": "8260086b95269905469a37940867217f8a1e3ee35f406e13516bd1d8380b013a",
+    "codex\\matches\\site-all-v1-derived\\match-8745.txt": "b58728e8a3902c32fd42187c0422761a554c3b0ff69fc8fb05540fa9ad896c39",
+    "codex\\matches\\site-gen02-loss-hard-v3.npz": "e87b2de38b208994154c87b6a310f72bc6a9f09f1f55b0d4be03f4aa7833203e",
+    "codex\\matches\\site-gen02-loss-mining-v3.json": "6233204dd6ad856f454331794bab6bb30c5c39da1757e9f69e3c0d7d466abd5e",
+    "codex\\matches\\site-all-v1-derived\\match-11059.txt": "1e38342c16386b546e03104d29c77f7d5687fa1e5535c06126247c3b1b8923ec",
+    "codex\\matches\\site-all-v1-derived\\match-10910.txt": "98695de1b45eb2bee22b64d6ba004fb97864684a3eeb8e6219d48aa8dd4bc6bc",
+    "codex\\matches\\site-all-v1-derived\\match-9928.txt": "71189248cdfbcefa3e327e77a9784018a616d19722b049983022974e1f40bff0",
+    "codex\\matches\\site-gen02-wins-hard-v1.npz": "22e34d322e2fcdabff8ece1b71ff7c1386a9d8449a506097bf64f83706e48875",
+    "codex\\matches\\site-gen02-wins-mining-v1.json": "883f60c46eb0536bcd7a08195dfc287d9f9cdb089bae176937b8234372f9a60c",
+    "codex\\matches\\site-all-v1-derived\\match-8228.txt": "31a5ea23587fe0ceec0ace8e2291bba852a9687d166baf52ffc1b67b917ada8d",
+    "codex\\matches\\site-gen02-wins-hard-v2.npz": "506fb91b841e8dca976425e68eb71edda1342db865588e5c721bdab38275756a",
+    "codex\\matches\\site-gen02-wins-mining-v2.json": "da57f704dc8abfbad7e5a011284ad954280f4492226c1ec72c5d571993b8eb65",
+    "codex\\matches\\site-all-v1-derived\\match-8948.txt": "171e36de7d23688ab228a904798810125e1f3f3c87ed0913124a78506f2ed46e",
+    "codex\\matches\\site-all-v1-derived\\match-8855.txt": "6205543b5c25963d15c700a776df7996bd8c6fb5865c174554ef459d2f333592",
+    "codex\\matches\\site-all-v1-derived\\match-8623.txt": "4a6a143576cb4a71ea08a7599d19d552e85ae3fe31575297c9c37cddd2835889",
+    "codex\\matches\\site-gen02-wins-hard-v3.npz": "8d93f40ae548790bcb8d3e8b10f7a716636f2b6b46bbe098303b43d6b80c1b19",
+    "codex\\matches\\site-gen02-wins-mining-v3.json": "e4f3fe651e0833ec90999e869ea4aa10889d93947bbac0057166c71861a3f656",
+    "codex\\matches\\site-all-v1-derived\\match-10838.txt": "1166fad191e772198222cd3f318ab3ad713ea678fa94bfd2e72f62d7e676c999",
+    "codex\\matches\\site-all-v1-derived\\match-10762.txt": "4a172bae54b9599036cc3f96668f54c95c705063f1ae9ab1e61583f6eefce8df"
+  },
+  "mcts_config": {
+    "simulations": 100,
+    "c_puct": 1.5,
+    "add_root_noise": true,
+    "dirichlet_alpha": 0.3,
+    "dirichlet_eps": 0.15,
+    "warmup_temperatures": [
+      1.0,
+      0.5
+    ],
+    "warmup_step_actions": 4,
+    "batch_size": 8,
+    "virtual_loss": 1.0,
+    "adaptive_simulations": false,
+    "sim_multiplier": 15.0,
+    "sim_floor": 150
+  },
+  "harness_sha256": "708af6dc44794c86afe8c0da85bddcdd42683787d1c012e7352f9534359e9be6",
+  "quarantine": "READ ONLY; no training export; constructed holdout rotations correlated"
+}

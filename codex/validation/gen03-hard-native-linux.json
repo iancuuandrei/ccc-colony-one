@@ -1,0 +1,53 @@
+{
+  "model": "/home/andrei/.cache/colony-one-validation-runs/gen03/model.onnx",
+  "sha256": "0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f",
+  "bytes": 1477761,
+  "mode": "hard",
+  "python": "/home/andrei/.cache/colony-one-validator/bin/python",
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "checks": [
+    {
+      "mode": "--child",
+      "caps": {
+        "address_space_MiB": 384,
+        "cpu_seconds": 2,
+        "wall_seconds": 3,
+        "open_files": 32
+      },
+      "returncode": 0,
+      "stdout": "{\"duration_seconds\":0.6903780709999978}\n",
+      "stderr": "",
+      "result": "PASS",
+      "wall_seconds": 1.829416191000007,
+      "child_usage": {
+        "cpu_seconds": 1.61086,
+        "max_rss_KiB_cumulative": 92564
+      }
+    },
+    {
+      "mode": "--match-child",
+      "caps": {
+        "address_space_MiB": 512,
+        "cpu_seconds": 15,
+        "wall_seconds": 20,
+        "open_files": 32
+      },
+      "returncode": 0,
+      "stdout": "{\"actions\":34}\n",
+      "stderr": "",
+      "result": "PASS",
+      "wall_seconds": 2.4389384680000035,
+      "child_usage": {
+        "cpu_seconds": 2.4242100000000004,
+        "max_rss_KiB_cumulative": 92564
+      }
+    }
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,47 @@
+{
+  "baseline": "GEN02 authoritative; no models, searches or training runs created",
+  "holdout_policy": "No holdout_v1 or synthetic held-out data read",
+  "kind": "certificate_guided_policy_only_projection",
+  "pending_teacher_rows": 0,
+  "policy_override_file": "policy-overrides-62cc87cc24107a895bf3.json",
+  "policy_override_sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276",
+  "preserved_prior_chunks": [
+    {
+      "chunk": "chunk-site-tactics-7525-ply026.npz",
+      "sha256": "a8fb1c51d24ae86e4baea44c21ff48e63d307500f0cd403792592be7f2ce8053"
+    },
+    {
+      "chunk": "chunk-site-tactics-7658-ply055.npz",
+      "sha256": "361c98688494b5c44f6c6b4ad4feb50ffe471fc2be634ce74bd4526e02588e5c"
+    },
+    {
+      "chunk": "chunk-site-tactics-8079-ply030.npz",
+      "sha256": "643c4805829a521302a037a31f40a38ec5531d83e703d7888a167ec44fad515b"
+    },
+    {
+      "chunk": "chunk-site-tactics-8185-ply042.npz",
+      "sha256": "d85771d75c8a3bf72c77a87a22b85fffdf86fae3146eb547cdc8644c1ec465e6"
+    },
+    {
+      "chunk": "chunk-site-tactics-8443-ply030.npz",
+      "sha256": "c8118e61c863b40d7998d06bfde5937dd252ea5bf88753a1456e7de59acfc731"
+    },
+    {
+      "chunk": "chunk-site-tactics-8228-ply035.npz",
+      "sha256": "39b2cd60fdb9f14c0603d59de5528d5f7c4f2a8a1f8f015454eb1ef8c36717e8"
+    }
+  ],
+  "proof_file": "proofs-62cc87cc24107a895bf3.json",
+  "proof_file_sha256": "7e41a6b754ea2e4d4e7724c2c025610fee8c24f5850940ec53aff36809c6d381",
+  "proof_only_uniform_rows": 13,
+  "report_file": "report-62cc87cc24107a895bf3.json",
+  "report_sha256": "fe6b53b370f08f5a66449c6519ecef839bc76b29eeb535c0ca8f3fb649675efb",
+  "rows": 19,
+  "run_id": "62cc87cc24107a895bf3",
+  "scope": "Exact own-turn wins take priority; otherwise bounded next-turn safety only. No full-game optimality claim.",
+  "skipped_no_admissible_rows": 3,
+  "split_rule": "Keep whole source game group together across every split; do not treat repaired plies as independent games.",
+  "teacher_backed_rows": 6,
+  "value_contract": "All rows has_value=False,q_valid=False,z=q=0,left=1,has_pol=True",
+  "version": 1
+}

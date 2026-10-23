@@ -1,0 +1,80 @@
+{
+  "model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\endgame\\model-h1-endgame.onnx",
+  "sha256": "23a7b2d15ee6cb59f39c7c7b6e18437b964f6421a0adbb38ba229aa34078d28d",
+  "bytes": 349512,
+  "mode": "graph",
+  "python": "D:\\dev\\CCC-OMNI\\.venv\\Scripts\\python.exe",
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.0"
+  },
+  "structural_contract": "PASS",
+  "opsets": [
+    [
+      "",
+      17
+    ]
+  ],
+  "operators": {
+    "Reshape": 12,
+    "Gather": 32,
+    "ReduceMax": 6,
+    "Add": 142,
+    "Sub": 15,
+    "Clip": 10,
+    "MatMul": 118,
+    "Mul": 112,
+    "ReduceSum": 19,
+    "Relu": 3,
+    "ReduceMin": 1,
+    "Abs": 1,
+    "Tanh": 1,
+    "Identity": 2,
+    "Greater": 6,
+    "Equal": 10,
+    "And": 7,
+    "Or": 4,
+    "Cast": 2,
+    "Max": 1,
+    "Where": 4
+  },
+  "nodes": 508,
+  "initializers": 151,
+  "constant_indices": "PASS (authoritative check_graph_structure)",
+  "session_wall_seconds": 0.159653599999956,
+  "corpus_cases": 24,
+  "batches": [
+    {
+      "batch": 1,
+      "calls": 24,
+      "result": "PASS",
+      "wall_seconds": 0.008328099999971528,
+      "value_min": -0.9700000286102295,
+      "value_max": 0.9700000286102295
+    },
+    {
+      "batch": 8,
+      "calls": 3,
+      "result": "PASS",
+      "wall_seconds": 0.0018109999998614512,
+      "value_min": -0.9700000286102295,
+      "value_max": 0.9700000286102295
+    },
+    {
+      "batch": 16,
+      "calls": 2,
+      "result": "PASS",
+      "wall_seconds": 0.0014764999998533312,
+      "value_min": -0.9700000286102295,
+      "value_max": 0.9700000286102295
+    }
+  ]
+}

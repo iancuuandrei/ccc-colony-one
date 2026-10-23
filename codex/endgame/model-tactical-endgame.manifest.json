@@ -1,0 +1,9 @@
+{
+  "base": "workspace\\colony-one-level4\\codex\\tactical\\model-tactical.onnx",
+  "base_sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b",
+  "output": "workspace\\colony-one-level4\\codex\\endgame\\model-tactical-endgame.onnx",
+  "sha256": "fcc4858fd61e77c6d7765acb87c57b4835aedcded10e8873009eb60d8e491969",
+  "bytes": 372391,
+  "added_nodes": 88,
+  "added_weight_bytes": 33572
+}

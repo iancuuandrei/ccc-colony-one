@@ -79,3 +79,28 @@ on both paths. Fullnative100sim44actions: sideCPU6.365/6.261s plus
 init0.731s, RSS85.75MB. The mounted100sim run used4.657/4.600s per side;
 these are different contemporaneous hostload observations, not evidence of
 a performance regression caused by native copying. Same model/source hashes.
+
+Larger gen01big SHAbe87e084...11529801,2440763bytes,612nodes216init:
+native unchanged validator ACCEPTED, hardcheck0.524CPU/0.528wall,
+hardL3match1.002CPU/1.004wall/18actions, maxRSS97288KiB; raw batch1/8/16
+PASS. Full100simselfmatch50actions sideCPU3.1325/2.7900s (26/24actions),
+init0.2934s, RSS88.17MB. Contemporaneous gen01 rerun used1.4754/1.3854s
+per side (22/22actions). Big maxsideCPU2.12x; peractionmax0.1205s vs
+0.0671s (1.80x). Different trajectories: these are observed resource costs,
+not controlled worstcase bounds. Historical gen01 CPU differs under load.
+
+Quantization static policy facts: ALLOWED_OPERATORS excludes QuantizeLinear,
+DequantizeLinear,DynamicQuantizeLinear,QLinearConv,QLinearMatMul,
+MatMulInteger,ConvInteger, so conventional int8 ONNX quantization graphs
+are not admissible. Cast targetFLOAT16 is allowed, while external I/O
+must remain float32; this alone establishes no float16 runtime speedup.
+No extra or quantized model was generated during qualification.
+
+Authoritative baseline GEN02 SHA579d3ec0...0595a9a0 (Opus sole modelowner):
+native unchanged validator ACCEPTED;19files/modelhashverified;
+1477761bytes,682nodes235initializers; raw batch1/8/16full24corpus PASS.
+Hardcheck0.4255CPU/0.4301wall;hardL3match1.2148CPU/1.2157wall33actions;
+maxRSS93104KiB. Full100simselfmatch42actions sideCPU1.4966/1.4461s,
+init0.3098s,RSS84.88MB. No strengthcomparison/candidatecreation performed.
+Future validation concerns contract/resources, with gen02 as user-directed
+baseline for any separately authorized comparisons.

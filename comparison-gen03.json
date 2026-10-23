@@ -1,0 +1,2 @@
+{"incumbent_id":"a82971918c4f4e8ea6f54e805e0009c3","criterion":"Paired win rate under exact referee MCTS (100 sims), L4 scene, both colours per seed, fresh seeds",
+ "evidence":["logs/gen03-gate.json: gen03-endgame vs gen02-endgame (wins games cyan magenta) = 296 400 145 151","logs/gen03-tactical.json: vs tactical-v2 98%"],"preferable":true}

@@ -1,0 +1,11 @@
+{
+  "corpus_manifest_sha256": "a61a129b5d508f05284a9f25fb93508d2c5c69a72d6801bdf4338d3c5eda720c",
+  "files": {
+    "evaluate_gen02.py": "65c6842408b870762533321aeeb886cf86386b4b9c13d37d19991342b421f5b4",
+    "evaluation_gen02.json": "b0b3f173a3243b58772cf50a9d9306a1d8e86371b91a982a7bfe22cd0f351117",
+    "diagnose.py": "42370704f10ec8a6e1cbb59ed9c32e60fa7b23babd20dbbb967e6ee04e37f887",
+    "failure_certificates.json": "ac7cf1c32aaacf5fc13b746363dbb2d7ae4f146d42a5fb507eccf064c55f334a",
+    "README.md": "740adbfaf893b11095a52e3b2c42870ae28419f938fc24f9878c85cf6866faf2"
+  },
+  "qualification": "Additional diagnostic artifacts only; primary frozen cohort unchanged"
+}

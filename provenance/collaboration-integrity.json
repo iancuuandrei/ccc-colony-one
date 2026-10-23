@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "Artifact hash bindings; not a new playing-strength test or fresh certificate run",
-  "immutable_pins": 51,
+  "immutable_pins": 150,
   "teacher_labels": 32,
   "constructed_curriculum_states": 224,
   "source_limitations": [
@@ -15,5 +15,26 @@
       "historical_validator_sha256": "c74610db16497fe4888b3a55cdcdca137330981c4e7ea85b3c45822d3c938d4a",
       "qualification": "Historical validator source not available; current source is separately hash-bound."
     }
-  ]
+  ],
+  "reviewed_external_datasets": [
+    {
+      "name": "ext_astra_policy_v1",
+      "rows": 144,
+      "policy_rows": 144,
+      "exact_value_rows": 0
+    },
+    {
+      "name": "ext_astra_site_gen02_v1",
+      "rows": 55,
+      "policy_rows": 52,
+      "exact_value_rows": 12
+    },
+    {
+      "name": "ext_site_tactics_v1",
+      "rows": 19,
+      "policy_rows": 19,
+      "exact_value_rows": 0
+    }
+  ],
+  "historical_six_row_snapshot": "PASS: exact archived hashes preserved"
 }

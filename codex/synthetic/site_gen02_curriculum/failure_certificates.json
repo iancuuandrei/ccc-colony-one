@@ -1,0 +1,1849 @@
+{
+  "corpus_id": "site_gen02_curriculum_v1",
+  "manifest_sha256": "a61a129b5d508f05284a9f25fb93508d2c5c69a72d6801bdf4338d3c5eda720c",
+  "evaluation_sha256": "b0b3f173a3243b58772cf50a9d9306a1d8e86371b91a982a7bfe22cd0f351117",
+  "verified_error_positions": 24,
+  "actual_env_step_replay": true,
+  "records": [
+    {
+      "position_id": "p-0df939edb2a11146",
+      "seed_id": "actual-7525:26",
+      "teacher_explanation": "Ice E5 attacks Kernel G7, sacrificing the enemy Trace guard while Ice remains E5. This does not stop Ping E4-D4-B2 from capturing the unguarded own Kernel. Prefer certified defensive alternatives over the bodyguard hit.",
+      "chosen_action": 1806,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1806
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1806,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "E5-G7",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1756,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "E4-D4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1806,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "D4-B2",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          1828
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 1828,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E5-E4",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-74e8e6e2cec55862",
+      "seed_id": "actual-7658:55",
+      "teacher_explanation": "With two own actions remaining, judge the first Kernel move by whether any second action survives the opponent turn. The played E5-E4 commits to a position where every completion loses; safe first-action alternatives exist. Bounded survival is not a full-game win.",
+      "chosen_action": 2267,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2267,
+            1763
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1763,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-E5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1617,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "B5-B6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1692,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-E5",
+              "kind": "move",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1747
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1747,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-E3",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1692,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-E5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1836,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "E5-E3",
+              "kind": "move",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1756
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1756,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-D4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1617,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "B5-B6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1699,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-D4",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1754
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1754,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-F4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1692,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-E5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1829,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "E5-F4",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1764
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1764,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-D5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1617,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "B5-B6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1691,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-D5",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1762
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1762,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-F5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1617,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "B5-B6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1693,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-F5",
+              "kind": "move",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1748
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1748,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-D3",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1634,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "B5-C4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2219,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C4-D3",
+              "kind": "move",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        },
+        {
+          "own_completion": [
+            2267,
+            1746
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2267,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1746,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "E4-F3",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1693,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "C5-F5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1901,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "F5-F3",
+              "kind": "move",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2282,
+          2737
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2282,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "E5-F6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 2737,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "F6-G7",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-df45989a73989b06",
+      "seed_id": "actual-8079:30",
+      "teacher_explanation": "Trace C3-C4 is the unique bounded-safe action. C3-C2 also retains a guard, but Daemon C5-C2 relocates when capturing at distance three, then shoots Kernel B3. At C4 the Daemon must shoot the adjacent Trace without relocating, so that two-action kill fails.",
+      "chosen_action": 2738,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2738
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2738,
+              "team": "CYAN",
+              "piece": "TRACE",
+              "move": "C3-C2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2381,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "C5-C2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 854,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "C2-B3",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2722
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2722,
+            "team": "CYAN",
+            "piece": "TRACE",
+            "move": "C3-C4",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-90dee38bc23eb9e9",
+      "seed_id": "actual-8185:42",
+      "teacher_explanation": "Kernel C5-D4 enters the two-action reach of enemy Ping F5-E5-D4. The safe retreats B5, B6 and B4 avoid an immediate enemy terminal win. This certificate does not establish their eventual game outcome.",
+      "chosen_action": 1699,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1699
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1699,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C5-D4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2211,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "F5-E5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2268,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "E5-D4",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          1689
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 1689,
+            "team": "CYAN",
+            "piece": "KERNEL",
+            "move": "C5-B5",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-30cb47377090db6c",
+      "seed_id": "actual-8443:30",
+      "teacher_explanation": "Ice B3-D5 captures an enemy Daemon but leaves its own Kernel C2 without that guard. Enemy Trace F6-F5 followed by the range-three shot F5-C2 wins. Material capture cannot replace a verified defense against this quiet approach.",
+      "chosen_action": 2651,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2651
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2651,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "B3-D5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2722,
+              "team": "MAGENTA",
+              "piece": "TRACE",
+              "move": "F6-F5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2189,
+              "team": "MAGENTA",
+              "piece": "TRACE",
+              "move": "F5-C2",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2673
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2673,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "B3-B2",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-98b681889ef6885a",
+      "seed_id": "actual-9366:36",
+      "teacher_explanation": "Daemon D5-G5 captures Ping but allows enemy Daemon F3-F6, then the diagonal stationary shot F6-G7 at own Kernel. The unique bounded-safe first action is D5-F5, intercepting that approach geometry.",
+      "chosen_action": 2337,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2337
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2337,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "D5-G5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2901,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "F3-F6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1358,
+              "team": "CYAN",
+              "piece": "DAEMON",
+              "move": "F6-G7",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2338
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2338,
+            "team": "MAGENTA",
+            "piece": "DAEMON",
+            "move": "D5-F5",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-97bdc2c640ea11a2",
+      "seed_id": "actual-9366:52",
+      "teacher_explanation": "Daemon E6-E4 captures the enemy Daemon but exposes the last non-Kernel piece. Enemy Kernel C3-D3-E4 captures it and wins under bare-Kernel adjudication. Daemon retreats to F6 or G6 avoid this immediate loss; their full-game values remain unknown.",
+      "chosen_action": 2779,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2779
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2779,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "E6-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2723,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C3-D4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2276,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "D4-E4",
+              "kind": "move",
+              "terminated": true,
+              "winner": "CYAN"
+            }
+          ],
+          "winner": "CYAN"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2794
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2794,
+            "team": "MAGENTA",
+            "piece": "DAEMON",
+            "move": "E6-F6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-2914ede88f3bcfea",
+      "seed_id": "actual-8944:34",
+      "teacher_explanation": "Ice E5-G7 hits the enemy Kernel's Ice guard and stays E5. Enemy Kernel G7-F6-E5 then captures the last non-Kernel piece and wins by bare-Kernel adjudication. The apparent attack removes the opponent's piece that prevented this terminal transition.",
+      "chosen_action": 1806,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1806
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1806,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "E5-G7",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 3178,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "G7-F6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2723,
+              "team": "MAGENTA",
+              "piece": "KERNEL",
+              "move": "F6-E5",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          1812
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 1812,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E5-E6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-bcdbe297d9ce7ed8",
+      "seed_id": "actual-8745:30",
+      "teacher_explanation": "Kernel C3-D4 captures Ice but enters enemy Trace G6-G7-D4's range-three shot. The unique bounded-safe action is Kernel C3-C2. Verify destination geometry and the opponent's quiet first action before taking material.",
+      "chosen_action": 2723,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2723
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2723,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C3-D4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2666,
+              "team": "MAGENTA",
+              "piece": "TRACE",
+              "move": "G6-F6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2716,
+              "team": "MAGENTA",
+              "piece": "TRACE",
+              "move": "F6-D4",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2738
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2738,
+            "team": "CYAN",
+            "piece": "KERNEL",
+            "move": "C3-C2",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-0f668bec2ca9bcc8",
+      "seed_id": "actual-8228:35",
+      "teacher_explanation": "Own Kernel F6-E5-D4 captures the enemy Kernel this turn. The played Trace G5-F5 forgoes this immediate win. The recorded game was won, so this is a missed-win policy target, not evidence that the alternative move loses the game.",
+      "chosen_action": 2146,
+      "kind": "MISSED_CURRENT_TURN_WIN",
+      "winning_witnesses": {
+        "2723": [
+          {
+            "action_index": 2723,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "F6-E5",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 2268,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "E5-D4",
+            "kind": "move",
+            "terminated": true,
+            "winner": "MAGENTA"
+          }
+        ]
+      },
+      "claim": "There exists a terminal win this turn; no eventual-loss claim about the selected move."
+    },
+    {
+      "position_id": "p-541f9b701b52b4fd",
+      "seed_id": "actual-8948:27",
+      "teacher_explanation": "Kernel F6-E6-D5 is a terminal Kernel capture within the current turn. The played F6-F5 misses that immediate win. Targets prioritize all engine-certified winning first actions, without inferring an eventual loss for the played move.",
+      "chosen_action": 2722,
+      "kind": "MISSED_CURRENT_TURN_WIN",
+      "winning_witnesses": {
+        "2731": [
+          {
+            "action_index": 2731,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "F6-E6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 2788,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "E6-D5",
+            "kind": "move",
+            "terminated": true,
+            "winner": "MAGENTA"
+          }
+        ],
+        "2723": [
+          {
+            "action_index": 2723,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "F6-E5",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 2276,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "E5-D5",
+            "kind": "move",
+            "terminated": true,
+            "winner": "MAGENTA"
+          }
+        ]
+      },
+      "claim": "There exists a terminal win this turn; no eventual-loss claim about the selected move."
+    },
+    {
+      "position_id": "p-b15a31e2ba471bda",
+      "seed_id": "actual-8948:47",
+      "teacher_explanation": "Kernel D4-C4-B3 wins by capturing the enemy Kernel within this turn. Trace E4-E3 misses that immediate win. This position shares its game group with action 27 to prevent train/validation leakage.",
+      "chosen_action": 1747,
+      "kind": "MISSED_CURRENT_TURN_WIN",
+      "winning_witnesses": {
+        "1821": [
+          {
+            "action_index": 1821,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "D4-C4",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 1878,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "C4-B3",
+            "kind": "move",
+            "terminated": true,
+            "winner": "MAGENTA"
+          }
+        ],
+        "1813": [
+          {
+            "action_index": 1813,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "D4-C3",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 1366,
+            "team": "MAGENTA",
+            "piece": "KERNEL",
+            "move": "C3-B3",
+            "kind": "move",
+            "terminated": true,
+            "winner": "MAGENTA"
+          }
+        ]
+      },
+      "claim": "There exists a terminal win this turn; no eventual-loss claim about the selected move."
+    },
+    {
+      "position_id": "p-b09bdbf005e6b758",
+      "seed_id": "actual-8855:27",
+      "teacher_explanation": "Ping E3-C3-B4 captures the enemy Kernel in two own actions. A quiet setup can be a forced win even when the current destination is empty; all winning first actions are enumerated rather than treating the demonstrated line as unique.",
+      "chosen_action": 2204,
+      "kind": "MISSED_CURRENT_TURN_WIN",
+      "winning_witnesses": {
+        "1237": [
+          {
+            "action_index": 1237,
+            "team": "MAGENTA",
+            "piece": "PING",
+            "move": "E3-C3",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 1374,
+            "team": "MAGENTA",
+            "piece": "PING",
+            "move": "C3-B4",
+            "kind": "move",
+            "terminated": true,
+            "winner": "MAGENTA"
+          }
+        ]
+      },
+      "claim": "There exists a terminal win this turn; no eventual-loss claim about the selected move."
+    },
+    {
+      "position_id": "p-6d1b917f11e38be3",
+      "seed_id": "actual-8623:33",
+      "teacher_explanation": "Ice E6-E7-G7 captures the enemy Kernel within this turn. Preserve the distinction between a legal setup move and the terminal second capture, and train the first-action policy on the complete exact winning set.",
+      "chosen_action": 1309,
+      "kind": "MISSED_CURRENT_TURN_WIN",
+      "winning_witnesses": {
+        "1292": [
+          {
+            "action_index": 1292,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E6-E7",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 782,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E7-G7",
+            "kind": "move",
+            "terminated": true,
+            "winner": "CYAN"
+          }
+        ],
+        "1308": [
+          {
+            "action_index": 1308,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E6-E5",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 1806,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E5-G7",
+            "kind": "move",
+            "terminated": true,
+            "winner": "CYAN"
+          }
+        ],
+        "1301": [
+          {
+            "action_index": 1301,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E6-F6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 1358,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "F6-G7",
+            "kind": "move",
+            "terminated": true,
+            "winner": "CYAN"
+          }
+        ],
+        "1302": [
+          {
+            "action_index": 1302,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E6-G6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 1422,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "G6-G7",
+            "kind": "move",
+            "terminated": true,
+            "winner": "CYAN"
+          }
+        ],
+        "1293": [
+          {
+            "action_index": 1293,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E6-F7",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          },
+          {
+            "action_index": 846,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "F7-G7",
+            "kind": "move",
+            "terminated": true,
+            "winner": "CYAN"
+          }
+        ]
+      },
+      "claim": "There exists a terminal win this turn; no eventual-loss claim about the selected move."
+    },
+    {
+      "position_id": "p-86a8bfc535a4e365",
+      "seed_id": "guard_already_forward",
+      "teacher_explanation": "Constructed perturbation: Begin with the Trace already on C4 and test whether moving it loses the protection created by stationary adjacent shots. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 2218,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2218
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2218,
+              "team": "CYAN",
+              "piece": "TRACE",
+              "move": "C4-C3",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2389,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "C5-C3",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1366,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "C3-B3",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2209
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2209,
+            "team": "CYAN",
+            "piece": "TRACE",
+            "move": "C4-B4",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-988c54f5d05cc3df",
+      "seed_id": "guard_already_forward",
+      "teacher_explanation": "Constructed perturbation: Begin with the Trace already on C4 and test whether moving it loses the protection created by stationary adjacent shots. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 1234,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1234
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1234,
+              "team": "CYAN",
+              "piece": "TRACE",
+              "move": "D6-C6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2797,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "E6-C6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2933,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "C6-C7",
+              "kind": "shoot",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          1227
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 1227,
+            "team": "CYAN",
+            "piece": "TRACE",
+            "move": "D6-D7",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-fcc7d7e2a32606cb",
+      "seed_id": "ping_more_distant",
+      "teacher_explanation": "Constructed perturbation: Shift the enemy Ping's approach geometry without changing material or guard counts; recompute the distraction capture's safety. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 1806,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1806
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1806,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "E5-G7",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1237,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "E3-C3",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1358,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "C3-B2",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          1836
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 1836,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "E5-E3",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-ca07ea85ce4286f6",
+      "seed_id": "ping_more_distant",
+      "teacher_explanation": "Constructed perturbation: Shift the enemy Ping's approach geometry without changing material or guard counts; recompute the distraction capture's safety. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 2358,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2358
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2358,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "E4-G2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1901,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "C4-C6",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2934,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "C6-B7",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          577
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 577,
+            "team": "CYAN",
+            "piece": "KERNEL",
+            "move": "B7-B8",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-a47ab5f0d454847f",
+      "seed_id": "ice_intercepts_approach",
+      "teacher_explanation": "Constructed perturbation: Put own Ice on the previously empty Ping approach square D4, testing occupancy and interception rather than distance alone. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 2268,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2268
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2268,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "D4-E5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1756,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "E4-D4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1806,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "D4-B2",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2276
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2276,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "D4-E4",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-1029598b23ca8895",
+      "seed_id": "ice_intercepts_approach",
+      "teacher_explanation": "Constructed perturbation: Put own Ice on the previously empty Ping approach square D4, testing occupancy and interception rather than distance alone. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 1764,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1764
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1764,
+              "team": "CYAN",
+              "piece": "ICE",
+              "move": "D5-E4",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1828,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "D4-D5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2358,
+              "team": "MAGENTA",
+              "piece": "PING",
+              "move": "D5-B7",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          577
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 577,
+            "team": "CYAN",
+            "piece": "KERNEL",
+            "move": "B7-B8",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-d7d034b65fa5dfa1",
+      "seed_id": "ice_guard_departed",
+      "teacher_explanation": "Constructed perturbation: Start Ice beyond adjacency to its Kernel; distinguish loss of protection already present from loss caused by the candidate move. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 3249,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            3249
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 3249,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C2-B2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2316,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "D5-D2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 782,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "D2-B2",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2153
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2153,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "B4-B3",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-63cde7c20927955d",
+      "seed_id": "ice_guard_departed",
+      "teacher_explanation": "Constructed perturbation: Start Ice beyond adjacency to its Kernel; distinguish loss of protection already present from loss caused by the candidate move. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 1097,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1097
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1097,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "B6-B7",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2278,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "E5-B5",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2486,
+              "team": "MAGENTA",
+              "piece": "DAEMON",
+              "move": "B5-B7",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          714
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 714,
+            "team": "CYAN",
+            "piece": "ICE",
+            "move": "D7-C7",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-689ede75e9143c94",
+      "seed_id": "trace_shifted_left",
+      "teacher_explanation": "Constructed perturbation: Shift enemy Trace to another diagonal and test if capturing the Ice still enters a two-action terminal shot. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 2737,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            2737
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 2737,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C3-B2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1806,
+              "team": "MAGENTA",
+              "piece": "ICE",
+              "move": "D4-B2",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 1806,
+              "team": "MAGENTA",
+              "piece": "ICE",
+              "move": "D4-B2",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          2738
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 2738,
+            "team": "CYAN",
+            "piece": "KERNEL",
+            "move": "C3-C2",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    },
+    {
+      "position_id": "p-23c877a140fec532",
+      "seed_id": "trace_shifted_left",
+      "teacher_explanation": "Constructed perturbation: Shift enemy Trace to another diagonal and test if capturing the Ice still enters a two-action terminal shot. Labels below are recomputed; the original tactical conclusion is not assumed to persist.",
+      "chosen_action": 1161,
+      "kind": "AVOIDABLE_LOSS_BEFORE_NEXT_OWN_TURN",
+      "all_own_completions_after_selected_first_action": [
+        {
+          "own_completion": [
+            1161
+          ],
+          "typed_terminal_witness": [
+            {
+              "action_index": 1161,
+              "team": "CYAN",
+              "piece": "KERNEL",
+              "move": "C6-B7",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2358,
+              "team": "MAGENTA",
+              "piece": "ICE",
+              "move": "D5-B7",
+              "kind": "move",
+              "terminated": false,
+              "winner": null
+            },
+            {
+              "action_index": 2358,
+              "team": "MAGENTA",
+              "piece": "ICE",
+              "move": "D5-B7",
+              "kind": "move",
+              "terminated": true,
+              "winner": "MAGENTA"
+            }
+          ],
+          "winner": "MAGENTA"
+        }
+      ],
+      "bounded_safe_alternative": {
+        "own_actions": [
+          1169
+        ],
+        "typed_own_sequence": [
+          {
+            "action_index": 1169,
+            "team": "CYAN",
+            "piece": "KERNEL",
+            "move": "C6-B6",
+            "kind": "move",
+            "terminated": false,
+            "winner": null
+          }
+        ],
+        "terminal": false,
+        "winner": null,
+        "opponent_terminal_win_within_next_turn": false,
+        "full_game_outcome": "UNKNOWN"
+      },
+      "claim": "Every completion of the selected first action has an enemy terminal response; an alternative avoids loss through that bounded horizon only."
+    }
+  ]
+}

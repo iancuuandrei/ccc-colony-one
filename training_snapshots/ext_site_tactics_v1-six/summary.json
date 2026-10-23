@@ -1,0 +1,19 @@
+{
+  "baseline": "GEN02 authoritative; no models, searches or training runs created",
+  "holdout_policy": "No holdout_v1 or synthetic held-out data read",
+  "kind": "certificate_guided_policy_only_projection",
+  "pending_teacher_rows": 13,
+  "policy_override_file": "policy-overrides-9f544393a9bbe2f3f513.json",
+  "policy_override_sha256": "767508610f828b3e8c49ce39998d377dcfae42aa4fa16382faedc4bfd1f91f25",
+  "proof_file": "proofs-9f544393a9bbe2f3f513.json",
+  "proof_file_sha256": "4a92df3ddd1a427ad9d4c0bb429c38b7567571688fd7509c4530e37c8a5e22df",
+  "report_file": "report-9f544393a9bbe2f3f513.json",
+  "report_sha256": "f8659fdcb59b20ccc54dc0d306068c686ffcfd01b75c7e9575987801b5e10fff",
+  "rows": 6,
+  "run_id": "9f544393a9bbe2f3f513",
+  "scope": "Exact own-turn wins take priority; otherwise bounded next-turn safety only. No full-game optimality claim.",
+  "skipped_no_admissible_rows": 3,
+  "split_rule": "Keep whole source game group together across every split; do not treat repaired plies as independent games.",
+  "value_contract": "All rows has_value=False,q_valid=False,z=q=0,left=1,has_pol=True",
+  "version": 1
+}

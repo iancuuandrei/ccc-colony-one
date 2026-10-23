@@ -24,8 +24,23 @@ def evaluator(path):
         _ev[path] = OnnxEvaluator(path)
     return _ev[path]
 
+def round_of(ob):
+    locked = int(ob[12].sum())
+    done = {0: 0, 28: 1, 48: 2, 60: 3}.get(locked, 0)
+    nxt = (8, 16, 24, 26)[min(done, 3)]
+    return max(1, int(round(nxt - 8 * (1 - float(ob[14, 0, 0])))))
+
+_restart = {}
+
+def restart_state(path, rng):
+    if path not in _restart:
+        _restart[path] = np.load(path)['obs']
+    arr = _restart[path]
+    return arr[int(rng.integers(len(arr)))].astype(np.float32)
+
 def play(job):
     from colony_one import constants, encoding, mcts
+    from colony_one.board import Board
     from colony_one.env import ColonyOneEnv
     learner, opponent, seed, o = job
     rng = np.random.default_rng(seed)
@@ -37,6 +52,17 @@ def play(job):
     full = mcts.MCTSConfig(simulations=o['full_sims'], **warm)
     fast = mcts.MCTSConfig(simulations=o['fast_sims'], **warm)
     env = ColonyOneEnv()
+    restarted = False
+    if o.get('restart_file') and rng.random() < o.get('restart_prob', 0.0):
+        # Search control (Go-Exploit / RGSC style): continue from an archived hard state.
+        ob = restart_state(o['restart_file'], rng)
+        team = constants.MAGENTA if ob[15, 0, 0] > 0.5 else constants.CYAN
+        env.board = Board.from_observation(ob, team)
+        env.current_team = team
+        env.actions_left = int(round(float(ob[13, 0, 0]) * 2))
+        env.round_number = round_of(ob)
+        env.action = 100  # past the opening window
+        restarted = True
     rec = []
     n = 0
     while not env.terminated:
@@ -51,7 +77,10 @@ def play(job):
         cnt = np.asarray(cnt, np.float64)
         tot = cnt.sum()
         q = float(sum(root.W.values()) / max(1, sum(root.N.values())))
-        temp = 1.0 if n < o['temp1_actions'] else (0.5 if n < o['temp2_actions'] else 0.0)
+        if restarted:
+            temp = 0.7 if n < 2 else (0.3 if n < 4 else 0.0)
+        else:
+            temp = 1.0 if n < o['temp1_actions'] else (0.5 if n < o['temp2_actions'] else 0.0)
         a = mcts.select_action_index(root, temp, rng=rng)
         if len(idx) > K:  # keep the most visited
             order = np.argsort(-cnt)[:K]
@@ -71,7 +100,7 @@ def play(job):
     left = np.arange(m, 0, -1, dtype=np.float32)  # actions until game end
     learner_team = constants.CYAN if learner_is_cyan else constants.MAGENTA
     return dict(obs=obs, pidx=pidx, pval=pval, z=z, q=q, has_pol=has_pol, q_valid=q_valid, left=left,
-                meta=(seed, env.winner, m, opponent is None or env.winner == learner_team))
+                meta=(seed, env.winner, m, opponent is None or env.winner == learner_team, restarted))
 
 def main():
     p = argparse.ArgumentParser()
@@ -88,9 +117,13 @@ def main():
     p.add_argument('--temp2-actions', type=int, default=16)
     p.add_argument('--out', required=True)
     p.add_argument('--chunk', type=int, default=200)
+    p.add_argument('--restart-file', default=None, help='npz with obs of archived hard states')
+    p.add_argument('--restart-prob', type=float, default=0.0)
     a = p.parse_args()
     o = dict(full_sims=a.full_sims, fast_sims=a.fast_sims, full_prob=a.full_prob,
-             temp1_actions=a.temp1_actions, temp2_actions=a.temp2_actions)
+             temp1_actions=a.temp1_actions, temp2_actions=a.temp2_actions,
+             restart_file=str(Path(a.restart_file).resolve()) if a.restart_file and Path(a.restart_file).exists() else None,
+             restart_prob=a.restart_prob)
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     model = str(Path(a.model).resolve()); pool = [str(Path(x).resolve()) for x in a.pool]
     rng = np.random.default_rng(a.seed0 + 12345)
@@ -113,7 +146,7 @@ def main():
                 print(json.dumps({'games': i + 1, 'seconds': round(time.time() - t, 1)}), flush=True)
     flush()
     cyan = sum(1 for s in stats if s[1] == 'CYAN')
-    summary = {'games': len(stats), 'cyan_wins': cyan, 'positions': int(sum(s[2] for s in stats)),
+    summary = {'games': len(stats), 'cyan_wins': cyan, 'restarted': int(sum(1 for s in stats if s[4])), 'positions': int(sum(s[2] for s in stats)),
                'mean_len': float(np.mean([s[2] for s in stats])), 'seconds': time.time() - t,
                'model': a.model, 'pool': a.pool, 'opts': o}
     (out / 'summary.json').write_text(json.dumps(summary, indent=1))
