@@ -41,9 +41,10 @@
       "path": "random.onnx"
     },
     {
-      "source": "workspace/colony-one-level4/release/gen03/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen06/model.onnx",
       "path": "model.onnx",
-      "sha256": "0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f"
+      "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+      "snapshot_once": false
     },
     {
       "source": "workspace/colony-one-level4/env/LICENSE",
@@ -356,43 +357,63 @@
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/diagnostics.md",
-      "path": "codex/matches/diagnostics.md"
+      "path": "codex/matches/diagnostics.md",
+      "sha256": "7abad9b7fd41bf44f7ec2924ba5e178c0e480b123014c011ed74849adfaa2944",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/last_turn_probe.py",
-      "path": "codex/matches/last_turn_probe.py"
+      "path": "codex/matches/last_turn_probe.py",
+      "sha256": "c4d17d4aa8234938decd43637cfc8d997dc3054cd02426ca7c7175fb79fb7095",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/last-turn-avoidability.json",
-      "path": "codex/matches/last-turn-avoidability.json"
+      "path": "codex/matches/last-turn-avoidability.json",
+      "sha256": "ccf43f562dbe5639a253728c34cb21d0735926c1ac0fa7a6a0daf730ae90d2bc",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/probe_matches.py",
-      "path": "codex/matches/probe_matches.py"
+      "path": "codex/matches/probe_matches.py",
+      "sha256": "47500e113dd057f1306d3ca21efe32132a7790df7df32215dfb5395c17e49d30",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/selfplay-h1.summary.json",
-      "path": "codex/matches/selfplay-h1.summary.json"
+      "path": "codex/matches/selfplay-h1.summary.json",
+      "sha256": "a389a449592c7f635553d13eb54f7f687731d722b289112288fcb572dab34c9c",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/site_policy_check.py",
-      "path": "codex/matches/site_policy_check.py"
+      "path": "codex/matches/site_policy_check.py",
+      "sha256": "db1adeccfba3fd6e8920a8eed7a73925c9c5ff6a7d7d513c1b99555b83d048f7",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/site_replay.py",
-      "path": "codex/matches/site_replay.py"
+      "path": "codex/matches/site_replay.py",
+      "sha256": "384b626b4aa3e5f0b8bd31da1af1c2ba7940dfa2a2a06452627550c14c0760cd",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/site-candidate-action-check.json",
-      "path": "codex/matches/site-candidate-action-check.json"
+      "path": "codex/matches/site-candidate-action-check.json",
+      "sha256": "bfad620d9503186e8ea626957851f24072418338032389f029b02cbdb93be464",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/site-probes.json",
-      "path": "codex/matches/site-probes.json"
+      "path": "codex/matches/site-probes.json",
+      "sha256": "37473c2ee45bae9ecfed6084259658468e50a8a6928778c22051ed859de790a4",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/matches/site-provenance.json",
-      "path": "codex/matches/site-provenance.json"
+      "path": "codex/matches/site-provenance.json",
+      "sha256": "45729e69318db13d948a5f402fdc3d788fbed6c6c93773addc37bf84e738ea13",
+      "snapshot_once": true
     },
     {
       "source": "workspace/colony-one-level4/codex/arena/audit_evidence.py",
@@ -1633,7 +1654,7 @@
       "source_group": "research_inputs"
     },
     {
-      "sha256": "939745dff6297792e3534087c95ac1ee2e0b0a6baf91b8ba95088044e5af7ef5",
+      "sha256": "84f4e219504df1ff5f7eb5977686fc240a0b6f5d7989a860f3bce0a627d5f776",
       "path": "codex/research/integration-decision.md",
       "source": "workspace/colony-one-level4/codex/research/integration-decision.md",
       "snapshot_once": true
@@ -1925,6 +1946,636 @@
       "path": "data/ext_site_tactics_v1/validation-bdd2932b4bd7eee22569.json",
       "snapshot_once": true,
       "sha256": "16ee08ec1e15686d230c19d459d50139e66a1f9566e85e8d32d08f4b7e94c128"
+    },
+    {
+      "source": "workspace/colony-one-level4/release/gen05/model.onnx",
+      "path": "release/gen05/model.onnx",
+      "sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen05.pt",
+      "path": "checkpoints/gen05.pt",
+      "sha256": "7018b28e67234777d826fbc3fbc105b54e295f6d77adffd4458d16a0b3f5adcc",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen05.resume.pt",
+      "path": "checkpoints/gen05.resume.pt",
+      "sha256": "cdec93613b32cfe423cb433c1f323e6c4bf10027b2007f263439f1c127bced4e",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen05-endgame.manifest.json",
+      "path": "release/gen05/endgame.manifest.json",
+      "sha256": "a7b2a3510383e48b846d124f9aeb48e672b1170ae6a5668651ae93488dc8c572",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen05-endgame.proof.onnx",
+      "path": "release/gen05/endgame.proof.onnx",
+      "sha256": "f9d58a579daeab8c99d4fd68005686601b6202b71ff86edf93297f770e2f98ab",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/release/gen06/model.onnx",
+      "path": "release/gen06/model.onnx",
+      "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen06.pt",
+      "path": "checkpoints/gen06.pt",
+      "sha256": "eedeb003e7f1660c9741dfcb5a18e2389f916d67ff6806266d34bca602d96256",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen06.resume.pt",
+      "path": "checkpoints/gen06.resume.pt",
+      "sha256": "16963512f94edb120429b958fd2d29509c1454fbcb20eba77ce91dc1429a2c2d",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen06-endgame.manifest.json",
+      "path": "release/gen06/endgame.manifest.json",
+      "sha256": "b8b99e97402f768306b4eea14ffa718a293b7702da4d2f5a349b68aaaeaf2639",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen06-endgame.proof.onnx",
+      "path": "release/gen06/endgame.proof.onnx",
+      "sha256": "f9d58a579daeab8c99d4fd68005686601b6202b71ff86edf93297f770e2f98ab",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/release/gen06/model.onnx",
+      "path": "model-gen06.onnx",
+      "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/net.py",
+      "path": "release/gen06/source-current/net.py",
+      "sha256": "19bf07bc3079456297414f08f8eb9878cbec4efd9111e83a99e56ea4c5cf3a7f",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/train.py",
+      "path": "release/gen06/source-current/train.py",
+      "sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/selfplay.py",
+      "path": "release/gen06/source-current/selfplay.py",
+      "sha256": "ac9c370d4a827648098cd6f4e396846f767a9578fbbea7392f3d53ebb8113e63",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/loop.py",
+      "path": "release/gen06/source-current/loop.py",
+      "sha256": "e467f1f69913b0d7a1bb63c73647162a6f999669840ff328d5325f4b2f2addc8",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/check_onnx.py",
+      "path": "release/gen06/source-current/check_onnx.py",
+      "sha256": "bfb4f38d7d132576b34c970f9e3eb8ef64e5221ef0229711bf69d6e16df77d26",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/actor.py",
+      "path": "release/gen06/source-current/actor.py",
+      "sha256": "2f3dd0b1cfa11ba6e81aba596730ba9116a9e0dc0f355181245806958ea2d5ca",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/learner.py",
+      "path": "release/gen06/source-current/learner.py",
+      "sha256": "6527d3798bb233b56f5e97b83a0726acf2014f8bd37f150cd6da031990a9478c",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/learner_cfg.json",
+      "path": "release/gen06/source-current/learner_cfg.json",
+      "sha256": "1370362020c0b82b6b5fa52dc6887281f2ee4c2be0d0dcd332d549e814cc1f46",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-cpu-budget-before.json",
+      "path": "codex/validation/gen05-cpu-budget-before.json",
+      "sha256": "fd85761b6f24e7876f2137f2f5be274b39d92f502cc830e612e51d60ce022971",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-graph-native-linux.json",
+      "path": "codex/validation/gen05-graph-native-linux.json",
+      "sha256": "323ae2aa68e29093c141bcd0859fc9577c255a3412076e4eefd748928faf5027",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-hard-native-linux.json",
+      "path": "codex/validation/gen05-hard-native-linux.json",
+      "sha256": "d425c4aca2245c3d745807d42292d73db24448c42ea09f61fc2a3ba1f457c1a4",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-level4-native-linux.json",
+      "path": "codex/validation/gen05-level4-native-linux.json",
+      "sha256": "ed8e73529b0104c0966701e6c6a19d1d7730aff368c0ff3e3bd4c56c4ba2d5bf",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-native-copy-manifest.json",
+      "path": "codex/validation/gen05-native-copy-manifest.json",
+      "sha256": "ca91c8e1d2d9303c9dd042f9f3d4b7b96229b44f149d4b35b4ee8b58bde4618e",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-qualification-summary.json",
+      "path": "codex/validation/gen05-qualification-summary.json",
+      "sha256": "a7375e575d20de5a9804dddc946b7eb0cd67286a1b87f5b2266e616c01eca965",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen05-validator-native-linux.txt",
+      "path": "codex/validation/gen05-validator-native-linux.txt",
+      "sha256": "1825f3646268dafadc09a2f671561d8e392cf72801f94ff7f1e147ed689b4b19",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen06-graph-native-linux.json",
+      "path": "codex/validation/gen06-graph-native-linux.json",
+      "sha256": "3f7fb8f592897ca1ee57855f2abef97678b5aefcd29ec2a6fd4251d7a3340747",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen06-hard-native-linux.json",
+      "path": "codex/validation/gen06-hard-native-linux.json",
+      "sha256": "31b69803ed3e27edde135b441933e8e84f224ef5405afe824fa88c8a71cdd80b",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen06-level4-native-linux.json",
+      "path": "codex/validation/gen06-level4-native-linux.json",
+      "sha256": "aa95efb337305289e431f5b883602fd8ae0217baaa42523a6fc4da5c6de2771d",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen06-native-copy-manifest.json",
+      "path": "codex/validation/gen06-native-copy-manifest.json",
+      "sha256": "e711fa0f0e42bda5cd6e5b9f6cbeafc9dc6136e8936cd88a3ebd7bb63982f207",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen06-qualification-summary.json",
+      "path": "codex/validation/gen06-qualification-summary.json",
+      "sha256": "2a72969ac041be1acea726fac1f6fdb398f781aff6fd24b9f8340a53b5074bbc",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen06-validator-native-linux.txt",
+      "path": "codex/validation/gen06-validator-native-linux.txt",
+      "sha256": "2c245cdf13cd47bff6c695a0672ad643552747d3a10884c00b8923ed57ba20ad",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/engine-history-audit.json",
+      "path": "codex/arena/gen05-v-gen03/engine-history-audit.json",
+      "sha256": "213c506b31c487650d3ff00bf626c5f517b2e63c3794eeb8869ec08aa8059b90",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/games.jsonl",
+      "path": "codex/arena/gen05-v-gen03/games.jsonl",
+      "sha256": "aa659fb5c86046056a0419627323bdd2990dedc0bb2dbba3c38291900b4d943a",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/harness_snapshot.py",
+      "path": "codex/arena/gen05-v-gen03/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/manifest.json",
+      "path": "codex/arena/gen05-v-gen03/manifest.json",
+      "sha256": "d44b5d029eb37efd4568ac5e0567fc5b4e71b3aa3f403ba9440140cedbdf2490",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/replay.py",
+      "path": "codex/arena/gen05-v-gen03/replay.py",
+      "sha256": "ebbaa0b70a8d78d16f248c0e702d0be2ff447f6b27688b7504d7d2a39194f3bd",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/REPORT.md",
+      "path": "codex/arena/gen05-v-gen03/REPORT.md",
+      "sha256": "fee6382c24bd02965077ffb07a9af08b66df0b966b2578fc903ab94091e9918d",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen03/summary.json",
+      "path": "codex/arena/gen05-v-gen03/summary.json",
+      "sha256": "09a553cff67d308b9df31a4878ffad9b7123e53c5f4d6d626ab218244d67b82c",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen02/engine-history-audit.json",
+      "path": "codex/arena/gen05-v-gen02/engine-history-audit.json",
+      "sha256": "b5d224ebbdb93e9fc5fef884f69b8a4eb150e989bc9706aa9fec5350b66c4977",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen02/games.jsonl",
+      "path": "codex/arena/gen05-v-gen02/games.jsonl",
+      "sha256": "ea7e2968fd5dc95620456b8280bc2f04650f1e2d14bffb749b84c658c5eeba92",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen02/harness_snapshot.py",
+      "path": "codex/arena/gen05-v-gen02/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen02/manifest.json",
+      "path": "codex/arena/gen05-v-gen02/manifest.json",
+      "sha256": "57c93f85eaed66b8b5dc81ccfa32db711f48b6c69df1ba5d3d02140a6e6a6c26",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-v-gen02/summary.json",
+      "path": "codex/arena/gen05-v-gen02/summary.json",
+      "sha256": "2d940075091627e3295836d5101904f035473799b44ffce5a67e627e3c3b8272",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/audit.py",
+      "path": "codex/arena/gen05-tactical-audit/audit.py",
+      "sha256": "563af7d304e3abad968a37fb8cb2f31c89de906e0e299d4823ed6dc9f49f1e96",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/holdout-manifest.json",
+      "path": "codex/arena/gen05-tactical-audit/holdout-manifest.json",
+      "sha256": "a684109f17cf3ae0801252e7ddaf0a094768ba3ffb9192c760d4e8056b1a5e0d",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/holdout-results.jsonl",
+      "path": "codex/arena/gen05-tactical-audit/holdout-results.jsonl",
+      "sha256": "8ec2515ffdd11e171b7ee68185b7923aa5dc6f53b5e2bf7ab0b412632632aa8b",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/holdout-summary.json",
+      "path": "codex/arena/gen05-tactical-audit/holdout-summary.json",
+      "sha256": "029a77a14284481e57e1e64a47116d8f6f74681ed9ba22d74ecea876d4820ab4",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/REPORT.md",
+      "path": "codex/arena/gen05-tactical-audit/REPORT.md",
+      "sha256": "e6c7ac7d028ea1ed187356c6b0d7774cfe04a4f791bfe0db270dd0032a2caf26",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/site-manifest.json",
+      "path": "codex/arena/gen05-tactical-audit/site-manifest.json",
+      "sha256": "c569c01b4a407309893030284526f041926563a85415a7bbd03cd12b591709b0",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/site-results.jsonl",
+      "path": "codex/arena/gen05-tactical-audit/site-results.jsonl",
+      "sha256": "f7a234a04bfa08b1d6b599f3fce935cc2dc968f2c74c9e7c6f759c0ac7ee2541",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen05-tactical-audit/site-summary.json",
+      "path": "codex/arena/gen05-tactical-audit/site-summary.json",
+      "sha256": "2175b80d891b813ea7cc1f5641b7a07df19e50e0183f59a0240d556c4ad4866b",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/audit.py",
+      "path": "codex/arena/gen06-tactical-audit/audit.py",
+      "sha256": "1d66c79ffb5b3e927120786cf86e062c9b89d01ad8748e1a2cb5f15699ca61e4",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/followthrough.py",
+      "path": "codex/arena/gen06-tactical-audit/followthrough.py",
+      "sha256": "4af0a562509693c30ea92331bc40766018d9a18aff5be987e155654e32df5081",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/holdout-manifest.json",
+      "path": "codex/arena/gen06-tactical-audit/holdout-manifest.json",
+      "sha256": "6b4dd1fdd1556d918a8bf33d5f7b2c70ef1928988d1c22b62c8194f75035d380",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/holdout-results.jsonl",
+      "path": "codex/arena/gen06-tactical-audit/holdout-results.jsonl",
+      "sha256": "eda5027ec1ac68c3d4f1b8d96fbcf5bde433ce88b98457a69cbd543dc882c45c",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/holdout-summary.json",
+      "path": "codex/arena/gen06-tactical-audit/holdout-summary.json",
+      "sha256": "43e032c145b5b599e5d449f62156914124b26b6c1fa592222b8db7435f0792ee",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/REPORT.md",
+      "path": "codex/arena/gen06-tactical-audit/REPORT.md",
+      "sha256": "18bcaa8d5caba6c7b42e0d4c321b3ccb1b83450c62d8fb73ffd7231816dc9a2f",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/site-manifest.json",
+      "path": "codex/arena/gen06-tactical-audit/site-manifest.json",
+      "sha256": "bb3b63ae0218b82361a416be6828434d761a3a55cfc3ffd4f3115bfe0d9535ba",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/site-results.jsonl",
+      "path": "codex/arena/gen06-tactical-audit/site-results.jsonl",
+      "sha256": "f978f64f6b1b386bee108bfa585fcf37193635c88e1f674e8dffca11ae263ab2",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/site-summary.json",
+      "path": "codex/arena/gen06-tactical-audit/site-summary.json",
+      "sha256": "94112e1b4a5229a045d63c2ddbf64c938b29308c389f67e40cf38542de452199",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen06-tactical-audit/winning-followthrough.json",
+      "path": "codex/arena/gen06-tactical-audit/winning-followthrough.json",
+      "sha256": "62f659d1c1603ef85a0e0d9e36a78813ea8026c24c7584ea9c1f998905ac6d0c",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/logs/gen06-gate.json",
+      "path": "evidence/gen06-gate.json",
+      "sha256": "7c2ffb88c67e516d9bf7d3eee7e98b4d9399a252724dc72461b1dd5f54dfa6b0",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/overrides-integration-audit.json",
+      "path": "codex/research/overrides-integration-audit.json",
+      "sha256": "dfc936223c6b9b894058eadf033627bf1dedc901471b05b6c33b30cbf47a9cd5",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/overrides-integration-audit.md",
+      "path": "codex/research/overrides-integration-audit.md",
+      "sha256": "6bcc004cbb969de246da52b3331c0fc037b10ed843ff523f78bb033ebfe93b8a",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/overrides-integration-audit.py",
+      "path": "codex/research/overrides-integration-audit.py",
+      "sha256": "2a06ac71c82be62aad4ca77dff9a23188c625fc774a6ea57d21f4a95a19f9235",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/data/ext_site_deep10910_v1/chunk0000.npz",
+      "path": "data/ext_site_deep10910_v1/chunk0000.npz",
+      "sha256": "408b4bb38505e6a1c3579f78774bb7fd374b755c8dd2aec65c56b633902fc39f",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/data/ext_site_deep10910_v1/provenance.json",
+      "path": "data/ext_site_deep10910_v1/provenance.json",
+      "sha256": "771942d52e1899a1c170f1ad6a0ec5ceeb0574da4fbccfac4fa70a8486ac59dd",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/loader_audit.json",
+      "path": "codex/synthetic/validation/deep10910/loader_audit.json",
+      "sha256": "2c2c0ac2fba037ce8ab06c53c704fe181c84f232cf0c03d1a7da1bf7588a468e",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/mechanics.json",
+      "path": "codex/synthetic/validation/deep10910/mechanics.json",
+      "sha256": "7b8dba47858207ce91759e3e8644c2388a88e1d43c3f55f4a76516940d583dff",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/proof.json",
+      "path": "codex/synthetic/validation/deep10910/proof.json",
+      "sha256": "01a3ad31ca864cc88693132f1189569dd54e5504a7be1499708125200e449000",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/README.md",
+      "path": "codex/synthetic/validation/deep10910/README.md",
+      "sha256": "8eeb11bb172b9488839aa1866434d6449eca05579ac1b1e6c6dcecb147123f38",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/release_receipt.json",
+      "path": "codex/synthetic/validation/deep10910/release_receipt.json",
+      "sha256": "771942d52e1899a1c170f1ad6a0ec5ceeb0574da4fbccfac4fa70a8486ac59dd",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/release.py",
+      "path": "codex/synthetic/validation/deep10910/release.py",
+      "sha256": "6971d788000ca50eb7917c4af33a820c75cf7c29bd84dd06b5b20a759a3e2ec6",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/verify_mechanics.py",
+      "path": "codex/synthetic/validation/deep10910/verify_mechanics.py",
+      "sha256": "e2fd26f53b52245a5d97511e8b82f9e0d641980c6bdb314bff885c1ec28a699c",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/deep10910/verify.py",
+      "path": "codex/synthetic/validation/deep10910/verify.py",
+      "sha256": "e084b079a0bd0dfd6155d90c9ee723825de557356cb12241ec21bf4264659121",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/loss10910-training/build_packet.py",
+      "path": "codex/research/loss10910-training/build_packet.py",
+      "sha256": "dfb195d1a887424cb4459b1e766e33b06ed41fd4d4bbf101c29fb8a2f4c5e5c0",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/loss10910-training/certificates.json",
+      "path": "codex/research/loss10910-training/certificates.json",
+      "sha256": "d57155ba7fec0e4c60af4dd1331e0f6428844502ac681a602a9e53479fe8ae95",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/loss10910-training/local-validation.json",
+      "path": "codex/research/loss10910-training/local-validation.json",
+      "sha256": "3eda858830912c67302b170e2a671e305dc136a90f28f08232f894d67d0e44b1",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/loss10910-training/packet.json",
+      "path": "codex/research/loss10910-training/packet.json",
+      "sha256": "28b31a99c3bb368fce3c63fd29b2e394b2abbba550ae234b6e74cb71af6d647a",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/loss10910-training/README.md",
+      "path": "codex/research/loss10910-training/README.md",
+      "sha256": "7d0f0a790ca91c277dd819014b88805a47516efa015c873fa762ecd338fd78bd",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/research/loss10910-training/training_packet.npz",
+      "path": "codex/research/loss10910-training/training_packet.npz",
+      "sha256": "f7e8d935be6f1e4ee5adfb242ccc7e36957b046530f7b8ab6a9b9112a4cc466d",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/actor.py",
+      "path": "source_snapshots/override-audit-current/actor.py",
+      "sha256": "2f3dd0b1cfa11ba6e81aba596730ba9116a9e0dc0f355181245806958ea2d5ca",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/learner.py",
+      "path": "source_snapshots/override-audit-current/learner.py",
+      "sha256": "6527d3798bb233b56f5e97b83a0726acf2014f8bd37f150cd6da031990a9478c",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/learner_cfg.json",
+      "path": "source_snapshots/override-audit-current/learner_cfg.json",
+      "sha256": "1370362020c0b82b6b5fa52dc6887281f2ee4c2be0d0dcd332d549e814cc1f46",
+      "snapshot_once": true
+    },
+    {
+      "sha256": "13da4a61c255b211803efc957f5d67d0117b1799b729118f42f1fd08659b59c6",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/engine-history-audit.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/engine-history-audit.json"
+    },
+    {
+      "sha256": "db859623bde51db4767ed72f6f83774a21c55cc1833893403ea1c7c4f7b92805",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/games.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/games.jsonl"
+    },
+    {
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/harness_snapshot.py"
+    },
+    {
+      "sha256": "318d60ffac4b979a926c439a7528410198dc2c954d218eda7b2dcf4ffd4f2f07",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/manifest.json"
+    },
+    {
+      "sha256": "72d3eb8515ebf4242b863ca4d1b3bec2908dd1eb060a7844c388940b3b413644",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/replay.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/replay.py"
+    },
+    {
+      "sha256": "443356393e3c6aa27f02ed89160fc8b0c8fb74f6324d4b123461f0d8664ca9f3",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/REPORT.md",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/REPORT.md"
+    },
+    {
+      "sha256": "afea96711b5b06ddd16e4a9e26fd6721ccc56799a11b08ff6f4f62d0823853be",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen03/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen03/summary.json"
+    },
+    {
+      "sha256": "6af442936dcbed84fa9a62233333aaae257a561a2cd40ac522a503f4958b865c",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen02/engine-history-audit.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen02/engine-history-audit.json"
+    },
+    {
+      "sha256": "ba310d69dcfb69c0b22cf8420f9fb594589da0e45ba65b494bb2f2f3bfcf65f6",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen02/games.jsonl",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen02/games.jsonl"
+    },
+    {
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen02/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen02/harness_snapshot.py"
+    },
+    {
+      "sha256": "7e5520f23ed445380a617bccacbe94b131bfad1cbcb4e90e73084adb3827c826",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen02/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen02/manifest.json"
+    },
+    {
+      "sha256": "565cde11524cb2bd61c9966a8b8cb5bcd80ec57b2d261419f1af97d8b51a5d69",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen02/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen02/summary.json"
+    },
+    {
+      "sha256": "a7b28de3327908e3f8735255c6af42cc2e4f748058ccb5e8ffbec8398c582583",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen05/existing-gate-audit.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen05/existing-gate-audit.json"
+    },
+    {
+      "sha256": "524db48faeb40594f950c2eac99a559eb7754165d694ea3e9eab8128a32aaa33",
+      "snapshot_once": true,
+      "path": "codex/arena/gen06-v-gen05/replay_existing.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen06-v-gen05/replay_existing.py"
+    },
+    {
+      "snapshot_once": true,
+      "sha256": "195cb03e0b99a0cf3289bbba81fa5eb2a6b483527908976d73afedd9111148a0",
+      "source": "workspace/colony-one-level4/codex/matches/site-gen05-attribution-v2.json",
+      "path": "codex/matches/site-gen05-attribution-v2.json"
+    },
+    {
+      "snapshot_once": true,
+      "sha256": "50ce9af40cd67e8e7c27addd300dbf3dab00625daff47f37ed42b02169624b39",
+      "source": "workspace/colony-one-level4/data/ext_site_v1/manifest.json",
+      "path": "data/ext_site_v1/manifest.json"
+    },
+    {
+      "snapshot_once": true,
+      "sha256": "9119f7052dd0291ef0a25698e5f6af6fdaceff26714c1baf01f214cdca2b0e68",
+      "source": "workspace/colony-one-level4/data/ext_site_v1/summary.json",
+      "path": "data/ext_site_v1/summary.json"
+    },
+    {
+      "snapshot_once": true,
+      "sha256": "c4feb11d41095a6369a64559d3ec79d585022ca23d9149d3b72fae45e53d7294",
+      "source": "workspace/colony-one-level4/codex/matches/site-export5-source-v1.json",
+      "path": "codex/matches/site-export5-source-v1.json"
+    },
+    {
+      "snapshot_once": true,
+      "sha256": "49780d7d384a7d8ec65307a72ef9ae872966c1724f9c94520038817ea19c9b8e",
+      "source": "workspace/colony-one-level4/codex/matches/ext-site-gen05-v1-validation.json",
+      "path": "codex/matches/ext-site-gen05-v1-validation.json"
+    },
+    {
+      "snapshot_once": true,
+      "sha256": "a4ff1b56e8360059cd89f57154133f80055ef3e90956485eedd1881b1f2978fd",
+      "source": "workspace/colony-one-level4/codex/matches/site-external-aliases.json",
+      "path": "codex/matches/site-external-aliases.json"
     }
   ],
   "schema": 1

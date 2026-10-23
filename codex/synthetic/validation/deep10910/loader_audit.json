@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "method": "Executed exact train.load AST with numpy/Path; inspected exact loss expressions for policy/value/Q/length masks. No torch import, model, GPU or training.",
+  "train_sha256": "db6f7ad1c588b987b66a4cd35c371d3d1bfea6ac74c3ae81b12a0515a894475e",
+  "loader_rows": 2,
+  "external_rows": 2,
+  "next_policy_disabled": true,
+  "loss_expressions": {
+    "pl": "(kl * w).sum() / hh.sum().clamp(min=1)",
+    "vl": "((v - tgt) ** 2 * hvv).sum() / hvv.sum().clamp(min=1)",
+    "al": "((torch.tanh(aux[:, 0]) - qq) ** 2 * qvv).sum() / qvv.sum().clamp(min=1) + 0.05 * ((aux[:, 1] - torch.log(ll)) ** 2 * hvv).sum() / hvv.sum().clamp(min=1)"
+  },
+  "arrays": {
+    "obs": {
+      "dtype": "float16",
+      "shape": [
+        2,
+        16,
+        8,
+        8
+      ]
+    },
+    "pidx": {
+      "dtype": "int16",
+      "shape": [
+        2,
+        128
+      ]
+    },
+    "pval": {
+      "dtype": "float16",
+      "shape": [
+        2,
+        128
+      ]
+    },
+    "z": {
+      "dtype": "float32",
+      "shape": [
+        2
+      ]
+    },
+    "q": {
+      "dtype": "float32",
+      "shape": [
+        2
+      ]
+    },
+    "has_pol": {
+      "dtype": "bool",
+      "shape": [
+        2
+      ]
+    },
+    "q_valid": {
+      "dtype": "bool",
+      "shape": [
+        2
+      ]
+    },
+    "has_value": {
+      "dtype": "bool",
+      "shape": [
+        2
+      ]
+    },
+    "left": {
+      "dtype": "float32",
+      "shape": [
+        2
+      ]
+    }
+  },
+  "mask_contract": {
+    "has_pol": [
+      false,
+      true
+    ],
+    "has_value": [
+      true,
+      false
+    ],
+    "q_valid": [
+      false,
+      false
+    ],
+    "z": [
+      -1,
+      0
+    ],
+    "C_zero_is_masked_placeholder": true,
+    "A_exported": false
+  }
+}

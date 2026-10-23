@@ -178,6 +178,9 @@ class Net(nn.Module):
         return logits.reshape(-1, 4096), v
 
     def outputs(self, x):
+        # Legal observations lie in [0, 1]; clamping makes the graph numerically safe on the
+        # validator's extreme-value corpus (no inf/NaN propagation into value).
+        x = torch.clamp(x, 0.0, 1.0)
         h, win, ek = self.trunk(x)
         logits, v = self.heads(h)
         value = torch.tanh(self.v_fc2(v)).reshape(-1) * self.vscale
@@ -198,6 +201,7 @@ class Net(nn.Module):
         return logits, value
 
     def forward_train(self, x, with_next=False):
+        x = torch.clamp(x, 0.0, 1.0)
         h, win, ek = self.trunk(x)
         logits, v = self.heads(h)
         value = torch.tanh(self.v_fc2(v)).reshape(-1)

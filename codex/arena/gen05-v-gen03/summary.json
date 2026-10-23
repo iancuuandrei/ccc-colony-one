@@ -1,0 +1,46 @@
+{
+  "games": 400,
+  "expected_games": 400,
+  "complete": true,
+  "a_wins": 286,
+  "a_rate": 0.715,
+  "complete_pairs": 200,
+  "per_color": {
+    "CYAN": {
+      "wins": 143,
+      "games": 200,
+      "rate": 0.715,
+      "wilson95": [
+        0.6488465397039482,
+        0.7730499699538271
+      ]
+    },
+    "MAGENTA": {
+      "wins": 143,
+      "games": 200,
+      "rate": 0.715,
+      "wilson95": [
+        0.6488465397039482,
+        0.7730499699538271
+      ]
+    }
+  },
+  "uncertainty_note": "Wilson intervals are per-color; paired bootstrap resamples complete seeds, preserving within-pair dependence. Fixed-size exploratory evidence, not tournament acceptance or multiple-selection corrected proof.",
+  "paired_score_mean": 0.715,
+  "paired_bootstrap95": [
+    0.6725,
+    0.7575
+  ],
+  "paired_hoeffding95": [
+    0.6189677208680079,
+    0.811032279131992
+  ],
+  "pair_outcomes": {
+    "a_sweeps": 99,
+    "splits": 88,
+    "b_sweeps": 13
+  },
+  "sweep_sign_test_two_sided_p": 1.5014734022564093e-17,
+  "evidence": "A_FAVORED",
+  "end_provenance_verified": true
+}

@@ -1,0 +1,310 @@
+{
+  "status": "PASS",
+  "source_sha256": "98695de1b45eb2bee22b64d6ba004fb97864684a3eeb8e6219d48aa8dd4bc6bc",
+  "typed_capture_checks": [
+    {
+      "action": 1,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 2,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 3,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 4,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 5,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 6,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 7,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 8,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 9,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 10,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 11,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 12,
+      "captured": "PING",
+      "actual_target": [
+        3,
+        2
+      ],
+      "moved": true
+    },
+    {
+      "action": 13,
+      "captured": "EXPLOIT",
+      "actual_target": [
+        3,
+        2
+      ],
+      "moved": false
+    },
+    {
+      "action": 14,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 15,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 16,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 17,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 18,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 19,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 20,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 21,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 22,
+      "captured": "DAEMON",
+      "actual_target": [
+        4,
+        5
+      ],
+      "moved": true
+    },
+    {
+      "action": 23,
+      "captured": "ICE",
+      "actual_target": [
+        4,
+        5
+      ],
+      "moved": true
+    },
+    {
+      "action": 24,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 25,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 26,
+      "captured": "PING",
+      "actual_target": [
+        4,
+        4
+      ],
+      "moved": true
+    },
+    {
+      "action": 27,
+      "captured": "EXPLOIT",
+      "actual_target": [
+        4,
+        4
+      ],
+      "moved": false
+    },
+    {
+      "action": 28,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 29,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 30,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 31,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 32,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 33,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 34,
+      "captured": "ICE",
+      "actual_target": [
+        2,
+        3
+      ],
+      "moved": true
+    },
+    {
+      "action": 35,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 36,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 37,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 38,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 39,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 40,
+      "captured": "TRACE",
+      "actual_target": [
+        4,
+        3
+      ],
+      "moved": false
+    },
+    {
+      "action": 41,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    },
+    {
+      "action": 42,
+      "captured": "TRACE",
+      "actual_target": [
+        1,
+        6
+      ],
+      "moved": false
+    },
+    {
+      "action": 43,
+      "captured": "DAEMON",
+      "actual_target": [
+        3,
+        5
+      ],
+      "moved": true
+    },
+    {
+      "action": 44,
+      "captured": null,
+      "actual_target": null,
+      "moved": true
+    }
+  ],
+  "trace_shot_stays_G7": true,
+  "daemon_redirect_stays_F5": true,
+  "guard_removed_G7": true,
+  "kernel_survives_F7": true,
+  "post_redirect_clock": {
+    "round": 11,
+    "side": "MAGENTA",
+    "actions_left": 2
+  },
+  "main_proof_sha256": "01a3ad31ca864cc88693132f1189569dd54e5504a7be1499708125200e449000"
+}

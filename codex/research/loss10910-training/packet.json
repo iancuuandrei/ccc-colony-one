@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "status": "QUARANTINED_PENDING_INDEPENDENT_VERIFICATION",
+  "ext_release": false,
+  "source": {
+    "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-all-v1-derived\\match-10910.txt",
+    "sha256": "98695de1b45eb2bee22b64d6ba004fb97864684a3eeb8e6219d48aa8dd4bc6bc",
+    "source_group": "site:10910",
+    "winner": "CYAN",
+    "actions": 44
+  },
+  "authoritative_model_context": "GEN02 only; no model inference or identity assertion performed",
+  "rows": [
+    {
+      "position_id": "10910-A-pre39",
+      "source_group": "site:10910",
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 2,
+        "round": 10,
+        "action": 39,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "G7",
+            "rc": [
+              1,
+              6
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "D6",
+            "rc": [
+              2,
+              3
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "F6",
+            "rc": [
+              2,
+              5
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "DAEMON",
+            "square": "C5",
+            "rc": [
+              3,
+              2
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "TRACE",
+            "square": "D4",
+            "rc": [
+              4,
+              3
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          23,
+          24,
+          31,
+          32,
+          39,
+          40,
+          47,
+          48,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "state_sha256": "3b364c6312869b0d07430e5810287520b6f0a2426bf3f87140e32b7bb94d73d9",
+      "obs_sha256": "2ff370d66fcb663c57983d9bd42e0d7a8a73ae93196667cf3b7b11c8608fe8e9",
+      "legal_actions": [
+        {
+          "index": 3177,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "G7->G6",
+          "kind": "move"
+        },
+        {
+          "index": 3186,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "G7->F7",
+          "kind": "move"
+        },
+        {
+          "index": 2738,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->F7",
+          "kind": "move"
+        },
+        {
+          "index": 2722,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->F5",
+          "kind": "move"
+        },
+        {
+          "index": 2731,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->E6",
+          "kind": "move"
+        },
+        {
+          "index": 2729,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->G6",
+          "kind": "move"
+        },
+        {
+          "index": 2739,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->E7",
+          "kind": "move"
+        },
+        {
+          "index": 2723,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->E5",
+          "kind": "move"
+        },
+        {
+          "index": 2721,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F6->G5",
+          "kind": "move"
+        }
+      ],
+      "scope": "TERMINAL_LOSS_THROUGH_SECOND_FOLLOWING_OPPONENT_TURN",
+      "policy_kind": "PROVED_SAFE_SUBSET",
+      "demonstrated_safe_actions": [
+        2738
+      ],
+      "proved_unsafe_actions": [
+        2729
+      ],
+      "unknown_actions": [
+        2721,
+        2722,
+        2723,
+        2731,
+        2739,
+        3177,
+        3186
+      ],
+      "classification_complete": false,
+      "value": "UNKNOWN",
+      "has_pol": false,
+      "has_value": false,
+      "q_valid": false,
+      "length_target_kind": "MASKED_RECORDED_LENGTH",
+      "provenance": "actual_replay"
+    },
+    {
+      "position_id": "10910-B-actual-pre40",
+      "source_group": "site:10910",
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 1,
+        "round": 10,
+        "action": 40,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "G7",
+            "rc": [
+              1,
+              6
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "D6",
+            "rc": [
+              2,
+              3
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "G6",
+            "rc": [
+              2,
+              6
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "DAEMON",
+            "square": "C5",
+            "rc": [
+              3,
+              2
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "TRACE",
+            "square": "D4",
+            "rc": [
+              4,
+              3
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          23,
+          24,
+          31,
+          32,
+          39,
+          40,
+          47,
+          48,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "state_sha256": "124de5264436c325a363c06945865b15cb21a6f3553c2658e5937af6ebce838e",
+      "obs_sha256": "f73a4c2c27e2cf92fd3f652b61f83ce4321c8922497d99ccc386503967d4e3ed",
+      "legal_actions": [
+        {
+          "index": 3186,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "G7->F7",
+          "kind": "move"
+        },
+        {
+          "index": 3164,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "G7->D4",
+          "kind": "shoot"
+        },
+        {
+          "index": 2657,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "G6->G5",
+          "kind": "move"
+        },
+        {
+          "index": 2666,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "G6->F6",
+          "kind": "move"
+        },
+        {
+          "index": 2674,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "G6->F7",
+          "kind": "move"
+        },
+        {
+          "index": 2658,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "G6->F5",
+          "kind": "move"
+        }
+      ],
+      "scope": "TERMINAL_LOSS_THROUGH_SECOND_FOLLOWING_OPPONENT_TURN",
+      "policy_kind": "NO_ADMISSIBLE_ACTION",
+      "demonstrated_safe_actions": [],
+      "proved_unsafe_actions": [
+        2657,
+        2658,
+        2666,
+        2674,
+        3164,
+        3186
+      ],
+      "unknown_actions": [],
+      "classification_complete": true,
+      "value": -1,
+      "has_pol": false,
+      "has_value": true,
+      "q_valid": false,
+      "length_target_kind": "OBSERVED_RECORDED_CONTINUATION",
+      "provenance": "actual_replay"
+    },
+    {
+      "position_id": "10910-C-counterfactual-pre40",
+      "source_group": "site:10910",
+      "state": {
+        "side": "MAGENTA",
+        "actions_left": 1,
+        "round": 10,
+        "action": 40,
+        "pieces": [
+          {
+            "side": "MAGENTA",
+            "type": "KERNEL",
+            "square": "F7",
+            "rc": [
+              1,
+              5
+            ]
+          },
+          {
+            "side": "MAGENTA",
+            "type": "TRACE",
+            "square": "G7",
+            "rc": [
+              1,
+              6
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "KERNEL",
+            "square": "D6",
+            "rc": [
+              2,
+              3
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "DAEMON",
+            "square": "C5",
+            "rc": [
+              3,
+              2
+            ]
+          },
+          {
+            "side": "CYAN",
+            "type": "TRACE",
+            "square": "D4",
+            "rc": [
+              4,
+              3
+            ]
+          }
+        ],
+        "locked": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          23,
+          24,
+          31,
+          32,
+          39,
+          40,
+          47,
+          48,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      "state_sha256": "bc803721cc54984aefcb2c7a97bd52b354ecdba868b5b1fd99e98953ff7e2e6a",
+      "obs_sha256": "a82e14b9c7132ac01ff0211d14d97d8cc94f641e3b2281e91dc37191233c5acf",
+      "legal_actions": [
+        {
+          "index": 3242,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F7->F6",
+          "kind": "move"
+        },
+        {
+          "index": 3251,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F7->E7",
+          "kind": "move"
+        },
+        {
+          "index": 3243,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F7->E6",
+          "kind": "move"
+        },
+        {
+          "index": 3241,
+          "piece": "KERNEL",
+          "side": "MAGENTA",
+          "move": "F7->G6",
+          "kind": "move"
+        },
+        {
+          "index": 3177,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "G7->G6",
+          "kind": "move"
+        },
+        {
+          "index": 3164,
+          "piece": "TRACE",
+          "side": "MAGENTA",
+          "move": "G7->D4",
+          "kind": "shoot"
+        }
+      ],
+      "scope": "TERMINAL_LOSS_THROUGH_SECOND_FOLLOWING_OPPONENT_TURN",
+      "policy_kind": "COMPLETE_BOUNDED_CLASSIFICATION",
+      "demonstrated_safe_actions": [
+        3164
+      ],
+      "proved_unsafe_actions": [
+        3177,
+        3241,
+        3242,
+        3243,
+        3251
+      ],
+      "unknown_actions": [],
+      "classification_complete": true,
+      "value": "UNKNOWN",
+      "has_pol": true,
+      "has_value": false,
+      "q_valid": false,
+      "length_target_kind": "MASKED_FINITE_PLACEHOLDER",
+      "provenance": "one_step_counterfactual_from_actual_pre39"
+    }
+  ],
+  "files": {
+    "training_npz_sha256": "f7e8d935be6f1e4ee5adfb242ccc7e36957b046530f7b8ab6a9b9112a4cc466d",
+    "certificates_sha256": "d57155ba7fec0e4c60af4dd1331e0f6428844502ac681a602a9e53479fe8ae95"
+  },
+  "script_sha256": "dfb195d1a887424cb4459b1e766e33b06ed41fd4d4bbf101c29fb8a2f4c5e5c0",
+  "engine_sha256": {
+    "env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58"
+  },
+  "oracle_sha256": {
+    "oracle.py": "4a9c4297aa107f4f5df3774aef51af84259299417ebacea8fe2bd7e605fa5dfc",
+    "own_turn_oracle.py": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9"
+  },
+  "warnings": [
+    "A is a demonstrated safe subset, not a complete safe set. Generic full-legal KL is deliberately disabled for A.",
+    "A supports only pairwise preference2738 over proved losing2729; seven other legal first actions stay UNKNOWN.",
+    "Unknown value placeholders are finite zero and masked. Counterfactual C has no observed episode outcome.",
+    "B has no arbitrary policy target: all six actions are proved losing. B exact value is -1.",
+    "All three rows and their relatives must remain in source group site:10910 for train/holdout decisions."
+  ]
+}

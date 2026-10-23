@@ -1,0 +1,86 @@
+{
+  "cases": 7,
+  "terminal_own_turn_wins": 7,
+  "results": [
+    {
+      "case_id": "site_win-v1-8228-35",
+      "actions": [
+        "F6->E5",
+        "E5->D4"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "MAGENTA",
+      "status": "PASS"
+    },
+    {
+      "case_id": "site_win-v2-8948-27",
+      "actions": [
+        "F6->E5",
+        "E5->D5"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "MAGENTA",
+      "status": "PASS"
+    },
+    {
+      "case_id": "site_win-v2-8855-27",
+      "actions": [
+        "E3->C3",
+        "C3->B4"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "MAGENTA",
+      "status": "PASS"
+    },
+    {
+      "case_id": "site_win-v2-8623-33",
+      "actions": [
+        "E6->E5",
+        "E5->G7"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "CYAN",
+      "status": "PASS"
+    },
+    {
+      "case_id": "site_win-v3-10838-33",
+      "actions": [
+        "C4->D3",
+        "D3->E3"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "CYAN",
+      "status": "PASS"
+    },
+    {
+      "case_id": "site_win-v3-10838-37",
+      "actions": [
+        "C4->D3",
+        "D3->E2"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "CYAN",
+      "status": "PASS"
+    },
+    {
+      "case_id": "site_win-v3-10762-19",
+      "actions": [
+        "E5->D4",
+        "D4->B2"
+      ],
+      "terminal_own_turn_win": true,
+      "winner": "MAGENTA",
+      "status": "PASS"
+    }
+  ],
+  "models": {
+    "gen05": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen05\\model.onnx",
+      "sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e"
+    },
+    "gen06": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen06\\model.onnx",
+      "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+    }
+  }
+}

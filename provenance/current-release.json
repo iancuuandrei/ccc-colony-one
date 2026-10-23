@@ -1,11 +1,11 @@
 {
-  "release": "GEN03",
+  "release": "GEN06",
   "status": "DEPLOYED",
-  "sha256": "0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f",
-  "path": "release/gen03/model.onnx",
+  "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+  "path": "release/gen06/model.onnx",
   "root_alias": "model.onnx",
-  "deployment_evidence": "User explicitly confirmed the latest human upload was GEN03; lead agent observed the site accept model.onnx at 1.41 MiB. No duplicate upload was performed by sync agent.",
-  "deployment_qualification": "The site UI does not expose a model SHA; identity rests on the human upload confirmation plus the qualified local release hash.",
+  "deployment_evidence": "Lead agent immediately verified the exact release SHA, selected release/gen06/model.onnx, clicked DEPLOY and observed explicit platform acceptance at 18:38 Europe/Bucharest on 2026-10-23.",
+  "deployment_qualification": "The site UI does not expose its stored SHA; identity is bound to the immediately hash-verified file selected by the upload owner plus explicit platform acceptance.",
   "comparison_baseline": {
     "release": "GEN02",
     "path": "release/gen02/model.onnx",
@@ -13,13 +13,15 @@
     "scope": "Fixed user-requested comparison baseline; preserved immutable"
   },
   "qualified_evidence": [
-    "codex/validation/gen03-graph-native-linux.json",
-    "codex/validation/gen03-hard-native-linux.json",
-    "codex/validation/gen03-level4-native-linux.json",
-    "codex/validation/gen03-validator-native-linux.txt",
-    "codex/research/evaluation-review.md",
-    "codex/arena/gen03-tactical-audit/REPORT.md"
+    "codex/validation/gen06-qualification-summary.json",
+    "codex/validation/gen06-graph-native-linux.json",
+    "codex/validation/gen06-hard-native-linux.json",
+    "codex/validation/gen06-level4-native-linux.json",
+    "codex/validation/gen06-validator-native-linux.txt",
+    "codex/arena/gen06-v-gen03/REPORT.md",
+    "codex/arena/gen06-v-gen02/engine-history-audit.json",
+    "codex/arena/gen06-tactical-audit/REPORT.md"
   ],
-  "source_build": "UNKNOWN exact historical generation source. release/gen03/source-current is a separately hash-bound capture of later working scripts, which may already contain p2-head changes.",
-  "snapshot_scope": "Bounded allowlisted capture while other workers continued; does not claim every latest report was included. No GEN04 or later promotion is implied."
+  "source_build": "UNKNOWN exact historical generation source. release/gen06/source-current is a separately hash-bound later working capture; current train/learner source differs from the earlier override audit.",
+  "snapshot_scope": "Bounded allowlisted capture while other workers continued. Preserves GEN02 fixed baseline, GEN03 previous incumbent and all earlier named releases. No GEN07 or later promotion is implied."
 }

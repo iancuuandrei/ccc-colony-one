@@ -1,0 +1,93 @@
+{
+  "status": "PASS_CURRENT_SINGLE_MANIFEST_INTEGRATION",
+  "source_hashes": {
+    "train.py": "b0249ff4b5a6195b7ec3e5ec156568ef5c662b12b6672b69f453990f9f60e255",
+    "actor.py": "2f3dd0b1cfa11ba6e81aba596730ba9116a9e0dc0f355181245806958ea2d5ca",
+    "learner.py": "f52e3ed3fc0dee2d3960c36a1657505725af8a6549c57665d36fc6fb48ffaa88"
+  },
+  "source_stable": {
+    "train.py": true,
+    "actor.py": true,
+    "learner.py": true
+  },
+  "policy_overrides_sha256": "39f2fd439f8bada43812cf19b99737e547697a4f0c8f191e6f5105cbda766276",
+  "provenance_bindings": "PASS_19_CHUNKS_PROOF_RECORDS_AND_6_TEACHER_ROWS",
+  "real_loader_rows": 1984,
+  "actual_source_replacements": [
+    1680,
+    1737,
+    1808,
+    1872,
+    1909,
+    1962
+  ],
+  "future_hash_routing_fixture_hits": 19,
+  "float16_key_and_folder_scope": "PASS",
+  "new_inputs": [
+    {
+      "folder": "ext_astra_site_gen02_v1",
+      "sha256": "2572aa1a2f75f913588a4e91b1b114b501a4b17798c7c762f820abe07d457c73",
+      "rows": 55,
+      "value_rows": 12,
+      "policy_rows": 52
+    },
+    {
+      "folder": "ext_astra_policy_v1",
+      "sha256": "b413c9fa6265468141063a8c4c9c6955520329466b924d5a29c0acad669b0019",
+      "rows": 144,
+      "value_rows": 0,
+      "policy_rows": 144
+    },
+    {
+      "folder": "ext_site_deep10910_v1",
+      "sha256": "408b4bb38505e6a1c3579f78774bb7fd374b755c8dd2aec65c56b633902fc39f",
+      "rows": 2,
+      "value_rows": 1,
+      "policy_rows": 1
+    }
+  ],
+  "mixed_rows": 5132,
+  "raw_outcomes_unchanged": true,
+  "external_next_policy_aux": "PASS_NONE",
+  "gradient_masks": {
+    "status": "PASS_EXECUTED_CPU_LEAF_GRADIENTS",
+    "value_unknown_zero": true,
+    "length_unknown_zero": true,
+    "q_invalid_zero": true,
+    "policy_only_active": true,
+    "no_policy_zero": true,
+    "external_next_policy_zero": true
+  },
+  "actor_control_cases": [
+    {
+      "workers": 0,
+      "events": [
+        "sleep"
+      ]
+    },
+    {
+      "workers": -1,
+      "events": [
+        "sleep"
+      ]
+    },
+    {
+      "workers": 8,
+      "events": [
+        "best_read",
+        "subprocess_stub"
+      ]
+    }
+  ],
+  "actor_processes_started": 0,
+  "gen07_log_includes_all_new_inputs": true,
+  "models_instantiated": 0,
+  "training_started": false,
+  "limits": [
+    "No replay of oracle trees in this integration audit; prior independent certificates are hash-bound.",
+    "No proof that an already-running gen07 process imported this exact train.py hash: its log does not record code/override hashes or replacement count.",
+    "Current production load routes one arbitrary override manifest if several are present; currently exactly one manifest is used.",
+    "Runtime apply_overrides trusts JSON and does not itself verify chunk/proof/source hashes; this audit verifies the current bindings.",
+    "Actor checks workers twice; a budget change between check and command can still pass 0 on a rare race."
+  ]
+}

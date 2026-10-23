@@ -1,0 +1,87 @@
+{
+  "model": "/home/andrei/.cache/colony-one-validation-runs/gen05/model.onnx",
+  "sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e",
+  "bytes": 1477761,
+  "mode": "graph",
+  "python": "/home/andrei/.cache/colony-one-validator/bin/python",
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.0",
+    "onnxruntime": "1.30.0"
+  },
+  "structural_contract": "PASS",
+  "opsets": [
+    [
+      "",
+      17
+    ]
+  ],
+  "operators": {
+    "Reshape": 15,
+    "Slice": 8,
+    "ReduceSum": 17,
+    "Gather": 32,
+    "Sub": 10,
+    "Clip": 24,
+    "MatMul": 156,
+    "Mul": 132,
+    "Add": 178,
+    "ReduceMean": 4,
+    "Abs": 1,
+    "Unsqueeze": 27,
+    "Concat": 3,
+    "Conv": 13,
+    "Relu": 15,
+    "Gemm": 6,
+    "Sigmoid": 2,
+    "Transpose": 1,
+    "Tanh": 1,
+    "Div": 1,
+    "ReduceMax": 2,
+    "Greater": 6,
+    "Equal": 10,
+    "And": 7,
+    "Or": 4,
+    "Cast": 2,
+    "Max": 1,
+    "Where": 4
+  },
+  "nodes": 682,
+  "initializers": 235,
+  "constant_indices": "PASS (authoritative check_graph_structure)",
+  "session_wall_seconds": 0.30251382899996315,
+  "corpus_cases": 24,
+  "batches": [
+    {
+      "batch": 1,
+      "calls": 24,
+      "result": "PASS",
+      "wall_seconds": 0.03355150800001638,
+      "value_min": -1.0,
+      "value_max": 0.999992847442627
+    },
+    {
+      "batch": 8,
+      "calls": 3,
+      "result": "PASS",
+      "wall_seconds": 0.014730761999999231,
+      "value_min": -1.0,
+      "value_max": 0.999992847442627
+    },
+    {
+      "batch": 16,
+      "calls": 2,
+      "result": "PASS",
+      "wall_seconds": 0.01832219300001725,
+      "value_min": -1.0,
+      "value_max": 0.999992847442627
+    }
+  ]
+}

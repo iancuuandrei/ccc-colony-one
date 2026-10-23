@@ -1,0 +1,2492 @@
+{
+  "status": "PASS",
+  "histories": 400,
+  "observed_summary": {
+    "a": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen06-endgame.onnx",
+    "b": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen05-endgame.onnx",
+    "games": 400,
+    "a_wins": 297,
+    "a_rate": 0.7425,
+    "a_cyan_wins": 167,
+    "a_magenta_wins": 130,
+    "mean_actions": 47.84,
+    "seconds": 94.62902975082397
+  },
+  "derived_paired_statistics": {
+    "games": 400,
+    "expected_games": 400,
+    "complete": true,
+    "a_wins": 297,
+    "a_rate": 0.7425,
+    "complete_pairs": 200,
+    "per_color": {
+      "CYAN": {
+        "wins": 167,
+        "games": 200,
+        "rate": 0.835,
+        "wilson95": [
+          0.7773421846094045,
+          0.8800314467178268
+        ]
+      },
+      "MAGENTA": {
+        "wins": 130,
+        "games": 200,
+        "rate": 0.65,
+        "wilson95": [
+          0.5816346433604008,
+          0.7127117587264192
+        ]
+      }
+    },
+    "uncertainty_note": "Wilson intervals are per-color; paired bootstrap resamples complete seeds, preserving within-pair dependence. Fixed-size exploratory evidence, not tournament acceptance or multiple-selection corrected proof.",
+    "paired_score_mean": 0.7425,
+    "paired_bootstrap95": [
+      0.7025,
+      0.7825
+    ],
+    "paired_hoeffding95": [
+      0.646467720868008,
+      0.8385322791319921
+    ],
+    "pair_outcomes": {
+      "a_sweeps": 105,
+      "splits": 87,
+      "b_sweeps": 8
+    },
+    "sweep_sign_test_two_sided_p": 1.0650640214744005e-22,
+    "evidence": "A_FAVORED"
+  },
+  "seed_min": 906000,
+  "seed_max": 906199,
+  "unique_seed_pairs": 200,
+  "source_model_hashes": {
+    "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\logs\\gen06-gate.json": "7c2ffb88c67e516d9bf7d3eee7e98b4d9399a252724dc72461b1dd5f54dfa6b0",
+    "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen06\\model.onnx": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+    "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen05\\model.onnx": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e",
+    "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen06-endgame.onnx": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+    "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen05-endgame.onnx": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e"
+  },
+  "engine_file_hashes": {
+    "env\\colony_one\\__init__.py": "6e91a9c40b595b1b6116154365bb052590cd9d6df9ec6fdfc36cfcedcffb7e27",
+    "env\\colony_one\\action.py": "12ef52844501e36d6faf4975212db74c2977783a111b3d60063e28604a02930e",
+    "env\\colony_one\\baselines.py": "19c3126f1e5668df031917fef1a52fa7d0cc4b587fd026d99f6e4c2e794fabe8",
+    "env\\colony_one\\board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "env\\colony_one\\constants.py": "ba4bcfe9d23ff16e6c9f4828da69945700e94dfd2069a0adc809719d7e73c0ad",
+    "env\\colony_one\\encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "env\\colony_one\\env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "env\\colony_one\\mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "env\\colony_one\\onnx_runner.py": "1df1c257a42ae68b88f2b134b6618ab82dffb180a4576bbd40569d95fe376e08",
+    "env\\colony_one\\pieces.py": "71bcd84583ff2f22fd30d8d340da43385630f3f4872fb500ee36f6b57e6b3588",
+    "env\\colony_one\\renderer.py": "99321cab82df2594272cd32c8db1a8e246f7351a925ae136ee9367ee6a5c4fcc",
+    "env\\colony_one\\rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "env\\colony_one\\submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "env\\colony_one\\submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "env\\colony_one\\scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f"
+  },
+  "engine_sha256": "2e6a926a41230225c7f7c58855b704d95c3c4fee1025211f860a34c766230ecd",
+  "audit_sha256": "524db48faeb40594f950c2eac99a559eb7754165d694ea3e9eab8128a32aaa33",
+  "checks": [
+    {
+      "seed": 906000,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906000,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906001,
+      "a_cyan": true,
+      "actions": 58,
+      "status": "PASS"
+    },
+    {
+      "seed": 906001,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906002,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906002,
+      "a_cyan": false,
+      "actions": 24,
+      "status": "PASS"
+    },
+    {
+      "seed": 906003,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906003,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906004,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906004,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906005,
+      "a_cyan": true,
+      "actions": 24,
+      "status": "PASS"
+    },
+    {
+      "seed": 906005,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906006,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906006,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906007,
+      "a_cyan": true,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906007,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906008,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906008,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906009,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906009,
+      "a_cyan": false,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906010,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906010,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906011,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906011,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906012,
+      "a_cyan": true,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906012,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906013,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906013,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906014,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906014,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906015,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906015,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906016,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906016,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906017,
+      "a_cyan": true,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906017,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906018,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906018,
+      "a_cyan": false,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906019,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906019,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906020,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906020,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906021,
+      "a_cyan": true,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906021,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906022,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906022,
+      "a_cyan": false,
+      "actions": 56,
+      "status": "PASS"
+    },
+    {
+      "seed": 906023,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906023,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906024,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906024,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906025,
+      "a_cyan": true,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906025,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906026,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906026,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906027,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906027,
+      "a_cyan": false,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906028,
+      "a_cyan": true,
+      "actions": 58,
+      "status": "PASS"
+    },
+    {
+      "seed": 906028,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906029,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906029,
+      "a_cyan": false,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906030,
+      "a_cyan": true,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906030,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906031,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906031,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906032,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906032,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906033,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906033,
+      "a_cyan": false,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906034,
+      "a_cyan": true,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906034,
+      "a_cyan": false,
+      "actions": 28,
+      "status": "PASS"
+    },
+    {
+      "seed": 906035,
+      "a_cyan": true,
+      "actions": 58,
+      "status": "PASS"
+    },
+    {
+      "seed": 906035,
+      "a_cyan": false,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906036,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906036,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906037,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906037,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906038,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906038,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906039,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906039,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906040,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906040,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906041,
+      "a_cyan": true,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906041,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906042,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906042,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906043,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906043,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906044,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906044,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906045,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906045,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906046,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906046,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906047,
+      "a_cyan": true,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906047,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906048,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906048,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906049,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906049,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906050,
+      "a_cyan": true,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906050,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906051,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906051,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906052,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906052,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906053,
+      "a_cyan": true,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906053,
+      "a_cyan": false,
+      "actions": 56,
+      "status": "PASS"
+    },
+    {
+      "seed": 906054,
+      "a_cyan": true,
+      "actions": 54,
+      "status": "PASS"
+    },
+    {
+      "seed": 906054,
+      "a_cyan": false,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906055,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906055,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906056,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906056,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906057,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906057,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906058,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906058,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906059,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906059,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906060,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906060,
+      "a_cyan": false,
+      "actions": 28,
+      "status": "PASS"
+    },
+    {
+      "seed": 906061,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906061,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906062,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906062,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906063,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906063,
+      "a_cyan": false,
+      "actions": 74,
+      "status": "PASS"
+    },
+    {
+      "seed": 906064,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906064,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906065,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906065,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906066,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906066,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906067,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906067,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906068,
+      "a_cyan": true,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906068,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906069,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906069,
+      "a_cyan": false,
+      "actions": 60,
+      "status": "PASS"
+    },
+    {
+      "seed": 906070,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906070,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906071,
+      "a_cyan": true,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906071,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906072,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906072,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906073,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906073,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906074,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906074,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906075,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906075,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906076,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906076,
+      "a_cyan": false,
+      "actions": 52,
+      "status": "PASS"
+    },
+    {
+      "seed": 906077,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906077,
+      "a_cyan": false,
+      "actions": 28,
+      "status": "PASS"
+    },
+    {
+      "seed": 906078,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906078,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906079,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906079,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906080,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906080,
+      "a_cyan": false,
+      "actions": 70,
+      "status": "PASS"
+    },
+    {
+      "seed": 906081,
+      "a_cyan": true,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906081,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906082,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906082,
+      "a_cyan": false,
+      "actions": 92,
+      "status": "PASS"
+    },
+    {
+      "seed": 906083,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906083,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906084,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906084,
+      "a_cyan": false,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906085,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906085,
+      "a_cyan": false,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906086,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906086,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906087,
+      "a_cyan": true,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906087,
+      "a_cyan": false,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906088,
+      "a_cyan": true,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906088,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906089,
+      "a_cyan": true,
+      "actions": 70,
+      "status": "PASS"
+    },
+    {
+      "seed": 906089,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906090,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906090,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906091,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906091,
+      "a_cyan": false,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906092,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906092,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906093,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906093,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906094,
+      "a_cyan": true,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906094,
+      "a_cyan": false,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906095,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906095,
+      "a_cyan": false,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906096,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906096,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906097,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906097,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906098,
+      "a_cyan": true,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906098,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906099,
+      "a_cyan": true,
+      "actions": 18,
+      "status": "PASS"
+    },
+    {
+      "seed": 906099,
+      "a_cyan": false,
+      "actions": 24,
+      "status": "PASS"
+    },
+    {
+      "seed": 906100,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906100,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906101,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906101,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906102,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906102,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906103,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906103,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906104,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906104,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906105,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906105,
+      "a_cyan": false,
+      "actions": 92,
+      "status": "PASS"
+    },
+    {
+      "seed": 906106,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906106,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906107,
+      "a_cyan": true,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906107,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906108,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906108,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906109,
+      "a_cyan": true,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906109,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906110,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906110,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906111,
+      "a_cyan": true,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906111,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906112,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906112,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906113,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906113,
+      "a_cyan": false,
+      "actions": 52,
+      "status": "PASS"
+    },
+    {
+      "seed": 906114,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906114,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906115,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906115,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906116,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906116,
+      "a_cyan": false,
+      "actions": 28,
+      "status": "PASS"
+    },
+    {
+      "seed": 906117,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906117,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906118,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906118,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906119,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906119,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906120,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906120,
+      "a_cyan": false,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906121,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906121,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906122,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906122,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906123,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906123,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906124,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906124,
+      "a_cyan": false,
+      "actions": 74,
+      "status": "PASS"
+    },
+    {
+      "seed": 906125,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906125,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906126,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906126,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906127,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906127,
+      "a_cyan": false,
+      "actions": 26,
+      "status": "PASS"
+    },
+    {
+      "seed": 906128,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906128,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906129,
+      "a_cyan": true,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906129,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906130,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906130,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906131,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906131,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906132,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906132,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906133,
+      "a_cyan": true,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906133,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906134,
+      "a_cyan": true,
+      "actions": 24,
+      "status": "PASS"
+    },
+    {
+      "seed": 906134,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906135,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906135,
+      "a_cyan": false,
+      "actions": 52,
+      "status": "PASS"
+    },
+    {
+      "seed": 906136,
+      "a_cyan": true,
+      "actions": 94,
+      "status": "PASS"
+    },
+    {
+      "seed": 906136,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906137,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906137,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906138,
+      "a_cyan": true,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906138,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906139,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906139,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906140,
+      "a_cyan": true,
+      "actions": 58,
+      "status": "PASS"
+    },
+    {
+      "seed": 906140,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906141,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906141,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906142,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906142,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906143,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906143,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906144,
+      "a_cyan": true,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906144,
+      "a_cyan": false,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906145,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906145,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906146,
+      "a_cyan": true,
+      "actions": 50,
+      "status": "PASS"
+    },
+    {
+      "seed": 906146,
+      "a_cyan": false,
+      "actions": 54,
+      "status": "PASS"
+    },
+    {
+      "seed": 906147,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906147,
+      "a_cyan": false,
+      "actions": 70,
+      "status": "PASS"
+    },
+    {
+      "seed": 906148,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906148,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906149,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906149,
+      "a_cyan": false,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906150,
+      "a_cyan": true,
+      "actions": 70,
+      "status": "PASS"
+    },
+    {
+      "seed": 906150,
+      "a_cyan": false,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906151,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906151,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906152,
+      "a_cyan": true,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906152,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906153,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906153,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906154,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906154,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906155,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906155,
+      "a_cyan": false,
+      "actions": 58,
+      "status": "PASS"
+    },
+    {
+      "seed": 906156,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906156,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906157,
+      "a_cyan": true,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906157,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906158,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906158,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906159,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906159,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906160,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906160,
+      "a_cyan": false,
+      "actions": 28,
+      "status": "PASS"
+    },
+    {
+      "seed": 906161,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906161,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906162,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906162,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906163,
+      "a_cyan": true,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906163,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906164,
+      "a_cyan": true,
+      "actions": 54,
+      "status": "PASS"
+    },
+    {
+      "seed": 906164,
+      "a_cyan": false,
+      "actions": 32,
+      "status": "PASS"
+    },
+    {
+      "seed": 906165,
+      "a_cyan": true,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906165,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906166,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906166,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906167,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906167,
+      "a_cyan": false,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906168,
+      "a_cyan": true,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906168,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906169,
+      "a_cyan": true,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906169,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906170,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906170,
+      "a_cyan": false,
+      "actions": 36,
+      "status": "PASS"
+    },
+    {
+      "seed": 906171,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906171,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906172,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906172,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906173,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906173,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906174,
+      "a_cyan": true,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906174,
+      "a_cyan": false,
+      "actions": 56,
+      "status": "PASS"
+    },
+    {
+      "seed": 906175,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906175,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906176,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906176,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906177,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906177,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906178,
+      "a_cyan": true,
+      "actions": 30,
+      "status": "PASS"
+    },
+    {
+      "seed": 906178,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906179,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906179,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906180,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906180,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906181,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906181,
+      "a_cyan": false,
+      "actions": 54,
+      "status": "PASS"
+    },
+    {
+      "seed": 906182,
+      "a_cyan": true,
+      "actions": 64,
+      "status": "PASS"
+    },
+    {
+      "seed": 906182,
+      "a_cyan": false,
+      "actions": 60,
+      "status": "PASS"
+    },
+    {
+      "seed": 906183,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906183,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906184,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906184,
+      "a_cyan": false,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906185,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906185,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906186,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906186,
+      "a_cyan": false,
+      "actions": 52,
+      "status": "PASS"
+    },
+    {
+      "seed": 906187,
+      "a_cyan": true,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906187,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906188,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906188,
+      "a_cyan": false,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906189,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906189,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906190,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906190,
+      "a_cyan": false,
+      "actions": 44,
+      "status": "PASS"
+    },
+    {
+      "seed": 906191,
+      "a_cyan": true,
+      "actions": 96,
+      "status": "PASS"
+    },
+    {
+      "seed": 906191,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906192,
+      "a_cyan": true,
+      "actions": 34,
+      "status": "PASS"
+    },
+    {
+      "seed": 906192,
+      "a_cyan": false,
+      "actions": 68,
+      "status": "PASS"
+    },
+    {
+      "seed": 906193,
+      "a_cyan": true,
+      "actions": 6,
+      "status": "PASS"
+    },
+    {
+      "seed": 906193,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906194,
+      "a_cyan": true,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906194,
+      "a_cyan": false,
+      "actions": 66,
+      "status": "PASS"
+    },
+    {
+      "seed": 906195,
+      "a_cyan": true,
+      "actions": 42,
+      "status": "PASS"
+    },
+    {
+      "seed": 906195,
+      "a_cyan": false,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906196,
+      "a_cyan": true,
+      "actions": 38,
+      "status": "PASS"
+    },
+    {
+      "seed": 906196,
+      "a_cyan": false,
+      "actions": 48,
+      "status": "PASS"
+    },
+    {
+      "seed": 906197,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906197,
+      "a_cyan": false,
+      "actions": 62,
+      "status": "PASS"
+    },
+    {
+      "seed": 906198,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906198,
+      "a_cyan": false,
+      "actions": 40,
+      "status": "PASS"
+    },
+    {
+      "seed": 906199,
+      "a_cyan": true,
+      "actions": 46,
+      "status": "PASS"
+    },
+    {
+      "seed": 906199,
+      "a_cyan": false,
+      "actions": 42,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Existing histories replayed legally; no new MCTS/strength games. Original arena uses seed*2+color, not shared color RNG. Current checkpoint/release hashes agree; original log lacks run-time engine manifest."
+}

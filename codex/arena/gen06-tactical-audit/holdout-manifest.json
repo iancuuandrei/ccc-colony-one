@@ -1,0 +1,39 @@
+{
+  "models": {
+    "gen05": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen05\\model.onnx",
+      "sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e"
+    },
+    "gen06": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\release\\gen06\\model.onnx",
+      "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac"
+    }
+  },
+  "inputs": {
+    "codex\\synthetic\\holdout_v1\\FROZEN.json": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+    "codex\\synthetic\\holdout_v1\\EVALUATION_OVERRIDE.json": "ba90124a1ca0df7ed11ff5e8a371ed3e26bbbd1a36e7ead51d5290ebc8f985ca",
+    "codex\\synthetic\\holdout_v1\\evaluation.json": "5fe4597a251f8ebbb8f70e06c8dfc3176a645c772748be58a4ce5a0572fa046b",
+    "codex\\synthetic\\holdout_v1\\proposals.json": "727dd516d1097a4e8241a964369851bd229767aeecfdb8d1e534074c75212908",
+    "codex\\synthetic\\holdout_v1\\states.jsonl": "3d04475aab3153ec2a39422bfe15682e6626b6bf9cb18bc5fbb680b666ecfb6a",
+    "codex\\synthetic\\holdout_v1\\holdout_states.npz": "45231d9556db38013cd4400857ad7fc2569a8b47612cf19b0bd6d18a1521b109"
+  },
+  "mcts_config": {
+    "simulations": 100,
+    "c_puct": 1.5,
+    "add_root_noise": true,
+    "dirichlet_alpha": 0.3,
+    "dirichlet_eps": 0.15,
+    "warmup_temperatures": [
+      1.0,
+      0.5
+    ],
+    "warmup_step_actions": 4,
+    "batch_size": 8,
+    "virtual_loss": 1.0,
+    "adaptive_simulations": false,
+    "sim_multiplier": 15.0,
+    "sim_floor": 150
+  },
+  "harness_sha256": "1d66c79ffb5b3e927120786cf86e062c9b89d01ad8748e1a2cb5f15699ca61e4",
+  "quarantine": "READ ONLY; no training export; constructed holdout rotations correlated"
+}

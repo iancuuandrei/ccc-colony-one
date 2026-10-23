@@ -1,0 +1,13 @@
+{
+  "release": "GEN06",
+  "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+  "bytes": 1479383,
+  "nodes": 696,
+  "status": "DEPLOYED",
+  "incumbent": "GEN03 previous deployed incumbent",
+  "fixed_comparison_baseline": "GEN02",
+  "local_resource_contract": "PASS in preserved native Linux graph, hard-cap, Level 4 and official validator reports",
+  "known_stage_evidence": "Saved 400-game Opus gate replay PASS: 297/400 versus GEN05. Independent direct GEN06 versus GEN03: 335/400. Fixed GEN02 anchor: 186/200. All 600 new histories independently replay PASS with model, engine, manifest and games hashes bound by the final receipts.",
+  "source_build": "Exact historical generation source UNKNOWN. source-current is a separately hash-bound later working capture.",
+  "publication_scope": "Lead agent confirmed selecting the immediately SHA-verified GEN06 release and explicit platform acceptance at 18:38 local. Root model alias is now GEN06; no deployment was performed by the sync agent."
+}

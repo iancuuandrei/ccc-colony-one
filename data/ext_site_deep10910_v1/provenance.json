@@ -1,0 +1,56 @@
+{
+  "status": "READY_INDEPENDENTLY_VERIFIED_TRAINING",
+  "rows": 2,
+  "source_group": "site:10910",
+  "source_group_aliases": [
+    "site-game-10910",
+    "10910"
+  ],
+  "cross_corpus_grouping": "All aliases denote the same real game; keep observed, counterfactual and replay rows in one split.",
+  "scope": "TERMINAL_LOSS_THROUGH_SECOND_FOLLOWING_OPPONENT_TURN",
+  "source_sha256": "98695de1b45eb2bee22b64d6ba004fb97864684a3eeb8e6219d48aa8dd4bc6bc",
+  "source_packet_sha256": "28b31a99c3bb368fce3c63fd29b2e394b2abbba550ae234b6e74cb71af6d647a",
+  "independent_proof_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\validation\\deep10910\\proof.json",
+  "independent_proof_sha256": "01a3ad31ca864cc88693132f1189569dd54e5504a7be1499708125200e449000",
+  "loader_audit_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\validation\\deep10910\\loader_audit.json",
+  "loader_audit_sha256": "2c2c0ac2fba037ce8ab06c53c704fe181c84f232cf0c03d1a7da1bf7588a468e",
+  "train_sha256": "db6f7ad1c588b987b66a4cd35c371d3d1bfea6ac74c3ae81b12a0515a894475e",
+  "chunk_sha256": "408b4bb38505e6a1c3579f78774bb7fd374b755c8dd2aec65c56b633902fc39f",
+  "holdout": {
+    "frozen_sha256": "aa4d90f06e9f5f4f050cd20d94a1972a24883b0cb9f8bbc89106dfb992c1b23a",
+    "all_frozen_hashes_unchanged": true,
+    "d4_orbit_intersections": 0
+  },
+  "records": [
+    {
+      "row": 0,
+      "position_id": "10910-B-actual-pre40",
+      "provenance": "ACTUAL_OBSERVED_REPLAY",
+      "z": -1,
+      "has_value": true,
+      "has_pol": false,
+      "q_valid": false,
+      "meaning": "All six own actions lose by the second following enemy turn. No arbitrary policy preference."
+    },
+    {
+      "row": 1,
+      "position_id": "10910-C-counterfactual-pre40",
+      "provenance": "ONE_LEGAL_MOVE_FROM_ACTUAL_PRE39",
+      "z": 0,
+      "has_value": false,
+      "has_pol": true,
+      "q_valid": false,
+      "preferred_action": 3164,
+      "meaning": "All six actions classified; only Trace G7-D4 avoids forced loss through the second following enemy turn. Full-game value UNKNOWN."
+    }
+  ],
+  "excluded": {
+    "position_id": "10910-A-pre39",
+    "reason": "Only 2/9 first actions classified: 2738 demonstrated bounded-safe; 2729 proved unsafe; seven UNKNOWN. No standard CE target or exact full-game value.",
+    "pairwise_preference": {
+      "better": 2738,
+      "worse": 2729
+    },
+    "metadata_path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\research\\loss10910-training\\packet.json"
+  }
+}

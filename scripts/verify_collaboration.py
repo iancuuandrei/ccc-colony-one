@@ -17,12 +17,17 @@ gen01 = 'ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a'
 for name in ('model-gen01.onnx', 'release/gen01/model.onnx'):
     assert sha(root / name) == gen01, name
 gen03 = '0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f'
-for name in ('model.onnx', 'model-gen03.onnx', 'release/gen03/model.onnx'):
+for name in ('model-gen03.onnx', 'release/gen03/model.onnx'):
     assert sha(root / name) == gen03, name
+current = json.loads((root / 'provenance/current-release.json').read_text(encoding='utf-8'))
+assert sha(root / 'model.onnx') == current['sha256']
+gen06 = '123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac'
+for name in ('model-gen06.onnx', 'release/gen06/model.onnx'):
+    assert sha(root / name) == gen06
 assert sha(root / 'release/gen02/model.onnx') == '579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0'
 checkpoint = json.loads((root / 'provenance/gen01-checkpoint.json').read_text(encoding='utf-8'))
 assert sha(root / checkpoint['checkpoint']) == checkpoint['sha256']
-for generation in ('gen02', 'gen03'):
+for generation in ('gen02', 'gen03', 'gen05', 'gen06'):
     item = json.loads((root / f'provenance/{generation}-checkpoint.json').read_text(encoding='utf-8'))
     assert sha(root / item['checkpoint']) == item['sha256']
 student = root / 'codex/distillation/student'
@@ -90,5 +95,46 @@ archive = json.loads((root / 'provenance/ext-site-tactics-six.json').read_text(e
 for item in archive['files']:
     assert sha(root / item['path']) == item['sha256']
 result['historical_six_row_snapshot'] = 'PASS: exact archived hashes preserved'
+deep = root / 'data/ext_site_deep10910_v1'
+prov = json.loads((deep / 'provenance.json').read_text(encoding='utf-8'))
+assert sha(deep / 'chunk0000.npz') == prov['chunk_sha256']
+deep_proof = root / 'codex/synthetic/validation/deep10910'
+assert sha(deep_proof / 'proof.json') == prov['independent_proof_sha256']
+assert sha(deep_proof / 'loader_audit.json') == prov['loader_audit_sha256']
+assert sha(root / 'codex/research/loss10910-training/packet.json') == prov['source_packet_sha256']
+with np.load(deep / 'chunk0000.npz', allow_pickle=False) as z:
+    assert len(z['obs']) == 2
+    assert z['has_value'].tolist() == [True, False]
+    assert z['has_pol'].tolist() == [False, True]
+    assert not z['q_valid'].any()
+    assert z['z'].tolist() == [-1.0, 0.0]
+result['deep10910_two_row_snapshot'] = 'PASS: chunk, proof, packet, loader audit and value/policy masks'
+override_audit = json.loads((root / 'codex/research/overrides-integration-audit.json').read_text(encoding='utf-8'))
+audit_sources = {}
+for name, expected in override_audit['source_hashes'].items():
+    candidate = root / 'release/gen06/source-current' / name
+    audit_sources[name] = {'expected': expected, 'captured': sha(candidate), 'matches_audit_source': sha(candidate) == expected}
+result['override_audit_captured_source_binding'] = audit_sources
+gate_checks = []
+for directory, expected_games, expected_wins in (
+    ('gen05-v-gen03', 400, 286), ('gen05-v-gen02', 200, 172),
+    ('gen06-v-gen03', 400, 335), ('gen06-v-gen02', 200, 186),
+):
+    base = root / 'codex/arena' / directory
+    audit = json.loads((base / 'engine-history-audit.json').read_text(encoding='utf-8'))
+    summary = json.loads((base / 'summary.json').read_text(encoding='utf-8'))
+    assert audit['status'] == 'PASS'
+    assert summary['complete'] and summary['games'] == expected_games and summary['a_wins'] == expected_wins
+    assert sha(base / 'manifest.json') == audit['manifest_sha256']
+    assert sha(base / 'games.jsonl') == audit['games_jsonl_sha256']
+    assert len((base / 'games.jsonl').read_text(encoding='utf-8').splitlines()) == expected_games
+    gate_checks.append({'directory': directory, 'histories': expected_games, 'candidate_wins': expected_wins, 'receipt_bindings': 'PASS'})
+result['final_gate_receipts'] = gate_checks
+site = json.loads((root / 'data/ext_site_v1/summary.json').read_text(encoding='utf-8'))
+assert site['episode_count'] == 111 and site['rows'] == 3777
+assert site['unique_complete_episodes_across_folders'] == 118
+assert site['unique_rows_across_folders'] == 4105
+assert sha(root / 'data/ext_site_v1/manifest.json') == '50ce9af40cd67e8e7c27addd300dbf3dab00625daff47f37ed42b02169624b39'
+result['export5_receipts'] = 'PASS: 118 unique episodes / 4105 rows; bounded receipts only'
 print(json.dumps(result, indent=2))
 (root / 'provenance/collaboration-integrity.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')

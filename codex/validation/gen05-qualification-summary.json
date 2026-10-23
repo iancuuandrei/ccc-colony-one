@@ -1,0 +1,129 @@
+{
+  "model_sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e",
+  "local_qualification": "PASS",
+  "remote_acceptance": "NOT_TESTED_BY_THIS_WORKER",
+  "native_copy_files": 19,
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.0",
+    "onnxruntime": "1.30.0"
+  },
+  "official_validator": "ACCEPTED",
+  "hard_check": {
+    "mode": "--child",
+    "caps": {
+      "address_space_MiB": 384,
+      "cpu_seconds": 2,
+      "wall_seconds": 3,
+      "open_files": 32
+    },
+    "returncode": 0,
+    "stdout": "{\"duration_seconds\":0.3407235380000202}\n",
+    "stderr": "",
+    "result": "PASS",
+    "wall_seconds": 0.8103512609999939,
+    "child_usage": {
+      "cpu_seconds": 0.802445,
+      "max_rss_KiB_cumulative": 93080
+    }
+  },
+  "hard_level3_match": {
+    "mode": "--match-child",
+    "caps": {
+      "address_space_MiB": 512,
+      "cpu_seconds": 15,
+      "wall_seconds": 20,
+      "open_files": 32
+    },
+    "returncode": 0,
+    "stdout": "{\"actions\":18}\n",
+    "stderr": "",
+    "result": "PASS",
+    "wall_seconds": 1.2270743499999526,
+    "child_usage": {
+      "cpu_seconds": 1.225378,
+      "max_rss_KiB_cumulative": 93080
+    }
+  },
+  "raw_batches": [
+    {
+      "batch": 1,
+      "calls": 24,
+      "result": "PASS",
+      "wall_seconds": 0.03355150800001638,
+      "value_min": -1.0,
+      "value_max": 0.999992847442627
+    },
+    {
+      "batch": 8,
+      "calls": 3,
+      "result": "PASS",
+      "wall_seconds": 0.014730761999999231,
+      "value_min": -1.0,
+      "value_max": 0.999992847442627
+    },
+    {
+      "batch": 16,
+      "calls": 2,
+      "result": "PASS",
+      "wall_seconds": 0.01832219300001725,
+      "value_min": -1.0,
+      "value_max": 0.999992847442627
+    }
+  ],
+  "full100sim": {
+    "model": "/home/andrei/.cache/colony-one-validation-runs/gen05/model.onnx",
+    "sha256": "af45a5f85894e694f7ddab47811c4fb45b9f9536345d78b0f2fa3ef06c99c91e",
+    "bytes": 1477761,
+    "mode": "level4",
+    "python": "/home/andrei/.cache/colony-one-validator/bin/python",
+    "source_sha256": {
+      "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+      "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+      "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+      "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+    },
+    "initialization_cpu_seconds": 0.3950647390000004,
+    "result": "PASS",
+    "seed": 0,
+    "simulations": 100,
+    "batch_size": 8,
+    "sides": {
+      "CYAN": {
+        "actions": 24,
+        "cpu_seconds": 1.986138646000002,
+        "wall_seconds": 1.9866186439999751
+      },
+      "MAGENTA": {
+        "actions": 24,
+        "cpu_seconds": 2.013561999000003,
+        "wall_seconds": 2.0139791769999533
+      }
+    },
+    "winner": "MAGENTA",
+    "total_wall_seconds": 4.0230227780000405,
+    "peak_rss_bytes": 85532672
+  },
+  "host_context": {
+    "actor_workers_budget_requested": 0,
+    "active_actor_batch_finished_naturally": true,
+    "other_background_work_not_stopped": true,
+    "budget_restore": "Root owns restoration; candidate_arena was notified qualification complete"
+  },
+  "prior_reported_failure": {
+    "source": "Opus report relayed by root, preserved as a historical report",
+    "cpu_seconds": 1.4,
+    "wall_seconds": 3.61,
+    "wall_cap_seconds": 3,
+    "status": "REPORTED_WALL_FAILURE_NOT_REPRODUCED_ON_NATIVE_RUN"
+  },
+  "changes": "No model, trainer, export, deadline or budget modifications by this worker"
+}

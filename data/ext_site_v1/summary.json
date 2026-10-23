@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "source_kind": "real_site_complete_games",
+  "schema": "Opus coordination shared data contract",
+  "rows": 3777,
+  "episode_count": 111,
+  "external_episode_aliases": [
+    {
+      "game_id": "14594",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        0,
+        38
+      ],
+      "raw_source_sha256": "7d18105cd32e696285ef9526a8b6f50362f523cb50bcaedfd7fbc17faa6f10c1",
+      "group": "site-game-14594",
+      "user_team": "MAGENTA",
+      "winner": "CYAN",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 38,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "7d18105cd32e696285ef9526a8b6f50362f523cb50bcaedfd7fbc17faa6f10c1",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    },
+    {
+      "game_id": "14621",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        38,
+        104
+      ],
+      "raw_source_sha256": "cb987a1b8eaf80cd3254307548087c82de30328fda15bf1a21acc81118b1eec9",
+      "group": "site-game-14621",
+      "user_team": "MAGENTA",
+      "winner": "CYAN",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 66,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "cb987a1b8eaf80cd3254307548087c82de30328fda15bf1a21acc81118b1eec9",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    },
+    {
+      "game_id": "14878",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        104,
+        142
+      ],
+      "raw_source_sha256": "63fff3fe0d6f4e6848528d36c678a91a29fddb0ecb0eefddbfeb557a0363c59c",
+      "group": "site-game-14878",
+      "user_team": "MAGENTA",
+      "winner": "CYAN",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 38,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "63fff3fe0d6f4e6848528d36c678a91a29fddb0ecb0eefddbfeb557a0363c59c",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    },
+    {
+      "game_id": "14958",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        142,
+        186
+      ],
+      "raw_source_sha256": "ea86a25da8f5e3667a9cef0293b656a20c0987c07ad0bc5bb84c21a8429e0a3a",
+      "group": "site-game-14958",
+      "user_team": "CYAN",
+      "winner": "MAGENTA",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 44,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "ea86a25da8f5e3667a9cef0293b656a20c0987c07ad0bc5bb84c21a8429e0a3a",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    },
+    {
+      "game_id": "15058",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        186,
+        234
+      ],
+      "raw_source_sha256": "28c6a2deb81d672b28956829cea78d018a7750862f9ea97d8c167132a35b9499",
+      "group": "site-game-15058",
+      "user_team": "MAGENTA",
+      "winner": "MAGENTA",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 48,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "28c6a2deb81d672b28956829cea78d018a7750862f9ea97d8c167132a35b9499",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    },
+    {
+      "game_id": "15116",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        234,
+        272
+      ],
+      "raw_source_sha256": "19b38b733dbdefcd54c6dd7c8202d5076bf515f9536c4a8fa210091d06bb0760",
+      "group": "site-game-15116",
+      "user_team": "CYAN",
+      "winner": "CYAN",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 38,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "19b38b733dbdefcd54c6dd7c8202d5076bf515f9536c4a8fa210091d06bb0760",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    },
+    {
+      "game_id": "15310",
+      "external_folder": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses",
+      "external_chunk": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\data\\ext_site_gen05_losses\\chunk0000.npz",
+      "external_chunk_sha256": "2ff7f5a93fa2ff8d583f792575bb0535af01cccc4ec96b3c79bdc9db15b18579",
+      "external_rows": [
+        272,
+        328
+      ],
+      "raw_source_sha256": "25ce1b1888d96151f644af566eef32d1fca363b9fff0a6ae9b8b1070cbdc056f",
+      "group": "site-game-15310",
+      "user_team": "CYAN",
+      "winner": "CYAN",
+      "identity_basis": "fresh export5 you plus protocol winner",
+      "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+      "rows": 56,
+      "replay": "PASS_COMPLETE_EPISODE_AND_EXTERNAL_NUMERICAL_MATCH",
+      "protocol_sha256": "25ce1b1888d96151f644af566eef32d1fca363b9fff0a6ae9b8b1070cbdc056f",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b"
+    }
+  ],
+  "unique_complete_episodes_across_folders": 118,
+  "unique_rows_across_folders": 4105,
+  "skipped": [
+    {
+      "game_id": "13167",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches-export5.json",
+      "reason": "No complete protocol supplied"
+    },
+    {
+      "game_id": "3738",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches.json",
+      "reason": "No complete protocol supplied"
+    },
+    {
+      "game_id": "3673",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches.json",
+      "reason": "No complete protocol supplied"
+    },
+    {
+      "game_id": "3629",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches.json",
+      "reason": "No complete protocol supplied"
+    },
+    {
+      "game_id": "3598",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\tournament-matches.json",
+      "reason": "No complete protocol supplied"
+    }
+  ],
+  "source_entries_without_protocol": 9,
+  "rejected": [],
+  "split_rule": "Whole episode per chunk. Keep group site-game-ID together in any holdout/split; never split plies or symmetry siblings across folds.",
+  "outcome_rule": "Actual protocol winner; +1 if observation mover==winner else -1. Raw score is Cyan outcome, not user outcome.",
+  "policy_rule": "All legal pidx, zero pval, has_pol False. Played moves and winning-game moves are not policy labels.",
+  "q_rule": "q=z; q_valid False. No search/teacher estimate fabricated.",
+  "left_rule": "Number of recorded game actions remaining including current action; >=1.",
+  "model_identity": "Unknown unless separately proven; source episodes contain no model hashes"
+}

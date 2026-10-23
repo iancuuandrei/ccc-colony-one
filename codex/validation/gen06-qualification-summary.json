@@ -1,0 +1,121 @@
+{
+  "local_qualification": "PASS",
+  "remote_acceptance": "NOT_TESTED_BY_THIS_WORKER",
+  "model_sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+  "bytes": 1479383,
+  "nodes": 696,
+  "initializers": 247,
+  "handoff_metadata_correction": "Exact requested SHA has696nodes/247initializers/1479383bytes; earlier682-node description was inaccurate. All actual contract checks PASS.",
+  "versions": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.0",
+    "onnxruntime": "1.30.0"
+  },
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "native_copy_files": 19,
+  "official_validator": "ACCEPTED",
+  "hard_check": {
+    "mode": "--child",
+    "caps": {
+      "address_space_MiB": 384,
+      "cpu_seconds": 2,
+      "wall_seconds": 3,
+      "open_files": 32
+    },
+    "returncode": 0,
+    "stdout": "{\"duration_seconds\":0.3800275219999776}\n",
+    "stderr": "",
+    "result": "PASS",
+    "wall_seconds": 0.888809072000015,
+    "child_usage": {
+      "cpu_seconds": 0.877226,
+      "max_rss_KiB_cumulative": 93368
+    }
+  },
+  "hard_level3_match": {
+    "mode": "--match-child",
+    "caps": {
+      "address_space_MiB": 512,
+      "cpu_seconds": 15,
+      "wall_seconds": 20,
+      "open_files": 32
+    },
+    "returncode": 0,
+    "stdout": "{\"actions\":22}\n",
+    "stderr": "",
+    "result": "PASS",
+    "wall_seconds": 1.515899370999989,
+    "child_usage": {
+      "cpu_seconds": 1.5135939999999997,
+      "max_rss_KiB_cumulative": 93368
+    }
+  },
+  "raw_batches": [
+    {
+      "batch": 1,
+      "calls": 24,
+      "result": "PASS",
+      "wall_seconds": 0.024975019999999404,
+      "value_min": -1.0,
+      "value_max": 1.0
+    },
+    {
+      "batch": 8,
+      "calls": 3,
+      "result": "PASS",
+      "wall_seconds": 0.010250678999966567,
+      "value_min": -1.0,
+      "value_max": 1.0
+    },
+    {
+      "batch": 16,
+      "calls": 2,
+      "result": "PASS",
+      "wall_seconds": 0.010248984999975619,
+      "value_min": -1.0,
+      "value_max": 1.0
+    }
+  ],
+  "full100sim": {
+    "model": "/home/andrei/.cache/colony-one-validation-runs/gen06/model.onnx",
+    "sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+    "bytes": 1479383,
+    "mode": "level4",
+    "python": "/home/andrei/.cache/colony-one-validator/bin/python",
+    "source_sha256": {
+      "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+      "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+      "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+      "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+    },
+    "initialization_cpu_seconds": 0.30269788099999984,
+    "result": "PASS",
+    "seed": 0,
+    "simulations": 100,
+    "batch_size": 8,
+    "sides": {
+      "CYAN": {
+        "actions": 30,
+        "cpu_seconds": 1.8041977349999967,
+        "wall_seconds": 1.804824511000163
+      },
+      "MAGENTA": {
+        "actions": 28,
+        "cpu_seconds": 1.8056120680000012,
+        "wall_seconds": 1.8060822650001
+      }
+    },
+    "winner": "CYAN",
+    "total_wall_seconds": 3.6317056510000043,
+    "peak_rss_bytes": 85684224
+  },
+  "host_context": "Root reported actor8; candidate_arena held model inference until this qualification PASS. No other processes were stopped.",
+  "changes": "No model, trainer, export, limits or CPU-budget changes by this worker"
+}

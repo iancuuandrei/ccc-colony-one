@@ -1,0 +1,24 @@
+{
+  "cases": 48,
+  "regressions": [],
+  "improvements": [],
+  "cohorts": {
+    "holdout_v1": {
+      "cases": 48,
+      "models": {
+        "gen05": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.33763495145831257
+        },
+        "gen06": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.2629843234317377
+        }
+      }
+    }
+  },
+  "end_input_and_model_hashes_verified": true,
+  "cached_gen05_all_48_decisions_reproduced": true
+}

@@ -76,6 +76,13 @@ def play(job):
         idx, cnt = mcts.visit_distribution(root)
         cnt = np.asarray(cnt, np.float64)
         tot = cnt.sum()
+        # Gumbel completed-Q improved policy (evolve_targets study: 50/50 mix with visits cut regret ~1/3)
+        gpol = None
+        if is_full and is_learner and len(idx) > 1:
+            from policy_targets import gumbel
+            prior = np.array([root.P[i] for i in idx]); Qa = np.array([root.W[i] / root.N[i] if root.N[i] else np.nan for i in idx])
+            v_net = float((ev_l if is_learner else ev_o)(planes[None])[1][0])
+            gpol = gumbel(prior, cnt, Qa, v_net)
         q = float(sum(root.W.values()) / max(1, sum(root.N.values())))
         if restarted:
             temp = 0.7 if n < 2 else (0.3 if n < 4 else 0.0)
@@ -85,21 +92,24 @@ def play(job):
         if len(idx) > K:  # keep the most visited
             order = np.argsort(-cnt)[:K]
             idx = [idx[i] for i in order]; cnt = cnt[order]
-        rec.append((planes, team, idx, cnt / max(tot, 1), q, bool(is_full and is_learner), env.round_number, is_learner))
+            gpol = gpol[order] if gpol is not None else None
+        rec.append((planes, team, idx, cnt / max(tot, 1), q, bool(is_full and is_learner), env.round_number, is_learner,
+                    gpol if gpol is not None else cnt / max(tot, 1)))
         env.step(encoding.decode_action(a, team, env.board))
         n += 1
     m = len(rec)
     obs = np.stack([r[0] for r in rec]).astype(np.float16)
     pidx = np.full((m, K), -1, np.int16); pval = np.zeros((m, K), np.float16)
+    pval_g = np.zeros((m, K), np.float16)
     for i, r in enumerate(rec):
-        pidx[i, :len(r[2])] = r[2]; pval[i, :len(r[2])] = r[3]
+        pidx[i, :len(r[2])] = r[2]; pval[i, :len(r[2])] = r[3]; pval_g[i, :len(r[2])] = r[8]
     z = np.array([1.0 if r[1] == env.winner else -1.0 for r in rec], np.float32)
     q = np.array([r[4] for r in rec], np.float32)
     has_pol = np.array([r[5] for r in rec], bool)
     q_valid = np.array([r[7] for r in rec], bool)  # root Q only from the learner's own search
     left = np.arange(m, 0, -1, dtype=np.float32)  # actions until game end
     learner_team = constants.CYAN if learner_is_cyan else constants.MAGENTA
-    return dict(obs=obs, pidx=pidx, pval=pval, z=z, q=q, has_pol=has_pol, q_valid=q_valid, left=left,
+    return dict(obs=obs, pidx=pidx, pval=pval, pval_g=pval_g, z=z, q=q, has_pol=has_pol, q_valid=q_valid, left=left,
                 meta=(seed, env.winner, m, opponent is None or env.winner == learner_team, restarted))
 
 def main():

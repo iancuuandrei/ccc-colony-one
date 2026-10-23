@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "Artifact hash bindings; not a new playing-strength test or fresh certificate run",
-  "immutable_pins": 150,
+  "immutable_pins": 265,
   "teacher_labels": 32,
   "constructed_curriculum_states": 224,
   "source_limitations": [
@@ -36,5 +36,50 @@
       "exact_value_rows": 0
     }
   ],
-  "historical_six_row_snapshot": "PASS: exact archived hashes preserved"
+  "historical_six_row_snapshot": "PASS: exact archived hashes preserved",
+  "deep10910_two_row_snapshot": "PASS: chunk, proof, packet, loader audit and value/policy masks",
+  "override_audit_captured_source_binding": {
+    "train.py": {
+      "expected": "b0249ff4b5a6195b7ec3e5ec156568ef5c662b12b6672b69f453990f9f60e255",
+      "captured": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
+      "matches_audit_source": false
+    },
+    "actor.py": {
+      "expected": "2f3dd0b1cfa11ba6e81aba596730ba9116a9e0dc0f355181245806958ea2d5ca",
+      "captured": "2f3dd0b1cfa11ba6e81aba596730ba9116a9e0dc0f355181245806958ea2d5ca",
+      "matches_audit_source": true
+    },
+    "learner.py": {
+      "expected": "f52e3ed3fc0dee2d3960c36a1657505725af8a6549c57665d36fc6fb48ffaa88",
+      "captured": "6527d3798bb233b56f5e97b83a0726acf2014f8bd37f150cd6da031990a9478c",
+      "matches_audit_source": false
+    }
+  },
+  "final_gate_receipts": [
+    {
+      "directory": "gen05-v-gen03",
+      "histories": 400,
+      "candidate_wins": 286,
+      "receipt_bindings": "PASS"
+    },
+    {
+      "directory": "gen05-v-gen02",
+      "histories": 200,
+      "candidate_wins": 172,
+      "receipt_bindings": "PASS"
+    },
+    {
+      "directory": "gen06-v-gen03",
+      "histories": 400,
+      "candidate_wins": 335,
+      "receipt_bindings": "PASS"
+    },
+    {
+      "directory": "gen06-v-gen02",
+      "histories": 200,
+      "candidate_wins": 186,
+      "receipt_bindings": "PASS"
+    }
+  ],
+  "export5_receipts": "PASS: 118 unique episodes / 4105 rows; bounded receipts only"
 }

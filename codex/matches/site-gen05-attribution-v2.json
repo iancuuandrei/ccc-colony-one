@@ -1,0 +1,72 @@
+[
+  {
+    "game_id": "14594",
+    "user_team": "MAGENTA",
+    "winner": "CYAN",
+    "user_result": "LOSS",
+    "analyzed_actor": "MAGENTA",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  },
+  {
+    "game_id": "14621",
+    "user_team": "MAGENTA",
+    "winner": "CYAN",
+    "user_result": "LOSS",
+    "analyzed_actor": "MAGENTA",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  },
+  {
+    "game_id": "14878",
+    "user_team": "MAGENTA",
+    "winner": "CYAN",
+    "user_result": "LOSS",
+    "analyzed_actor": "MAGENTA",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  },
+  {
+    "game_id": "14958",
+    "user_team": "CYAN",
+    "winner": "MAGENTA",
+    "user_result": "LOSS",
+    "analyzed_actor": "CYAN",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  },
+  {
+    "game_id": "15058",
+    "user_team": "MAGENTA",
+    "winner": "MAGENTA",
+    "user_result": "WIN",
+    "analyzed_actor": "CYAN",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  },
+  {
+    "game_id": "15116",
+    "user_team": "CYAN",
+    "winner": "CYAN",
+    "user_result": "WIN",
+    "analyzed_actor": "MAGENTA",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  },
+  {
+    "game_id": "15310",
+    "user_team": "CYAN",
+    "winner": "CYAN",
+    "user_result": "WIN",
+    "analyzed_actor": "MAGENTA",
+    "identity_basis": "fresh JSON export5",
+    "identity_source_sha256": "770ca3628647f4bc4e36064e71ee19e44d44c3baa54e6ff77804e1e67d8f7b3b",
+    "source_model": "UNKNOWN"
+  }
+]

@@ -24,6 +24,7 @@ def main():
     parser.add_argument('--source', type=Path, default=REPO.parent / 'CCC-OMNI')
     parser.add_argument('--research-source', type=Path, help='Directory holding explicitly shared research inputs; needed only on their first import')
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--only', action='append', default=[], help='Refresh only this exact destination path; preserve other manifest entries')
     args = parser.parse_args()
     source = args.source.resolve()
     entries = json.loads((REPO / 'sync_allowlist.json').read_text(encoding='utf-8'))['files']
@@ -32,6 +33,11 @@ def main():
     previous = {item['path']: item for item in old['files']}
     records, pending, missing = [], [], []
     for entry in entries:
+        if args.only and entry['path'] not in args.only:
+            if entry['path'] not in previous:
+                raise ValueError(f'Unimported entry outside --only selection: {entry["path"]}')
+            records.append(previous[entry['path']])
+            continue
         dst = inside(REPO, entry['path'])
         if entry.get('snapshot_once') and dst.is_file():
             current = digest(dst.read_bytes())

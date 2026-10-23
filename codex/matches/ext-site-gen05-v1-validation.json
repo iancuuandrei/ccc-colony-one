@@ -1,0 +1,14 @@
+{
+  "validation": "PASS",
+  "episodes": 111,
+  "rows": 3777,
+  "external_aliases": 7,
+  "external_rows": 328,
+  "unique_episodes_across_folders": 118,
+  "unique_rows_across_folders": 4105,
+  "wins": 76,
+  "losses": 35,
+  "unresolved_missing_protocols": 5,
+  "manifest_sha256": "50ce9af40cd67e8e7c27addd300dbf3dab00625daff47f37ed42b02169624b39",
+  "checks": "All hashes/schema/dtypes; each stored legal-action set independently rehydrated from observation; outcome sign/side and left verified; zero invented policy/q labels. External aliases hash/outcome/legal sets verified; no cross-folder episode duplicates."
+}

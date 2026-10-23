@@ -31,7 +31,33 @@ def chunk_files(dirs, holdout_last):
         return [f for f in files if f != last], [last]
     return files, []
 
-KEYS = ('obs', 'pidx', 'pval', 'z', 'q', 'has_pol', 'q_valid', 'has_value', 'left')
+KEYS = ('obs', 'pidx', 'pval', 'pval_g', 'z', 'q', 'has_pol', 'q_valid', 'has_value', 'left')
+
+def apply_overrides(d, files_rows):
+    """Codex authoritative policy overrides: exact float16 obs SHA256 -> certified pidx/pval,
+    applied to rows from the folders named in each policy-overrides.json."""
+    import hashlib
+    ovs = {}
+    for f, _, _ in files_rows:
+        ov = Path(f).parent / 'policy-overrides.json'
+        if ov.exists():
+            spec = json.loads(ov.read_text())
+            for e in spec['entries']:
+                ovs[e['observation_float16_sha256']] = (spec['apply_to_source_folders'], e['replacement'])
+    if not ovs:
+        return 0
+    n = 0
+    for f, lo, hi in files_rows:
+        folder = 'data/' + Path(f).parent.name
+        for r in range(lo, hi):
+            h = hashlib.sha256(np.ascontiguousarray(d['obs'][r].astype(np.float16)).tobytes()).hexdigest()
+            hit = ovs.get(h)
+            if hit and folder in hit[0]:
+                rep = hit[1]
+                d['pidx'][r] = np.asarray(rep['pidx'], d['pidx'].dtype); d['pval'][r] = np.asarray(rep['pval'], d['pval'].dtype)
+                d['has_pol'][r] = True; d['has_value'][r] = False; d['q_valid'][r] = False
+                n += 1
+    return n
 
 def load(files):
     parts = []
@@ -41,6 +67,8 @@ def load(files):
         m = len(d['z'])
         if 'q_valid' not in d:  # legacy chunks: Q may come from a pool opponent's search
             d['q_valid'] = np.zeros(m, bool)
+        if 'pval_g' not in d:     # older chunks: no Gumbel target -> identical to visits
+            d['pval_g'] = d['pval'].copy()
         if 'has_value' not in d:  # policy-only rows (e.g. UNKNOWN-value curriculum) set this False
             d['has_value'] = np.ones(m, bool)
         d['is_ext'] = np.full(m, Path(f).parent.name.startswith('ext_'), bool)
@@ -62,7 +90,21 @@ def load(files):
             has_n[:-1] = sel
         d['npidx'], d['npval'], d['has_npol'] = npidx, npval, has_n
         parts.append(d)
-    return {k: np.concatenate([p[k] for p in parts]) for k in parts[0]}
+    out = {k: np.concatenate([p[k] for p in parts]) for k in parts[0]}
+    rows, lo = [], 0
+    for f, p in zip(files, parts):
+        m = len(p['z']); rows.append((f, lo, lo + m)); lo += m
+    # Only rows of folders that some override file targets are hashed (cheap).
+    targets = set()
+    for f in files:
+        ov = Path(f).parent / 'policy-overrides.json'
+        if ov.exists():
+            targets.update(json.loads(ov.read_text())['apply_to_source_folders'])
+    sel = [r for r in rows if 'data/' + Path(r[0]).parent.name in targets]
+    ovf = {Path(f).parent / 'policy-overrides.json' for f in files if (Path(f).parent / 'policy-overrides.json').exists()}
+    if sel and ovf:
+        out['_overrides_applied'] = np.array([apply_overrides(out, sel + [(str(next(iter(ovf)).parent / 'x.npz'), 0, 0)])])
+    return out
 
 def main():
     p = argparse.ArgumentParser()
@@ -79,6 +121,7 @@ def main():
     p.add_argument('--blocks', type=int, default=5)
     p.add_argument('--emb', type=int, default=32)
     p.add_argument('--ext-frac', type=float, default=0.04, help='batch share drawn from data/ext_* rows')
+    p.add_argument('--policy-mix', type=float, default=0.0, help='share of the Gumbel completed-Q target in the policy target')
     p.add_argument('--opp-aux', type=float, default=0.0, help='weight of next-mover policy aux loss (KataGo: 0.15)')
     p.add_argument('--surprise', type=float, default=0.0, help='policy-surprise weighting share (KataGo-style, e.g. 0.5)')
     a = p.parse_args()
@@ -87,6 +130,8 @@ def main():
     D = load(train_files)
     n = len(D['z'])
     T = lambda k, dt: torch.tensor(D[k]).to(dev, dt)
+    if a.policy_mix > 0:
+        D['pval'] = ((1 - a.policy_mix) * D['pval'].astype(np.float32) + a.policy_mix * D['pval_g'].astype(np.float32)).astype(np.float16)
     obs = T('obs', torch.float16); pidx = T('pidx', torch.int16); pval = T('pval', torch.float16)
     npidx = T('npidx', torch.int16); npval = T('npval', torch.float16); hasn = T('has_npol', torch.float32)
     z = T('z', torch.float32); q = T('q', torch.float32); qv = T('q_valid', torch.float32); has = T('has_pol', torch.bool); left = T('left', torch.float32)

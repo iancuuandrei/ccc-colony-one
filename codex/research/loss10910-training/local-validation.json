@@ -1,0 +1,27 @@
+{
+  "status": "PASS_LOCAL_OPERATIONAL_CHECKS",
+  "independent_verification": "PENDING",
+  "ext_release": false,
+  "checks": {
+    "npz_hash_matches_packet": true,
+    "certificates_hash_matches_packet": true,
+    "all_numeric_arrays_finite": true,
+    "legal_class_masks_disjoint_and_exhaustive": true,
+    "pidx_equals_complete_legal_support_each_row": true,
+    "policy_mass_by_row": [0, 0, 1],
+    "A_partial_policy_disabled_and_seven_unknown_actions_retained": true,
+    "value_mask_by_row": [false, true, false],
+    "all_q_valid_false": true,
+    "all_source_groups": "site:10910"
+  },
+  "exact_construction": {
+    "nodes": 890424,
+    "cached_endpoints": 441,
+    "B_all_six_actions_proved_loss": true,
+    "C_sole_horizon_escape": 3164,
+    "C_escape_checked_opponent_completions": 239,
+    "UNKNOWN_final_B_C_classifications": 0
+  },
+  "training_npz_sha256": "f7e8d935be6f1e4ee5adfb242ccc7e36957b046530f7b8ab6a9b9112a4cc466d",
+  "certificates_sha256": "d57155ba7fec0e4c60af4dd1331e0f6428844502ac681a602a9e53479fe8ae95"
+}

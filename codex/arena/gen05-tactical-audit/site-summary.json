@@ -1,0 +1,104 @@
+{
+  "cases": 22,
+  "regressions": [
+    "site_win-v2-8623-33"
+  ],
+  "improvements": [
+    "site_loss-v1-8079-30",
+    "site_loss-v2-9366-52",
+    "site_loss-v3-9928-28"
+  ],
+  "cohorts": {
+    "site_loss_v1": {
+      "cases": 6,
+      "models": {
+        "gen03": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 5,
+          "exact_value_mae": null
+        },
+        "gen05": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 4,
+          "exact_value_mae": null
+        }
+      }
+    },
+    "site_loss_v2": {
+      "cases": 4,
+      "models": {
+        "gen03": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 3,
+          "exact_value_mae": null
+        },
+        "gen05": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 2,
+          "exact_value_mae": null
+        }
+      }
+    },
+    "site_loss_v3": {
+      "cases": 4,
+      "models": {
+        "gen03": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 2,
+          "exact_value_mae": null
+        },
+        "gen05": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 1,
+          "exact_value_mae": null
+        }
+      }
+    },
+    "site_win_v1": {
+      "cases": 1,
+      "models": {
+        "gen03": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.009999990463256836
+        },
+        "gen05": {
+          "missed_current_turn_wins": 0,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.009999990463256836
+        }
+      }
+    },
+    "site_win_v2": {
+      "cases": 4,
+      "models": {
+        "gen03": {
+          "missed_current_turn_wins": 3,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.009999990463256836
+        },
+        "gen05": {
+          "missed_current_turn_wins": 4,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.009999990463256836
+        }
+      }
+    },
+    "site_win_v3": {
+      "cases": 3,
+      "models": {
+        "gen03": {
+          "missed_current_turn_wins": 3,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.009999990463256836
+        },
+        "gen05": {
+          "missed_current_turn_wins": 3,
+          "avoidable_next_turn_losses": 0,
+          "exact_value_mae": 0.009999990463256836
+        }
+      }
+    }
+  },
+  "end_input_and_model_hashes_verified": true
+}

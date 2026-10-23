@@ -7,7 +7,7 @@ import torch
 
 root = Path(__file__).resolve().parents[1]
 generation = sys.argv[1] if len(sys.argv) > 1 else 'gen01'
-if generation not in ('gen01', 'gen02', 'gen03'):
+if generation not in ('gen01', 'gen02', 'gen03', 'gen05', 'gen06'):
     raise ValueError('Select a synchronized named generation')
 path = root / f'checkpoints/{generation}.pt'
 ck = torch.load(path, map_location='cpu', weights_only=True)

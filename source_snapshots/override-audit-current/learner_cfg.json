@@ -1,0 +1,1 @@
+{"main_args": [], "variant_args": ["--qmix", "0.0"], "note": "A/B: variant = pure-z value target (qmix 0); results: aux+surprise 60.25 vs 70.0 main; steps1500 72.25 vs 74.25 main", "gate": 0.52}
