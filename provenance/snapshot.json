@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "source_repo": "iancuuandrei/CCC-OMNI",
+  "source_head": "71a5aa0df0d45c94db9be23f8fb9324466b2cba2",
+  "scope": "Allowlisted working files; source_head does not assert these generated files were tracked.",
+  "files": [
+    {
+      "path": "arena.py",
+      "source": "workspace/colony-one-level4/arena.py",
+      "sha256": "5de438f3db32fcf553f9b94c0cb97da717da3e67875f00e68115a0eaf8b5c43c",
+      "bytes": 2836
+    },
+    {
+      "path": "build_heuristic.py",
+      "source": "workspace/colony-one-level4/build_heuristic.py",
+      "sha256": "235a5f859562cf8e1ddc6f2cc8fe164bc0e6b3993d5fbb7e30b300c04c85536a",
+      "bytes": 6444
+    },
+    {
+      "path": "env/LICENSE",
+      "source": "workspace/colony-one-level4/env/LICENSE",
+      "sha256": "a90fe8ef750c39faac863808c1d14e1aaf8ba81d9a96b1cededb8cf48bf86ea6",
+      "bytes": 1546
+    },
+    {
+      "path": "env/README.md",
+      "source": "workspace/colony-one-level4/env/README.md",
+      "sha256": "0e9dfbd39e4a55a145f4fafec1c7429f27e0b2e7eaeeb99ca53d52827b5f87ae",
+      "bytes": 3840
+    },
+    {
+      "path": "env/colony_one/__init__.py",
+      "source": "workspace/colony-one-level4/env/colony_one/__init__.py",
+      "sha256": "6e91a9c40b595b1b6116154365bb052590cd9d6df9ec6fdfc36cfcedcffb7e27",
+      "bytes": 1753
+    },
+    {
+      "path": "env/colony_one/action.py",
+      "source": "workspace/colony-one-level4/env/colony_one/action.py",
+      "sha256": "12ef52844501e36d6faf4975212db74c2977783a111b3d60063e28604a02930e",
+      "bytes": 1225
+    },
+    {
+      "path": "env/colony_one/baselines.py",
+      "source": "workspace/colony-one-level4/env/colony_one/baselines.py",
+      "sha256": "19c3126f1e5668df031917fef1a52fa7d0cc4b587fd026d99f6e4c2e794fabe8",
+      "bytes": 3691
+    },
+    {
+      "path": "env/colony_one/board.py",
+      "source": "workspace/colony-one-level4/env/colony_one/board.py",
+      "sha256": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+      "bytes": 18980
+    },
+    {
+      "path": "env/colony_one/constants.py",
+      "source": "workspace/colony-one-level4/env/colony_one/constants.py",
+      "sha256": "ba4bcfe9d23ff16e6c9f4828da69945700e94dfd2069a0adc809719d7e73c0ad",
+      "bytes": 2835
+    },
+    {
+      "path": "env/colony_one/encoding.py",
+      "source": "workspace/colony-one-level4/env/colony_one/encoding.py",
+      "sha256": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+      "bytes": 9785
+    },
+    {
+      "path": "env/colony_one/env.py",
+      "source": "workspace/colony-one-level4/env/colony_one/env.py",
+      "sha256": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+      "bytes": 12792
+    },
+    {
+      "path": "env/colony_one/mcts.py",
+      "source": "workspace/colony-one-level4/env/colony_one/mcts.py",
+      "sha256": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+      "bytes": 30286
+    },
+    {
+      "path": "env/colony_one/onnx_runner.py",
+      "source": "workspace/colony-one-level4/env/colony_one/onnx_runner.py",
+      "sha256": "1df1c257a42ae68b88f2b134b6618ab82dffb180a4576bbd40569d95fe376e08",
+      "bytes": 13553
+    },
+    {
+      "path": "env/colony_one/pieces.py",
+      "source": "workspace/colony-one-level4/env/colony_one/pieces.py",
+      "sha256": "71bcd84583ff2f22fd30d8d340da43385630f3f4872fb500ee36f6b57e6b3588",
+      "bytes": 3596
+    },
+    {
+      "path": "env/colony_one/renderer.py",
+      "source": "workspace/colony-one-level4/env/colony_one/renderer.py",
+      "sha256": "99321cab82df2594272cd32c8db1a8e246f7351a925ae136ee9367ee6a5c4fcc",
+      "bytes": 2403
+    },
+    {
+      "path": "env/colony_one/rules.py",
+      "source": "workspace/colony-one-level4/env/colony_one/rules.py",
+      "sha256": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+      "bytes": 10631
+    },
+    {
+      "path": "env/colony_one/scene.json",
+      "source": "workspace/colony-one-level4/env/colony_one/scene.json",
+      "sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "bytes": 12453
+    },
+    {
+      "path": "env/colony_one/submission_check.py",
+      "source": "workspace/colony-one-level4/env/colony_one/submission_check.py",
+      "sha256": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+      "bytes": 8351
+    },
+    {
+      "path": "env/colony_one/submission_policy.py",
+      "source": "workspace/colony-one-level4/env/colony_one/submission_policy.py",
+      "sha256": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+      "bytes": 29294
+    },
+    {
+      "path": "env/docs/observation.md",
+      "source": "workspace/colony-one-level4/env/docs/observation.md",
+      "sha256": "a4f8f881807480ab136d14ae7b5c6417977fbac2a458b32a48dee22994651af0",
+      "bytes": 2311
+    },
+    {
+      "path": "env/docs/rules.md",
+      "source": "workspace/colony-one-level4/env/docs/rules.md",
+      "sha256": "dd3b0c9274ff326fbbc52dcdbf9c36bcc212f1ee91751e87d641c1abf13212ec",
+      "bytes": 2958
+    },
+    {
+      "path": "env/docs/submission.md",
+      "source": "workspace/colony-one-level4/env/docs/submission.md",
+      "sha256": "9226c31f4d2caf5175ff780bfe87cffd5ac41d37bf890ead3d2337e5ddd2491c",
+      "bytes": 11074
+    },
+    {
+      "path": "env/play/model_vs_model.py",
+      "source": "workspace/colony-one-level4/env/play/model_vs_model.py",
+      "sha256": "f477d1470fb1d0e8f7e7e3b83c4644081c5b75232e1f40d2d5c38ede35e8b438",
+      "bytes": 4989
+    },
+    {
+      "path": "env/play/random.onnx",
+      "source": "workspace/colony-one-level4/env/play/random.onnx",
+      "sha256": "107229a18420ead8843a6250a1388cc8066895521a3b052e7b3c74034d76e77b",
+      "bytes": 17132
+    },
+    {
+      "path": "env/provenance.json",
+      "source": "workspace/colony-one-level4/env/provenance.json",
+      "sha256": "379eda10fa5522ccba71dd6fa0c828fb5cee492caa014308edb2b6c4608e9e4e",
+      "bytes": 3411
+    },
+    {
+      "path": "env/pyproject.toml",
+      "source": "workspace/colony-one-level4/env/pyproject.toml",
+      "sha256": "63dac490752858da207dca5a25d58497964c037b54de5daf971edb50b8ea33d7",
+      "bytes": 2269
+    },
+    {
+      "path": "env/requirements.txt",
+      "source": "workspace/colony-one-level4/env/requirements.txt",
+      "sha256": "4bc8f47be15ae1bbeb97d8e2117e352c649652ce6124afa621cb5750ced4ece5",
+      "bytes": 197
+    },
+    {
+      "path": "env/tools/validate_submission.py",
+      "source": "workspace/colony-one-level4/env/tools/validate_submission.py",
+      "sha256": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a",
+      "bytes": 12660
+    },
+    {
+      "path": "evidence/comparison-h1.json",
+      "source": "workspace/colony-one-level4/comparison-h1.json",
+      "sha256": "f98a87a8e5f69976d4d6013a46fb10164b32aa8457c54a95737d2afb0a3b2df7",
+      "bytes": 345
+    },
+    {
+      "path": "evidence/gen00-summary.json",
+      "source": "workspace/colony-one-level4/data/gen00/summary.json",
+      "sha256": "ecbd700d17c4d9e85589accab8a6be39ad35b53369fb9f3601a5b5d4abc46632",
+      "bytes": 328
+    },
+    {
+      "path": "evidence/h1-validation-windows.txt",
+      "source": "workspace/colony-one-level4/codex/h1-validation-windows.txt",
+      "sha256": "683198153b8542e933d06251a1b29a2b2f600d2df07e84c57d808d6c28642609",
+      "bytes": 598
+    },
+    {
+      "path": "loop.py",
+      "source": "workspace/colony-one-level4/loop.py",
+      "sha256": "becaf65eaa4db74766dc2ff5a4ae60f5ce8bdb9923ca72dd53451e3251d416e9",
+      "bytes": 3161
+    },
+    {
+      "path": "match_cost.py",
+      "source": "workspace/colony-one-level4/match_cost.py",
+      "sha256": "d3972ee473eed4db357ff8e9a3144b226f01929c23b6d0d2c5ce8cec89536475",
+      "bytes": 1603
+    },
+    {
+      "path": "model-h1.onnx",
+      "source": "workspace/colony-one-level4/model-h1.onnx",
+      "sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+      "bytes": 311345
+    },
+    {
+      "path": "model-l3.onnx",
+      "source": "workspace/colony-one-level4/model-l3.onnx",
+      "sha256": "d5c129175d5e4c42869cd0878183a7b0931c7dafe20208b78a710b8673f3dcd8",
+      "bytes": 171498
+    },
+    {
+      "path": "model.onnx",
+      "source": "workspace/colony-one-level4/model.onnx",
+      "sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+      "bytes": 311345
+    },
+    {
+      "path": "net.py",
+      "source": "workspace/colony-one-level4/net.py",
+      "sha256": "cf04ba9706b42bf2dc908895eb671fc7f44dabed232ce73993edf88c844765b0",
+      "bytes": 6746
+    },
+    {
+      "path": "random.onnx",
+      "source": "workspace/colony-one-level4/random.onnx",
+      "sha256": "107229a18420ead8843a6250a1388cc8066895521a3b052e7b3c74034d76e77b",
+      "bytes": 17132
+    },
+    {
+      "path": "selfplay.py",
+      "source": "workspace/colony-one-level4/selfplay.py",
+      "sha256": "c7b3fe6a20d7489c0d35397ecf0805537e7efedfd01193693387b2f438941853",
+      "bytes": 5696
+    },
+    {
+      "path": "task/level-4.pdf",
+      "source": "challenge/current/task/level-4.pdf",
+      "sha256": "573f686905a971a9b94afd0f07b709e33ab8fe05cdff9f55c8526167e8b4c81f",
+      "bytes": 1570119
+    },
+    {
+      "path": "task/level-4_scene.json",
+      "source": "challenge/current/task/level-4_scene.json",
+      "sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "bytes": 12453
+    },
+    {
+      "path": "task/submission_contract.json",
+      "source": ".ccc/state/submission_contract.json",
+      "sha256": "6ba92bb53e43ae806071de29a76be50f9b8746fb69da41585362ef60153a888c",
+      "bytes": 615
+    },
+    {
+      "path": "train.py",
+      "source": "workspace/colony-one-level4/train.py",
+      "sha256": "9fe16aaf86f2364b44e3ca3e453f84e795d0b1d73960994e91e2a954ac2a2057",
+      "bytes": 5632
+    }
+  ],
+  "missing_optional": [],
+  "snapshot_utc": "2026-10-23T13:40:51.502203+00:00"
+}

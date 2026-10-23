@@ -1,0 +1,19 @@
+{
+ "games": 6000,
+ "cyan_wins": 2737,
+ "positions": 203193,
+ "mean_len": 33.8655,
+ "seconds": 420.5157403945923,
+ "model": "model-h1.onnx",
+ "pool": [
+  "model-l3.onnx",
+  "random.onnx"
+ ],
+ "opts": {
+  "full_sims": 400,
+  "fast_sims": 100,
+  "full_prob": 0.35,
+  "temp1_actions": 8,
+  "temp2_actions": 16
+ }
+}

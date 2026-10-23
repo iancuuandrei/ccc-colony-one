@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "source": "workspace/colony-one-level4/arena.py",
+      "path": "arena.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/build_heuristic.py",
+      "path": "build_heuristic.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/loop.py",
+      "path": "loop.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/match_cost.py",
+      "path": "match_cost.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/net.py",
+      "path": "net.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/selfplay.py",
+      "path": "selfplay.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/train.py",
+      "path": "train.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/model-h1.onnx",
+      "path": "model-h1.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/model-l3.onnx",
+      "path": "model-l3.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/random.onnx",
+      "path": "random.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/model.onnx",
+      "path": "model.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/LICENSE",
+      "path": "env/LICENSE"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/provenance.json",
+      "path": "env/provenance.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/pyproject.toml",
+      "path": "env/pyproject.toml"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/README.md",
+      "path": "env/README.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/requirements.txt",
+      "path": "env/requirements.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/__init__.py",
+      "path": "env/colony_one/__init__.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/action.py",
+      "path": "env/colony_one/action.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/baselines.py",
+      "path": "env/colony_one/baselines.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/board.py",
+      "path": "env/colony_one/board.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/constants.py",
+      "path": "env/colony_one/constants.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/encoding.py",
+      "path": "env/colony_one/encoding.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/env.py",
+      "path": "env/colony_one/env.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/mcts.py",
+      "path": "env/colony_one/mcts.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/onnx_runner.py",
+      "path": "env/colony_one/onnx_runner.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/pieces.py",
+      "path": "env/colony_one/pieces.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/renderer.py",
+      "path": "env/colony_one/renderer.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/rules.py",
+      "path": "env/colony_one/rules.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/scene.json",
+      "path": "env/colony_one/scene.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/submission_check.py",
+      "path": "env/colony_one/submission_check.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/colony_one/submission_policy.py",
+      "path": "env/colony_one/submission_policy.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/docs/observation.md",
+      "path": "env/docs/observation.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/docs/rules.md",
+      "path": "env/docs/rules.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/docs/submission.md",
+      "path": "env/docs/submission.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/play/model_vs_model.py",
+      "path": "env/play/model_vs_model.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/play/random.onnx",
+      "path": "env/play/random.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/env/tools/validate_submission.py",
+      "path": "env/tools/validate_submission.py"
+    },
+    {
+      "source": "challenge/current/task/level-4.pdf",
+      "path": "task/level-4.pdf"
+    },
+    {
+      "source": "challenge/current/task/level-4_scene.json",
+      "path": "task/level-4_scene.json"
+    },
+    {
+      "source": ".ccc/state/submission_contract.json",
+      "path": "task/submission_contract.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/comparison-h1.json",
+      "path": "evidence/comparison-h1.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/h1-validation-windows.txt",
+      "path": "evidence/h1-validation-windows.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/data/gen00/summary.json",
+      "path": "evidence/gen00-summary.json",
+      "optional": true
+    }
+  ]
+}

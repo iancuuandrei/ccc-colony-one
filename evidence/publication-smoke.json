@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Publication smoke only; not the official timing/resource validator or tournament acceptance",
+  "python": "3.12.13 Windows",
+  "numpy": "2.5.3",
+  "onnx": "1.23.2",
+  "onnxruntime": "1.31.0 CPUExecutionProvider",
+  "checks": [
+    "43 imported files match snapshot SHA-256 manifest",
+    "All four root ONNX models pass onnx.checker.check_model",
+    "All four root ONNX models execute batch 2 with policy shape [2,4096] and value shape [2]",
+    "Installed Level 4 scene and supplied task scene match byte-for-byte"
+  ],
+  "not_run": ["Fresh environment dependency installation", "Full training/loop", "Platform tournament acceptance"]
+}

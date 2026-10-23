@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "filename": "model.onnx",
+      "format": "binary"
+    }
+  ],
+  "notes": {
+    "task": "Colony One level 4 tournament (level-4 scene, 100 referee simulations)",
+    "requirements": {
+      "max_bytes": 5242880,
+      "opset": [
+        13,
+        18
+      ],
+      "input": [
+        "batch",
+        16,
+        8,
+        8
+      ],
+      "policy": [
+        "batch",
+        4096
+      ],
+      "value": [
+        "batch"
+      ]
+    },
+    "authoritative_validator": "workspace/colony-one-level4/env/tools/validate_submission.py"
+  }
+}

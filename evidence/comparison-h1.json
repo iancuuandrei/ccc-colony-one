@@ -1,0 +1,9 @@
+{
+ "criterion": "Win rate vs the incumbent Level 3 model under referee MCTS (100 sims) on the Level 4 scene, both colours per seed",
+ "evidence": [
+  "arena.py model-h1.onnx model-l3.onnx --games 64: 84/128 wins (65.6%)",
+  "validate_submission.py: ACCEPTED"
+ ],
+ "preferable": true,
+ "incumbent_id": "228b255404ef4ef492a9ab0e90e20a0f"
+}
