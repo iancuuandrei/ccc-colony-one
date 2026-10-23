@@ -1,0 +1,27 @@
+{
+  "model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\tactical\\model-tactical.onnx",
+  "sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b",
+  "bytes": 334224,
+  "mode": "level4",
+  "python": "D:\\dev\\CCC-OMNI\\.venv\\Scripts\\python.exe",
+  "initialization_cpu_seconds": 0.640625,
+  "result": "PASS",
+  "seed": 0,
+  "simulations": 100,
+  "batch_size": 8,
+  "sides": {
+    "CYAN": {
+      "actions": 12,
+      "cpu_seconds": 0.4375,
+      "wall_seconds": 0.4514776999999981
+    },
+    "MAGENTA": {
+      "actions": 12,
+      "cpu_seconds": 0.34375,
+      "wall_seconds": 0.37661189999988665
+    }
+  },
+  "winner": "MAGENTA",
+  "total_wall_seconds": 0.8329964000000132,
+  "peak_rss_bytes": 78442496
+}

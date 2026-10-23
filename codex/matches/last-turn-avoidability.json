@@ -1,0 +1,2525 @@
+[
+  {
+    "seed": 12001,
+    "loser": "MAGENTA",
+    "action": 28,
+    "chosen": {
+      "team": "MAGENTA",
+      "fr": [
+        3,
+        4
+      ],
+      "to": [
+        3,
+        5
+      ],
+      "kind": "move",
+      "piece": "KERNEL",
+      "moved": true,
+      "capture": null,
+      "actual_target": null
+    },
+    "alternatives": [
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          2,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.9373618960380554,
+        "prior_logit": -3.1999998092651367
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.9146596193313599,
+        "prior_logit": -2.8499999046325684
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.8720335960388184,
+        "prior_logit": -2.8499999046325684
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.7672346830368042,
+        "prior_logit": 1.0
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          2,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.9373618960380554,
+        "prior_logit": -3.1999998092651367
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.7672346830368042,
+        "prior_logit": 1.0
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.8720335960388184,
+        "prior_logit": -2.8499999046325684
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.7672346830368042,
+        "prior_logit": 1.0
+      },
+      {
+        "fr": [
+          3,
+          7
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.6462790966033936,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          3,
+          7
+        ],
+        "to": [
+          4,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.6462790966033936,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          3,
+          7
+        ],
+        "to": [
+          3,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.6314521431922913,
+        "prior_logit": 0.3499999940395355
+      }
+    ],
+    "safe_count": 0,
+    "total": 11
+  },
+  {
+    "seed": 12002,
+    "loser": "CYAN",
+    "action": 26,
+    "chosen": {
+      "team": "CYAN",
+      "fr": [
+        4,
+        1
+      ],
+      "to": [
+        3,
+        2
+      ],
+      "kind": "move",
+      "piece": "KERNEL",
+      "moved": true,
+      "capture": null,
+      "actual_target": null
+    },
+    "alternatives": [
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          3,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9325152635574341,
+        "prior_logit": 0.6499999761581421
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9644123315811157,
+        "prior_logit": -3.549999713897705
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          4,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": 0.9609183669090271,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.8897075653076172,
+        "prior_logit": -3.1999998092651367
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          3,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9609183669090271,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9105681777000427,
+        "prior_logit": 1.0
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9609183669090271,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              7,
+              4
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          [
+            [
+              7,
+              4
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.8897075653076172,
+        "prior_logit": -3.1999998092651367
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          4,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9570287466049194,
+        "prior_logit": -1.190000057220459
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9507888555526733,
+        "prior_logit": -1.190000057220459
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          6,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9542115926742554,
+        "prior_logit": -1.8899999856948853
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          7,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9275918006896973,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              7,
+              4
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          [
+            [
+              5,
+              2
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9484946727752686,
+        "prior_logit": -1.2400000095367432
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": 0.9520044922828674,
+        "prior_logit": -1.590000033378601
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9252931475639343,
+        "prior_logit": 0.699999988079071
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          5,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9325152635574341,
+        "prior_logit": 0.699999988079071
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": 0.9433809518814087,
+        "prior_logit": -1.2400000095367432
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          3,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": 0.9191498756408691,
+        "prior_logit": 0.6499999761581421
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9570287466049194,
+        "prior_logit": -1.190000057220459
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9470449686050415,
+        "prior_logit": -1.5399999618530273
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          6,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9325152635574341,
+        "prior_logit": 0.3499999940395355
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          7,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9344496726989746,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          5,
+          3
+        ],
+        "to": [
+          6,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9260724782943726,
+        "prior_logit": 0.3499999940395355
+      },
+      {
+        "fr": [
+          7,
+          5
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9338160157203674,
+        "prior_logit": 0.699999988079071
+      },
+      {
+        "fr": [
+          7,
+          5
+        ],
+        "to": [
+          5,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9520044922828674,
+        "prior_logit": -1.1899999380111694
+      },
+      {
+        "fr": [
+          7,
+          5
+        ],
+        "to": [
+          6,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9520044922828674,
+        "prior_logit": -1.1899999380111694
+      },
+      {
+        "fr": [
+          7,
+          5
+        ],
+        "to": [
+          6,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.9331713914871216,
+        "prior_logit": 0.0
+      }
+    ],
+    "safe_count": 4,
+    "total": 27
+  },
+  {
+    "seed": 12003,
+    "loser": "MAGENTA",
+    "action": 16,
+    "chosen": {
+      "team": "MAGENTA",
+      "fr": [
+        1,
+        6
+      ],
+      "to": [
+        2,
+        5
+      ],
+      "kind": "move",
+      "piece": "KERNEL",
+      "moved": true,
+      "capture": "PING",
+      "actual_target": [
+        2,
+        5
+      ]
+    },
+    "alternatives": [
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.06609988957643509,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.2139481008052826,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": 0.5979512333869934,
+        "prior_logit": -2.0999999046325684
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.10075774043798447,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          1,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.2304912656545639,
+        "prior_logit": 5.300000190734863
+      },
+      {
+        "fr": [
+          1,
+          6
+        ],
+        "to": [
+          1,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.2304912656545639,
+        "prior_logit": 5.300000190734863
+      },
+      {
+        "fr": [
+          1,
+          6
+        ],
+        "to": [
+          0,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.4558468461036682,
+        "prior_logit": 5.100000381469727
+      },
+      {
+        "fr": [
+          1,
+          6
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.3297206163406372,
+        "prior_logit": 5.100000381469727
+      },
+      {
+        "fr": [
+          1,
+          6
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              6,
+              1
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        ],
+        "child_team": "CYAN",
+        "child_value": -0.04216839745640755,
+        "prior_logit": 7.100000381469727
+      },
+      {
+        "fr": [
+          1,
+          6
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.4558468461036682,
+        "prior_logit": 5.100000381469727
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.10075774043798447,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.06609988957643509,
+        "prior_logit": 0.30000001192092896
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          0,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.4086438715457916,
+        "prior_logit": -1.5399999618530273
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          1,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          1,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.40143609046936035,
+        "prior_logit": -1.3399999141693115
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          3,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.40143609046936035,
+        "prior_logit": -0.9399999380111694
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          4,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.40143609046936035,
+        "prior_logit": -1.3399999141693115
+      },
+      {
+        "fr": [
+          2,
+          2
+        ],
+        "to": [
+          4,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.4086438715457916,
+        "prior_logit": -0.9399999380111694
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          3,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.23871049284934998,
+        "prior_logit": -0.5
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.10938524454832077,
+        "prior_logit": 0.5
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          5,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          6,
+          6
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          4,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.4000000059604645
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.0834556445479393,
+        "prior_logit": 0.6000000238418579
+      },
+      {
+        "fr": [
+          4,
+          6
+        ],
+        "to": [
+          4,
+          7
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "CYAN",
+        "child_value": 0.2631461024284363,
+        "prior_logit": -0.699999988079071
+      }
+    ],
+    "safe_count": 24,
+    "total": 27
+  },
+  {
+    "seed": 12004,
+    "loser": "CYAN",
+    "action": 14,
+    "chosen": {
+      "team": "CYAN",
+      "fr": [
+        4,
+        3
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "kind": "move",
+      "piece": "KERNEL",
+      "moved": true,
+      "capture": "EXPLOIT",
+      "actual_target": [
+        3,
+        3
+      ]
+    },
+    "alternatives": [
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.681808352470398,
+        "prior_logit": 4.4200005531311035
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              3
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.07550692558288574,
+        "prior_logit": 0.7000000476837158
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            [
+              4,
+              2
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.26112300157546997,
+        "prior_logit": 0.7000000476837158
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.37764179706573486,
+        "prior_logit": 0.9000000357627869
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.26112300157546997,
+        "prior_logit": 0.7000000476837158
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.37764179706573486,
+        "prior_logit": 0.9000000357627869
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": -0.22292593121528625,
+        "prior_logit": -3.499999761581421
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": true,
+        "witness": [
+          [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          [
+            [
+              2,
+              7
+            ],
+            [
+              5,
+              4
+            ]
+          ]
+        ],
+        "child_team": "MAGENTA",
+        "child_value": 0.6861972808837891,
+        "prior_logit": -3.499999761581421
+      },
+      {
+        "fr": [
+          5,
+          0
+        ],
+        "to": [
+          4,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          5,
+          0
+        ],
+        "to": [
+          6,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.37764179706573486,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          5,
+          0
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.39962565898895264,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          4,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": 0.09571754932403564,
+        "prior_logit": -2.0399999618530273
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          7,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.37020912766456604,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          6,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.37020912766456604,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          6,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          6,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.07261382788419724,
+        "prior_logit": -1.5399999618530273
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          7,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.37020912766456604,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          6,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.39962565898895264,
+        "prior_logit": 0.20000000298023224
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.09571745246648788,
+        "prior_logit": -1.3999998569488525
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.5230055451393127,
+        "prior_logit": 0.7000000476837158
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          1
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.37764179706573486,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          0
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.36272528767585754,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          3
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          4
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          5
+        ],
+        "kind": "move",
+        "opponent_wins_in_turn": false,
+        "witness": [],
+        "child_team": "MAGENTA",
+        "child_value": -0.3923506736755371,
+        "prior_logit": 0.0
+      }
+    ],
+    "safe_count": 19,
+    "total": 27
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "model": "h1",
+    "sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+    "match": "match-4650",
+    "losing_team": "MAGENTA",
+    "matches": 10,
+    "total": 10,
+    "rows": [
+      {
+        "action": 11,
+        "recorded": "H5->F5",
+        "selected": "H5->F5",
+        "matches": true,
+        "recorded_visits": 9,
+        "selected_visits": 9,
+        "recorded_prior": 0.08196016320242795,
+        "value": -0.5352693796157837
+      },
+      {
+        "action": 12,
+        "recorded": "F5->F4",
+        "selected": "F5->F4",
+        "matches": true,
+        "recorded_visits": 9,
+        "selected_visits": 9,
+        "recorded_prior": 0.07284811472903364,
+        "value": -0.5167835354804993
+      },
+      {
+        "action": 15,
+        "recorded": "F4->E4",
+        "selected": "F4->E4",
+        "matches": true,
+        "recorded_visits": 65,
+        "selected_visits": 65,
+        "recorded_prior": 0.09837828977543464,
+        "value": -0.5230056047439575
+      },
+      {
+        "action": 16,
+        "recorded": "E4->C6",
+        "selected": "E4->C6",
+        "matches": true,
+        "recorded_visits": 94,
+        "selected_visits": 94,
+        "recorded_prior": 0.9167184049335249,
+        "value": -0.33100706338882446
+      },
+      {
+        "action": 19,
+        "recorded": "G7->G5",
+        "selected": "G7->G5",
+        "matches": true,
+        "recorded_visits": 18,
+        "selected_visits": 18,
+        "recorded_prior": 0.1349883369036492,
+        "value": -0.020367220044136047
+      },
+      {
+        "action": 20,
+        "recorded": "H8->G7",
+        "selected": "H8->G7",
+        "matches": true,
+        "recorded_visits": 21,
+        "selected_visits": 21,
+        "recorded_prior": 0.0780670002487489,
+        "value": 0.02327531762421131
+      },
+      {
+        "action": 23,
+        "recorded": "G7->G6",
+        "selected": "G7->G6",
+        "matches": true,
+        "recorded_visits": 30,
+        "selected_visits": 30,
+        "recorded_prior": 0.1536033061865148,
+        "value": -0.6470875144004822
+      },
+      {
+        "action": 24,
+        "recorded": "G6->G5",
+        "selected": "G6->G5",
+        "matches": true,
+        "recorded_visits": 45,
+        "selected_visits": 45,
+        "recorded_prior": 0.3669910687379044,
+        "value": -0.6803330779075623
+      },
+      {
+        "action": 27,
+        "recorded": "G5->F4",
+        "selected": "G5->F4",
+        "matches": true,
+        "recorded_visits": 28,
+        "selected_visits": 28,
+        "recorded_prior": 0.18445513065875405,
+        "value": -0.7988432049751282
+      },
+      {
+        "action": 28,
+        "recorded": "H7->G7",
+        "selected": "H7->G7",
+        "matches": true,
+        "recorded_visits": 22,
+        "selected_visits": 22,
+        "recorded_prior": 0.058518811797527284,
+        "value": -0.7093539237976074
+      }
+    ]
+  },
+  {
+    "model": "h1",
+    "sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+    "match": "match-4674",
+    "losing_team": "CYAN",
+    "matches": 16,
+    "total": 16,
+    "rows": [
+      {
+        "action": 9,
+        "recorded": "B2->D4",
+        "selected": "B2->D4",
+        "matches": true,
+        "recorded_visits": 25,
+        "selected_visits": 25,
+        "recorded_prior": 0.04871899114462338,
+        "value": 0.6667731404304504
+      },
+      {
+        "action": 10,
+        "recorded": "D4->F6",
+        "selected": "D4->F6",
+        "matches": true,
+        "recorded_visits": 94,
+        "selected_visits": 94,
+        "recorded_prior": 0.81887075867089,
+        "value": 0.7225970029830933
+      },
+      {
+        "action": 13,
+        "recorded": "F6->H6",
+        "selected": "F6->H6",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.08501570171111873,
+        "value": 0.9359866380691528
+      },
+      {
+        "action": 14,
+        "recorded": "H6->H7",
+        "selected": "H6->H7",
+        "matches": true,
+        "recorded_visits": 60,
+        "selected_visits": 60,
+        "recorded_prior": 0.6942227780669031,
+        "value": 0.9501509070396423
+      },
+      {
+        "action": 17,
+        "recorded": "C5->E5",
+        "selected": "C5->E5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.07853271780627791,
+        "value": 0.956108808517456
+      },
+      {
+        "action": 18,
+        "recorded": "E5->C5",
+        "selected": "E5->C5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.06915800999631654,
+        "value": 0.956108808517456
+      },
+      {
+        "action": 21,
+        "recorded": "C5->D5",
+        "selected": "C5->D5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.0982420814086247,
+        "value": 0.9492471218109131
+      },
+      {
+        "action": 22,
+        "recorded": "D5->C5",
+        "selected": "D5->C5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.07761132883646188,
+        "value": 0.9492471218109131
+      },
+      {
+        "action": 25,
+        "recorded": "C5->D5",
+        "selected": "C5->D5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.10753789150146464,
+        "value": 0.9131066203117371
+      },
+      {
+        "action": 26,
+        "recorded": "D5->C5",
+        "selected": "D5->C5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.0810388389176188,
+        "value": 0.9131066203117371
+      },
+      {
+        "action": 29,
+        "recorded": "A1->B2",
+        "selected": "A1->B2",
+        "matches": true,
+        "recorded_visits": 17,
+        "selected_visits": 17,
+        "recorded_prior": 0.06211203330382321,
+        "value": 0.8189817070960999
+      },
+      {
+        "action": 30,
+        "recorded": "C5->E5",
+        "selected": "C5->E5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.07873395553643425,
+        "value": 0.9596284031867981
+      },
+      {
+        "action": 33,
+        "recorded": "B2->C2",
+        "selected": "B2->C2",
+        "matches": true,
+        "recorded_visits": 35,
+        "selected_visits": 35,
+        "recorded_prior": 0.3277322711012037,
+        "value": -0.5178245902061462
+      },
+      {
+        "action": 34,
+        "recorded": "C2->D3",
+        "selected": "C2->D3",
+        "matches": true,
+        "recorded_visits": 24,
+        "selected_visits": 24,
+        "recorded_prior": 0.20602888631025154,
+        "value": -0.5178245902061462
+      },
+      {
+        "action": 37,
+        "recorded": "D3->D4",
+        "selected": "D3->D4",
+        "matches": true,
+        "recorded_visits": 18,
+        "selected_visits": 18,
+        "recorded_prior": 0.15924998177455799,
+        "value": -0.28656256198883057
+      },
+      {
+        "action": 38,
+        "recorded": "D4->C5",
+        "selected": "D4->C5",
+        "matches": true,
+        "recorded_visits": 21,
+        "selected_visits": 21,
+        "recorded_prior": 0.16020736868807256,
+        "value": -0.22568035125732422
+      }
+    ]
+  },
+  {
+    "model": "tactical",
+    "sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b",
+    "match": "match-4650",
+    "losing_team": "MAGENTA",
+    "matches": 10,
+    "total": 10,
+    "rows": [
+      {
+        "action": 11,
+        "recorded": "H5->F5",
+        "selected": "H5->F5",
+        "matches": true,
+        "recorded_visits": 9,
+        "selected_visits": 9,
+        "recorded_prior": 0.08196016320242795,
+        "value": -0.5352693796157837
+      },
+      {
+        "action": 12,
+        "recorded": "F5->F4",
+        "selected": "F5->F4",
+        "matches": true,
+        "recorded_visits": 9,
+        "selected_visits": 9,
+        "recorded_prior": 0.07284811472903364,
+        "value": -0.5167835354804993
+      },
+      {
+        "action": 15,
+        "recorded": "F4->E4",
+        "selected": "F4->E4",
+        "matches": true,
+        "recorded_visits": 65,
+        "selected_visits": 65,
+        "recorded_prior": 0.09837828977543464,
+        "value": -0.5230056047439575
+      },
+      {
+        "action": 16,
+        "recorded": "E4->C6",
+        "selected": "E4->C6",
+        "matches": true,
+        "recorded_visits": 94,
+        "selected_visits": 94,
+        "recorded_prior": 0.9167184049335249,
+        "value": -0.33100706338882446
+      },
+      {
+        "action": 19,
+        "recorded": "G7->G5",
+        "selected": "G7->G5",
+        "matches": true,
+        "recorded_visits": 18,
+        "selected_visits": 18,
+        "recorded_prior": 0.1349883369036492,
+        "value": -0.020367220044136047
+      },
+      {
+        "action": 20,
+        "recorded": "H8->G7",
+        "selected": "H8->G7",
+        "matches": true,
+        "recorded_visits": 21,
+        "selected_visits": 21,
+        "recorded_prior": 0.0780670002487489,
+        "value": 0.02327531762421131
+      },
+      {
+        "action": 23,
+        "recorded": "G7->G6",
+        "selected": "G7->G6",
+        "matches": true,
+        "recorded_visits": 30,
+        "selected_visits": 30,
+        "recorded_prior": 0.1536033061865148,
+        "value": -0.6470875144004822
+      },
+      {
+        "action": 24,
+        "recorded": "G6->G5",
+        "selected": "G6->G5",
+        "matches": true,
+        "recorded_visits": 46,
+        "selected_visits": 46,
+        "recorded_prior": 0.3669910687379044,
+        "value": -0.6803330779075623
+      },
+      {
+        "action": 27,
+        "recorded": "G5->F4",
+        "selected": "G5->F4",
+        "matches": true,
+        "recorded_visits": 27,
+        "selected_visits": 27,
+        "recorded_prior": 0.18445513065875405,
+        "value": -0.7988432049751282
+      },
+      {
+        "action": 28,
+        "recorded": "H7->G7",
+        "selected": "H7->G7",
+        "matches": true,
+        "recorded_visits": 23,
+        "selected_visits": 23,
+        "recorded_prior": 0.058518811797527284,
+        "value": -0.7093539237976074
+      }
+    ]
+  },
+  {
+    "model": "tactical",
+    "sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b",
+    "match": "match-4674",
+    "losing_team": "CYAN",
+    "matches": 16,
+    "total": 16,
+    "rows": [
+      {
+        "action": 9,
+        "recorded": "B2->D4",
+        "selected": "B2->D4",
+        "matches": true,
+        "recorded_visits": 26,
+        "selected_visits": 26,
+        "recorded_prior": 0.04871899114462338,
+        "value": 0.6667731404304504
+      },
+      {
+        "action": 10,
+        "recorded": "D4->F6",
+        "selected": "D4->F6",
+        "matches": true,
+        "recorded_visits": 94,
+        "selected_visits": 94,
+        "recorded_prior": 0.81887075867089,
+        "value": 0.7225970029830933
+      },
+      {
+        "action": 13,
+        "recorded": "F6->H6",
+        "selected": "F6->H6",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.08501570171111873,
+        "value": 0.9359866380691528
+      },
+      {
+        "action": 14,
+        "recorded": "H6->H7",
+        "selected": "H6->H7",
+        "matches": true,
+        "recorded_visits": 60,
+        "selected_visits": 60,
+        "recorded_prior": 0.6942227780669031,
+        "value": 0.9501509070396423
+      },
+      {
+        "action": 17,
+        "recorded": "C5->E5",
+        "selected": "C5->E5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.07853271780627791,
+        "value": 0.956108808517456
+      },
+      {
+        "action": 18,
+        "recorded": "E5->C5",
+        "selected": "E5->C5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.06915800999631654,
+        "value": 0.956108808517456
+      },
+      {
+        "action": 21,
+        "recorded": "C5->D5",
+        "selected": "C5->D5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.0982420814086247,
+        "value": 0.9492471218109131
+      },
+      {
+        "action": 22,
+        "recorded": "D5->C5",
+        "selected": "D5->C5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.07761132883646188,
+        "value": 0.9492471218109131
+      },
+      {
+        "action": 25,
+        "recorded": "C5->D5",
+        "selected": "C5->D5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.10753789150146464,
+        "value": 0.9131066203117371
+      },
+      {
+        "action": 26,
+        "recorded": "D5->C5",
+        "selected": "D5->C5",
+        "matches": true,
+        "recorded_visits": 13,
+        "selected_visits": 13,
+        "recorded_prior": 0.0810388389176188,
+        "value": 0.9131066203117371
+      },
+      {
+        "action": 29,
+        "recorded": "A1->B2",
+        "selected": "A1->B2",
+        "matches": true,
+        "recorded_visits": 17,
+        "selected_visits": 17,
+        "recorded_prior": 0.06211203330382321,
+        "value": 0.8189817070960999
+      },
+      {
+        "action": 30,
+        "recorded": "C5->E5",
+        "selected": "C5->E5",
+        "matches": true,
+        "recorded_visits": 17,
+        "selected_visits": 17,
+        "recorded_prior": 0.07873395553643425,
+        "value": 0.9596284031867981
+      },
+      {
+        "action": 33,
+        "recorded": "B2->C2",
+        "selected": "B2->C2",
+        "matches": true,
+        "recorded_visits": 35,
+        "selected_visits": 35,
+        "recorded_prior": 0.3277322711012037,
+        "value": -0.5178245902061462
+      },
+      {
+        "action": 34,
+        "recorded": "C2->D3",
+        "selected": "C2->D3",
+        "matches": true,
+        "recorded_visits": 23,
+        "selected_visits": 23,
+        "recorded_prior": 0.20602888631025154,
+        "value": -0.5178245902061462
+      },
+      {
+        "action": 37,
+        "recorded": "D3->D4",
+        "selected": "D3->D4",
+        "matches": true,
+        "recorded_visits": 19,
+        "selected_visits": 19,
+        "recorded_prior": 0.15924998177455799,
+        "value": -0.28656256198883057
+      },
+      {
+        "action": 38,
+        "recorded": "D4->C5",
+        "selected": "D4->C5",
+        "matches": true,
+        "recorded_visits": 22,
+        "selected_visits": 22,
+        "recorded_prior": 0.16020736868807256,
+        "value": -0.22568035125732422
+      }
+    ]
+  }
+]

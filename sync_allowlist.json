@@ -173,6 +173,352 @@
       "source": "workspace/colony-one-level4/data/gen00/summary.json",
       "path": "evidence/gen00-summary.json",
       "optional": true
+    },
+    {
+      "source": "workspace/colony-one-level4/check_onnx.py",
+      "path": "check_onnx.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/reexport.py",
+      "path": "reexport.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/test_win.py",
+      "path": "test_win.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/smoke_export.py",
+      "path": "smoke_export.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/wpy.sh",
+      "path": "wpy.sh"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/build_tactical_v2.py",
+      "path": "codex/tactical/build_tactical_v2.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/build_tactical.py",
+      "path": "codex/tactical/build_tactical.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/model-tactical-v2.nodes.json",
+      "path": "codex/tactical/model-tactical-v2.nodes.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/proof-v2.json",
+      "path": "codex/tactical/proof-v2.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/proof.json",
+      "path": "codex/tactical/proof.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/prove_tactical_v2.py",
+      "path": "codex/tactical/prove_tactical_v2.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/prove_tactical.py",
+      "path": "codex/tactical/prove_tactical.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/smoke-v2-vs-v1.json",
+      "path": "codex/tactical/smoke-v2-vs-v1.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/smoke-vs-h1.json",
+      "path": "codex/tactical/smoke-vs-h1.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/env-provenance-check.json",
+      "path": "codex/validation/env-provenance-check.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/h1-graph-windows.json",
+      "path": "codex/validation/h1-graph-windows.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/h1-hard-linux.json",
+      "path": "codex/validation/h1-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/h1-level4-windows.json",
+      "path": "codex/validation/h1-level4-windows.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/h1-validator-windows.txt",
+      "path": "codex/validation/h1-validator-windows.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/level4-scene-lineage.json",
+      "path": "codex/validation/level4-scene-lineage.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/qualify.py",
+      "path": "codex/validation/qualify.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/README.txt",
+      "path": "codex/validation/README.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-graph-linux.json",
+      "path": "codex/validation/tactical-graph-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-graph-windows.json",
+      "path": "codex/validation/tactical-graph-windows.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-hard-linux.json",
+      "path": "codex/validation/tactical-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-level4-linux.json",
+      "path": "codex/validation/tactical-level4-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-level4-windows.json",
+      "path": "codex/validation/tactical-level4-windows.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-graph-linux.json",
+      "path": "codex/validation/tactical-v2-graph-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-hard-linux.json",
+      "path": "codex/validation/tactical-v2-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-level4-linux.json",
+      "path": "codex/validation/tactical-v2-level4-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-validator-linux.txt",
+      "path": "codex/validation/tactical-v2-validator-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-validator-linux.txt",
+      "path": "codex/validation/tactical-validator-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-validator-windows-repeat.txt",
+      "path": "codex/validation/tactical-validator-windows-repeat.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-validator-windows.txt",
+      "path": "codex/validation/tactical-validator-windows.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/audit_engine.py",
+      "path": "codex/engine_audit/audit_engine.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/build_oracle_corpus.py",
+      "path": "codex/engine_audit/build_oracle_corpus.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/findings.md",
+      "path": "codex/engine_audit/findings.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/loss_oracle_validation.json",
+      "path": "codex/engine_audit/loss_oracle_validation.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/oracle.py",
+      "path": "codex/engine_audit/oracle.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/own_turn_corpus.json",
+      "path": "codex/engine_audit/own_turn_corpus.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/own_turn_oracle.py",
+      "path": "codex/engine_audit/own_turn_oracle.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/results.json",
+      "path": "codex/engine_audit/results.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/tactical_v2_oracle_validation.json",
+      "path": "codex/engine_audit/tactical_v2_oracle_validation.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/validate_loss_oracle.py",
+      "path": "codex/engine_audit/validate_loss_oracle.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/engine_audit/validate_tactical_v2.py",
+      "path": "codex/engine_audit/validate_tactical_v2.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/diagnostics.md",
+      "path": "codex/matches/diagnostics.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/last_turn_probe.py",
+      "path": "codex/matches/last_turn_probe.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/last-turn-avoidability.json",
+      "path": "codex/matches/last-turn-avoidability.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/probe_matches.py",
+      "path": "codex/matches/probe_matches.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/selfplay-h1.summary.json",
+      "path": "codex/matches/selfplay-h1.summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/site_policy_check.py",
+      "path": "codex/matches/site_policy_check.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/site_replay.py",
+      "path": "codex/matches/site_replay.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/site-candidate-action-check.json",
+      "path": "codex/matches/site-candidate-action-check.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/site-probes.json",
+      "path": "codex/matches/site-probes.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/matches/site-provenance.json",
+      "path": "codex/matches/site-provenance.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/audit_evidence.py",
+      "path": "codex/arena/audit_evidence.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit.json",
+      "path": "codex/arena/evidence-audit.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/METHODOLOGY.md",
+      "path": "codex/arena/METHODOLOGY.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/paired_arena.py",
+      "path": "codex/arena/paired_arena.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-comparison-summary.json",
+      "path": "codex/arena/tactical-comparison-summary.json"
+    },
+    {
+      "path": "codex/tactical/model-tactical.onnx",
+      "source": "workspace/colony-one-level4/codex/tactical/model-tactical.onnx",
+      "sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b"
+    },
+    {
+      "path": "codex/tactical/model-tactical-v2.onnx",
+      "source": "workspace/colony-one-level4/codex/tactical/model-tactical-v2.onnx",
+      "sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control40000/manifest.json",
+      "path": "codex/arena/h1-v-l3-control40000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control40000/summary.json",
+      "path": "codex/arena/h1-v-l3-control40000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control40000/harness_snapshot.py",
+      "path": "codex/arena/h1-v-l3-control40000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-holdout10000/manifest.json",
+      "path": "codex/arena/h1-v-l3-holdout10000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-holdout10000/summary.json",
+      "path": "codex/arena/h1-v-l3-holdout10000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-holdout10000/harness_snapshot.py",
+      "path": "codex/arena/h1-v-l3-holdout10000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-h1-confirm30000/manifest.json",
+      "path": "codex/arena/tactical-v-h1-confirm30000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-h1-confirm30000/summary.json",
+      "path": "codex/arena/tactical-v-h1-confirm30000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-h1-confirm30000/harness_snapshot.py",
+      "path": "codex/arena/tactical-v-h1-confirm30000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-h1-screen20000/manifest.json",
+      "path": "codex/arena/tactical-v-h1-screen20000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-h1-screen20000/summary.json",
+      "path": "codex/arena/tactical-v-h1-screen20000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-h1-screen20000/harness_snapshot.py",
+      "path": "codex/arena/tactical-v-h1-screen20000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-l3-robust40000/manifest.json",
+      "path": "codex/arena/tactical-v-l3-robust40000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-l3-robust40000/summary.json",
+      "path": "codex/arena/tactical-v-l3-robust40000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v-l3-robust40000/harness_snapshot.py",
+      "path": "codex/arena/tactical-v-l3-robust40000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-h1-holdout70000/manifest.json",
+      "path": "codex/arena/tactical-v2-v-h1-holdout70000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-h1-holdout70000/summary.json",
+      "path": "codex/arena/tactical-v2-v-h1-holdout70000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/arena-v2-anchor-h1/manifest.json",
+      "path": "codex/tactical/arena-v2-anchor-h1/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/arena-v2-anchor-h1/summary.json",
+      "path": "codex/tactical/arena-v2-anchor-h1/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/arena-v2-confirm-v1/manifest.json",
+      "path": "codex/tactical/arena-v2-confirm-v1/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/arena-v2-confirm-v1/summary.json",
+      "path": "codex/tactical/arena-v2-confirm-v1/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/arena-v2-screen-v1/manifest.json",
+      "path": "codex/tactical/arena-v2-screen-v1/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/tactical/arena-v2-screen-v1/summary.json",
+      "path": "codex/tactical/arena-v2-screen-v1/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/coordination.md",
+      "path": "codex/coordination.md"
     }
   ]
 }

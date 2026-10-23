@@ -1,0 +1,41 @@
+{
+  "history_replay": [
+    {
+      "folder": "h1-v-l3-control40000",
+      "games": 256,
+      "status": "PASS"
+    },
+    {
+      "folder": "h1-v-l3-holdout10000",
+      "games": 128,
+      "status": "PASS"
+    },
+    {
+      "folder": "tactical-v-h1-confirm30000",
+      "games": 256,
+      "status": "PASS"
+    },
+    {
+      "folder": "tactical-v-h1-screen20000",
+      "games": 256,
+      "status": "PASS"
+    },
+    {
+      "folder": "tactical-v-l3-robust40000",
+      "games": 256,
+      "status": "PASS"
+    }
+  ],
+  "original_arena_agreement": [
+    {
+      "rng_seed": 10000,
+      "a_cyan": false,
+      "status": "PASS"
+    },
+    {
+      "rng_seed": 10001,
+      "a_cyan": true,
+      "status": "PASS"
+    }
+  ]
+}

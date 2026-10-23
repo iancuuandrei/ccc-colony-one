@@ -1,0 +1,5519 @@
+[
+  {
+    "match": "match-4650",
+    "action": 20,
+    "chosen": "H8->G7",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 21,
+    "total": 21,
+    "alternatives": [
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "G8->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.550000011920929
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "G8->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.25
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          5
+        ],
+        "notation": "G8->F8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "notation": "G8->E8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "notation": "G8->D8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -2.0999999046325684
+      },
+      {
+        "fr": [
+          0,
+          7
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "H8->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.550000011920929
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "notation": "H7->H6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "H7->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.550000011920929
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "G5->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.25
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "G5->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.550000011920929
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          4,
+          6
+        ],
+        "notation": "G5->G4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.25
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          5,
+          6
+        ],
+        "notation": "G5->G3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.25
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "G5->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.5
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "G5->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -1.4900000095367432
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "G5->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "G5->F6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -1.7400000095367432
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          1,
+          4
+        ],
+        "notation": "G5->E7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -1.9900000095367432
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "notation": "G5->H6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          4,
+          5
+        ],
+        "notation": "G5->F4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.5
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "notation": "G5->E3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -1.7400000095367432
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          4,
+          7
+        ],
+        "notation": "G5->H4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      }
+    ]
+  },
+  {
+    "match": "match-4650",
+    "action": 24,
+    "chosen": "G6->G5",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 10,
+    "total": 15,
+    "alternatives": [
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "G8->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6000000238418579
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          5
+        ],
+        "notation": "G8->F8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "notation": "G8->E8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "notation": "G8->D8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -2.0999999046325684
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "notation": "G8->H8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "notation": "H7->H8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              2
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "C6->E7",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              1,
+              4
+            ],
+            "to": [
+              2,
+              6
+            ],
+            "notation": "E7->G6",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "notation": "H7->H6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -1.2400000095367432
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "H7->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6000000238418579
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "G6->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6000000238418579
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          3,
+          6
+        ],
+        "notation": "G6->G5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 2.200000047683716
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "G6->F6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              2
+            ],
+            "to": [
+              0,
+              1
+            ],
+            "notation": "C6->B8",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              6
+            ],
+            "to": [
+              2,
+              5
+            ],
+            "notation": "G5->F6",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.299999713897705
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "notation": "G6->H6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              3,
+              6
+            ],
+            "to": [
+              2,
+              7
+            ],
+            "notation": "G5->H6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              6
+            ],
+            "to": [
+              2,
+              7
+            ],
+            "notation": "G5->H6",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.8999998569488525
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          1,
+          5
+        ],
+        "notation": "G6->F7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6000000238418579
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "G6->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              2
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "C6->E7",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              1,
+              4
+            ],
+            "to": [
+              3,
+              5
+            ],
+            "notation": "E7->F5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.9000000357627869
+      },
+      {
+        "fr": [
+          2,
+          6
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "G6->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              3,
+              6
+            ],
+            "to": [
+              2,
+              6
+            ],
+            "notation": "G5->G6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              6
+            ],
+            "to": [
+              3,
+              7
+            ],
+            "notation": "G6->H5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.30000001192092896
+      }
+    ]
+  },
+  {
+    "match": "match-4650",
+    "action": 28,
+    "chosen": "H7->G7",
+    "chosen_allows_win": true,
+    "witness": [
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          6,
+          3
+        ],
+        "notation": "B2->D2",
+        "kind": "move"
+      },
+      {
+        "fr": [
+          6,
+          3
+        ],
+        "to": [
+          4,
+          5
+        ],
+        "notation": "D2->F4",
+        "kind": "move"
+      }
+    ],
+    "safe_count": 3,
+    "total": 11,
+    "alternatives": [
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "notation": "H7->H8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              6,
+              3
+            ],
+            "notation": "B2->D2",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              3
+            ],
+            "to": [
+              4,
+              5
+            ],
+            "notation": "D2->F4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          2,
+          7
+        ],
+        "notation": "H7->H6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              6,
+              3
+            ],
+            "notation": "B2->D2",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              3
+            ],
+            "to": [
+              4,
+              5
+            ],
+            "notation": "D2->F4",
+            "kind": "move"
+          }
+        ],
+        "prior": -1.5399999618530273
+      },
+      {
+        "fr": [
+          1,
+          7
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "H7->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              6,
+              3
+            ],
+            "notation": "B2->D2",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              3
+            ],
+            "to": [
+              4,
+              5
+            ],
+            "notation": "D2->F4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.3499999940395355
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "F4->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              0,
+              6
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "G8->E7",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              1,
+              4
+            ],
+            "to": [
+              3,
+              5
+            ],
+            "notation": "E7->F5",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.0
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          5
+        ],
+        "notation": "F4->F3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.0
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "notation": "F4->E4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              0,
+              6
+            ],
+            "to": [
+              2,
+              5
+            ],
+            "notation": "G8->F6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              5
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "F6->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.3499999046325684
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          4,
+          6
+        ],
+        "notation": "F4->G4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              0,
+              6
+            ],
+            "to": [
+              2,
+              5
+            ],
+            "notation": "G8->F6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              5
+            ],
+            "to": [
+              4,
+              6
+            ],
+            "notation": "F6->G4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.6499999761581421
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "F4->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "B2->C3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "C3->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.3499999046325684
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          3,
+          6
+        ],
+        "notation": "F4->G5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6499999761581421
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "notation": "F4->E3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              6,
+              3
+            ],
+            "notation": "B2->D2",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              3
+            ],
+            "to": [
+              5,
+              4
+            ],
+            "notation": "D2->E3",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.0
+      },
+      {
+        "fr": [
+          4,
+          5
+        ],
+        "to": [
+          5,
+          6
+        ],
+        "notation": "F4->G3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6499999761581421
+      }
+    ]
+  },
+  {
+    "match": "match-4674",
+    "action": 30,
+    "chosen": "C5->E5",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 21,
+    "total": 24,
+    "alternatives": [
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          2,
+          2
+        ],
+        "notation": "C5->C6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.800000011920929
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          1,
+          2
+        ],
+        "notation": "C5->C7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "notation": "C5->C4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.10000002384185791
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "C5->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.100000023841858
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          1
+        ],
+        "notation": "C5->B5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          0
+        ],
+        "notation": "C5->A5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "C5->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.5000000596046448
+      },
+      {
+        "fr": [
+          3,
+          2
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "C5->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.2000000476837158
+      },
+      {
+        "fr": [
+          5,
+          0
+        ],
+        "to": [
+          4,
+          0
+        ],
+        "notation": "A3->A4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          5,
+          0
+        ],
+        "to": [
+          6,
+          0
+        ],
+        "notation": "A3->A2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.30000001192092896
+      },
+      {
+        "fr": [
+          5,
+          0
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "notation": "A3->B3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "notation": "B2->B3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          6,
+          0
+        ],
+        "notation": "B2->A2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "E6->E7",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              1,
+              4
+            ],
+            "to": [
+              0,
+              4
+            ],
+            "notation": "E7->E8",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.30000001192092896
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          6,
+          2
+        ],
+        "notation": "B2->C2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "B2->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "E6->E5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              4
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "E5->C3",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.100000023841858
+      },
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          7,
+          0
+        ],
+        "notation": "B2->A1",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "E6->E7",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              1,
+              4
+            ],
+            "to": [
+              0,
+              4
+            ],
+            "notation": "E7->E8",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.30000001192092896
+      },
+      {
+        "fr": [
+          7,
+          1
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "B1->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.100000023841858
+      },
+      {
+        "fr": [
+          7,
+          1
+        ],
+        "to": [
+          6,
+          3
+        ],
+        "notation": "B1->D2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          6,
+          2
+        ],
+        "notation": "C1->C2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "C1->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.100000023841858
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "notation": "C1->C4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": -1.2999999523162842
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          3
+        ],
+        "notation": "C1->D1",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          4
+        ],
+        "notation": "C1->E1",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          7,
+          2
+        ],
+        "to": [
+          7,
+          5
+        ],
+        "notation": "C1->F1",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.0
+      }
+    ]
+  },
+  {
+    "match": "match-4674",
+    "action": 34,
+    "chosen": "C2->D3",
+    "chosen_allows_win": true,
+    "witness": [
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "notation": "E5->E4",
+        "kind": "move"
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          5,
+          3
+        ],
+        "notation": "E4->D3",
+        "kind": "move"
+      }
+    ],
+    "safe_count": 3,
+    "total": 5,
+    "alternatives": [
+      {
+        "fr": [
+          6,
+          2
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "C2->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              3,
+              4
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "E5->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "D4->C3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          6,
+          2
+        ],
+        "to": [
+          6,
+          1
+        ],
+        "notation": "C2->B2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.3500000238418579
+      },
+      {
+        "fr": [
+          6,
+          2
+        ],
+        "to": [
+          6,
+          3
+        ],
+        "notation": "C2->D2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.3500000238418579
+      },
+      {
+        "fr": [
+          6,
+          2
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "notation": "C2->B3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.3500000238418579
+      },
+      {
+        "fr": [
+          6,
+          2
+        ],
+        "to": [
+          5,
+          3
+        ],
+        "notation": "C2->D3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              3,
+              4
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "E5->E4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              4
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "E4->D3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.4000000059604645
+      }
+    ]
+  },
+  {
+    "match": "match-4674",
+    "action": 38,
+    "chosen": "D4->C5",
+    "chosen_allows_win": true,
+    "witness": [
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          1,
+          4
+        ],
+        "notation": "E6->E7",
+        "kind": "move"
+      },
+      {
+        "fr": [
+          1,
+          4
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "notation": "E7->C5",
+        "kind": "move"
+      }
+    ],
+    "safe_count": 0,
+    "total": 8,
+    "alternatives": [
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "D4->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "E6->E4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              4
+            ],
+            "to": [
+              3,
+              3
+            ],
+            "notation": "E4->D5",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.5999999046325684
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ],
+        "notation": "D4->D3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "E6->E4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              4
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "E4->D3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.5
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "notation": "D4->C4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "E6->C4",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.6999998092651367
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "notation": "D4->E4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              2,
+              2
+            ],
+            "notation": "E6->C6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C6->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.6000000238418579
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "notation": "D4->C5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "E6->E7",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              1,
+              4
+            ],
+            "to": [
+              3,
+              2
+            ],
+            "notation": "E7->C5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.5
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "D4->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "E6->D6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D6->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.6000000238418579
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "D4->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              2,
+              4
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "E6->E5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              4
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "E5->C3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.5
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "notation": "D4->E3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              3,
+              6
+            ],
+            "to": [
+              4,
+              5
+            ],
+            "notation": "G5->F4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              5
+            ],
+            "to": [
+              5,
+              4
+            ],
+            "notation": "F4->E3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.5
+      }
+    ]
+  },
+  {
+    "match": "match-4733",
+    "action": 16,
+    "chosen": "F7->F5",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 6,
+    "total": 28,
+    "alternatives": [
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "notation": "F8->E8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "notation": "F8->D8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          2
+        ],
+        "notation": "F8->C8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          6
+        ],
+        "notation": "F8->G8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "notation": "F8->H8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "F7->F6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "F7->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          4
+        ],
+        "notation": "F7->E7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.20000000298023224
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          3
+        ],
+        "notation": "F7->D7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.20000000298023224
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "F7->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.20000000298023224
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          1,
+          7
+        ],
+        "notation": "F7->H7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "notation": "F7->E8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          0,
+          6
+        ],
+        "notation": "F7->G8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          2,
+          4
+        ],
+        "notation": "F7->E6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "F7->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.9000000357627869
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "F7->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.20000000298023224
+      },
+      {
+        "fr": [
+          1,
+          5
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "F7->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          1,
+          7
+        ],
+        "notation": "H6->H7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "H6->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "H6->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.20000000298023224
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          2,
+          4
+        ],
+        "notation": "E5->E6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "notation": "E5->E4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C2->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.299999713897705
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "E5->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              5,
+              1
+            ],
+            "notation": "B4->B3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              1
+            ],
+            "to": [
+              3,
+              3
+            ],
+            "notation": "B3->D5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.9000000357627869
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "E5->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              2
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "C2->D3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              3
+            ],
+            "to": [
+              3,
+              5
+            ],
+            "notation": "D3->F5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          2,
+          3
+        ],
+        "notation": "E5->D6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              0
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "A3->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": -3.499999761581421
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "E5->F6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          3
+        ],
+        "notation": "E5->D4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              1
+            ],
+            "notation": "B4->B6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B6->D4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.9000000357627869
+      },
+      {
+        "fr": [
+          3,
+          4
+        ],
+        "to": [
+          4,
+          5
+        ],
+        "notation": "E5->F4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              2
+            ],
+            "to": [
+              6,
+              3
+            ],
+            "notation": "C2->D2",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              3
+            ],
+            "to": [
+              4,
+              5
+            ],
+            "notation": "D2->F4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.7000000476837158
+      }
+    ]
+  },
+  {
+    "match": "match-4733",
+    "action": 20,
+    "chosen": "F8->F5",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 1,
+    "total": 19,
+    "alternatives": [
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          1,
+          5
+        ],
+        "notation": "F8->F7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.25
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "F8->F6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.5
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "F8->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.800000011920929
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "notation": "F8->E8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "notation": "F8->D8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          2
+        ],
+        "notation": "F8->C8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          6
+        ],
+        "notation": "F8->G8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          5
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "notation": "F8->H8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          1,
+          7
+        ],
+        "notation": "H6->H7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "H6->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "H6->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C4->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.25
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "E4->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "C3->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.1499998569488525
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "notation": "E4->E3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              5,
+              4
+            ],
+            "notation": "C3->E3",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.3999998569488525
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          4,
+          3
+        ],
+        "notation": "E4->D4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "C3->D4",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.1499998569488525
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          4,
+          5
+        ],
+        "notation": "E4->F4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              5,
+              4
+            ],
+            "notation": "C3->E3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              4
+            ],
+            "to": [
+              4,
+              5
+            ],
+            "notation": "E3->F4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.800000011920929
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "E4->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              5,
+              1
+            ],
+            "notation": "B4->B3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              1
+            ],
+            "to": [
+              3,
+              3
+            ],
+            "notation": "B3->D5",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.0499999523162842
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "E4->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "C3->D3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              3
+            ],
+            "to": [
+              3,
+              5
+            ],
+            "notation": "D3->F5",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.800000011920929
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          5,
+          3
+        ],
+        "notation": "E4->D3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              1
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "B5->D3",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.3999998569488525
+      },
+      {
+        "fr": [
+          4,
+          4
+        ],
+        "to": [
+          5,
+          5
+        ],
+        "notation": "E4->F3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "C3->D3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              3
+            ],
+            "to": [
+              5,
+              5
+            ],
+            "notation": "D3->F3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.800000011920929
+      }
+    ]
+  },
+  {
+    "match": "match-4733",
+    "action": 24,
+    "chosen": "D4->D5",
+    "chosen_allows_win": true,
+    "witness": [
+      {
+        "fr": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "notation": "B4->B3",
+        "kind": "move"
+      },
+      {
+        "fr": [
+          5,
+          1
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "B3->D5",
+        "kind": "move"
+      }
+    ],
+    "safe_count": 0,
+    "total": 11,
+    "alternatives": [
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          1,
+          7
+        ],
+        "notation": "H6->H7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              1
+            ],
+            "notation": "B4->B6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B6->D4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "H6->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              1
+            ],
+            "notation": "B4->B6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B6->D4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          7
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "H6->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              1
+            ],
+            "notation": "B4->B6",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              2,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B6->D4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.30000001192092896
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "D4->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              5,
+              1
+            ],
+            "notation": "B4->B3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              1
+            ],
+            "to": [
+              3,
+              3
+            ],
+            "notation": "B3->D5",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.2000000476837158
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          3
+        ],
+        "notation": "D4->D3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              1
+            ],
+            "to": [
+              5,
+              3
+            ],
+            "notation": "B5->D3",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.299999713897705
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "notation": "D4->C4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              1
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "B5->C4",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.299999713897705
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "notation": "D4->E4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              2
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "notation": "C2->E4",
+            "kind": "move"
+          }
+        ],
+        "prior": -2.999999761581421
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "notation": "D4->C5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              0
+            ],
+            "to": [
+              3,
+              2
+            ],
+            "notation": "A3->C5",
+            "kind": "shoot"
+          }
+        ],
+        "prior": -3.299999713897705
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "D4->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "D4->E5",
+            "kind": "move"
+          }
+        ],
+        "prior": 1.2000000476837158
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          2
+        ],
+        "notation": "D4->C3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "notation": "B4->B5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "B2->C3",
+            "kind": "move"
+          }
+        ],
+        "prior": -3.299999713897705
+      },
+      {
+        "fr": [
+          4,
+          3
+        ],
+        "to": [
+          5,
+          4
+        ],
+        "notation": "D4->E3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "B4->D4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              3
+            ],
+            "to": [
+              5,
+              4
+            ],
+            "notation": "D4->E3",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.9000000357627869
+      }
+    ]
+  },
+  {
+    "match": "match-4887",
+    "action": 28,
+    "chosen": "E6->D6",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 4,
+    "total": 15,
+    "alternatives": [
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "G8->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.3499999940395355
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "G8->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.3499999940395355
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          3,
+          6
+        ],
+        "notation": "G8->G5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.3499999940395355
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          5
+        ],
+        "notation": "G8->F8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          4
+        ],
+        "notation": "G8->E8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          3
+        ],
+        "notation": "G8->D8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          0,
+          6
+        ],
+        "to": [
+          0,
+          7
+        ],
+        "notation": "G8->H8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "C3->C4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          1,
+          4
+        ],
+        "notation": "E6->E7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6499999761581421
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "E6->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "C3->E5",
+            "kind": "shoot"
+          }
+        ],
+        "prior": -2.8499999046325684
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          2,
+          3
+        ],
+        "notation": "E6->D6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.0
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          2,
+          5
+        ],
+        "notation": "E6->F6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              2,
+              5
+            ],
+            "notation": "C3->F6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": -3.1999998092651367
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          1,
+          3
+        ],
+        "notation": "E6->D7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6499999761581421
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          1,
+          5
+        ],
+        "notation": "E6->F7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.6499999761581421
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "E6->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              5,
+              1
+            ],
+            "notation": "C3->B3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              1
+            ],
+            "to": [
+              3,
+              3
+            ],
+            "notation": "B3->D5",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 1.3499999046325684
+      },
+      {
+        "fr": [
+          2,
+          4
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "E6->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              6,
+              2
+            ],
+            "notation": "C3->C2",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              6,
+              2
+            ],
+            "to": [
+              3,
+              5
+            ],
+            "notation": "C2->F5",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 1.0
+      }
+    ]
+  },
+  {
+    "match": "match-4887",
+    "action": 32,
+    "chosen": "G5->D5",
+    "chosen_allows_win": false,
+    "witness": null,
+    "safe_count": 7,
+    "total": 18,
+    "alternatives": [
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          1,
+          3
+        ],
+        "notation": "D6->D7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "D6->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.5
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          2,
+          2
+        ],
+        "notation": "D6->C6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.100000023841858
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          2,
+          4
+        ],
+        "notation": "D6->E6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "C4->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": -3.0999999046325684
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          1,
+          2
+        ],
+        "notation": "D6->C7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          1,
+          4
+        ],
+        "notation": "D6->E7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              3,
+              2
+            ],
+            "notation": "C4->C5",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              3,
+              2
+            ],
+            "to": [
+              1,
+              4
+            ],
+            "notation": "C5->E7",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.7000000476837158
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "notation": "D6->C5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.100000023841858
+      },
+      {
+        "fr": [
+          2,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "D6->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "C4->C3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              3,
+              4
+            ],
+            "notation": "C3->E5",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 1.5
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          2,
+          6
+        ],
+        "notation": "G5->G6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          1,
+          6
+        ],
+        "notation": "G5->G7",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          0,
+          6
+        ],
+        "notation": "G5->G8",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.0
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          4,
+          6
+        ],
+        "notation": "G5->G4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          5,
+          6
+        ],
+        "notation": "G5->G3",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          6,
+          6
+        ],
+        "notation": "G5->G2",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          5
+        ],
+        "notation": "G5->F5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.800000011920929
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "G5->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.5
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          3
+        ],
+        "notation": "G5->D5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 1.5
+      },
+      {
+        "fr": [
+          3,
+          6
+        ],
+        "to": [
+          3,
+          7
+        ],
+        "notation": "G5->H5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              2
+            ],
+            "to": [
+              4,
+              1
+            ],
+            "notation": "C4->B4",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.0
+      }
+    ]
+  },
+  {
+    "match": "match-4887",
+    "action": 36,
+    "chosen": "D5->C4",
+    "chosen_allows_win": true,
+    "witness": [
+      {
+        "fr": [
+          6,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "notation": "B2->B3",
+        "kind": "move"
+      },
+      {
+        "fr": [
+          5,
+          1
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "notation": "B3->C4",
+        "kind": "move"
+      }
+    ],
+    "safe_count": 4,
+    "total": 8,
+    "alternatives": [
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          2,
+          3
+        ],
+        "notation": "D5->D6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              2,
+              3
+            ],
+            "notation": "B4->D6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": -3.799999713897705
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          3
+        ],
+        "notation": "D5->D4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              5,
+              2
+            ],
+            "notation": "B2->C3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              2
+            ],
+            "to": [
+              4,
+              3
+            ],
+            "notation": "C3->D4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.45000001788139343
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          3,
+          2
+        ],
+        "notation": "D5->C5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          3,
+          4
+        ],
+        "notation": "D5->E5",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.45000001788139343
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          2,
+          2
+        ],
+        "notation": "D5->C6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          2,
+          4
+        ],
+        "notation": "D5->E6",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              4,
+              1
+            ],
+            "to": [
+              5,
+              1
+            ],
+            "notation": "B4->B3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              1
+            ],
+            "to": [
+              2,
+              4
+            ],
+            "notation": "B3->E6",
+            "kind": "shoot"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          2
+        ],
+        "notation": "D5->C4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": true,
+        "witness": [
+          {
+            "fr": [
+              6,
+              1
+            ],
+            "to": [
+              5,
+              1
+            ],
+            "notation": "B2->B3",
+            "kind": "move"
+          },
+          {
+            "fr": [
+              5,
+              1
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "notation": "B3->C4",
+            "kind": "move"
+          }
+        ],
+        "prior": 0.4000000059604645
+      },
+      {
+        "fr": [
+          3,
+          3
+        ],
+        "to": [
+          4,
+          4
+        ],
+        "notation": "D5->E4",
+        "kind": "move",
+        "allows_opponent_win_this_turn": false,
+        "witness": null,
+        "prior": 0.45000001788139343
+      }
+    ]
+  }
+]

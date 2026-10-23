@@ -1,0 +1,3692 @@
+{
+  "status": "PASS",
+  "states": 121,
+  "diagnostic_states": 55,
+  "reachable_states": 66,
+  "random_sampling_transitions": 192,
+  "any_win_states": 39,
+  "enumerated_action_branches": 40870,
+  "env_replayed_positive_witnesses": 274,
+  "direct_env_all_branches_checked": "all diagnostic states",
+  "elapsed_seconds": 0.578,
+  "meaning": "Exact existence of terminal win within remaining own actions; false means UNKNOWN beyond this turn.",
+  "cases": [
+    {
+      "name": "CYAN_PING_approach_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 10,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_PING_approach_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2657
+      ],
+      "witnesses": {
+        "2657": {
+          "actions": [
+            2657,
+            2131
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 10,
+      "second_actions": 108
+    },
+    {
+      "name": "CYAN_DAEMON_approach_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 12,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_DAEMON_approach_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2641,
+        2667
+      ],
+      "witnesses": {
+        "2641": {
+          "actions": [
+            2641,
+            1107
+          ],
+          "reason": "kernel_capture"
+        },
+        "2667": {
+          "actions": [
+            2667,
+            2771
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 12,
+      "second_actions": 155
+    },
+    {
+      "name": "CYAN_EXPLOIT_approach_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 7,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_EXPLOIT_approach_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        3168,
+        3170
+      ],
+      "witnesses": {
+        "3168": {
+          "actions": [
+            3168,
+            2065
+          ],
+          "reason": "kernel_capture"
+        },
+        "3170": {
+          "actions": [
+            3170,
+            2193
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 7,
+      "second_actions": 66
+    },
+    {
+      "name": "CYAN_TRACE_approach_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 7,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_TRACE_approach_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2657,
+        2664
+      ],
+      "witnesses": {
+        "2657": {
+          "actions": [
+            2657,
+            2131
+          ],
+          "reason": "kernel_capture"
+        },
+        "2664": {
+          "actions": [
+            2664,
+            2579
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 7,
+      "second_actions": 59
+    },
+    {
+      "name": "CYAN_ICE_approach_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 14,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_ICE_approach_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        3169,
+        3171
+      ],
+      "witnesses": {
+        "3169": {
+          "actions": [
+            3169,
+            2131
+          ],
+          "reason": "kernel_capture"
+        },
+        "3171": {
+          "actions": [
+            3171,
+            2259
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 14,
+      "second_actions": 210
+    },
+    {
+      "name": "CYAN_KERNEL_approach_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 8,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_KERNEL_approach_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2658
+      ],
+      "witnesses": {
+        "2658": {
+          "actions": [
+            2658,
+            2203
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 55
+    },
+    {
+      "name": "CYAN_guardredirect_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 10,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_stationary_guard_shot_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 10,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_trace_adjacent_block_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 5,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_vacated_source_ray_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1752
+      ],
+      "witnesses": {
+        "1752": {
+          "actions": [
+            1752
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 15,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_locked_2x2_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 25,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 4,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_bare_close_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1748,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "witnesses": {
+        "1763": {
+          "actions": [
+            1763
+          ],
+          "reason": "bare_kernels"
+        },
+        "1756": {
+          "actions": [
+            1756
+          ],
+          "reason": "bare_kernels"
+        },
+        "1748": {
+          "actions": [
+            1748
+          ],
+          "reason": "bare_kernels"
+        },
+        "1762": {
+          "actions": [
+            1762
+          ],
+          "reason": "bare_kernels"
+        },
+        "1764": {
+          "actions": [
+            1764
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_bare_far_left1",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1746,
+        1747,
+        1748,
+        1754,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "witnesses": {
+        "1747": {
+          "actions": [
+            1747
+          ],
+          "reason": "bare_kernels"
+        },
+        "1763": {
+          "actions": [
+            1763
+          ],
+          "reason": "bare_kernels"
+        },
+        "1754": {
+          "actions": [
+            1754
+          ],
+          "reason": "bare_kernels"
+        },
+        "1756": {
+          "actions": [
+            1756
+          ],
+          "reason": "bare_kernels"
+        },
+        "1746": {
+          "actions": [
+            1746
+          ],
+          "reason": "bare_kernels"
+        },
+        "1748": {
+          "actions": [
+            1748
+          ],
+          "reason": "bare_kernels"
+        },
+        "1762": {
+          "actions": [
+            1762
+          ],
+          "reason": "bare_kernels"
+        },
+        "1764": {
+          "actions": [
+            1764
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 0
+    },
+    {
+      "name": "CYAN_guardredirect_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        603
+      ],
+      "witnesses": {
+        "603": {
+          "actions": [
+            603,
+            603
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 10,
+      "second_actions": 103
+    },
+    {
+      "name": "CYAN_stationary_guard_shot_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1682,
+        1691
+      ],
+      "witnesses": {
+        "1682": {
+          "actions": [
+            1682,
+            1691
+          ],
+          "reason": "kernel_capture"
+        },
+        "1691": {
+          "actions": [
+            1691,
+            1691
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 10,
+      "second_actions": 127
+    },
+    {
+      "name": "CYAN_trace_adjacent_block_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 5,
+      "second_actions": 34
+    },
+    {
+      "name": "CYAN_vacated_source_ray_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1752,
+        1753,
+        1754,
+        4086,
+        4087,
+        4094
+      ],
+      "witnesses": {
+        "1754": {
+          "actions": [
+            1754,
+            1688
+          ],
+          "reason": "kernel_capture"
+        },
+        "1753": {
+          "actions": [
+            1753,
+            1624
+          ],
+          "reason": "kernel_capture"
+        },
+        "1752": {
+          "actions": [
+            1752
+          ],
+          "reason": "kernel_capture"
+        },
+        "4087": {
+          "actions": [
+            4087,
+            1752
+          ],
+          "reason": "kernel_capture"
+        },
+        "4094": {
+          "actions": [
+            4094,
+            1752
+          ],
+          "reason": "kernel_capture"
+        },
+        "4086": {
+          "actions": [
+            4086,
+            1752
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 15,
+      "second_actions": 204
+    },
+    {
+      "name": "CYAN_locked_2x2_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 25,
+      "any_win": true,
+      "winning_first_actions": [
+        1756,
+        1764,
+        2268,
+        2276
+      ],
+      "witnesses": {
+        "1756": {
+          "actions": [
+            1756,
+            1828
+          ],
+          "reason": "kernel_capture"
+        },
+        "1764": {
+          "actions": [
+            1764,
+            1764
+          ],
+          "reason": "kernel_capture"
+        },
+        "2276": {
+          "actions": [
+            2276,
+            1764
+          ],
+          "reason": "kernel_capture"
+        },
+        "2268": {
+          "actions": [
+            2268,
+            1764
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 4,
+      "second_actions": 13
+    },
+    {
+      "name": "CYAN_bare_close_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1746,
+        1747,
+        1748,
+        1754,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "witnesses": {
+        "1747": {
+          "actions": [
+            1747,
+            1236
+          ],
+          "reason": "bare_kernels"
+        },
+        "1763": {
+          "actions": [
+            1763,
+            2283
+          ],
+          "reason": "bare_kernels"
+        },
+        "1754": {
+          "actions": [
+            1754,
+            1698
+          ],
+          "reason": "bare_kernels"
+        },
+        "1756": {
+          "actions": [
+            1756,
+            1812
+          ],
+          "reason": "bare_kernels"
+        },
+        "1746": {
+          "actions": [
+            1746,
+            1161
+          ],
+          "reason": "kernel_capture"
+        },
+        "1748": {
+          "actions": [
+            1748,
+            1308
+          ],
+          "reason": "bare_kernels"
+        },
+        "1762": {
+          "actions": [
+            1762,
+            2218
+          ],
+          "reason": "bare_kernels"
+        },
+        "1764": {
+          "actions": [
+            1764,
+            2332
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 64
+    },
+    {
+      "name": "CYAN_bare_far_left2",
+      "origin": "diagnostic",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1746,
+        1747,
+        1748,
+        1754,
+        1756,
+        1762,
+        1763,
+        1764
+      ],
+      "witnesses": {
+        "1747": {
+          "actions": [
+            1747,
+            1227
+          ],
+          "reason": "bare_kernels"
+        },
+        "1763": {
+          "actions": [
+            1763,
+            2267
+          ],
+          "reason": "bare_kernels"
+        },
+        "1754": {
+          "actions": [
+            1754,
+            1682
+          ],
+          "reason": "bare_kernels"
+        },
+        "1756": {
+          "actions": [
+            1756,
+            1812
+          ],
+          "reason": "bare_kernels"
+        },
+        "1746": {
+          "actions": [
+            1746,
+            1162
+          ],
+          "reason": "bare_kernels"
+        },
+        "1748": {
+          "actions": [
+            1748,
+            1292
+          ],
+          "reason": "bare_kernels"
+        },
+        "1762": {
+          "actions": [
+            1762,
+            2202
+          ],
+          "reason": "bare_kernels"
+        },
+        "1764": {
+          "actions": [
+            1764,
+            2332
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 64
+    },
+    {
+      "name": "MAGENTA_PING_approach_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 10,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_PING_approach_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1438
+      ],
+      "witnesses": {
+        "1438": {
+          "actions": [
+            1438,
+            1964
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 10,
+      "second_actions": 108
+    },
+    {
+      "name": "MAGENTA_DAEMON_approach_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 12,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_DAEMON_approach_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1428,
+        1454
+      ],
+      "witnesses": {
+        "1454": {
+          "actions": [
+            1454,
+            2988
+          ],
+          "reason": "kernel_capture"
+        },
+        "1428": {
+          "actions": [
+            1428,
+            1324
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 12,
+      "second_actions": 155
+    },
+    {
+      "name": "MAGENTA_EXPLOIT_approach_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 7,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_EXPLOIT_approach_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        925,
+        927
+      ],
+      "witnesses": {
+        "927": {
+          "actions": [
+            927,
+            2030
+          ],
+          "reason": "kernel_capture"
+        },
+        "925": {
+          "actions": [
+            925,
+            1902
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 7,
+      "second_actions": 66
+    },
+    {
+      "name": "MAGENTA_TRACE_approach_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 7,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_TRACE_approach_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1431,
+        1438
+      ],
+      "witnesses": {
+        "1438": {
+          "actions": [
+            1438,
+            1964
+          ],
+          "reason": "kernel_capture"
+        },
+        "1431": {
+          "actions": [
+            1431,
+            1516
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 7,
+      "second_actions": 59
+    },
+    {
+      "name": "MAGENTA_ICE_approach_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 14,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_ICE_approach_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        924,
+        926
+      ],
+      "witnesses": {
+        "926": {
+          "actions": [
+            926,
+            1964
+          ],
+          "reason": "kernel_capture"
+        },
+        "924": {
+          "actions": [
+            924,
+            1836
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 14,
+      "second_actions": 210
+    },
+    {
+      "name": "MAGENTA_KERNEL_approach_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 8,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_KERNEL_approach_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1437
+      ],
+      "witnesses": {
+        "1437": {
+          "actions": [
+            1437,
+            1892
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 55
+    },
+    {
+      "name": "MAGENTA_guardredirect_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 10,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_stationary_guard_shot_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 10,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_trace_adjacent_block_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 5,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_vacated_source_ray_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2343
+      ],
+      "witnesses": {
+        "2343": {
+          "actions": [
+            2343
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 15,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_locked_2x2_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 25,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 4,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_bare_close_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2347
+      ],
+      "witnesses": {
+        "2332": {
+          "actions": [
+            2332
+          ],
+          "reason": "bare_kernels"
+        },
+        "2339": {
+          "actions": [
+            2339
+          ],
+          "reason": "bare_kernels"
+        },
+        "2347": {
+          "actions": [
+            2347
+          ],
+          "reason": "bare_kernels"
+        },
+        "2333": {
+          "actions": [
+            2333
+          ],
+          "reason": "bare_kernels"
+        },
+        "2331": {
+          "actions": [
+            2331
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_bare_far_left1",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2341,
+        2347,
+        2348,
+        2349
+      ],
+      "witnesses": {
+        "2348": {
+          "actions": [
+            2348
+          ],
+          "reason": "bare_kernels"
+        },
+        "2332": {
+          "actions": [
+            2332
+          ],
+          "reason": "bare_kernels"
+        },
+        "2341": {
+          "actions": [
+            2341
+          ],
+          "reason": "bare_kernels"
+        },
+        "2339": {
+          "actions": [
+            2339
+          ],
+          "reason": "bare_kernels"
+        },
+        "2349": {
+          "actions": [
+            2349
+          ],
+          "reason": "bare_kernels"
+        },
+        "2347": {
+          "actions": [
+            2347
+          ],
+          "reason": "bare_kernels"
+        },
+        "2333": {
+          "actions": [
+            2333
+          ],
+          "reason": "bare_kernels"
+        },
+        "2331": {
+          "actions": [
+            2331
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 0
+    },
+    {
+      "name": "MAGENTA_guardredirect_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        3492
+      ],
+      "witnesses": {
+        "3492": {
+          "actions": [
+            3492,
+            3492
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 10,
+      "second_actions": 103
+    },
+    {
+      "name": "MAGENTA_stationary_guard_shot_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2404,
+        2413
+      ],
+      "witnesses": {
+        "2413": {
+          "actions": [
+            2413,
+            2404
+          ],
+          "reason": "kernel_capture"
+        },
+        "2404": {
+          "actions": [
+            2404,
+            2404
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 10,
+      "second_actions": 127
+    },
+    {
+      "name": "MAGENTA_trace_adjacent_block_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 5,
+      "second_actions": 34
+    },
+    {
+      "name": "MAGENTA_vacated_source_ray_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        1,
+        8,
+        9,
+        2341,
+        2342,
+        2343
+      ],
+      "witnesses": {
+        "2341": {
+          "actions": [
+            2341,
+            2407
+          ],
+          "reason": "kernel_capture"
+        },
+        "2342": {
+          "actions": [
+            2342,
+            2471
+          ],
+          "reason": "kernel_capture"
+        },
+        "2343": {
+          "actions": [
+            2343
+          ],
+          "reason": "kernel_capture"
+        },
+        "8": {
+          "actions": [
+            8,
+            2343
+          ],
+          "reason": "kernel_capture"
+        },
+        "1": {
+          "actions": [
+            1,
+            2343
+          ],
+          "reason": "kernel_capture"
+        },
+        "9": {
+          "actions": [
+            9,
+            2343
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 15,
+      "second_actions": 204
+    },
+    {
+      "name": "MAGENTA_locked_2x2_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 25,
+      "any_win": true,
+      "winning_first_actions": [
+        1819,
+        1827,
+        2331,
+        2339
+      ],
+      "witnesses": {
+        "2339": {
+          "actions": [
+            2339,
+            2267
+          ],
+          "reason": "kernel_capture"
+        },
+        "2331": {
+          "actions": [
+            2331,
+            2331
+          ],
+          "reason": "kernel_capture"
+        },
+        "1819": {
+          "actions": [
+            1819,
+            2331
+          ],
+          "reason": "kernel_capture"
+        },
+        "1827": {
+          "actions": [
+            1827,
+            2331
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 4,
+      "second_actions": 13
+    },
+    {
+      "name": "MAGENTA_bare_close_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2341,
+        2347,
+        2348,
+        2349
+      ],
+      "witnesses": {
+        "2348": {
+          "actions": [
+            2348,
+            2859
+          ],
+          "reason": "bare_kernels"
+        },
+        "2332": {
+          "actions": [
+            2332,
+            1812
+          ],
+          "reason": "bare_kernels"
+        },
+        "2341": {
+          "actions": [
+            2341,
+            2397
+          ],
+          "reason": "bare_kernels"
+        },
+        "2339": {
+          "actions": [
+            2339,
+            2283
+          ],
+          "reason": "bare_kernels"
+        },
+        "2349": {
+          "actions": [
+            2349,
+            2934
+          ],
+          "reason": "kernel_capture"
+        },
+        "2347": {
+          "actions": [
+            2347,
+            2803
+          ],
+          "reason": "bare_kernels"
+        },
+        "2333": {
+          "actions": [
+            2333,
+            1877
+          ],
+          "reason": "bare_kernels"
+        },
+        "2331": {
+          "actions": [
+            2331,
+            1763
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 64
+    },
+    {
+      "name": "MAGENTA_bare_far_left2",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": true,
+      "winning_first_actions": [
+        2331,
+        2332,
+        2333,
+        2339,
+        2341,
+        2347,
+        2348,
+        2349
+      ],
+      "witnesses": {
+        "2348": {
+          "actions": [
+            2348,
+            2868
+          ],
+          "reason": "bare_kernels"
+        },
+        "2332": {
+          "actions": [
+            2332,
+            1828
+          ],
+          "reason": "bare_kernels"
+        },
+        "2341": {
+          "actions": [
+            2341,
+            2413
+          ],
+          "reason": "bare_kernels"
+        },
+        "2339": {
+          "actions": [
+            2339,
+            2283
+          ],
+          "reason": "bare_kernels"
+        },
+        "2349": {
+          "actions": [
+            2349,
+            2933
+          ],
+          "reason": "bare_kernels"
+        },
+        "2347": {
+          "actions": [
+            2347,
+            2803
+          ],
+          "reason": "bare_kernels"
+        },
+        "2333": {
+          "actions": [
+            2333,
+            1893
+          ],
+          "reason": "bare_kernels"
+        },
+        "2331": {
+          "actions": [
+            2331,
+            1763
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 8,
+      "second_actions": 64
+    },
+    {
+      "name": "Magenta_simultaneous_burn",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        1739,
+        1747,
+        1753,
+        1754,
+        1756,
+        1757,
+        1763,
+        1771,
+        3632,
+        3633,
+        3641
+      ],
+      "witnesses": {
+        "3632": {
+          "actions": [
+            3632
+          ],
+          "reason": "firewall_both"
+        },
+        "3641": {
+          "actions": [
+            3641
+          ],
+          "reason": "firewall_both"
+        },
+        "3633": {
+          "actions": [
+            3633
+          ],
+          "reason": "firewall_one"
+        },
+        "1763": {
+          "actions": [
+            1763
+          ],
+          "reason": "firewall_both"
+        },
+        "1771": {
+          "actions": [
+            1771
+          ],
+          "reason": "firewall_both"
+        },
+        "1747": {
+          "actions": [
+            1747
+          ],
+          "reason": "firewall_both"
+        },
+        "1739": {
+          "actions": [
+            1739
+          ],
+          "reason": "firewall_both"
+        },
+        "1756": {
+          "actions": [
+            1756
+          ],
+          "reason": "firewall_both"
+        },
+        "1757": {
+          "actions": [
+            1757
+          ],
+          "reason": "firewall_both"
+        },
+        "1754": {
+          "actions": [
+            1754
+          ],
+          "reason": "firewall_both"
+        },
+        "1753": {
+          "actions": [
+            1753
+          ],
+          "reason": "firewall_both"
+        }
+      },
+      "first_actions": 11,
+      "second_actions": 0
+    },
+    {
+      "name": "Magenta_only_own_burn",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        1764
+      ],
+      "witnesses": {
+        "1764": {
+          "actions": [
+            1764
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 12,
+      "second_actions": 0
+    },
+    {
+      "name": "bare_preempts_both_burn",
+      "origin": "diagnostic",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        3891,
+        3892,
+        3899
+      ],
+      "witnesses": {
+        "3892": {
+          "actions": [
+            3892
+          ],
+          "reason": "bare_kernels"
+        },
+        "3899": {
+          "actions": [
+            3899
+          ],
+          "reason": "bare_kernels"
+        },
+        "3891": {
+          "actions": [
+            3891
+          ],
+          "reason": "bare_kernels"
+        }
+      },
+      "first_actions": 5,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed0_step0",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed0_step3",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed0_step6",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 2,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 26,
+      "second_actions": 687
+    },
+    {
+      "name": "reachable_seed0_step9",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 3,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 25,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed0_step12",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 25,
+      "second_actions": 679
+    },
+    {
+      "name": "reachable_seed0_step15",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 32,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed0_step18",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 5,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 25,
+      "second_actions": 685
+    },
+    {
+      "name": "reachable_seed0_step21",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 6,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 40,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed0_step24",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 43,
+      "second_actions": 1811
+    },
+    {
+      "name": "reachable_seed0_step27",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed0_step30",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 8,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 20,
+      "second_actions": 440
+    },
+    {
+      "name": "reachable_seed1_step0",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed1_step3",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 32,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed1_step6",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 2,
+      "any_win": true,
+      "winning_first_actions": [
+        2261
+      ],
+      "witnesses": {
+        "2261": {
+          "actions": [
+            2261,
+            1351
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      "first_actions": 40,
+      "second_actions": 1568
+    },
+    {
+      "name": "reachable_seed1_step9",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 3,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 32,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed1_step12",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 35,
+      "second_actions": 1218
+    },
+    {
+      "name": "reachable_seed1_step15",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 43,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed1_step18",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 5,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 41,
+      "second_actions": 1652
+    },
+    {
+      "name": "reachable_seed1_step21",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 6,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed1_step24",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 28,
+      "second_actions": 835
+    },
+    {
+      "name": "reachable_seed1_step27",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 42,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed1_step30",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        1152,
+        1154,
+        1156,
+        1161,
+        1162,
+        1163,
+        1168,
+        1169,
+        1171,
+        1172,
+        1177,
+        1179,
+        1184,
+        1188,
+        1688,
+        1689,
+        1691,
+        1692,
+        1693,
+        1698,
+        1706,
+        1714,
+        2259,
+        2267,
+        2273,
+        2274,
+        2283,
+        2291,
+        2592,
+        2601,
+        2608,
+        3696,
+        3697,
+        3698,
+        3704,
+        3706
+      ],
+      "witnesses": {
+        "3697": {
+          "actions": [
+            3697,
+            3193
+          ],
+          "reason": "firewall_both"
+        },
+        "3706": {
+          "actions": [
+            3706,
+            3762
+          ],
+          "reason": "firewall_one"
+        },
+        "3704": {
+          "actions": [
+            3704,
+            3632
+          ],
+          "reason": "firewall_both"
+        },
+        "3698": {
+          "actions": [
+            3698,
+            3258
+          ],
+          "reason": "firewall_both"
+        },
+        "3696": {
+          "actions": [
+            3696,
+            3128
+          ],
+          "reason": "firewall_both"
+        },
+        "2608": {
+          "actions": [
+            2608,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2592": {
+          "actions": [
+            2592,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2601": {
+          "actions": [
+            2601,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2283": {
+          "actions": [
+            2283,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2291": {
+          "actions": [
+            2291,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2267": {
+          "actions": [
+            2267,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2259": {
+          "actions": [
+            2259,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2274": {
+          "actions": [
+            2274,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "2273": {
+          "actions": [
+            2273,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1698": {
+          "actions": [
+            1698,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1706": {
+          "actions": [
+            1706,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1714": {
+          "actions": [
+            1714,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1691": {
+          "actions": [
+            1691,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1692": {
+          "actions": [
+            1692,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1693": {
+          "actions": [
+            1693,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1689": {
+          "actions": [
+            1689,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1688": {
+          "actions": [
+            1688,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1162": {
+          "actions": [
+            1162,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1154": {
+          "actions": [
+            1154,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1171": {
+          "actions": [
+            1171,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1172": {
+          "actions": [
+            1172,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1169": {
+          "actions": [
+            1169,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1168": {
+          "actions": [
+            1168,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1179": {
+          "actions": [
+            1179,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1188": {
+          "actions": [
+            1188,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1177": {
+          "actions": [
+            1177,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1184": {
+          "actions": [
+            1184,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1163": {
+          "actions": [
+            1163,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1156": {
+          "actions": [
+            1156,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1161": {
+          "actions": [
+            1161,
+            3697
+          ],
+          "reason": "firewall_one"
+        },
+        "1152": {
+          "actions": [
+            1152,
+            3697
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      "first_actions": 36,
+      "second_actions": 1289
+    },
+    {
+      "name": "reachable_seed2_step0",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed2_step3",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 24,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed2_step6",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 2,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 19,
+      "second_actions": 446
+    },
+    {
+      "name": "reachable_seed2_step9",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 3,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed2_step12",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 1097
+    },
+    {
+      "name": "reachable_seed2_step15",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed2_step18",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 5,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 34,
+      "second_actions": 1139
+    },
+    {
+      "name": "reachable_seed2_step21",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 6,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed2_step24",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 36,
+      "second_actions": 1264
+    },
+    {
+      "name": "reachable_seed2_step27",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 24,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed2_step30",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        3038,
+        3045,
+        3070,
+        3112,
+        3169,
+        3177,
+        3178,
+        3186,
+        3187,
+        3427,
+        3431,
+        3436,
+        3437,
+        3438,
+        3443,
+        3444,
+        3446,
+        3447,
+        3452,
+        3453,
+        3454,
+        3706,
+        3707,
+        3708
+      ],
+      "witnesses": {
+        "3706": {
+          "actions": [
+            3706,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3707": {
+          "actions": [
+            3707,
+            3827
+          ],
+          "reason": "firewall_both"
+        },
+        "3708": {
+          "actions": [
+            3708,
+            3892
+          ],
+          "reason": "firewall_both"
+        },
+        "3453": {
+          "actions": [
+            3453,
+            3957
+          ],
+          "reason": "firewall_both"
+        },
+        "3437": {
+          "actions": [
+            3437,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3446": {
+          "actions": [
+            3446,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3447": {
+          "actions": [
+            3447,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3444": {
+          "actions": [
+            3444,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3443": {
+          "actions": [
+            3443,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3454": {
+          "actions": [
+            3454,
+            4022
+          ],
+          "reason": "firewall_both"
+        },
+        "3452": {
+          "actions": [
+            3452,
+            3892
+          ],
+          "reason": "firewall_both"
+        },
+        "3438": {
+          "actions": [
+            3438,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3431": {
+          "actions": [
+            3431,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3436": {
+          "actions": [
+            3436,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3427": {
+          "actions": [
+            3427,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3177": {
+          "actions": [
+            3177,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3169": {
+          "actions": [
+            3169,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3186": {
+          "actions": [
+            3186,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3187": {
+          "actions": [
+            3187,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3178": {
+          "actions": [
+            3178,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3112": {
+          "actions": [
+            3112,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3070": {
+          "actions": [
+            3070,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3045": {
+          "actions": [
+            3045,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3038": {
+          "actions": [
+            3038,
+            3706
+          ],
+          "reason": "firewall_both"
+        }
+      },
+      "first_actions": 24,
+      "second_actions": 629
+    },
+    {
+      "name": "reachable_seed3_step0",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed3_step3",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed3_step6",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 2,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 27,
+      "second_actions": 757
+    },
+    {
+      "name": "reachable_seed3_step9",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 3,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 37,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed3_step12",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 34,
+      "second_actions": 1138
+    },
+    {
+      "name": "reachable_seed3_step15",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed3_step18",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 5,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 974
+    },
+    {
+      "name": "reachable_seed3_step21",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 6,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 37,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed3_step24",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 920
+    },
+    {
+      "name": "reachable_seed3_step27",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed3_step30",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        266,
+        270,
+        275,
+        277,
+        1669,
+        1689,
+        1691,
+        1698,
+        2322,
+        2324,
+        2332,
+        2338,
+        2339,
+        2341,
+        2342,
+        2348,
+        2356,
+        3234,
+        3242,
+        3248,
+        3249,
+        3251,
+        3252,
+        3253,
+        3258,
+        3632,
+        3633,
+        3689,
+        3696,
+        3697,
+        3706,
+        3707
+      ],
+      "witnesses": {
+        "3697": {
+          "actions": [
+            3697,
+            3632
+          ],
+          "reason": "firewall_both"
+        },
+        "3689": {
+          "actions": [
+            3689,
+            3632
+          ],
+          "reason": "firewall_both"
+        },
+        "3706": {
+          "actions": [
+            3706,
+            3771
+          ],
+          "reason": "firewall_both"
+        },
+        "3707": {
+          "actions": [
+            3707,
+            3827
+          ],
+          "reason": "firewall_both"
+        },
+        "3696": {
+          "actions": [
+            3696,
+            3641
+          ],
+          "reason": "firewall_both"
+        },
+        "3632": {
+          "actions": [
+            3632,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3633": {
+          "actions": [
+            3633,
+            3706
+          ],
+          "reason": "firewall_one"
+        },
+        "3258": {
+          "actions": [
+            3258,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3242": {
+          "actions": [
+            3242,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3234": {
+          "actions": [
+            3234,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3251": {
+          "actions": [
+            3251,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3252": {
+          "actions": [
+            3252,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3253": {
+          "actions": [
+            3253,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "3249": {
+          "actions": [
+            3249,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3248": {
+          "actions": [
+            3248,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2348": {
+          "actions": [
+            2348,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2356": {
+          "actions": [
+            2356,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2332": {
+          "actions": [
+            2332,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2324": {
+          "actions": [
+            2324,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2341": {
+          "actions": [
+            2341,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2342": {
+          "actions": [
+            2342,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2339": {
+          "actions": [
+            2339,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2338": {
+          "actions": [
+            2338,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "2322": {
+          "actions": [
+            2322,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "1698": {
+          "actions": [
+            1698,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "1691": {
+          "actions": [
+            1691,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "1689": {
+          "actions": [
+            1689,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "1669": {
+          "actions": [
+            1669,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "277": {
+          "actions": [
+            277,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "275": {
+          "actions": [
+            275,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "270": {
+          "actions": [
+            270,
+            3697
+          ],
+          "reason": "firewall_both"
+        },
+        "266": {
+          "actions": [
+            266,
+            3697
+          ],
+          "reason": "firewall_both"
+        }
+      },
+      "first_actions": 32,
+      "second_actions": 1027
+    },
+    {
+      "name": "reachable_seed4_step0",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed4_step3",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed4_step6",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 2,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 37,
+      "second_actions": 1296
+    },
+    {
+      "name": "reachable_seed4_step9",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 3,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed4_step12",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 32,
+      "second_actions": 1032
+    },
+    {
+      "name": "reachable_seed4_step15",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 38,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed4_step18",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 5,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 1103
+    },
+    {
+      "name": "reachable_seed4_step21",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 6,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 28,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed4_step24",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 1058
+    },
+    {
+      "name": "reachable_seed4_step27",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 28,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed4_step30",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        1609,
+        1617,
+        1624,
+        1626,
+        1627,
+        1633,
+        1641,
+        2064,
+        2072,
+        2081,
+        2082,
+        2089,
+        2098,
+        2601,
+        2608,
+        3696,
+        3697,
+        3698,
+        3704,
+        3706,
+        3941,
+        3949,
+        3957,
+        3962,
+        3963,
+        3964,
+        4013,
+        4015,
+        4020
+      ],
+      "witnesses": {
+        "4020": {
+          "actions": [
+            4020,
+            3957
+          ],
+          "reason": "firewall_both"
+        },
+        "4015": {
+          "actions": [
+            4015,
+            3957
+          ],
+          "reason": "firewall_both"
+        },
+        "4013": {
+          "actions": [
+            4013,
+            3957
+          ],
+          "reason": "firewall_both"
+        },
+        "3957": {
+          "actions": [
+            3957,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3949": {
+          "actions": [
+            3949,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3941": {
+          "actions": [
+            3941,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3964": {
+          "actions": [
+            3964,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3963": {
+          "actions": [
+            3963,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3962": {
+          "actions": [
+            3962,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3697": {
+          "actions": [
+            3697,
+            4020
+          ],
+          "reason": "firewall_one"
+        },
+        "3706": {
+          "actions": [
+            3706,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3704": {
+          "actions": [
+            3704,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "3698": {
+          "actions": [
+            3698,
+            4020
+          ],
+          "reason": "firewall_one"
+        },
+        "3696": {
+          "actions": [
+            3696,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2608": {
+          "actions": [
+            2608,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2601": {
+          "actions": [
+            2601,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2072": {
+          "actions": [
+            2072,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2064": {
+          "actions": [
+            2064,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2081": {
+          "actions": [
+            2081,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2082": {
+          "actions": [
+            2082,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2089": {
+          "actions": [
+            2089,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "2098": {
+          "actions": [
+            2098,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1633": {
+          "actions": [
+            1633,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1641": {
+          "actions": [
+            1641,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1617": {
+          "actions": [
+            1617,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1609": {
+          "actions": [
+            1609,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1626": {
+          "actions": [
+            1626,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1627": {
+          "actions": [
+            1627,
+            4020
+          ],
+          "reason": "firewall_both"
+        },
+        "1624": {
+          "actions": [
+            1624,
+            4020
+          ],
+          "reason": "firewall_both"
+        }
+      },
+      "first_actions": 29,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed5_step0",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 30,
+      "second_actions": 893
+    },
+    {
+      "name": "reachable_seed5_step3",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 1,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed5_step6",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 2,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 33,
+      "second_actions": 1088
+    },
+    {
+      "name": "reachable_seed5_step9",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 3,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 35,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed5_step12",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 35,
+      "second_actions": 1245
+    },
+    {
+      "name": "reachable_seed5_step15",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 4,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 26,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed5_step18",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 5,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 29,
+      "second_actions": 844
+    },
+    {
+      "name": "reachable_seed5_step21",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 1,
+      "round_number": 6,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 26,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed5_step24",
+      "origin": "random_reachable",
+      "team": "CYAN",
+      "actions_left": 2,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 24,
+      "second_actions": 653
+    },
+    {
+      "name": "reachable_seed5_step27",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 1,
+      "round_number": 7,
+      "any_win": false,
+      "winning_first_actions": [],
+      "witnesses": {},
+      "first_actions": 31,
+      "second_actions": 0
+    },
+    {
+      "name": "reachable_seed5_step30",
+      "origin": "random_reachable",
+      "team": "MAGENTA",
+      "actions_left": 2,
+      "round_number": 8,
+      "any_win": true,
+      "winning_first_actions": [
+        1089,
+        1091,
+        1096,
+        1097,
+        1098,
+        1104,
+        1106,
+        1107,
+        1113,
+        1114,
+        1121,
+        1123,
+        1545,
+        1554,
+        1570,
+        1577,
+        3112,
+        3113,
+        3128,
+        3129,
+        3177,
+        3186,
+        3193,
+        3746,
+        3754,
+        3762,
+        3768,
+        3769,
+        3771,
+        3772,
+        3773
+      ],
+      "witnesses": {
+        "3762": {
+          "actions": [
+            3762,
+            3258
+          ],
+          "reason": "firewall_both"
+        },
+        "3754": {
+          "actions": [
+            3754,
+            3193
+          ],
+          "reason": "firewall_both"
+        },
+        "3746": {
+          "actions": [
+            3746,
+            3193
+          ],
+          "reason": "firewall_both"
+        },
+        "3771": {
+          "actions": [
+            3771,
+            3827
+          ],
+          "reason": "firewall_both"
+        },
+        "3772": {
+          "actions": [
+            3772,
+            3892
+          ],
+          "reason": "firewall_both"
+        },
+        "3773": {
+          "actions": [
+            3773,
+            3957
+          ],
+          "reason": "firewall_both"
+        },
+        "3769": {
+          "actions": [
+            3769,
+            3706
+          ],
+          "reason": "firewall_both"
+        },
+        "3768": {
+          "actions": [
+            3768,
+            3641
+          ],
+          "reason": "firewall_both"
+        },
+        "3193": {
+          "actions": [
+            3193,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3177": {
+          "actions": [
+            3177,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3186": {
+          "actions": [
+            3186,
+            3771
+          ],
+          "reason": "firewall_both"
+        },
+        "3128": {
+          "actions": [
+            3128,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3112": {
+          "actions": [
+            3112,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3129": {
+          "actions": [
+            3129,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "3113": {
+          "actions": [
+            3113,
+            3762
+          ],
+          "reason": "firewall_one"
+        },
+        "1577": {
+          "actions": [
+            1577,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1570": {
+          "actions": [
+            1570,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1554": {
+          "actions": [
+            1554,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1545": {
+          "actions": [
+            1545,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1113": {
+          "actions": [
+            1113,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1121": {
+          "actions": [
+            1121,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1097": {
+          "actions": [
+            1097,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1089": {
+          "actions": [
+            1089,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1106": {
+          "actions": [
+            1106,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1107": {
+          "actions": [
+            1107,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1104": {
+          "actions": [
+            1104,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1114": {
+          "actions": [
+            1114,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1123": {
+          "actions": [
+            1123,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1098": {
+          "actions": [
+            1098,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1091": {
+          "actions": [
+            1091,
+            3762
+          ],
+          "reason": "firewall_both"
+        },
+        "1096": {
+          "actions": [
+            1096,
+            3762
+          ],
+          "reason": "firewall_both"
+        }
+      },
+      "first_actions": 31,
+      "second_actions": 942
+    }
+  ]
+}

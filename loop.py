@@ -10,6 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 PY = sys.executable
 STATE = ROOT / 'loop_state.json'
+WSL_PY = '/mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/wpy.sh'
+TACTICAL = 'codex/tactical/model-tactical.onnx'
 
 def run(cmd, log):
     with open(log, 'a') as f:
@@ -38,19 +40,21 @@ def main():
             rec['selfplay'] = run([PY, 'selfplay.py', '--model', st['best'], '--pool', *pool, '--pool-prob', 0.2,
                                    '--games', a.games, '--workers', 28, '--seed0', g * 1_000_000, '--out', data], log)
         gens = sorted(d for d in (ROOT / 'data').glob('gen*') if (d / 'summary.json').exists() and d.name <= tag)
-        window = [str(d) for d in gens[-a.window:]]
+        window = [f'data/{d.name}' for d in gens[-a.window:]]
         ck = ROOT / 'ckpt' / f'{tag}.pt'
         if not ck.exists():
-            rec['train'] = run([PY, 'train.py', '--data', *window, '--init', st['latest_ckpt'], '--out', ck,
-                                '--steps', a.steps, '--lr', 1.5e-3], log)
+            # Training runs on the GPU inside WSL (prepared reference env), relative paths only.
+            rec['train'] = run(['wsl', '-e', 'bash', WSL_PY, 'train.py', '--data', *window, '--init', st['latest_ckpt'],
+                                '--out', f'ckpt/{tag}.pt',
+                                '--steps', a.steps, '--lr', 1.5e-3, '--holdout-last'], log)
         cand = str(ck.with_suffix('.onnx'))
         rec['check'] = run([PY, 'check_onnx.py', cand], log)
         gate = run([PY, 'arena.py', cand, st['best'], '--games', a.gate_seeds, '--workers', 30,
                     '--start', 900000 + g * 1000, '--out', ROOT / 'logs' / f'{tag}-gate.json'], log)
-        anchor = run([PY, 'arena.py', cand, 'model-h1.onnx', '--games', 100, '--workers', 30,
-                      '--start', 800000 + g * 1000], log)
-        rec.update(gate=gate['a_rate'], anchor_h1=anchor['a_rate'], cand=cand)
-        st['latest_ckpt'] = str(ck)
+        anchor = run([PY, 'arena.py', cand, TACTICAL, '--games', 100, '--workers', 30,
+                      '--start', 800000 + g * 1000, '--out', ROOT / 'logs' / f'{tag}-tactical.json'], log)
+        rec.update(gate=gate['a_rate'], anchor_tactical=anchor['a_rate'], cand=cand)
+        st['latest_ckpt'] = f'ckpt/{tag}.pt'
         if gate['a_rate'] >= a.gate:
             st['best'] = cand; st['pool'].append(cand); rec['promoted'] = True
         else:

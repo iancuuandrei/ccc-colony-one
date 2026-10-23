@@ -1,0 +1,37 @@
+{
+  "one_guard_two_action_forced_win": {
+    "status": "PASS",
+    "engine_fixtures": 430
+  },
+  "mcts_redirect_blind_spot": {
+    "status": "PROVEN",
+    "root_attack_visits": 32,
+    "cached_child": false,
+    "evaluator_calls": 33,
+    "attack_Q": 0.25,
+    "actual_repeat_attack_value": 1.0,
+    "board_restored": true
+  },
+  "live_observation_clock_recoverability": {
+    "status": "PASS",
+    "fixtures": 104
+  },
+  "endgame_and_firewall_priority": {
+    "status": "PASS",
+    "fixtures": 6
+  },
+  "published_attack_maps_on_enemy_occupied_squares": {
+    "status": "PASS",
+    "bounded_static_boards": 128,
+    "square_comparisons": 845,
+    "limitation": "Capture geometry only; these are not complete legal move masks or post-action maps."
+  },
+  "sources_sha256": {
+    "env/colony_one/board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "env/colony_one/env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "env/colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "env/colony_one/rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "env/colony_one/encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "build_heuristic.py": "235a5f859562cf8e1ddc6f2cc8fe164bc0e6b3993d5fbb7e30b300c04c85536a"
+  }
+}

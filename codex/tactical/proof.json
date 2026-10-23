@@ -1,0 +1,1124 @@
+{
+  "status": "PASS",
+  "sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b",
+  "bytes": 334224,
+  "fixtures": [
+    {
+      "team": "CYAN",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.4316902458667755,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.8344915509223938,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.8121601343154907,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.1515241265296936,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.6869233846664429,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.5874667167663574,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": 0.09139315038919449,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.5993025302886963,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.5472917556762695,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.35896432399749756,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.8099714517593384,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.7840157151222229,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.15719670057296753,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.730263888835907,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.6933890581130981,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": 0.17414696514606476,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.5443087816238403,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.48695722222328186,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.7589172720909119,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "CYAN",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.9247658848762512,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "CYAN",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.9168735146522522,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.4316902458667755,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.8344915509223938,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "PING",
+      "from": [
+        1,
+        1
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.8121601343154907,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.1515241265296936,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.6869233846664429,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.5874667167663574,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": 0.09139315038919449,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.5993025302886963,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "DAEMON",
+      "from": [
+        3,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.5472917556762695,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.35896432399749756,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.8099714517593384,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "EXPLOIT",
+      "from": [
+        1,
+        2
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.7840157151222229,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.15719670057296753,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.730263888835907,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "TRACE",
+      "from": [
+        0,
+        0
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.6933890581130981,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": 0.17414696514606476,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.5443087816238403,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "ICE",
+      "from": [
+        1,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.48695722222328186,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 1,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 0,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.7589172720909119,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 1,
+      "actions_left": 2,
+      "forced_win": true,
+      "value": 1.0,
+      "engine_sequence_checked": true
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 1,
+      "forced_win": false,
+      "value": -0.9247658848762512,
+      "engine_sequence_checked": false
+    },
+    {
+      "team": "MAGENTA",
+      "piece": "KERNEL",
+      "from": [
+        2,
+        3
+      ],
+      "guards": 2,
+      "actions_left": 2,
+      "forced_win": false,
+      "value": -0.9168735146522522,
+      "engine_sequence_checked": false
+    }
+  ],
+  "stationary_shots": [
+    {
+      "piece": "DAEMON",
+      "policy": 3.5200002193450928,
+      "expected": 3.52,
+      "engine_stationary": true
+    },
+    {
+      "piece": "TRACE",
+      "policy": 3.5200002193450928,
+      "expected": 3.52,
+      "engine_stationary": true
+    }
+  ],
+  "dynamic_batches": [
+    1,
+    8,
+    16
+  ],
+  "reachable_crosscheck": {
+    "games": 24,
+    "positions": 791,
+    "forced_win_labels": 19
+  },
+  "seconds": 0.35896873474121094
+}

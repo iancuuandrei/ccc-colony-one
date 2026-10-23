@@ -1,0 +1,152 @@
+[
+  {
+    "File": "README.md",
+    "Pass": true,
+    "Actual": "0e9dfbd39e4a55a145f4fafec1c7429f27e0b2e7eaeeb99ca53d52827b5f87ae",
+    "Expected": "0e9dfbd39e4a55a145f4fafec1c7429f27e0b2e7eaeeb99ca53d52827b5f87ae"
+  },
+  {
+    "File": "tools/validate_submission.py",
+    "Pass": true,
+    "Actual": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a",
+    "Expected": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  {
+    "File": "docs/submission.md",
+    "Pass": true,
+    "Actual": "9226c31f4d2caf5175ff780bfe87cffd5ac41d37bf890ead3d2337e5ddd2491c",
+    "Expected": "9226c31f4d2caf5175ff780bfe87cffd5ac41d37bf890ead3d2337e5ddd2491c"
+  },
+  {
+    "File": "docs/observation.md",
+    "Pass": true,
+    "Actual": "a4f8f881807480ab136d14ae7b5c6417977fbac2a458b32a48dee22994651af0",
+    "Expected": "a4f8f881807480ab136d14ae7b5c6417977fbac2a458b32a48dee22994651af0"
+  },
+  {
+    "File": "docs/rules.md",
+    "Pass": true,
+    "Actual": "dd3b0c9274ff326fbbc52dcdbf9c36bcc212f1ee91751e87d641c1abf13212ec",
+    "Expected": "dd3b0c9274ff326fbbc52dcdbf9c36bcc212f1ee91751e87d641c1abf13212ec"
+  },
+  {
+    "File": "pyproject.toml",
+    "Pass": true,
+    "Actual": "63dac490752858da207dca5a25d58497964c037b54de5daf971edb50b8ea33d7",
+    "Expected": "63dac490752858da207dca5a25d58497964c037b54de5daf971edb50b8ea33d7"
+  },
+  {
+    "File": "play/model_vs_model.py",
+    "Pass": true,
+    "Actual": "f477d1470fb1d0e8f7e7e3b83c4644081c5b75232e1f40d2d5c38ede35e8b438",
+    "Expected": "f477d1470fb1d0e8f7e7e3b83c4644081c5b75232e1f40d2d5c38ede35e8b438"
+  },
+  {
+    "File": "play/random.onnx",
+    "Pass": true,
+    "Actual": "107229a18420ead8843a6250a1388cc8066895521a3b052e7b3c74034d76e77b",
+    "Expected": "107229a18420ead8843a6250a1388cc8066895521a3b052e7b3c74034d76e77b"
+  },
+  {
+    "File": "LICENSE",
+    "Pass": true,
+    "Actual": "a90fe8ef750c39faac863808c1d14e1aaf8ba81d9a96b1cededb8cf48bf86ea6",
+    "Expected": "a90fe8ef750c39faac863808c1d14e1aaf8ba81d9a96b1cededb8cf48bf86ea6"
+  },
+  {
+    "File": "colony_one/onnx_runner.py",
+    "Pass": true,
+    "Actual": "1df1c257a42ae68b88f2b134b6618ab82dffb180a4576bbd40569d95fe376e08",
+    "Expected": "1df1c257a42ae68b88f2b134b6618ab82dffb180a4576bbd40569d95fe376e08"
+  },
+  {
+    "File": "colony_one/constants.py",
+    "Pass": true,
+    "Actual": "ba4bcfe9d23ff16e6c9f4828da69945700e94dfd2069a0adc809719d7e73c0ad",
+    "Expected": "ba4bcfe9d23ff16e6c9f4828da69945700e94dfd2069a0adc809719d7e73c0ad"
+  },
+  {
+    "File": "colony_one/env.py",
+    "Pass": true,
+    "Actual": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "Expected": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5"
+  },
+  {
+    "File": "colony_one/board.py",
+    "Pass": true,
+    "Actual": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "Expected": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d"
+  },
+  {
+    "File": "colony_one/submission_policy.py",
+    "Pass": true,
+    "Actual": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "Expected": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616"
+  },
+  {
+    "File": "colony_one/action.py",
+    "Pass": true,
+    "Actual": "12ef52844501e36d6faf4975212db74c2977783a111b3d60063e28604a02930e",
+    "Expected": "12ef52844501e36d6faf4975212db74c2977783a111b3d60063e28604a02930e"
+  },
+  {
+    "File": "colony_one/baselines.py",
+    "Pass": true,
+    "Actual": "19c3126f1e5668df031917fef1a52fa7d0cc4b587fd026d99f6e4c2e794fabe8",
+    "Expected": "19c3126f1e5668df031917fef1a52fa7d0cc4b587fd026d99f6e4c2e794fabe8"
+  },
+  {
+    "File": "colony_one/rules.py",
+    "Pass": true,
+    "Actual": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "Expected": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66"
+  },
+  {
+    "File": "colony_one/mcts.py",
+    "Pass": true,
+    "Actual": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "Expected": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e"
+  },
+  {
+    "File": "colony_one/renderer.py",
+    "Pass": true,
+    "Actual": "99321cab82df2594272cd32c8db1a8e246f7351a925ae136ee9367ee6a5c4fcc",
+    "Expected": "99321cab82df2594272cd32c8db1a8e246f7351a925ae136ee9367ee6a5c4fcc"
+  },
+  {
+    "File": "colony_one/scene.json",
+    "Pass": false,
+    "Actual": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "Expected": "567ad29da742d2c61dcfc44b158e46d4b1190f8afd61cb7662127a3ab2ac4e2f"
+  },
+  {
+    "File": "colony_one/submission_check.py",
+    "Pass": true,
+    "Actual": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "Expected": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a"
+  },
+  {
+    "File": "colony_one/encoding.py",
+    "Pass": true,
+    "Actual": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "Expected": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58"
+  },
+  {
+    "File": "colony_one/pieces.py",
+    "Pass": true,
+    "Actual": "71bcd84583ff2f22fd30d8d340da43385630f3f4872fb500ee36f6b57e6b3588",
+    "Expected": "71bcd84583ff2f22fd30d8d340da43385630f3f4872fb500ee36f6b57e6b3588"
+  },
+  {
+    "File": "colony_one/__init__.py",
+    "Pass": true,
+    "Actual": "6e91a9c40b595b1b6116154365bb052590cd9d6df9ec6fdfc36cfcedcffb7e27",
+    "Expected": "6e91a9c40b595b1b6116154365bb052590cd9d6df9ec6fdfc36cfcedcffb7e27"
+  },
+  {
+    "File": "requirements.txt",
+    "Pass": true,
+    "Actual": "4bc8f47be15ae1bbeb97d8e2117e352c649652ce6124afa621cb5750ced4ece5",
+    "Expected": "4bc8f47be15ae1bbeb97d8e2117e352c649652ce6124afa621cb5750ced4ece5"
+  }
+]

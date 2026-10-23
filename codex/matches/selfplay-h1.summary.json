@@ -1,0 +1,3627 @@
+[
+  {
+    "seed": 12001,
+    "winner": "CYAN",
+    "actions": 30,
+    "cause": "kernel_capture",
+    "losing_kernel_before": {
+      "kernel": [
+        3,
+        5
+      ],
+      "guards": [],
+      "ring": 2,
+      "pieces": {
+        "KERNEL": [
+          3,
+          5
+        ],
+        "TRACE": [
+          3,
+          7
+        ]
+      },
+      "enemy_attacks_kernel": [
+        {
+          "fr": [
+            3,
+            3
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move"
+        }
+      ],
+      "legal_count": 11
+    },
+    "guard_redirects": 2,
+    "provable_kernel_win_opportunities": [
+      {
+        "action": 30,
+        "team": "CYAN",
+        "guards": 0,
+        "left": 1,
+        "value": 0.9256845116615295,
+        "chosen_capture": "KERNEL",
+        "chosen_target": [
+          3,
+          5
+        ],
+        "kernel": [
+          3,
+          5
+        ]
+      }
+    ],
+    "last_loser_turn": [
+      {
+        "before": {
+          "action": 27,
+          "round": 7,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                4,
+                2,
+                "ICE"
+              ],
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                2
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 22
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  4,
+                  2
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 11
+          },
+          "value": -0.892209529876709
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            2,
+            4
+          ],
+          "to": [
+            3,
+            4
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 28,
+          "round": 7,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                4,
+                2,
+                "ICE"
+              ],
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                2
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 22
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [],
+            "ring": 3,
+            "pieces": {
+              "KERNEL": [
+                3,
+                4
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 11
+          },
+          "value": -0.6810715198516846
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            3,
+            4
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      }
+    ],
+    "tail": [
+      {
+        "before": {
+          "action": 25,
+          "round": 7,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 25
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [
+              [
+                1,
+                5,
+                "DAEMON"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "DAEMON": [
+                1,
+                5
+              ],
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 19
+          },
+          "value": -0.16921387612819672
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            4,
+            2
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 26,
+          "round": 7,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                4,
+                2,
+                "ICE"
+              ],
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                2
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 22
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [
+              [
+                1,
+                5,
+                "DAEMON"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "DAEMON": [
+                1,
+                5
+              ],
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  4,
+                  2
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 19
+          },
+          "value": -0.019639717414975166
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            2
+          ],
+          "to": [
+            2,
+            4
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": false,
+          "capture": "DAEMON",
+          "actual_target": [
+            1,
+            5
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 27,
+          "round": 7,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                4,
+                2,
+                "ICE"
+              ],
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                2
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 22
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              4
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                2,
+                4
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  4,
+                  2
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 11
+          },
+          "value": -0.892209529876709
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            2,
+            4
+          ],
+          "to": [
+            3,
+            4
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 28,
+          "round": 7,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                4,
+                2,
+                "ICE"
+              ],
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                2
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 22
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [],
+            "ring": 3,
+            "pieces": {
+              "KERNEL": [
+                3,
+                4
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 11
+          },
+          "value": -0.6810715198516846
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            3,
+            4
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 29,
+          "round": 8,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                4,
+                2,
+                "ICE"
+              ],
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                4,
+                2
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 22
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              5
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                3,
+                5
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 11
+          },
+          "value": 0.7672346830368042
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            2
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 30,
+          "round": 8,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "ICE": [
+                3,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 24
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              5
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                3,
+                5
+              ],
+              "TRACE": [
+                3,
+                7
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  3,
+                  3
+                ],
+                "to": [
+                  3,
+                  5
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 11
+          },
+          "value": 0.9256845116615295
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            3,
+            3
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": "KERNEL",
+          "actual_target": [
+            3,
+            5
+          ]
+        },
+        "terminal": true,
+        "winner": "CYAN",
+        "cause": "kernel_capture"
+      }
+    ]
+  },
+  {
+    "seed": 12002,
+    "winner": "MAGENTA",
+    "actions": 28,
+    "cause": "kernel_capture",
+    "losing_kernel_before": {
+      "kernel": [
+        3,
+        2
+      ],
+      "guards": [],
+      "ring": 2,
+      "pieces": {
+        "KERNEL": [
+          3,
+          2
+        ],
+        "ICE": [
+          5,
+          3
+        ],
+        "EXPLOIT": [
+          7,
+          5
+        ]
+      },
+      "enemy_attacks_kernel": [
+        {
+          "fr": [
+            1,
+            4
+          ],
+          "to": [
+            3,
+            2
+          ],
+          "kind": "move"
+        }
+      ],
+      "legal_count": 27
+    },
+    "guard_redirects": 2,
+    "provable_kernel_win_opportunities": [
+      {
+        "action": 28,
+        "team": "MAGENTA",
+        "guards": 0,
+        "left": 1,
+        "value": 0.9607266187667847,
+        "chosen_capture": "KERNEL",
+        "chosen_target": [
+          3,
+          2
+        ],
+        "kernel": [
+          3,
+          2
+        ]
+      }
+    ],
+    "last_loser_turn": [
+      {
+        "before": {
+          "action": 25,
+          "round": 7,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [],
+            "ring": 1,
+            "pieces": {
+              "KERNEL": [
+                5,
+                1
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  4
+                ],
+                "to": [
+                  5,
+                  1
+                ],
+                "kind": "shoot"
+              }
+            ],
+            "legal_count": 26
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 35
+          },
+          "value": -0.9554741978645325
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            5,
+            1
+          ],
+          "to": [
+            4,
+            1
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 26,
+          "round": 7,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              4,
+              1
+            ],
+            "guards": [],
+            "ring": 1,
+            "pieces": {
+              "KERNEL": [
+                4,
+                1
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 34
+          },
+          "value": -0.9325152635574341
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      }
+    ],
+    "tail": [
+      {
+        "before": {
+          "action": 23,
+          "round": 6,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                5,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                5
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 34
+          },
+          "value": 0.7526286244392395
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            2,
+            5
+          ],
+          "to": [
+            2,
+            4
+          ],
+          "kind": "move",
+          "piece": "TRACE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 24,
+          "round": 6,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [
+              [
+                5,
+                0,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                1
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  4
+                ],
+                "to": [
+                  5,
+                  1
+                ],
+                "kind": "shoot"
+              }
+            ],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 35
+          },
+          "value": 0.7526286244392395
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            2,
+            4
+          ],
+          "to": [
+            5,
+            1
+          ],
+          "kind": "shoot",
+          "piece": "TRACE",
+          "moved": false,
+          "capture": "TRACE",
+          "actual_target": [
+            5,
+            0
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 25,
+          "round": 7,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              1
+            ],
+            "guards": [],
+            "ring": 1,
+            "pieces": {
+              "KERNEL": [
+                5,
+                1
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  4
+                ],
+                "to": [
+                  5,
+                  1
+                ],
+                "kind": "shoot"
+              }
+            ],
+            "legal_count": 26
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 35
+          },
+          "value": -0.9554741978645325
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            5,
+            1
+          ],
+          "to": [
+            4,
+            1
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 26,
+          "round": 7,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              4,
+              1
+            ],
+            "guards": [],
+            "ring": 1,
+            "pieces": {
+              "KERNEL": [
+                4,
+                1
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 34
+          },
+          "value": -0.9325152635574341
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 27,
+          "round": 7,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              3,
+              2
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                3,
+                2
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                5
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 34
+          },
+          "value": 0.9105681777000427
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            1,
+            5
+          ],
+          "to": [
+            1,
+            4
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 28,
+          "round": 7,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              3,
+              2
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "KERNEL": [
+                3,
+                2
+              ],
+              "ICE": [
+                5,
+                3
+              ],
+              "EXPLOIT": [
+                7,
+                5
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  1,
+                  4
+                ],
+                "to": [
+                  3,
+                  2
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              3,
+              4
+            ],
+            "guards": [
+              [
+                2,
+                4,
+                "TRACE"
+              ]
+            ],
+            "ring": 3,
+            "pieces": {
+              "DAEMON": [
+                0,
+                3
+              ],
+              "ICE": [
+                1,
+                4
+              ],
+              "TRACE": [
+                2,
+                4
+              ],
+              "KERNEL": [
+                3,
+                4
+              ],
+              "PING": [
+                7,
+                4
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 32
+          },
+          "value": 0.9607266187667847
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            1,
+            4
+          ],
+          "to": [
+            3,
+            2
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": "KERNEL",
+          "actual_target": [
+            3,
+            2
+          ]
+        },
+        "terminal": true,
+        "winner": "MAGENTA",
+        "cause": "kernel_capture"
+      }
+    ]
+  },
+  {
+    "seed": 12003,
+    "winner": "CYAN",
+    "actions": 18,
+    "cause": "kernel_capture",
+    "losing_kernel_before": {
+      "kernel": [
+        2,
+        5
+      ],
+      "guards": [],
+      "ring": 2,
+      "pieces": {
+        "DAEMON": [
+          0,
+          6
+        ],
+        "TRACE": [
+          1,
+          7
+        ],
+        "EXPLOIT": [
+          2,
+          2
+        ],
+        "KERNEL": [
+          2,
+          5
+        ],
+        "PING": [
+          4,
+          6
+        ]
+      },
+      "enemy_attacks_kernel": [
+        {
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            2,
+            5
+          ],
+          "kind": "move"
+        }
+      ],
+      "legal_count": 33
+    },
+    "guard_redirects": 0,
+    "provable_kernel_win_opportunities": [
+      {
+        "action": 18,
+        "team": "CYAN",
+        "guards": 0,
+        "left": 1,
+        "value": 0.4547123610973358,
+        "chosen_capture": "KERNEL",
+        "chosen_target": [
+          2,
+          5
+        ],
+        "kernel": [
+          2,
+          5
+        ]
+      }
+    ],
+    "last_loser_turn": [
+      {
+        "before": {
+          "action": 15,
+          "round": 4,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "PING": [
+                2,
+                5
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 24
+          },
+          "MAGENTA": {
+            "kernel": [
+              0,
+              7
+            ],
+            "guards": [
+              [
+                0,
+                6,
+                "DAEMON"
+              ],
+              [
+                1,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "KERNEL": [
+                0,
+                7
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  5
+                ],
+                "to": [
+                  0,
+                  7
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 24
+          },
+          "value": -0.3297206163406372
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            0,
+            7
+          ],
+          "to": [
+            1,
+            6
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 16,
+          "round": 4,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "PING": [
+                2,
+                5
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 24
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              6
+            ],
+            "guards": [
+              [
+                0,
+                6,
+                "DAEMON"
+              ],
+              [
+                1,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "KERNEL": [
+                1,
+                6
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  5
+                ],
+                "to": [
+                  1,
+                  6
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 27
+          },
+          "value": -0.12300917506217957
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            1,
+            6
+          ],
+          "to": [
+            2,
+            5
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": "PING",
+          "actual_target": [
+            2,
+            5
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      }
+    ],
+    "tail": [
+      {
+        "before": {
+          "action": 13,
+          "round": 4,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "PING": [
+                2,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 20
+          },
+          "MAGENTA": {
+            "kernel": [
+              0,
+              7
+            ],
+            "guards": [
+              [
+                0,
+                6,
+                "DAEMON"
+              ],
+              [
+                1,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "KERNEL": [
+                0,
+                7
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "ICE": [
+                2,
+                5
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 39
+          },
+          "value": -0.6314521431922913
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            2,
+            3
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "kind": "move",
+          "piece": "PING",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 14,
+          "round": 4,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "PING": [
+                4,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 23
+          },
+          "MAGENTA": {
+            "kernel": [
+              0,
+              7
+            ],
+            "guards": [
+              [
+                0,
+                6,
+                "DAEMON"
+              ],
+              [
+                1,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "KERNEL": [
+                0,
+                7
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "ICE": [
+                2,
+                5
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 39
+          },
+          "value": -0.4512995779514313
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            2,
+            5
+          ],
+          "kind": "move",
+          "piece": "PING",
+          "moved": true,
+          "capture": "ICE",
+          "actual_target": [
+            2,
+            5
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 15,
+          "round": 4,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "PING": [
+                2,
+                5
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 24
+          },
+          "MAGENTA": {
+            "kernel": [
+              0,
+              7
+            ],
+            "guards": [
+              [
+                0,
+                6,
+                "DAEMON"
+              ],
+              [
+                1,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "KERNEL": [
+                0,
+                7
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  5
+                ],
+                "to": [
+                  0,
+                  7
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 24
+          },
+          "value": -0.3297206163406372
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            0,
+            7
+          ],
+          "to": [
+            1,
+            6
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 16,
+          "round": 4,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "PING": [
+                2,
+                5
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 24
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              6
+            ],
+            "guards": [
+              [
+                0,
+                6,
+                "DAEMON"
+              ],
+              [
+                1,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 1,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "KERNEL": [
+                1,
+                6
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  2,
+                  5
+                ],
+                "to": [
+                  1,
+                  6
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 27
+          },
+          "value": -0.12300917506217957
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            1,
+            6
+          ],
+          "to": [
+            2,
+            5
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": "PING",
+          "actual_target": [
+            2,
+            5
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 17,
+          "round": 5,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ],
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 15
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              5
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "KERNEL": [
+                2,
+                5
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 33
+          },
+          "value": -0.04216839745640755
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            6,
+            1
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 18,
+          "round": 5,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              7,
+              0
+            ],
+            "guards": [
+              [
+                7,
+                1,
+                "DAEMON"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "ICE": [
+                4,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                7,
+                0
+              ],
+              "DAEMON": [
+                7,
+                1
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              2,
+              5
+            ],
+            "guards": [],
+            "ring": 2,
+            "pieces": {
+              "DAEMON": [
+                0,
+                6
+              ],
+              "TRACE": [
+                1,
+                7
+              ],
+              "EXPLOIT": [
+                2,
+                2
+              ],
+              "KERNEL": [
+                2,
+                5
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  4,
+                  3
+                ],
+                "to": [
+                  2,
+                  5
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 33
+          },
+          "value": 0.4547123610973358
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            2,
+            5
+          ],
+          "kind": "move",
+          "piece": "ICE",
+          "moved": true,
+          "capture": "KERNEL",
+          "actual_target": [
+            2,
+            5
+          ]
+        },
+        "terminal": true,
+        "winner": "CYAN",
+        "cause": "kernel_capture"
+      }
+    ]
+  },
+  {
+    "seed": 12004,
+    "winner": "MAGENTA",
+    "actions": 16,
+    "cause": "kernel_capture",
+    "losing_kernel_before": {
+      "kernel": [
+        3,
+        3
+      ],
+      "guards": [],
+      "ring": 3,
+      "pieces": {
+        "KERNEL": [
+          3,
+          3
+        ],
+        "TRACE": [
+          5,
+          0
+        ],
+        "ICE": [
+          6,
+          1
+        ],
+        "DAEMON": [
+          7,
+          2
+        ]
+      },
+      "enemy_attacks_kernel": [
+        {
+          "fr": [
+            3,
+            5
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "kind": "move"
+        }
+      ],
+      "legal_count": 28
+    },
+    "guard_redirects": 1,
+    "provable_kernel_win_opportunities": [
+      {
+        "action": 16,
+        "team": "MAGENTA",
+        "guards": 0,
+        "left": 1,
+        "value": 0.09283506125211716,
+        "chosen_capture": "KERNEL",
+        "chosen_target": [
+          3,
+          3
+        ],
+        "kernel": [
+          3,
+          3
+        ]
+      }
+    ],
+    "last_loser_turn": [
+      {
+        "before": {
+          "action": 13,
+          "round": 4,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              2
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                2
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  3,
+                  3
+                ],
+                "to": [
+                  5,
+                  2
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 23
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "EXPLOIT": [
+                3,
+                3
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 29
+          },
+          "value": 0.22292593121528625
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            5,
+            2
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 14,
+          "round": 4,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              4,
+              3
+            ],
+            "guards": [],
+            "ring": 3,
+            "pieces": {
+              "KERNEL": [
+                4,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "EXPLOIT": [
+                3,
+                3
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 29
+          },
+          "value": 0.3639761507511139
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": "EXPLOIT",
+          "actual_target": [
+            3,
+            3
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      }
+    ],
+    "tail": [
+      {
+        "before": {
+          "action": 11,
+          "round": 3,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              2
+            ],
+            "guards": [
+              [
+                4,
+                1,
+                "PING"
+              ],
+              [
+                6,
+                1,
+                "ICE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "PING": [
+                4,
+                1
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                2
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "EXPLOIT": [
+                1,
+                4
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "value": -0.5772308111190796
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            1,
+            4
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "kind": "move",
+          "piece": "EXPLOIT",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 12,
+          "round": 3,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              2
+            ],
+            "guards": [
+              [
+                4,
+                1,
+                "PING"
+              ],
+              [
+                6,
+                1,
+                "ICE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "PING": [
+                4,
+                1
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                2
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  3,
+                  3
+                ],
+                "to": [
+                  5,
+                  2
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "EXPLOIT": [
+                3,
+                3
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 29
+          },
+          "value": -0.5167833566665649
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            3,
+            3
+          ],
+          "to": [
+            5,
+            2
+          ],
+          "kind": "move",
+          "piece": "EXPLOIT",
+          "moved": false,
+          "capture": "PING",
+          "actual_target": [
+            4,
+            1
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 13,
+          "round": 4,
+          "team": "CYAN",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              5,
+              2
+            ],
+            "guards": [
+              [
+                6,
+                1,
+                "ICE"
+              ]
+            ],
+            "ring": 2,
+            "pieces": {
+              "TRACE": [
+                5,
+                0
+              ],
+              "KERNEL": [
+                5,
+                2
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  3,
+                  3
+                ],
+                "to": [
+                  5,
+                  2
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 23
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "EXPLOIT": [
+                3,
+                3
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 29
+          },
+          "value": 0.22292593121528625
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            5,
+            2
+          ],
+          "to": [
+            4,
+            3
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 14,
+          "round": 4,
+          "team": "CYAN",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              4,
+              3
+            ],
+            "guards": [],
+            "ring": 3,
+            "pieces": {
+              "KERNEL": [
+                4,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 27
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "EXPLOIT": [
+                3,
+                3
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 29
+          },
+          "value": 0.3639761507511139
+        },
+        "event": {
+          "team": "CYAN",
+          "fr": [
+            4,
+            3
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "kind": "move",
+          "piece": "KERNEL",
+          "moved": true,
+          "capture": "EXPLOIT",
+          "actual_target": [
+            3,
+            3
+          ]
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 15,
+          "round": 4,
+          "team": "MAGENTA",
+          "actions_left": 2,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              3,
+              3
+            ],
+            "guards": [],
+            "ring": 3,
+            "pieces": {
+              "KERNEL": [
+                3,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 28
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "DAEMON": [
+                0,
+                5
+              ],
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 21
+          },
+          "value": -0.681808352470398
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            0,
+            5
+          ],
+          "to": [
+            3,
+            5
+          ],
+          "kind": "move",
+          "piece": "DAEMON",
+          "moved": true,
+          "capture": null,
+          "actual_target": null
+        },
+        "terminal": false,
+        "winner": null,
+        "cause": null
+      },
+      {
+        "before": {
+          "action": 16,
+          "round": 4,
+          "team": "MAGENTA",
+          "actions_left": 1,
+          "next_ring": 0,
+          "CYAN": {
+            "kernel": [
+              3,
+              3
+            ],
+            "guards": [],
+            "ring": 3,
+            "pieces": {
+              "KERNEL": [
+                3,
+                3
+              ],
+              "TRACE": [
+                5,
+                0
+              ],
+              "ICE": [
+                6,
+                1
+              ],
+              "DAEMON": [
+                7,
+                2
+              ]
+            },
+            "enemy_attacks_kernel": [
+              {
+                "fr": [
+                  3,
+                  5
+                ],
+                "to": [
+                  3,
+                  3
+                ],
+                "kind": "move"
+              }
+            ],
+            "legal_count": 28
+          },
+          "MAGENTA": {
+            "kernel": [
+              1,
+              7
+            ],
+            "guards": [
+              [
+                2,
+                7,
+                "TRACE"
+              ]
+            ],
+            "ring": 0,
+            "pieces": {
+              "KERNEL": [
+                1,
+                7
+              ],
+              "TRACE": [
+                2,
+                7
+              ],
+              "DAEMON": [
+                3,
+                5
+              ],
+              "PING": [
+                4,
+                6
+              ]
+            },
+            "enemy_attacks_kernel": [],
+            "legal_count": 23
+          },
+          "value": 0.09283506125211716
+        },
+        "event": {
+          "team": "MAGENTA",
+          "fr": [
+            3,
+            5
+          ],
+          "to": [
+            3,
+            3
+          ],
+          "kind": "move",
+          "piece": "DAEMON",
+          "moved": true,
+          "capture": "KERNEL",
+          "actual_target": [
+            3,
+            3
+          ]
+        },
+        "terminal": true,
+        "winner": "MAGENTA",
+        "cause": "kernel_capture"
+      }
+    ]
+  }
+]

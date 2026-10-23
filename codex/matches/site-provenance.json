@@ -1,0 +1,44 @@
+{
+  "created": "2026-10-23T13:56:53.835379+00:00",
+  "h1_sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "matches": [
+    {
+      "id": "match-4650",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\match-4650.txt",
+      "sha256": "e9c148ebea2c1bfe5a84c596c753a8f2e47fa99ac37d99d90c942f5f96331da3",
+      "scene": "bbb07676-7676-7676-7670-767600076bbb",
+      "winner": "CYAN",
+      "actions": 30,
+      "model_identity": "UNKNOWN: text record contains no model hash, player identity, logits, values, or search seed"
+    },
+    {
+      "id": "match-4674",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\match-4674.txt",
+      "sha256": "97ad16308292c99d9642d9d1090a60a35386d8058bcb03d3b6bf0455986e08a7",
+      "scene": "bbb07676-7676-7676-7670-767600076bbb",
+      "winner": "MAGENTA",
+      "actions": 40,
+      "model_identity": "UNKNOWN: text record contains no model hash, player identity, logits, values, or search seed"
+    },
+    {
+      "id": "match-4733",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\match-4733.txt",
+      "sha256": "197ee46e8d7cf69a66a6e2cb84ac1fc50a19c3d8f95754ee087048e148511c88",
+      "scene": "bbb07676-7676-7676-7670-767600076bbb",
+      "winner": "CYAN",
+      "actions": 26,
+      "model_identity": "UNKNOWN: text record contains no model hash, player identity, logits, values, or search seed"
+    },
+    {
+      "id": "match-4887",
+      "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\matches\\site-raw\\match-4887.txt",
+      "sha256": "dcffd0bf1e800ec1934d814905518d0a5181075d657b6b866273aa13792ac213",
+      "scene": "bbb07676-7676-7676-7670-767600076bbb",
+      "winner": "CYAN",
+      "actions": 38,
+      "model_identity": "UNKNOWN: text record contains no model hash, player identity, logits, values, or search seed"
+    }
+  ],
+  "policy_comparison": "NOT AVAILABLE: match text contains actions but no recorded policy/value or model metadata; move similarity cannot identify model"
+}

@@ -1,0 +1,66 @@
+{
+  "model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\model-h1.onnx",
+  "sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+  "bytes": 311345,
+  "mode": "graph",
+  "python": "D:\\dev\\CCC-OMNI\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.0"
+  },
+  "structural_contract": "PASS",
+  "opsets": [
+    [
+      "",
+      17
+    ]
+  ],
+  "operators": {
+    "Reshape": 7,
+    "Gather": 16,
+    "ReduceMax": 4,
+    "Add": 132,
+    "Sub": 13,
+    "Clip": 10,
+    "MatMul": 114,
+    "Mul": 104,
+    "ReduceSum": 12,
+    "Relu": 3,
+    "ReduceMin": 1,
+    "Abs": 1,
+    "Tanh": 1,
+    "Identity": 2
+  },
+  "nodes": 420,
+  "initializers": 112,
+  "constant_indices": "PASS (authoritative check_graph_structure)",
+  "session_wall_seconds": 0.11908689999998501,
+  "corpus_cases": 24,
+  "batches": [
+    {
+      "batch": 1,
+      "calls": 24,
+      "result": "PASS",
+      "wall_seconds": 0.006080099999991262,
+      "value_min": -0.9700000286102295,
+      "value_max": 0.9700000286102295
+    },
+    {
+      "batch": 8,
+      "calls": 3,
+      "result": "PASS",
+      "wall_seconds": 0.003191000000015265,
+      "value_min": -0.9700000286102295,
+      "value_max": 0.9700000286102295
+    },
+    {
+      "batch": 16,
+      "calls": 2,
+      "result": "PASS",
+      "wall_seconds": 0.0011088999999913085,
+      "value_min": -0.9700000286102295,
+      "value_max": 0.9700000286102295
+    }
+  ]
+}

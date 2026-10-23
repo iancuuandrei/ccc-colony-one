@@ -48,6 +48,9 @@ def main():
         if len(data) > 20 * 1024 * 1024:
             raise ValueError(f'Allowlisted file exceeds 20 MiB review limit: {src}')
         sha = digest(data)
+        expected = entry.get('sha256')
+        if expected and sha != expected:
+            raise RuntimeError(f'Pinned candidate changed: {src}; preserve it and add a new versioned entry')
         current = digest(dst.read_bytes()) if dst.exists() else None
         prior = previous.get(entry['path'], {}).get('sha256')
         if current and current != sha and current != prior:

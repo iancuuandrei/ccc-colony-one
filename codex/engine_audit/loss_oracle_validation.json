@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "independent_env_tree_fixtures": 5,
+  "budget_unknown_and_board_restore_checks": 5,
+  "cases": [
+    {
+      "name": "bare_forced_loss",
+      "status": "VERIFIED",
+      "nodes": 3,
+      "max_nodes": 100000,
+      "budget_exhausted": false,
+      "per_first_action": {
+        "8": "VERIFIED",
+        "1": "VERIFIED",
+        "9": "VERIFIED"
+      },
+      "meaning": "every own continuation admits enemy terminal win before next own turn"
+    },
+    {
+      "name": "bare_escape",
+      "status": "DISPROVED",
+      "nodes": 3,
+      "max_nodes": 100000,
+      "budget_exhausted": false,
+      "per_first_action": {
+        "8": "VERIFIED",
+        "1": "VERIFIED",
+        "9": "DISPROVED"
+      },
+      "meaning": "every own continuation admits enemy terminal win before next own turn"
+    },
+    {
+      "name": "opponent_two_action_threat",
+      "status": "VERIFIED",
+      "nodes": 135,
+      "max_nodes": 100000,
+      "budget_exhausted": false,
+      "per_first_action": {
+        "8": "VERIFIED",
+        "1": "VERIFIED",
+        "9": "VERIFIED",
+        "4087": "VERIFIED",
+        "4079": "VERIFIED",
+        "4094": "VERIFIED",
+        "4093": "VERIFIED"
+      },
+      "meaning": "every own continuation admits enemy terminal win before next own turn"
+    },
+    {
+      "name": "small_board",
+      "status": "DISPROVED",
+      "nodes": 13,
+      "max_nodes": 100000,
+      "budget_exhausted": false,
+      "per_first_action": {
+        "1756": "DISPROVED",
+        "1764": "DISPROVED",
+        "2276": "DISPROVED",
+        "2268": "DISPROVED"
+      },
+      "meaning": "every own continuation admits enemy terminal win before next own turn"
+    },
+    {
+      "name": "firewall_win",
+      "status": "DISPROVED",
+      "nodes": 11,
+      "max_nodes": 100000,
+      "budget_exhausted": false,
+      "per_first_action": {
+        "3632": "DISPROVED",
+        "3641": "DISPROVED",
+        "3633": "DISPROVED",
+        "1763": "DISPROVED",
+        "1771": "DISPROVED",
+        "1747": "DISPROVED",
+        "1739": "DISPROVED",
+        "1756": "DISPROVED",
+        "1757": "DISPROVED",
+        "1754": "DISPROVED",
+        "1753": "DISPROVED"
+      },
+      "meaning": "every own continuation admits enemy terminal win before next own turn"
+    }
+  ]
+}

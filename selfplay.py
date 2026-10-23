@@ -32,8 +32,10 @@ def play(job):
     learner_is_cyan = bool(seed % 2)
     ev_l = evaluator(learner)
     ev_o = evaluator(opponent) if opponent else ev_l
-    full = mcts.MCTSConfig(simulations=o['full_sims'], dirichlet_eps=0.25)
-    fast = mcts.MCTSConfig(simulations=o['fast_sims'], dirichlet_eps=0.25)
+    # Root noise only applies inside the warmup window; widen it to 16 actions for self-play.
+    warm = dict(dirichlet_eps=0.25, warmup_temperatures=(1.0, 1.0, 0.5, 0.5), warmup_step_actions=4)
+    full = mcts.MCTSConfig(simulations=o['full_sims'], **warm)
+    fast = mcts.MCTSConfig(simulations=o['fast_sims'], **warm)
     env = ColonyOneEnv()
     rec = []
     n = 0
@@ -54,7 +56,7 @@ def play(job):
         if len(idx) > K:  # keep the most visited
             order = np.argsort(-cnt)[:K]
             idx = [idx[i] for i in order]; cnt = cnt[order]
-        rec.append((planes, team, idx, cnt / max(tot, 1), q, bool(is_full and is_learner), env.round_number))
+        rec.append((planes, team, idx, cnt / max(tot, 1), q, bool(is_full and is_learner), env.round_number, is_learner))
         env.step(encoding.decode_action(a, team, env.board))
         n += 1
     m = len(rec)
@@ -65,9 +67,10 @@ def play(job):
     z = np.array([1.0 if r[1] == env.winner else -1.0 for r in rec], np.float32)
     q = np.array([r[4] for r in rec], np.float32)
     has_pol = np.array([r[5] for r in rec], bool)
+    q_valid = np.array([r[7] for r in rec], bool)  # root Q only from the learner's own search
     left = np.arange(m, 0, -1, dtype=np.float32)  # actions until game end
     learner_team = constants.CYAN if learner_is_cyan else constants.MAGENTA
-    return dict(obs=obs, pidx=pidx, pval=pval, z=z, q=q, has_pol=has_pol, left=left,
+    return dict(obs=obs, pidx=pidx, pval=pval, z=z, q=q, has_pol=has_pol, q_valid=q_valid, left=left,
                 meta=(seed, env.winner, m, opponent is None or env.winner == learner_team))
 
 def main():

@@ -1,0 +1,8 @@
+{
+  "intent": "Intentional Level 4 task-supplied scene override; extracted base environment provenance retained",
+  "source": "D:\\dev\\CCC-OMNI\\challenge\\current\\task\\level-4_scene.json",
+  "active": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\env\\colony_one\\scene.json",
+  "source_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "active_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "extracted_base_scene_sha256": "567ad29da742d2c61dcfc44b158e46d4b1190f8afd61cb7662127a3ab2ac4e2f"
+}

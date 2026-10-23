@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+  "bytes": 343589,
+  "synthetic": {
+    "positions": 12,
+    "approach_states": 12,
+    "approach_actions": 24,
+    "total_certified_win_states": 12,
+    "false_positive_actions": 0
+  },
+  "replay": {
+    "positions": 92,
+    "approach_states": 4,
+    "approach_actions": 17,
+    "total_certified_win_states": 8,
+    "false_positive_actions": 0
+  },
+  "last_winning_turns": [
+    {
+      "seed": 12001,
+      "team": "CYAN",
+      "value": 1.0,
+      "certified_actions": 4,
+      "mcts100_first_action": {
+        "from": [
+          4,
+          2
+        ],
+        "to": [
+          3,
+          3
+        ]
+      },
+      "engine_wins": true
+    },
+    {
+      "seed": 12002,
+      "team": "MAGENTA",
+      "value": 1.0,
+      "certified_actions": 9,
+      "mcts100_first_action": {
+        "from": [
+          2,
+          4
+        ],
+        "to": [
+          1,
+          4
+        ]
+      },
+      "engine_wins": true
+    },
+    {
+      "seed": 12003,
+      "team": "CYAN",
+      "value": 1.0,
+      "certified_actions": 1,
+      "mcts100_first_action": {
+        "from": [
+          6,
+          1
+        ],
+        "to": [
+          4,
+          3
+        ]
+      },
+      "engine_wins": true
+    },
+    {
+      "seed": 12004,
+      "team": "MAGENTA",
+      "value": 1.0,
+      "certified_actions": 3,
+      "mcts100_first_action": {
+        "from": [
+          0,
+          5
+        ],
+        "to": [
+          3,
+          5
+        ]
+      },
+      "engine_wins": true
+    }
+  ],
+  "random_reachable": {
+    "positions": 4182,
+    "approach_states": 122,
+    "approach_actions": 305,
+    "total_certified_win_states": 195,
+    "false_positive_actions": 0
+  },
+  "seconds": 1.3810346126556396,
+  "scope": "Sufficient certificate; false negatives allowed. No grader qualification."
+}

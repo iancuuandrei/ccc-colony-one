@@ -74,9 +74,42 @@ class Features(nn.Module):
         hits = torch.clamp((raw[0] * ek).sum(1, keepdim=True), 0.0, 1.0)
         guards = ((ek @ self.ADJ) * f[:, 6:11].sum(1)).sum(1, keepdim=True)
         acts = f[:, 13].mean(1, keepdim=True) * 2.0
-        win = hits * torch.clamp(acts - guards, 0.0, 1.0)            # (B,1)
+        win1 = hits * torch.clamp(acts - guards, 0.0, 1.0)           # rule R1, (B,1)
+        # Rule R2 (two actions left): a piece relocates (empty square or capturing a
+        # non-Kernel enemy) to a square from which it attacks an unguarded enemy Kernel;
+        # with exactly one guard, the relocation may capture that guard.
+        own = [f[:, i] for i in range(6)]
+        enk = f[:, 6:11].sum(1)
+        land = empty + enk
+        dest = [
+            self.rays(own[0], ORTH, 1, 2, empty) * empty + self.rays(own[0], DIAG, 1, 2, empty) * enk,
+            self.rays(own[1], ORTH, 1, 3, empty) * empty + self.rays(own[1], ORTH, 2, 3, empty) * enk,
+            (own[2] @ self.KN) * land,
+            self.rays(own[3], ORTH, 1, 1, empty) * empty,
+            self.rays(own[4], ALL8, 1, 2, empty) * land,
+            (own[5] @ self.ADJ) * land,
+        ]
+        guard_sq = (ek @ self.ADJ) * enk
+        g0 = torch.clamp(1.0 - guards, 0.0, 1.0)
+        g1 = torch.clamp(1.0 - torch.abs(guards - 1.0), 0.0, 1.0)
+        ok = g0 + g1 * guard_sq                                        # (B,64)
+        r2 = 0
+        for t in range(6):
+            e2 = torch.clamp(empty + own[t], 0.0, 1.0)                 # origin vacated
+            rev = [
+                lambda: self.rays(ek, DIAG, 1, 2, e2),
+                lambda: ek @ self.ADJ + self.rays(ek, ORTH, 2, 3, e2),
+                lambda: ek @ self.KN,
+                lambda: self.rays(ek, DIAG, 2, 3, e2),
+                lambda: self.rays(ek, ALL8, 1, 2, e2),
+                lambda: ek @ self.ADJ,
+            ][t]()
+            r2 = r2 + (dest[t] * rev * ok).sum(1, keepdim=True)
+        two = torch.clamp(acts - 1.0, 0.0, 1.0)
+        win2 = torch.clamp(r2, 0.0, 1.0) * two
+        win = torch.clamp(win1 + win2, 0.0, 1.0)
         extra = torch.stack(maps + [empty, totals[0], totals[1], kzone, win * self.ONES], 1)
-        return torch.cat([f, extra], 1).reshape(-1, N_FEAT, 8, 8), win, ek
+        return torch.cat([f, extra], 1).reshape(-1, N_FEAT, 8, 8), win, ek * win1
 
 
 class SE(nn.Module):
@@ -84,10 +117,12 @@ class SE(nn.Module):
         super().__init__()
         self.fc1 = nn.Linear(c, c // r)
         self.fc2 = nn.Linear(c // r, 2 * c)
+        self.c = c
 
     def forward(self, x):
         s = x.mean((2, 3))
-        g, bias = self.fc2(F.relu(self.fc1(s))).chunk(2, 1)
+        y = self.fc2(F.relu(self.fc1(s)))
+        g, bias = y[:, :self.c], y[:, self.c:]
         return x * torch.sigmoid(g)[:, :, None, None] + bias[:, :, None, None]
 
 
@@ -120,6 +155,10 @@ class Net(nn.Module):
         self.v_fc1 = nn.Linear(8 * 64 + channels, 128)
         self.v_fc2 = nn.Linear(128, 1)
         self.aux = nn.Linear(128, 2)  # root-Q and log remaining actions (training only)
+        # Export-time calibration for the fixed referee search: policy softmax
+        # temperature and value scale (value scale s acts like c_puct / s).
+        self.register_buffer('ptemp', torch.ones(1), persistent=False)
+        self.register_buffer('vscale', torch.ones(1), persistent=False)
 
     def trunk(self, x):
         feats, win, ek = self.feat(x)
@@ -137,11 +176,13 @@ class Net(nn.Module):
     def outputs(self, x):
         h, win, ek = self.trunk(x)
         logits, v = self.heads(h)
-        value = torch.tanh(self.v_fc2(v)).reshape(-1)
+        value = torch.tanh(self.v_fc2(v)).reshape(-1) * self.vscale
+        logits = logits / self.ptemp
         w = win.reshape(-1)
         value = value + w * (0.99 - value)
         # Every legal action aimed at the enemy Kernel square is an attack on it.
-        logits = (logits.reshape(-1, 64, 64) + (win * 30.0 * ek).reshape(-1, 1, 64)).reshape(-1, 4096)
+        # ek here is already gated by R1: every legal action onto the Kernel square is an attack.
+        logits = (logits.reshape(-1, 64, 64) + (30.0 * ek).reshape(-1, 1, 64)).reshape(-1, 4096)
         return logits, value, v
 
     def forward(self, x):
@@ -153,12 +194,37 @@ class Net(nn.Module):
         return logits, value, self.aux(v)
 
 
-def export(net: Net, path):
+def export(net: Net, path, ptemp=1.0, vscale=1.0):
     net = net.eval().cpu()
+    net.ptemp.fill_(ptemp); net.vscale.fill_(vscale)
     x = torch.zeros(2, 16, 8, 8)
     torch.onnx.export(net, (x,), str(path), input_names=['observation'], output_names=['policy', 'value'],
                       dynamic_axes={'observation': {0: 'batch'}, 'policy': {0: 'batch'}, 'value': {0: 'batch'}},
                       opset_version=17, do_constant_folding=True, dynamo=False)
     import onnx
+    from onnx import numpy_helper
     m = onnx.load(str(path))
+    # The server allow-list has no Constant op: turn every Constant node into an initializer.
+    keep = []
+    for n in m.graph.node:
+        if n.op_type == 'Constant':
+            t = onnx.helper.get_attribute_value(n.attribute[0])
+            arr = numpy_helper.to_array(t) if isinstance(t, onnx.TensorProto) else np.asarray(t)
+            m.graph.initializer.append(numpy_helper.from_array(arr, n.output[0]))
+        else:
+            keep.append(n)
+    del m.graph.node[:]
+    m.graph.node.extend(keep)
+    # Declare the exact contract signature (the exporter loses static dims through Reshape(-1)).
+    from onnx import TensorProto, helper
+    sig_in = helper.make_tensor_value_info('observation', TensorProto.FLOAT, ['batch', 16, 8, 8])
+    sig_out = [helper.make_tensor_value_info('policy', TensorProto.FLOAT, ['batch', 4096]),
+               helper.make_tensor_value_info('value', TensorProto.FLOAT, ['batch'])]
+    del m.graph.input[:]; m.graph.input.extend([sig_in])
+    del m.graph.output[:]; m.graph.output.extend(sig_out)
+    init_names = {t.name for t in m.graph.initializer}
+    kept_vi = [v for v in m.graph.value_info if v.name not in ('policy', 'value', 'observation')]
+    del m.graph.value_info[:]; m.graph.value_info.extend(kept_vi)
+    onnx.checker.check_model(m)
     onnx.save(m, str(path), save_as_external_data=False)
+    net.ptemp.fill_(1.0); net.vscale.fill_(1.0)

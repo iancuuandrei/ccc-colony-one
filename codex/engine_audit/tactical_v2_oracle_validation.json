@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "model_sha256": "feed54b3951cd976cdf713fa23e292dcc11fdf0e3b6960415ae38b4d8698c138",
+  "states": 121,
+  "oracle_positive_states": 39,
+  "predicted_approach_actions": 28,
+  "approach_false_positive_count": 0,
+  "value_one_states": 27,
+  "value_one_false_positive_count": 0,
+  "oracle_winning_actions": 274,
+  "false_positive_actions": [],
+  "false_positive_value_states": [],
+  "scope": "Bounded corpus; subset soundness only, not completeness or playing strength."
+}

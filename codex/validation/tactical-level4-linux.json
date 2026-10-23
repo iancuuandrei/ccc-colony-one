@@ -1,0 +1,34 @@
+{
+  "model": "/mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/codex/tactical/model-tactical.onnx",
+  "sha256": "8fef2d4aef5efe63e857432409f055974c4ed1a625d80871f5e5c2b177487b5b",
+  "bytes": 334224,
+  "mode": "level4",
+  "python": "/home/andrei/.cache/colony-one-validator/bin/python",
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "initialization_cpu_seconds": 0.08806500400000017,
+  "result": "PASS",
+  "seed": 0,
+  "simulations": 100,
+  "batch_size": 8,
+  "sides": {
+    "CYAN": {
+      "actions": 12,
+      "cpu_seconds": 0.12946276799999934,
+      "wall_seconds": 0.12950556799995638
+    },
+    "MAGENTA": {
+      "actions": 12,
+      "cpu_seconds": 0.1105457060000008,
+      "wall_seconds": 0.11058293599978697
+    }
+  },
+  "winner": "MAGENTA",
+  "total_wall_seconds": 0.24280991099999483,
+  "peak_rss_bytes": 82481152
+}
