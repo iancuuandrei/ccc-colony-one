@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "provenance": {
+    "kind": "LLM_AUTHORED_CONSTRUCTED_SCENARIOS",
+    "teacher_role": "Astra teacher assigned by orchestrator",
+    "model_identity_verification": "External harness identity is not inferred by this file",
+    "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING",
+    "raw_real_match_data": false,
+    "coordinates": "absolute zero-based row,col; C=CYAN M=MAGENTA"
+  },
+  "teacher_seed_proposals": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\astra\\hard_seed_proposals.json",
+  "proposal_sha256": "dcc5df3450ef3ec9c4ae3ac12f7f9ba0d3631b4ec10a21611ea580b0bf1cc0b5",
+  "engine_sha256": {
+    "env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e"
+  },
+  "baseline_sha256": {
+    "h1": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+    "v2": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+    "gen01": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a"
+  },
+  "oracle_sha256": {
+    "oracle.py": "4a9c4297aa107f4f5df3774aef51af84259299417ebacea8fe2bd7e605fa5dfc",
+    "own_turn_oracle.py": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9"
+  },
+  "states": 192,
+  "unique_families": 5,
+  "hard_states": 122,
+  "certified_value_states": 48,
+  "unknown_value_states": 144,
+  "seconds": 64.73399999999992,
+  "qualification": "Constructed legal states, not established reachable games. Certificates bound only the current/next-turn horizon. Difficulty is local exact-referee MCTS100 error, not playing-strength proof.",
+  "split_rule": "All rotations, reflections and paired clocks from a family remain in the same group.",
+  "sampling": "Prioritize hard states; retain counterexamples from paired action counts and firewall phases; never interpret UNKNOWN value as loss.",
+  "refinement": {
+    "source_sha256": "612e584e94f664a850ab722a50dfad89904ad7f7f76039856a21ef4102f23739",
+    "updated_states": 50,
+    "max_nodes": 500000,
+    "seconds": 20.40599999999995
+  },
+  "per_baseline_errors": {
+    "h1": 119,
+    "v2": 71,
+    "gen01": 83
+  },
+  "complete_policy_states": 192
+}

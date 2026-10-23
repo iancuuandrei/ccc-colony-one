@@ -1,0 +1,24 @@
+{
+  "prediction": {
+    "accepted": true,
+    "errors": []
+  },
+  "illegal_action": {
+    "accepted": false,
+    "errors": [
+      "p-3308c57d7396e691: ValueError: Illegal ranked action 0"
+    ]
+  },
+  "unsupported_exact": {
+    "accepted": false,
+    "errors": [
+      "p-3308c57d7396e691: ValueError: Prediction evidence contains an unsupported exact assertion; use bounded exact claim or qualified predictive language"
+    ]
+  },
+  "packet0001": {
+    "states_roundtrip_legal_pass": 20
+  },
+  "packet0002": {
+    "states_roundtrip_legal_pass": 12
+  }
+}

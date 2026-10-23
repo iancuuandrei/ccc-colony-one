@@ -1,0 +1,1549 @@
+{
+  "model_sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+  "packet_sha256": "68c2d0a41b383076a539e55c00040f9f43beeca5787eca9b9157b18b779cd8ae",
+  "positions": 192,
+  "action_mismatches": 0,
+  "missed_certified_wins": 0,
+  "avoidable_tactical_blunders": 83,
+  "errors": 83,
+  "seconds": 16.358999999999924,
+  "records": [
+    {
+      "position_id": "p-9df4e9dd67772902",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-85243e30c4ffc959",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-29ad9f9e836597d6",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-ada6081c6e5bcb34",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-61a0295f6f3a3175",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-a78c1ccc4774edcd",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-3599d9f0404c37c8",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-6fac421be8176537",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-f0146295aeeb88cb",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-432cf54726f7c7a9",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-e411aa5948d388d7",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-56131916da6ce5bd",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-6bad47eb07500a57",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c7774b377fd20fce",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-8fa46d8446566c75",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-40d4bce7570093a9",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-051822501d2ae1ff",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-b02c088821a6f743",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-181048bd9280dfe1",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-51f53dde0c5e5cf3",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-cf573a28021f0ff6",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-17fd94f9d1a4119b",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-cca62c0304147194",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c239435277043f28",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-df4c753e40bf10c6",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-53234c7eca4d66b4",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-dd9c5acfc597e683",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c94badee6672b35f",
+      "action": 1381,
+      "producer_action": 1381,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-bafabe4c75e770cf",
+      "action": 2716,
+      "producer_action": 2716,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-9059b63da4f3237d",
+      "action": 1188,
+      "producer_action": 1188,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-5ae997bd7be2e4e1",
+      "action": 1379,
+      "producer_action": 1379,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-a31c5eae2badde13",
+      "action": 2907,
+      "producer_action": 2907,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-fbd643d46cc69a08",
+      "action": 2916,
+      "producer_action": 2916,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-7dc4bd0674cddd1e",
+      "action": 2723,
+      "producer_action": 2723,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-ee2e830ac87c2fea",
+      "action": 1179,
+      "producer_action": 1179,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-41e27f473009bc83",
+      "action": 1372,
+      "producer_action": 1372,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-71577ca253dd155e",
+      "action": 2723,
+      "producer_action": 2723,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c5181e682baba152",
+      "action": 1179,
+      "producer_action": 1179,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c2e60118b635f364",
+      "action": 1372,
+      "producer_action": 1372,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-4ed7655b68cd2271",
+      "action": 2916,
+      "producer_action": 2916,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-1110852918b18b0c",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-e0782f7b513b1fe5",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-86e75e473f0a9b98",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-a3b091dbff4c3839",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-3355302eb735287f",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-1d1f8aa3c0326cbc",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-b0aceff74b227b90",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-59b16db92940fc0c",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-96f92b7837b26ace",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-d1d6cde831688ba3",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-2fd9ba48af0831ee",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-cbe68599a3d97883",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-55105bc943bd8453",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-eae656765412226b",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-38cfd5dd618f04ee",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-6469c61f0d7d00ad",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-d9377e5450e4f784",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-301cc7d01508b6ea",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-6e2a01c87b2011b4",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-b17231bc35605704",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-a3ab8937de653dc5",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-a78b51431e70295a",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-7844482aa53139bb",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-c783b77d9d45fd54",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-5dd6d54131c1ad4b",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-752c8e04e732fb00",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-86390910ed3004a6",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-dc47242633cc7574",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-a2b4b9d298ecadbf",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-5dff193cea01d16b",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-8a7a960996706dbd",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-b1edf12809981f16",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-c2adc7271a6f2926",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-e767fa2b50b62977",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-fc218db7e495e430",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-982deb09d6fe54bb",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-f8d742c80b88cb6c",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-14e3731ca7b0879e",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-eef2ecd2fb781c0f",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-42fe9ce7f38a4686",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-6727d88f0710339b",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-0ee8e5865561777d",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-ac4f0e42ad363c80",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-829a0d5b41272ec0",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-e616711af5f67582",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-3184492094ef1c69",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-f2e34efba923ae9c",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-ee2a3699c6c6668a",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-ff1cc485650472cd",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-48e61110e00397e7",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-281a4d011b388b22",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-5d2452056a75566b",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-fd04c33af182d3a2",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-10d8ad5e58f07062",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-3361e77cf0da63a6",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-76382c9583bdcc02",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-94375fbb4216f44d",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-6197a41f585ec6c1",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-66d6e60d19d4c53c",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-acc42643b85c0668",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-b126779d5c46c93c",
+      "action": 2331,
+      "producer_action": 2331,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-ef817188683785c5",
+      "action": 2268,
+      "producer_action": 2268,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-4d147eed817627ae",
+      "action": 1764,
+      "producer_action": 1764,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-c3cee1602b181c49",
+      "action": 1827,
+      "producer_action": 1827,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-2843007c5094ac98",
+      "action": 3249,
+      "producer_action": 3249,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-fde31752ba33f305",
+      "action": 1097,
+      "producer_action": 1097,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-addc0d4b608e581c",
+      "action": 846,
+      "producer_action": 846,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-7754b6134be0b4dc",
+      "action": 2998,
+      "producer_action": 2998,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-1703b07a19a8430e",
+      "action": 3446,
+      "producer_action": 3446,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-fdfaee8332cb9cd5",
+      "action": 2657,
+      "producer_action": 2657,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-411ed7a96167b967",
+      "action": 649,
+      "producer_action": 649,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-be8fec29a4293296",
+      "action": 1422,
+      "producer_action": 1422,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-b93bc14244860556",
+      "action": 3251,
+      "producer_action": 3251,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-849b9967a8222d4a",
+      "action": 1097,
+      "producer_action": 1097,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-012cd8aff1fbc8ad",
+      "action": 844,
+      "producer_action": 844,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c0e0d7fda5faf512",
+      "action": 2998,
+      "producer_action": 2998,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-609bef5db2a5cad4",
+      "action": 3446,
+      "producer_action": 3446,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-9224d22df6eea8a5",
+      "action": 2657,
+      "producer_action": 2657,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-43b66c73c67d6b01",
+      "action": 649,
+      "producer_action": 649,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-b158e117147c7136",
+      "action": 1422,
+      "producer_action": 1422,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-dc8130c67039e086",
+      "action": 3243,
+      "producer_action": 3243,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-7349f13016bb099a",
+      "action": 1097,
+      "producer_action": 1097,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-ed0a8fd47d74d402",
+      "action": 846,
+      "producer_action": 846,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-916639e8cf45333b",
+      "action": 2998,
+      "producer_action": 2998,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-6d486dfe4d2e8dd6",
+      "action": 3436,
+      "producer_action": 3436,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-7e085895b8c254ac",
+      "action": 2657,
+      "producer_action": 2657,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-5952e4e264d76862",
+      "action": 651,
+      "producer_action": 651,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-01379a6a93ef13c8",
+      "action": 1422,
+      "producer_action": 1422,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-ca172626ef89f426",
+      "action": 3249,
+      "producer_action": 3249,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-ed2d81fbda831655",
+      "action": 1097,
+      "producer_action": 1097,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-a167194fb95205b9",
+      "action": 846,
+      "producer_action": 846,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-5bf45d47e4e85de8",
+      "action": 2998,
+      "producer_action": 2998,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-20c20af61ddc8376",
+      "action": 3446,
+      "producer_action": 3446,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-52b835fc2475c4e7",
+      "action": 2673,
+      "producer_action": 2673,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c9f5debda6c7ef38",
+      "action": 649,
+      "producer_action": 649,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-0ac54c881c942dd8",
+      "action": 1422,
+      "producer_action": 1422,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-d67b552b0f5be8ad",
+      "action": 3243,
+      "producer_action": 3243,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-352bcf87149e6f1b",
+      "action": 1114,
+      "producer_action": 1114,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-ba74babaa94807d5",
+      "action": 844,
+      "producer_action": 844,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-3ba44c77bab27d4b",
+      "action": 2982,
+      "producer_action": 2982,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-b909d43b5d94f82a",
+      "action": 3444,
+      "producer_action": 3444,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-589db991cfc9e86a",
+      "action": 2657,
+      "producer_action": 2657,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-b31fdca4fbc8c451",
+      "action": 651,
+      "producer_action": 651,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-52a918b8bd076934",
+      "action": 1437,
+      "producer_action": 1437,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-5af954fa757d96d9",
+      "action": 2722,
+      "producer_action": 2722,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-669149df89285bfd",
+      "action": 1162,
+      "producer_action": 1162,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-6e72ea4c2066a7a5",
+      "action": 1373,
+      "producer_action": 1373,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-7e2f6ede75a601a8",
+      "action": 2933,
+      "producer_action": 2933,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-30a7ca40be0ef24c",
+      "action": 2917,
+      "producer_action": 2917,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-80439dccec064157",
+      "action": 2731,
+      "producer_action": 2731,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-fdf3aba51ab9bc34",
+      "action": 1169,
+      "producer_action": 1169,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-cef55a76d125621c",
+      "action": 1356,
+      "producer_action": 1356,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-cb89dac51de4ab5c",
+      "action": 2721,
+      "producer_action": 2721,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-38ac8db2badc0689",
+      "action": 1162,
+      "producer_action": 1162,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-8e6b17dd17e13fbd",
+      "action": 1373,
+      "producer_action": 1373,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-6224967096bec136",
+      "action": 2924,
+      "producer_action": 2924,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-b9b0b961d9ac5130",
+      "action": 2918,
+      "producer_action": 2918,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-408c13b240fcdeef",
+      "action": 2739,
+      "producer_action": 2739,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-a573c60a94aa7947",
+      "action": 1169,
+      "producer_action": 1169,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-0647b785afe19be3",
+      "action": 1364,
+      "producer_action": 1364,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-8e89cf501a412524",
+      "action": 2721,
+      "producer_action": 2721,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-7d4a621a5d4c4c6b",
+      "action": 1169,
+      "producer_action": 1169,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-5f2b5ee8e8496536",
+      "action": 1373,
+      "producer_action": 1373,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-d22a103bdc8d0ed9",
+      "action": 2924,
+      "producer_action": 2924,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-2a7f94fa734bbac5",
+      "action": 2917,
+      "producer_action": 2917,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-a9ebfe7671a6f9bd",
+      "action": 2739,
+      "producer_action": 2739,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-579b1644fc2cd074",
+      "action": 1162,
+      "producer_action": 1162,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-1647e67242ba7840",
+      "action": 1364,
+      "producer_action": 1364,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": true
+    },
+    {
+      "position_id": "p-435b899d031e5936",
+      "action": 2794,
+      "producer_action": 2794,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-61837484e156a5fa",
+      "action": 1682,
+      "producer_action": 1682,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-78354ecc44b0727e",
+      "action": 1301,
+      "producer_action": 1301,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c63a3204b4ba7929",
+      "action": 2404,
+      "producer_action": 2404,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-ccc0eae7bf9e05b3",
+      "action": 3501,
+      "producer_action": 3501,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-eec4e1a19ecf1782",
+      "action": 2211,
+      "producer_action": 2211,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-45c13cef28fd6186",
+      "action": 594,
+      "producer_action": 594,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-0eb7319054591841",
+      "action": 1877,
+      "producer_action": 1877,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-00ce1428e6b98e78",
+      "action": 2858,
+      "producer_action": 2858,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c45960a45698f85b",
+      "action": 594,
+      "producer_action": 594,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-311d7e883b39e9c5",
+      "action": 1237,
+      "producer_action": 1237,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-6770caace15c9d3b",
+      "action": 3501,
+      "producer_action": 3501,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-34f68b4e557c7717",
+      "action": 2797,
+      "producer_action": 2797,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-6b32b758daddee61",
+      "action": 1706,
+      "producer_action": 1706,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-46245f97083b430f",
+      "action": 1298,
+      "producer_action": 1298,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-47752a7644e7f13b",
+      "action": 2389,
+      "producer_action": 2389,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-7c2109c37d978721",
+      "action": 2261,
+      "producer_action": 2261,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-54e6f225dccd5c1e",
+      "action": 1773,
+      "producer_action": 1773,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-87df2dbecec6259d",
+      "action": 1834,
+      "producer_action": 1834,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-f793bdf769986455",
+      "action": 2322,
+      "producer_action": 2322,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-c553dd20cf54067b",
+      "action": 2322,
+      "producer_action": 2322,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-8bf86e0e4851fad8",
+      "action": 2261,
+      "producer_action": 2261,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-dc82f8d1b49cd10b",
+      "action": 1773,
+      "producer_action": 1773,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    },
+    {
+      "position_id": "p-632228e4627aaec1",
+      "action": 1834,
+      "producer_action": 1834,
+      "exact_action_match": true,
+      "missed_certified_win": false,
+      "avoidable_tactical_blunder": false
+    }
+  ],
+  "qualification": "Exact current-model local MCTS100 choices on constructed states; no independent-game or grader proof"
+}

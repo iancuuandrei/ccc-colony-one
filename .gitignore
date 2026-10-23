@@ -16,3 +16,18 @@ loop_state.json
 *.pt
 *.pth
 *.sync-tmp
+
+# Explicit reviewed small checkpoint/label/corpus exceptions.
+!/checkpoints/gen01.pt
+!/codex/distillation/sources/site-hard-positions-c299fe2c9f13e3c5.npz
+!/codex/distillation/student/model-distill-v1.npz
+!/codex/distillation/student/model-distill-v2.npz
+!/codex/distillation/validated/packet0001/teacher_targets.npz
+!/codex/distillation/validated/packet0002/teacher_targets.npz
+!/codex/synthetic/astra/certified_states.npz
+!/codex/synthetic/astra/hard_refined/certified_states.npz
+!/codex/synthetic/astra/discovery/certified_states.npz
+!/codex/synthetic/astra/curriculum/certified_states.npz
+!/codex/synthetic/astra/curriculum/hard_only.npz
+!/codex/synthetic/validation/controls0001/independently_validated.npz
+!/codex/synthetic/validation/controls0001-per-action/independently_validated.npz

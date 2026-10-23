@@ -1,0 +1,3048 @@
+{
+  "accepted": true,
+  "packet_id": "packet0001",
+  "packet_sha256": "d7214be984362222a452b1dcd6f50324035336bd7b93232434c07d02bec249e7",
+  "labels_sha256": "0ba7713b705a2e6b1def7172496b5046e598edcfd43affa449cb15e2f07f9efb",
+  "errors": [],
+  "checks": [
+    {
+      "position_id": "p-3308c57d7396e691",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-2ec32360b72053a7",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-14c11e34d6b72c30",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-6a1a2e495df9132f",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-f754d2802838362c",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-c76fffefb48ff22d",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-edd07dcc84446d14",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-d446e8aa6500a1d9",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-9ab6d2ddacb1393d",
+      "claim": "forced_loss_by_next_turn",
+      "status": "VERIFIED",
+      "oracle_certificate": {
+        "status": "VERIFIED",
+        "nodes": 590,
+        "max_nodes": 20000,
+        "budget_exhausted": false,
+        "per_first_action": {
+          "2283": "VERIFIED",
+          "2267": "VERIFIED",
+          "2276": "VERIFIED",
+          "2274": "VERIFIED",
+          "2284": "VERIFIED",
+          "2282": "VERIFIED",
+          "2268": "VERIFIED",
+          "2266": "VERIFIED",
+          "2088": "VERIFIED",
+          "2072": "VERIFIED",
+          "2081": "VERIFIED"
+        },
+        "meaning": "every own continuation admits enemy terminal win before next own turn"
+      }
+    },
+    {
+      "position_id": "p-7a02e213cfe190b9",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-8c0c5d1251d82f07",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-e8003915c2f7732b",
+      "claim": "forced_win_this_turn",
+      "status": "VERIFIED",
+      "oracle_witness": {
+        "actions": [
+          2203,
+          1757
+        ],
+        "reason": "kernel_capture"
+      }
+    },
+    {
+      "position_id": "p-e002815c20580672",
+      "claim": "forced_win_this_turn",
+      "status": "VERIFIED",
+      "oracle_witness": {
+        "actions": [
+          1757
+        ],
+        "reason": "kernel_capture"
+      }
+    },
+    {
+      "position_id": "p-907b7bf64738fa73",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-166298d6515ebf13",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-38838080396504bf",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-b1dd9c9724864cd5",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-0c0e2585feffe800",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-5b1ccca88bfc3a67",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    },
+    {
+      "position_id": "p-9b185be5064a23d0",
+      "claim": "prediction",
+      "status": "PREDICTION_ONLY"
+    }
+  ],
+  "labels": [
+    {
+      "position_id": "p-3308c57d7396e691",
+      "state_sha256": "3308c57d7396e69161c672fa7078a0b403ebf32258b17e10132b21949c0abcfc",
+      "policy_rankings": [
+        {
+          "action_index": 2786,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2777,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2793,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2144,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2137,
+          "rank": 5,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2153,
+          "rank": 6,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2146,
+          "rank": 7,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2136,
+          "rank": 8,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2138,
+          "rank": 9,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2152,
+          "rank": 10,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2154,
+          "rank": 11,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2787,
+          "rank": 12,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2779,
+          "rank": 13,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2803,
+          "rank": 14,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2811,
+          "rank": 15,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2794,
+          "rank": 16,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2796,
+          "rank": 17,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2797,
+          "rank": 18,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2788,
+          "rank": 19,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2781,
+          "rank": 20,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2802,
+          "rank": 21,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2809,
+          "rank": 22,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2804,
+          "rank": 23,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3948,
+          "rank": 24,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3950,
+          "rank": 25,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3955,
+          "rank": 26,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3959,
+          "rank": 27,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.55,
+      "confidence": 0.9,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Only four actions avoid an opponent terminal win next turn. Ice D3-C4, D3-B5 and D3-B3 add a bodyguard; Kernel B4-A4 is the other safe action. Prefer preserving the Ice near the Kernel over retreating to the perimeter. Eventual result remains uncertain.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2136,
+        2137,
+        2138,
+        2146,
+        2152,
+        2153,
+        2154,
+        2779,
+        2781,
+        2787,
+        2788,
+        2794,
+        2796,
+        2797,
+        2802,
+        2803,
+        2804,
+        2809,
+        2811,
+        3948,
+        3950,
+        3955,
+        3959
+      ]
+    },
+    {
+      "position_id": "p-2ec32360b72053a7",
+      "state_sha256": "2ec32360b72053a7b601a4d92df22b597acc839f0fc6a69900ce616142afe0a5",
+      "policy_rankings": [
+        {
+          "action_index": 3186,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3177,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 1633,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 1641,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2931,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2915,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 3706,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3704,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3194,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3192,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3176,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3128,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3112,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2942,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2940,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2935,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2919,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2910,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2908,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1617,
+          "rank": 20,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1609,
+          "rank": 21,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1626,
+          "rank": 22,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1627,
+          "rank": 23,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1624,
+          "rank": 24,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3707,
+          "rank": 25,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3708,
+          "rank": 26,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3178,
+          "rank": 27,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.1,
+      "confidence": 0.78,
+      "value_confidence": 0.2,
+      "claim": "prediction",
+      "evidence": "Kernel G7-F6 captures a Ping but permits an Ice approach and Kernel capture on the next turn. Daemon G8-E8/D8 also abandons a necessary guard. The other 24 actions avoid this bounded loss; prefer maintaining protection while developing inward.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        3178,
+        3707,
+        3708
+      ]
+    },
+    {
+      "position_id": "p-14c11e34d6b72c30",
+      "state_sha256": "14c11e34d6b72c30fbeb68c6fb6e843d2b4ce45503f7342004cc4d365aca627d",
+      "policy_rankings": [
+        {
+          "action_index": 3746,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3754,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3178,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2601,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2592,
+          "rank": 5,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2608,
+          "rank": 6,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3177,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3169,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3193,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3184,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3186,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3187,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3192,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3762,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3769,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3768,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3771,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3772,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3773,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2267,
+          "rank": 20,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2283,
+          "rank": 21,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2274,
+          "rank": 22,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2276,
+          "rank": 23,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2266,
+          "rank": 24,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2268,
+          "rank": 25,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2282,
+          "rank": 26,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2284,
+          "rank": 27,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.3,
+      "confidence": 0.88,
+      "value_confidence": 0.25,
+      "claim": "prediction",
+      "evidence": "Every Kernel move permits a terminal opponent sequence next turn; all 19 non-Kernel actions avoid it. Daemon C1-C4 and Ice B2-C3 approach or provide protection without spending the Kernel action on the tempting Exploit capture. No eventual-win claim.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        2282,
+        2283,
+        2284
+      ]
+    },
+    {
+      "position_id": "p-6a1a2e495df9132f",
+      "state_sha256": "6a1a2e495df9132f990140a43d3369aad784bf5bcca39fbae215feda60bcde17",
+      "policy_rankings": [
+        {
+          "action_index": 2261,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2282,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2273,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2666,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2267,
+          "rank": 5,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2259,
+          "rank": 6,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2283,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2291,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2274,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2276,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2277,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2266,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2257,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2268,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2289,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2284,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2293,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2592,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2608,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2657,
+          "rank": 20,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2673,
+          "rank": 21,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2656,
+          "rank": 22,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2658,
+          "rank": 23,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2672,
+          "rank": 24,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2674,
+          "rank": 25,
+          "weight": 0.35
+        }
+      ],
+      "value": -0.3,
+      "confidence": 0.68,
+      "value_confidence": 0.3,
+      "claim": "prediction",
+      "evidence": "Ice D4-F6 attacks the guarded Kernel, removes the enemy Ice at G7 and remains on D4. It gains a valuable piece without relocating onto F6. All legal first actions survived the next-turn tactical probe; material conversion preference is a prediction.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-f754d2802838362c",
+      "state_sha256": "f754d2802838362cd2e2c341955f783c9827ea70e73ba3da976d73be9e93df28",
+      "policy_rankings": [
+        {
+          "action_index": 2196,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2218,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2209,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2666,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2202,
+          "rank": 5,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2194,
+          "rank": 6,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2226,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2208,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2211,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2212,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2201,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2192,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2203,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2219,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2228,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2592,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2608,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2657,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2673,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2656,
+          "rank": 20,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2672,
+          "rank": 21,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2674,
+          "rank": 22,
+          "weight": 0.35
+        }
+      ],
+      "value": 0.25,
+      "confidence": 0.76,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Ice C4-E6 redirects onto the Daemon at F7, removes it and remains C4. This removes the enemy long-range attacker while retaining the Ice. Both current Kernel bodyguards and the exact source-preserving redirect matter; eventual result is not certified.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-c76fffefb48ff22d",
+      "state_sha256": "c76fffefb48ff22d16b02452c7b8df26cb949ec43591696e7aefe9ea493047fa",
+      "policy_rankings": [
+        {
+          "action_index": 1347,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 1351,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3242,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3234,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3948,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 1373,
+          "rank": 6,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1381,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1364,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 1363,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2592,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2608,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2601,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3177,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3193,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3184,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3192,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3194,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3258,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3251,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3252,
+          "rank": 20,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3241,
+          "rank": 21,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3232,
+          "rank": 22,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3243,
+          "rank": 23,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3236,
+          "rank": 24,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3257,
+          "rank": 25,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3259,
+          "rank": 26,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3950,
+          "rank": 27,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3955,
+          "rank": 28,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3959,
+          "rank": 29,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3178,
+          "rank": 30,
+          "weight": 0.005
+        }
+      ],
+      "value": 0.05,
+      "confidence": 0.62,
+      "value_confidence": 0.25,
+      "claim": "prediction",
+      "evidence": "Ping F6-D8 captures a Daemon; F6-H8 instead sacrifices the defending Exploit and leaves the Ping on F6. Prefer the larger direct material gain, but that ordering is predictive. Kernel B2-C3 is excluded by an exact opponent-next-turn win witness.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        3178
+      ]
+    },
+    {
+      "position_id": "p-edd07dcc84446d14",
+      "state_sha256": "edd07dcc84446d14f611e82f73c8c25ccbc7686373cc9deced85fae6873c9fda",
+      "policy_rankings": [
+        {
+          "action_index": 2774,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2794,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2796,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3892,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3251,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 3884,
+          "rank": 6,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3876,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3901,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3902,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3903,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3899,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3898,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3897,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3258,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3242,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3234,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3252,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3249,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3248,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3259,
+          "rank": 20,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3257,
+          "rank": 21,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3241,
+          "rank": 22,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3232,
+          "rank": 23,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2282,
+          "rank": 24,
+          "weight": 0.35
+        },
+        {
+          "action_index": 203,
+          "rank": 25,
+          "weight": 0.35
+        },
+        {
+          "action_index": 211,
+          "rank": 26,
+          "weight": 0.35
+        },
+        {
+          "action_index": 196,
+          "rank": 27,
+          "weight": 0.35
+        },
+        {
+          "action_index": 197,
+          "rank": 28,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2803,
+          "rank": 29,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2267,
+          "rank": 30,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2276,
+          "rank": 31,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2274,
+          "rank": 32,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2284,
+          "rank": 33,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2268,
+          "rank": 34,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2266,
+          "rank": 35,
+          "weight": 0.005
+        }
+      ],
+      "value": 0.55,
+      "confidence": 0.78,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Trace E6-B3 removes Cyan Trace A3 through Kernel guard redirection and stays E6, continuing to guard the Magenta Kernel. Moving Trace to E7 instead or several Kernel moves permits a next-turn terminal attack. Prefer the safe shot and retained protection.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        2284,
+        2803
+      ]
+    },
+    {
+      "position_id": "p-d446e8aa6500a1d9",
+      "state_sha256": "d446e8aa6500a1d9a1ffe2420e6bab7a85cafa5ba4864b18916e37f7d7945af3",
+      "policy_rankings": [
+        {
+          "action_index": 2794,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2081,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2786,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2802,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2803,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2804,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2787,
+          "rank": 7,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2796,
+          "rank": 8,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2788,
+          "rank": 9,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2088,
+          "rank": 10,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2072,
+          "rank": 11,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.6,
+      "confidence": 0.88,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Six first actions have a continuation avoiding an opponent win next turn; five have none. Kernel E6-F6 or Trace H5-G5 can arrange a guard. Kernel E6-E5 is a losing tempo under the bounded exhaustive probe. Material disadvantage still makes the position unfavorable.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2072,
+        2088,
+        2787,
+        2788,
+        2796
+      ]
+    },
+    {
+      "position_id": "p-9ab6d2ddacb1393d",
+      "state_sha256": "9ab6d2ddacb1393d0b119282e1f3f1b5631a98bb201ac8c1fa7d6f7bd9ad8c8d",
+      "policy_rankings": [
+        {
+          "action_index": 2283,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2267,
+          "rank": 2,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2276,
+          "rank": 3,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2274,
+          "rank": 4,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2284,
+          "rank": 5,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2282,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2268,
+          "rank": 7,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2266,
+          "rank": 8,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2088,
+          "rank": 9,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2072,
+          "rank": 10,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2081,
+          "rank": 11,
+          "weight": 1.0
+        }
+      ],
+      "value": -1.0,
+      "confidence": 0.15,
+      "value_confidence": 1.0,
+      "claim": "forced_loss_by_next_turn",
+      "evidence": "All 11 legal actions were enumerated through the opponent turn and each admits an opponent terminal win. Equal policy weights reflect no certified distinction among these losing actions. The value is from Magenta, the current mover.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2072,
+        2081,
+        2088,
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        2282,
+        2283,
+        2284
+      ]
+    },
+    {
+      "position_id": "p-7a02e213cfe190b9",
+      "state_sha256": "7a02e213cfe190b95ab5e997f12511f856f35cc344ea2c670eb34e6bd6bf3d43",
+      "policy_rankings": [
+        {
+          "action_index": 2794,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2786,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2674,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2802,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2673,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2657,
+          "rank": 6,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2664,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2666,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2656,
+          "rank": 9,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2672,
+          "rank": 10,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2787,
+          "rank": 11,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2779,
+          "rank": 12,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2803,
+          "rank": 13,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2811,
+          "rank": 14,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2796,
+          "rank": 15,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2797,
+          "rank": 16,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2777,
+          "rank": 17,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2788,
+          "rank": 18,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2781,
+          "rank": 19,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2809,
+          "rank": 20,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2804,
+          "rank": 21,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3948,
+          "rank": 22,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3950,
+          "rank": 23,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3955,
+          "rank": 24,
+          "weight": 0.35
+        },
+        {
+          "action_index": 3959,
+          "rank": 25,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2658,
+          "rank": 26,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.5,
+      "confidence": 0.66,
+      "value_confidence": 0.3,
+      "claim": "prediction",
+      "evidence": "Kernel B3-C4 has no continuation avoiding an opponent next-turn win. Prefer keeping or bringing Ice within guarding distance, rather than advancing an exposed Kernel. Other first actions have at least one safe continuation; this does not establish eventual survival.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2658
+      ]
+    },
+    {
+      "position_id": "p-8c0c5d1251d82f07",
+      "state_sha256": "8c0c5d1251d82f0711e871f3f4aa6d2f2280f4dbf017afb2ab19455fdbdcc55b",
+      "policy_rankings": [
+        {
+          "action_index": 3697,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3689,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3633,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3121,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2915,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 3681,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3706,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3707,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3708,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3112,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2942,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2940,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2935,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2931,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2919,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2910,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2908,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1633,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1641,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1617,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1609,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1626,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1627,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1624,
+          "rank": 24,
+          "weight": 0.7
+        }
+      ],
+      "value": -0.1,
+      "confidence": 0.35,
+      "value_confidence": 0.15,
+      "claim": "prediction",
+      "evidence": "The Kernel starts with two adjacent bodyguards. Develop the Daemon or Kernel while preserving a guard; the nearby enemy Ping creates direct tactical pressure. No immediate terminal win was found, and all first actions have a bounded safe continuation. Ordering is strategic prediction.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-e8003915c2f7732b",
+      "state_sha256": "e8003915c2f7732b6520ed27ce632c369aec904bdd32314dbf873ef0f28fb03c",
+      "policy_rankings": [
+        {
+          "action_index": 2203,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2212,
+          "rank": 2,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2196,
+          "rank": 3,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2219,
+          "rank": 4,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2202,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2194,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2218,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2226,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2209,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2208,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2211,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2201,
+          "rank": 12,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2192,
+          "rank": 13,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2228,
+          "rank": 14,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2592,
+          "rank": 15,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2608,
+          "rank": 16,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2657,
+          "rank": 17,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2673,
+          "rank": 18,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2666,
+          "rank": 19,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2656,
+          "rank": 20,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2672,
+          "rank": 21,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2674,
+          "rank": 22,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Four Ice moves admit an immediate second-action Kernel capture: C4-D5, C4-E4, C4-E6 and C4-D3. The opponent has no adjacent guard. Capturing the Kernel ends the game before firewall timing can matter.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [],
+      "witness": [
+        2203,
+        1757
+      ]
+    },
+    {
+      "position_id": "p-e002815c20580672",
+      "state_sha256": "e002815c205806729a66d38a4f8d9f4d938e6af48c511c1f005575a79ba79b32",
+      "policy_rankings": [
+        {
+          "action_index": 1757,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 1747,
+          "rank": 2,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1739,
+          "rank": 3,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1763,
+          "rank": 4,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1771,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1754,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1753,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1756,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1746,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1737,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1748,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1741,
+          "rank": 12,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1762,
+          "rank": 13,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1764,
+          "rank": 14,
+          "weight": 0.003
+        },
+        {
+          "action_index": 1773,
+          "rank": 15,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2592,
+          "rank": 16,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2608,
+          "rank": 17,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2657,
+          "rank": 18,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2673,
+          "rank": 19,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2666,
+          "rank": 20,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2656,
+          "rank": 21,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2658,
+          "rank": 22,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2672,
+          "rank": 23,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2674,
+          "rank": 24,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Ice D5-F5 directly captures the unguarded Magenta Kernel. Immediate capture terminates before bare-Kernel or firewall checks. Moving the Cyan Kernel onto A4/A2 instead exposes a terminal opponent turn.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2656,
+        2672
+      ],
+      "witness": [
+        1757
+      ]
+    },
+    {
+      "position_id": "p-907b7bf64738fa73",
+      "state_sha256": "907b7bf64738fa739f75e67b3a42a1e8a1b5a8312f4ae3d744fc38819e5c3ea2",
+      "policy_rankings": [
+        {
+          "action_index": 2664,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2673,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3633,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2731,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2915,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 3632,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3641,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2942,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2940,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2935,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2931,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2919,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2910,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2908,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2738,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2746,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2722,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2714,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2732,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2681,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2657,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2649,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2674,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2683,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2672,
+          "rank": 25,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2658,
+          "rank": 26,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2651,
+          "rank": 27,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2656,
+          "rank": 28,
+          "weight": 0.7
+        }
+      ],
+      "value": -0.45,
+      "confidence": 0.45,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Ice G6-H6 captures the advanced enemy Ping. A subsequent return toward G7 can guard the Kernel; the opponent retains more non-Kernel material. Prefer removing the nearby attacker over unsupported advancement. Value is an uncertain material-and-safety estimate.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-166298d6515ebf13",
+      "state_sha256": "166298d6515ebf131e5f0364351ed520f4490bf0a4de74a376faf614cb12f5b1",
+      "policy_rankings": [
+        {
+          "action_index": 3632,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3746,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3754,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3300,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3177,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2137,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2129,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2153,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2144,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2146,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2147,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2592,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2608,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2601,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3193,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3184,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3186,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3178,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3171,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3298,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3305,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3309,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3321,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3325,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3641,
+          "rank": 25,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3762,
+          "rank": 26,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3769,
+          "rank": 27,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3771,
+          "rank": 28,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3772,
+          "rank": 29,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3773,
+          "rank": 30,
+          "weight": 0.7
+        }
+      ],
+      "value": 0.0,
+      "confidence": 0.2,
+      "value_confidence": 0.05,
+      "claim": "prediction",
+      "evidence": "Early position with equal material and distant Kernels. Kernel A1-A2 connects to Trace A3 and Ice B2; Daemon and Exploit development are alternatives. No terminal win exists within the current turn. Weak preference only; zero is uncertainty, not a predicted draw.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-38838080396504bf",
+      "state_sha256": "38838080396504bf6ea04f63fc863cd260b4e6a406963cf2195913465507c19b",
+      "policy_rankings": [
+        {
+          "action_index": 3178,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3241,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2601,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3177,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3243,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 3258,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3242,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3234,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3251,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3252,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3259,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3257,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3236,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3232,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3193,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3184,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3194,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3192,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2608,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2592,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2153,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2137,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2146,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2147,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2144,
+          "rank": 25,
+          "weight": 0.7
+        }
+      ],
+      "value": 0.0,
+      "confidence": 0.25,
+      "value_confidence": 0.1,
+      "claim": "prediction",
+      "evidence": "Material is balanced. Kernel G7-F6 improves inward placement while staying adjacent to Ice F7; other guard-preserving development is plausible. No action permits a terminal opponent win next turn. Preference and neutral value are uncertain predictions.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-b1dd9c9724864cd5",
+      "state_sha256": "b1dd9c9724864cd5452773030fc85f1f356c6bd9cce80266a70b9df3f69ce0e0",
+      "policy_rankings": [
+        {
+          "action_index": 3632,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3746,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3754,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3300,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3177,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 3762,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3771,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3772,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3773,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3769,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3641,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3325,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3321,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3309,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3305,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3298,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3193,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3186,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3184,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3178,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3171,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2608,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2592,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2601,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2153,
+          "rank": 25,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2137,
+          "rank": 26,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2129,
+          "rank": 27,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2146,
+          "rank": 28,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2147,
+          "rank": 29,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2144,
+          "rank": 30,
+          "weight": 0.7
+        }
+      ],
+      "value": 0.0,
+      "confidence": 0.2,
+      "value_confidence": 0.05,
+      "claim": "prediction",
+      "evidence": "Equal material and a largely separated opening. Kernel H8-H7 connects with Trace H6 and Ice G7, while Daemon development improves reach. All first actions have at least one bounded safe continuation. Opening value and ranking have low confidence.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-0c0e2585feffe800",
+      "state_sha256": "0c0e2585feffe8006776a4010f448d052c5959f5b7c1407029af13eafc14404f",
+      "policy_rankings": [
+        {
+          "action_index": 3746,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3754,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3300,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3177,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3113,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 3762,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3771,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3772,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3773,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3769,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3768,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3325,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3321,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3309,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3305,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3298,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3193,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3186,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3192,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3178,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3171,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3128,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3129,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2592,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2601,
+          "rank": 25,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2153,
+          "rank": 26,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2137,
+          "rank": 27,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2129,
+          "rank": 28,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2146,
+          "rank": 29,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2147,
+          "rank": 30,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2144,
+          "rank": 31,
+          "weight": 0.7
+        }
+      ],
+      "value": 0.0,
+      "confidence": 0.2,
+      "value_confidence": 0.05,
+      "claim": "prediction",
+      "evidence": "Both Kernels have nearby protection and equal material. Prefer activating the Daemon or Exploit before another edgeward move. All actions avoid a terminal opponent win on the next turn; relative ordering remains an unverified strategic preference.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-5b1ccca88bfc3a67",
+      "state_sha256": "5b1ccca88bfc3a6721dc119b622c90d423bf428028028ab4c2ae6cceea9f2134",
+      "policy_rankings": [
+        {
+          "action_index": 3178,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3186,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 1741,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 1756,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 1748,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2666,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 1747,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1739,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1763,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1771,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1754,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1753,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1757,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1746,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1737,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1762,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1764,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 1773,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2657,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2664,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3193,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3184,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3176,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3192,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3194,
+          "rank": 25,
+          "weight": 0.7
+        }
+      ],
+      "value": -0.25,
+      "confidence": 0.35,
+      "value_confidence": 0.2,
+      "claim": "prediction",
+      "evidence": "Round 8 perimeter remains usable until Magenta ends its turn. Prefer a central Kernel destination or an active Ice move. Cyan can still leave and return from the perimeter in two actions, so edge first moves are not automatically losses. Material disadvantage is only a predictive value signal.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-9b185be5064a23d0",
+      "state_sha256": "9b185be5064a23d0dd94b9f8b6392ea391457d43a446cf5e682ba97710b2eaa8",
+      "policy_rankings": [
+        {
+          "action_index": 3632,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3876,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3884,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3300,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3177,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2137,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2129,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2153,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2144,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2146,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2147,
+          "rank": 11,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2592,
+          "rank": 12,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2608,
+          "rank": 13,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2601,
+          "rank": 14,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3193,
+          "rank": 15,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3184,
+          "rank": 16,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3186,
+          "rank": 17,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3178,
+          "rank": 18,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3171,
+          "rank": 19,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3194,
+          "rank": 20,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3298,
+          "rank": 21,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3305,
+          "rank": 22,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3309,
+          "rank": 23,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3321,
+          "rank": 24,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3325,
+          "rank": 25,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3641,
+          "rank": 26,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3892,
+          "rank": 27,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3899,
+          "rank": 28,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3898,
+          "rank": 29,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3897,
+          "rank": 30,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3901,
+          "rank": 31,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3902,
+          "rank": 32,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3903,
+          "rank": 33,
+          "weight": 0.7
+        }
+      ],
+      "value": 0.0,
+      "confidence": 0.2,
+      "value_confidence": 0.05,
+      "claim": "prediction",
+      "evidence": "Equal material in an early position. Kernel A1-A2 retains Ice B2 protection and connects with Trace A3; Daemon E1-E4 activates the displaced Daemon. All legal actions avoid a next-turn terminal loss. Preference is weak and value is uncertain, not a draw claim.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    }
+  ],
+  "unlabelled_positions": [],
+  "qualification": "Validated teacher predictions and bounded exact certificates; no playing-strength or grader-acceptance claim"
+}

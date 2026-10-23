@@ -1,0 +1,2190 @@
+{
+  "accepted": true,
+  "source_hashes": {
+    "seed_proposals.json": "04a65495b19d9b9c8bc4fed7f5f9ae65548822f395a2dea4a86665a368b87a23",
+    "packet.json": "3b3a0c006cf0fdaf74b19175868e4449249448dda18f44151f572e72b3ecd8b8",
+    "manifest.json": "67dfe2891daaa410617a2911c68870b05b573f52f50621cf6a6c19544db22d0a",
+    "certified_states.jsonl": "cb45b56de945f1807e7df4e5e9f77e83dd75bee8777bb55fe717e04ab138c834",
+    "certified_states.npz": "0da4f3a58b902ed25bf2f03db97cb4f11da60b7cddbcce9d9ea86cf8896dd1cf",
+    "generate.py": "89878a3e4752cf82b7a574a963f683a18a3e4b13e494de3fa9363e97c17ff518"
+  },
+  "validator_sha256": "d3e2fd2cafb87576da98f2ebf5adcb8f873cb32951ab344f1fe4c1c2d8a770a9",
+  "rows": 176,
+  "groups": 15,
+  "train_groups": [
+    "astra-family-bare_tiebreak",
+    "astra-family-capture_guard_danger",
+    "astra-family-firewall_final_ring",
+    "astra-family-firewall_inner_ring",
+    "astra-family-firewall_preemption",
+    "astra-family-firewall_tiebreak",
+    "astra-family-guard_abandonment",
+    "astra-family-guard_removal_capture",
+    "astra-family-minimum_range_blocker",
+    "astra-family-other_piece_line_open",
+    "astra-family-quiet_approach",
+    "astra-family-sacrifice_priority"
+  ],
+  "holdout_groups": [
+    "astra-family-bare_action_count",
+    "astra-family-firewall_phase",
+    "astra-family-guard_repeat"
+  ],
+  "errors": [],
+  "checked": [
+    {
+      "position_id": "p-636162fff6b34d8f",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        2148
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-7ab1e1a1456000d8",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        739
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d1d279455411571b",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        1947
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-50e8df593e917016",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        3356
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f764c4c151b6a3d3",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        2467
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-434eeba2dbb58306",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        3291
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6ea4daaf2c8cfe3d",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        1628
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-a402251d545d6c67",
+      "seed_id": "guard_repeat_daemon",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 216,
+      "independent_win_actions": [
+        804
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-8ec9456ce8e7dd23",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        1188
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-7abad03c1b975bfe",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        1379
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-30c046a935b1b6c4",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        2907
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-34e7498fc46da018",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        2716
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fbbcfc30e633eb9c",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        1379
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-a810e7ac39fedbc4",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        2907
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b5ad50aff79f15fb",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        2716
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b4546b9dc478dad4",
+      "seed_id": "guard_repeat_trace",
+      "group_id": "astra-family-guard_repeat",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 112,
+      "independent_win_actions": [
+        1188
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6f6e46955fc870b1",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-1b0c963e38b15349",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c2fd4cd13803ae12",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-99f0db570c327053",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-86d7ce5a294fcaf9",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-00654e0a4470ba72",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-65346acbda252bb7",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-547bdf748b131ba7",
+      "seed_id": "priority_two_guards",
+      "group_id": "astra-family-sacrifice_priority",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 753,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-75613299933cbb07",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        1948
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-ab4bb131554b5849",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        3364
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-36cf6dadca22a766",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        2147
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fcb87fe3c871d2fa",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        731
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-59274e5ba343ca4e",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        1627
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-4ab1f76051f9197a",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        796
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-35f6d0eec4300664",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        2468
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-cec60e0a147a9eb6",
+      "seed_id": "last_guard_direct_capture",
+      "group_id": "astra-family-guard_removal_capture",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 281,
+      "independent_win_actions": [
+        3299
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-1db55d1cd5976304",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        2781,
+        3632,
+        3633,
+        3641
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-142f13dcc657dcb4",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        1,
+        8,
+        9,
+        1708
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-2cec80452c42e359",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        454,
+        462,
+        463,
+        1314
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-1a0fad58d36b8f54",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        2387,
+        4086,
+        4087,
+        4094
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6f8569c0ba20873d",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        2842,
+        4086,
+        4087,
+        4094
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-289ef323d8d9ce32",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        2196,
+        3632,
+        3633,
+        3641
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6516b87c98fcecb2",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        1,
+        8,
+        9,
+        1253
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-df6f6b9b42e65c12",
+      "seed_id": "quiet_ping_orth_then_diag",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 139,
+      "independent_win_actions": [
+        454,
+        462,
+        463,
+        1899
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-0a0fa05cbdf8e8ef",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        2641,
+        2649,
+        2666
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-34f4d9477c89a949",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        652,
+        653,
+        658
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-cb9daea6781c818a",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        1429,
+        1446,
+        1454
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fd32ddc789f040cf",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        3437,
+        3442,
+        3443
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-dd138b6455dcf3ad",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        2966,
+        2974,
+        2989
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-3306ba695a0f42ea",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        3242,
+        3252,
+        3253
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-df5be7e59f88a5df",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        1106,
+        1121,
+        1129
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-577f3031f9e80f68",
+      "seed_id": "quiet_daemon_corner_shot",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 158,
+      "independent_win_actions": [
+        842,
+        843,
+        853
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-7e855ee485d6493d",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        2861
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-8a195ec2e9a747fa",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        2218
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-06f3bb5c429f62f9",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        1234
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-582fbf2e240a3706",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        1877
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-0775490d3c3455c1",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        2794
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b1fa57b56a136354",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        1682
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c0bff8f42fcc5cef",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        1301
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-136098033ae50b90",
+      "seed_id": "quiet_trace_min_range",
+      "group_id": "astra-family-quiet_approach",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 66,
+      "independent_win_actions": [
+        2413
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-3f7ac5c35c3a4db4",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1682,
+        1698
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-80dde8bccad0f685",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1299,
+        1301
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-769fc7ebce192ae2",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2397,
+        2413
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d459427b7d8f07f5",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2794,
+        2796
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-656afd0fad179a10",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1877,
+        1893
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-efe9f7bb9cc1c78e",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2859,
+        2861
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f6303f14c1c7c9fe",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2202,
+        2218
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-439a4b8de3489b15",
+      "seed_id": "line_open_daemon_trace",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1234,
+        1236
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-9fe6abcc92b63536",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        1948,
+        1966,
+        2388,
+        2390,
+        2395,
+        2399,
+        2411,
+        2415,
+        2420,
+        2422
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-458491c42bb363f4",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        2778,
+        2780,
+        2785,
+        2789,
+        2801,
+        2805,
+        2810,
+        2812,
+        3364,
+        3378
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-5609282e6b595d09",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        1673,
+        1675,
+        1680,
+        1684,
+        1696,
+        1700,
+        1705,
+        1707,
+        2129,
+        2147
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-0e91bef290808041",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        717,
+        731,
+        1283,
+        1285,
+        1290,
+        1294,
+        1306,
+        1310,
+        1315,
+        1317
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c113af88aedd896c",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        1627,
+        1641,
+        2193,
+        2195,
+        2200,
+        2204,
+        2216,
+        2220,
+        2225,
+        2227
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d7bc28273cf492ec",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        778,
+        796,
+        1218,
+        1220,
+        1225,
+        1229,
+        1241,
+        1245,
+        1250,
+        1252
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d8728ed3db852e11",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        1868,
+        1870,
+        1875,
+        1879,
+        1891,
+        1895,
+        1900,
+        1902,
+        2454,
+        2468
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-0b3152c73b9b6a4e",
+      "seed_id": "line_open_ice_exploit",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 517,
+      "independent_win_actions": [
+        2843,
+        2845,
+        2850,
+        2854,
+        2866,
+        2870,
+        2875,
+        2877,
+        3299,
+        3317
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-941a7b53e531043e",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        2322,
+        2324,
+        2332,
+        2338,
+        2339,
+        2341,
+        2342,
+        2348,
+        2356,
+        2917,
+        2924,
+        2926,
+        2933,
+        3632,
+        3633,
+        3641
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-9dd957ac55f1b668",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        1,
+        8,
+        9,
+        2259,
+        2261,
+        2267,
+        2273,
+        2274,
+        2276,
+        2277,
+        2283,
+        2291,
+        2722,
+        2729,
+        2731,
+        2738
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-7c4953aee23058b9",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        454,
+        462,
+        463,
+        1162,
+        1169,
+        1171,
+        1178,
+        1739,
+        1747,
+        1753,
+        1754,
+        1756,
+        1757,
+        1763,
+        1771,
+        1773
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b1df3cbe7e05546f",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        1357,
+        1364,
+        1366,
+        1373,
+        1804,
+        1812,
+        1818,
+        1819,
+        1821,
+        1822,
+        1828,
+        1834,
+        1836,
+        4086,
+        4087,
+        4094
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-827503e135d6ea67",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        2259,
+        2261,
+        2267,
+        2273,
+        2274,
+        2276,
+        2277,
+        2283,
+        2291,
+        2722,
+        2729,
+        2731,
+        2738,
+        4086,
+        4087,
+        4094
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-a3fff9bb5e04f4f9",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        1162,
+        1169,
+        1171,
+        1178,
+        1739,
+        1747,
+        1753,
+        1754,
+        1756,
+        1757,
+        1763,
+        1771,
+        1773,
+        3632,
+        3633,
+        3641
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f84f9d22809d86c4",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        1,
+        8,
+        9,
+        1357,
+        1364,
+        1366,
+        1373,
+        1804,
+        1812,
+        1818,
+        1819,
+        1821,
+        1822,
+        1828,
+        1834,
+        1836
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-205c22b34957a959",
+      "seed_id": "line_open_trace_ping",
+      "group_id": "astra-family-other_piece_line_open",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 249,
+      "independent_win_actions": [
+        454,
+        462,
+        463,
+        2322,
+        2324,
+        2332,
+        2338,
+        2339,
+        2341,
+        2342,
+        2348,
+        2356,
+        2917,
+        2924,
+        2926,
+        2933
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-1825a0204d5d623a",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f392dd9b805a21a9",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c72c3bc32c46185b",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-2fae7dee839370d8",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-2eca3e0f47f66d13",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c9c56e852c8ce24d",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c8ea597b3c13c996",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-804bc2207df1fcc5",
+      "seed_id": "last_action_guard_departure",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 15,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f0bc6cd50e3386ef",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-da91e6e5715b434f",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6cacc0034269a2ef",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-e23f4b651b3f89a4",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-0b2f0f8fa6a1a7c8",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-28476c63afbdec85",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-7dba3e5d48d3bf96",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-8caf747ce92d3cc5",
+      "seed_id": "first_action_guard_repair",
+      "group_id": "astra-family-guard_abandonment",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 267,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-13111175a2cf195c",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-289e8e0464af2a28",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-a5262450f838f483",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-13bdc14e238b8c55",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-809e4b332adcf45a",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-52167a4d5ead78b1",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-4bd20a2be03527c0",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-830376fe21e9fb70",
+      "seed_id": "firewall_cyan_delayed",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-acc5f26804645fc7",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-66a498a903de9bd8",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-adba152e1ff5a844",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c4dbae059eb120c1",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fc900153803f5669",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-11412821c75d8b6b",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-56071d8f9de38e86",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b73aed29d14322b7",
+      "seed_id": "firewall_magenta_escape",
+      "group_id": "astra-family-firewall_phase",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-514da2e2de1ad1ce",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        2898,
+        2917,
+        2924,
+        2926,
+        2933,
+        3891,
+        3892,
+        3893,
+        3899,
+        3901
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-9073b7ffd0580ddb",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        2072,
+        2073,
+        2081,
+        2088,
+        2089,
+        2709,
+        2722,
+        2729,
+        2731,
+        2738
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-e1747d6f030f36d8",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        194,
+        196,
+        202,
+        203,
+        204,
+        1162,
+        1169,
+        1171,
+        1178,
+        1197
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-620affc9eee77752",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        1357,
+        1364,
+        1366,
+        1373,
+        1386,
+        2006,
+        2007,
+        2014,
+        2022,
+        2023
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-dcfebbee393f9bed",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        2709,
+        2722,
+        2729,
+        2731,
+        2738,
+        3826,
+        3827,
+        3828,
+        3834,
+        3836
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6d50e355e59343e3",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        1162,
+        1169,
+        1171,
+        1178,
+        1197,
+        1552,
+        1553,
+        1561,
+        1568,
+        1569
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d7216c6da6c47d26",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        259,
+        261,
+        267,
+        268,
+        269,
+        1357,
+        1364,
+        1366,
+        1373,
+        1386
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c4d965ce36d95222",
+      "seed_id": "firewall_both_burn_tie",
+      "group_id": "astra-family-firewall_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 10,
+      "independent_win_actions": [
+        2526,
+        2527,
+        2534,
+        2542,
+        2543,
+        2898,
+        2917,
+        2924,
+        2926,
+        2933
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-4b75f534c1710857",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        1692
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-20421982b2f90a87",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        1316
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-09819c6a38a9c6eb",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        2403
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-bf46f98c0cf5dea1",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        2779
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-a3d2f99fa3626486",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        1883
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-dc3c4f52fb7f76db",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        2844
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b1b37d43bf099237",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        2212
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-de1b737bf01ca6d8",
+      "seed_id": "capture_before_own_burn",
+      "group_id": "astra-family-firewall_preemption",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 19,
+      "independent_win_actions": [
+        1251
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f9c23e07303d8e06",
+      "seed_id": "bare_two_action_capture",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 72,
+      "independent_win_actions": [
+        1764
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-ec41326bf19274af",
+      "seed_id": "bare_two_action_capture",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 72,
+      "independent_win_actions": [
+        1827
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-90a05cfd6be04aa5",
+      "seed_id": "bare_two_action_capture",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 72,
+      "independent_win_actions": [
+        2331
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d6e8eaba4a64fe4f",
+      "seed_id": "bare_two_action_capture",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 72,
+      "independent_win_actions": [
+        2268
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-56878e1f5554c30e",
+      "seed_id": "bare_one_action_distance",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-522e916f5645d19e",
+      "seed_id": "bare_one_action_distance",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-ff71b6da1b334ce6",
+      "seed_id": "bare_one_action_distance",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-10e865ab114950ec",
+      "seed_id": "bare_one_action_distance",
+      "group_id": "astra-family-bare_action_count",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-9568a816df67171b",
+      "seed_id": "bare_magenta_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [
+        2917,
+        2924
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-002302eb7fa94eb0",
+      "seed_id": "bare_magenta_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [
+        2722,
+        2731
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-09dc045d66b0033e",
+      "seed_id": "bare_magenta_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [
+        1171,
+        1178
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-76e3774632f781d5",
+      "seed_id": "bare_magenta_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [
+        1364,
+        1373
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-ad996b786c5aef81",
+      "seed_id": "bare_cyan_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-9ed1343544ac3d41",
+      "seed_id": "bare_cyan_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-45535484ee37847d",
+      "seed_id": "bare_cyan_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-05bf4c623632441a",
+      "seed_id": "bare_cyan_equal_ring",
+      "group_id": "astra-family-bare_tiebreak",
+      "claim": "forced_loss_by_next_turn",
+      "own_turn_nodes": 8,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-cb89f9d77d40cd3f",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2389,
+        2404
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b77c58f45386b2da",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2787,
+        2797
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f4ad8b5c0171f28c",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1691,
+        1706
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-7a60765a6f840b77",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1298,
+        1308
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-e536aa11a0be3f22",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2194,
+        2211
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-019604cc0c458a84",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1237,
+        1243
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-52c0166084b64924",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        1884,
+        1901
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-f8c3e093dfe05074",
+      "seed_id": "trace_adjacent_blocker",
+      "group_id": "astra-family-minimum_range_blocker",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 198,
+      "independent_win_actions": [
+        2852,
+        2858
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fe0ab210f6165ff9",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-57246fbafb314c8c",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-151ddef31cdfcd72",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-3e454927661a109b",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6ec085627ed4c552",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-d9eaa549ab9e7596",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-05946c260106f287",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-1ea632b757b6dc90",
+      "seed_id": "last_action_guarded_kernel_capture",
+      "group_id": "astra-family-capture_guard_danger",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 21,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6f74562a31e11dff",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-52922e8f0963920d",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b57ea653ff4b8620",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-e1a157bb3adc9590",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6c26505d9553492b",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fc1941ba00090660",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-5ac3f18fcd103f6a",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c66e7a76dbe96cbf",
+      "seed_id": "inner_firewall_escape",
+      "group_id": "astra-family-firewall_inner_ring",
+      "claim": "unknown_full_game_value",
+      "own_turn_nodes": 11,
+      "independent_win_actions": [],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b3140f011e2076b3",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        2268,
+        2331,
+        2332
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-b461e0cc3385ed83",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        1764,
+        2268,
+        2276
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-6e6b89cdce714e88",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        1763,
+        1764,
+        1827
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-1d3e426695b72b0f",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        1819,
+        1827,
+        2331
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-fe230812edde21ff",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        2267,
+        2268,
+        2331
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-c3b259e9776a349b",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        1756,
+        1764,
+        2268
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-e21a9cd75afc8a95",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        1764,
+        1827,
+        1828
+      ],
+      "status": "PASS"
+    },
+    {
+      "position_id": "p-04ad8d9778e7c6fe",
+      "seed_id": "final_ring_simultaneous",
+      "group_id": "astra-family-firewall_final_ring",
+      "claim": "forced_win_this_turn",
+      "own_turn_nodes": 3,
+      "independent_win_actions": [
+        1827,
+        2331,
+        2339
+      ],
+      "status": "PASS"
+    }
+  ],
+  "seconds": 18.860000000000127,
+  "constructed": true,
+  "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING",
+  "label_authority": "Engine-certified bounded outcomes; LLM authored proposals only; strategic LLM predictions absent",
+  "hard_states_original_manifest": 0,
+  "qualification": "Local invariants and independently recomputed env.step tactical certificates; no opening reachability, difficulty against gen01, playing strength or server acceptance claim"
+}

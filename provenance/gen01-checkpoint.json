@@ -1,0 +1,249 @@
+{
+  "checkpoint": "checkpoints/gen01.pt",
+  "sha256": "710a69d2297cf4422b257af313fdfdf3fa12404d8bea82bf46fa560f39bbb239",
+  "keys": [
+    "args",
+    "cfg",
+    "holdout_files",
+    "log",
+    "positions",
+    "state",
+    "train_files"
+  ],
+  "cfg": {
+    "channels": 48,
+    "blocks": 5,
+    "emb": 32
+  },
+  "args": {
+    "data": [
+      "data/gen00",
+      "data/gen00b"
+    ],
+    "holdout_last": true,
+    "init": null,
+    "out": "ckpt/gen01.pt",
+    "steps": 8000,
+    "batch": 1024,
+    "lr": 0.002,
+    "wd": 3e-05,
+    "qmix": 0.2,
+    "channels": 48,
+    "blocks": 5,
+    "emb": 32
+  },
+  "positions": 400198,
+  "train_files": [
+    "data/gen00/chunk0000.npz",
+    "data/gen00/chunk0001.npz",
+    "data/gen00/chunk0002.npz",
+    "data/gen00/chunk0003.npz",
+    "data/gen00/chunk0004.npz",
+    "data/gen00/chunk0005.npz",
+    "data/gen00/chunk0006.npz",
+    "data/gen00/chunk0007.npz",
+    "data/gen00/chunk0008.npz",
+    "data/gen00/chunk0009.npz",
+    "data/gen00/chunk0010.npz",
+    "data/gen00/chunk0011.npz",
+    "data/gen00/chunk0012.npz",
+    "data/gen00/chunk0013.npz",
+    "data/gen00/chunk0014.npz",
+    "data/gen00/chunk0015.npz",
+    "data/gen00/chunk0016.npz",
+    "data/gen00/chunk0017.npz",
+    "data/gen00/chunk0018.npz",
+    "data/gen00/chunk0019.npz",
+    "data/gen00/chunk0020.npz",
+    "data/gen00/chunk0021.npz",
+    "data/gen00/chunk0022.npz",
+    "data/gen00/chunk0023.npz",
+    "data/gen00/chunk0024.npz",
+    "data/gen00/chunk0025.npz",
+    "data/gen00/chunk0026.npz",
+    "data/gen00/chunk0027.npz",
+    "data/gen00/chunk0028.npz",
+    "data/gen00/chunk0029.npz",
+    "data/gen00b/chunk0000.npz",
+    "data/gen00b/chunk0001.npz",
+    "data/gen00b/chunk0002.npz",
+    "data/gen00b/chunk0003.npz",
+    "data/gen00b/chunk0004.npz",
+    "data/gen00b/chunk0005.npz",
+    "data/gen00b/chunk0006.npz",
+    "data/gen00b/chunk0007.npz",
+    "data/gen00b/chunk0008.npz",
+    "data/gen00b/chunk0009.npz",
+    "data/gen00b/chunk0010.npz",
+    "data/gen00b/chunk0011.npz",
+    "data/gen00b/chunk0012.npz",
+    "data/gen00b/chunk0013.npz",
+    "data/gen00b/chunk0014.npz",
+    "data/gen00b/chunk0015.npz",
+    "data/gen00b/chunk0016.npz",
+    "data/gen00b/chunk0017.npz",
+    "data/gen00b/chunk0018.npz",
+    "data/gen00b/chunk0019.npz",
+    "data/gen00b/chunk0020.npz",
+    "data/gen00b/chunk0021.npz",
+    "data/gen00b/chunk0022.npz",
+    "data/gen00b/chunk0023.npz",
+    "data/gen00b/chunk0024.npz",
+    "data/gen00b/chunk0025.npz",
+    "data/gen00b/chunk0026.npz",
+    "data/gen00b/chunk0027.npz",
+    "data/gen00b/chunk0028.npz"
+  ],
+  "holdout_files": [
+    "data/gen00b/chunk0029.npz"
+  ],
+  "training_log": [
+    {
+      "step": 500,
+      "policy_kl": 0.32657313346862793,
+      "value_mse": 0.7721467018127441,
+      "aux": 0.019403288140892982,
+      "sec": 17.6,
+      "hold_policy_kl": 0.3695200462837267,
+      "hold_value_mse": 0.7139617158816411
+    },
+    {
+      "step": 1000,
+      "policy_kl": 0.278481125831604,
+      "value_mse": 0.7691528797149658,
+      "aux": 0.017746154218912125,
+      "sec": 33.1,
+      "hold_policy_kl": 0.2872972337897858,
+      "hold_value_mse": 0.7355710294991057
+    },
+    {
+      "step": 1500,
+      "policy_kl": 0.22785456478595734,
+      "value_mse": 0.7572568655014038,
+      "aux": 0.018082767724990845,
+      "sec": 48.7,
+      "hold_policy_kl": 0.25210809218405483,
+      "hold_value_mse": 0.7182543547444753
+    },
+    {
+      "step": 2000,
+      "policy_kl": 0.2449110597372055,
+      "value_mse": 0.7963950037956238,
+      "aux": 0.01618284173309803,
+      "sec": 67.0,
+      "hold_policy_kl": 0.24520421461353922,
+      "hold_value_mse": 0.7517832719902108
+    },
+    {
+      "step": 2500,
+      "policy_kl": 0.20712487399578094,
+      "value_mse": 0.7839340567588806,
+      "aux": 0.015378648415207863,
+      "sec": 84.8,
+      "hold_policy_kl": 0.23775385930798107,
+      "hold_value_mse": 0.739752264583812
+    },
+    {
+      "step": 3000,
+      "policy_kl": 0.21617749333381653,
+      "value_mse": 0.7655074596405029,
+      "aux": 0.014501548372209072,
+      "sec": 103.2,
+      "hold_policy_kl": 0.23060131392308644,
+      "hold_value_mse": 0.694192159499518
+    },
+    {
+      "step": 3500,
+      "policy_kl": 0.2027144730091095,
+      "value_mse": 0.733941912651062,
+      "aux": 0.014966241084039211,
+      "sec": 120.5,
+      "hold_policy_kl": 0.21646996230858012,
+      "hold_value_mse": 0.6964848710401026
+    },
+    {
+      "step": 4000,
+      "policy_kl": 0.20145143568515778,
+      "value_mse": 0.7400193810462952,
+      "aux": 0.01578122191131115,
+      "sec": 138.2,
+      "hold_policy_kl": 0.2085916530294227,
+      "hold_value_mse": 0.7016205612350913
+    },
+    {
+      "step": 4500,
+      "policy_kl": 0.1770467609167099,
+      "value_mse": 0.7352268695831299,
+      "aux": 0.014906316995620728,
+      "sec": 155.8,
+      "hold_policy_kl": 0.20806207035418442,
+      "hold_value_mse": 0.6978370784634379
+    },
+    {
+      "step": 5000,
+      "policy_kl": 0.18247900903224945,
+      "value_mse": 0.722195029258728,
+      "aux": 0.015148741193115711,
+      "sec": 173.5,
+      "hold_policy_kl": 0.20101320571767956,
+      "hold_value_mse": 0.694225512478686
+    },
+    {
+      "step": 5500,
+      "policy_kl": 0.18531596660614014,
+      "value_mse": 0.764157235622406,
+      "aux": 0.014193596318364143,
+      "sec": 191.3,
+      "hold_policy_kl": 0.19948260648582214,
+      "hold_value_mse": 0.6904203449439139
+    },
+    {
+      "step": 6000,
+      "policy_kl": 0.18223290145397186,
+      "value_mse": 0.7421092391014099,
+      "aux": 0.014352768659591675,
+      "sec": 208.5,
+      "hold_policy_kl": 0.1953623304913815,
+      "hold_value_mse": 0.6846041102215176
+    },
+    {
+      "step": 6500,
+      "policy_kl": 0.18500855565071106,
+      "value_mse": 0.7039073705673218,
+      "aux": 0.013774252496659756,
+      "sec": 225.8,
+      "hold_policy_kl": 0.190002878320247,
+      "hold_value_mse": 0.6822391230596137
+    },
+    {
+      "step": 7000,
+      "policy_kl": 0.162336528301239,
+      "value_mse": 0.6972529888153076,
+      "aux": 0.013937756419181824,
+      "sec": 244.2,
+      "hold_policy_kl": 0.18960156319732951,
+      "hold_value_mse": 0.6819538018282723
+    },
+    {
+      "step": 7500,
+      "policy_kl": 0.18848326802253723,
+      "value_mse": 0.7531521320343018,
+      "aux": 0.014185122214257717,
+      "sec": 261.7,
+      "hold_policy_kl": 0.188177664887935,
+      "hold_value_mse": 0.6850519358302674
+    },
+    {
+      "step": 8000,
+      "policy_kl": 0.15336233377456665,
+      "value_mse": 0.7201777696609497,
+      "aux": 0.015375107526779175,
+      "sec": 278.8,
+      "hold_policy_kl": 0.18801262954198628,
+      "hold_value_mse": 0.6856734798504756
+    }
+  ],
+  "state_parameter_count": 344256,
+  "source_qualification": "Current source snapshots are separately hash-bound. Exact generation-build source was not stored in this checkpoint and is UNKNOWN.",
+  "resume_qualification": "Contains model state/config and run arguments. --init is a warm start; optimizer/scheduler/RNG/step continuation is not established."
+}

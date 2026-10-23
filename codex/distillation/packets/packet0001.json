@@ -1,0 +1,10128 @@
+{
+ "packet_id": "packet0001",
+ "schema_version": 1,
+ "teacher_model": "gpt-6-astra",
+ "observation_contract": "Sparse lossless canonical float32 (16,8,8); piece_squares planes0..11, locked_squares plane12, global_planes13..15; action_index=canonical_from*64+canonical_to. Readable board/coordinates are ABSOLUTE real board; row0 top, A8=(0,0).",
+ "instructions": "Rank legal actions, give side-to-move value [-1,1], confidence[0,1], and short factual evidence. Do not produce private reasoning. Treat strategic evaluations as prediction. Exact forced_win_this_turn/forced_loss_by_next_turn claims require engine verification; safe from next-turn tactical loss does not imply game-theoretic win. Never negate value between consecutive same-team actions. Magenta wins ties; adjudication priority: capture, bare kernels at turn end, then firewall after Magenta.",
+ "engine_sha256": {
+  "env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+  "board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+  "rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+  "encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+  "mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e"
+ },
+ "positions": [
+  {
+   "position_id": "p-3308c57d7396e691",
+   "state_sha256": "3308c57d7396e69161c672fa7078a0b403ebf32258b17e10132b21949c0abcfc",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [
+      61
+     ],
+     [],
+     [
+      43
+     ],
+     [
+      33
+     ],
+     [
+      60
+     ],
+     [
+      3
+     ],
+     [],
+     [
+      20
+     ],
+     [
+      13
+     ],
+     [
+      28
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.875,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 7,
+    "action_number": 26
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12002,
+    "action_number": 26
+   },
+   "category": "avoidable_final_action",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      3
+     ],
+     "square": "D8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      5
+     ],
+     "square": "F7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      4
+     ],
+     "square": "E6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      3,
+      4
+     ],
+     "square": "E5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      4,
+      1
+     ],
+     "square": "B4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      5,
+      3
+     ],
+     "square": "D3"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      7,
+      4
+     ],
+     "square": "E1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      7,
+      5
+     ],
+     "square": "F1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2137,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "B4-B5"
+    },
+    {
+     "action_index": 2153,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B4-B3"
+    },
+    {
+     "action_index": 2144,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B4-A4"
+    },
+    {
+     "action_index": 2146,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "B4-C4"
+    },
+    {
+     "action_index": 2136,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      3,
+      0
+     ],
+     "move": "B4-A5"
+    },
+    {
+     "action_index": 2138,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "B4-C5"
+    },
+    {
+     "action_index": 2152,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      5,
+      0
+     ],
+     "move": "B4-A3"
+    },
+    {
+     "action_index": 2154,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B4-C3"
+    },
+    {
+     "action_index": 2787,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "D3-D4"
+    },
+    {
+     "action_index": 2779,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "D3-D5"
+    },
+    {
+     "action_index": 2803,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "D3-D2"
+    },
+    {
+     "action_index": 2811,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "D3-D1"
+    },
+    {
+     "action_index": 2794,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "D3-C3"
+    },
+    {
+     "action_index": 2793,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "D3-B3"
+    },
+    {
+     "action_index": 2796,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "D3-E3"
+    },
+    {
+     "action_index": 2797,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      5
+     ],
+     "move": "D3-F3"
+    },
+    {
+     "action_index": 2786,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D3-C4"
+    },
+    {
+     "action_index": 2777,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "D3-B5"
+    },
+    {
+     "action_index": 2788,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D3-E4"
+    },
+    {
+     "action_index": 2781,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "D3-F5"
+    },
+    {
+     "action_index": 2802,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "D3-C2"
+    },
+    {
+     "action_index": 2809,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "D3-B1"
+    },
+    {
+     "action_index": 2804,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "D3-E2"
+    },
+    {
+     "action_index": 3948,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "F1-E3"
+    },
+    {
+     "action_index": 3950,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "F1-G3"
+    },
+    {
+     "action_index": 3955,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "F1-D2"
+    },
+    {
+     "action_index": 3959,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      6,
+      7
+     ],
+     "move": "F1-H2"
+    }
+   ],
+   "burn_urgency": 0.875,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. MDE .. .. .. ..",
+    ".. .. .. .. .. MIC .. ..",
+    ".. .. .. .. MTR .. .. ..",
+    ".. .. .. .. MKE .. .. ..",
+    ".. CKE .. .. .. .. .. ..",
+    ".. .. .. CIC .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. MPI CEX .. .."
+   ]
+  },
+  {
+   "position_id": "p-2ec32360b72053a7",
+   "state_sha256": "2ec32360b72053a7b601a4d92df22b597acc839f0fc6a69900ce616142afe0a5",
+   "state": {
+    "piece_squares": [
+     [
+      25
+     ],
+     [
+      57
+     ],
+     [
+      45
+     ],
+     [
+      48
+     ],
+     [],
+     [
+      49
+     ],
+     [
+      42
+     ],
+     [
+      6
+     ],
+     [],
+     [
+      23
+     ],
+     [
+      14
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 1,
+    "round_number": 4,
+    "action_number": 16
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12003,
+    "action_number": 16
+   },
+   "category": "avoidable_final_action",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      6
+     ],
+     "square": "G8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      1,
+      7
+     ],
+     "square": "H7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      2,
+      2
+     ],
+     "square": "C6"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      2,
+      5
+     ],
+     "square": "F6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      4,
+      6
+     ],
+     "square": "G4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      7,
+      0
+     ],
+     "square": "A1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      1
+     ],
+     "square": "B1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3706,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "G8-F8"
+    },
+    {
+     "action_index": 3707,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "G8-E8"
+    },
+    {
+     "action_index": 3708,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "G8-D8"
+    },
+    {
+     "action_index": 3704,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "G8-H8"
+    },
+    {
+     "action_index": 3177,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G7-G6"
+    },
+    {
+     "action_index": 3186,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "G7-F7"
+    },
+    {
+     "action_index": 3194,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "G7-F8"
+    },
+    {
+     "action_index": 3192,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "G7-H8"
+    },
+    {
+     "action_index": 3178,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "G7-F6"
+    },
+    {
+     "action_index": 3176,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      7
+     ],
+     "move": "G7-H6"
+    },
+    {
+     "action_index": 3128,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "H7-H8"
+    },
+    {
+     "action_index": 3112,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      2,
+      7
+     ],
+     "move": "H7-H6"
+    },
+    {
+     "action_index": 2942,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      0,
+      1
+     ],
+     "move": "C6-B8"
+    },
+    {
+     "action_index": 2940,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "C6-D8"
+    },
+    {
+     "action_index": 2935,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      1,
+      0
+     ],
+     "move": "C6-A7"
+    },
+    {
+     "action_index": 2931,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "C6-E7"
+    },
+    {
+     "action_index": 2919,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      3,
+      0
+     ],
+     "move": "C6-A5"
+    },
+    {
+     "action_index": 2915,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "C6-E5"
+    },
+    {
+     "action_index": 2910,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "C6-B4"
+    },
+    {
+     "action_index": 2908,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "C6-D4"
+    },
+    {
+     "action_index": 1633,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      3,
+      6
+     ],
+     "move": "G4-G5"
+    },
+    {
+     "action_index": 1641,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G4-G6"
+    },
+    {
+     "action_index": 1617,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "G4-G3"
+    },
+    {
+     "action_index": 1609,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      6,
+      6
+     ],
+     "move": "G4-G2"
+    },
+    {
+     "action_index": 1626,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "G4-F4"
+    },
+    {
+     "action_index": 1627,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "G4-E4"
+    },
+    {
+     "action_index": 1624,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      4,
+      7
+     ],
+     "move": "G4-H4"
+    }
+   ],
+   "burn_urgency": 0.5,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. MDE ..",
+    ".. .. .. .. .. .. MKE MTR",
+    ".. .. MEX .. .. CPI .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. MPI ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CIC .. .. .. .. .. ..",
+    "CKE CDE .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-14c11e34d6b72c30",
+   "state_sha256": "14c11e34d6b72c30fbeb68c6fb6e843d2b4ce45503f7342004cc4d365aca627d",
+   "state": {
+    "piece_squares": [
+     [],
+     [
+      58
+     ],
+     [],
+     [
+      40
+     ],
+     [
+      49
+     ],
+     [
+      35
+     ],
+     [
+      38
+     ],
+     [
+      5
+     ],
+     [
+      27
+     ],
+     [
+      23
+     ],
+     [],
+     [
+      15
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 4,
+    "action_number": 14
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12004,
+    "action_number": 14
+   },
+   "category": "avoidable_final_action",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      5
+     ],
+     "square": "F8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      1,
+      7
+     ],
+     "square": "H7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      3,
+      3
+     ],
+     "square": "D5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      4,
+      3
+     ],
+     "square": "D4"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      4,
+      6
+     ],
+     "square": "G4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      2
+     ],
+     "square": "C1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2267,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "D4-D5"
+    },
+    {
+     "action_index": 2283,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "D4-D3"
+    },
+    {
+     "action_index": 2274,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D4-C4"
+    },
+    {
+     "action_index": 2276,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D4-E4"
+    },
+    {
+     "action_index": 2266,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "D4-C5"
+    },
+    {
+     "action_index": 2268,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "D4-E5"
+    },
+    {
+     "action_index": 2282,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "D4-C3"
+    },
+    {
+     "action_index": 2284,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "D4-E3"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "A3-B3"
+    },
+    {
+     "action_index": 3177,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B2-B3"
+    },
+    {
+     "action_index": 3169,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B2-B4"
+    },
+    {
+     "action_index": 3193,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "B2-B1"
+    },
+    {
+     "action_index": 3184,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B2-A2"
+    },
+    {
+     "action_index": 3186,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B2-C2"
+    },
+    {
+     "action_index": 3187,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "B2-D2"
+    },
+    {
+     "action_index": 3178,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B2-C3"
+    },
+    {
+     "action_index": 3192,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      0
+     ],
+     "move": "B2-A1"
+    },
+    {
+     "action_index": 3762,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "C1-C2"
+    },
+    {
+     "action_index": 3754,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "C1-C3"
+    },
+    {
+     "action_index": 3746,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "C1-C4"
+    },
+    {
+     "action_index": 3769,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "C1-B1"
+    },
+    {
+     "action_index": 3768,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      0
+     ],
+     "move": "C1-A1"
+    },
+    {
+     "action_index": 3771,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "C1-D1"
+    },
+    {
+     "action_index": 3772,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      4
+     ],
+     "move": "C1-E1"
+    },
+    {
+     "action_index": 3773,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      5
+     ],
+     "move": "C1-F1"
+    }
+   ],
+   "burn_urgency": 0.5,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. MDE .. ..",
+    ".. .. .. .. .. .. .. MKE",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. MEX .. .. .. ..",
+    ".. .. .. CKE .. .. MPI ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CIC .. .. .. .. .. ..",
+    ".. .. CDE .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-6a1a2e495df9132f",
+   "state_sha256": "6a1a2e495df9132f990140a43d3369aad784bf5bcca39fbae215feda60bcde17",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      40
+     ],
+     [
+      35
+     ],
+     [
+      41
+     ],
+     [],
+     [
+      5
+     ],
+     [],
+     [
+      31
+     ],
+     [
+      14
+     ],
+     [
+      21
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.75,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 6,
+    "action_number": 22
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12001,
+    "action_number": 22
+   },
+   "category": "guard_redirection",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      5
+     ],
+     "square": "F8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      2,
+      5
+     ],
+     "square": "F6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      3,
+      7
+     ],
+     "square": "H5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      4,
+      3
+     ],
+     "square": "D4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2267,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "D4-D5"
+    },
+    {
+     "action_index": 2259,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "D4-D6"
+    },
+    {
+     "action_index": 2283,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "D4-D3"
+    },
+    {
+     "action_index": 2291,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "D4-D2"
+    },
+    {
+     "action_index": 2274,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D4-C4"
+    },
+    {
+     "action_index": 2273,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "D4-B4"
+    },
+    {
+     "action_index": 2276,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D4-E4"
+    },
+    {
+     "action_index": 2277,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "D4-F4"
+    },
+    {
+     "action_index": 2266,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "D4-C5"
+    },
+    {
+     "action_index": 2257,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      2,
+      1
+     ],
+     "move": "D4-B6"
+    },
+    {
+     "action_index": 2268,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "D4-E5"
+    },
+    {
+     "action_index": 2261,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "D4-F6"
+    },
+    {
+     "action_index": 2282,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "D4-C3"
+    },
+    {
+     "action_index": 2289,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      6,
+      1
+     ],
+     "move": "D4-B2"
+    },
+    {
+     "action_index": 2284,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "D4-E3"
+    },
+    {
+     "action_index": 2293,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      3
+     ],
+     "to_rc": [
+      6,
+      5
+     ],
+     "move": "D4-F2"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2657,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B3-B4"
+    },
+    {
+     "action_index": 2673,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      1
+     ],
+     "move": "B3-B2"
+    },
+    {
+     "action_index": 2666,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B3-C3"
+    },
+    {
+     "action_index": 2656,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B3-A4"
+    },
+    {
+     "action_index": 2658,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "B3-C4"
+    },
+    {
+     "action_index": 2672,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B3-A2"
+    },
+    {
+     "action_index": 2674,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B3-C2"
+    }
+   ],
+   "burn_urgency": 0.75,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. MDE .. ..",
+    ".. .. .. .. .. .. MIC ..",
+    ".. .. .. .. .. MKE .. ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. CIC .. .. .. ..",
+    "CTR CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-f754d2802838362c",
+   "state_sha256": "f754d2802838362cd2e2c341955f783c9827ea70e73ba3da976d73be9e93df28",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      40
+     ],
+     [
+      34
+     ],
+     [
+      41
+     ],
+     [],
+     [
+      13
+     ],
+     [],
+     [
+      31
+     ],
+     [],
+     [
+      20
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.875,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 7,
+    "action_number": 26
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12001,
+    "action_number": 26
+   },
+   "category": "guard_redirection",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      1,
+      5
+     ],
+     "square": "F7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      2,
+      4
+     ],
+     "square": "E6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      3,
+      7
+     ],
+     "square": "H5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      4,
+      2
+     ],
+     "square": "C4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2202,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "C4-C5"
+    },
+    {
+     "action_index": 2194,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      2,
+      2
+     ],
+     "move": "C4-C6"
+    },
+    {
+     "action_index": 2218,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "C4-C3"
+    },
+    {
+     "action_index": 2226,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "C4-C2"
+    },
+    {
+     "action_index": 2209,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "C4-B4"
+    },
+    {
+     "action_index": 2208,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "C4-A4"
+    },
+    {
+     "action_index": 2211,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "C4-D4"
+    },
+    {
+     "action_index": 2212,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "C4-E4"
+    },
+    {
+     "action_index": 2201,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "C4-B5"
+    },
+    {
+     "action_index": 2192,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      2,
+      0
+     ],
+     "move": "C4-A6"
+    },
+    {
+     "action_index": 2203,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "C4-D5"
+    },
+    {
+     "action_index": 2196,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "C4-E6"
+    },
+    {
+     "action_index": 2219,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "C4-D3"
+    },
+    {
+     "action_index": 2228,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "C4-E2"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2657,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B3-B4"
+    },
+    {
+     "action_index": 2673,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      1
+     ],
+     "move": "B3-B2"
+    },
+    {
+     "action_index": 2666,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B3-C3"
+    },
+    {
+     "action_index": 2656,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B3-A4"
+    },
+    {
+     "action_index": 2672,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B3-A2"
+    },
+    {
+     "action_index": 2674,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B3-C2"
+    }
+   ],
+   "burn_urgency": 0.875,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. MDE .. ..",
+    ".. .. .. .. MKE .. .. ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. CIC .. .. .. .. ..",
+    "CTR CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-c76fffefb48ff22d",
+   "state_sha256": "c76fffefb48ff22d16b02452c7b8df26cb949ec43591696e7aefe9ea493047fa",
+   "state": {
+    "piece_squares": [
+     [
+      21
+     ],
+     [],
+     [
+      61
+     ],
+     [
+      40
+     ],
+     [
+      50
+     ],
+     [
+      49
+     ],
+     [
+      60
+     ],
+     [
+      3
+     ],
+     [
+      6
+     ],
+     [
+      22
+     ],
+     [
+      13
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 4,
+    "action_number": 14
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12002,
+    "action_number": 14
+   },
+   "category": "guard_redirection",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      3
+     ],
+     "square": "D8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      0,
+      6
+     ],
+     "square": "G8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      0,
+      7
+     ],
+     "square": "H8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      5
+     ],
+     "square": "F7"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      2,
+      5
+     ],
+     "square": "F6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      6
+     ],
+     "square": "G6"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      2
+     ],
+     "square": "C2"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      7,
+      4
+     ],
+     "square": "E1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      7,
+      5
+     ],
+     "square": "F1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 1373,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "F6-F5"
+    },
+    {
+     "action_index": 1381,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "F6-F4"
+    },
+    {
+     "action_index": 1364,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "F6-E6"
+    },
+    {
+     "action_index": 1363,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "F6-D6"
+    },
+    {
+     "action_index": 1347,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "F6-D8"
+    },
+    {
+     "action_index": 1351,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "F6-H8"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "A3-B3"
+    },
+    {
+     "action_index": 3177,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B2-B3"
+    },
+    {
+     "action_index": 3193,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "B2-B1"
+    },
+    {
+     "action_index": 3184,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B2-A2"
+    },
+    {
+     "action_index": 3178,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B2-C3"
+    },
+    {
+     "action_index": 3192,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      0
+     ],
+     "move": "B2-A1"
+    },
+    {
+     "action_index": 3194,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      2
+     ],
+     "move": "B2-C1"
+    },
+    {
+     "action_index": 3242,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "C2-C3"
+    },
+    {
+     "action_index": 3234,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "C2-C4"
+    },
+    {
+     "action_index": 3258,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      7,
+      2
+     ],
+     "move": "C2-C1"
+    },
+    {
+     "action_index": 3251,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "C2-D2"
+    },
+    {
+     "action_index": 3252,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "C2-E2"
+    },
+    {
+     "action_index": 3241,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "C2-B3"
+    },
+    {
+     "action_index": 3232,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "C2-A4"
+    },
+    {
+     "action_index": 3243,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "C2-D3"
+    },
+    {
+     "action_index": 3236,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "C2-E4"
+    },
+    {
+     "action_index": 3257,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "C2-B1"
+    },
+    {
+     "action_index": 3259,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      2
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "C2-D1"
+    },
+    {
+     "action_index": 3948,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "F1-E3"
+    },
+    {
+     "action_index": 3950,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "F1-G3"
+    },
+    {
+     "action_index": 3955,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "F1-D2"
+    },
+    {
+     "action_index": 3959,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      6,
+      7
+     ],
+     "move": "F1-H2"
+    }
+   ],
+   "burn_urgency": 0.5,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. MDE .. .. MEX MKE",
+    ".. .. .. .. .. MIC .. ..",
+    ".. .. .. .. .. CPI MTR ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CKE CIC .. .. .. .. ..",
+    ".. .. .. .. MPI CEX .. .."
+   ]
+  },
+  {
+   "position_id": "p-edd07dcc84446d14",
+   "state_sha256": "edd07dcc84446d14f611e82f73c8c25ccbc7686373cc9deced85fae6873c9fda",
+   "state": {
+    "piece_squares": [
+     [
+      3
+     ],
+     [
+      60
+     ],
+     [],
+     [
+      43
+     ],
+     [
+      50
+     ],
+     [
+      35
+     ],
+     [],
+     [],
+     [
+      2
+     ],
+     [
+      23
+     ],
+     [
+      20
+     ],
+     [
+      22
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.75,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 1,
+    "round_number": 6,
+    "action_number": 24
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12002,
+    "action_number": 24
+   },
+   "category": "guard_redirection",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      3
+     ],
+     "square": "D8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      5
+     ],
+     "square": "F7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      4
+     ],
+     "square": "E6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      3,
+      4
+     ],
+     "square": "E5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      5,
+      3
+     ],
+     "square": "D3"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      7,
+      4
+     ],
+     "square": "E1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      7,
+      5
+     ],
+     "square": "F1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3892,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      1,
+      3
+     ],
+     "move": "D8-D7"
+    },
+    {
+     "action_index": 3884,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "D8-D6"
+    },
+    {
+     "action_index": 3876,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "D8-D5"
+    },
+    {
+     "action_index": 3901,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      0,
+      2
+     ],
+     "move": "D8-C8"
+    },
+    {
+     "action_index": 3902,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      0,
+      1
+     ],
+     "move": "D8-B8"
+    },
+    {
+     "action_index": 3903,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      0,
+      0
+     ],
+     "move": "D8-A8"
+    },
+    {
+     "action_index": 3899,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "D8-E8"
+    },
+    {
+     "action_index": 3898,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "D8-F8"
+    },
+    {
+     "action_index": 3897,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      3
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "D8-G8"
+    },
+    {
+     "action_index": 3258,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "F7-F8"
+    },
+    {
+     "action_index": 3242,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "F7-F6"
+    },
+    {
+     "action_index": 3234,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "F7-F5"
+    },
+    {
+     "action_index": 3251,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "F7-E7"
+    },
+    {
+     "action_index": 3252,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      1,
+      3
+     ],
+     "move": "F7-D7"
+    },
+    {
+     "action_index": 3249,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      1,
+      6
+     ],
+     "move": "F7-G7"
+    },
+    {
+     "action_index": 3248,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "F7-H7"
+    },
+    {
+     "action_index": 3259,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "F7-E8"
+    },
+    {
+     "action_index": 3257,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "F7-G8"
+    },
+    {
+     "action_index": 3241,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "F7-G6"
+    },
+    {
+     "action_index": 3232,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "F7-H5"
+    },
+    {
+     "action_index": 2803,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "E6-E7"
+    },
+    {
+     "action_index": 2796,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "E6-D6"
+    },
+    {
+     "action_index": 2794,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "E6-F6"
+    },
+    {
+     "action_index": 2774,
+     "piece": "TRACE",
+     "kind": "shoot",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "E6-B3"
+    },
+    {
+     "action_index": 2267,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "E5-E4"
+    },
+    {
+     "action_index": 2276,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "E5-D5"
+    },
+    {
+     "action_index": 2274,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "E5-F5"
+    },
+    {
+     "action_index": 2284,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "E5-D6"
+    },
+    {
+     "action_index": 2282,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "E5-F6"
+    },
+    {
+     "action_index": 2268,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "E5-D4"
+    },
+    {
+     "action_index": 2266,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "E5-F4"
+    },
+    {
+     "action_index": 203,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "E1-E2"
+    },
+    {
+     "action_index": 211,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "E1-E3"
+    },
+    {
+     "action_index": 196,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "E1-D1"
+    },
+    {
+     "action_index": 197,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      2
+     ],
+     "move": "E1-C1"
+    }
+   ],
+   "burn_urgency": 0.75,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. MDE .. .. .. ..",
+    ".. .. .. .. .. MIC .. ..",
+    ".. .. .. .. MTR .. .. ..",
+    ".. .. .. .. MKE .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    "CTR CKE .. CIC .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. MPI CEX .. .."
+   ]
+  },
+  {
+   "position_id": "p-d446e8aa6500a1d9",
+   "state_sha256": "d446e8aa6500a1d9a1ffe2420e6bab7a85cafa5ba4864b18916e37f7d7945af3",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      32
+     ],
+     [],
+     [
+      43
+     ],
+     [],
+     [],
+     [],
+     [
+      23
+     ],
+     [
+      29
+     ],
+     [
+      22
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     0.875,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 2,
+    "round_number": 7,
+    "action_number": 27
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12001,
+    "action_number": 27
+   },
+   "category": "last_turn_tactical",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      2,
+      4
+     ],
+     "square": "E6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      3,
+      7
+     ],
+     "square": "H5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      4,
+      2
+     ],
+     "square": "C4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2803,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "E6-E7"
+    },
+    {
+     "action_index": 2787,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "E6-E5"
+    },
+    {
+     "action_index": 2796,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "E6-D6"
+    },
+    {
+     "action_index": 2794,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "E6-F6"
+    },
+    {
+     "action_index": 2804,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      1,
+      3
+     ],
+     "move": "E6-D7"
+    },
+    {
+     "action_index": 2802,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "E6-F7"
+    },
+    {
+     "action_index": 2788,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "E6-D5"
+    },
+    {
+     "action_index": 2786,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      2,
+      4
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "E6-F5"
+    },
+    {
+     "action_index": 2088,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      7
+     ],
+     "to_rc": [
+      2,
+      7
+     ],
+     "move": "H5-H6"
+    },
+    {
+     "action_index": 2072,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      7
+     ],
+     "to_rc": [
+      4,
+      7
+     ],
+     "move": "H5-H4"
+    },
+    {
+     "action_index": 2081,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      7
+     ],
+     "to_rc": [
+      3,
+      6
+     ],
+     "move": "H5-G5"
+    }
+   ],
+   "burn_urgency": 0.875,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. MKE .. .. ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. CIC .. .. .. .. ..",
+    "CTR CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-9ab6d2ddacb1393d",
+   "state_sha256": "9ab6d2ddacb1393d0b119282e1f3f1b5631a98bb201ac8c1fa7d6f7bd9ad8c8d",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      32
+     ],
+     [],
+     [
+      35
+     ],
+     [],
+     [],
+     [],
+     [
+      23
+     ],
+     [
+      29
+     ],
+     [
+      22
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.875,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 1,
+    "round_number": 7,
+    "action_number": 28
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12001,
+    "action_number": 28
+   },
+   "category": "last_turn_tactical",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      3,
+      4
+     ],
+     "square": "E5"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      3,
+      7
+     ],
+     "square": "H5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      4,
+      2
+     ],
+     "square": "C4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2283,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "E5-E6"
+    },
+    {
+     "action_index": 2267,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "E5-E4"
+    },
+    {
+     "action_index": 2276,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "E5-D5"
+    },
+    {
+     "action_index": 2274,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "E5-F5"
+    },
+    {
+     "action_index": 2284,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "E5-D6"
+    },
+    {
+     "action_index": 2282,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "E5-F6"
+    },
+    {
+     "action_index": 2268,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "E5-D4"
+    },
+    {
+     "action_index": 2266,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      3,
+      4
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "E5-F4"
+    },
+    {
+     "action_index": 2088,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      7
+     ],
+     "to_rc": [
+      2,
+      7
+     ],
+     "move": "H5-H6"
+    },
+    {
+     "action_index": 2072,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      7
+     ],
+     "to_rc": [
+      4,
+      7
+     ],
+     "move": "H5-H4"
+    },
+    {
+     "action_index": 2081,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      7
+     ],
+     "to_rc": [
+      3,
+      6
+     ],
+     "move": "H5-G5"
+    }
+   ],
+   "burn_urgency": 0.875,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. MKE .. .. MTR",
+    ".. .. CIC .. .. .. .. ..",
+    "CTR CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-7a02e213cfe190b9",
+   "state_sha256": "7a02e213cfe190b95ab5e997f12511f856f35cc344ea2c670eb34e6bd6bf3d43",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [
+      61
+     ],
+     [],
+     [
+      43
+     ],
+     [
+      41
+     ],
+     [
+      60
+     ],
+     [
+      3
+     ],
+     [],
+     [
+      20
+     ],
+     [
+      13
+     ],
+     [
+      28
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     0.875,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 2,
+    "round_number": 7,
+    "action_number": 25
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12002,
+    "action_number": 25
+   },
+   "category": "last_turn_tactical",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      3
+     ],
+     "square": "D8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      5
+     ],
+     "square": "F7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      4
+     ],
+     "square": "E6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      3,
+      4
+     ],
+     "square": "E5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      5,
+      3
+     ],
+     "square": "D3"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      7,
+      4
+     ],
+     "square": "E1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      7,
+      5
+     ],
+     "square": "F1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2657,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B3-B4"
+    },
+    {
+     "action_index": 2673,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      1
+     ],
+     "move": "B3-B2"
+    },
+    {
+     "action_index": 2664,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      0
+     ],
+     "move": "B3-A3"
+    },
+    {
+     "action_index": 2666,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B3-C3"
+    },
+    {
+     "action_index": 2656,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B3-A4"
+    },
+    {
+     "action_index": 2658,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "B3-C4"
+    },
+    {
+     "action_index": 2672,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B3-A2"
+    },
+    {
+     "action_index": 2674,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B3-C2"
+    },
+    {
+     "action_index": 2787,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "D3-D4"
+    },
+    {
+     "action_index": 2779,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "D3-D5"
+    },
+    {
+     "action_index": 2803,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "D3-D2"
+    },
+    {
+     "action_index": 2811,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "D3-D1"
+    },
+    {
+     "action_index": 2794,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "D3-C3"
+    },
+    {
+     "action_index": 2796,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "D3-E3"
+    },
+    {
+     "action_index": 2797,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      5,
+      5
+     ],
+     "move": "D3-F3"
+    },
+    {
+     "action_index": 2786,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D3-C4"
+    },
+    {
+     "action_index": 2777,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "D3-B5"
+    },
+    {
+     "action_index": 2788,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D3-E4"
+    },
+    {
+     "action_index": 2781,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "D3-F5"
+    },
+    {
+     "action_index": 2802,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "D3-C2"
+    },
+    {
+     "action_index": 2809,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "D3-B1"
+    },
+    {
+     "action_index": 2804,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      3
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "D3-E2"
+    },
+    {
+     "action_index": 3948,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "F1-E3"
+    },
+    {
+     "action_index": 3950,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "F1-G3"
+    },
+    {
+     "action_index": 3955,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      6,
+      3
+     ],
+     "move": "F1-D2"
+    },
+    {
+     "action_index": 3959,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      7,
+      5
+     ],
+     "to_rc": [
+      6,
+      7
+     ],
+     "move": "F1-H2"
+    }
+   ],
+   "burn_urgency": 0.875,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. MDE .. .. .. ..",
+    ".. .. .. .. .. MIC .. ..",
+    ".. .. .. .. MTR .. .. ..",
+    ".. .. .. .. MKE .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. CKE .. CIC .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. MPI CEX .. .."
+   ]
+  },
+  {
+   "position_id": "p-8c0c5d1251d82f07",
+   "state_sha256": "8c0c5d1251d82f0711e871f3f4aa6d2f2280f4dbf017afb2ab19455fdbdcc55b",
+   "state": {
+    "piece_squares": [
+     [
+      25
+     ],
+     [
+      57
+     ],
+     [
+      45
+     ],
+     [
+      48
+     ],
+     [],
+     [
+      56
+     ],
+     [
+      42
+     ],
+     [
+      6
+     ],
+     [],
+     [
+      23
+     ],
+     [
+      14
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     0.5,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 2,
+    "round_number": 4,
+    "action_number": 15
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12003,
+    "action_number": 15
+   },
+   "category": "last_turn_tactical",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      6
+     ],
+     "square": "G8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      0,
+      7
+     ],
+     "square": "H8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      1,
+      7
+     ],
+     "square": "H7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      2,
+      2
+     ],
+     "square": "C6"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      2,
+      5
+     ],
+     "square": "F6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      4,
+      6
+     ],
+     "square": "G4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      7,
+      0
+     ],
+     "square": "A1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      1
+     ],
+     "square": "B1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3697,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      1,
+      6
+     ],
+     "move": "G8-G7"
+    },
+    {
+     "action_index": 3689,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G8-G6"
+    },
+    {
+     "action_index": 3681,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      3,
+      6
+     ],
+     "move": "G8-G5"
+    },
+    {
+     "action_index": 3706,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "G8-F8"
+    },
+    {
+     "action_index": 3707,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "G8-E8"
+    },
+    {
+     "action_index": 3708,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      6
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "G8-D8"
+    },
+    {
+     "action_index": 3633,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      0,
+      7
+     ],
+     "to_rc": [
+      1,
+      6
+     ],
+     "move": "H8-G7"
+    },
+    {
+     "action_index": 3112,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      2,
+      7
+     ],
+     "move": "H7-H6"
+    },
+    {
+     "action_index": 3121,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      1,
+      6
+     ],
+     "move": "H7-G7"
+    },
+    {
+     "action_index": 2942,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      0,
+      1
+     ],
+     "move": "C6-B8"
+    },
+    {
+     "action_index": 2940,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "C6-D8"
+    },
+    {
+     "action_index": 2935,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      1,
+      0
+     ],
+     "move": "C6-A7"
+    },
+    {
+     "action_index": 2931,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "C6-E7"
+    },
+    {
+     "action_index": 2919,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      3,
+      0
+     ],
+     "move": "C6-A5"
+    },
+    {
+     "action_index": 2915,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "C6-E5"
+    },
+    {
+     "action_index": 2910,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "C6-B4"
+    },
+    {
+     "action_index": 2908,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "C6-D4"
+    },
+    {
+     "action_index": 1633,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      3,
+      6
+     ],
+     "move": "G4-G5"
+    },
+    {
+     "action_index": 1641,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G4-G6"
+    },
+    {
+     "action_index": 1617,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "G4-G3"
+    },
+    {
+     "action_index": 1609,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      6,
+      6
+     ],
+     "move": "G4-G2"
+    },
+    {
+     "action_index": 1626,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "G4-F4"
+    },
+    {
+     "action_index": 1627,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "G4-E4"
+    },
+    {
+     "action_index": 1624,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      6
+     ],
+     "to_rc": [
+      4,
+      7
+     ],
+     "move": "G4-H4"
+    }
+   ],
+   "burn_urgency": 0.5,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. MDE MKE",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. MEX .. .. CPI .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. MPI ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CIC .. .. .. .. .. ..",
+    "CKE CDE .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-e8003915c2f7732b",
+   "state_sha256": "e8003915c2f7732b6520ed27ce632c369aec904bdd32314dbf873ef0f28fb03c",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      40
+     ],
+     [
+      34
+     ],
+     [
+      41
+     ],
+     [],
+     [],
+     [],
+     [
+      31
+     ],
+     [],
+     [
+      29
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 2,
+    "round_number": 8,
+    "action_number": 29
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12001,
+    "action_number": 29
+   },
+   "category": "firewall_timing",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      3,
+      5
+     ],
+     "square": "F5"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      3,
+      7
+     ],
+     "square": "H5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      4,
+      2
+     ],
+     "square": "C4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2202,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "C4-C5"
+    },
+    {
+     "action_index": 2194,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      2,
+      2
+     ],
+     "move": "C4-C6"
+    },
+    {
+     "action_index": 2218,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "C4-C3"
+    },
+    {
+     "action_index": 2226,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "C4-C2"
+    },
+    {
+     "action_index": 2209,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "C4-B4"
+    },
+    {
+     "action_index": 2208,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "C4-A4"
+    },
+    {
+     "action_index": 2211,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "C4-D4"
+    },
+    {
+     "action_index": 2212,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "C4-E4"
+    },
+    {
+     "action_index": 2201,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "C4-B5"
+    },
+    {
+     "action_index": 2192,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      2,
+      0
+     ],
+     "move": "C4-A6"
+    },
+    {
+     "action_index": 2203,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "C4-D5"
+    },
+    {
+     "action_index": 2196,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "C4-E6"
+    },
+    {
+     "action_index": 2219,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "C4-D3"
+    },
+    {
+     "action_index": 2228,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      4,
+      2
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "C4-E2"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2657,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B3-B4"
+    },
+    {
+     "action_index": 2673,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      1
+     ],
+     "move": "B3-B2"
+    },
+    {
+     "action_index": 2666,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B3-C3"
+    },
+    {
+     "action_index": 2656,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B3-A4"
+    },
+    {
+     "action_index": 2672,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B3-A2"
+    },
+    {
+     "action_index": 2674,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B3-C2"
+    }
+   ],
+   "burn_urgency": 1.0,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. MKE .. MTR",
+    ".. .. CIC .. .. .. .. ..",
+    "CTR CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-e002815c20580672",
+   "state_sha256": "e002815c205806729a66d38a4f8d9f4d938e6af48c511c1f005575a79ba79b32",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      40
+     ],
+     [
+      27
+     ],
+     [
+      41
+     ],
+     [],
+     [],
+     [],
+     [
+      31
+     ],
+     [],
+     [
+      29
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     1.0,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 8,
+    "action_number": 30
+   },
+   "source": {
+    "path": "codex\\matches\\selfplay-h1.corrected.json",
+    "sha256": "ada17d9f41ea9ed6b45afe977e6b03a65f3ecbbd712f9bb15aeed3f9201203e8",
+    "seed": 12001,
+    "action_number": 30
+   },
+   "category": "firewall_timing",
+   "pieces": [
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      3,
+      3
+     ],
+     "square": "D5"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      3,
+      5
+     ],
+     "square": "F5"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      3,
+      7
+     ],
+     "square": "H5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 1747,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "D5-D6"
+    },
+    {
+     "action_index": 1739,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      1,
+      3
+     ],
+     "move": "D5-D7"
+    },
+    {
+     "action_index": 1763,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "D5-D4"
+    },
+    {
+     "action_index": 1771,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "D5-D3"
+    },
+    {
+     "action_index": 1754,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "D5-C5"
+    },
+    {
+     "action_index": 1753,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "D5-B5"
+    },
+    {
+     "action_index": 1756,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "D5-E5"
+    },
+    {
+     "action_index": 1757,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "D5-F5"
+    },
+    {
+     "action_index": 1746,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      2,
+      2
+     ],
+     "move": "D5-C6"
+    },
+    {
+     "action_index": 1737,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      1,
+      1
+     ],
+     "move": "D5-B7"
+    },
+    {
+     "action_index": 1748,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "D5-E6"
+    },
+    {
+     "action_index": 1741,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "D5-F7"
+    },
+    {
+     "action_index": 1762,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D5-C4"
+    },
+    {
+     "action_index": 1764,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D5-E4"
+    },
+    {
+     "action_index": 1773,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      5,
+      5
+     ],
+     "move": "D5-F3"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2657,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B3-B4"
+    },
+    {
+     "action_index": 2673,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      1
+     ],
+     "move": "B3-B2"
+    },
+    {
+     "action_index": 2666,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B3-C3"
+    },
+    {
+     "action_index": 2656,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B3-A4"
+    },
+    {
+     "action_index": 2658,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "B3-C4"
+    },
+    {
+     "action_index": 2672,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B3-A2"
+    },
+    {
+     "action_index": 2674,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B3-C2"
+    }
+   ],
+   "burn_urgency": 1.0,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. CIC .. MKE .. MTR",
+    ".. .. .. .. .. .. .. ..",
+    "CTR CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-907b7bf64738fa73",
+   "state_sha256": "907b7bf64738fa739f75e67b3a42a1e8a1b5a8312f4ae3d744fc38819e5c3ea2",
+   "state": {
+    "piece_squares": [
+     [
+      42
+     ],
+     [],
+     [
+      45
+     ],
+     [],
+     [
+      41
+     ],
+     [
+      56
+     ],
+     [
+      40
+     ],
+     [
+      14
+     ],
+     [
+      22
+     ],
+     [
+      23
+     ],
+     [
+      13
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     0.5,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 2,
+    "round_number": 4,
+    "action_number": 15
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 158,
+    "game_index": 4
+   },
+   "category": "search_outcome_disagreement",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      0,
+      7
+     ],
+     "square": "H8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      2,
+      2
+     ],
+     "square": "C6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      2,
+      5
+     ],
+     "square": "F6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      2,
+      6
+     ],
+     "square": "G6"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      2
+     ],
+     "square": "C2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      7,
+      0
+     ],
+     "square": "A1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3632,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      0,
+      7
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "H8-H7"
+    },
+    {
+     "action_index": 3641,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      0,
+      7
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "H8-G8"
+    },
+    {
+     "action_index": 3633,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      0,
+      7
+     ],
+     "to_rc": [
+      1,
+      6
+     ],
+     "move": "H8-G7"
+    },
+    {
+     "action_index": 2942,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      0,
+      1
+     ],
+     "move": "C6-B8"
+    },
+    {
+     "action_index": 2940,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "C6-D8"
+    },
+    {
+     "action_index": 2935,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      1,
+      0
+     ],
+     "move": "C6-A7"
+    },
+    {
+     "action_index": 2931,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "C6-E7"
+    },
+    {
+     "action_index": 2919,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      3,
+      0
+     ],
+     "move": "C6-A5"
+    },
+    {
+     "action_index": 2915,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "C6-E5"
+    },
+    {
+     "action_index": 2910,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "C6-B4"
+    },
+    {
+     "action_index": 2908,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      2,
+      2
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "C6-D4"
+    },
+    {
+     "action_index": 2738,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "F6-F7"
+    },
+    {
+     "action_index": 2746,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "F6-F8"
+    },
+    {
+     "action_index": 2722,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "F6-F5"
+    },
+    {
+     "action_index": 2714,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      4,
+      5
+     ],
+     "move": "F6-F4"
+    },
+    {
+     "action_index": 2731,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "F6-E6"
+    },
+    {
+     "action_index": 2732,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      2,
+      5
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "F6-D6"
+    },
+    {
+     "action_index": 2673,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      1,
+      6
+     ],
+     "move": "G6-G7"
+    },
+    {
+     "action_index": 2681,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "G6-G8"
+    },
+    {
+     "action_index": 2657,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      3,
+      6
+     ],
+     "move": "G6-G5"
+    },
+    {
+     "action_index": 2649,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      4,
+      6
+     ],
+     "move": "G6-G4"
+    },
+    {
+     "action_index": 2664,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      2,
+      7
+     ],
+     "move": "G6-H6"
+    },
+    {
+     "action_index": 2674,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "G6-F7"
+    },
+    {
+     "action_index": 2683,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "G6-E8"
+    },
+    {
+     "action_index": 2672,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "G6-H7"
+    },
+    {
+     "action_index": 2658,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "G6-F5"
+    },
+    {
+     "action_index": 2651,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "G6-E4"
+    },
+    {
+     "action_index": 2656,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      6
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "G6-H5"
+    }
+   ],
+   "burn_urgency": 0.5,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. MKE",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. MEX .. .. MPI MIC CPI",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. ..",
+    "CTR CEX .. .. .. .. .. ..",
+    ".. CDE CIC .. .. .. .. ..",
+    "CKE .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-166298d6515ebf13",
+   "state_sha256": "166298d6515ebf131e5f0364351ed520f4490bf0a4de74a376faf614cb12f5b1",
+   "state": {
+    "piece_squares": [
+     [
+      33
+     ],
+     [
+      58
+     ],
+     [
+      51
+     ],
+     [
+      40
+     ],
+     [
+      49
+     ],
+     [
+      56
+     ],
+     [
+      30
+     ],
+     [
+      5
+     ],
+     [
+      12
+     ],
+     [
+      23
+     ],
+     [
+      14
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     0.125,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 2,
+    "round_number": 1,
+    "action_number": 1
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 464,
+    "game_index": 13
+   },
+   "category": "uncertain_search",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      5
+     ],
+     "square": "F8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      0,
+      7
+     ],
+     "square": "H8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      1,
+      4
+     ],
+     "square": "E7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      3,
+      6
+     ],
+     "square": "G5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      4,
+      1
+     ],
+     "square": "B4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      6,
+      3
+     ],
+     "square": "D2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      7,
+      0
+     ],
+     "square": "A1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      2
+     ],
+     "square": "C1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2137,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "B4-B5"
+    },
+    {
+     "action_index": 2129,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      2,
+      1
+     ],
+     "move": "B4-B6"
+    },
+    {
+     "action_index": 2153,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B4-B3"
+    },
+    {
+     "action_index": 2144,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B4-A4"
+    },
+    {
+     "action_index": 2146,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "B4-C4"
+    },
+    {
+     "action_index": 2147,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "B4-D4"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "A3-B3"
+    },
+    {
+     "action_index": 3177,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B2-B3"
+    },
+    {
+     "action_index": 3193,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "B2-B1"
+    },
+    {
+     "action_index": 3184,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B2-A2"
+    },
+    {
+     "action_index": 3186,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B2-C2"
+    },
+    {
+     "action_index": 3178,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B2-C3"
+    },
+    {
+     "action_index": 3171,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "B2-D4"
+    },
+    {
+     "action_index": 3298,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D2-C4"
+    },
+    {
+     "action_index": 3300,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D2-E4"
+    },
+    {
+     "action_index": 3305,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "D2-B3"
+    },
+    {
+     "action_index": 3309,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      5,
+      5
+     ],
+     "move": "D2-F3"
+    },
+    {
+     "action_index": 3321,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "D2-B1"
+    },
+    {
+     "action_index": 3325,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      7,
+      5
+     ],
+     "move": "D2-F1"
+    },
+    {
+     "action_index": 3632,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      7,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A1-A2"
+    },
+    {
+     "action_index": 3641,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      7,
+      0
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "A1-B1"
+    },
+    {
+     "action_index": 3762,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "C1-C2"
+    },
+    {
+     "action_index": 3754,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "C1-C3"
+    },
+    {
+     "action_index": 3746,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "C1-C4"
+    },
+    {
+     "action_index": 3769,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "C1-B1"
+    },
+    {
+     "action_index": 3771,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "C1-D1"
+    },
+    {
+     "action_index": 3772,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      4
+     ],
+     "move": "C1-E1"
+    },
+    {
+     "action_index": 3773,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      2
+     ],
+     "to_rc": [
+      7,
+      5
+     ],
+     "move": "C1-F1"
+    }
+   ],
+   "burn_urgency": 0.125,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. MDE .. MKE",
+    ".. .. .. .. MEX .. MIC ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. .. .. .. MPI ..",
+    ".. CPI .. .. .. .. .. ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CIC .. CEX .. .. .. ..",
+    "CKE .. CDE .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-38838080396504bf",
+   "state_sha256": "38838080396504bf6ea04f63fc863cd260b4e6a406963cf2195913465507c19b",
+   "state": {
+    "piece_squares": [
+     [
+      33
+     ],
+     [],
+     [],
+     [
+      40
+     ],
+     [
+      50
+     ],
+     [
+      49
+     ],
+     [
+      17
+     ],
+     [],
+     [],
+     [
+      31
+     ],
+     [
+      12
+     ],
+     [
+      14
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.625,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 1,
+    "round_number": 5,
+    "action_number": 20
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 617,
+    "game_index": 16
+   },
+   "category": "uncertain_search",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      5
+     ],
+     "square": "F7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      3,
+      6
+     ],
+     "square": "G5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      4,
+      0
+     ],
+     "square": "A4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      5,
+      6
+     ],
+     "square": "G3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      3
+     ],
+     "square": "D2"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3258,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "F7-F8"
+    },
+    {
+     "action_index": 3242,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "F7-F6"
+    },
+    {
+     "action_index": 3234,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "F7-F5"
+    },
+    {
+     "action_index": 3251,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      1,
+      4
+     ],
+     "move": "F7-E7"
+    },
+    {
+     "action_index": 3252,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      1,
+      3
+     ],
+     "move": "F7-D7"
+    },
+    {
+     "action_index": 3259,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "F7-E8"
+    },
+    {
+     "action_index": 3257,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "F7-G8"
+    },
+    {
+     "action_index": 3243,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "F7-E6"
+    },
+    {
+     "action_index": 3236,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "F7-D5"
+    },
+    {
+     "action_index": 3241,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "F7-G6"
+    },
+    {
+     "action_index": 3232,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      5
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "F7-H5"
+    },
+    {
+     "action_index": 3193,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "G7-G8"
+    },
+    {
+     "action_index": 3177,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G7-G6"
+    },
+    {
+     "action_index": 3184,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "G7-H7"
+    },
+    {
+     "action_index": 3194,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      5
+     ],
+     "move": "G7-F8"
+    },
+    {
+     "action_index": 3192,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "G7-H8"
+    },
+    {
+     "action_index": 3178,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "G7-F6"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "H6-H7"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "H6-H5"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "H6-G6"
+    },
+    {
+     "action_index": 2153,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G5-G6"
+    },
+    {
+     "action_index": 2137,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      4,
+      6
+     ],
+     "move": "G5-G4"
+    },
+    {
+     "action_index": 2146,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "G5-F5"
+    },
+    {
+     "action_index": 2147,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "G5-E5"
+    },
+    {
+     "action_index": 2144,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "G5-H5"
+    }
+   ],
+   "burn_urgency": 0.625,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. MIC MKE ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. .. .. .. MPI ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. .. .. .. .. .. CPI ..",
+    ".. CKE .. CIC .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-b1dd9c9724864cd5",
+   "state_sha256": "b1dd9c9724864cd5452773030fc85f1f356c6bd9cce80266a70b9df3f69ce0e0",
+   "state": {
+    "piece_squares": [
+     [
+      33
+     ],
+     [
+      58
+     ],
+     [
+      51
+     ],
+     [
+      40
+     ],
+     [
+      49
+     ],
+     [
+      56
+     ],
+     [
+      30
+     ],
+     [
+      5
+     ],
+     [
+      12
+     ],
+     [
+      23
+     ],
+     [
+      14
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     0.125,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 2,
+    "round_number": 1,
+    "action_number": 3
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 1076,
+    "game_index": 31
+   },
+   "category": "uncertain_search",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      5
+     ],
+     "square": "F8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      0,
+      7
+     ],
+     "square": "H8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      1,
+      4
+     ],
+     "square": "E7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      3,
+      6
+     ],
+     "square": "G5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      4,
+      1
+     ],
+     "square": "B4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      6,
+      3
+     ],
+     "square": "D2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      7,
+      0
+     ],
+     "square": "A1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      2
+     ],
+     "square": "C1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3762,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "F8-F7"
+    },
+    {
+     "action_index": 3754,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "F8-F6"
+    },
+    {
+     "action_index": 3746,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "F8-F5"
+    },
+    {
+     "action_index": 3771,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "F8-E8"
+    },
+    {
+     "action_index": 3772,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "F8-D8"
+    },
+    {
+     "action_index": 3773,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      2
+     ],
+     "move": "F8-C8"
+    },
+    {
+     "action_index": 3769,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "F8-G8"
+    },
+    {
+     "action_index": 3632,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      0,
+      7
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "H8-H7"
+    },
+    {
+     "action_index": 3641,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      0,
+      7
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "H8-G8"
+    },
+    {
+     "action_index": 3325,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      0,
+      2
+     ],
+     "move": "E7-C8"
+    },
+    {
+     "action_index": 3321,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "E7-G8"
+    },
+    {
+     "action_index": 3309,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      2,
+      2
+     ],
+     "move": "E7-C6"
+    },
+    {
+     "action_index": 3305,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "E7-G6"
+    },
+    {
+     "action_index": 3300,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "E7-D5"
+    },
+    {
+     "action_index": 3298,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "E7-F5"
+    },
+    {
+     "action_index": 3193,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "G7-G8"
+    },
+    {
+     "action_index": 3177,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G7-G6"
+    },
+    {
+     "action_index": 3186,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "G7-F7"
+    },
+    {
+     "action_index": 3184,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "G7-H7"
+    },
+    {
+     "action_index": 3178,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "G7-F6"
+    },
+    {
+     "action_index": 3171,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "G7-E5"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      1,
+      7
+     ],
+     "move": "H6-H7"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "H6-H5"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "H6-G6"
+    },
+    {
+     "action_index": 2153,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G5-G6"
+    },
+    {
+     "action_index": 2137,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      4,
+      6
+     ],
+     "move": "G5-G4"
+    },
+    {
+     "action_index": 2129,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "G5-G3"
+    },
+    {
+     "action_index": 2146,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "G5-F5"
+    },
+    {
+     "action_index": 2147,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "G5-E5"
+    },
+    {
+     "action_index": 2144,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "G5-H5"
+    }
+   ],
+   "burn_urgency": 0.125,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. MDE .. MKE",
+    ".. .. .. .. MEX .. MIC ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. .. .. .. MPI ..",
+    ".. CPI .. .. .. .. .. ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CIC .. CEX .. .. .. ..",
+    "CKE .. CDE .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-0c0e2585feffe800",
+   "state_sha256": "0c0e2585feffe8006776a4010f448d052c5959f5b7c1407029af13eafc14404f",
+   "state": {
+    "piece_squares": [
+     [
+      33
+     ],
+     [
+      58
+     ],
+     [
+      51
+     ],
+     [
+      40
+     ],
+     [
+      49
+     ],
+     [
+      48
+     ],
+     [
+      30
+     ],
+     [
+      5
+     ],
+     [
+      12
+     ],
+     [
+      22
+     ],
+     [
+      14
+     ],
+     [
+      15
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.125,
+     1.0
+    ],
+    "side": "MAGENTA",
+    "actions_left": 1,
+    "round_number": 1,
+    "action_number": 4
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 1229,
+    "game_index": 36
+   },
+   "category": "uncertain_search",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      5
+     ],
+     "square": "F8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      1,
+      4
+     ],
+     "square": "E7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      1,
+      7
+     ],
+     "square": "H7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      3,
+      6
+     ],
+     "square": "G5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      4,
+      1
+     ],
+     "square": "B4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      6,
+      0
+     ],
+     "square": "A2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      6,
+      3
+     ],
+     "square": "D2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      2
+     ],
+     "square": "C1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 3762,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "F8-F7"
+    },
+    {
+     "action_index": 3754,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "F8-F6"
+    },
+    {
+     "action_index": 3746,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "F8-F5"
+    },
+    {
+     "action_index": 3771,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      4
+     ],
+     "move": "F8-E8"
+    },
+    {
+     "action_index": 3772,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      3
+     ],
+     "move": "F8-D8"
+    },
+    {
+     "action_index": 3773,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      2
+     ],
+     "move": "F8-C8"
+    },
+    {
+     "action_index": 3769,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "F8-G8"
+    },
+    {
+     "action_index": 3768,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      0,
+      5
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "F8-H8"
+    },
+    {
+     "action_index": 3325,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      0,
+      2
+     ],
+     "move": "E7-C8"
+    },
+    {
+     "action_index": 3321,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "E7-G8"
+    },
+    {
+     "action_index": 3309,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      2,
+      2
+     ],
+     "move": "E7-C6"
+    },
+    {
+     "action_index": 3305,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "E7-G6"
+    },
+    {
+     "action_index": 3300,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      3,
+      3
+     ],
+     "move": "E7-D5"
+    },
+    {
+     "action_index": 3298,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      1,
+      4
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "E7-F5"
+    },
+    {
+     "action_index": 3193,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "G7-G8"
+    },
+    {
+     "action_index": 3177,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G7-G6"
+    },
+    {
+     "action_index": 3186,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "G7-F7"
+    },
+    {
+     "action_index": 3192,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "G7-H8"
+    },
+    {
+     "action_index": 3178,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      2,
+      5
+     ],
+     "move": "G7-F6"
+    },
+    {
+     "action_index": 3171,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      1,
+      6
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "G7-E5"
+    },
+    {
+     "action_index": 3128,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      0,
+      7
+     ],
+     "move": "H7-H8"
+    },
+    {
+     "action_index": 3129,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      0,
+      6
+     ],
+     "move": "H7-G8"
+    },
+    {
+     "action_index": 3113,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      1,
+      7
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "H7-G6"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "H6-H5"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      2,
+      7
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "H6-G6"
+    },
+    {
+     "action_index": 2153,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      2,
+      6
+     ],
+     "move": "G5-G6"
+    },
+    {
+     "action_index": 2137,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      4,
+      6
+     ],
+     "move": "G5-G4"
+    },
+    {
+     "action_index": 2129,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      5,
+      6
+     ],
+     "move": "G5-G3"
+    },
+    {
+     "action_index": 2146,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "G5-F5"
+    },
+    {
+     "action_index": 2147,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "G5-E5"
+    },
+    {
+     "action_index": 2144,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      3,
+      6
+     ],
+     "to_rc": [
+      3,
+      7
+     ],
+     "move": "G5-H5"
+    }
+   ],
+   "burn_urgency": 0.125,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. MDE .. ..",
+    ".. .. .. .. MEX .. MIC MKE",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. .. .. .. MPI ..",
+    ".. CPI .. .. .. .. .. ..",
+    ".. CTR .. .. .. .. .. ..",
+    "CKE CIC .. CEX .. .. .. ..",
+    ".. .. CDE .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-5b1ccca88bfc3a67",
+   "state_sha256": "5b1ccca88bfc3a6721dc119b622c90d423bf428028028ab4c2ae6cceea9f2134",
+   "state": {
+    "piece_squares": [
+     [],
+     [],
+     [],
+     [
+      41
+     ],
+     [
+      27
+     ],
+     [
+      49
+     ],
+     [],
+     [
+      6
+     ],
+     [],
+     [],
+     [
+      30
+     ],
+     [
+      21
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 2,
+    "round_number": 8,
+    "action_number": 29
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 1535,
+    "game_index": 46
+   },
+   "category": "uncertain_search",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      6
+     ],
+     "square": "G8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      2,
+      5
+     ],
+     "square": "F6"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      3,
+      3
+     ],
+     "square": "D5"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      3,
+      6
+     ],
+     "square": "G5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      1
+     ],
+     "square": "B3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 1747,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      2,
+      3
+     ],
+     "move": "D5-D6"
+    },
+    {
+     "action_index": 1739,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      1,
+      3
+     ],
+     "move": "D5-D7"
+    },
+    {
+     "action_index": 1763,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "D5-D4"
+    },
+    {
+     "action_index": 1771,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      5,
+      3
+     ],
+     "move": "D5-D3"
+    },
+    {
+     "action_index": 1754,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      2
+     ],
+     "move": "D5-C5"
+    },
+    {
+     "action_index": 1753,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "D5-B5"
+    },
+    {
+     "action_index": 1756,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      4
+     ],
+     "move": "D5-E5"
+    },
+    {
+     "action_index": 1757,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      3,
+      5
+     ],
+     "move": "D5-F5"
+    },
+    {
+     "action_index": 1746,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      2,
+      2
+     ],
+     "move": "D5-C6"
+    },
+    {
+     "action_index": 1737,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      1,
+      1
+     ],
+     "move": "D5-B7"
+    },
+    {
+     "action_index": 1748,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      2,
+      4
+     ],
+     "move": "D5-E6"
+    },
+    {
+     "action_index": 1741,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      1,
+      5
+     ],
+     "move": "D5-F7"
+    },
+    {
+     "action_index": 1762,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D5-C4"
+    },
+    {
+     "action_index": 1764,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D5-E4"
+    },
+    {
+     "action_index": 1773,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      3,
+      3
+     ],
+     "to_rc": [
+      5,
+      5
+     ],
+     "move": "D5-F3"
+    },
+    {
+     "action_index": 2657,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      4,
+      1
+     ],
+     "move": "B3-B4"
+    },
+    {
+     "action_index": 2664,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      0
+     ],
+     "move": "B3-A3"
+    },
+    {
+     "action_index": 2666,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B3-C3"
+    },
+    {
+     "action_index": 3193,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "B2-B1"
+    },
+    {
+     "action_index": 3184,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B2-A2"
+    },
+    {
+     "action_index": 3186,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B2-C2"
+    },
+    {
+     "action_index": 3176,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      0
+     ],
+     "move": "B2-A3"
+    },
+    {
+     "action_index": 3178,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B2-C3"
+    },
+    {
+     "action_index": 3192,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      0
+     ],
+     "move": "B2-A1"
+    },
+    {
+     "action_index": 3194,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      2
+     ],
+     "move": "B2-C1"
+    }
+   ],
+   "burn_urgency": 1.0,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. .. MDE ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. .. .. .. .. MKE .. ..",
+    ".. .. .. CIC .. .. MIC ..",
+    ".. .. .. .. .. .. .. ..",
+    ".. CTR .. .. .. .. .. ..",
+    ".. CKE .. .. .. .. .. ..",
+    ".. .. .. .. .. .. .. .."
+   ]
+  },
+  {
+   "position_id": "p-9b185be5064a23d0",
+   "state_sha256": "9b185be5064a23d0dd94b9f8b6392ea391457d43a446cf5e682ba97710b2eaa8",
+   "state": {
+    "piece_squares": [
+     [
+      33
+     ],
+     [
+      60
+     ],
+     [
+      51
+     ],
+     [
+      40
+     ],
+     [
+      49
+     ],
+     [
+      56
+     ],
+     [
+      30
+     ],
+     [
+      5
+     ],
+     [
+      12
+     ],
+     [
+      23
+     ],
+     [
+      14
+     ],
+     [
+      7
+     ]
+    ],
+    "locked_squares": [],
+    "global_planes": [
+     0.5,
+     0.125,
+     0.0
+    ],
+    "side": "CYAN",
+    "actions_left": 1,
+    "round_number": 1,
+    "action_number": 2
+   },
+   "source": {
+    "path": "data\\gen00\\chunk0000.npz",
+    "sha256": "c34048928fc7a9ee105610c4aa5e8f25267b8b9cccfbac79b5e0a8077bc19319",
+    "row": 2300,
+    "game_index": 69
+   },
+   "category": "uncertain_search",
+   "pieces": [
+    {
+     "team": "MAGENTA",
+     "piece": "DAEMON",
+     "rc": [
+      0,
+      5
+     ],
+     "square": "F8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "KERNEL",
+     "rc": [
+      0,
+      7
+     ],
+     "square": "H8"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "EXPLOIT",
+     "rc": [
+      1,
+      4
+     ],
+     "square": "E7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "ICE",
+     "rc": [
+      1,
+      6
+     ],
+     "square": "G7"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "TRACE",
+     "rc": [
+      2,
+      7
+     ],
+     "square": "H6"
+    },
+    {
+     "team": "MAGENTA",
+     "piece": "PING",
+     "rc": [
+      3,
+      6
+     ],
+     "square": "G5"
+    },
+    {
+     "team": "CYAN",
+     "piece": "PING",
+     "rc": [
+      4,
+      1
+     ],
+     "square": "B4"
+    },
+    {
+     "team": "CYAN",
+     "piece": "TRACE",
+     "rc": [
+      5,
+      0
+     ],
+     "square": "A3"
+    },
+    {
+     "team": "CYAN",
+     "piece": "ICE",
+     "rc": [
+      6,
+      1
+     ],
+     "square": "B2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "EXPLOIT",
+     "rc": [
+      6,
+      3
+     ],
+     "square": "D2"
+    },
+    {
+     "team": "CYAN",
+     "piece": "KERNEL",
+     "rc": [
+      7,
+      0
+     ],
+     "square": "A1"
+    },
+    {
+     "team": "CYAN",
+     "piece": "DAEMON",
+     "rc": [
+      7,
+      4
+     ],
+     "square": "E1"
+    }
+   ],
+   "legal_actions": [
+    {
+     "action_index": 2137,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      3,
+      1
+     ],
+     "move": "B4-B5"
+    },
+    {
+     "action_index": 2129,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      2,
+      1
+     ],
+     "move": "B4-B6"
+    },
+    {
+     "action_index": 2153,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B4-B3"
+    },
+    {
+     "action_index": 2144,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "B4-A4"
+    },
+    {
+     "action_index": 2146,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "B4-C4"
+    },
+    {
+     "action_index": 2147,
+     "piece": "PING",
+     "kind": "move",
+     "from_rc": [
+      4,
+      1
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "B4-D4"
+    },
+    {
+     "action_index": 2592,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      4,
+      0
+     ],
+     "move": "A3-A4"
+    },
+    {
+     "action_index": 2608,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A3-A2"
+    },
+    {
+     "action_index": 2601,
+     "piece": "TRACE",
+     "kind": "move",
+     "from_rc": [
+      5,
+      0
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "A3-B3"
+    },
+    {
+     "action_index": 3177,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "B2-B3"
+    },
+    {
+     "action_index": 3193,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "B2-B1"
+    },
+    {
+     "action_index": 3184,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "B2-A2"
+    },
+    {
+     "action_index": 3186,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      6,
+      2
+     ],
+     "move": "B2-C2"
+    },
+    {
+     "action_index": 3178,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      5,
+      2
+     ],
+     "move": "B2-C3"
+    },
+    {
+     "action_index": 3171,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      4,
+      3
+     ],
+     "move": "B2-D4"
+    },
+    {
+     "action_index": 3194,
+     "piece": "ICE",
+     "kind": "move",
+     "from_rc": [
+      6,
+      1
+     ],
+     "to_rc": [
+      7,
+      2
+     ],
+     "move": "B2-C1"
+    },
+    {
+     "action_index": 3298,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      4,
+      2
+     ],
+     "move": "D2-C4"
+    },
+    {
+     "action_index": 3300,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "D2-E4"
+    },
+    {
+     "action_index": 3305,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      5,
+      1
+     ],
+     "move": "D2-B3"
+    },
+    {
+     "action_index": 3309,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      5,
+      5
+     ],
+     "move": "D2-F3"
+    },
+    {
+     "action_index": 3321,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "D2-B1"
+    },
+    {
+     "action_index": 3325,
+     "piece": "EXPLOIT",
+     "kind": "move",
+     "from_rc": [
+      6,
+      3
+     ],
+     "to_rc": [
+      7,
+      5
+     ],
+     "move": "D2-F1"
+    },
+    {
+     "action_index": 3632,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      7,
+      0
+     ],
+     "to_rc": [
+      6,
+      0
+     ],
+     "move": "A1-A2"
+    },
+    {
+     "action_index": 3641,
+     "piece": "KERNEL",
+     "kind": "move",
+     "from_rc": [
+      7,
+      0
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "A1-B1"
+    },
+    {
+     "action_index": 3892,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      6,
+      4
+     ],
+     "move": "E1-E2"
+    },
+    {
+     "action_index": 3884,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      5,
+      4
+     ],
+     "move": "E1-E3"
+    },
+    {
+     "action_index": 3876,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      4,
+      4
+     ],
+     "move": "E1-E4"
+    },
+    {
+     "action_index": 3899,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      3
+     ],
+     "move": "E1-D1"
+    },
+    {
+     "action_index": 3898,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      2
+     ],
+     "move": "E1-C1"
+    },
+    {
+     "action_index": 3897,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      1
+     ],
+     "move": "E1-B1"
+    },
+    {
+     "action_index": 3901,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      5
+     ],
+     "move": "E1-F1"
+    },
+    {
+     "action_index": 3902,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      6
+     ],
+     "move": "E1-G1"
+    },
+    {
+     "action_index": 3903,
+     "piece": "DAEMON",
+     "kind": "move",
+     "from_rc": [
+      7,
+      4
+     ],
+     "to_rc": [
+      7,
+      7
+     ],
+     "move": "E1-H1"
+    }
+   ],
+   "burn_urgency": 0.125,
+   "firewall_after_this_turn": false,
+   "board_rows": [
+    ".. .. .. .. .. MDE .. MKE",
+    ".. .. .. .. MEX .. MIC ..",
+    ".. .. .. .. .. .. .. MTR",
+    ".. .. .. .. .. .. MPI ..",
+    ".. CPI .. .. .. .. .. ..",
+    "CTR .. .. .. .. .. .. ..",
+    ".. CIC .. CEX .. .. .. ..",
+    "CKE .. .. .. CDE .. .. .."
+   ]
+  }
+ ]
+}

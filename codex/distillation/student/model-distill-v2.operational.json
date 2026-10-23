@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "model_sha256": "9ad48af680bc6a7ff5f857f3a542d4059375181d5d8e64d5dbaee9216f94163c",
+  "baseline_sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+  "positions": 2080,
+  "exact_solved_positions": 164,
+  "exact_policy_bitwise_equal": true,
+  "exact_value_bitwise_equal": true,
+  "positions_with_changed_policy": 1916,
+  "maximum_policy_residual": 1.0,
+  "maximum_value_residual": 0.12000000476837158,
+  "finite_bounded_outputs": true,
+  "completed_outcome_labels_used": false
+}

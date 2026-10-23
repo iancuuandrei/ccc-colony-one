@@ -23,6 +23,12 @@
       "bytes": 1286
     },
     {
+      "path": "checkpoints/gen01.pt",
+      "source": "workspace/colony-one-level4/ckpt/gen01.pt",
+      "sha256": "710a69d2297cf4422b257af313fdfdf3fa12404d8bea82bf46fa560f39bbb239",
+      "bytes": 1402527
+    },
+    {
       "path": "codex/arena/METHODOLOGY.md",
       "source": "workspace/colony-one-level4/codex/arena/METHODOLOGY.md",
       "sha256": "6817642ba34d3ee74a87d614a5d1e178bed0767d4f94a2f46122588dbb612203",
@@ -31,14 +37,110 @@
     {
       "path": "codex/arena/audit_evidence.py",
       "source": "workspace/colony-one-level4/codex/arena/audit_evidence.py",
-      "sha256": "737fc8c677a6cc58338d5c68ad9177d5393c16113badcbb2603dec8374ade2fc",
-      "bytes": 2411
+      "sha256": "1e51eb3e704028d58965fd0d422e45eacd633c0dd178ec1960852ddedc45b628",
+      "bytes": 2746
+    },
+    {
+      "path": "codex/arena/audit_opus_gen01.py",
+      "source": "workspace/colony-one-level4/codex/arena/audit_opus_gen01.py",
+      "sha256": "e16dc42041090ce8356897824c442423d1801434aadddab76b1ee7a8d4dc3dae",
+      "bytes": 1993
+    },
+    {
+      "path": "codex/arena/distill-v1-v-tactical-v1-screen90000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v1-screen90000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/distill-v1-v-tactical-v1-screen90000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v1-screen90000/manifest.json",
+      "sha256": "664cbd4af1aff8c03f793443dcf2a3f66a186fa9dc7b971f1ed7741b2bc71320",
+      "bytes": 2883
+    },
+    {
+      "path": "codex/arena/distill-v1-v-tactical-v1-screen90000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v1-screen90000/summary.json",
+      "sha256": "f949e8cfc528f225ee8252c62de8a581a8972a09c9f6d63e08fb49af8bdad0d1",
+      "bytes": 1117
+    },
+    {
+      "path": "codex/arena/distill-v1-v-tactical-v2-holdout110000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v2-holdout110000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/distill-v1-v-tactical-v2-holdout110000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v2-holdout110000/manifest.json",
+      "sha256": "9e5c63b65aaafd26c34cfa4965dcd70916f244ab6f06153c1673297b0be00400",
+      "bytes": 2887
+    },
+    {
+      "path": "codex/arena/distill-v1-v-tactical-v2-holdout110000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v2-holdout110000/summary.json",
+      "sha256": "2fe8c69f318b02de952a2618113a96f24e9835fc49aa709048c12557c8812d82",
+      "bytes": 1126
+    },
+    {
+      "path": "codex/arena/distill-v2-v-tactical-v2-screen130000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v2-v-tactical-v2-screen130000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/distill-v2-v-tactical-v2-screen130000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v2-v-tactical-v2-screen130000/manifest.json",
+      "sha256": "906060da260063a443668882a463306d45278f6c454b6236809c1c0aa15d7c59",
+      "bytes": 2888
+    },
+    {
+      "path": "codex/arena/distill-v2-v-tactical-v2-screen130000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/distill-v2-v-tactical-v2-screen130000/summary.json",
+      "sha256": "710f50eec367f5156df6dc644e852813c840cc0e80fb5af02bb75d2877c41655",
+      "bytes": 1140
+    },
+    {
+      "path": "codex/arena/evidence-audit-gen01-distill-v2.json",
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit-gen01-distill-v2.json",
+      "sha256": "fb8a7ef72ee5d44a85d147a60590c9dcb1706783dd724937eb542af253655ce0",
+      "bytes": 297
+    },
+    {
+      "path": "codex/arena/evidence-audit-student-endgame.json",
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit-student-endgame.json",
+      "sha256": "494fab965bf7a9fe945e10759c15c39aaaf6584d0ea11d8e4fc34f3b5181252d",
+      "bytes": 420
+    },
+    {
+      "path": "codex/arena/evidence-audit-v2.json",
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit-v2.json",
+      "sha256": "c936f4f4ebf7beee02b9bbf6daa001ebe15af3312e883bd85ce2dbb37080bc67",
+      "bytes": 386
     },
     {
       "path": "codex/arena/evidence-audit.json",
       "source": "workspace/colony-one-level4/codex/arena/evidence-audit.json",
       "sha256": "a0ed8064d391c974f59a5095ac6da9df21fe8b4d7ba0faba6e49d99315f2789b",
       "bytes": 767
+    },
+    {
+      "path": "codex/arena/gen01-v-tactical-v2-confirm150000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/gen01-v-tactical-v2-confirm150000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/gen01-v-tactical-v2-confirm150000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen01-v-tactical-v2-confirm150000/manifest.json",
+      "sha256": "77fdda31475e34853cfd017983587c6c2af313a01e64c8836aee31dcce9b877c",
+      "bytes": 2862
+    },
+    {
+      "path": "codex/arena/gen01-v-tactical-v2-confirm150000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/gen01-v-tactical-v2-confirm150000/summary.json",
+      "sha256": "3689af6ff8cd86e6bf46264acce512ad529d7969cbc98f003756a8680cefb34c",
+      "bytes": 1083
     },
     {
       "path": "codex/arena/h1-v-l3-control40000/harness_snapshot.py",
@@ -59,6 +161,24 @@
       "bytes": 1137
     },
     {
+      "path": "codex/arena/h1-v-l3-control80000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control80000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/h1-v-l3-control80000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control80000/manifest.json",
+      "sha256": "ebe5dcd3f557812afb29189bddda0b5ad6ed11e2db39fdd4a1e9e6512fa56cbc",
+      "bytes": 2823
+    },
+    {
+      "path": "codex/arena/h1-v-l3-control80000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control80000/summary.json",
+      "sha256": "512299ce1f5ac67667d2cc5ae3b3d531600a65961667bb429a56232409370e49",
+      "bytes": 1129
+    },
+    {
       "path": "codex/arena/h1-v-l3-holdout10000/harness_snapshot.py",
       "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-holdout10000/harness_snapshot.py",
       "sha256": "afafe5a6b316c36ff4070411c55b6b16d7d634511718f48e0c629756af45529c",
@@ -77,10 +197,22 @@
       "bytes": 1122
     },
     {
+      "path": "codex/arena/opus-gen01-history-audit.json",
+      "source": "workspace/colony-one-level4/codex/arena/opus-gen01-history-audit.json",
+      "sha256": "866497d2654019a66c70b60c306982586678e61f1506cc1d06e7a983e8b9ec52",
+      "bytes": 601
+    },
+    {
       "path": "codex/arena/paired_arena.py",
       "source": "workspace/colony-one-level4/codex/arena/paired_arena.py",
       "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
       "bytes": 8497
+    },
+    {
+      "path": "codex/arena/student-endgame-comparison-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/student-endgame-comparison-summary.json",
+      "sha256": "d9aeed069282a6c39387f5683c0039d00ea8b5f55c3f1aa43bc91f9b65172d78",
+      "bytes": 6032
     },
     {
       "path": "codex/arena/tactical-comparison-summary.json",
@@ -143,6 +275,36 @@
       "bytes": 1130
     },
     {
+      "path": "codex/arena/tactical-v2-comparison-summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-comparison-summary.json",
+      "sha256": "a19184556c23bc7f50f4afd128c5a8cdc35df56a7b8976712f76229eb5287166",
+      "bytes": 3880
+    },
+    {
+      "path": "codex/arena/tactical-v2-endgame-v-v2-screen100000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-endgame-v-v2-screen100000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/tactical-v2-endgame-v-v2-screen100000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-endgame-v-v2-screen100000/manifest.json",
+      "sha256": "bddf490f0dc6134c5761c5c218041fd8b18e96c174c3028241dc3f188aeaece5",
+      "bytes": 2883
+    },
+    {
+      "path": "codex/arena/tactical-v2-endgame-v-v2-screen100000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-endgame-v-v2-screen100000/summary.json",
+      "sha256": "dda56ebc549cdf83eeadc6fa257d78c85c1537dafb6970157778ff360421bc71",
+      "bytes": 1109
+    },
+    {
+      "path": "codex/arena/tactical-v2-v-h1-holdout70000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-h1-holdout70000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
       "path": "codex/arena/tactical-v2-v-h1-holdout70000/manifest.json",
       "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-h1-holdout70000/manifest.json",
       "sha256": "53c24ec1b7ab390149fc3719b1e16bc7df42a539d3e511ceab635dedaa31a253",
@@ -155,10 +317,334 @@
       "bytes": 1132
     },
     {
+      "path": "codex/arena/tactical-v2-v-l3-robust80000/harness_snapshot.py",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-l3-robust80000/harness_snapshot.py",
+      "sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa",
+      "bytes": 8497
+    },
+    {
+      "path": "codex/arena/tactical-v2-v-l3-robust80000/manifest.json",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-l3-robust80000/manifest.json",
+      "sha256": "04bafce51dc1c13b9d151d8493e0a37b2880f529303dede6387e2e2151cf4a92",
+      "bytes": 2849
+    },
+    {
+      "path": "codex/arena/tactical-v2-v-l3-robust80000/summary.json",
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-l3-robust80000/summary.json",
+      "sha256": "e46de860ed1e253fd8ee65a728a9610c83dc34716b41944673c14b1c250165b6",
+      "bytes": 1127
+    },
+    {
       "path": "codex/coordination.md",
       "source": "workspace/colony-one-level4/codex/coordination.md",
-      "sha256": "782f408fb3d100ee153369b8fb5e05d616fe8138c64447f85d575f31be0afe26",
-      "bytes": 9341
+      "sha256": "a19d115571ac1735ab8509dbd9da8d6d9381b0e01cdd5a7acc7d449820587fcf",
+      "bytes": 22576
+    },
+    {
+      "path": "codex/distillation/README.md",
+      "source": "workspace/colony-one-level4/codex/distillation/README.md",
+      "sha256": "320377852512e00b977fdb613d54e908c0fea05a05d1fea174228eee2e59a431",
+      "bytes": 3633
+    },
+    {
+      "path": "codex/distillation/packets/packet0001.json",
+      "source": "workspace/colony-one-level4/codex/distillation/packets/packet0001.json",
+      "sha256": "d7214be984362222a452b1dcd6f50324035336bd7b93232434c07d02bec249e7",
+      "bytes": 152477
+    },
+    {
+      "path": "codex/distillation/packets/packet0002.json",
+      "source": "workspace/colony-one-level4/codex/distillation/packets/packet0002.json",
+      "sha256": "10d4836ed466e243e6c99952e3df9d6be55e0fd7a4bd8e6a4653b41490f054a9",
+      "bytes": 53198
+    },
+    {
+      "path": "codex/distillation/packets/revisions/packet0002-r0.json",
+      "source": "workspace/colony-one-level4/codex/distillation/packets/revisions/packet0002-r0.json",
+      "sha256": "0e2d725eca5aa7071b950413e5eaf719f46aa6997c162b7c00ff601a814a18b4",
+      "bytes": 52387
+    },
+    {
+      "path": "codex/distillation/pipeline-status.json",
+      "source": "workspace/colony-one-level4/codex/distillation/pipeline-status.json",
+      "sha256": "c1f1eb145149bae78b96a9c90bb57bfcb60cf9c85ecb973d87cb06ccb13b43f8",
+      "bytes": 853
+    },
+    {
+      "path": "codex/distillation/queue.py",
+      "source": "workspace/colony-one-level4/codex/distillation/queue.py",
+      "sha256": "4b4e5c1e43f82a7d32eaf972f1b812084e30ceb8bcad5c04dc1df326936261cb",
+      "bytes": 13337
+    },
+    {
+      "path": "codex/distillation/sources/site-hard-positions-c299fe2c9f13e3c5.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/sources/site-hard-positions-c299fe2c9f13e3c5.npz",
+      "sha256": "c299fe2c9f13e3c584b7b7597024b7e2ff3f11daaf275e8a152e4ac67de53c25",
+      "bytes": 6514
+    },
+    {
+      "path": "codex/distillation/student/README.md",
+      "source": "workspace/colony-one-level4/codex/distillation/student/README.md",
+      "sha256": "c96b31e4f080333dab41027246eed17b6f17b343d83f38caabd9468b9a10bee2",
+      "bytes": 4933
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v1.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v1.json",
+      "sha256": "d7342bd6d42fd388be2e3b89ed8072dd88293d4038f2eab7161593d98a657eff",
+      "bytes": 20490
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v1.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v1.npz",
+      "sha256": "d36df216ba215e2daebe5c9858c45f1ba2aba7b79ec8b0093bfa21b5f2a6e248",
+      "bytes": 6022
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v1.onnx",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v1.onnx",
+      "sha256": "9fd3c095808829c343e09cefe62225722fe84f71d32b91d0c3aeabd14c0f44a5",
+      "bytes": 422140
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v2-check-windows.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2-check-windows.json",
+      "sha256": "52360241d3d5636021ac93d62068fa63414e62f22435732a4a4c96a3029dc254",
+      "bytes": 474
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v2.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.json",
+      "sha256": "0bdf07e71c7b39dcb3ed49744c9fa9f4972bf69a960010b040ffbc46e048b9e9",
+      "bytes": 29469
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v2.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.npz",
+      "sha256": "c471c110cf3f87a64d6fc3315343c6dc64d5a5c48c686a25eb3f08e61df51734",
+      "bytes": 3650
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v2.onnx",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.onnx",
+      "sha256": "9ad48af680bc6a7ff5f857f3a542d4059375181d5d8e64d5dbaee9216f94163c",
+      "bytes": 365027
+    },
+    {
+      "path": "codex/distillation/student/model-distill-v2.operational.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.operational.json",
+      "sha256": "532a900608c6661ad46e776cfe750b99c0ba0c35a27009b3553b7245b5322ef4",
+      "bytes": 539
+    },
+    {
+      "path": "codex/distillation/student/qualification-v1.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/qualification-v1.json",
+      "sha256": "6d4b0cd1e4bdd740ddc4b1dfe6da2520a37d9ebba04ba9b7edf852b28aa29419",
+      "bytes": 866
+    },
+    {
+      "path": "codex/distillation/student/symbolic-v2.nodes.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/symbolic-v2.nodes.json",
+      "sha256": "345087b5d775d09cd2238e8fd5aaf41eb87da7c7427458c70f0c82b52bdb26d6",
+      "bytes": 51
+    },
+    {
+      "path": "codex/distillation/student/symbolic-v2.onnx",
+      "source": "workspace/colony-one-level4/codex/distillation/student/symbolic-v2.onnx",
+      "sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+      "bytes": 343589
+    },
+    {
+      "path": "codex/distillation/student/train_compact-v2-source.py",
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_compact-v2-source.py",
+      "sha256": "ab573b0033ee043d905b1939107b7b02c663fa0941a651e1cdf6a3bca5aa195a",
+      "bytes": 12121
+    },
+    {
+      "path": "codex/distillation/student/train_compact.py",
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_compact.py",
+      "sha256": "ab573b0033ee043d905b1939107b7b02c663fa0941a651e1cdf6a3bca5aa195a",
+      "bytes": 12121
+    },
+    {
+      "path": "codex/distillation/student/train_student-v2-source.py",
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_student-v2-source.py",
+      "sha256": "f15523c39de3deb8befb5d9f1f44079256228d31fca51eeafcf13544620961ff",
+      "bytes": 19727
+    },
+    {
+      "path": "codex/distillation/student/train_student.py",
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_student.py",
+      "sha256": "f15523c39de3deb8befb5d9f1f44079256228d31fca51eeafcf13544620961ff",
+      "bytes": 19727
+    },
+    {
+      "path": "codex/distillation/student/v2-recovery-hashes.json",
+      "source": "workspace/colony-one-level4/codex/distillation/student/v2-recovery-hashes.json",
+      "sha256": "6fb5df02dcd6dea65e2aba7f1d978ba79fcd3a79cca51bc975ca7a115ae21bf5",
+      "bytes": 710
+    },
+    {
+      "path": "codex/distillation/student/verify_compact.py",
+      "source": "workspace/colony-one-level4/codex/distillation/student/verify_compact.py",
+      "sha256": "73cf721720675ee25ae69aadec98cc9ea1c34edf5ce58ede645f66f76aa6100c",
+      "bytes": 2421
+    },
+    {
+      "path": "codex/distillation/teacher/MATHEMATICAL_DESIGN.md",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/MATHEMATICAL_DESIGN.md",
+      "sha256": "81121243ae454206078dc83aa0e6c19cf58c08adc9453ca6854f0c349c193a2b",
+      "bytes": 5748
+    },
+    {
+      "path": "codex/distillation/teacher/packet0001_continuations.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0001_continuations.json",
+      "sha256": "cb708f20a2c727d72d8864bbfa9fb3be52a99c7131e1c61f64b2aa24d62a9c0a",
+      "bytes": 34538
+    },
+    {
+      "path": "codex/distillation/teacher/packet0001_probe.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0001_probe.json",
+      "sha256": "0a67fe0075d22ab048797edf9115059a23f76275251826736328facad7b5ee2d",
+      "bytes": 63347
+    },
+    {
+      "path": "codex/distillation/teacher/packet0001_validation.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0001_validation.json",
+      "sha256": "3cb2c0e2090b71906e5b6da25595abbdb057e026a52421f32422a8df6eef9a7f",
+      "bytes": 74342
+    },
+    {
+      "path": "codex/distillation/teacher/packet0002_continuations.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0002_continuations.json",
+      "sha256": "991fc59160b583199b3685d1c3fbce34271f519d3009982be490c5691cd2a68b",
+      "bytes": 11085
+    },
+    {
+      "path": "codex/distillation/teacher/packet0002_probe.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0002_probe.json",
+      "sha256": "534282490a0010d4cfdb70907251c007e8d085781cab5f5c50347048a87b73be",
+      "bytes": 23096
+    },
+    {
+      "path": "codex/distillation/teacher/packet0002_validation.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0002_validation.json",
+      "sha256": "ae0ab9694a9907d02ee92c7dcc38e4091de6da1da372f732313d1db4ed7264dc",
+      "bytes": 1462
+    },
+    {
+      "path": "codex/distillation/teacher/probe_continuations.py",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/probe_continuations.py",
+      "sha256": "1ac8753f3e0f039818d02524a94383d10d61b61e6ba60589e8518256d0b92700",
+      "bytes": 1327
+    },
+    {
+      "path": "codex/distillation/teacher/probe_packet.py",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/probe_packet.py",
+      "sha256": "81342838f62d61288c18d4cce9ce7bf3344d978fc3c020a557acaaa877b4f33a",
+      "bytes": 1519
+    },
+    {
+      "path": "codex/distillation/teacher/write_packet0001_labels.py",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/write_packet0001_labels.py",
+      "sha256": "58e38101df82ba5c192521ea3a829758f82a3c16f7d5ed34fdbff96d98853e9e",
+      "bytes": 9219
+    },
+    {
+      "path": "codex/distillation/teacher/write_packet0002_labels.py",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/write_packet0002_labels.py",
+      "sha256": "69ae5e7e6f28ce95df1212d8acb25a9708d5525a1c1c83a5f5a52737877b4145",
+      "bytes": 3863
+    },
+    {
+      "path": "codex/distillation/teacher_answer.schema.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher_answer.schema.json",
+      "sha256": "f4a05d36b5cdbfb846d3fe2417668e587a7099f704845b004a57e8dafbbcff83",
+      "bytes": 1572
+    },
+    {
+      "path": "codex/distillation/teacher_labels/astra_packet0001.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher_labels/astra_packet0001.json",
+      "sha256": "0ba7713b705a2e6b1def7172496b5046e598edcfd43affa449cb15e2f07f9efb",
+      "bytes": 71024
+    },
+    {
+      "path": "codex/distillation/teacher_labels/astra_packet0002.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher_labels/astra_packet0002.json",
+      "sha256": "8f3b4d64314c61423741204da78ec2e1dded35fd3c51e00b3b68b31ccc2a9015",
+      "bytes": 25287
+    },
+    {
+      "path": "codex/distillation/validated/packet0001/student_ready.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/student_ready.json",
+      "sha256": "9df94bd9d71cd739c2f3e649c462521217a038488fbed29ff1871051173debdf",
+      "bytes": 961
+    },
+    {
+      "path": "codex/distillation/validated/packet0001/target-check.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/target-check.json",
+      "sha256": "c51d8423872cfec64e82bf5e8f3d8c835b14d22fff0a3fa0ca979ab1144bb800",
+      "bytes": 363
+    },
+    {
+      "path": "codex/distillation/validated/packet0001/teacher_targets.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/teacher_targets.npz",
+      "sha256": "d86eeb631348dff273ca067b24a3991a6af85d09a4dc28b8f990d7dccc721e0c",
+      "bytes": 5178
+    },
+    {
+      "path": "codex/distillation/validated/packet0001/validation.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/validation.json",
+      "sha256": "fd373f9cb5184aa6e8d7f0b7c61d14716e37070374643d01091c9bf7be59475f",
+      "bytes": 74552
+    },
+    {
+      "path": "codex/distillation/validated/packet0002/student_ready.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0002/student_ready.json",
+      "sha256": "ff03fefc191765a2f3092943f59ef96d28e3e756be1e375380c5d7da2e5a113c",
+      "bytes": 960
+    },
+    {
+      "path": "codex/distillation/validated/packet0002/teacher_targets.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0002/teacher_targets.npz",
+      "sha256": "0fa234769f80c76986346d6e58b139e3d3377cd640ab08c65971b6d6f31ffa46",
+      "bytes": 3479
+    },
+    {
+      "path": "codex/distillation/validated/packet0002/validation.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0002/validation.json",
+      "sha256": "36e4ffb58e9f07e154c2c526ec09a6639ac1cbd26dad4355009d992f879080bd",
+      "bytes": 28142
+    },
+    {
+      "path": "codex/distillation/validation-smoke.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validation-smoke.json",
+      "sha256": "b6ec39eeacc6c8f1a9c6b1020ed5556f8e5153decc2440944f7ce52b38167e89",
+      "bytes": 578
+    },
+    {
+      "path": "codex/distillation/validation.py",
+      "source": "workspace/colony-one-level4/codex/distillation/validation.py",
+      "sha256": "f5e40a3928d661281c2a6aa8bd0c71727fc58606fb49d8f091dbc0b727325b86",
+      "bytes": 8969
+    },
+    {
+      "path": "codex/distillation/validation_fixtures/illegal_action.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validation_fixtures/illegal_action.json",
+      "sha256": "5ab38166895a35d4f239972d130eeec792a675d6a34b496922a3b19ae434ac0a",
+      "bytes": 458
+    },
+    {
+      "path": "codex/distillation/validation_fixtures/prediction.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validation_fixtures/prediction.json",
+      "sha256": "f9181a2c74ced73b0dea61911ab9fce3123c79d3d76db024ca9631d1eaf4c408",
+      "bytes": 461
+    },
+    {
+      "path": "codex/distillation/validation_fixtures/unsupported_exact.json",
+      "source": "workspace/colony-one-level4/codex/distillation/validation_fixtures/unsupported_exact.json",
+      "sha256": "d52618c5e6863a73c08d07eecaa21752060bdbff3b2435a484094d76a428134d",
+      "bytes": 453
     },
     {
       "path": "codex/engine_audit/audit_engine.py",
@@ -259,8 +745,8 @@
     {
       "path": "codex/matches/site-candidate-action-check.json",
       "source": "workspace/colony-one-level4/codex/matches/site-candidate-action-check.json",
-      "sha256": "ff6c63f237ed147466a6bfa611c749d515ae613d2c95b93cbfc86e50fe55cabd",
-      "bytes": 15447
+      "sha256": "bfad620d9503186e8ea626957851f24072418338032389f029b02cbdb93be464",
+      "bytes": 28660
     },
     {
       "path": "codex/matches/site-probes.json",
@@ -285,6 +771,210 @@
       "source": "workspace/colony-one-level4/codex/matches/site_replay.py",
       "sha256": "384b626b4aa3e5f0b8bd31da1af1c2ba7940dfa2a2a06452627550c14c0760cd",
       "bytes": 5984
+    },
+    {
+      "path": "codex/synthetic/astra/author_discovery_proposals.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/author_discovery_proposals.py",
+      "sha256": "a9abbe2c1eabfd1fdbfbcb653a46dcbdced7dfa50b1e18dab1be6fbce56fc746",
+      "bytes": 1312
+    },
+    {
+      "path": "codex/synthetic/astra/author_hard_proposals.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/author_hard_proposals.py",
+      "sha256": "1e0141181405debf403038871da6a92a65d05e9365c7c377138f512ed8a8aae2",
+      "bytes": 4300
+    },
+    {
+      "path": "codex/synthetic/astra/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/certified_states.jsonl",
+      "sha256": "cb45b56de945f1807e7df4e5e9f77e83dd75bee8777bb55fe717e04ab138c834",
+      "bytes": 729212
+    },
+    {
+      "path": "codex/synthetic/astra/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/certified_states.npz",
+      "sha256": "0da4f3a58b902ed25bf2f03db97cb4f11da60b7cddbcce9d9ea86cf8896dd1cf",
+      "bytes": 18609
+    },
+    {
+      "path": "codex/synthetic/astra/combine_curriculum.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/combine_curriculum.py",
+      "sha256": "27fdfdc2e46967585f12c7141e1f6a76cd63b2455ace36a8a90ceadf867290f1",
+      "bytes": 4838
+    },
+    {
+      "path": "codex/synthetic/astra/curriculum/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/certified_states.jsonl",
+      "sha256": "3387904ec0d17666b2d4e9ac69a34694f35f452fad9a72a53cd64fa8ed062aea",
+      "bytes": 1512947
+    },
+    {
+      "path": "codex/synthetic/astra/curriculum/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/certified_states.npz",
+      "sha256": "022fd36f08dfa68152fa8842c577303cdd9a0261407319f7992ed8d7585b3cba",
+      "bytes": 33370
+    },
+    {
+      "path": "codex/synthetic/astra/curriculum/hard_only.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/hard_only.npz",
+      "sha256": "8a93233b727b6619376758becc00e13da015b75e36caf3b69686d8cd16363add",
+      "bytes": 23190
+    },
+    {
+      "path": "codex/synthetic/astra/curriculum/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/manifest.json",
+      "sha256": "2bb7175dec3d2b55caca997c8dca1302b552e182e01473fa00bae2a508113eff",
+      "bytes": 3014
+    },
+    {
+      "path": "codex/synthetic/astra/curriculum/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/packet.json",
+      "sha256": "7cfa45a0090b759bf3221ff00963138bdda552ef2b070975d08e6705c58d22a1",
+      "bytes": 2605059
+    },
+    {
+      "path": "codex/synthetic/astra/discovery/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/certified_states.jsonl",
+      "sha256": "d8fae5fc9859675a2bd8875f4bd7532ca5ff320b32596c7710871f4cb1b9ab33",
+      "bytes": 217167
+    },
+    {
+      "path": "codex/synthetic/astra/discovery/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/certified_states.npz",
+      "sha256": "4e524df3bc2958c0e37e5dd24825e7bf9d7189c6b50b667c43baf02226cdfda2",
+      "bytes": 7407
+    },
+    {
+      "path": "codex/synthetic/astra/discovery/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/manifest.json",
+      "sha256": "963a896296fe120a1e6076908523af787c97b4435021d1af17510a3bb11c931e",
+      "bytes": 2231
+    },
+    {
+      "path": "codex/synthetic/astra/discovery/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/packet.json",
+      "sha256": "0ee4294aab48830e366cb80761e5fa80411b136fcb4d6d873a21dfef7d6b619f",
+      "bytes": 391198
+    },
+    {
+      "path": "codex/synthetic/astra/discovery_seed_proposals.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery_seed_proposals.json",
+      "sha256": "ab51d26027399ab395b303618a834c12fa7cd2a69da876e691f332abefdf9d46",
+      "bytes": 6799
+    },
+    {
+      "path": "codex/synthetic/astra/generate.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/generate.py",
+      "sha256": "ebe656f44c466e162bb3da1db1a9ec4696dc22f16d410945505aadbfa82d9808",
+      "bytes": 8609
+    },
+    {
+      "path": "codex/synthetic/astra/hard_refined/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/certified_states.jsonl",
+      "sha256": "ccd3f8cbc85b869350cb58f71eb0f9e77a34e11b2b54386ffd8a2ff40e0d769c",
+      "bytes": 1238992
+    },
+    {
+      "path": "codex/synthetic/astra/hard_refined/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/certified_states.npz",
+      "sha256": "6e66018569bf7f98291035e21337d8bb9588faf9c792f5bf3030751fdaebd642",
+      "bytes": 26696
+    },
+    {
+      "path": "codex/synthetic/astra/hard_refined/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/manifest.json",
+      "sha256": "c53a281d91e46537b2442e69f2d6ba90125c639d9040a258def6cdf0073cb224",
+      "bytes": 2547
+    },
+    {
+      "path": "codex/synthetic/astra/hard_refined/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/packet.json",
+      "sha256": "68c2d0a41b383076a539e55c00040f9f43beeca5787eca9b9157b18b779cd8ae",
+      "bytes": 2119802
+    },
+    {
+      "path": "codex/synthetic/astra/hard_seed_proposals.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_seed_proposals.json",
+      "sha256": "dcc5df3450ef3ec9c4ae3ac12f7f9ba0d3631b4ec10a21611ea580b0bf1cc0b5",
+      "bytes": 25337
+    },
+    {
+      "path": "codex/synthetic/astra/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/manifest.json",
+      "sha256": "67dfe2891daaa410617a2911c68870b05b573f52f50621cf6a6c19544db22d0a",
+      "bytes": 2142
+    },
+    {
+      "path": "codex/synthetic/astra/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/packet.json",
+      "sha256": "3b3a0c006cf0fdaf74b19175868e4449249448dda18f44151f572e72b3ecd8b8",
+      "bytes": 1256985
+    },
+    {
+      "path": "codex/synthetic/astra/refine.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/refine.py",
+      "sha256": "dcdd1e3ad041483e1c3ab295474111fa62695319ed117f19c3defb6afcb2852c",
+      "bytes": 4774
+    },
+    {
+      "path": "codex/synthetic/astra/seed_proposals.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/seed_proposals.json",
+      "sha256": "04a65495b19d9b9c8bc4fed7f5f9ae65548822f395a2dea4a86665a368b87a23",
+      "bytes": 8003
+    },
+    {
+      "path": "codex/synthetic/validation/controls0001-independent-safety/report.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001-independent-safety/report.json",
+      "sha256": "fc492aba5282e07a8728f3ffee742a2fc07a2438668b6e9a7c07f97af9ba7a4a",
+      "bytes": 86969
+    },
+    {
+      "path": "codex/synthetic/validation/controls0001-per-action/independently_validated.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001-per-action/independently_validated.npz",
+      "sha256": "a28f5b746875db904b0c80b1a7a8af221517ab648b495cfaf7898dbe3ec4fbbd",
+      "bytes": 19642
+    },
+    {
+      "path": "codex/synthetic/validation/controls0001-per-action/report.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001-per-action/report.json",
+      "sha256": "18c290ccb2f0de890d0a7c30af3f634e1afaa4ef559679cffddbb2c230a8886b",
+      "bytes": 75391
+    },
+    {
+      "path": "codex/synthetic/validation/controls0001/independently_validated.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001/independently_validated.npz",
+      "sha256": "a28f5b746875db904b0c80b1a7a8af221517ab648b495cfaf7898dbe3ec4fbbd",
+      "bytes": 19642
+    },
+    {
+      "path": "codex/synthetic/validation/controls0001/report.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001/report.json",
+      "sha256": "66d288107a193178a59a4bb70343ad1e9236a8209ec5ac4d8defccc6ea16bda8",
+      "bytes": 60295
+    },
+    {
+      "path": "codex/synthetic/validation/hard0001/gen01-independent-difficulty.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/hard0001/gen01-independent-difficulty.json",
+      "sha256": "367c5b95528fc89946c483767570592d799a57016843600aa88065c1870ec23e",
+      "bytes": 44544
+    },
+    {
+      "path": "codex/synthetic/validation/integrate.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/integrate.py",
+      "sha256": "134e1db6c21bbb054334bb64feef94089f19b7827a974de2b25e5e0604a48d82",
+      "bytes": 5113
+    },
+    {
+      "path": "codex/synthetic/validation/probe_gen01.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/probe_gen01.py",
+      "sha256": "f9eccc05d1f14906d7cbf3074b0e533f0b7b15eddc6551330c27918710da1f0d",
+      "bytes": 2870
+    },
+    {
+      "path": "codex/synthetic/validation/validate_synthetic.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/validate_synthetic.py",
+      "sha256": "c44879882903a1066f5b6b94c59309832efdbed426225a2af21b1ed898fd118c",
+      "bytes": 15838
     },
     {
       "path": "codex/tactical/arena-v2-anchor-h1/manifest.json",
@@ -391,14 +1081,122 @@
     {
       "path": "codex/validation/README.txt",
       "source": "workspace/colony-one-level4/codex/validation/README.txt",
-      "sha256": "19970a06cc7706b630c2c26cf2b79ba4f71885cdcb18b090cf0f06f07aff24cb",
-      "bytes": 2940
+      "sha256": "5b37e417012a915edfa633da33d6a4653dd4be250f125b37ab2685eb1af6d3b0",
+      "bytes": 4844
+    },
+    {
+      "path": "codex/validation/distill-v1-graph-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-graph-linux.json",
+      "sha256": "5e47cd64fa668da7e00e336568fd1652b061e9587839f2fc1b4f5f5d7c1f5ba3",
+      "bytes": 2078
+    },
+    {
+      "path": "codex/validation/distill-v1-hard-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-hard-linux.json",
+      "sha256": "a1a76481ff608c8624056d6acf7e3817368c1d2b2863654e3379f758f7ff0d6f",
+      "bytes": 1764
+    },
+    {
+      "path": "codex/validation/distill-v1-level4-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-level4-linux.json",
+      "sha256": "c2a27fced01bb9f141057b6fbbd81d9acd15d3539ad965caf16ba33e4ee8b90f",
+      "bytes": 1325
+    },
+    {
+      "path": "codex/validation/distill-v1-validator-linux.txt",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-validator-linux.txt",
+      "sha256": "01aefb730d7b17e59b8e85ff51968e46ec16c451bbabaf79ba1f150f0f47e64a",
+      "bytes": 1286
+    },
+    {
+      "path": "codex/validation/distill-v2-graph-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-graph-linux.json",
+      "sha256": "f2469ed2bb3a466c5bb8267c4cb7e3a29000be4d171828f441ff44b25037c2f0",
+      "bytes": 2125
+    },
+    {
+      "path": "codex/validation/distill-v2-hard-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-hard-linux.json",
+      "sha256": "8c65a0b13a046fe2b115cb9b550e6255befb544b77ed0547fa264f166dce6a7d",
+      "bytes": 1776
+    },
+    {
+      "path": "codex/validation/distill-v2-level4-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-level4-linux.json",
+      "sha256": "7f6146af440672184229973a5ea8c5a1326662155bb5b0489a7dcfbce9d594be",
+      "bytes": 1323
+    },
+    {
+      "path": "codex/validation/distill-v2-validator-linux.txt",
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-validator-linux.txt",
+      "sha256": "e3e5e539d4c30eecce50977bf9c3f4504f22bf379518a09ca94adf19fe33a1db",
+      "bytes": 1286
     },
     {
       "path": "codex/validation/env-provenance-check.json",
       "source": "workspace/colony-one-level4/codex/validation/env-provenance-check.json",
       "sha256": "11fec23744d5fb92414bb5c9e1d1ca3a8f34afac290c3c604bdfaa030f004e09",
       "bytes": 5850
+    },
+    {
+      "path": "codex/validation/gen01-graph-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-graph-linux.json",
+      "sha256": "c0e3daf7a48328aeb13c6512970f481fb64b1201198a0ee211aeaa382f6122a7",
+      "bytes": 2038
+    },
+    {
+      "path": "codex/validation/gen01-graph-native-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-graph-native-linux.json",
+      "sha256": "827fe78ced1cbbf7061d49d2fc15a0f2a0547573bfd4a03e373f06b00a47e8e8",
+      "bytes": 2028
+    },
+    {
+      "path": "codex/validation/gen01-hard-linux-repeat.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-hard-linux-repeat.json",
+      "sha256": "18496f49139a163ab45a5854ff5e30bc7d03ec4494d1298f088c152174581bac",
+      "bytes": 1729
+    },
+    {
+      "path": "codex/validation/gen01-hard-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-hard-linux.json",
+      "sha256": "a4f229c5190482ec5e4f00b7730225d6b4df41b742daa0080b94350687caf69a",
+      "bytes": 1678
+    },
+    {
+      "path": "codex/validation/gen01-hard-native-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-hard-native-linux.json",
+      "sha256": "fe64e7c8d01258cbb10031d043cf8a60c3b9e39e21f3f1f2c3f93c39d890e832",
+      "bytes": 1731
+    },
+    {
+      "path": "codex/validation/gen01-level4-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-level4-linux.json",
+      "sha256": "a8a687cafcbc988cfe112c0a66296905adc212646b0e77c56dac7b11b3418c6a",
+      "bytes": 1295
+    },
+    {
+      "path": "codex/validation/gen01-level4-native-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-level4-native-linux.json",
+      "sha256": "8bdb72e86b6bdea7a4f99de883e46759a38d89478db01510dfb8bb25cc9612b2",
+      "bytes": 1290
+    },
+    {
+      "path": "codex/validation/gen01-native-copy-manifest.json",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-native-copy-manifest.json",
+      "sha256": "ad1ee3385f9c5c29b01972bd02030df4bebd75812ce34cd8718effb215a65b99",
+      "bytes": 6639
+    },
+    {
+      "path": "codex/validation/gen01-validator-linux.txt",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-validator-linux.txt",
+      "sha256": "e3e299c6b4de16b3ae31597da43357bdd5193c096a8721d9e45771576eaf0eee",
+      "bytes": 1262
+    },
+    {
+      "path": "codex/validation/gen01-validator-native-linux.txt",
+      "source": "workspace/colony-one-level4/codex/validation/gen01-validator-native-linux.txt",
+      "sha256": "4cb8002af4fe742101da0042d76fe1fc6398b2d8cdce464afadcd0de4520d5b0",
+      "bytes": 1253
     },
     {
       "path": "codex/validation/h1-graph-windows.json",
@@ -429,6 +1227,12 @@
       "source": "workspace/colony-one-level4/codex/validation/level4-scene-lineage.json",
       "sha256": "2bc9772938d35703387707797c338bf352b10e4bc5d740bf68d83c16449de484",
       "bytes": 569
+    },
+    {
+      "path": "codex/validation/prepare_native.py",
+      "source": "workspace/colony-one-level4/codex/validation/prepare_native.py",
+      "sha256": "733de88e86186e396bf0e38fe722f94b112af72d896cf965bb3e78bec2485ad7",
+      "bytes": 1851
     },
     {
       "path": "codex/validation/qualify.py",
@@ -465,6 +1269,30 @@
       "source": "workspace/colony-one-level4/codex/validation/tactical-level4-windows.json",
       "sha256": "2ddbcde50414e44901808750ee7b980b02768c3e96d17b483bd554bc03142045",
       "bytes": 769
+    },
+    {
+      "path": "codex/validation/tactical-v2-endgame-graph-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-graph-linux.json",
+      "sha256": "fa6bd79f0b9c7b087f112d9eb306461fe5153097da9f4b6a5ccafb0b62de7e69",
+      "bytes": 2172
+    },
+    {
+      "path": "codex/validation/tactical-v2-endgame-hard-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-hard-linux.json",
+      "sha256": "d36e178d5abdab40d2a2c192671ff6f563f13a609082f030d32fa119f057da60",
+      "bytes": 1762
+    },
+    {
+      "path": "codex/validation/tactical-v2-endgame-level4-linux.json",
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-level4-linux.json",
+      "sha256": "87c7eec8b5916d42cecdf90e8db5a30eb6854facc3ab45e3227b83ac1b36023b",
+      "bytes": 1326
+    },
+    {
+      "path": "codex/validation/tactical-v2-endgame-validator-linux.txt",
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-validator-linux.txt",
+      "sha256": "d121397277651334141d2dc4b08ee05eea6e10fea37d6aa4ff285e1e9feaafde",
+      "bytes": 1283
     },
     {
       "path": "codex/validation/tactical-v2-graph-linux.json",
@@ -507,6 +1335,12 @@
       "source": "workspace/colony-one-level4/codex/validation/tactical-validator-windows.txt",
       "sha256": "ee3380b47e22b727f5f623194d40f545ac7f1fbd7d66fcd6e26b6367e8173ecf",
       "bytes": 619
+    },
+    {
+      "path": "comparison-gen01.json",
+      "source": "workspace/colony-one-level4/comparison-gen01.json",
+      "sha256": "7bc06e894d18f95e3057fbc1cb05e93d9323b32f3e6b8ccee213844b21f61144",
+      "bytes": 806
     },
     {
       "path": "env/LICENSE",
@@ -685,14 +1519,20 @@
     {
       "path": "loop.py",
       "source": "workspace/colony-one-level4/loop.py",
-      "sha256": "8a32743986ce7cd9807c3956fc9367114f9ac3c1c4083418ed7eaae95cb6f588",
-      "bytes": 3528
+      "sha256": "e467f1f69913b0d7a1bb63c73647162a6f999669840ff328d5325f4b2f2addc8",
+      "bytes": 4614
     },
     {
       "path": "match_cost.py",
       "source": "workspace/colony-one-level4/match_cost.py",
       "sha256": "d3972ee473eed4db357ff8e9a3144b226f01929c23b6d0d2c5ce8cec89536475",
       "bytes": 1603
+    },
+    {
+      "path": "model-gen01.onnx",
+      "source": "workspace/colony-one-level4/release/gen01/model.onnx",
+      "sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+      "bytes": 1439594
     },
     {
       "path": "model-h1.onnx",
@@ -708,9 +1548,9 @@
     },
     {
       "path": "model.onnx",
-      "source": "workspace/colony-one-level4/model.onnx",
-      "sha256": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
-      "bytes": 311345
+      "source": "workspace/colony-one-level4/release/gen01/model.onnx",
+      "sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+      "bytes": 1439594
     },
     {
       "path": "net.py",
@@ -729,6 +1569,48 @@
       "source": "workspace/colony-one-level4/reexport.py",
       "sha256": "2cb5746075d22b417110d63e447915bd7b4f8c71f4dd0fa280df1ef793886013",
       "bytes": 574
+    },
+    {
+      "path": "release/gen01/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen01/model.onnx",
+      "sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+      "bytes": 1439594
+    },
+    {
+      "path": "release/gen01/source-current/check_onnx.py",
+      "source": "workspace/colony-one-level4/check_onnx.py",
+      "sha256": "bfb4f38d7d132576b34c970f9e3eb8ef64e5221ef0229711bf69d6e16df77d26",
+      "bytes": 1286
+    },
+    {
+      "path": "release/gen01/source-current/loop.py",
+      "source": "workspace/colony-one-level4/loop.py",
+      "sha256": "e467f1f69913b0d7a1bb63c73647162a6f999669840ff328d5325f4b2f2addc8",
+      "bytes": 4614
+    },
+    {
+      "path": "release/gen01/source-current/net.py",
+      "source": "workspace/colony-one-level4/net.py",
+      "sha256": "1e797310b1d41dd5b33ce42d21f10ee3905d2cb0284b4527ba8ed982ae776f2e",
+      "bytes": 10464
+    },
+    {
+      "path": "release/gen01/source-current/reexport.py",
+      "source": "workspace/colony-one-level4/reexport.py",
+      "sha256": "2cb5746075d22b417110d63e447915bd7b4f8c71f4dd0fa280df1ef793886013",
+      "bytes": 574
+    },
+    {
+      "path": "release/gen01/source-current/selfplay.py",
+      "source": "workspace/colony-one-level4/selfplay.py",
+      "sha256": "bde9b7025ff4d657ac4833a850d3844f2ceed12116ba2abb2555c4f24dffc273",
+      "bytes": 6114
+    },
+    {
+      "path": "release/gen01/source-current/train.py",
+      "source": "workspace/colony-one-level4/train.py",
+      "sha256": "9347dde0138f789cbd6026225feccd7a13ca00dfb624cfea9792586ce840903d",
+      "bytes": 6716
     },
     {
       "path": "selfplay.py",
@@ -780,5 +1662,5 @@
     }
   ],
   "missing_optional": [],
-  "snapshot_utc": "2026-10-23T13:57:05.992851+00:00"
+  "snapshot_utc": "2026-10-23T14:25:05.584991+00:00"
 }

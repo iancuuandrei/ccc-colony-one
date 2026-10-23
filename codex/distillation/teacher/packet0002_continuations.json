@@ -1,0 +1,572 @@
+[
+  {
+    "position_id": "p-01c22f087dc5cadf",
+    "actions": [
+      {
+        "action_index": 3128,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3128,
+          3632
+        ]
+      },
+      {
+        "action_index": 3112,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3112,
+          2608
+        ]
+      },
+      {
+        "action_index": 3121,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3121,
+          3177
+        ]
+      },
+      {
+        "action_index": 2153,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2153,
+          3112
+        ]
+      },
+      {
+        "action_index": 2137,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2137,
+          1633
+        ]
+      },
+      {
+        "action_index": 2146,
+        "safe_continuation": true,
+        "checked": 7,
+        "witness": [
+          2146,
+          2209
+        ]
+      },
+      {
+        "action_index": 2144,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2144,
+          3112
+        ]
+      },
+      {
+        "action_index": 2154,
+        "safe_continuation": true,
+        "checked": 7,
+        "witness": [
+          2154,
+          2729
+        ]
+      },
+      {
+        "action_index": 2152,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2152,
+          2601
+        ]
+      },
+      {
+        "action_index": 2138,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2138,
+          1682
+        ]
+      },
+      {
+        "action_index": 2136,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2136,
+          3128
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-6e1ce094c027f9ff",
+    "actions": [
+      {
+        "action_index": 396,
+        "safe_continuation": false,
+        "checked": 21
+      },
+      {
+        "action_index": 405,
+        "safe_continuation": false,
+        "checked": 23
+      },
+      {
+        "action_index": 407,
+        "safe_continuation": false,
+        "checked": 19
+      },
+      {
+        "action_index": 2137,
+        "safe_continuation": false,
+        "checked": 19
+      },
+      {
+        "action_index": 2153,
+        "safe_continuation": false,
+        "checked": 16
+      },
+      {
+        "action_index": 2144,
+        "safe_continuation": false,
+        "checked": 18
+      },
+      {
+        "action_index": 2146,
+        "safe_continuation": false,
+        "checked": 19
+      },
+      {
+        "action_index": 3177,
+        "safe_continuation": true,
+        "checked": 20,
+        "witness": [
+          3177,
+          3633
+        ]
+      },
+      {
+        "action_index": 3193,
+        "safe_continuation": true,
+        "checked": 9,
+        "witness": [
+          3193,
+          3633
+        ]
+      },
+      {
+        "action_index": 3184,
+        "safe_continuation": true,
+        "checked": 16,
+        "witness": [
+          3184,
+          3633
+        ]
+      },
+      {
+        "action_index": 3186,
+        "safe_continuation": true,
+        "checked": 23,
+        "witness": [
+          3186,
+          3633
+        ]
+      },
+      {
+        "action_index": 3187,
+        "safe_continuation": true,
+        "checked": 17,
+        "witness": [
+          3187,
+          3301
+        ]
+      },
+      {
+        "action_index": 3176,
+        "safe_continuation": true,
+        "checked": 17,
+        "witness": [
+          3176,
+          3633
+        ]
+      },
+      {
+        "action_index": 3178,
+        "safe_continuation": true,
+        "checked": 23,
+        "witness": [
+          3178,
+          3633
+        ]
+      },
+      {
+        "action_index": 3171,
+        "safe_continuation": true,
+        "checked": 14,
+        "witness": [
+          3171,
+          2277
+        ]
+      },
+      {
+        "action_index": 3194,
+        "safe_continuation": true,
+        "checked": 10,
+        "witness": [
+          3194,
+          3633
+        ]
+      },
+      {
+        "action_index": 3632,
+        "safe_continuation": true,
+        "checked": 10,
+        "witness": [
+          3632,
+          3113
+        ]
+      },
+      {
+        "action_index": 3641,
+        "safe_continuation": true,
+        "checked": 20,
+        "witness": [
+          3641,
+          3698
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-4f9c8309aa980a51",
+    "actions": [
+      {
+        "action_index": 3177,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          3177,
+          2673
+        ]
+      },
+      {
+        "action_index": 3186,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          3186,
+          3249
+        ]
+      },
+      {
+        "action_index": 3178,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          3178,
+          2738
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-9d75bb6ff828f532",
+    "actions": [
+      {
+        "action_index": 2803,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2803,
+          3307
+        ]
+      },
+      {
+        "action_index": 2796,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2796,
+          2852
+        ]
+      },
+      {
+        "action_index": 2797,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2797,
+          2924
+        ]
+      },
+      {
+        "action_index": 2794,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2794,
+          2722
+        ]
+      },
+      {
+        "action_index": 2793,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2793,
+          2666
+        ]
+      },
+      {
+        "action_index": 2267,
+        "safe_continuation": true,
+        "checked": 7,
+        "witness": [
+          2267,
+          1763
+        ]
+      },
+      {
+        "action_index": 2276,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2276,
+          2787
+        ]
+      },
+      {
+        "action_index": 2274,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2274,
+          2787
+        ]
+      },
+      {
+        "action_index": 2284,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2284,
+          2868
+        ]
+      },
+      {
+        "action_index": 2282,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2282,
+          2803
+        ]
+      },
+      {
+        "action_index": 2268,
+        "safe_continuation": true,
+        "checked": 8,
+        "witness": [
+          2268,
+          1828
+        ]
+      },
+      {
+        "action_index": 2266,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2266,
+          2787
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-7543a1775a699acf",
+    "actions": [
+      {
+        "action_index": 2787,
+        "safe_continuation": false,
+        "checked": 8
+      },
+      {
+        "action_index": 2803,
+        "safe_continuation": true,
+        "checked": 3,
+        "witness": [
+          2803,
+          3316
+        ]
+      },
+      {
+        "action_index": 2794,
+        "safe_continuation": true,
+        "checked": 3,
+        "witness": [
+          2794,
+          2729
+        ]
+      },
+      {
+        "action_index": 2796,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2796,
+          2868
+        ]
+      },
+      {
+        "action_index": 2786,
+        "safe_continuation": true,
+        "checked": 7,
+        "witness": [
+          2786,
+          2217
+        ]
+      },
+      {
+        "action_index": 2788,
+        "safe_continuation": false,
+        "checked": 8
+      },
+      {
+        "action_index": 2802,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2802,
+          3249
+        ]
+      },
+      {
+        "action_index": 2804,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2804,
+          3379
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-e93dcb8c4c447bdf",
+    "actions": [
+      {
+        "action_index": 2803,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2803,
+          3307
+        ]
+      },
+      {
+        "action_index": 2787,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2787,
+          2283
+        ]
+      },
+      {
+        "action_index": 2779,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2779,
+          2153
+        ]
+      },
+      {
+        "action_index": 2796,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2796,
+          2868
+        ]
+      },
+      {
+        "action_index": 2797,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2797,
+          2933
+        ]
+      },
+      {
+        "action_index": 2794,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2794,
+          2738
+        ]
+      },
+      {
+        "action_index": 2793,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2793,
+          2673
+        ]
+      },
+      {
+        "action_index": 2153,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2153,
+          2803
+        ]
+      },
+      {
+        "action_index": 2137,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2137,
+          2803
+        ]
+      },
+      {
+        "action_index": 2146,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2146,
+          2803
+        ]
+      },
+      {
+        "action_index": 2154,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2154,
+          2803
+        ]
+      },
+      {
+        "action_index": 2138,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2138,
+          2803
+        ]
+      }
+    ]
+  }
+]

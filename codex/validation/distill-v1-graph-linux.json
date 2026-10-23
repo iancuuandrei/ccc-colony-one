@@ -1,0 +1,80 @@
+{
+  "model": "/mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/codex/distillation/student/model-distill-v1.onnx",
+  "sha256": "9fd3c095808829c343e09cefe62225722fe84f71d32b91d0c3aeabd14c0f44a5",
+  "bytes": 422140,
+  "mode": "graph",
+  "python": "/home/andrei/.cache/colony-one-validator/bin/python",
+  "source_sha256": {
+    "colony_one/scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "colony_one/submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+    "colony_one/submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+    "colony_one/mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+    "tools/validate_submission.py": "8b971adbe378c932e5c8afd218d012e83f84eda3b62bd682c498b813b7b7c28a"
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "onnx": "1.23.0",
+    "onnxruntime": "1.30.0"
+  },
+  "structural_contract": "PASS",
+  "opsets": [
+    [
+      "",
+      17
+    ]
+  ],
+  "operators": {
+    "Reshape": 63,
+    "Gather": 32,
+    "ReduceMax": 4,
+    "Add": 271,
+    "Sub": 51,
+    "Clip": 29,
+    "MatMul": 128,
+    "Mul": 241,
+    "ReduceSum": 31,
+    "Relu": 3,
+    "Greater": 3,
+    "Cast": 2,
+    "Max": 2,
+    "Less": 1,
+    "ReduceMin": 1,
+    "Abs": 2,
+    "Tanh": 1,
+    "Where": 2,
+    "Identity": 4,
+    "ReduceMean": 3,
+    "Div": 10
+  },
+  "nodes": 884,
+  "initializers": 267,
+  "constant_indices": "PASS (authoritative check_graph_structure)",
+  "session_wall_seconds": 0.11297695899997962,
+  "corpus_cases": 24,
+  "batches": [
+    {
+      "batch": 1,
+      "calls": 24,
+      "result": "PASS",
+      "wall_seconds": 0.008920924999983981,
+      "value_min": -1.0,
+      "value_max": 1.0
+    },
+    {
+      "batch": 8,
+      "calls": 3,
+      "result": "PASS",
+      "wall_seconds": 0.004437037999991844,
+      "value_min": -1.0,
+      "value_max": 1.0
+    },
+    {
+      "batch": 16,
+      "calls": 2,
+      "result": "PASS",
+      "wall_seconds": 0.006206323000014891,
+      "value_min": -1.0,
+      "value_max": 1.0
+    }
+  ]
+}

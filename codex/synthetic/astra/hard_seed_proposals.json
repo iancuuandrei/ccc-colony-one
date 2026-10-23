@@ -1,0 +1,1226 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "kind": "LLM_AUTHORED_CONSTRUCTED_SCENARIOS",
+    "teacher_role": "Astra teacher assigned by orchestrator",
+    "model_identity_verification": "External harness identity is not inferred by this file",
+    "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING",
+    "raw_real_match_data": false,
+    "coordinates": "absolute zero-based row,col; C=CYAN M=MAGENTA"
+  },
+  "curriculum": [
+    "multiple-actor discovered attacks under capture distractions",
+    "first-action poisoned Kernel captures with no second-action repair",
+    "opposing-Kernel approach cages",
+    "firewall changing last-piece endgame semantics"
+  ],
+  "inspiration_sources": [
+    {
+      "path": "codex/matches/site-v2-first-action-oracle.npz",
+      "sha256": "93123846c915a435b14a6e42f7a96a58f7b864fc6a6bf9de0d4fcb3f786fb704",
+      "use": "Geometric inspiration only; every seed explicitly modifies or reconstructs a counterfactual and remains reachability-unproven"
+    }
+  ],
+  "seeds": [
+    {
+      "id": "cluttered_discovery_base",
+      "family": "cluttered_other_actor_discovery",
+      "side": "C",
+      "left": 2,
+      "round": 6,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          7,
+          7
+        ],
+        [
+          "C",
+          "DAEMON",
+          3,
+          0
+        ],
+        [
+          "C",
+          "TRACE",
+          3,
+          2
+        ],
+        [
+          "C",
+          "PING",
+          6,
+          5
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          7,
+          1
+        ],
+        [
+          "C",
+          "ICE",
+          5,
+          5
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "M",
+          "PING",
+          0,
+          7
+        ],
+        [
+          "M",
+          "DAEMON",
+          6,
+          4
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          6,
+          7
+        ],
+        [
+          "M",
+          "TRACE",
+          5,
+          3
+        ],
+        [
+          "M",
+          "ICE",
+          5,
+          7
+        ]
+      ],
+      "proposal": "Teacher adds capture decoys and a vulnerable own Kernel around a Trace-unblocks-Daemon capture. Check whether 100 simulations spend visits on high-material distractions instead of the different-actor winning setup."
+    },
+    {
+      "id": "cluttered_discovery_daemon_bait",
+      "family": "cluttered_other_actor_discovery",
+      "side": "C",
+      "left": 2,
+      "round": 6,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          7,
+          7
+        ],
+        [
+          "C",
+          "DAEMON",
+          3,
+          0
+        ],
+        [
+          "C",
+          "TRACE",
+          3,
+          2
+        ],
+        [
+          "C",
+          "PING",
+          6,
+          5
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          7,
+          1
+        ],
+        [
+          "C",
+          "ICE",
+          5,
+          5
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "M",
+          "PING",
+          0,
+          7
+        ],
+        [
+          "M",
+          "DAEMON",
+          4,
+          6
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          6,
+          7
+        ],
+        [
+          "M",
+          "TRACE",
+          5,
+          3
+        ],
+        [
+          "M",
+          "ICE",
+          5,
+          7
+        ]
+      ],
+      "proposal": "Teacher adds capture decoys and a vulnerable own Kernel around a Trace-unblocks-Daemon capture. Check whether 100 simulations spend visits on high-material distractions instead of the different-actor winning setup."
+    },
+    {
+      "id": "cluttered_discovery_trace_bait",
+      "family": "cluttered_other_actor_discovery",
+      "side": "C",
+      "left": 2,
+      "round": 6,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          7,
+          7
+        ],
+        [
+          "C",
+          "DAEMON",
+          3,
+          0
+        ],
+        [
+          "C",
+          "TRACE",
+          3,
+          2
+        ],
+        [
+          "C",
+          "PING",
+          6,
+          5
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          7,
+          1
+        ],
+        [
+          "C",
+          "ICE",
+          5,
+          5
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "M",
+          "PING",
+          0,
+          7
+        ],
+        [
+          "M",
+          "DAEMON",
+          6,
+          4
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          6,
+          7
+        ],
+        [
+          "M",
+          "TRACE",
+          6,
+          6
+        ],
+        [
+          "M",
+          "ICE",
+          5,
+          7
+        ]
+      ],
+      "proposal": "Teacher adds capture decoys and a vulnerable own Kernel around a Trace-unblocks-Daemon capture. Check whether 100 simulations spend visits on high-material distractions instead of the different-actor winning setup."
+    },
+    {
+      "id": "cluttered_discovery_king_lure",
+      "family": "cluttered_other_actor_discovery",
+      "side": "C",
+      "left": 2,
+      "round": 6,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          7,
+          7
+        ],
+        [
+          "C",
+          "DAEMON",
+          3,
+          0
+        ],
+        [
+          "C",
+          "TRACE",
+          3,
+          2
+        ],
+        [
+          "C",
+          "PING",
+          6,
+          5
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          7,
+          1
+        ],
+        [
+          "C",
+          "ICE",
+          5,
+          5
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "M",
+          "PING",
+          0,
+          7
+        ],
+        [
+          "M",
+          "DAEMON",
+          6,
+          4
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          6,
+          6
+        ],
+        [
+          "M",
+          "TRACE",
+          5,
+          3
+        ],
+        [
+          "M",
+          "ICE",
+          5,
+          7
+        ]
+      ],
+      "proposal": "Teacher adds capture decoys and a vulnerable own Kernel around a Trace-unblocks-Daemon capture. Check whether 100 simulations spend visits on high-material distractions instead of the different-actor winning setup."
+    },
+    {
+      "id": "cluttered_discovery_double_lure",
+      "family": "cluttered_other_actor_discovery",
+      "side": "C",
+      "left": 2,
+      "round": 6,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          7,
+          7
+        ],
+        [
+          "C",
+          "DAEMON",
+          3,
+          0
+        ],
+        [
+          "C",
+          "TRACE",
+          3,
+          2
+        ],
+        [
+          "C",
+          "PING",
+          6,
+          5
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          7,
+          1
+        ],
+        [
+          "C",
+          "ICE",
+          5,
+          5
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "M",
+          "PING",
+          0,
+          7
+        ],
+        [
+          "M",
+          "DAEMON",
+          4,
+          4
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          6,
+          7
+        ],
+        [
+          "M",
+          "TRACE",
+          6,
+          6
+        ],
+        [
+          "M",
+          "ICE",
+          5,
+          7
+        ]
+      ],
+      "proposal": "Teacher adds capture decoys and a vulnerable own Kernel around a Trace-unblocks-Daemon capture. Check whether 100 simulations spend visits on high-material distractions instead of the different-actor winning setup."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_0",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          1
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          3
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_1",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          3
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          3
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_2",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          4
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          3
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_3",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          2
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          3
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          6
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_4",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          2
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          3
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          1,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_5",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          2
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          3
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          4
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_6",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          2
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          6,
+          1
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "poisoned_capture_counterfactual_7",
+      "family": "poisoned_first_kernel_capture",
+      "side": "C",
+      "left": 2,
+      "round": 5,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          4,
+          3
+        ],
+        [
+          "C",
+          "DAEMON",
+          7,
+          2
+        ],
+        [
+          "C",
+          "EXPLOIT",
+          7,
+          5
+        ],
+        [
+          "M",
+          "DAEMON",
+          3,
+          1
+        ],
+        [
+          "M",
+          "EXPLOIT",
+          0,
+          2
+        ],
+        [
+          "M",
+          "TRACE",
+          2,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "M",
+          "KERNEL",
+          0,
+          7
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5435: relocate one remote piece, keep the tempting Kernel D4-E5 Ice capture, and exhaust all second-action repairs. This constructed state is distinct from the observed game."
+    },
+    {
+      "id": "ping_cage_counterfactual_0",
+      "family": "guarded_kernel_approach_cage",
+      "side": "C",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          6,
+          2
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          4
+        ],
+        [
+          "M",
+          "PING",
+          2,
+          5
+        ]
+      ],
+      "proposal": "Teacher changes the guarding Ping location around the E5 Kernel. Test whether Cyan C2-D3 walks into a two-step Kernel capture, and whether avoiding immediate loss actually establishes anything beyond the bounded horizon."
+    },
+    {
+      "id": "ping_cage_counterfactual_1",
+      "family": "guarded_kernel_approach_cage",
+      "side": "C",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          6,
+          2
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          4
+        ],
+        [
+          "M",
+          "PING",
+          2,
+          6
+        ]
+      ],
+      "proposal": "Teacher changes the guarding Ping location around the E5 Kernel. Test whether Cyan C2-D3 walks into a two-step Kernel capture, and whether avoiding immediate loss actually establishes anything beyond the bounded horizon."
+    },
+    {
+      "id": "ping_cage_counterfactual_2",
+      "family": "guarded_kernel_approach_cage",
+      "side": "C",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          6,
+          2
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          4
+        ],
+        [
+          "M",
+          "PING",
+          1,
+          4
+        ]
+      ],
+      "proposal": "Teacher changes the guarding Ping location around the E5 Kernel. Test whether Cyan C2-D3 walks into a two-step Kernel capture, and whether avoiding immediate loss actually establishes anything beyond the bounded horizon."
+    },
+    {
+      "id": "ping_cage_counterfactual_3",
+      "family": "guarded_kernel_approach_cage",
+      "side": "C",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          6,
+          2
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          4
+        ],
+        [
+          "M",
+          "PING",
+          3,
+          5
+        ]
+      ],
+      "proposal": "Teacher changes the guarding Ping location around the E5 Kernel. Test whether Cyan C2-D3 walks into a two-step Kernel capture, and whether avoiding immediate loss actually establishes anything beyond the bounded horizon."
+    },
+    {
+      "id": "ping_cage_counterfactual_4",
+      "family": "guarded_kernel_approach_cage",
+      "side": "C",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "C",
+          "KERNEL",
+          6,
+          2
+        ],
+        [
+          "M",
+          "KERNEL",
+          3,
+          4
+        ],
+        [
+          "M",
+          "PING",
+          2,
+          3
+        ]
+      ],
+      "proposal": "Teacher changes the guarding Ping location around the E5 Kernel. Test whether Cyan C2-D3 walks into a two-step Kernel capture, and whether avoiding immediate loss actually establishes anything beyond the bounded horizon."
+    },
+    {
+      "id": "opposing_kernel_cage_0",
+      "family": "two_kernel_ping_cage",
+      "side": "M",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "M",
+          "KERNEL",
+          2,
+          5
+        ],
+        [
+          "C",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "C",
+          "PING",
+          3,
+          1
+        ]
+      ],
+      "proposal": "Teacher perturbs the Ping in the match5644-style cage. Magenta F6-F5 permits a two-step opposing-Kernel attack; some retreats may only delay defeat. Label next-turn safety separately from eventual value."
+    },
+    {
+      "id": "opposing_kernel_cage_1",
+      "family": "two_kernel_ping_cage",
+      "side": "M",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "M",
+          "KERNEL",
+          2,
+          5
+        ],
+        [
+          "C",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "C",
+          "PING",
+          2,
+          2
+        ]
+      ],
+      "proposal": "Teacher perturbs the Ping in the match5644-style cage. Magenta F6-F5 permits a two-step opposing-Kernel attack; some retreats may only delay defeat. Label next-turn safety separately from eventual value."
+    },
+    {
+      "id": "opposing_kernel_cage_2",
+      "family": "two_kernel_ping_cage",
+      "side": "M",
+      "left": 1,
+      "round": 9,
+      "pieces": [
+        [
+          "M",
+          "KERNEL",
+          2,
+          5
+        ],
+        [
+          "C",
+          "KERNEL",
+          3,
+          3
+        ],
+        [
+          "C",
+          "PING",
+          4,
+          2
+        ]
+      ],
+      "proposal": "Teacher perturbs the Ping in the match5644-style cage. Magenta F6-F5 permits a two-step opposing-Kernel attack; some retreats may only delay defeat. Label next-turn safety separately from eventual value."
+    },
+    {
+      "id": "firewall_last_piece_0",
+      "family": "firewall_then_last_piece_adjudication",
+      "side": "M",
+      "left": 1,
+      "round": 8,
+      "pieces": [
+        [
+          "M",
+          "KERNEL",
+          1,
+          6
+        ],
+        [
+          "M",
+          "TRACE",
+          1,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          2,
+          4
+        ],
+        [
+          "C",
+          "KERNEL",
+          5,
+          2
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5530: Trace burns on the firewall this action. A central Ice can become the final non-Kernel piece, capturable by the opposing Kernel, causing immediate bare-Kernel center adjudication. Analyze the post-burn inventory."
+    },
+    {
+      "id": "firewall_last_piece_1",
+      "family": "firewall_then_last_piece_adjudication",
+      "side": "M",
+      "left": 1,
+      "round": 8,
+      "pieces": [
+        [
+          "M",
+          "KERNEL",
+          1,
+          6
+        ],
+        [
+          "M",
+          "TRACE",
+          1,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          2,
+          3
+        ],
+        [
+          "C",
+          "KERNEL",
+          5,
+          2
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5530: Trace burns on the firewall this action. A central Ice can become the final non-Kernel piece, capturable by the opposing Kernel, causing immediate bare-Kernel center adjudication. Analyze the post-burn inventory."
+    },
+    {
+      "id": "firewall_last_piece_2",
+      "family": "firewall_then_last_piece_adjudication",
+      "side": "M",
+      "left": 1,
+      "round": 8,
+      "pieces": [
+        [
+          "M",
+          "KERNEL",
+          1,
+          6
+        ],
+        [
+          "M",
+          "TRACE",
+          1,
+          7
+        ],
+        [
+          "M",
+          "ICE",
+          3,
+          4
+        ],
+        [
+          "C",
+          "KERNEL",
+          5,
+          2
+        ]
+      ],
+      "proposal": "Teacher counterfactual inspired by match5530: Trace burns on the firewall this action. A central Ice can become the final non-Kernel piece, capturable by the opposing Kernel, causing immediate bare-Kernel center adjudication. Analyze the post-burn inventory."
+    }
+  ]
+}

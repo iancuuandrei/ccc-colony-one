@@ -1,0 +1,9 @@
+{
+  "model-distill-v2.onnx": "9ad48af680bc6a7ff5f857f3a542d4059375181d5d8e64d5dbaee9216f94163c",
+  "model-distill-v2.npz": "c471c110cf3f87a64d6fc3315343c6dc64d5a5c48c686a25eb3f08e61df51734",
+  "model-distill-v2.json": "0bdf07e71c7b39dcb3ed49744c9fa9f4972bf69a960010b040ffbc46e048b9e9",
+  "train_compact-v2-source.py": "ab573b0033ee043d905b1939107b7b02c663fa0941a651e1cdf6a3bca5aa195a",
+  "train_student-v2-source.py": "f15523c39de3deb8befb5d9f1f44079256228d31fca51eeafcf13544620961ff",
+  "model-distill-v2.operational.json": "532a900608c6661ad46e776cfe750b99c0ba0c35a27009b3553b7245b5322ef4",
+  "model-distill-v2-check-windows.json": "52360241d3d5636021ac93d62068fa63414e62f22435732a4a4c96a3029dc254"
+}

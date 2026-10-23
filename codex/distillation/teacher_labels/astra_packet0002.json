@@ -1,0 +1,929 @@
+{
+  "packet_id": "packet0002",
+  "teacher": {
+    "model": "gpt-6-astra",
+    "role": "assigned teacher",
+    "method": "Direct teacher-authored rankings and calibrated values, with exact supplied-engine tactical verification; no language-model weights exported"
+  },
+  "labels": [
+    {
+      "position_id": "p-01c22f087dc5cadf",
+      "state_sha256": "01c22f087dc5cadf165b99b383e1b1dbabe89967fbd53f2a13e958112f2a0fba",
+      "policy_rankings": [
+        {
+          "action_index": 2153,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3121,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2144,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2152,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 3128,
+          "rank": 5,
+          "weight": 0.7
+        },
+        {
+          "action_index": 3112,
+          "rank": 6,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2137,
+          "rank": 7,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2146,
+          "rank": 8,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2154,
+          "rank": 9,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2138,
+          "rank": 10,
+          "weight": 0.7
+        },
+        {
+          "action_index": 2136,
+          "rank": 11,
+          "weight": 0.7
+        }
+      ],
+      "value": -0.65,
+      "confidence": 0.5,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "The lone Trace is the only possible bodyguard. Kernel G5-G6 followed by an appropriate Trace move can reconnect protection. Every first action has some next-turn-safe continuation, so no first move is certified best; avoid ending the turn with an exposed central Kernel.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-08437151316644ff",
+      "state_sha256": "08437151316644ffbae2bed5ae9cc0511dead0f9cab3353175ffbaad72446ac7",
+      "policy_rankings": [
+        {
+          "action_index": 1697,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 1681,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 1682,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3128,
+          "rank": 4,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3112,
+          "rank": 5,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3121,
+          "rank": 6,
+          "weight": 0.005
+        },
+        {
+          "action_index": 1698,
+          "rank": 7,
+          "weight": 0.005
+        },
+        {
+          "action_index": 1691,
+          "rank": 8,
+          "weight": 0.005
+        },
+        {
+          "action_index": 1689,
+          "rank": 9,
+          "weight": 0.005
+        },
+        {
+          "action_index": 1699,
+          "rank": 10,
+          "weight": 0.005
+        },
+        {
+          "action_index": 1683,
+          "rank": 11,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.7,
+      "confidence": 0.95,
+      "value_confidence": 0.4,
+      "claim": "prediction",
+      "evidence": "Exactly three actions avoid an opponent terminal win next turn: Kernel F4-G5, F4-G3 and F4-F3. All Trace moves and the other Kernel moves fail this probe. Prefer returning toward G5 and the remaining Trace, but relative ordering among the three survivors is predictive.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        1683,
+        1689,
+        1691,
+        1698,
+        1699,
+        3112,
+        3121,
+        3128
+      ]
+    },
+    {
+      "position_id": "p-6e1ce094c027f9ff",
+      "state_sha256": "6e1ce094c027f9ff67c6b8f5966a2ea23f517659c8c2ecafb4555b973bb40490",
+      "policy_rankings": [
+        {
+          "action_index": 3187,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 3171,
+          "rank": 2,
+          "weight": 1.0
+        },
+        {
+          "action_index": 396,
+          "rank": 3,
+          "weight": 0.003
+        },
+        {
+          "action_index": 405,
+          "rank": 4,
+          "weight": 0.003
+        },
+        {
+          "action_index": 407,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2137,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2153,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2144,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2146,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3177,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3193,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3184,
+          "rank": 12,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3186,
+          "rank": 13,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3176,
+          "rank": 14,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3178,
+          "rank": 15,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3194,
+          "rank": 16,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3632,
+          "rank": 17,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3641,
+          "rank": 18,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Ice B2-D2 followed by D2-F4 captures the unguarded Kernel; B2-D4 also admits a second-action capture. These terminal wins preempt the round-8 firewall, despite Cyan Kernel A1 currently standing on the perimeter.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        396,
+        405,
+        407,
+        2137,
+        2144,
+        2146,
+        2153
+      ],
+      "witness": [
+        3187,
+        3301
+      ]
+    },
+    {
+      "position_id": "p-6eecc419add02031",
+      "state_sha256": "6eecc419add02031e166b8d2419ec2e95ea4538da10d5c7638eea181799593d9",
+      "policy_rankings": [
+        {
+          "action_index": 3301,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 396,
+          "rank": 2,
+          "weight": 0.003
+        },
+        {
+          "action_index": 405,
+          "rank": 3,
+          "weight": 0.003
+        },
+        {
+          "action_index": 407,
+          "rank": 4,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2137,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2153,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2144,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2146,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3307,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3299,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3323,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3314,
+          "rank": 12,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3313,
+          "rank": 13,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3316,
+          "rank": 14,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3317,
+          "rank": 15,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3306,
+          "rank": 16,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3308,
+          "rank": 17,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3322,
+          "rank": 18,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3324,
+          "rank": 19,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3632,
+          "rank": 20,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3641,
+          "rank": 21,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3633,
+          "rank": 22,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Ice D2-F4 captures the unguarded Kernel immediately. Almost every alternative permits an opponent terminal win next turn, including firewall loss while Cyan remains on the outer ring. Capture takes precedence over those later checks.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        396,
+        405,
+        407,
+        2137,
+        2144,
+        2146,
+        2153,
+        3299,
+        3306,
+        3307,
+        3308,
+        3313,
+        3314,
+        3316,
+        3317,
+        3322,
+        3323,
+        3324,
+        3632,
+        3641
+      ],
+      "witness": [
+        3301
+      ]
+    },
+    {
+      "position_id": "p-4f9c8309aa980a51",
+      "state_sha256": "4f9c8309aa980a51bb7530a7aa6de8fd499a32485958821756c1972b7a197b63",
+      "policy_rankings": [
+        {
+          "action_index": 3177,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3186,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3178,
+          "rank": 3,
+          "weight": 1.12
+        }
+      ],
+      "value": -0.65,
+      "confidence": 0.3,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Cyan has only a Kernel against Kernel plus Ping. Every available first move has a continuation avoiding a next-turn terminal loss. The Ping also guards the enemy Kernel, so direct approach is not equivalent to a bare-Kernel endgame. Value is an unfavorable prediction, not a proof.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": []
+    },
+    {
+      "position_id": "p-55d8539b480bf328",
+      "state_sha256": "55d8539b480bf32844aa2e390e94a815c8bbfdfe0b9b0619873fce3bd0238654",
+      "policy_rankings": [
+        {
+          "action_index": 3241,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 3251,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 3249,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 3242,
+          "rank": 4,
+          "weight": 0.005
+        },
+        {
+          "action_index": 3243,
+          "rank": 5,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.65,
+      "confidence": 0.95,
+      "value_confidence": 0.4,
+      "claim": "prediction",
+      "evidence": "Kernel C2-B3, C2-D2 and C2-B2 avoid an enemy terminal win next turn. C2-C3 and C2-D3 do not. D3 specifically lets the enemy Kernel approach and capture in two actions. Relative preference among the three safe moves is predictive.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        3242,
+        3243
+      ]
+    },
+    {
+      "position_id": "p-9d75bb6ff828f532",
+      "state_sha256": "9d75bb6ff828f532ca75623080edcead8a9e8e7278939aa846f1cf9389d5775d",
+      "policy_rankings": [
+        {
+          "action_index": 2268,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2267,
+          "rank": 2,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2803,
+          "rank": 3,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2796,
+          "rank": 4,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2797,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2794,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2793,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2276,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2274,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2284,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2282,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2266,
+          "rank": 12,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Kernel E5-D4 followed by D4-D3 captures the unguarded Cyan Kernel. E5-E4 also has a winning capture continuation. Moving the Kernel to F5 abandons both certified winning approaches.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [],
+      "witness": [
+        2268,
+        1812
+      ]
+    },
+    {
+      "position_id": "p-2d32cfec7a4935cb",
+      "state_sha256": "2d32cfec7a4935cb90caf1f414b62485eaad248733bf2916db7704205fc3bb62",
+      "policy_rankings": [
+        {
+          "action_index": 2787,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2211,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2794,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2793,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2218,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2217,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2209,
+          "rank": 7,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2201,
+          "rank": 8,
+          "weight": 0.35
+        },
+        {
+          "action_index": 2803,
+          "rank": 9,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2779,
+          "rank": 10,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2796,
+          "rank": 11,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2797,
+          "rank": 12,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2202,
+          "rank": 13,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2203,
+          "rank": 14,
+          "weight": 0.005
+        }
+      ],
+      "value": 0.65,
+      "confidence": 0.9,
+      "value_confidence": 0.4,
+      "claim": "prediction",
+      "evidence": "Keep the Ping adjacent to Kernel F5 or move the Kernel with protection. Ping E6-E5 preserves that guard. Six actions leave a terminal reply, including Ping E6-E7/E4/D6/C6 and Kernel F5-F4/E4. The guarded advantage is predictive; no terminal win exists this action.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2202,
+        2203,
+        2779,
+        2796,
+        2797,
+        2803
+      ]
+    },
+    {
+      "position_id": "p-7543a1775a699acf",
+      "state_sha256": "7543a1775a699acfe2cac5d3bb73790d0ac7210a1e851e91f44cf91c00c4b386",
+      "policy_rankings": [
+        {
+          "action_index": 2794,
+          "rank": 1,
+          "weight": 1.2
+        },
+        {
+          "action_index": 2786,
+          "rank": 2,
+          "weight": 1.16
+        },
+        {
+          "action_index": 2803,
+          "rank": 3,
+          "weight": 1.12
+        },
+        {
+          "action_index": 2802,
+          "rank": 4,
+          "weight": 1.08
+        },
+        {
+          "action_index": 2796,
+          "rank": 5,
+          "weight": 1.04
+        },
+        {
+          "action_index": 2804,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2787,
+          "rank": 7,
+          "weight": 0.005
+        },
+        {
+          "action_index": 2788,
+          "rank": 8,
+          "weight": 0.005
+        }
+      ],
+      "value": -0.65,
+      "confidence": 0.9,
+      "value_confidence": 0.35,
+      "claim": "prediction",
+      "evidence": "Kernel D3-D4 and D3-E4 have no second-action continuation avoiding the next opponent-turn win. The other six first moves retain at least one bounded safe continuation. Prefer C3 or C4 while preserving escape space; eventual outcome remains uncertain.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2787,
+        2788
+      ]
+    },
+    {
+      "position_id": "p-f96a2fb888a0794b",
+      "state_sha256": "f96a2fb888a0794b0321938e98f35a55a326a1ce5b8d7c74f23bf4f7ca3a877f",
+      "policy_rankings": [
+        {
+          "action_index": 2267,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2283,
+          "rank": 2,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2274,
+          "rank": 3,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2276,
+          "rank": 4,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2266,
+          "rank": 5,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2268,
+          "rank": 6,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2282,
+          "rank": 7,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2284,
+          "rank": 8,
+          "weight": 1.0
+        }
+      ],
+      "value": -1.0,
+      "confidence": 0.15,
+      "value_confidence": 1.0,
+      "claim": "forced_loss_by_next_turn",
+      "evidence": "All eight legal moves from Cyan Kernel D4 admit a terminal Magenta sequence on the next turn. The bounded exhaustive certificate covers each action. Equal policy weights avoid inventing a ranking among positions with the same proven loss value.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [
+        2266,
+        2267,
+        2268,
+        2274,
+        2276,
+        2282,
+        2283,
+        2284
+      ]
+    },
+    {
+      "position_id": "p-e93dcb8c4c447bdf",
+      "state_sha256": "e93dcb8c4c447bdfc991fabee87572431b2b70f224456ab1f4058fe71b0bd610",
+      "policy_rankings": [
+        {
+          "action_index": 2803,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2796,
+          "rank": 2,
+          "weight": 1.0
+        },
+        {
+          "action_index": 2787,
+          "rank": 3,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2779,
+          "rank": 4,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2797,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2794,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2793,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2153,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2137,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2146,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2154,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2138,
+          "rank": 12,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Ping E6-E7 then E7-C5 captures the unguarded Cyan Kernel. Ping E6-D6 also admits a capture continuation. The Ping moves orthogonally to set up a diagonal capture; current diagonal attack maps alone miss this pattern.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [],
+      "witness": [
+        2803,
+        3301
+      ]
+    },
+    {
+      "position_id": "p-ac3f0dbb265fe3bf",
+      "state_sha256": "ac3f0dbb265fe3bfb63da09713057c67f3bf4f1b48acf070a627560f7559490e",
+      "policy_rankings": [
+        {
+          "action_index": 3301,
+          "rank": 1,
+          "weight": 1.0
+        },
+        {
+          "action_index": 3307,
+          "rank": 2,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3299,
+          "rank": 3,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3316,
+          "rank": 4,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3317,
+          "rank": 5,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3314,
+          "rank": 6,
+          "weight": 0.003
+        },
+        {
+          "action_index": 3313,
+          "rank": 7,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2153,
+          "rank": 8,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2137,
+          "rank": 9,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2146,
+          "rank": 10,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2154,
+          "rank": 11,
+          "weight": 0.003
+        },
+        {
+          "action_index": 2138,
+          "rank": 12,
+          "weight": 0.003
+        }
+      ],
+      "value": 1.0,
+      "confidence": 1.0,
+      "value_confidence": 1.0,
+      "claim": "forced_win_this_turn",
+      "evidence": "Ping E7-C5 is a legal diagonal distance-two capture of the unguarded Cyan Kernel. It ends the game immediately. The model value is +1 from the current Magenta perspective, with no sign flip merely because this is the second action.",
+      "policy_tier_semantics": "Winning-this-turn tier first when available; otherwise avoid verified next-turn losses. Within safe tiers the ordering is a teacher prediction.",
+      "exact_unsafe_action_indices": [],
+      "witness": [
+        3301
+      ]
+    }
+  ],
+  "evidence_files": [
+    "teacher/packet0002_probe.json",
+    "teacher/packet0002_continuations.json"
+  ],
+  "qualification": "Local teacher judgments and bounded engine proofs; playing-strength improvement is untested."
+}

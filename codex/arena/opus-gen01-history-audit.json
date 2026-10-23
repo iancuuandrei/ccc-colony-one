@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "history_games": 400,
+  "a_wins": 388,
+  "seed_min": 920000,
+  "seed_max": 920199,
+  "source_sha256": "39a36babfb9933f0bfd1adcfb7f5b52ffcbe83dba616b400b66d338d0f092b33",
+  "released_model_sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+  "checkpoint_matches_release": true,
+  "scope": "All saved histories are legal under the current supplied engine and reach recorded winners. Original run had no stored engine/model hash manifest; current checkpoint and release hashes agree. Fresh independent arena binds full provenance separately."
+}

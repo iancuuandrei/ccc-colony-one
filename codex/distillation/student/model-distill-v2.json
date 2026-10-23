@@ -1,0 +1,936 @@
+{
+  "version": 2,
+  "packet_ids": [
+    "packet0001",
+    "packet0002"
+  ],
+  "teacher": [
+    {
+      "model": "gpt-6-astra",
+      "role": "assigned teacher",
+      "method": "Direct teacher-authored rankings and calibrated values, with exact supplied-engine tactical verification; no language-model weights exported"
+    },
+    {
+      "model": "gpt-6-astra",
+      "role": "assigned teacher",
+      "method": "Direct teacher-authored rankings and calibrated values, with exact supplied-engine tactical verification; no language-model weights exported"
+    }
+  ],
+  "inputs": {
+    "trainer_sha256": "ab573b0033ee043d905b1939107b7b02c663fa0941a651e1cdf6a3bca5aa195a",
+    "shared_trainer_sha256": "f15523c39de3deb8befb5d9f1f44079256228d31fca51eeafcf13544620961ff",
+    "packets": [
+      {
+        "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\distillation\\packets\\packet0001.json",
+        "sha256": "d7214be984362222a452b1dcd6f50324035336bd7b93232434c07d02bec249e7"
+      },
+      {
+        "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\distillation\\packets\\packet0002.json",
+        "sha256": "10d4836ed466e243e6c99952e3df9d6be55e0fd7a4bd8e6a4653b41490f054a9"
+      }
+    ],
+    "labels": [
+      {
+        "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\distillation\\teacher_labels\\astra_packet0001.json",
+        "sha256": "0ba7713b705a2e6b1def7172496b5046e598edcfd43affa449cb15e2f07f9efb"
+      },
+      {
+        "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\distillation\\teacher_labels\\astra_packet0002.json",
+        "sha256": "8f3b4d64314c61423741204da78ec2e1dded35fd3c51e00b3b68b31ccc2a9015"
+      }
+    ],
+    "baseline": {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\tactical\\model-tactical-v2.onnx",
+      "sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76"
+    }
+  },
+  "binding": {
+    "source": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\tactical\\build_tactical_v2.py",
+    "source_sha256": "7814ae7cf80dbc3e3e9fe69078bbfd34588210f0d7914146881d90d874e574c0",
+    "regenerated_v2_sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+    "base_sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+    "status": "PASS",
+    "internal_nodes_verified": 840,
+    "initializers_verified": 220,
+    "fields": {
+      "P": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5",
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10",
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15",
+        "n16"
+      ],
+      "own": {
+        "ker": "n6",
+        "attacks": "n155",
+        "pv": "n164",
+        "others": "n175",
+        "guards": "n179",
+        "guard_value": "n218",
+        "material": "n223",
+        "mobility": "n225",
+        "ring": "n222"
+      },
+      "en": {
+        "ker": "n12",
+        "attacks": "n347",
+        "pv": "n356",
+        "others": "n367",
+        "guards": "n371",
+        "guard_value": "n410",
+        "material": "n415",
+        "mobility": "n417",
+        "ring": "n414"
+      },
+      "actions_left": "n17",
+      "urgency": "n18",
+      "own_threat": "n707",
+      "en_threat": "n709",
+      "own_vulnerable": "n711",
+      "stationary": "n817",
+      "pair": "n783",
+      "movement_only": "n822",
+      "cap_to": "n769",
+      "escape_from": "n773",
+      "certified_win": "n705",
+      "ADJ": "c8",
+      "own_adj": "n149",
+      "enemy_adj": "n341"
+    }
+  },
+  "output": {
+    "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\distillation\\student\\model-distill-v2.onnx",
+    "sha256": "9ad48af680bc6a7ff5f857f3a542d4059375181d5d8e64d5dbaee9216f94163c",
+    "nodes": 911,
+    "added_nodes": 69,
+    "initializers": 246,
+    "bytes": 365027
+  },
+  "policy_weights": {
+    "capture_value": -0.2582229971885681,
+    "escape_source": -0.12115129083395004,
+    "destination_danger": -0.2984888255596161,
+    "movement_prior": -0.4808865785598755,
+    "stationary": 0.0,
+    "own_guard_delta": 0.2334868609905243,
+    "last_action_guard_delta": 0.2686125636100769,
+    "last_action_vulnerable_guard_delta": 0.2537578344345093,
+    "kernel_guard_delta": 0.05413014069199562,
+    "capture_enemy_guard": 0.0,
+    "ring_delta": -0.17730137705802917,
+    "baseline_policy_calibration": -0.4434657394886017
+  },
+  "value_weights": {
+    "baseline_value": -0.014583012089133263,
+    "material_difference": -0.018263140693306923,
+    "own_guards": 0.01757943071424961,
+    "enemy_guards": 0.016843803226947784,
+    "own_threat": -0.004537293221801519,
+    "enemy_threat": 0.014899537898600101,
+    "kernel_ring_difference": -0.1969727724790573,
+    "actions_left": -0.1029839813709259,
+    "urgency": -0.017402490600943565,
+    "magenta": 0.14437034726142883
+  },
+  "training": {
+    "policy_l2": 0.1,
+    "value_l2": 2.0,
+    "steps": 1500,
+    "policy_cap": 1.0,
+    "value_cap": 0.12,
+    "learned_parameters": 22,
+    "completed_outcomes_used": false,
+    "history": [
+      {
+        "step": 0,
+        "objective": 2.3581909665035767,
+        "grad_norm": 0.1451614914524976
+      },
+      {
+        "step": 100,
+        "objective": 2.283710128082393,
+        "grad_norm": 0.058884516575764434
+      },
+      {
+        "step": 200,
+        "objective": 2.278609633736829,
+        "grad_norm": 0.012744545477760315
+      },
+      {
+        "step": 300,
+        "objective": 2.2780746906487725,
+        "grad_norm": 0.005968832985044458
+      },
+      {
+        "step": 400,
+        "objective": 2.2779733903443735,
+        "grad_norm": 0.003601354516209057
+      },
+      {
+        "step": 500,
+        "objective": 2.2779551724432676,
+        "grad_norm": 0.003074981300872229
+      },
+      {
+        "step": 600,
+        "objective": 2.2779492903765113,
+        "grad_norm": 0.002892679894516069
+      },
+      {
+        "step": 700,
+        "objective": 2.277948447774712,
+        "grad_norm": 0.010351745587094476
+      },
+      {
+        "step": 800,
+        "objective": 2.2779470925638816,
+        "grad_norm": 0.0028418842339817257
+      },
+      {
+        "step": 900,
+        "objective": 2.277947554223921,
+        "grad_norm": 0.0028734533495215113
+      },
+      {
+        "step": 1000,
+        "objective": 2.2779465344682253,
+        "grad_norm": 0.002827795613406581
+      },
+      {
+        "step": 1100,
+        "objective": 2.277947056081846,
+        "grad_norm": 0.0028563871653335387
+      },
+      {
+        "step": 1200,
+        "objective": 2.2779464761723767,
+        "grad_norm": 0.010302751991671983
+      },
+      {
+        "step": 1300,
+        "objective": 2.2779466774234804,
+        "grad_norm": 0.0028402544370562614
+      },
+      {
+        "step": 1400,
+        "objective": 2.2779471409497676,
+        "grad_norm": 0.002863844129280315
+      }
+    ],
+    "groups": [
+      {
+        "position_id": "p-3308c57d7396e691",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12002"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-2ec32360b72053a7",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12003"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-14c11e34d6b72c30",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12004"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-6a1a2e495df9132f",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12001"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-f754d2802838362c",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12001"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-c76fffefb48ff22d",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12002"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-edd07dcc84446d14",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12002"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-d446e8aa6500a1d9",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12001"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-9ab6d2ddacb1393d",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12001"
+        ],
+        "split": "holdout",
+        "claim": "forced_loss_by_next_turn"
+      },
+      {
+        "position_id": "p-7a02e213cfe190b9",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12002"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-8c0c5d1251d82f07",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12003"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-e8003915c2f7732b",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12001"
+        ],
+        "split": "holdout",
+        "claim": "forced_win_this_turn"
+      },
+      {
+        "position_id": "p-e002815c20580672",
+        "source_game": [
+          "codex\\matches\\selfplay-h1.corrected.json",
+          "12001"
+        ],
+        "split": "holdout",
+        "claim": "forced_win_this_turn"
+      },
+      {
+        "position_id": "p-907b7bf64738fa73",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "4"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-166298d6515ebf13",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "13"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-38838080396504bf",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "16"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-b1dd9c9724864cd5",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "31"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-0c0e2585feffe800",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "36"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-5b1ccca88bfc3a67",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "46"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-9b185be5064a23d0",
+        "source_game": [
+          "data\\gen00\\chunk0000.npz",
+          "69"
+        ],
+        "split": "holdout",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-01c22f087dc5cadf",
+        "source_game": [
+          "logical-site-match",
+          "match-4650"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-08437151316644ff",
+        "source_game": [
+          "logical-site-match",
+          "match-4650"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-6e1ce094c027f9ff",
+        "source_game": [
+          "logical-site-match",
+          "match-4650"
+        ],
+        "split": "train",
+        "claim": "forced_win_this_turn"
+      },
+      {
+        "position_id": "p-6eecc419add02031",
+        "source_game": [
+          "logical-site-match",
+          "match-4650"
+        ],
+        "split": "train",
+        "claim": "forced_win_this_turn"
+      },
+      {
+        "position_id": "p-4f9c8309aa980a51",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-55d8539b480bf328",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-9d75bb6ff828f532",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "forced_win_this_turn"
+      },
+      {
+        "position_id": "p-2d32cfec7a4935cb",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-7543a1775a699acf",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "prediction"
+      },
+      {
+        "position_id": "p-f96a2fb888a0794b",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "forced_loss_by_next_turn"
+      },
+      {
+        "position_id": "p-e93dcb8c4c447bdf",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "forced_win_this_turn"
+      },
+      {
+        "position_id": "p-ac3f0dbb265fe3bf",
+        "source_game": [
+          "logical-site-match",
+          "match-4674"
+        ],
+        "split": "train",
+        "claim": "forced_win_this_turn"
+      }
+    ]
+  },
+  "metrics": {
+    "train": {
+      "positions": 20,
+      "source_games": 9,
+      "mean": {
+        "baseline_ce": 2.644769953325309,
+        "student_ce": 2.5355313043042496,
+        "baseline_top_tier": 0.4,
+        "student_top_tier": 0.4,
+        "baseline_value_abs_error": 0.19513972222805023,
+        "student_value_abs_error": 0.18693542052060366
+      },
+      "records": [
+        {
+          "position_id": "p-2ec32360b72053a7",
+          "baseline_ce": 6.510391355932472,
+          "student_ce": 5.746081241227325,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.2050374388694763,
+          "student_value_abs_error": 0.16176700592041016,
+          "policy_confidence": 0.78,
+          "value_confidence": 0.2
+        },
+        {
+          "position_id": "p-14c11e34d6b72c30",
+          "baseline_ce": 5.002035489060124,
+          "student_ce": 4.43580793782641,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.6639761507511139,
+          "student_value_abs_error": 0.5439761877059937,
+          "policy_confidence": 0.88,
+          "value_confidence": 0.25
+        },
+        {
+          "position_id": "p-8c0c5d1251d82f07",
+          "baseline_ce": 3.487611655277943,
+          "student_ce": 3.4147832465535957,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.3869572222232819,
+          "student_value_abs_error": 0.3261120319366455,
+          "policy_confidence": 0.35,
+          "value_confidence": 0.15
+        },
+        {
+          "position_id": "p-907b7bf64738fa73",
+          "baseline_ce": 3.7203181933136276,
+          "student_ce": 3.62966441245926,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.4434323787689209,
+          "student_value_abs_error": 0.385608971118927,
+          "policy_confidence": 0.45,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-166298d6515ebf13",
+          "baseline_ce": 3.4045635674917163,
+          "student_ce": 3.4265543665460494,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.09827464818954468,
+          "policy_confidence": 0.2,
+          "value_confidence": 0.05
+        },
+        {
+          "position_id": "p-38838080396504bf",
+          "baseline_ce": 3.2697316576324784,
+          "student_ce": 3.305600501060516,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.2772378921508789,
+          "student_value_abs_error": 0.36222851276397705,
+          "policy_confidence": 0.25,
+          "value_confidence": 0.1
+        },
+        {
+          "position_id": "p-b1dd9c9724864cd5",
+          "baseline_ce": 3.4045635674917163,
+          "student_ce": 3.4265543665460494,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.046095702797174454,
+          "policy_confidence": 0.2,
+          "value_confidence": 0.05
+        },
+        {
+          "position_id": "p-5b1ccca88bfc3a67",
+          "baseline_ce": 3.5134167675697983,
+          "student_ce": 3.436135786323804,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.18518364429473877,
+          "student_value_abs_error": 0.22522053122520447,
+          "policy_confidence": 0.35,
+          "value_confidence": 0.2
+        },
+        {
+          "position_id": "p-01c22f087dc5cadf",
+          "baseline_ce": 3.084957892318817,
+          "student_ce": 2.8996259821872257,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.14884320497512815,
+          "student_value_abs_error": 0.16346120834350586,
+          "policy_confidence": 0.5,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-08437151316644ff",
+          "baseline_ce": 2.428520653895247,
+          "student_ce": 2.3646394223459417,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.009353923797607466,
+          "student_value_abs_error": 0.039442598819732666,
+          "policy_confidence": 0.95,
+          "value_confidence": 0.4
+        },
+        {
+          "position_id": "p-6e1ce094c027f9ff",
+          "baseline_ce": 1.1518813079806298,
+          "student_ce": 1.1518813079806298,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-6eecc419add02031",
+          "baseline_ce": 0.9812244337611977,
+          "student_ce": 0.9812244337611977,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-4f9c8309aa980a51",
+          "baseline_ce": 1.0994663022832867,
+          "student_ce": 1.098462188181324,
+          "baseline_top_tier": 0,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.13217540979385378,
+          "student_value_abs_error": 0.17107778787612915,
+          "policy_confidence": 0.3,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-55d8539b480bf328",
+          "baseline_ce": 1.6295956109102867,
+          "student_ce": 1.6033799030270628,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.13217540979385378,
+          "student_value_abs_error": 0.2225697934627533,
+          "policy_confidence": 0.95,
+          "value_confidence": 0.4
+        },
+        {
+          "position_id": "p-9d75bb6ff828f532",
+          "baseline_ce": 0.7941669609328407,
+          "student_ce": 0.7941669609328407,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-2d32cfec7a4935cb",
+          "baseline_ce": 2.4605122430564257,
+          "student_ce": 2.37296331633363,
+          "baseline_top_tier": 1,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.1806646823883057,
+          "student_value_abs_error": 0.09511637687683105,
+          "policy_confidence": 0.9,
+          "value_confidence": 0.4
+        },
+        {
+          "position_id": "p-7543a1775a699acf",
+          "baseline_ce": 2.7226053511735815,
+          "student_ce": 2.568954629595855,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.36343743801116946,
+          "student_value_abs_error": 0.24343740940093994,
+          "policy_confidence": 0.9,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-f96a2fb888a0794b",
+          "baseline_ce": 2.8437862068779998,
+          "student_ce": 2.6680962336502914,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.7743196487426758,
+          "student_value_abs_error": 0.6543196439743042,
+          "policy_confidence": 0.15,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-e93dcb8c4c447bdf",
+          "baseline_ce": 0.8778199896454119,
+          "student_ce": 0.8778199896454119,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-ac3f0dbb265fe3bf",
+          "baseline_ce": 0.5082298599005729,
+          "student_ce": 0.5082298599005729,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        }
+      ]
+    },
+    "holdout": {
+      "positions": 12,
+      "source_games": 4,
+      "mean": {
+        "baseline_ce": 3.634867549604819,
+        "student_ce": 3.4632042621027765,
+        "baseline_top_tier": 0.5833333333333334,
+        "student_top_tier": 0.5833333333333334,
+        "baseline_value_abs_error": 0.22019035378471016,
+        "student_value_abs_error": 0.21506011998280883
+      },
+      "records": [
+        {
+          "position_id": "p-3308c57d7396e691",
+          "baseline_ce": 3.714355681965953,
+          "student_ce": 3.1402665034922035,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.38251526355743404,
+          "student_value_abs_error": 0.29364633560180664,
+          "policy_confidence": 0.9,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-6a1a2e495df9132f",
+          "baseline_ce": 4.3188474512765875,
+          "student_ce": 4.057966921900373,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.3781080961227417,
+          "student_value_abs_error": 0.35716181993484497,
+          "policy_confidence": 0.68,
+          "value_confidence": 0.3
+        },
+        {
+          "position_id": "p-f754d2802838362c",
+          "baseline_ce": 4.078797875279178,
+          "student_ce": 4.087514235236559,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.033285170793533325,
+          "student_value_abs_error": 0.029740482568740845,
+          "policy_confidence": 0.76,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-c76fffefb48ff22d",
+          "baseline_ce": 5.140510865421257,
+          "student_ce": 4.93846461776416,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.47466136813163756,
+          "student_value_abs_error": 0.578225314617157,
+          "policy_confidence": 0.62,
+          "value_confidence": 0.25
+        },
+        {
+          "position_id": "p-edd07dcc84446d14",
+          "baseline_ce": 3.898584849303507,
+          "student_ce": 3.7986525681986607,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.26346011161804195,
+          "student_value_abs_error": 0.20204228162765503,
+          "policy_confidence": 0.78,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-d446e8aa6500a1d9",
+          "baseline_ce": 2.852805883412163,
+          "student_ce": 2.701121168511529,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.292209529876709,
+          "student_value_abs_error": 0.3061150908470154,
+          "policy_confidence": 0.88,
+          "value_confidence": 0.35
+        },
+        {
+          "position_id": "p-9ab6d2ddacb1393d",
+          "baseline_ce": 3.5250970380179476,
+          "student_ce": 3.2389095440784255,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.31892848014831543,
+          "student_value_abs_error": 0.28777825832366943,
+          "policy_confidence": 0.15,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-7a02e213cfe190b9",
+          "baseline_ce": 5.907776850540986,
+          "student_ce": 5.259548829767927,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.45547419786453247,
+          "student_value_abs_error": 0.4177624583244324,
+          "policy_confidence": 0.66,
+          "value_confidence": 0.3
+        },
+        {
+          "position_id": "p-e8003915c2f7732b",
+          "baseline_ce": 2.0596945403541693,
+          "student_ce": 2.0596945403541693,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-e002815c20580672",
+          "baseline_ce": 1.0692254696203767,
+          "student_ce": 1.0692254696203767,
+          "baseline_top_tier": 1,
+          "student_top_tier": 1,
+          "baseline_value_abs_error": 0.0,
+          "student_value_abs_error": 0.0,
+          "policy_confidence": 1.0,
+          "value_confidence": 1.0
+        },
+        {
+          "position_id": "p-0c0e2585feffe800",
+          "baseline_ce": 3.487419859631703,
+          "student_ce": 3.5470450355582925,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.02618391439318657,
+          "student_value_abs_error": 0.07867026329040527,
+          "policy_confidence": 0.2,
+          "value_confidence": 0.05
+        },
+        {
+          "position_id": "p-9b185be5064a23d0",
+          "baseline_ce": 3.565294230433997,
+          "student_ce": 3.6600417107506438,
+          "baseline_top_tier": 0,
+          "student_top_tier": 0,
+          "baseline_value_abs_error": 0.0174581129103899,
+          "student_value_abs_error": 0.02957913465797901,
+          "policy_confidence": 0.2,
+          "value_confidence": 0.05
+        }
+      ]
+    }
+  },
+  "parity": {
+    "status": "PASS",
+    "checks": [
+      {
+        "batch": 1,
+        "policy_max_error": 2.384185791015625e-07,
+        "value_max_error": 0.0,
+        "exact_solved_rows": 0,
+        "exact_solved_outputs_equal": true
+      },
+      {
+        "batch": 8,
+        "policy_max_error": 4.76837158203125e-07,
+        "value_max_error": 1.4901161193847656e-08,
+        "exact_solved_rows": 0,
+        "exact_solved_outputs_equal": true
+      },
+      {
+        "batch": 16,
+        "policy_max_error": 4.76837158203125e-07,
+        "value_max_error": 1.4901161193847656e-08,
+        "exact_solved_rows": 2,
+        "exact_solved_outputs_equal": true
+      }
+    ]
+  },
+  "qualification": {
+    "arena": "NOT RUN",
+    "deployment": "NOT QUALIFIED",
+    "promotion": "NOT PERFORMED"
+  },
+  "elapsed_seconds": 1.7579658031463623
+}

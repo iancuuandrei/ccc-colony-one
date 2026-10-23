@@ -33,6 +33,12 @@ def main():
     for entry in entries:
         src = inside(source, entry['source'])
         dst = inside(REPO, entry['path'])
+        if entry.get('snapshot_once') and dst.is_file():
+            current = digest(dst.read_bytes())
+            if current != entry['sha256'] or entry['path'] not in previous:
+                raise RuntimeError(f'Frozen snapshot has changed or lost provenance: {dst}')
+            records.append(previous[entry['path']])
+            continue
         if not src.is_file():
             if entry.get('optional'):
                 missing.append(entry['source'])

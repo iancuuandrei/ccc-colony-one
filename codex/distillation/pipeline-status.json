@@ -1,0 +1,31 @@
+{
+  "status": "TEACHER_TARGETS_READY",
+  "teacher_model": "gpt-6-astra",
+  "packets": [
+    {
+      "packet_id": "packet0001",
+      "accepted": true,
+      "labels": 20,
+      "claims": {
+        "forced_loss_by_next_turn": 1,
+        "forced_win_this_turn": 2,
+        "prediction": 17
+      },
+      "policy_mass_max_error": 2.384185791015625e-07,
+      "all_ranked_actions_legal": true
+    },
+    {
+      "packet_id": "packet0002",
+      "accepted": true,
+      "labels": 12,
+      "claims": {
+        "forced_loss_by_next_turn": 1,
+        "forced_win_this_turn": 5,
+        "prediction": 6
+      },
+      "policy_mass_max_error": 1.1920928955078125e-07,
+      "all_ranked_actions_legal": true
+    }
+  ],
+  "note": "Actual Astra-agent labels validated independently; no model performance or server acceptance claim."
+}

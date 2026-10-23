@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE",
+  "provenance": {
+    "kind": "LLM_AUTHORED_CONSTRUCTED_SCENARIOS",
+    "teacher_role": "Astra teacher assigned by orchestrator",
+    "model_identity_verification": "External harness identity is not inferred by this file",
+    "reachability": "NOT_PROVEN_FROM_STANDARD_OPENING",
+    "raw_real_match_data": false,
+    "coordinates": "absolute zero-based row,col; C=CYAN M=MAGENTA"
+  },
+  "sources": [
+    {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\astra\\hard_refined\\certified_states.jsonl",
+      "sha256": "ccd3f8cbc85b869350cb58f71eb0f9e77a34e11b2b54386ffd8a2ff40e0d769c"
+    },
+    {
+      "path": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\synthetic\\astra\\discovery\\certified_states.jsonl",
+      "sha256": "d8fae5fc9859675a2bd8875f4bd7532ca5ff320b32596c7710871f4cb1b9ab33"
+    }
+  ],
+  "states": 224,
+  "llm_seed_proposals": 28,
+  "groups": 5,
+  "hard_states": 154,
+  "exact_value_states": 80,
+  "unknown_full_game_values": 144,
+  "policy_valid": 224,
+  "per_baseline_errors": {
+    "h1": 151,
+    "v2": 87,
+    "gen01": 97
+  },
+  "engine_sha256": {
+    "env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+    "board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+    "rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+    "encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+    "mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e"
+  },
+  "oracle_sha256": {
+    "oracle.py": "4a9c4297aa107f4f5df3774aef51af84259299417ebacea8fe2bd7e605fa5dfc",
+    "own_turn_oracle.py": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9"
+  },
+  "baseline_sha256": {
+    "h1": "0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65",
+    "v2": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+    "gen01": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a"
+  },
+  "npz_sha256": "022fd36f08dfa68152fa8842c577303cdd9a0261407319f7992ed8d7585b3cba",
+  "jsonl_sha256": "3387904ec0d17666b2d4e9ac69a34694f35f452fad9a72a53cd64fa8ed062aea",
+  "sampling": {
+    "rule": "Uniform over motif family, then seed, then D4 variant. Hard examples may receive 2x weight inside a group. Keep all relatives of a motif in one split.",
+    "split": "Leave-one-motif-family-out assessment; five motif groups, not 224 independent games.",
+    "negative_control": "Earlier 176 easy control states remain separate under parent astra directory; do not count them as hard.",
+    "value": "Mask all 144 unknown full-game values. Next-turn-safe policy actions are not labeled eventual wins."
+  },
+  "qualification": "LLM-authored constructed counterfactuals; valid engine states, no reachability-from-opening proof. Local measured baseline errors and bounded engine certificates; no tournament-strength inference."
+}

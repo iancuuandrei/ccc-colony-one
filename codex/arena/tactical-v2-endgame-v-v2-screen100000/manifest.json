@@ -1,0 +1,51 @@
+{
+  "protocol": {
+    "a": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\tactical\\model-tactical-v2-endgame.onnx",
+    "b": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\codex\\tactical\\model-tactical-v2.onnx",
+    "a_sha256": "31361de0d0a58126087bb8ab8161dcd136879ccab670302bb8a641907a191599",
+    "b_sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+    "start": 100000,
+    "pairs": 64,
+    "rng": "numpy.default_rng(seed), same seed across swapped colors",
+    "config": {
+      "simulations": 100,
+      "c_puct": 1.5,
+      "add_root_noise": true,
+      "dirichlet_alpha": 0.3,
+      "dirichlet_eps": 0.15,
+      "warmup_temperatures": [
+        1.0,
+        0.5
+      ],
+      "warmup_step_actions": 4,
+      "batch_size": 8,
+      "virtual_loss": 1.0,
+      "adaptive_simulations": false,
+      "sim_multiplier": 15.0,
+      "sim_floor": 150
+    },
+    "engine_files": {
+      "env\\colony_one\\__init__.py": "6e91a9c40b595b1b6116154365bb052590cd9d6df9ec6fdfc36cfcedcffb7e27",
+      "env\\colony_one\\action.py": "12ef52844501e36d6faf4975212db74c2977783a111b3d60063e28604a02930e",
+      "env\\colony_one\\baselines.py": "19c3126f1e5668df031917fef1a52fa7d0cc4b587fd026d99f6e4c2e794fabe8",
+      "env\\colony_one\\board.py": "a1b23455c22047db17f835c2fad2004754ecf9e5479b17afb1a9bce3281c8f5d",
+      "env\\colony_one\\constants.py": "ba4bcfe9d23ff16e6c9f4828da69945700e94dfd2069a0adc809719d7e73c0ad",
+      "env\\colony_one\\encoding.py": "42098cdbcc686269d1e897cfc7b6083390deb972098b7d5ab11cbc5b17310b58",
+      "env\\colony_one\\env.py": "0bef52825302c38d8c84e6ed02b0502ef1295ab50c1543d0bdda8936fc0044f5",
+      "env\\colony_one\\mcts.py": "1374b55952f08fcbe411307fd96ec62832d2712362b2b649a2307948ffbf355e",
+      "env\\colony_one\\onnx_runner.py": "1df1c257a42ae68b88f2b134b6618ab82dffb180a4576bbd40569d95fe376e08",
+      "env\\colony_one\\pieces.py": "71bcd84583ff2f22fd30d8d340da43385630f3f4872fb500ee36f6b57e6b3588",
+      "env\\colony_one\\renderer.py": "99321cab82df2594272cd32c8db1a8e246f7351a925ae136ee9367ee6a5c4fcc",
+      "env\\colony_one\\rules.py": "77ecc7877e8f82de4c1b7215ca141901778ee8e4e4fe333d5375fc1d59deaa66",
+      "env\\colony_one\\submission_check.py": "1970edac6bc4bf270b9942291b1a2b9b4fc10d2486fc362ea42f039e6ed3bc2a",
+      "env\\colony_one\\submission_policy.py": "0acd6824e388389d2cdfb4276a6dbcbe59eb6f776e7acc1dca10539543514616",
+      "env\\colony_one\\scene.json": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f"
+    },
+    "engine_sha256": "2e6a926a41230225c7f7c58855b704d95c3c4fee1025211f860a34c766230ecd",
+    "python": "3.12.13",
+    "numpy": "2.5.3",
+    "onnxruntime": "1.31.0",
+    "harness_sha256": "998e3ae391e893de108c3f669c12c3002c7ce2eafbd1f5b82e1b9a753b4c49fa"
+  },
+  "created_utc": "2026-10-23T14:00:26.358881+00:00"
+}

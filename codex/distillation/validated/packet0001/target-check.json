@@ -1,0 +1,17 @@
+{
+  "accepted": true,
+  "labels": 20,
+  "claims": {
+    "forced_loss_by_next_turn": 1,
+    "forced_win_this_turn": 2,
+    "prediction": 17
+  },
+  "target_rows": 20,
+  "game_groups": 11,
+  "normalized_policy_mass_max_error": 2.384185791015625e-07,
+  "ranked_indices_legal": true,
+  "value_confidence_range": [
+    0.05000000074505806,
+    1.0
+  ]
+}

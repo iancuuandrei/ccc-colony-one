@@ -1,0 +1,20 @@
+{
+  "model": "model-distill-v1.onnx",
+  "sha256": "9fd3c095808829c343e09cefe62225722fe84f71d32b91d0c3aeabd14c0f44a5",
+  "raw_numpy_onnx_parity": "PASS batch 1,8,16; maximum policy error 8.37e-7, value error 2.24e-8",
+  "standalone_check_onnx": {
+    "status": "PASS",
+    "dry_run_seconds": 0.8403,
+    "batch8_ms": 2.731,
+    "disallowed_ops": []
+  },
+  "authoritative_windows_validator": {
+    "status": "FAIL",
+    "stage": "1/3 Tournament acceptance contract",
+    "message": "Your model is too slow to check: the check must finish within 2 seconds of CPU time and 3 seconds in total. Use a smaller or simpler network.",
+    "context": "Executed while other agents' existing work was active; no computations interrupted. Load attribution is unproven."
+  },
+  "arena": "NOT RUN by student owner",
+  "deployment": "NOT QUALIFIED",
+  "promotion": "NOT PERFORMED"
+}

@@ -42,7 +42,7 @@
       "path": "random.onnx"
     },
     {
-      "source": "workspace/colony-one-level4/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen01/model.onnx",
       "path": "model.onnx"
     },
     {
@@ -519,6 +519,649 @@
     {
       "source": "workspace/colony-one-level4/codex/coordination.md",
       "path": "codex/coordination.md"
+    },
+    {
+      "sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+      "path": "release/gen01/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen01/model.onnx"
+    },
+    {
+      "sha256": "ed45eae71a9332d941f5f02d9e5a469f8372af56e8d31ccf0d4b5cdbe87f6c7a",
+      "path": "model-gen01.onnx",
+      "source": "workspace/colony-one-level4/release/gen01/model.onnx"
+    },
+    {
+      "sha256": "710a69d2297cf4422b257af313fdfdf3fa12404d8bea82bf46fa560f39bbb239",
+      "path": "checkpoints/gen01.pt",
+      "source": "workspace/colony-one-level4/ckpt/gen01.pt"
+    },
+    {
+      "sha256": "1e797310b1d41dd5b33ce42d21f10ee3905d2cb0284b4527ba8ed982ae776f2e",
+      "path": "release/gen01/source-current/net.py",
+      "source": "workspace/colony-one-level4/net.py",
+      "snapshot_once": true
+    },
+    {
+      "sha256": "9347dde0138f789cbd6026225feccd7a13ca00dfb624cfea9792586ce840903d",
+      "path": "release/gen01/source-current/train.py",
+      "source": "workspace/colony-one-level4/train.py",
+      "snapshot_once": true
+    },
+    {
+      "sha256": "bde9b7025ff4d657ac4833a850d3844f2ceed12116ba2abb2555c4f24dffc273",
+      "path": "release/gen01/source-current/selfplay.py",
+      "source": "workspace/colony-one-level4/selfplay.py",
+      "snapshot_once": true
+    },
+    {
+      "sha256": "e467f1f69913b0d7a1bb63c73647162a6f999669840ff328d5325f4b2f2addc8",
+      "path": "release/gen01/source-current/loop.py",
+      "source": "workspace/colony-one-level4/loop.py",
+      "snapshot_once": true
+    },
+    {
+      "sha256": "bfb4f38d7d132576b34c970f9e3eb8ef64e5221ef0229711bf69d6e16df77d26",
+      "path": "release/gen01/source-current/check_onnx.py",
+      "source": "workspace/colony-one-level4/check_onnx.py",
+      "snapshot_once": true
+    },
+    {
+      "sha256": "2cb5746075d22b417110d63e447915bd7b4f8c71f4dd0fa280df1ef793886013",
+      "path": "release/gen01/source-current/reexport.py",
+      "source": "workspace/colony-one-level4/reexport.py",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/comparison-gen01.json",
+      "path": "comparison-gen01.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-graph-linux.json",
+      "path": "codex/validation/distill-v1-graph-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-hard-linux.json",
+      "path": "codex/validation/distill-v1-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-level4-linux.json",
+      "path": "codex/validation/distill-v1-level4-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v1-validator-linux.txt",
+      "path": "codex/validation/distill-v1-validator-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-graph-linux.json",
+      "path": "codex/validation/distill-v2-graph-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-hard-linux.json",
+      "path": "codex/validation/distill-v2-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-level4-linux.json",
+      "path": "codex/validation/distill-v2-level4-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/distill-v2-validator-linux.txt",
+      "path": "codex/validation/distill-v2-validator-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-graph-linux.json",
+      "path": "codex/validation/gen01-graph-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-graph-native-linux.json",
+      "path": "codex/validation/gen01-graph-native-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-hard-linux-repeat.json",
+      "path": "codex/validation/gen01-hard-linux-repeat.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-hard-linux.json",
+      "path": "codex/validation/gen01-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-hard-native-linux.json",
+      "path": "codex/validation/gen01-hard-native-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-level4-linux.json",
+      "path": "codex/validation/gen01-level4-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-level4-native-linux.json",
+      "path": "codex/validation/gen01-level4-native-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-native-copy-manifest.json",
+      "path": "codex/validation/gen01-native-copy-manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-validator-linux.txt",
+      "path": "codex/validation/gen01-validator-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/gen01-validator-native-linux.txt",
+      "path": "codex/validation/gen01-validator-native-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/prepare_native.py",
+      "path": "codex/validation/prepare_native.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-graph-linux.json",
+      "path": "codex/validation/tactical-v2-endgame-graph-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-hard-linux.json",
+      "path": "codex/validation/tactical-v2-endgame-hard-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-level4-linux.json",
+      "path": "codex/validation/tactical-v2-endgame-level4-linux.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/validation/tactical-v2-endgame-validator-linux.txt",
+      "path": "codex/validation/tactical-v2-endgame-validator-linux.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/audit_opus_gen01.py",
+      "path": "codex/arena/audit_opus_gen01.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit-gen01-distill-v2.json",
+      "path": "codex/arena/evidence-audit-gen01-distill-v2.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit-student-endgame.json",
+      "path": "codex/arena/evidence-audit-student-endgame.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/evidence-audit-v2.json",
+      "path": "codex/arena/evidence-audit-v2.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/opus-gen01-history-audit.json",
+      "path": "codex/arena/opus-gen01-history-audit.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/student-endgame-comparison-summary.json",
+      "path": "codex/arena/student-endgame-comparison-summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-comparison-summary.json",
+      "path": "codex/arena/tactical-v2-comparison-summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v1-screen90000/manifest.json",
+      "path": "codex/arena/distill-v1-v-tactical-v1-screen90000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v1-screen90000/summary.json",
+      "path": "codex/arena/distill-v1-v-tactical-v1-screen90000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v1-screen90000/harness_snapshot.py",
+      "path": "codex/arena/distill-v1-v-tactical-v1-screen90000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v2-holdout110000/manifest.json",
+      "path": "codex/arena/distill-v1-v-tactical-v2-holdout110000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v2-holdout110000/summary.json",
+      "path": "codex/arena/distill-v1-v-tactical-v2-holdout110000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v1-v-tactical-v2-holdout110000/harness_snapshot.py",
+      "path": "codex/arena/distill-v1-v-tactical-v2-holdout110000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v2-v-tactical-v2-screen130000/manifest.json",
+      "path": "codex/arena/distill-v2-v-tactical-v2-screen130000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v2-v-tactical-v2-screen130000/summary.json",
+      "path": "codex/arena/distill-v2-v-tactical-v2-screen130000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/distill-v2-v-tactical-v2-screen130000/harness_snapshot.py",
+      "path": "codex/arena/distill-v2-v-tactical-v2-screen130000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen01-v-tactical-v2-confirm150000/manifest.json",
+      "path": "codex/arena/gen01-v-tactical-v2-confirm150000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen01-v-tactical-v2-confirm150000/summary.json",
+      "path": "codex/arena/gen01-v-tactical-v2-confirm150000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/gen01-v-tactical-v2-confirm150000/harness_snapshot.py",
+      "path": "codex/arena/gen01-v-tactical-v2-confirm150000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control80000/manifest.json",
+      "path": "codex/arena/h1-v-l3-control80000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control80000/summary.json",
+      "path": "codex/arena/h1-v-l3-control80000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/h1-v-l3-control80000/harness_snapshot.py",
+      "path": "codex/arena/h1-v-l3-control80000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-endgame-v-v2-screen100000/manifest.json",
+      "path": "codex/arena/tactical-v2-endgame-v-v2-screen100000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-endgame-v-v2-screen100000/summary.json",
+      "path": "codex/arena/tactical-v2-endgame-v-v2-screen100000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-endgame-v-v2-screen100000/harness_snapshot.py",
+      "path": "codex/arena/tactical-v2-endgame-v-v2-screen100000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-h1-holdout70000/harness_snapshot.py",
+      "path": "codex/arena/tactical-v2-v-h1-holdout70000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-l3-robust80000/manifest.json",
+      "path": "codex/arena/tactical-v2-v-l3-robust80000/manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-l3-robust80000/summary.json",
+      "path": "codex/arena/tactical-v2-v-l3-robust80000/summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/arena/tactical-v2-v-l3-robust80000/harness_snapshot.py",
+      "path": "codex/arena/tactical-v2-v-l3-robust80000/harness_snapshot.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/pipeline-status.json",
+      "path": "codex/distillation/pipeline-status.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/queue.py",
+      "path": "codex/distillation/queue.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/README.md",
+      "path": "codex/distillation/README.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher_answer.schema.json",
+      "path": "codex/distillation/teacher_answer.schema.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validation-smoke.json",
+      "path": "codex/distillation/validation-smoke.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validation.py",
+      "path": "codex/distillation/validation.py"
+    },
+    {
+      "sha256": "d7214be984362222a452b1dcd6f50324035336bd7b93232434c07d02bec249e7",
+      "path": "codex/distillation/packets/packet0001.json",
+      "source": "workspace/colony-one-level4/codex/distillation/packets/packet0001.json"
+    },
+    {
+      "sha256": "10d4836ed466e243e6c99952e3df9d6be55e0fd7a4bd8e6a4653b41490f054a9",
+      "path": "codex/distillation/packets/packet0002.json",
+      "source": "workspace/colony-one-level4/codex/distillation/packets/packet0002.json"
+    },
+    {
+      "sha256": "0e2d725eca5aa7071b950413e5eaf719f46aa6997c162b7c00ff601a814a18b4",
+      "path": "codex/distillation/packets/revisions/packet0002-r0.json",
+      "source": "workspace/colony-one-level4/codex/distillation/packets/revisions/packet0002-r0.json"
+    },
+    {
+      "sha256": "c299fe2c9f13e3c584b7b7597024b7e2ff3f11daaf275e8a152e4ac67de53c25",
+      "path": "codex/distillation/sources/site-hard-positions-c299fe2c9f13e3c5.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/sources/site-hard-positions-c299fe2c9f13e3c5.npz"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v1.json",
+      "path": "codex/distillation/student/model-distill-v1.json"
+    },
+    {
+      "sha256": "d36df216ba215e2daebe5c9858c45f1ba2aba7b79ec8b0093bfa21b5f2a6e248",
+      "path": "codex/distillation/student/model-distill-v1.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v1.npz"
+    },
+    {
+      "sha256": "9fd3c095808829c343e09cefe62225722fe84f71d32b91d0c3aeabd14c0f44a5",
+      "path": "codex/distillation/student/model-distill-v1.onnx",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v1.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2-check-windows.json",
+      "path": "codex/distillation/student/model-distill-v2-check-windows.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.json",
+      "path": "codex/distillation/student/model-distill-v2.json"
+    },
+    {
+      "sha256": "c471c110cf3f87a64d6fc3315343c6dc64d5a5c48c686a25eb3f08e61df51734",
+      "path": "codex/distillation/student/model-distill-v2.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.npz"
+    },
+    {
+      "sha256": "9ad48af680bc6a7ff5f857f3a542d4059375181d5d8e64d5dbaee9216f94163c",
+      "path": "codex/distillation/student/model-distill-v2.onnx",
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/model-distill-v2.operational.json",
+      "path": "codex/distillation/student/model-distill-v2.operational.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/qualification-v1.json",
+      "path": "codex/distillation/student/qualification-v1.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/README.md",
+      "path": "codex/distillation/student/README.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/symbolic-v2.nodes.json",
+      "path": "codex/distillation/student/symbolic-v2.nodes.json"
+    },
+    {
+      "sha256": "0a95cc4b1b17c5300667f6630cc9f21c391d0bc0a2eb02547916b47a3caefd76",
+      "path": "codex/distillation/student/symbolic-v2.onnx",
+      "source": "workspace/colony-one-level4/codex/distillation/student/symbolic-v2.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_compact-v2-source.py",
+      "path": "codex/distillation/student/train_compact-v2-source.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_compact.py",
+      "path": "codex/distillation/student/train_compact.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_student-v2-source.py",
+      "path": "codex/distillation/student/train_student-v2-source.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/train_student.py",
+      "path": "codex/distillation/student/train_student.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/v2-recovery-hashes.json",
+      "path": "codex/distillation/student/v2-recovery-hashes.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/student/verify_compact.py",
+      "path": "codex/distillation/student/verify_compact.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/MATHEMATICAL_DESIGN.md",
+      "path": "codex/distillation/teacher/MATHEMATICAL_DESIGN.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0001_continuations.json",
+      "path": "codex/distillation/teacher/packet0001_continuations.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0001_probe.json",
+      "path": "codex/distillation/teacher/packet0001_probe.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0001_validation.json",
+      "path": "codex/distillation/teacher/packet0001_validation.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0002_continuations.json",
+      "path": "codex/distillation/teacher/packet0002_continuations.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0002_probe.json",
+      "path": "codex/distillation/teacher/packet0002_probe.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/packet0002_validation.json",
+      "path": "codex/distillation/teacher/packet0002_validation.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/probe_continuations.py",
+      "path": "codex/distillation/teacher/probe_continuations.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/probe_packet.py",
+      "path": "codex/distillation/teacher/probe_packet.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/write_packet0001_labels.py",
+      "path": "codex/distillation/teacher/write_packet0001_labels.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/teacher/write_packet0002_labels.py",
+      "path": "codex/distillation/teacher/write_packet0002_labels.py"
+    },
+    {
+      "sha256": "0ba7713b705a2e6b1def7172496b5046e598edcfd43affa449cb15e2f07f9efb",
+      "path": "codex/distillation/teacher_labels/astra_packet0001.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher_labels/astra_packet0001.json"
+    },
+    {
+      "sha256": "8f3b4d64314c61423741204da78ec2e1dded35fd3c51e00b3b68b31ccc2a9015",
+      "path": "codex/distillation/teacher_labels/astra_packet0002.json",
+      "source": "workspace/colony-one-level4/codex/distillation/teacher_labels/astra_packet0002.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/student_ready.json",
+      "path": "codex/distillation/validated/packet0001/student_ready.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/target-check.json",
+      "path": "codex/distillation/validated/packet0001/target-check.json"
+    },
+    {
+      "sha256": "d86eeb631348dff273ca067b24a3991a6af85d09a4dc28b8f990d7dccc721e0c",
+      "path": "codex/distillation/validated/packet0001/teacher_targets.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/teacher_targets.npz"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0001/validation.json",
+      "path": "codex/distillation/validated/packet0001/validation.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0002/student_ready.json",
+      "path": "codex/distillation/validated/packet0002/student_ready.json"
+    },
+    {
+      "sha256": "0fa234769f80c76986346d6e58b139e3d3377cd640ab08c65971b6d6f31ffa46",
+      "path": "codex/distillation/validated/packet0002/teacher_targets.npz",
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0002/teacher_targets.npz"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validated/packet0002/validation.json",
+      "path": "codex/distillation/validated/packet0002/validation.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validation_fixtures/illegal_action.json",
+      "path": "codex/distillation/validation_fixtures/illegal_action.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validation_fixtures/prediction.json",
+      "path": "codex/distillation/validation_fixtures/prediction.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/distillation/validation_fixtures/unsupported_exact.json",
+      "path": "codex/distillation/validation_fixtures/unsupported_exact.json"
+    },
+    {
+      "sha256": "a9abbe2c1eabfd1fdbfbcb653a46dcbdced7dfa50b1e18dab1be6fbce56fc746",
+      "path": "codex/synthetic/astra/author_discovery_proposals.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/author_discovery_proposals.py"
+    },
+    {
+      "sha256": "1e0141181405debf403038871da6a92a65d05e9365c7c377138f512ed8a8aae2",
+      "path": "codex/synthetic/astra/author_hard_proposals.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/author_hard_proposals.py"
+    },
+    {
+      "sha256": "cb45b56de945f1807e7df4e5e9f77e83dd75bee8777bb55fe717e04ab138c834",
+      "path": "codex/synthetic/astra/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/certified_states.jsonl"
+    },
+    {
+      "sha256": "0da4f3a58b902ed25bf2f03db97cb4f11da60b7cddbcce9d9ea86cf8896dd1cf",
+      "path": "codex/synthetic/astra/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/certified_states.npz"
+    },
+    {
+      "sha256": "27fdfdc2e46967585f12c7141e1f6a76cd63b2455ace36a8a90ceadf867290f1",
+      "path": "codex/synthetic/astra/combine_curriculum.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/combine_curriculum.py"
+    },
+    {
+      "sha256": "ab51d26027399ab395b303618a834c12fa7cd2a69da876e691f332abefdf9d46",
+      "path": "codex/synthetic/astra/discovery_seed_proposals.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery_seed_proposals.json"
+    },
+    {
+      "sha256": "ebe656f44c466e162bb3da1db1a9ec4696dc22f16d410945505aadbfa82d9808",
+      "path": "codex/synthetic/astra/generate.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/generate.py"
+    },
+    {
+      "sha256": "dcc5df3450ef3ec9c4ae3ac12f7f9ba0d3631b4ec10a21611ea580b0bf1cc0b5",
+      "path": "codex/synthetic/astra/hard_seed_proposals.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_seed_proposals.json"
+    },
+    {
+      "sha256": "67dfe2891daaa410617a2911c68870b05b573f52f50621cf6a6c19544db22d0a",
+      "path": "codex/synthetic/astra/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/manifest.json"
+    },
+    {
+      "sha256": "3b3a0c006cf0fdaf74b19175868e4449249448dda18f44151f572e72b3ecd8b8",
+      "path": "codex/synthetic/astra/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/packet.json"
+    },
+    {
+      "sha256": "dcdd1e3ad041483e1c3ab295474111fa62695319ed117f19c3defb6afcb2852c",
+      "path": "codex/synthetic/astra/refine.py",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/refine.py"
+    },
+    {
+      "sha256": "04a65495b19d9b9c8bc4fed7f5f9ae65548822f395a2dea4a86665a368b87a23",
+      "path": "codex/synthetic/astra/seed_proposals.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/seed_proposals.json"
+    },
+    {
+      "sha256": "ccd3f8cbc85b869350cb58f71eb0f9e77a34e11b2b54386ffd8a2ff40e0d769c",
+      "path": "codex/synthetic/astra/hard_refined/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/certified_states.jsonl"
+    },
+    {
+      "sha256": "6e66018569bf7f98291035e21337d8bb9588faf9c792f5bf3030751fdaebd642",
+      "path": "codex/synthetic/astra/hard_refined/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/certified_states.npz"
+    },
+    {
+      "sha256": "c53a281d91e46537b2442e69f2d6ba90125c639d9040a258def6cdf0073cb224",
+      "path": "codex/synthetic/astra/hard_refined/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/manifest.json"
+    },
+    {
+      "sha256": "68c2d0a41b383076a539e55c00040f9f43beeca5787eca9b9157b18b779cd8ae",
+      "path": "codex/synthetic/astra/hard_refined/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/hard_refined/packet.json"
+    },
+    {
+      "sha256": "d8fae5fc9859675a2bd8875f4bd7532ca5ff320b32596c7710871f4cb1b9ab33",
+      "path": "codex/synthetic/astra/discovery/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/certified_states.jsonl"
+    },
+    {
+      "sha256": "4e524df3bc2958c0e37e5dd24825e7bf9d7189c6b50b667c43baf02226cdfda2",
+      "path": "codex/synthetic/astra/discovery/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/certified_states.npz"
+    },
+    {
+      "sha256": "963a896296fe120a1e6076908523af787c97b4435021d1af17510a3bb11c931e",
+      "path": "codex/synthetic/astra/discovery/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/manifest.json"
+    },
+    {
+      "sha256": "0ee4294aab48830e366cb80761e5fa80411b136fcb4d6d873a21dfef7d6b619f",
+      "path": "codex/synthetic/astra/discovery/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/discovery/packet.json"
+    },
+    {
+      "sha256": "3387904ec0d17666b2d4e9ac69a34694f35f452fad9a72a53cd64fa8ed062aea",
+      "path": "codex/synthetic/astra/curriculum/certified_states.jsonl",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/certified_states.jsonl"
+    },
+    {
+      "sha256": "022fd36f08dfa68152fa8842c577303cdd9a0261407319f7992ed8d7585b3cba",
+      "path": "codex/synthetic/astra/curriculum/certified_states.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/certified_states.npz"
+    },
+    {
+      "sha256": "8a93233b727b6619376758becc00e13da015b75e36caf3b69686d8cd16363add",
+      "path": "codex/synthetic/astra/curriculum/hard_only.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/hard_only.npz"
+    },
+    {
+      "sha256": "2bb7175dec3d2b55caca997c8dca1302b552e182e01473fa00bae2a508113eff",
+      "path": "codex/synthetic/astra/curriculum/manifest.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/manifest.json"
+    },
+    {
+      "sha256": "7cfa45a0090b759bf3221ff00963138bdda552ef2b070975d08e6705c58d22a1",
+      "path": "codex/synthetic/astra/curriculum/packet.json",
+      "source": "workspace/colony-one-level4/codex/synthetic/astra/curriculum/packet.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/integrate.py",
+      "path": "codex/synthetic/validation/integrate.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/probe_gen01.py",
+      "path": "codex/synthetic/validation/probe_gen01.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/validate_synthetic.py",
+      "path": "codex/synthetic/validation/validate_synthetic.py"
+    },
+    {
+      "sha256": "a28f5b746875db904b0c80b1a7a8af221517ab648b495cfaf7898dbe3ec4fbbd",
+      "path": "codex/synthetic/validation/controls0001/independently_validated.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001/independently_validated.npz"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001/report.json",
+      "path": "codex/synthetic/validation/controls0001/report.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001-independent-safety/report.json",
+      "path": "codex/synthetic/validation/controls0001-independent-safety/report.json"
+    },
+    {
+      "sha256": "a28f5b746875db904b0c80b1a7a8af221517ab648b495cfaf7898dbe3ec4fbbd",
+      "path": "codex/synthetic/validation/controls0001-per-action/independently_validated.npz",
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001-per-action/independently_validated.npz"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/controls0001-per-action/report.json",
+      "path": "codex/synthetic/validation/controls0001-per-action/report.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/codex/synthetic/validation/hard0001/gen01-independent-difficulty.json",
+      "path": "codex/synthetic/validation/hard0001/gen01-independent-difficulty.json"
     }
   ]
 }

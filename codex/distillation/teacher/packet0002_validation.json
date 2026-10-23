@@ -1,0 +1,27 @@
+{
+  "accepted": false,
+  "packet_id": "packet0002",
+  "packet_sha256": "0e2d725eca5aa7071b950413e5eaf719f46aa6997c162b7c00ff601a814a18b4",
+  "labels_sha256": "8f3b4d64314c61423741204da78ec2e1dded35fd3c51e00b3b68b31ccc2a9015",
+  "validator_sha256": "c74610db16497fe4888b3a55cdcdca137330981c4e7ea85b3c45822d3c938d4a",
+  "oracle_sha256": "993fd3c5a3aea4164991413ca110fbc85b392c612bf9ad8bad9903f3ae686ff9",
+  "synthetic_fixture": false,
+  "errors": [
+    "p-01c22f087dc5cadf: ValueError: Source artifact hash drift",
+    "p-08437151316644ff: ValueError: Source artifact hash drift",
+    "p-6e1ce094c027f9ff: ValueError: Source artifact hash drift",
+    "p-6eecc419add02031: ValueError: Source artifact hash drift",
+    "p-4f9c8309aa980a51: ValueError: Source artifact hash drift",
+    "p-55d8539b480bf328: ValueError: Source artifact hash drift",
+    "p-9d75bb6ff828f532: ValueError: Source artifact hash drift",
+    "p-2d32cfec7a4935cb: ValueError: Source artifact hash drift",
+    "p-7543a1775a699acf: ValueError: Source artifact hash drift",
+    "p-f96a2fb888a0794b: ValueError: Source artifact hash drift",
+    "p-e93dcb8c4c447bdf: ValueError: Source artifact hash drift",
+    "p-ac3f0dbb265fe3bf: ValueError: Source artifact hash drift"
+  ],
+  "checks": [],
+  "labels": [],
+  "unlabelled_positions": [],
+  "qualification": "Validated teacher predictions and bounded exact certificates; no playing-strength or grader-acceptance claim"
+}

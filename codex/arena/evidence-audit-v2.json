@@ -1,0 +1,20 @@
+{
+  "history_replay": [
+    {
+      "folder": "h1-v-l3-control80000",
+      "games": 256,
+      "status": "PASS"
+    },
+    {
+      "folder": "tactical-v2-v-h1-holdout70000",
+      "games": 256,
+      "status": "PASS"
+    },
+    {
+      "folder": "tactical-v2-v-l3-robust80000",
+      "games": 256,
+      "status": "PASS"
+    }
+  ],
+  "original_arena_agreement": []
+}

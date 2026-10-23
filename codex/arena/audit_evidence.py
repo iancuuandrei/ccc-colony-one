@@ -1,5 +1,6 @@
 """Operational audit of durable arena histories and cross-harness agreement."""
 from __future__ import annotations
+import argparse
 import importlib.util
 import json
 from pathlib import Path
@@ -12,8 +13,15 @@ from colony_one.env import ColonyOneEnv
 
 
 def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--folders", nargs="*")
+    p.add_argument("--skip-original", action="store_true")
+    p.add_argument("--out", default="evidence-audit.json")
+    o = p.parse_args()
     report = {"history_replay": [], "original_arena_agreement": []}
     for folder in sorted(HERE.iterdir()):
+        if o.folders is not None and folder.name not in o.folders:
+            continue
         if not folder.is_dir() or not (folder/"games.jsonl").exists():
             continue
         summary = json.loads((folder/"summary.json").read_text())
@@ -36,13 +44,13 @@ def main():
     folder = HERE/"h1-v-l3-holdout10000"
     manifest = json.loads((folder/"manifest.json").read_text())["protocol"]
     rows = [json.loads(x) for x in (folder/"games.jsonl").read_text().splitlines()]
-    for target_seed,cyan in ((10000,False),(10001,True)):
+    for target_seed,cyan in (() if o.skip_original else ((10000,False),(10001,True))):
         prior = next(r for r in rows if r["seed"]==target_seed and r["a_cyan"]==cyan)
         rerun = arena.play((manifest["a"],manifest["b"],5000,cyan,100))
         expected = [[h["team"][0],h["from"],h["to"]] for h in prior["history"]]
         assert rerun["history"]==expected and rerun["winner"]==prior["winner"]
         report["original_arena_agreement"].append({"rng_seed":target_seed,"a_cyan":cyan,"status":"PASS"})
-    (HERE/"evidence-audit.json").write_text(json.dumps(report,indent=2))
+    (HERE/o.out).write_text(json.dumps(report,indent=2))
     print(json.dumps(report))
 
 

@@ -1,0 +1,20 @@
+{
+  "history_replay": [
+    {
+      "folder": "distill-v1-v-tactical-v1-screen90000",
+      "games": 128,
+      "status": "PASS"
+    },
+    {
+      "folder": "distill-v1-v-tactical-v2-holdout110000",
+      "games": 128,
+      "status": "PASS"
+    },
+    {
+      "folder": "tactical-v2-endgame-v-v2-screen100000",
+      "games": 128,
+      "status": "PASS"
+    }
+  ],
+  "original_arena_agreement": []
+}

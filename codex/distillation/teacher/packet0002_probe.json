@@ -1,0 +1,1099 @@
+[
+  {
+    "position_id": "p-01c22f087dc5cadf",
+    "category": "observed_blunder_context",
+    "team": "MAGENTA",
+    "left": 2,
+    "round": 7,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 3128,
+        "win": false
+      },
+      {
+        "action_index": 3112,
+        "win": false
+      },
+      {
+        "action_index": 3121,
+        "win": false
+      },
+      {
+        "action_index": 2153,
+        "win": false
+      },
+      {
+        "action_index": 2137,
+        "win": false
+      },
+      {
+        "action_index": 2146,
+        "win": false
+      },
+      {
+        "action_index": 2144,
+        "win": false
+      },
+      {
+        "action_index": 2154,
+        "win": false
+      },
+      {
+        "action_index": 2152,
+        "win": false
+      },
+      {
+        "action_index": 2138,
+        "win": false
+      },
+      {
+        "action_index": 2136,
+        "win": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-08437151316644ff",
+    "category": "observed_avoidable_final_action",
+    "team": "MAGENTA",
+    "left": 1,
+    "round": 7,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 3128,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3187,
+            3301
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 3112,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3187,
+            3301
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 3121,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3187,
+            3301
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 1698,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            396,
+            797
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 1682,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 1691,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            405,
+            1380
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 1689,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            405,
+            1382
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 1699,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3178,
+            2716
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 1697,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 1683,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3187,
+            3308
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 1681,
+        "win": false,
+        "opponent_win_next_turn": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-6e1ce094c027f9ff",
+    "category": "observed_blunder_context",
+    "team": "CYAN",
+    "left": 2,
+    "round": 8,
+    "own_win": true,
+    "actions": [
+      {
+        "action_index": 396,
+        "win": false
+      },
+      {
+        "action_index": 405,
+        "win": false
+      },
+      {
+        "action_index": 407,
+        "win": false
+      },
+      {
+        "action_index": 2137,
+        "win": false
+      },
+      {
+        "action_index": 2153,
+        "win": false
+      },
+      {
+        "action_index": 2144,
+        "win": false
+      },
+      {
+        "action_index": 2146,
+        "win": false
+      },
+      {
+        "action_index": 3177,
+        "win": false
+      },
+      {
+        "action_index": 3193,
+        "win": false
+      },
+      {
+        "action_index": 3184,
+        "win": false
+      },
+      {
+        "action_index": 3186,
+        "win": false
+      },
+      {
+        "action_index": 3187,
+        "win": true,
+        "witness": {
+          "actions": [
+            3187,
+            3301
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 3176,
+        "win": false
+      },
+      {
+        "action_index": 3178,
+        "win": false
+      },
+      {
+        "action_index": 3171,
+        "win": true,
+        "witness": {
+          "actions": [
+            3171,
+            2277
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 3194,
+        "win": false
+      },
+      {
+        "action_index": 3632,
+        "win": false
+      },
+      {
+        "action_index": 3641,
+        "win": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-6eecc419add02031",
+    "category": "observed_blunder_context",
+    "team": "CYAN",
+    "left": 1,
+    "round": 8,
+    "own_win": true,
+    "actions": [
+      {
+        "action_index": 396,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3193,
+            3697
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 405,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3193,
+            3697
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 407,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3193,
+            3697
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 2137,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 2153,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 2144,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 2146,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3307,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3299,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3323,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3314,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3313,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3316,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3317,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3306,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3308,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3301,
+        "win": true,
+        "witness": {
+          "actions": [
+            3301
+          ],
+          "reason": "kernel_capture"
+        },
+        "terminal": "CYAN"
+      },
+      {
+        "action_index": 3322,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3324,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3632,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3641,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            3177,
+            2673
+          ],
+          "reason": "firewall_one"
+        }
+      },
+      {
+        "action_index": 3633,
+        "win": false,
+        "opponent_win_next_turn": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-4f9c8309aa980a51",
+    "category": "observed_blunder_context",
+    "team": "CYAN",
+    "left": 2,
+    "round": 9,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 3177,
+        "win": false
+      },
+      {
+        "action_index": 3186,
+        "win": false
+      },
+      {
+        "action_index": 3178,
+        "win": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-55d8539b480bf328",
+    "category": "observed_avoidable_final_action",
+    "team": "CYAN",
+    "left": 1,
+    "round": 9,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 3242,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2268,
+            1813
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 3249,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3251,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3241,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3243,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2267,
+            1748
+          ],
+          "reason": "kernel_capture"
+        }
+      }
+    ]
+  },
+  {
+    "position_id": "p-9d75bb6ff828f532",
+    "category": "observed_blunder_context",
+    "team": "MAGENTA",
+    "left": 2,
+    "round": 9,
+    "own_win": true,
+    "actions": [
+      {
+        "action_index": 2803,
+        "win": false
+      },
+      {
+        "action_index": 2796,
+        "win": false
+      },
+      {
+        "action_index": 2797,
+        "win": false
+      },
+      {
+        "action_index": 2794,
+        "win": false
+      },
+      {
+        "action_index": 2793,
+        "win": false
+      },
+      {
+        "action_index": 2267,
+        "win": true,
+        "witness": {
+          "actions": [
+            2267,
+            1748
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2276,
+        "win": false
+      },
+      {
+        "action_index": 2274,
+        "win": false
+      },
+      {
+        "action_index": 2284,
+        "win": false
+      },
+      {
+        "action_index": 2282,
+        "win": false
+      },
+      {
+        "action_index": 2268,
+        "win": true,
+        "witness": {
+          "actions": [
+            2268,
+            1812
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2266,
+        "win": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-2d32cfec7a4935cb",
+    "category": "observed_blunder_context",
+    "team": "MAGENTA",
+    "left": 1,
+    "round": 9,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 2803,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2788,
+            2333
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2787,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2779,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2788,
+            2333
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2796,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2788,
+            2333
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2797,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2788,
+            2333
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2794,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2793,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2218,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2202,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2796,
+            2853
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2211,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2209,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2217,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2203,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2787,
+            2276
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2201,
+        "win": false,
+        "opponent_win_next_turn": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-7543a1775a699acf",
+    "category": "observed_blunder_context",
+    "team": "CYAN",
+    "left": 2,
+    "round": 10,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 2787,
+        "win": false
+      },
+      {
+        "action_index": 2803,
+        "win": false
+      },
+      {
+        "action_index": 2794,
+        "win": false
+      },
+      {
+        "action_index": 2796,
+        "win": false
+      },
+      {
+        "action_index": 2786,
+        "win": false
+      },
+      {
+        "action_index": 2788,
+        "win": false
+      },
+      {
+        "action_index": 2802,
+        "win": false
+      },
+      {
+        "action_index": 2804,
+        "win": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-f96a2fb888a0794b",
+    "category": "observed_blunder_context",
+    "team": "CYAN",
+    "left": 1,
+    "round": 10,
+    "own_win": false,
+    "actions": [
+      {
+        "action_index": 2267,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2779,
+            1764
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2283,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2779,
+            1748
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2274,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2781
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2276,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2797,
+            2907
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2266,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2803,
+            3301
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2268,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2796,
+            2851
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2282,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2787,
+            2261
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2284,
+        "win": false,
+        "opponent_win_next_turn": true,
+        "opponent_witness": {
+          "actions": [
+            2138,
+            1683
+          ],
+          "reason": "kernel_capture"
+        }
+      }
+    ]
+  },
+  {
+    "position_id": "p-e93dcb8c4c447bdf",
+    "category": "observed_blunder_context",
+    "team": "MAGENTA",
+    "left": 2,
+    "round": 10,
+    "own_win": true,
+    "actions": [
+      {
+        "action_index": 2803,
+        "win": true,
+        "witness": {
+          "actions": [
+            2803,
+            3301
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2787,
+        "win": false
+      },
+      {
+        "action_index": 2779,
+        "win": false
+      },
+      {
+        "action_index": 2796,
+        "win": true,
+        "witness": {
+          "actions": [
+            2796,
+            2853
+          ],
+          "reason": "kernel_capture"
+        }
+      },
+      {
+        "action_index": 2797,
+        "win": false
+      },
+      {
+        "action_index": 2794,
+        "win": false
+      },
+      {
+        "action_index": 2793,
+        "win": false
+      },
+      {
+        "action_index": 2153,
+        "win": false
+      },
+      {
+        "action_index": 2137,
+        "win": false
+      },
+      {
+        "action_index": 2146,
+        "win": false
+      },
+      {
+        "action_index": 2154,
+        "win": false
+      },
+      {
+        "action_index": 2138,
+        "win": false
+      }
+    ]
+  },
+  {
+    "position_id": "p-ac3f0dbb265fe3bf",
+    "category": "observed_blunder_context",
+    "team": "MAGENTA",
+    "left": 1,
+    "round": 10,
+    "own_win": true,
+    "actions": [
+      {
+        "action_index": 3307,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3299,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3316,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3317,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3314,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3313,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 3301,
+        "win": true,
+        "witness": {
+          "actions": [
+            3301
+          ],
+          "reason": "kernel_capture"
+        },
+        "terminal": "MAGENTA"
+      },
+      {
+        "action_index": 2153,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2137,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2146,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2154,
+        "win": false,
+        "opponent_win_next_turn": false
+      },
+      {
+        "action_index": 2138,
+        "win": false,
+        "opponent_win_next_turn": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{"incumbent_id":"9e4614847ea44e2eb85e22e0259c2a03",
+ "criterion":"Win rate vs the deployed incumbent (codex tactical-v2, SHA 0a95cc4b…) under exact referee MCTS (100 sims) on the Level 4 scene, both colours per seed, held-out seeds 920000-920199",
+ "evidence":["logs/gen01-vs-tactical-v2.json: 388/400 (CYAN 196/200, MAGENTA 192/200)",
+             "logs/gen01-vs-tactical.json: 395/400 vs tactical v1","logs/gen01-vs-h1.json: 399/400 vs h1",
+             "check_onnx.py: server acceptance policy pass, 0 disallowed ops, 594 nodes, 1.44 MB",
+             "validate_submission.py under Linux (WSL): ACCEPTED; check child 0.28 s CPU / 0.45 s wall with validator thread env",
+             "test_win.py: in-graph R1∪R2 win flag 0 violations on 30,000 positions vs engine brute force"],
+ "preferable":true}

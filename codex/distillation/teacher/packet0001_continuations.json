@@ -1,0 +1,1782 @@
+[
+  {
+    "position_id": "p-d446e8aa6500a1d9",
+    "actions": [
+      {
+        "action_index": 2803,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2803,
+          3324
+        ]
+      },
+      {
+        "action_index": 2787,
+        "safe_continuation": false,
+        "checked": 11
+      },
+      {
+        "action_index": 2796,
+        "safe_continuation": false,
+        "checked": 11
+      },
+      {
+        "action_index": 2794,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2794,
+          2729
+        ]
+      },
+      {
+        "action_index": 2804,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2804,
+          3388
+        ]
+      },
+      {
+        "action_index": 2802,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2802,
+          3258
+        ]
+      },
+      {
+        "action_index": 2788,
+        "safe_continuation": false,
+        "checked": 11
+      },
+      {
+        "action_index": 2786,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2786,
+          2209
+        ]
+      },
+      {
+        "action_index": 2088,
+        "safe_continuation": false,
+        "checked": 11
+      },
+      {
+        "action_index": 2072,
+        "safe_continuation": false,
+        "checked": 11
+      },
+      {
+        "action_index": 2081,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2081,
+          2794
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-7a02e213cfe190b9",
+    "actions": [
+      {
+        "action_index": 2657,
+        "safe_continuation": true,
+        "checked": 3,
+        "witness": [
+          2657,
+          2144
+        ]
+      },
+      {
+        "action_index": 2673,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2673,
+          2811
+        ]
+      },
+      {
+        "action_index": 2664,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2664,
+          2592
+        ]
+      },
+      {
+        "action_index": 2666,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2666,
+          2738
+        ]
+      },
+      {
+        "action_index": 2656,
+        "safe_continuation": true,
+        "checked": 6,
+        "witness": [
+          2656,
+          2787
+        ]
+      },
+      {
+        "action_index": 2658,
+        "safe_continuation": false,
+        "checked": 24
+      },
+      {
+        "action_index": 2672,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2672,
+          2787
+        ]
+      },
+      {
+        "action_index": 2674,
+        "safe_continuation": true,
+        "checked": 3,
+        "witness": [
+          2674,
+          2803
+        ]
+      },
+      {
+        "action_index": 2787,
+        "safe_continuation": true,
+        "checked": 20,
+        "witness": [
+          2787,
+          2656
+        ]
+      },
+      {
+        "action_index": 2779,
+        "safe_continuation": true,
+        "checked": 18,
+        "witness": [
+          2779,
+          2656
+        ]
+      },
+      {
+        "action_index": 2803,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2803,
+          2656
+        ]
+      },
+      {
+        "action_index": 2811,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2811,
+          2673
+        ]
+      },
+      {
+        "action_index": 2794,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2794,
+          2656
+        ]
+      },
+      {
+        "action_index": 2796,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2796,
+          2656
+        ]
+      },
+      {
+        "action_index": 2797,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2797,
+          2656
+        ]
+      },
+      {
+        "action_index": 2786,
+        "safe_continuation": true,
+        "checked": 15,
+        "witness": [
+          2786,
+          2657
+        ]
+      },
+      {
+        "action_index": 2777,
+        "safe_continuation": true,
+        "checked": 13,
+        "witness": [
+          2777,
+          2657
+        ]
+      },
+      {
+        "action_index": 2788,
+        "safe_continuation": true,
+        "checked": 20,
+        "witness": [
+          2788,
+          2656
+        ]
+      },
+      {
+        "action_index": 2781,
+        "safe_continuation": true,
+        "checked": 19,
+        "witness": [
+          2781,
+          2656
+        ]
+      },
+      {
+        "action_index": 2802,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2802,
+          2673
+        ]
+      },
+      {
+        "action_index": 2809,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2809,
+          2673
+        ]
+      },
+      {
+        "action_index": 2804,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          2804,
+          2656
+        ]
+      },
+      {
+        "action_index": 3948,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          3948,
+          2656
+        ]
+      },
+      {
+        "action_index": 3950,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          3950,
+          2656
+        ]
+      },
+      {
+        "action_index": 3955,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          3955,
+          2666
+        ]
+      },
+      {
+        "action_index": 3959,
+        "safe_continuation": true,
+        "checked": 5,
+        "witness": [
+          3959,
+          2656
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-8c0c5d1251d82f07",
+    "actions": [
+      {
+        "action_index": 3697,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3697,
+          3641
+        ]
+      },
+      {
+        "action_index": 3689,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3689,
+          3641
+        ]
+      },
+      {
+        "action_index": 3681,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3681,
+          3641
+        ]
+      },
+      {
+        "action_index": 3706,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          3706,
+          3754
+        ]
+      },
+      {
+        "action_index": 3707,
+        "safe_continuation": true,
+        "checked": 8,
+        "witness": [
+          3707,
+          3833
+        ]
+      },
+      {
+        "action_index": 3708,
+        "safe_continuation": true,
+        "checked": 9,
+        "witness": [
+          3708,
+          3897
+        ]
+      },
+      {
+        "action_index": 3633,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3633,
+          3706
+        ]
+      },
+      {
+        "action_index": 3112,
+        "safe_continuation": true,
+        "checked": 7,
+        "witness": [
+          3112,
+          3632
+        ]
+      },
+      {
+        "action_index": 3121,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          3121,
+          3632
+        ]
+      },
+      {
+        "action_index": 2942,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2942,
+          4020
+        ]
+      },
+      {
+        "action_index": 2940,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2940,
+          3894
+        ]
+      },
+      {
+        "action_index": 2935,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2935,
+          3697
+        ]
+      },
+      {
+        "action_index": 2931,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2931,
+          3697
+        ]
+      },
+      {
+        "action_index": 2919,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2919,
+          3697
+        ]
+      },
+      {
+        "action_index": 2915,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2915,
+          3697
+        ]
+      },
+      {
+        "action_index": 2910,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2910,
+          3697
+        ]
+      },
+      {
+        "action_index": 2908,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2908,
+          3697
+        ]
+      },
+      {
+        "action_index": 1633,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1633,
+          3697
+        ]
+      },
+      {
+        "action_index": 1641,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1641,
+          3697
+        ]
+      },
+      {
+        "action_index": 1617,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1617,
+          3697
+        ]
+      },
+      {
+        "action_index": 1609,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1609,
+          3697
+        ]
+      },
+      {
+        "action_index": 1626,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1626,
+          3697
+        ]
+      },
+      {
+        "action_index": 1627,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1627,
+          3697
+        ]
+      },
+      {
+        "action_index": 1624,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1624,
+          3697
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-e8003915c2f7732b",
+    "actions": [
+      {
+        "action_index": 2202,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2202,
+          1682
+        ]
+      },
+      {
+        "action_index": 2194,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2194,
+          1162
+        ]
+      },
+      {
+        "action_index": 2218,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2218,
+          2592
+        ]
+      },
+      {
+        "action_index": 2226,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2226,
+          2592
+        ]
+      },
+      {
+        "action_index": 2209,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2209,
+          2137
+        ]
+      },
+      {
+        "action_index": 2208,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2208,
+          2072
+        ]
+      },
+      {
+        "action_index": 2211,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2211,
+          2267
+        ]
+      },
+      {
+        "action_index": 2212,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2212,
+          2332
+        ]
+      },
+      {
+        "action_index": 2201,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2201,
+          1617
+        ]
+      },
+      {
+        "action_index": 2192,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2192,
+          1032
+        ]
+      },
+      {
+        "action_index": 2203,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2203,
+          1747
+        ]
+      },
+      {
+        "action_index": 2196,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2196,
+          1292
+        ]
+      },
+      {
+        "action_index": 2219,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2219,
+          2592
+        ]
+      },
+      {
+        "action_index": 2228,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2228,
+          2592
+        ]
+      },
+      {
+        "action_index": 2592,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2592,
+          2072
+        ]
+      },
+      {
+        "action_index": 2608,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2608,
+          2202
+        ]
+      },
+      {
+        "action_index": 2657,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2657,
+          2137
+        ]
+      },
+      {
+        "action_index": 2673,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2673,
+          2202
+        ]
+      },
+      {
+        "action_index": 2666,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2666,
+          2202
+        ]
+      },
+      {
+        "action_index": 2656,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2656,
+          2081
+        ]
+      },
+      {
+        "action_index": 2672,
+        "safe_continuation": true,
+        "checked": 19,
+        "witness": [
+          2672,
+          3121
+        ]
+      },
+      {
+        "action_index": 2674,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2674,
+          2202
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-907b7bf64738fa73",
+    "actions": [
+      {
+        "action_index": 3632,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3632,
+          3128
+        ]
+      },
+      {
+        "action_index": 3641,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3641,
+          3697
+        ]
+      },
+      {
+        "action_index": 3633,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          3633,
+          3186
+        ]
+      },
+      {
+        "action_index": 2942,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2942,
+          4020
+        ]
+      },
+      {
+        "action_index": 2940,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2940,
+          3894
+        ]
+      },
+      {
+        "action_index": 2935,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2935,
+          3632
+        ]
+      },
+      {
+        "action_index": 2931,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2931,
+          3632
+        ]
+      },
+      {
+        "action_index": 2919,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2919,
+          3632
+        ]
+      },
+      {
+        "action_index": 2915,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2915,
+          3632
+        ]
+      },
+      {
+        "action_index": 2910,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2910,
+          3632
+        ]
+      },
+      {
+        "action_index": 2908,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2908,
+          3632
+        ]
+      },
+      {
+        "action_index": 2738,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2738,
+          3632
+        ]
+      },
+      {
+        "action_index": 2746,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2746,
+          3762
+        ]
+      },
+      {
+        "action_index": 2722,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2722,
+          3632
+        ]
+      },
+      {
+        "action_index": 2714,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2714,
+          3632
+        ]
+      },
+      {
+        "action_index": 2731,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2731,
+          3632
+        ]
+      },
+      {
+        "action_index": 2732,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2732,
+          3632
+        ]
+      },
+      {
+        "action_index": 2673,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2673,
+          3632
+        ]
+      },
+      {
+        "action_index": 2681,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2681,
+          3689
+        ]
+      },
+      {
+        "action_index": 2657,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2657,
+          2942
+        ]
+      },
+      {
+        "action_index": 2649,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2649,
+          2942
+        ]
+      },
+      {
+        "action_index": 2664,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2664,
+          3632
+        ]
+      },
+      {
+        "action_index": 2674,
+        "safe_continuation": true,
+        "checked": 2,
+        "witness": [
+          2674,
+          3641
+        ]
+      },
+      {
+        "action_index": 2683,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2683,
+          3827
+        ]
+      },
+      {
+        "action_index": 2672,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2672,
+          3641
+        ]
+      },
+      {
+        "action_index": 2658,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2658,
+          2942
+        ]
+      },
+      {
+        "action_index": 2651,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2651,
+          2942
+        ]
+      },
+      {
+        "action_index": 2656,
+        "safe_continuation": true,
+        "checked": 4,
+        "witness": [
+          2656,
+          2942
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-166298d6515ebf13",
+    "actions": [
+      {
+        "action_index": 2137,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2137,
+          1617
+        ]
+      },
+      {
+        "action_index": 2129,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2129,
+          1097
+        ]
+      },
+      {
+        "action_index": 2153,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2153,
+          2592
+        ]
+      },
+      {
+        "action_index": 2144,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2144,
+          2072
+        ]
+      },
+      {
+        "action_index": 2146,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2146,
+          2202
+        ]
+      },
+      {
+        "action_index": 2147,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2147,
+          2267
+        ]
+      },
+      {
+        "action_index": 2592,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2592,
+          2072
+        ]
+      },
+      {
+        "action_index": 2608,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2608,
+          2137
+        ]
+      },
+      {
+        "action_index": 2601,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2601,
+          2137
+        ]
+      },
+      {
+        "action_index": 3177,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3177,
+          2137
+        ]
+      },
+      {
+        "action_index": 3193,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3193,
+          2137
+        ]
+      },
+      {
+        "action_index": 3184,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3184,
+          2137
+        ]
+      },
+      {
+        "action_index": 3186,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3186,
+          2137
+        ]
+      },
+      {
+        "action_index": 3178,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3178,
+          2137
+        ]
+      },
+      {
+        "action_index": 3171,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3171,
+          2137
+        ]
+      },
+      {
+        "action_index": 3298,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3298,
+          2137
+        ]
+      },
+      {
+        "action_index": 3300,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3300,
+          2137
+        ]
+      },
+      {
+        "action_index": 3305,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3305,
+          2137
+        ]
+      },
+      {
+        "action_index": 3309,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3309,
+          2137
+        ]
+      },
+      {
+        "action_index": 3321,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3321,
+          2137
+        ]
+      },
+      {
+        "action_index": 3325,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3325,
+          2137
+        ]
+      },
+      {
+        "action_index": 3632,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3632,
+          2137
+        ]
+      },
+      {
+        "action_index": 3641,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3641,
+          2137
+        ]
+      },
+      {
+        "action_index": 3762,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3762,
+          2137
+        ]
+      },
+      {
+        "action_index": 3754,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3754,
+          2137
+        ]
+      },
+      {
+        "action_index": 3746,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3746,
+          2137
+        ]
+      },
+      {
+        "action_index": 3769,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3769,
+          2137
+        ]
+      },
+      {
+        "action_index": 3771,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3771,
+          2137
+        ]
+      },
+      {
+        "action_index": 3772,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3772,
+          2137
+        ]
+      },
+      {
+        "action_index": 3773,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3773,
+          2137
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-b1dd9c9724864cd5",
+    "actions": [
+      {
+        "action_index": 3762,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3762,
+          3632
+        ]
+      },
+      {
+        "action_index": 3754,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3754,
+          3632
+        ]
+      },
+      {
+        "action_index": 3746,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3746,
+          3632
+        ]
+      },
+      {
+        "action_index": 3771,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3771,
+          3836
+        ]
+      },
+      {
+        "action_index": 3772,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3772,
+          3892
+        ]
+      },
+      {
+        "action_index": 3773,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3773,
+          3957
+        ]
+      },
+      {
+        "action_index": 3769,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3769,
+          3706
+        ]
+      },
+      {
+        "action_index": 3632,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3632,
+          3762
+        ]
+      },
+      {
+        "action_index": 3641,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3641,
+          3762
+        ]
+      },
+      {
+        "action_index": 3325,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3325,
+          3959
+        ]
+      },
+      {
+        "action_index": 3321,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3321,
+          3762
+        ]
+      },
+      {
+        "action_index": 3309,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3309,
+          3762
+        ]
+      },
+      {
+        "action_index": 3305,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3305,
+          3762
+        ]
+      },
+      {
+        "action_index": 3300,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3300,
+          3762
+        ]
+      },
+      {
+        "action_index": 3298,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3298,
+          3762
+        ]
+      },
+      {
+        "action_index": 3193,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3193,
+          3762
+        ]
+      },
+      {
+        "action_index": 3177,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3177,
+          3762
+        ]
+      },
+      {
+        "action_index": 3186,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3186,
+          3771
+        ]
+      },
+      {
+        "action_index": 3184,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3184,
+          3762
+        ]
+      },
+      {
+        "action_index": 3178,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3178,
+          3762
+        ]
+      },
+      {
+        "action_index": 3171,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3171,
+          3762
+        ]
+      },
+      {
+        "action_index": 2608,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2608,
+          3762
+        ]
+      },
+      {
+        "action_index": 2592,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2592,
+          3762
+        ]
+      },
+      {
+        "action_index": 2601,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2601,
+          3762
+        ]
+      },
+      {
+        "action_index": 2153,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2153,
+          3762
+        ]
+      },
+      {
+        "action_index": 2137,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2137,
+          3762
+        ]
+      },
+      {
+        "action_index": 2129,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2129,
+          3762
+        ]
+      },
+      {
+        "action_index": 2146,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2146,
+          3762
+        ]
+      },
+      {
+        "action_index": 2147,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2147,
+          3762
+        ]
+      },
+      {
+        "action_index": 2144,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2144,
+          3762
+        ]
+      }
+    ]
+  },
+  {
+    "position_id": "p-5b1ccca88bfc3a67",
+    "actions": [
+      {
+        "action_index": 1747,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1747,
+          1227
+        ]
+      },
+      {
+        "action_index": 1739,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1739,
+          707
+        ]
+      },
+      {
+        "action_index": 1763,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1763,
+          2267
+        ]
+      },
+      {
+        "action_index": 1771,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1771,
+          2657
+        ]
+      },
+      {
+        "action_index": 1754,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1754,
+          1682
+        ]
+      },
+      {
+        "action_index": 1753,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1753,
+          1617
+        ]
+      },
+      {
+        "action_index": 1756,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1756,
+          1812
+        ]
+      },
+      {
+        "action_index": 1757,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1757,
+          1877
+        ]
+      },
+      {
+        "action_index": 1746,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1746,
+          1162
+        ]
+      },
+      {
+        "action_index": 1737,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1737,
+          577
+        ]
+      },
+      {
+        "action_index": 1748,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1748,
+          1292
+        ]
+      },
+      {
+        "action_index": 1741,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1741,
+          837
+        ]
+      },
+      {
+        "action_index": 1762,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1762,
+          2202
+        ]
+      },
+      {
+        "action_index": 1764,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1764,
+          2332
+        ]
+      },
+      {
+        "action_index": 1773,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          1773,
+          2657
+        ]
+      },
+      {
+        "action_index": 2657,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2657,
+          1747
+        ]
+      },
+      {
+        "action_index": 2664,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2664,
+          1747
+        ]
+      },
+      {
+        "action_index": 2666,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          2666,
+          1747
+        ]
+      },
+      {
+        "action_index": 3193,
+        "safe_continuation": true,
+        "checked": 20,
+        "witness": [
+          3193,
+          3697
+        ]
+      },
+      {
+        "action_index": 3184,
+        "safe_continuation": true,
+        "checked": 22,
+        "witness": [
+          3184,
+          3121
+        ]
+      },
+      {
+        "action_index": 3186,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3186,
+          1747
+        ]
+      },
+      {
+        "action_index": 3176,
+        "safe_continuation": true,
+        "checked": 18,
+        "witness": [
+          3176,
+          2593
+        ]
+      },
+      {
+        "action_index": 3178,
+        "safe_continuation": true,
+        "checked": 1,
+        "witness": [
+          3178,
+          1747
+        ]
+      },
+      {
+        "action_index": 3192,
+        "safe_continuation": true,
+        "checked": 22,
+        "witness": [
+          3192,
+          3633
+        ]
+      },
+      {
+        "action_index": 3194,
+        "safe_continuation": true,
+        "checked": 20,
+        "witness": [
+          3194,
+          3762
+        ]
+      }
+    ]
+  }
+]

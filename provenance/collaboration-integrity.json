@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Artifact hash bindings; not a new playing-strength test or fresh certificate run",
+  "immutable_pins": 51,
+  "teacher_labels": 32,
+  "constructed_curriculum_states": 224,
+  "source_limitations": [
+    {
+      "packet": "packet0001",
+      "historical_validator_sha256": "c74610db16497fe4888b3a55cdcdca137330981c4e7ea85b3c45822d3c938d4a",
+      "qualification": "Historical validator source not available; current source is separately hash-bound."
+    },
+    {
+      "packet": "packet0002",
+      "historical_validator_sha256": "c74610db16497fe4888b3a55cdcdca137330981c4e7ea85b3c45822d3c938d4a",
+      "qualification": "Historical validator source not available; current source is separately hash-bound."
+    }
+  ]
+}
