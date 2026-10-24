@@ -1,0 +1,1 @@
+{"main_args": ["--ext-frac", "0.08", "--late-weight", "3"], "variant_args": null, "note": "main: late-game phase weighting x3/x6 + ext 8% (site analysis: gen09/gen10 late-game value MSE 0.95/1.33 vs gen07 0.78)", "gate": 0.52}

@@ -1,0 +1,1 @@
+{"actor_workers":24,"arena_workers":24,"selfplay_workers":24,"selfplay_args":["--full-sims","250","--full-prob","0.3","--restart-file","archive/hard_states.npz","--restart-prob","0.35"],"note":"Opus actor/learner read this before every batch/gate; Codex may lower actor_workers when it needs cores"}

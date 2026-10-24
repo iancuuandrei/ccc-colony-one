@@ -1,0 +1,21 @@
+{
+  "base": "ckpt\\gen06-endgame.onnx",
+  "base_sha256": "123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac",
+  "output": "threepiece\\gen06-endgame-3p.onnx",
+  "sha256": "4ce13e390698d1841018f4ced4b4f6f82bebde17cbb7cf0fdeaa0dd97bf3de94",
+  "bytes": 1531995,
+  "proof": "threepiece\\gen06-endgame-3p.proof.onnx",
+  "proof_sha256": "4236ac3e91972cfb9b469fa8b5095c3f7b7b24ad3d4c968dcd424b8904e21cd8",
+  "base_nodes": 696,
+  "added_nodes": 51,
+  "total_nodes": 747,
+  "added_initializers": 21,
+  "total_initializers": 268,
+  "added_weight_bytes": 49904,
+  "opset": 17,
+  "bonus": 30.0,
+  "win_value": 0.99,
+  "builder_sha256": "ff94e107e42ecc1955bbe4f9e5ca352a7c631740b22a3ff617f07a46982b74e3",
+  "helper": "codex/endgame/three_piece_certificate.py",
+  "helper_sha256": "c97f7dc7ff2823d9a731a363fb1d8ac7907c379e5ba9ae523e165d8841d4f9f2"
+}

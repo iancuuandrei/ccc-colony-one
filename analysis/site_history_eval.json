@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "games": 28,
+  "wins": 14,
+  "by_side": {
+   "CYAN": "8/14",
+   "MAGENTA": "6/14"
+  },
+  "mean_plies_win": 38.714285714285715,
+  "mean_plies_loss": 58.142857142857146,
+  "by_opponent": {
+   "ConfusedMatrix": "0/1",
+   "66.67 percent AC on TC 100": "1/4",
+   "(unnamed)": "5/5",
+   "Acica": "1/4",
+   "404 Brain Not Found (erased by claude)": "1/7",
+   "ByteM3 Pro": "1/2",
+   "placeholder-htbluva": "1/1",
+   "KriSSu09": "1/1",
+   "achilary": "2/2",
+   "BluePhi09": "1/1"
+  }
+ },
+ "positions": 1356,
+ "positions_by_phase": {
+  "r1-8": 826,
+  "r9-16": 448,
+  "r17+": 82
+ },
+ "value_mse_vs_true_outcome": {
+  "gen07": {
+   "all": 0.662,
+   "r1-8": 0.82,
+   "r9-16": 0.351,
+   "r17+": 0.78
+  },
+  "gen09": {
+   "all": 0.651,
+   "r1-8": 0.758,
+   "r9-16": 0.4,
+   "r17+": 0.95
+  },
+  "gen10": {
+   "all": 0.673,
+   "r1-8": 0.767,
+   "r9-16": 0.379,
+   "r17+": 1.329
+  },
+  "gen12": {
+   "all": 0.643,
+   "r1-8": 0.735,
+   "r9-16": 0.334,
+   "r17+": 1.4
+  },
+  "E5": {
+   "all": 0.62,
+   "r1-8": 0.764,
+   "r9-16": 0.337,
+   "r17+": 0.713
+  }
+ }
+}

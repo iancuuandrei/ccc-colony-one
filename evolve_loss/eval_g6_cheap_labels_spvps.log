@@ -1,0 +1,21 @@
+{
+ "generation": "g6_cheap",
+ "rule": "Port-friendly subset of g5 via cert.cert_loss(two_ply=False): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> only Kernel-only movers (8x8 Kernel tree). losing_final = bare-Kernels | shrink | EW level 3 | EBK.",
+ "labels": "labels_spvps.npz",
+ "positions": 399968,
+ "bruteforce_lost": 9798,
+ "flagged": 9383,
+ "violations": 0,
+ "coverage": 0.9576,
+ "seconds": 164.8,
+ "by_actions_left": {
+  "1": {
+   "lost": 5934,
+   "flagged": 5934
+  },
+  "2": {
+   "lost": 3864,
+   "flagged": 3449
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "dirs": [
+  "vps_gen09-endgame_1792773269",
+  "sp_gen10-endgame_1792773492",
+  "vps_gen09-endgame_1792773478",
+  "sp_gen10-endgame_1792773669",
+  "vps_gen10-endgame_1792773687",
+  "sp_gen10-endgame_1792773930",
+  "vps_gen10-endgame_1792773899",
+  "sp_gen10-endgame_1792774076",
+  "vps_gen10-endgame_1792774123",
+  "sp_gen10-endgame_1792774229",
+  "vps_gen10-endgame_1792774331",
+  "sp_gen10-endgame_1792774408"
+ ],
+ "regret_states": 26532,
+ "site_states": 6017,
+ "uncertain_states": 15000,
+ "late_states": 15000,
+ "min_regret": 0.8,
+ "mean_regret_kept": 1.1702195405960083
+}

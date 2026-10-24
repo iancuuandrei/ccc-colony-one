@@ -1,0 +1,11 @@
+{"arch": "cnn", "cfg": {"channels": 48, "blocks": 5, "emb": 32}, "params": 305399, "rows": 208195, "ext_rows": 2947, "ext_per_batch": 20, "holdout_rows": 4158, "holdout_files": ["data/sp_gen05-endgame_1792768409/chunk0001.npz"]}
+/mnt/d/dev/CCC-OMNI/workspace/colony-one-level4/arch_attn/train_arch.py:137: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  rec = {'step': step + 1, 'policy_kl': float(pl), 'value_mse': float(vl), 'aux': float(al),
+{"step": 500, "policy_kl": 0.5603615641593933, "value_mse": 0.4627644121646881, "aux": 0.13240720331668854, "sec": 39.1, "hold_policy_kl": 0.593198682948558, "hold_value_mse": 0.45155718838038955}
+{"step": 1000, "policy_kl": 0.4540937840938568, "value_mse": 0.43743547797203064, "aux": 0.10266299545764923, "sec": 92.9, "hold_policy_kl": 0.4950171266183673, "hold_value_mse": 0.41292361521617676}
+{"step": 1500, "policy_kl": 0.5348262786865234, "value_mse": 0.43916571140289307, "aux": 0.07892634719610214, "sec": 108.5, "hold_policy_kl": 0.43638924858679545, "hold_value_mse": 0.4121231639138663}
+{"step": 2000, "policy_kl": 0.405937135219574, "value_mse": 0.4127916097640991, "aux": 0.07858794927597046, "sec": 124.9, "hold_policy_kl": 0.4051434036099514, "hold_value_mse": 0.41211813103413}
+{"step": 2500, "policy_kl": 0.37752217054367065, "value_mse": 0.39410096406936646, "aux": 0.08050210773944855, "sec": 145.6, "hold_policy_kl": 0.38066046708452067, "hold_value_mse": 0.3954358581971411}
+{"step": 3000, "policy_kl": 0.4096863567829132, "value_mse": 0.3649594783782959, "aux": 0.0776849016547203, "sec": 171.3, "hold_policy_kl": 0.37184575806320735, "hold_value_mse": 0.38847114708401825}
+{"saved": "arch_attn/ckpt_cnn.pt", "onnx": "arch_attn/ckpt_cnn.onnx", "final": {"step": 3000, "policy_kl": 0.4096863567829132, "value_mse": 0.3649594783782959, "aux": 0.0776849016547203, "sec": 171.3, "hold_policy_kl": 0.37184575806320735, "hold_value_mse": 0.38847114708401825}, "train_sec": 185.6}

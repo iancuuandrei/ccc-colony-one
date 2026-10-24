@@ -1,0 +1,21 @@
+{
+ "generation": "g4_full",
+ "rule": "g3, plus for actions_left == 2 with own non-Kernel pieces: for every legal first action slot (none winning, at least one legal) the successor satisfies the actions_left == 1 one-ply certificate (76 x 76 slots).",
+ "labels": "labels_spvps.npz",
+ "positions": 399968,
+ "bruteforce_lost": 9798,
+ "flagged": 9765,
+ "violations": 0,
+ "coverage": 0.9966,
+ "seconds": 298.1,
+ "by_actions_left": {
+  "1": {
+   "lost": 5934,
+   "flagged": 5908
+  },
+  "2": {
+   "lost": 3864,
+   "flagged": 3857
+  }
+ }
+}

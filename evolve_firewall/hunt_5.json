@@ -1,0 +1,47 @@
+{
+ "generated": 120000,
+ "flagged_any": 61085,
+ "seconds_gen": 582.6,
+ "seconds_oracle": 42.2,
+ "gens": {
+  "gen1": {
+   "LOSS_C": {
+    "flagged": 5737,
+    "checked": 5737,
+    "violations": 1
+   },
+   "LOSS_M": {
+    "flagged": 1062,
+    "checked": 1062,
+    "violations": 0
+   },
+   "WIN_M": {
+    "flagged": 44216,
+    "checked": 44216,
+    "violations": 0
+   }
+  },
+  "gen7": {
+   "LOSS_C7": {
+    "flagged": 15282,
+    "checked": 15282,
+    "violations": 0
+   },
+   "LOSS_M6": {
+    "flagged": 1409,
+    "checked": 1409,
+    "violations": 0
+   },
+   "WIN_M6": {
+    "flagged": 43867,
+    "checked": 43867,
+    "violations": 0
+   },
+   "WIN_C6": {
+    "flagged": 142,
+    "checked": 142,
+    "violations": 0
+   }
+  }
+ }
+}

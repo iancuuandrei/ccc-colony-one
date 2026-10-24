@@ -31,7 +31,7 @@ def chunk_files(dirs, holdout_last):
         return [f for f in files if f != last], [last]
     return files, []
 
-KEYS = ('obs', 'pidx', 'pval', 'pval_g', 'z', 'q', 'has_pol', 'q_valid', 'has_value', 'left')
+KEYS = ('obs', 'pidx', 'pval', 'pval_g', 'z', 'q', 'has_pol', 'q_valid', 'has_value', 'has_length', 'left')
 
 def apply_overrides(d, files_rows):
     """Codex authoritative policy overrides: exact float16 obs SHA256 -> certified pidx/pval,
@@ -55,6 +55,7 @@ def apply_overrides(d, files_rows):
             if hit and folder in hit[0]:
                 rep = hit[1]
                 d['pidx'][r] = np.asarray(rep['pidx'], d['pidx'].dtype); d['pval'][r] = np.asarray(rep['pval'], d['pval'].dtype)
+                d['pval_g'][r] = np.asarray(rep.get('pval_g', rep['pval']), d['pval_g'].dtype)   # certified target for every mix
                 d['has_pol'][r] = True; d['has_value'][r] = False; d['q_valid'][r] = False
                 n += 1
     return n
@@ -72,6 +73,8 @@ def load(files):
         if 'has_value' not in d:  # policy-only rows (e.g. UNKNOWN-value curriculum) set this False
             d['has_value'] = np.ones(m, bool)
         d['is_ext'] = np.full(m, Path(f).parent.name.startswith('ext_'), bool)
+        if 'has_length' not in d:   # real self-play has true lengths; external rows only when declared
+            d['has_length'] = np.full(m, not d['is_ext'][0], bool)
         # Next-mover policy target (KataGo opponent-policy aux): row i -> row i+1 of the same game.
         # If the mover changes, map indices through the 180-degree canonical rotation (s -> 63 - s).
         npidx = np.full_like(d['pidx'], -1); npval = np.zeros_like(d['pval']); has_n = np.zeros(m, bool)
@@ -121,6 +124,7 @@ def main():
     p.add_argument('--blocks', type=int, default=5)
     p.add_argument('--emb', type=int, default=32)
     p.add_argument('--ext-frac', type=float, default=0.04, help='batch share drawn from data/ext_* rows')
+    p.add_argument('--late-weight', type=float, default=1.0, help='sampling weight of rounds 9-16 (x2 for 17+); site analysis: late-game values overfit')
     p.add_argument('--policy-mix', type=float, default=0.0, help='share of the Gumbel completed-Q target in the policy target')
     p.add_argument('--opp-aux', type=float, default=0.0, help='weight of next-mover policy aux loss (KataGo: 0.15)')
     p.add_argument('--surprise', type=float, default=0.0, help='policy-surprise weighting share (KataGo-style, e.g. 0.5)')
@@ -135,10 +139,15 @@ def main():
     obs = T('obs', torch.float16); pidx = T('pidx', torch.int16); pval = T('pval', torch.float16)
     npidx = T('npidx', torch.int16); npval = T('npval', torch.float16); hasn = T('has_npol', torch.float32)
     z = T('z', torch.float32); q = T('q', torch.float32); qv = T('q_valid', torch.float32); has = T('has_pol', torch.bool); left = T('left', torch.float32)
-    hv = T('has_value', torch.float32)
+    hv = T('has_value', torch.float32); hl_ = T('has_length', torch.float32)
     ext_idx = torch.nonzero(T('is_ext', torch.bool)).reshape(-1)
     own_idx = torch.nonzero(~T('is_ext', torch.bool)).reshape(-1)
     n_ext = int(round(a.batch * a.ext_frac)) if len(ext_idx) else 0
+    # Phase-balanced sampling of self-play rows: locked squares 0 -> rounds 1-8, 28 -> 9-16, >=48 -> 17+.
+    nlock = obs[:, 12][own_idx].float().sum((1, 2))
+    own_w = torch.where(nlock < 1, 1.0, torch.where(nlock < 40, a.late_weight, 2 * a.late_weight)).to(dev)
+    print(json.dumps({'phase_rows': [int((nlock < 1).sum()), int(((nlock >= 1) & (nlock < 40)).sum()), int((nlock >= 40).sum())],
+                      'late_weight': a.late_weight}), flush=True)
     print(json.dumps({'rows': n, 'ext_rows': int(len(ext_idx)), 'ext_per_batch': n_ext}), flush=True)
     H = None
     if hold_files:
@@ -175,9 +184,11 @@ def main():
         logp = F.log_softmax(lg, 1)
         return -(pv * logp).sum(1) + (pv * torch.log(pv.clamp(min=1e-8))).sum(1)
 
-    def losses(o, pi, pv, zz, qq, hh, ll, qvv, hvv=None, train=True, npi=None, npv=None, hn=None):
+    def losses(o, pi, pv, zz, qq, hh, ll, qvv, hvv=None, train=True, npi=None, npv=None, hn=None, hlv=None):
         if hvv is None:
             hvv = torch.ones_like(zz)
+        if hlv is None:
+            hlv = hvv
         pi = pi.long(); pv = pv.float()
         use_next = train and a.opp_aux > 0 and npi is not None
         out = net.forward_train(o, with_next=use_next)
@@ -195,20 +206,23 @@ def main():
         mix = a.qmix * qvv
         tgt = (1 - mix) * zz + mix * qq
         vl = (((v - tgt) ** 2) * hvv).sum() / hvv.sum().clamp(min=1)
-        al = ((torch.tanh(aux[:, 0]) - qq) ** 2 * qvv).sum() / qvv.sum().clamp(min=1)             + 0.05 * (((aux[:, 1] - torch.log(ll)) ** 2) * hvv).sum() / hvv.sum().clamp(min=1)
+        al = ((torch.tanh(aux[:, 0]) - qq) ** 2 * qvv).sum() / qvv.sum().clamp(min=1)             + 0.05 * (((aux[:, 1] - torch.log(ll.clamp(min=1))) ** 2) * hlv).sum() / hlv.sum().clamp(min=1)
         return pl, vl, al
 
     t0 = time.time(); log = []
     for step in range(a.steps):
         net.train()
-        i = own_idx[torch.randint(0, len(own_idx), (a.batch - n_ext,), device=dev)]
+        if a.late_weight != 1.0:
+            i = own_idx[torch.multinomial(own_w, a.batch - n_ext, replacement=True)]
+        else:
+            i = own_idx[torch.randint(0, len(own_idx), (a.batch - n_ext,), device=dev)]
         if n_ext:
             i = torch.cat([i, ext_idx[torch.randint(0, len(ext_idx), (n_ext,), device=dev)]])
         t = torch.randint(0, 8, (a.batch,), device=dev)
         o, pi = augment(obs[i], pidx[i], t)
         npi = map_idx(npidx[i], maps[t]) if a.opp_aux > 0 else None
         pl, vl, al = losses(o, pi, pval[i], z[i], q[i], has[i].float(), left[i], qv[i], hv[i],
-                            npi=npi, npv=npval[i] if npi is not None else None, hn=hasn[i])
+                            npi=npi, npv=npval[i] if npi is not None else None, hn=hasn[i], hlv=hl_[i])
         loss = pl + 1.5 * vl + 0.25 * al
         opt.zero_grad(set_to_none=True)
         loss.backward()
@@ -225,7 +239,8 @@ def main():
                         sl = slice(s, s + 4096)
                         o = H['obs'][sl].float(); w = H['has_pol'][sl].float()
                         pl2, vl2, _ = losses(o, H['pidx'][sl].long(), H['pval'][sl].float(), H['z'][sl],
-                                             H['q'][sl], w, H['left'][sl], H['q_valid'][sl].float(), H['has_value'][sl].float(), train=False)
+                                             H['q'][sl], w, H['left'][sl], H['q_valid'][sl].float(), H['has_value'][sl].float(), train=False,
+                                             hlv=H['has_length'][sl].float())
                         k = len(H['z'][sl]); kp = float(w.sum())
                         hl[0] += float(pl2) * kp; hl[1] += float(vl2) * k; cnt += k; pcnt += kp
                 rec.update(hold_policy_kl=hl[0] / max(pcnt, 1), hold_value_mse=hl[1] / cnt)

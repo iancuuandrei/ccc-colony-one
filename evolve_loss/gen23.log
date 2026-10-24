@@ -1,0 +1,42 @@
+{
+ "generation": "g2_konly_ew3",
+ "rule": "g1 with the enemy-kill test EW extended: R3e discovered attack (an enemy blocker relocates off the slider-Kernel segment, K unguarded after) and R4e (an enemy Daemon/Trace shot removes our only blocker of a slider line; K unguarded after).",
+ "labels": "labels_spvps.npz",
+ "positions": 399968,
+ "bruteforce_lost": 9798,
+ "flagged": 8001,
+ "violations": 0,
+ "coverage": 0.8166,
+ "seconds": 327.6,
+ "by_actions_left": {
+  "1": {
+   "lost": 5934,
+   "flagged": 4554
+  },
+  "2": {
+   "lost": 3864,
+   "flagged": 3447
+  }
+ }
+}
+{
+ "generation": "g3_konly_plus_oneply",
+ "rule": "g2, plus for actions_left == 1 with own non-Kernel pieces: enumerate all 76 fixed (piece type, offset) action slots exactly as rules.py; no slot wins, some slot is legal, and every legal slot's successor satisfies losing_final (EW level 3).",
+ "labels": "labels_spvps.npz",
+ "positions": 399968,
+ "bruteforce_lost": 9798,
+ "flagged": 9355,
+ "violations": 0,
+ "coverage": 0.9548,
+ "seconds": 438.3,
+ "by_actions_left": {
+  "1": {
+   "lost": 5934,
+   "flagged": 5908
+  },
+  "2": {
+   "lost": 3864,
+   "flagged": 3447
+  }
+ }
+}

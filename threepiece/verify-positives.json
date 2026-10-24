@@ -1,0 +1,38 @@
+{
+  "mode": "positives",
+  "specs": 344000,
+  "counts": {
+    "engine_checked_actions": 559600,
+    "engine_checked_states": 344000,
+    "engine_wins": 559600,
+    "helper_first_actions": 559600,
+    "helper_positive": 344000,
+    "states": 344000,
+    "wrapper_bonused_actions": 559600,
+    "wrapper_flagged": 344000
+  },
+  "tags": {
+    "DAEMON/CYAN/al1": 9472,
+    "DAEMON/CYAN/al2": 15520,
+    "DAEMON/MAGENTA/al1": 17060,
+    "DAEMON/MAGENTA/al2": 26748,
+    "EXPLOIT/CYAN/al1": 9472,
+    "EXPLOIT/CYAN/al2": 15520,
+    "EXPLOIT/MAGENTA/al1": 17060,
+    "EXPLOIT/MAGENTA/al2": 26748,
+    "ICE/CYAN/al1": 9472,
+    "ICE/CYAN/al2": 15520,
+    "ICE/MAGENTA/al1": 17060,
+    "ICE/MAGENTA/al2": 26748,
+    "PING/CYAN/al1": 9472,
+    "PING/CYAN/al2": 15520,
+    "PING/MAGENTA/al1": 17060,
+    "PING/MAGENTA/al2": 26748,
+    "TRACE/CYAN/al1": 9472,
+    "TRACE/CYAN/al2": 15520,
+    "TRACE/MAGENTA/al1": 17060,
+    "TRACE/MAGENTA/al2": 26748
+  },
+  "mismatches": [],
+  "seconds": 338.35998940467834
+}

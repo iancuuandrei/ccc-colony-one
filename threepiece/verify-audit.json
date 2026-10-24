@@ -1,0 +1,55 @@
+{
+  "mode": "audit",
+  "audit_status": "PASS_SCOPED_INDEPENDENT_AUDIT",
+  "audit_fixture_states": 653,
+  "audit_positive": 406,
+  "audit_negative": 247,
+  "audit_paths": 767,
+  "recorded_calls": 655,
+  "counts": {
+    "states": 653,
+    "helper_positive": 408,
+    "helper_first_actions": 770,
+    "wrapper_flagged": 408,
+    "wrapper_bonused_actions": 770,
+    "engine_checked_actions": 770,
+    "engine_wins": 770,
+    "engine_checked_states": 408,
+    "nonfamily": 245,
+    "nonfamily_bitwise_identical": 245
+  },
+  "terminated_fixtures_outside_observation_domain": [
+    {
+      "fixture": "already-terminal-CYAN",
+      "wrapper_flag": true
+    },
+    {
+      "fixture": "already-terminal-MAGENTA",
+      "wrapper_flag": true
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "witness-9928",
+      "helper": [
+        2658
+      ],
+      "wrapper": [
+        2658
+      ]
+    },
+    {
+      "name": "witness-9366",
+      "helper": [
+        2723,
+        2731
+      ],
+      "wrapper": [
+        2723,
+        2731
+      ]
+    }
+  ],
+  "mismatches": [],
+  "seconds": 7.4347617626190186
+}

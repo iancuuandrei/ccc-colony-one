@@ -1,118 +1,248 @@
-# Colony: One — private Level 4 collaboration
+# Colony: One — a policy/value network for the Level 4 tournament
 
-This private repository snapshots the current ONNX submission, baselines, training scripts, supplied referee environment, task PDF/scene and bounded evidence. It is independent of CCC-OMNI infrastructure.
+This repository contains our entry for **Level 4 of the Cloudflight Coding Contest "Colony: One"** (23 October 2026). We submitted one ONNX file that judges positions, and the organisers' **fixed** PUCT tree search (100 simulations per action) used it to play a live Glicko-2 tournament against the other teams.
 
-The frozen six-file GEN07 review starts at [`user-six-gen07-handoff.md`](codex/research/user-six-gen07-handoff.md), SHA-256 `2bb467969847907f27c04a447899ff34ced9e24f9bcf65a696ff69c418442241`. All six games replay through 386 actions. Counterfactual GEN07 queries use fixed hash `8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd`: four distinct demonstrated corrections are missed across five games. These are bounded defenses, not eventual wins or historical model attribution. 19101 and 19490 share an ending and must be linked for splitting; 19490's user side remains UNKNOWN. The deeper 19040 miner enumerations have review but no independent re-enumeration; the earliest avoidable commitment remains UNKNOWN. GEN06 remains deployed; this review adds no GEN07 model or deployment claim.
+The final uploaded model is **gen12** (`release/gen12/model.onnx`, SHA-256 `540cc1b0403fbc10f5b90a4d71a377c3bd7048084a01ff5a84229eaaa591c1ed`). Over one afternoon we went from a hand-built evaluator to a self-play-trained residual network with exact tactical rules built into the graph:
 
-Deep19490's three-row proposal is explicitly **STAGED, NOT TRAINING RELEASE** under `codex/synthetic/validation/deep19490-stage/`, outside live `data/ext_*`. The two 19255 safe-child reports also remain stage-only with zero live rows/overrides added. Their old PENDING field is superseded by `19255-safe-children-independent-receipt.json`: all 13 second actions and 7,372 complete enemy turns passed the independent bounded check. No eventual values are inferred from survival.
+- **Starting point:** a hand-built evaluator that beat the Level 3 model 66% of the time.
+- **First neural model:** won 388 of 400 games against our best hand-built model.
+- **gen12:** won 69% against gen09, the model that was live on the site before it, in 400 paired games.
 
-GEN06 is the **current deployed release**. The upload owner immediately verified SHA-256 `123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac`, selected `release/gen06/model.onnx`, clicked DEPLOY and observed explicit platform acceptance at **18:38 Europe/Bucharest on 2026-10-23**. Its size is 1,479,383 bytes with 696 nodes. Native Linux graph, hard caps, Level 4 check and official validator reports PASS. Independent final scores are 335/400 against GEN03 and 186/200 against fixed GEN02; all 600 histories legally replay PASS. Saved Opus gate replay is 297/400 against GEN05. Final GEN05 comparison artifacts (286/400 against GEN03 and 172/200 against GEN02, all 600 replay PASS) remain archived separately. No sustained live rating improvement is claimed.
+This README explains what we built, which papers each idea came from, and what the measurements showed, including what did **not** work. The older, very detailed provenance notes are in [`docs/PROVENANCE.md`](docs/PROVENANCE.md).
 
-GEN06 frozen 48-state decisions retain zero certified failures; its 22-site diagnostics reduce loss failures 7→6 and missed wins 7→1, with seven winning follow-throughs checked. This is bounded diagnostic evidence, not complete tactical remediation. GEN06 source-current snapshots were captured later and are not asserted to be the exact historical build source. The override-integration audit names earlier train/learner hashes that differ from this capture; actor matches. The integrity report exposes those differences.
+---
 
-`data/ext_site_deep10910_v1/` releases two independently verified rows: the actual pre40 state has certified value −1 and no policy label; its legal counterfactual has a bounded-horizon safety policy and an UNKNOWN full-game value. Both disable Q supervision. Source-game aliases stay together, frozen holdout collisions are zero, and seven unclassified earlier actions remain UNKNOWN. Proof, packet and loader-audit hashes are preserved. This does not assert the data trained any released generation.
+## 1. The problem in one paragraph
 
-Export (5) is finalized. Only its stable bounded manifest, summary and provenance/identity receipts are shared here: 111 local complete episodes/3,777 rows plus seven external episode aliases/328 rows, totaling **118 unique episodes/4,105 rows**. Manifest SHA-256 is `50ce9af40cd67e8e7c27addd300dbf3dab00625daff47f37ed42b02169624b39`. Existing external numerical rows were preserved; fresh export identities supersede older inferred user sides. Raw bulk exports and full episode chunks are excluded. Played moves and moves in won games are not automatically policy labels; actual protocol winners determine mover-perspective outcomes. The earlier synthetic-28 quarantine is superseded by the qualified release documented below.
+**The game.**
+- 8×8 board; each side has Ping, Daemon, Exploit, Trace, Ice and a Kernel.
+- Each team plays **two actions per turn**. Capturing an unguarded enemy Kernel wins.
+- Pieces next to their own Kernel act as **bodyguards**: an attack on a guarded Kernel kills one guard instead.
+- A **firewall** locks the outer ring after rounds 8, 16, 24 and 26, destroying whatever stands on it. A bare-Kernels rule settles positions where only the two Kernels are left.
 
-## Artifacts and evidence
+**What we submit.**
+- One ONNX file mapping a canonical `(batch,16,8,8)` observation to 4096 move logits and a side-to-move value in `[-1,1]`.
+- The referee runs its own PUCT search around it: 100 simulations, `c_puct` 1.5, batch 8 with virtual loss, Dirichlet noise, temperature sampling for the first 8 actions.
 
-- `model.onnx` is the **qualified and deployed GEN06 release**, identical to `release/gen06/model.onnx` and `model-gen06.onnx`: 1,479,383 bytes; SHA-256 `123467a930e0598c464ae7694800ad565aeac71680b88dafc5f014bfe7cf50ac`. The importer explicitly reads this named release. Later internal work does not advance this alias. GEN03 is preserved as the previous deployed incumbent, with SHA-256 `0cf937446ba89dc9b5b3652edbcb4025030bc785e924551782f4b2d298ebe96f`.
-- **GEN02 remains the fixed comparison baseline** requested by the user: `release/gen02/model.onnx`, SHA-256 `579d3ec01da7328dc706003b8dcc5eba357bb74902252187e45633ca0595a9a0`. Its checkpoint and exact endgame wrapper provenance are preserved. GEN01 and every earlier named model remain historical artifacts.
-- GEN03 model checkpoint and additional recovery artifact are in `checkpoints/gen03.pt` and `checkpoints/gen03.resume.pt`; extracted configuration is in `provenance/gen03-checkpoint.json`. Recovery itself was not exercised by this sync. Current source may have changed after generation; exact build source is UNKNOWN.
-- `checkpoints/gen01.pt` preserves the small retraining checkpoint (SHA-256 `710a69d2297cf4422b257af313fdfdf3fa12404d8bea82bf46fa560f39bbb239`). Its configuration/arguments are extracted in `provenance/gen01-checkpoint.json`. This enables a model warm start; full optimizer/scheduler/RNG continuation is not established.
-- `model-h1.onnx` remains the 311,345-byte historical heuristic with SHA-256 `0940ddada8c2b761126ffbc5532d3103c3b8cb4eb20d89f7923f70d03f2e8b65`; `build_heuristic.py` is its generator. Named earlier models are preserved.
-- `model-l3.onnx` is the earlier Level 3 baseline; `random.onnx` is the supplied random baseline.
-- `evidence/comparison-h1.json` records a historical local 84/128 (65.6%) result against Level 3. The underlying game histories were unavailable. Its validator ACCEPTED claim conflicts with the later Windows timing rejection in `evidence/h1-validation-windows.txt`; both are preserved.
-- `evidence/gen00-summary.json` records 6,000 generated games and 203,193 positions. Bulk NPZ files are excluded. This does not establish a trained checkpoint.
+**Constraints.**
+- File ≤ 5 MiB; only allow-listed ONNX operators, and all shape/index inputs must be constants.
+- Hard CPU limits: 2 s for the upload check, 15 s per match.
 
-Historically, Andrei explicitly confirmed his GEN03 upload and the upload owner observed site acceptance at 1.41 MiB. GEN06 acceptance is the newer direct upload-owner observation described above and in `provenance/current-release.json`. The UI exposes no stored SHA; identity relies on immediate file hash verification and the selected upload file. No duplicate upload was performed by this sync. Earlier GEN01 and h1 acceptance remain historical observations. Browser screenshots and account state are excluded.
+**The consequence.** **We cannot change the search. We can only make the evaluator smarter** and reshape the logits and value it sees.
 
-GEN03 native Linux graph, hard resource limits, Level 4 check and official validator reports PASS in `codex/validation/gen03-*`. The research review legally replayed its saved **500 games**: 296/400 versus fixed GEN02 and 98/100 versus tactical v2. These replay checks do not regenerate historical searches. Frozen 48-state diagnostics found zero certified move-selection failures for either GEN02 or GEN03; the separate 22 actual-site decisions showed three GEN03 improvements and unresolved failures. The 48 constructed variants are correlated and remain **TEST_ONLY**, never training data. Full bounded results and provenance are in `codex/arena/gen03-tactical-audit/` and `codex/research/evaluation-review.md`.
+---
 
-GEN01 won **63/64** in the fresh independent paired arena against tactical v2, using the exact Level 4 scene and 100 simulations; all 64 histories replayed legally. A separate audit replayed the 400 saved Opus histories and verified the reported 388/400 wins against v2. That historical run did not store its original full engine/model manifest; the independent arena has separate provenance. Native Linux graph, hard resource caps and validator evidence are in `codex/validation/gen01-*`; earlier mounted-path timeouts are retained. These checks qualify their measured scopes only.
+## 2. Final pipeline at a glance
 
-Tactical v1/v2 and other earlier named models remain available with immutable hash pins. The current release alias is GEN06; comparisons continue to use fixed GEN02, and GEN03 remains archived as the prior incumbent. Never infer deployment from an arena win rate or a local PASS.
+```
+              ┌──────────── actors (never stop) ────────────┐
+ PC 24 procs  │ selfplay.py: referee MCTS + current best    │  VPS 16 vCPU (vps_sync.py)
+              │ playout-cap 250/100 sims · 35% hard restarts│  RunPod RTX PRO 6000 (long runs)
+              └───────────────┬─────────────────────────────┘
+                              ▼ data/sp_* · vps_* · ext_* (site games, certificates, teacher rows)
+              ┌──────────── learner.py (GPU, WSL) ──────────┐
+              │ train.py: warm start, ~600k newest positions │
+              │ 8× board symmetry · soft-Z value · overrides │
+              │ main + variant A/B on the same window        │
+              └───────────────┬─────────────────────────────┘
+                              ▼ export → endgame wrapper → final value Clip → check_onnx.py
+              ┌──────────── gate ───────────────────────────┐
+              │ arena.py: 400 paired games vs current best   │
+              │ promote at ≥52%  ·  official validator       │
+              └─────────────────────────────────────────────┘
+```
 
-`codex/arena/` and tactical arena directories contain bounded manifests, summaries and available harness snapshots. Some runs are partial: inspect `complete` and `expected_games` before interpreting rates. Raw game histories remain in the source workspace; replay claims in imported audit files describe that source evidence. `codex/validation/` preserves exact-model reports including Linux PASS and Windows timing failures. `codex/engine_audit/` and `codex/matches/` contain source and bounded diagnostics. Raw site records, account/browser data and bulk self-play files are excluded.
+**Network** (`net.py`):
+- **Exact in-graph features:** 33 feature planes (16 raw + 17 computed with fixed shift matrices). They give each piece's real attack geometry: rays stop at pieces and locked squares, the Daemon shoots adjacent squares and captures at distance 2–3, the Trace has a minimum range of 2.
+- **Trunk:** residual CNN, 48ch×5 blocks for gen01–gen07, then 80ch×6 from big80x6_a onward, with squeeze-excitation.
+- **Policy head:** bilinear from×to over the 4096 moves.
+- **Value head:** value plus training-only side outputs.
+- **Exact win override:** forces value 0.99 and a +30 policy bonus whenever a provably winning tactic exists this turn.
+- **Endgame wrapper:** an exhaustively proved bare-Kernel solver.
+- **Final value Clip:** keeps the value in [−1, 1] against float rounding in the composed graph.
 
-`codex/distillation/` now includes **32 genuine Astra labels** (7 exact wins, 2 exact losses, 23 predictions), packets, schema, independent engine validation, target arrays, student training source and frozen v1/v2 candidates with learning evidence. Compact v2 is a 22-parameter adapter; teacher-agreement gains did not establish stronger play (121/256 against tactical v2), so it was **not promoted**. Student recovery manifests bind executed source snapshots and artifacts. Operational fixture/diagnostic models are excluded.
+---
 
-The historical teacher-ready reports name validator hash `c74610db…`, while the synchronized current validator has subsequently changed. Its original source snapshot is unavailable. Packet, label and target hashes still match those reports; `provenance/collaboration-integrity.json` records this exact limit. No historical validator-source reproduction is claimed.
+## 3. Research used, and how we used it
 
-`codex/synthetic/` contains completed LLM-authored constructed proposals and bounded certified corpora, separate from real games. The current curriculum manifest reports 224 constructed states across 5 motif groups; full-game values remain unknown where explicitly masked. Opening reachability is unproved; symmetry/family siblings belong in the same split. Per-action certification does not prove eventual victory. Reports retain their precise source hashes; duplicate raw validation snapshots are omitted. These synthetic states and Astra labels are **not claimed to have trained GEN01**.
+We worked from a 106-source dossier (`research_inputs/`) plus our own literature checks (`analysis/research.md`, `analysis/research_verify.md`, `analysis/research_consensus_opus.md`). Every idea was adopted or rejected **only by measurement**: 400 paired games at 100 sims, same seeds, both colours.
 
-Larger networks under the 5 MiB budget, incremental comparisons, and analysis of real wins/losses remain ongoing. Losses/hard decisions have priority, while wins also supply evidence; the repository does not claim these ongoing requests are complete.
+### 3.1 Learning loop
 
-`release/gen01/source-current/` freezes the neural scripts captured during this sync, each hash-bound in the manifest. Their exact identity at the historical GEN01 generation build is **UNKNOWN**; checkpoint configuration is stronger evidence than reconstructing unrecorded code history. Root scripts track current collaboration code. Do not confuse the frozen current snapshot with a proven historical build source.
+| Idea | Source | How we used it | Measured result |
+|---|---|---|---|
+| Expert iteration / AlphaZero self-play | Anthony et al. 2017 ([arXiv 1705.08439](https://arxiv.org/abs/1705.08439)); Silver et al. 2018 ([Science](https://doi.org/10.1126/science.aar6404)) | Self-play under the *exact referee search*, distil visit counts into the net, repeat | Every promotion from gen01 to gen12 (table §4) |
+| Playout-cap randomisation | Wu 2019, KataGo ([arXiv 1902.10565](https://arxiv.org/abs/1902.10565)) | 30–35% of moves get a full 250–400-sim search and become policy targets; the rest use 100 sims (same as the referee) and only feed value targets | Kept throughout |
+| Auxiliary heads | KataGo | Training-only heads for root-Q and remaining game length (removed at export, so they cost nothing at inference) | Kept |
+| Opponent-policy aux + policy-surprise weighting | KataGo methods notes | A/B variant on the same data window | **Rejected**: 60.25% vs 70.0% for the plain main line |
+| Soft-Z value targets | Willemsen et al. 2021 ([doi](https://doi.org/10.1007/s00521-021-05928-5)); bootstrapped targets in [arXiv 2609.09094](https://arxiv.org/abs/2609.09094) | Value target = 0.8·z + 0.2·root-Q, using Q only from the learner's own search | 0.5/0.5 → **44.5%**; pure z → **53.75%** (vs 60.25% main). Kept 0.8/0.2 |
+| Replay ratio | *Engineering Efficient Self-Play Chess* ([arXiv 2609.37447](https://arxiv.org/abs/2609.37447)) | Half the steps per cycle | 72.25% vs 74.25%, the same within noise |
+| Gating threshold | Same paper; our power analysis | A 55%/400 gate rejects most real +10–30 Elo steps, so we lowered it to 52% with warm starts | Faster lineage, no regressions seen |
 
-`release/gen03/source-current/` similarly freezes the working scripts captured for this later sync. They may already contain subsequent p2-head changes; they are not asserted to have produced GEN03. New reports and helpers in `codex/research/` are a bounded capture while other workers continued. `research_inputs/` preserves the user-shared dossier and CSV index as untrusted source material, not repository instructions or verified bibliography.
+### 3.2 Getting more information from the same compute
 
-Reviewed small external training snapshots are under `data/ext_astra_policy_v1/` (144 policy-only rows), `data/ext_astra_site_gen02_v1/` (55 rows: 15 actual and 40 constructed; 12 exact values, 43 masked unknown values), and `data/ext_site_tactics_v1/` (certificate-guided policy repairs with proof and override bindings). Full-game unknown values are never interpreted as losses/draws. The first 144 rows have no value/Q supervision. Teacher-authored scenarios, engine certificates and observed replay data keep their distinct authority. Source-game/family grouping and frozen-holdout quarantine still apply. Presence here does not claim these new inputs trained GEN03.
+| Idea | Source | How we used it | Measured result |
+|---|---|---|---|
+| Search control / hard-state restarts | Go-Exploit, Trudeau & Bowling 2023 ([arXiv 2302.12359](https://arxiv.org/abs/2302.12359)); RGSC ([arXiv 2602.20809](https://arxiv.org/abs/2602.20809)) | 20%, later 35%, of games restart from an archive: the states where the search was most wrong (largest \|z − Q\|), every real site position and, at the end, late-game states | gen05, the first generation with restart data, scored **70%** vs gen04 and gen06 **74.25%**. This is correlational, with no clean A/B |
+| Uncertainty-guided branching | Uncertainty-Guided Exploration for AlphaZero, NeurIPS 2025 | States with LCR = 2v(1−v) > 0.48 (i.e. \|q\| < 0.2) added to the restart archive | Part of the restart mix above |
+| Reanalyse | Schrittwieser et al. 2021 ([arXiv 2104.06294](https://arxiv.org/abs/2104.06294)) | Every real tournament position re-searched at 800 sims by the current best, stored as policy-only rows | Real losses enter training with targets better than our original moves |
+| Gumbel completed-Q policy targets | Danihelka et al., ICLR 2022 ([OpenReview](https://openreview.net/forum?id=bERaNdoegnO)) | Offline study on 620 positions (`evolve_targets/`). A 50/50 mix of visits and the completed-Q policy **cut regret by 31–34%** at no search cost. Self-play now stores `pval_g`, and `train.py --policy-mix` uses it | Promising offline. The arena A/B did not finish before the contest ended |
+| Opponent pool | Adversarial-policy results, Wang et al. 2023 ([PMLR](https://proceedings.mlr.press/v202/wang23g.html)) | 20% of self-play games against older models (h1, L3, tactical-v2, earlier generations) | Robustness measure, kept |
+| Verified symmetry augmentation | Metamorphic testing of chess engines (Inf. Softw. Tech. 2023) | All 8 dihedral transforms, after checking that the rules are invariant: 11,112 legal-set checks, 0 mismatches | Kept |
 
-The finalized site-tactics snapshot now has **29 immutable policy chunks**: 11 projections of existing teachers and 18 proof-only uniform targets. The previous 26 chunks remain byte-exact. Manifest SHA-256 is `ecf432d91797181893f28d68e0b20f6e057650a683839eda1276c3fc858996de`; the SINGLE override manifest is `4330e146bbf611bcacbaaac9af8b976878c7ea145887ad73f52e76c53de23822`. Actual fixed-source intake checked 2,490 rows and 11 replacements across three researched-policy folders. Every policy target preserves certified support at mixture coefficients 0, 0.25, 0.5 and 1; value/Q/length masks remain false on these policy-only rows. Coherent six-, 19- and 26-row snapshots and hash receipts remain archived under `training_snapshots/`.
+### 3.3 Exact tactics instead of hoping the net learns them
 
-**The historical length-mask and nonzero-policy_mix failures are now fixed and independently qualified for source `b2d4bdf6…f6bb3`.** Train and holdout gradients retain exact-value supervision, mask unknown lengths and retain known lengths; corrected `pval_g=pval` preserves certificates at all four tested mixture coefficients. Failing historical reports remain preserved. The exact fixed trainer is an evidence snapshot at `source_snapshots/trainer-fixed-b2d4/train.py`; it is not relabeled as a historical GEN06/GEN07 build source. The older root training scripts were not replaced by this bounded evidence sync. Source-specific fixed receipts do not retroactively qualify earlier checkpoints. Mixed-value holdout metric aggregation retains the nonblocking limitation recorded by its qualifier; per-row loss masks passed.
+The referee search is shallow (100 sims, two actions per turn), so we put **proved rules** into the graph. This idea comes from threat-space and proof-number search (Allis 1994; [Go-Moku solved](https://cdn.aaai.org/Symposia/Fall/1993/FS-93-02/FS93-02-001.pdf)) and from MCTS-Solver. Every rule was **verified against engine brute force with zero violations** before it was used.
 
-The newly verified **28-row release** is `data/ext_astra_site_gen05_v1/chunk0000.npz`, SHA-256 `9e0c9989b16589411681cc8eb65e1e969a5fd9ff00a6122d7ffe9cbce764e6e1`. It has 16 exact value labels, 14 policy targets, four observed lengths and 24 independently masked unknown lengths. Engine/source proofs, actual published-path loader and train/holdout gradient receipts are preserved. Constructed opening reachability remains unproved, and source-game aliases/counterfactuals stay together in splits. This publication does not claim any historical model trained these data.
+| Certificate | Statement | Verification |
+|---|---|---|
+| **R1** (Codex) | A legal attack on the enemy Kernel plus guards < actions left means a win this turn | 0 violations / 203,193 positions |
+| **R2** (subagent) | With 2 actions left, a piece relocates and then attacks the unguarded Kernel | 0 violations; R1∪R2 = **2,041 / 2,044** forced kills found in the exported graph |
+| **Bare-Kernel endgame** (Codex, `codex/endgame/`) | Exhaustive solver for positions with only the two Kernels | 44,352 states, 283,648 actions, 0 mismatches on our net |
+| **Three-piece endgame** (`threepiece/`) | A Kernel can force a win against a lone Kernel plus one piece | 344,000 positive states, 559,600 winning actions confirmed by the engine; independent audit PASS |
+| **Forced loss** (`evolve_loss/`) | Sufficient conditions under which the mover cannot avoid losing by the end of the opponent's next turn | g8: **0 violations, 100% coverage** of 5,745 forced losses in a 250k holdout |
+| **Firewall** (`evolve_firewall/`) | The burning ring cannot be escaped in time, with Magenta/Cyan timing handled exactly | 0 violations / 126,453 solved positions; 99.4% of firewall-decided losses covered |
 
-`data/ext_site_deep14958_v1/` contains only **two independently verified value-only rows**, SHA-256 `6fd955351da4676e58d0a7e48c0b32e7c6038a4c9c731d6b1dcd2672f43c93a3`: actual actions 37/38 have certified −1 outcomes through the second following enemy turn, no policy/Q targets, and observed remaining lengths 8/7. Proof and final schema/provenance/loader validation are included. These are related observations from one game, not two independent games. Its earlier source-packet quarantine is a historical fact; the separately qualified 28-row release is now included as described above.
+These rules were found as **LLM-generated, automatically verified heuristics**, in the spirit of AlphaEvolve and ReEvo. Subagents proposed candidate rules, a brute-force harness rejected anything with a counter-example, and survivors were ported into fixed matrix operations. Only R1, R2 and the bare-Kernel solver are inside the shipped models. The others are verified, but they were not integrated before the contest ended.
 
-The completed `codex/matches/site-gen05-report-v1.md`, priority index and bounded hard-position packets preserve observed loss/win findings. `codex/arena/gen06-new-site-audit/` checks eight tactical cases from six games: one certificate passes and seven case failures remain. Its separate raw ORT numeric report covers all 4,105 observed states at batch sizes 1/8/16 with finite policy/value outputs and no value outside [-1,1]. Numeric conformance is not playing-strength improvement or a replacement for the native resource qualification. No new model or deployment is claimed by these reports.
+### 3.4 Architecture
 
-`codex/endgame/three_piece_certificate.py` and its reports preserve a pure checked helper. Sharing it creates no ONNX model change or deployment claim.
+| Idea | Source | Result |
+|---|---|---|
+| Source→destination policy head | Chessformer ([arXiv 2605.19091](https://arxiv.org/abs/2605.19091)); Monroe & Chalmers ([arXiv 2409.12272](https://arxiv.org/abs/2409.12272)) | Our bilinear from×to head is the same family; kept |
+| Hybrid attention net with learned (dr,dc) relative bias | Chessformer | `arch_attn/`: **238/400 (59.5%) vs an identically trained CNN** at 1.6× latency. It still needed to catch up with the warm-started lineage |
+| Bigger CNN from scratch | Neural scaling notes | 64×6 vs 48×5 on early h1 data: **50%** (twice, independently), at 1.8× CPU |
+| Function-preserving widening (Net2Net) | Chen, Goodfellow & Shlens 2016 ([arXiv 1511.05641](https://arxiv.org/abs/1511.05641)) | `widen.py`: gen07 → 80×6 with outputs preserved to 6e-6, then fine-tuned → **56% vs gen07**. Once the data was good, capacity paid off |
 
-## Setup and evaluation
+### 3.5 Calibration "loopholes" we tried and dropped
 
-Python 3.12 on Linux/WSL2 is preferred for heavy computation. The supplied package declares Python 3.11–3.14. Run from the repository root:
+The value scale behaves like `c_puct/s`, and the logit temperature like Lc0's policy-softmax temperature. We also tried sharpening the policy only in the opening, because the referee samples by visit counts in its first 8 actions.
+
+| Variant (vs gen04, 200 games) | Win rate |
+|---|---|
+| logits / 1.4 | 53% |
+| opening sharpening ×3 | 52.5% |
+| opening sharpening ×8 | 41% |
+| value × 0.6 | 38% |
+
+None helped: the trained model was already well matched to the referee. Codex's 8-variant grid on the heuristic model was negative as well.
+
+### 3.6 Explicitly rejected
+
+- **MuZero or learned dynamics:** we have an exact simulator.
+- **LLM in the loop at inference:** impossible under the ONNX contract.
+- **Porting the engine to JAX/Pgx:** fidelity risk greater than the gain.
+- **Ensemble distillation:** tried on RunPod, 199/400 vs its own teacher.
+
+---
+
+## 4. Lineage and results
+
+Every number below is from paired games: exact referee MCTS, 100 simulations, Level 4 scene, each seed played as both colours, fresh seed ranges. All summaries are in `analysis/gate_summary.json`.
+
+| Model | Change | Result |
+|---|---|---|
+| h1 | Hand-built evaluator, all six pieces | 66% vs Level-3 model |
+| tactical-v2 (Codex) | h1 + exact two-action certificates | 70.7% vs h1 |
+| **gen01** | First CNN, trained on 12k h1 games | **388/400 vs tactical-v2** |
+| gen02 → gen07 | Expert iteration, restarts, site data, overrides | 77.5%, 74.0%, 59.75%, 70.0%, 74.25%, 60.25% (each vs predecessor) |
+| big80x6_a | Net2Net gen07 → 80×6 | 56.0% vs gen07 |
+| gen09 | 80×6 lineage | 75.25% vs big80x6_a |
+| gen10 / gen11 | Continued training | 52.25% vs gen09 / 51.5% vs gen10 (plateau) |
+| **gen12 (final upload)** | Continued training, fresh data | **62.75% vs gen10, 69.25% vs gen09** |
+| E2 / E5 (RunPod) | 80×6, 12k + 10k steps on all 1.6M positions | E2 77.8% vs gen07; E5 56.8% vs E2, 82% vs gen07 |
+
+Models in `release/` are listed with SHA-256 pins in `sync_allowlist.json`. Checkpoints for gen09, gen12 and big80x6_a are in `checkpoints/`.
+
+### Real opponents (`analysis/site_eval.py` → `analysis/site_history_eval.json`)
+
+The last 28 complete tournament games were replayed exactly by the engine.
+
+**Overall record:**
+- **14/28 wins**: 8/14 as Cyan, 6/14 as Magenta; 1/7 against the strongest opponent.
+- Losses are **long**: 58 actions on average, against 39 for wins.
+
+**Value error against the true outcome, by phase (MSE):**
+
+| Model | Rounds 1–8 | Rounds 9–16 | Rounds 17+ |
+|---|---|---|---|
+| gen07 | 0.82 | 0.35 | 0.78 |
+| gen09 | 0.76 | 0.40 | 0.95 |
+| gen10 | 0.77 | 0.38 | 1.33 |
+| gen12 | **0.74** | **0.33** | 1.40 |
+| E5 | 0.76 | 0.34 | **0.71** |
+
+**Reading the table:**
+- **No classic overfitting:** holdout loss fell monotonically inside every run and across generations.
+- **Late-game degradation:** later models got *worse* on real late-game positions. Self-play rarely reaches round 17+ (about 2% of games), but our real losses happen there.
+- **The fix is implemented but untested:** phase-weighted sampling (×3 for rounds 9–16, ×6 for 17+), late-game restart states and a larger share of real games. The first generation trained with it (gen13) did not finish before the contest ended.
+- **Arena strength did not always transfer to the site:** E5 won its arena gates but, in Andrei's observation, did poorly on the live site, so it was replaced by gen09 and then gen12.
+
+---
+
+## 5. How the work was organised
+
+| Who | Role |
+|---|---|
+| **Opus** (Claude, this repo's trainer) | Network, export, trainer, self-play, async learner and gating, research synthesis, subagents for review, rule discovery, data analysis and architecture |
+| **Codex** | Independent validation (native Linux limits, replays), uploads, exact proofs (R1, endgame, three-piece audit), site-game mining and certified policy overrides |
+| **Astra** (GPT-6 teacher, via Codex) | Teacher labels and constructed hard positions, all verified by the engine before use |
+| **runpod-teacher** (Claude on an RTX PRO 6000) | Long GPU runs (E2–E6, widening, distillation), using the data and code handed over with user approval |
+
+All coordination went through one shared log, `codex/coordination.md`.
+
+Compute:
+- a 32-thread PC with an RTX 5050 (training under WSL);
+- a 16-vCPU VPS for self-play;
+- the RunPod GPU.
+
+Throughput was about 160 self-play positions per second, and a train-plus-gate cycle took about 6–8 minutes.
+
+---
+
+## 6. Reproducing
 
 ```bash
-python -m venv .venv
-# Linux: source .venv/bin/activate
-# PowerShell: .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python scripts/verify_snapshot.py
-python scripts/verify_collaboration.py
-python env/tools/validate_submission.py model.onnx
-mkdir -p logs
-python arena.py model-h1.onnx model-l3.onnx --games 64 --sims 100 --workers 8 --out logs/h1-vs-l3.json
+# self-play from the current best (writes data/<prefix>_<model>_<time>/)
+python actor.py --best-file loop_state.json --prefix sp --workers 24 --batch 300
+
+# asynchronous learner: train (WSL GPU) -> endgame wrap -> clip -> policy check -> gate -> promote
+python learner.py --window-pos 600000 --min-new 50000 --steps 3000
+
+# one training run by hand
+python train.py --data data/ext_* data/sp_* --init checkpoints/gen12.pt --out ckpt/gen13.pt \
+    --steps 3000 --lr 1.5e-3 --qmix 0.2 --ext-frac 0.08 --late-weight 3 --holdout-last
+
+# paired arena at the referee's 100 sims, each seed played as both colours
+python arena.py release/gen12/model.onnx release/gen09/model.onnx --games 200
+
+# acceptance checks
+python check_onnx.py release/gen12/model.onnx
+python env/tools/validate_submission.py release/gen12/model.onnx
 ```
 
-On PowerShell create logs with `New-Item -ItemType Directory -Force logs` instead. Comparable evaluation uses the supplied Level 4 scene and **100 referee simulations**. `--games 64` means 64 seeds, both colours, **128 actual games**. Other simulation counts are diagnostics. The validator applies CPU/wall/memory limits; timing varies by host. Root requirements install declared dependency ranges. The supplied exact pins remain in `env/requirements.txt` (run those from `env/` if required).
+The A/B variant and value-target settings live in `learner_cfg.json`. Worker counts are in `cpu_budget.json` and are re-read on every batch.
 
-## Training
+---
 
-Select the appropriate PyTorch CPU/CUDA installation; the optional requirements do not pin a CUDA build.
+## 7. Repository layout
 
-```bash
-python -m pip install -r requirements-train.txt
-python selfplay.py --model model.onnx --pool model-h1.onnx codex/tactical/model-tactical-v2.onnx --games 2000 --workers 8 --out data/local-gen02
-python train.py --data data/local-gen02 --init checkpoints/gen01.pt --out ckpt/local-gen02.pt --steps 6000
-python env/tools/validate_submission.py ckpt/local-gen02.onnx
-python arena.py ckpt/local-gen02.onnx model.onnx --games 64 --sims 100 --workers 8 --out logs/local-gen02-gate.json
-```
+| Path | Contents |
+|---|---|
+| `net.py`, `train.py`, `selfplay.py`, `policy_targets.py` | Model, trainer, self-play, Gumbel targets |
+| `learner.py`, `actor.py`, `vps_sync.py`, `arena.py` | Asynchronous pipeline and evaluation |
+| `widen.py`, `final_clip.py`, `research_ext.py`, `build_archive.py` | Net2Net widening, safe export, Reanalyse, restart archive |
+| `arch_attn/` | Chessformer-lite prototype and its control |
+| `evolve_loss/`, `evolve_firewall/`, `threepiece/`, `verify_win/` | Verified rule discovery |
+| `evolve_targets/` | Policy-target study (visits vs Gumbel) |
+| `analysis/` | Research notes, gate summaries, data and site analyses |
+| `codex/` | Codex's validation, proofs, site mining and coordination log |
+| `release/`, `checkpoints/` | Pinned models and weights |
+| `env/` | Supplied referee package |
+| `docs/PROVENANCE.md` | Detailed provenance and evidence notes |
 
-These commands start a new experiment. Omitted datasets/checkpoints are not available for continuation. `loop.py` requires an existing `loop_state.json` containing `best`, `pool`, `latest_ckpt` and `history`; initialize it only after a real checkpoint exists and use relative paths. Data, logs and checkpoints remain ignored until a particular artifact is reviewed explicitly. Promote only using comparable match evidence.
+## 8. Limitations
 
-## Incremental synchronization
-
-`sync_allowlist.json` lists exact source/destination files. Import is one-way from CCC-OMNI and never changes it, commits, pushes or reads credentials. Unchanged files are skipped. Conflicting local edits are protected and must be reconciled before import.
-
-```powershell
-cd D:\dev\CCC-Colony-One
-git pull --ff-only
-python scripts/sync_from_ccc.py --source D:\dev\CCC-OMNI --dry-run
-python scripts/sync_from_ccc.py --source D:\dev\CCC-OMNI
-python scripts/verify_snapshot.py
-git diff --stat
-git add --all
-git commit -m "Refresh reviewed Colony One model, code and evidence"
-git push
-```
-
-On WSL use `--source /mnt/d/dev/CCC-OMNI`. Coordinate file ownership: remote code edits are not copied back to the canonical workspace. Add new candidate/checkpoint/evidence files through exact allowlist entries after review. An entry with `sha256` pins an immutable candidate: preserve an existing artifact and add a newly versioned entry when its bytes change. `snapshot_once` preserves an already imported frozen source snapshot even as its working source evolves, while checking its stored hash. Files over 20 MiB or paths escaping the roots are rejected. Old artifacts are preserved. Bulk self-play data, arbitrary logs, credentials, `.env`, caches, runtimes and virtual environments are never automatically imported. The small checkpoint/target/corpus files tracked here are exact reviewed exceptions listed in `.gitignore`.
-
-`provenance/snapshot.json` records every imported file's source-relative path, size and SHA-256, plus source infrastructure HEAD and snapshot time. Generated workspace files were ignored in CCC-OMNI, so source HEAD alone cannot reconstruct them. This repository commit and manifest bind the snapshot.
-
-`env/provenance.json` describes the original supplied archive. Its original scene was replaced with the exact Level 4 scene. The current `env/colony_one/scene.json` matches `task/level-4_scene.json` byte-for-byte: SHA-256 `5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f`. The current manifest describes the modified package.
-
-The supplied copyright/license is preserved in `env/LICENSE`, including CCC 2026 permission and restrictions on commercial/event use. No broader license is asserted for the repository or task material.
+- **Late-game values on real opponents** are the main open weakness. The fix (§4) is implemented but untested.
+- **Small, correlated evidence:** site evidence is 28 recent games, and the restart and Reanalyse gains are correlational. Arena wins are self-play wins, and they did not always carry over to the live site (E5).
+- **Proved rules not shipped:** several are verified (three-piece, forced-loss, firewall) but not yet inside the shipped graph.

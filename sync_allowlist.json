@@ -3424,6 +3424,470 @@
       "snapshot_once": true,
       "source": "workspace/colony-one-level4/codex/research/19255-safe-children-independent-receipt.json",
       "path": "codex/research/19255-safe-children-independent-receipt.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/actor.py",
+      "path": "actor.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/learner.py",
+      "path": "learner.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/vps_sync.py",
+      "path": "vps_sync.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/research_ext.py",
+      "path": "research_ext.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/build_archive.py",
+      "path": "build_archive.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/policy_targets.py",
+      "path": "policy_targets.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/final_clip.py",
+      "path": "final_clip.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/widen.py",
+      "path": "widen.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/calib_export.py",
+      "path": "calib_export.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/test_overrides.py",
+      "path": "test_overrides.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/time_check.sh",
+      "path": "time_check.sh"
+    },
+    {
+      "source": "workspace/colony-one-level4/archive_loop.sh",
+      "path": "archive_loop.sh"
+    },
+    {
+      "source": "workspace/colony-one-level4/ps_train.sh",
+      "path": "ps_train.sh"
+    },
+    {
+      "source": "workspace/colony-one-level4/learner_cfg.json",
+      "path": "learner_cfg.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/cpu_budget.json",
+      "path": "cpu_budget.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/loop_state.json",
+      "path": "loop_state.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/research.md",
+      "path": "analysis/research.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/research_consensus_opus.md",
+      "path": "analysis/research_consensus_opus.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/research_verify.md",
+      "path": "analysis/research_verify.md"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/results.json",
+      "path": "analysis/results.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/gate_summary.json",
+      "path": "analysis/gate_summary.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/site_history_eval.json",
+      "path": "analysis/site_history_eval.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/analyze.py",
+      "path": "analysis/analyze.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/extract.py",
+      "path": "analysis/extract.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/analysis/site_eval.py",
+      "path": "analysis/site_eval.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/bench.py",
+      "path": "arch_attn/bench.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/eval_arch.py",
+      "path": "arch_attn/eval_arch.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/net_attn.py",
+      "path": "arch_attn/net_attn.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/reexport_arch.py",
+      "path": "arch_attn/reexport_arch.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/train_arch.py",
+      "path": "arch_attn/train_arch.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/run_pair.sh",
+      "path": "arch_attn/run_pair.sh"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/run_seed2.sh",
+      "path": "arch_attn/run_seed2.sh"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/ckpt_attn-endgame.manifest.json",
+      "path": "arch_attn/ckpt_attn-endgame.manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/ckpt_cnn-endgame.manifest.json",
+      "path": "arch_attn/ckpt_cnn-endgame.manifest.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/eval_future.json",
+      "path": "arch_attn/eval_future.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/log_attn.txt",
+      "path": "arch_attn/log_attn.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/log_attn_l4.txt",
+      "path": "arch_attn/log_attn_l4.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/arch_attn/log_cnn.txt",
+      "path": "arch_attn/log_cnn.txt"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_targets/analyze.py",
+      "path": "evolve_targets/analyze.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_targets/search.py",
+      "path": "evolve_targets/search.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_targets/targets.py",
+      "path": "evolve_targets/targets.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_targets/results.json",
+      "path": "evolve_targets/results.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/candidates.py",
+      "path": "evolve_firewall/candidates.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/certs.py",
+      "path": "evolve_firewall/certs.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/certs6.py",
+      "path": "evolve_firewall/certs6.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/collect.py",
+      "path": "evolve_firewall/collect.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/evaluate.py",
+      "path": "evolve_firewall/evaluate.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/final.py",
+      "path": "evolve_firewall/final.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/freq.py",
+      "path": "evolve_firewall/freq.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/ground.py",
+      "path": "evolve_firewall/ground.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/hunt.py",
+      "path": "evolve_firewall/hunt.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/oracle.py",
+      "path": "evolve_firewall/oracle.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/synth.py",
+      "path": "evolve_firewall/synth.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/validate_oracle.py",
+      "path": "evolve_firewall/validate_oracle.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/freq.json",
+      "path": "evolve_firewall/freq.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/freq_raw.json",
+      "path": "evolve_firewall/freq_raw.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/generations.json",
+      "path": "evolve_firewall/generations.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_firewall/hunt_5.json",
+      "path": "evolve_firewall/hunt_5.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/ablate.py",
+      "path": "evolve_loss/ablate.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/analyze.py",
+      "path": "evolve_loss/analyze.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/bf.py",
+      "path": "evolve_loss/bf.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/cert.py",
+      "path": "evolve_loss/cert.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/crosscheck.py",
+      "path": "evolve_loss/crosscheck.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/dense_check.py",
+      "path": "evolve_loss/dense_check.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/diag.py",
+      "path": "evolve_loss/diag.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/evolve.py",
+      "path": "evolve_loss/evolve.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/gens.py",
+      "path": "evolve_loss/gens.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/geom.py",
+      "path": "evolve_loss/geom.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/label.py",
+      "path": "evolve_loss/label.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/naive.py",
+      "path": "evolve_loss/naive.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/synth.py",
+      "path": "evolve_loss/synth.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/test_slots.py",
+      "path": "evolve_loss/test_slots.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/generations.json",
+      "path": "evolve_loss/generations.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/crosscheck1.log",
+      "path": "evolve_loss/crosscheck1.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/crosscheck_synth.log",
+      "path": "evolve_loss/crosscheck_synth.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g6_cheap_labels_holdout.log",
+      "path": "evolve_loss/eval_g6_cheap_labels_holdout.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g6_cheap_labels_spvps.log",
+      "path": "evolve_loss/eval_g6_cheap_labels_spvps.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g6_cheap_labels_synth.log",
+      "path": "evolve_loss/eval_g6_cheap_labels_synth.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g7_final_labels_holdout.log",
+      "path": "evolve_loss/eval_g7_final_labels_holdout.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g7_final_labels_spvps.log",
+      "path": "evolve_loss/eval_g7_final_labels_spvps.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g7_final_labels_synth.log",
+      "path": "evolve_loss/eval_g7_final_labels_synth.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g8_final_labels_holdout.log",
+      "path": "evolve_loss/eval_g8_final_labels_holdout.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g8_final_labels_spvps.log",
+      "path": "evolve_loss/eval_g8_final_labels_spvps.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g8_final_labels_synth.log",
+      "path": "evolve_loss/eval_g8_final_labels_synth.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/gen23.log",
+      "path": "evolve_loss/gen23.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/gen4.log",
+      "path": "evolve_loss/gen4.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/gen5.log",
+      "path": "evolve_loss/gen5.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/label_holdout.log",
+      "path": "evolve_loss/label_holdout.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/label_spvps.log",
+      "path": "evolve_loss/label_spvps.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/evolve_loss/label_synth.log",
+      "path": "evolve_loss/label_synth.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/build_threepiece.py",
+      "path": "threepiece/build_threepiece.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/make_manifest.py",
+      "path": "threepiece/make_manifest.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify_threepiece.py",
+      "path": "threepiece/verify_threepiece.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/gen06-endgame-3p.build.json",
+      "path": "threepiece/gen06-endgame-3p.build.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify-audit.json",
+      "path": "threepiece/verify-audit.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify-batches.json",
+      "path": "threepiece/verify-batches.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify-check.json",
+      "path": "threepiece/verify-check.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify-passthrough.json",
+      "path": "threepiece/verify-passthrough.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify-positives.json",
+      "path": "threepiece/verify-positives.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/verify-pooled.log",
+      "path": "threepiece/verify-pooled.log"
+    },
+    {
+      "source": "workspace/colony-one-level4/threepiece/gen06-endgame-3p.onnx",
+      "path": "threepiece/gen06-endgame-3p.onnx"
+    },
+    {
+      "source": "workspace/colony-one-level4/verify_win/verify_win.py",
+      "path": "verify_win/verify_win.py"
+    },
+    {
+      "source": "workspace/colony-one-level4/verify_win/results.json",
+      "path": "verify_win/results.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/archive/hard_states.json",
+      "path": "archive/hard_states.json"
+    },
+    {
+      "source": "workspace/colony-one-level4/release/gen07/model.onnx",
+      "path": "release/gen07/model.onnx",
+      "sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/release/gen09/model.onnx",
+      "path": "release/gen09/model.onnx",
+      "sha256": "449bf3a8b6e33667101222b24131cb5ed28eabe5c82488f23157df5d2caf640b",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/release/gen12/model.onnx",
+      "path": "release/gen12/model.onnx",
+      "sha256": "540cc1b0403fbc10f5b90a4d71a377c3bd7048084a01ff5a84229eaaa591c1ed",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/release/big80x6_a/model.onnx",
+      "path": "release/big80x6_a/model.onnx",
+      "sha256": "b24017ad9fc9a82a2d7c626b8a9335cd0847cec4091805c40a40aea00bc1d748",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/release/E5/model.onnx",
+      "path": "release/E5/model.onnx",
+      "sha256": "f829803c7fb86988411b25d238975ddf42596f04466d8296f498a4fc979634ba",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen12.pt",
+      "path": "checkpoints/gen12.pt",
+      "sha256": "7a490c4eb364fb2a7a17c8cdc232fc677fe3048b5a877ec986d6aeed8a7a1832",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/gen09.pt",
+      "path": "checkpoints/gen09.pt",
+      "sha256": "17c5966007359436ae931a34631b5082f6db7e71d93b3ccb6ec9c36a15e6934f",
+      "snapshot_once": true
+    },
+    {
+      "source": "workspace/colony-one-level4/ckpt/big80x6_a.pt",
+      "path": "checkpoints/big80x6_a.pt",
+      "sha256": "ccfb4b081792ef9b3badf1d8d59c90ca4b21913e45aa8f45c3df042bc8069406",
+      "snapshot_once": true
     }
   ],
   "schema": 1

@@ -5,10 +5,166 @@
   "scope": "Allowlisted working files; source_head does not assert these generated files were tracked.",
   "files": [
     {
+      "path": "actor.py",
+      "source": "workspace/colony-one-level4/actor.py",
+      "sha256": "2f3dd0b1cfa11ba6e81aba596730ba9116a9e0dc0f355181245806958ea2d5ca",
+      "bytes": 2947
+    },
+    {
+      "path": "analysis/analyze.py",
+      "source": "workspace/colony-one-level4/analysis/analyze.py",
+      "sha256": "c7b0c7a749f9e09af664e40ac524168d3bc13fa6a827b86afcc72c592a31dc44",
+      "bytes": 13777
+    },
+    {
+      "path": "analysis/extract.py",
+      "source": "workspace/colony-one-level4/analysis/extract.py",
+      "sha256": "4b77417cc4c6eb89c20e22b0f2e2340d0b8c5c3e35cf7c0fe93d12781a38df31",
+      "bytes": 9502
+    },
+    {
+      "path": "analysis/gate_summary.json",
+      "source": "workspace/colony-one-level4/analysis/gate_summary.json",
+      "sha256": "32d4bc0c9a8acfc8b14e2df0810501f44de45ac645a3a5da49be594a820f1051",
+      "bytes": 9494
+    },
+    {
+      "path": "analysis/research.md",
+      "source": "workspace/colony-one-level4/analysis/research.md",
+      "sha256": "13b557f975b50c3a960861fb0db7757ff08591a419b5e55bdebd0c4181f1d1c1",
+      "bytes": 13015
+    },
+    {
+      "path": "analysis/research_consensus_opus.md",
+      "source": "workspace/colony-one-level4/analysis/research_consensus_opus.md",
+      "sha256": "13ef3c8d19bdd475bae6ce94e31b93469e368606d1456ff1c8e9ad9ad8483540",
+      "bytes": 4254
+    },
+    {
+      "path": "analysis/research_verify.md",
+      "source": "workspace/colony-one-level4/analysis/research_verify.md",
+      "sha256": "ae5d07006ee2180d632447ca29a167cd8fd33c4db258805e1be9f7fa08b9b672",
+      "bytes": 18094
+    },
+    {
+      "path": "analysis/results.json",
+      "source": "workspace/colony-one-level4/analysis/results.json",
+      "sha256": "431b86aac5fc709473f067671894ac27cba22aa494e68eeb87558f0f99eb4321",
+      "bytes": 19577
+    },
+    {
+      "path": "analysis/site_eval.py",
+      "source": "workspace/colony-one-level4/analysis/site_eval.py",
+      "sha256": "b517a24f8ab41922583052f1fe327142809fda226590046ec850ddcda1f43ab1",
+      "bytes": 2721
+    },
+    {
+      "path": "analysis/site_history_eval.json",
+      "source": "workspace/colony-one-level4/analysis/site_history_eval.json",
+      "sha256": "9feaa99fdf7c6344966a8bf973c8d2ea7e79dac16f39d72541af23b156df560e",
+      "bytes": 1124
+    },
+    {
+      "path": "arch_attn/bench.py",
+      "source": "workspace/colony-one-level4/arch_attn/bench.py",
+      "sha256": "43603c0e83335f8af349eba5073c59bdefef950c4016be321f6a94d80512a48e",
+      "bytes": 1868
+    },
+    {
+      "path": "arch_attn/ckpt_attn-endgame.manifest.json",
+      "source": "workspace/colony-one-level4/arch_attn/ckpt_attn-endgame.manifest.json",
+      "sha256": "f7641f8859ce390a365d48944eee4c21c9931cea6e09695ee163e46525c31fea",
+      "bytes": 335
+    },
+    {
+      "path": "arch_attn/ckpt_cnn-endgame.manifest.json",
+      "source": "workspace/colony-one-level4/arch_attn/ckpt_cnn-endgame.manifest.json",
+      "sha256": "46892016677767052849ca157e671d48cb26c203250f518f3ae4fc0c3f673e58",
+      "bytes": 333
+    },
+    {
+      "path": "arch_attn/eval_arch.py",
+      "source": "workspace/colony-one-level4/arch_attn/eval_arch.py",
+      "sha256": "abe080a1c194c4219bfa3d0a7e3e6374e2b7b763936174f6811f886c4b5a3057",
+      "bytes": 2390
+    },
+    {
+      "path": "arch_attn/eval_future.json",
+      "source": "workspace/colony-one-level4/arch_attn/eval_future.json",
+      "sha256": "8d8ccf7f039b1973f0e098c4f825d1cbe4660ae11d121e98091bff2843b13f9e",
+      "bytes": 1233
+    },
+    {
+      "path": "arch_attn/log_attn.txt",
+      "source": "workspace/colony-one-level4/arch_attn/log_attn.txt",
+      "sha256": "0846786721c425b48bac6c081adde4fe0e353e7405b141736df544bfe32843cc",
+      "bytes": 2205
+    },
+    {
+      "path": "arch_attn/log_attn_l4.txt",
+      "source": "workspace/colony-one-level4/arch_attn/log_attn_l4.txt",
+      "sha256": "86dafaac56fe94de8598cc585bfa9bfabdcad5161119daf1a721822c72c00afc",
+      "bytes": 2199
+    },
+    {
+      "path": "arch_attn/log_cnn.txt",
+      "source": "workspace/colony-one-level4/arch_attn/log_cnn.txt",
+      "sha256": "f80fd91d099a20be1fa4c21a9f79fcf5ed1bfc4d8a0fd2e26aed0c00beead6d8",
+      "bytes": 2145
+    },
+    {
+      "path": "arch_attn/net_attn.py",
+      "source": "workspace/colony-one-level4/arch_attn/net_attn.py",
+      "sha256": "4a9cbffdf5ba24f523917b607995dad22882c02a66c399f799a5d34a4172ec6a",
+      "bytes": 8089
+    },
+    {
+      "path": "arch_attn/reexport_arch.py",
+      "source": "workspace/colony-one-level4/arch_attn/reexport_arch.py",
+      "sha256": "a1e7c2418985dc92efdd55116a0a8fb641a3ad5c47dbc32c721d438f6f42db00",
+      "bytes": 1085
+    },
+    {
+      "path": "arch_attn/run_pair.sh",
+      "source": "workspace/colony-one-level4/arch_attn/run_pair.sh",
+      "sha256": "5b9caa8345e5fe53cc654d6849119a302a3394423be08c411d903c6f5c7c60b2",
+      "bytes": 1044
+    },
+    {
+      "path": "arch_attn/run_seed2.sh",
+      "source": "workspace/colony-one-level4/arch_attn/run_seed2.sh",
+      "sha256": "33d44800f723997e0cc23863b0705ab0e466cbbd2b07b0d10df280caa210e53c",
+      "bytes": 643
+    },
+    {
+      "path": "arch_attn/train_arch.py",
+      "source": "workspace/colony-one-level4/arch_attn/train_arch.py",
+      "sha256": "4afd6d198e778936f6843ead18a422b797610ad0b01372572222b61475502b86",
+      "bytes": 7707
+    },
+    {
+      "path": "archive/hard_states.json",
+      "source": "workspace/colony-one-level4/archive/hard_states.json",
+      "sha256": "3c0aa33cb70abdebb66aa94a4f71acd2dfdc7729c7de74f90fad07336c4fd4c0",
+      "bytes": 598
+    },
+    {
+      "path": "archive_loop.sh",
+      "source": "workspace/colony-one-level4/archive_loop.sh",
+      "sha256": "53d36735350cb5b2c87ede4b66a179da23785a629ccd08572699be350a5fcfe4",
+      "bytes": 269
+    },
+    {
       "path": "arena.py",
       "source": "workspace/colony-one-level4/arena.py",
-      "sha256": "5de438f3db32fcf553f9b94c0cb97da717da3e67875f00e68115a0eaf8b5c43c",
-      "bytes": 2836
+      "sha256": "79c4e31be79156db1ef134066c932801019dbaae0c71e496de2be60c08271192",
+      "bytes": 3803
+    },
+    {
+      "path": "build_archive.py",
+      "source": "workspace/colony-one-level4/build_archive.py",
+      "sha256": "b9f9f434a12c900d9ef43895d269deb0669f0ac0c6cb13dc1228b5be6101c259",
+      "bytes": 3441
     },
     {
       "path": "build_heuristic.py",
@@ -17,10 +173,22 @@
       "bytes": 6444
     },
     {
+      "path": "calib_export.py",
+      "source": "workspace/colony-one-level4/calib_export.py",
+      "sha256": "1e78908205a163ec109c60139836db67aae521823969243b92845fdfddee6f1b",
+      "bytes": 570
+    },
+    {
       "path": "check_onnx.py",
       "source": "workspace/colony-one-level4/check_onnx.py",
       "sha256": "bfb4f38d7d132576b34c970f9e3eb8ef64e5221ef0229711bf69d6e16df77d26",
       "bytes": 1286
+    },
+    {
+      "path": "checkpoints/big80x6_a.pt",
+      "source": "workspace/colony-one-level4/ckpt/big80x6_a.pt",
+      "sha256": "ccfb4b081792ef9b3badf1d8d59c90ca4b21913e45aa8f45c3df042bc8069406",
+      "bytes": 3498955
     },
     {
       "path": "checkpoints/gen01.pt",
@@ -69,6 +237,18 @@
       "source": "workspace/colony-one-level4/ckpt/gen06.resume.pt",
       "sha256": "16963512f94edb120429b958fd2d29509c1454fbcb20eba77ce91dc1429a2c2d",
       "bytes": 3884281
+    },
+    {
+      "path": "checkpoints/gen09.pt",
+      "source": "workspace/colony-one-level4/ckpt/gen09.pt",
+      "sha256": "17c5966007359436ae931a34631b5082f6db7e71d93b3ccb6ec9c36a15e6934f",
+      "bytes": 3495115
+    },
+    {
+      "path": "checkpoints/gen12.pt",
+      "source": "workspace/colony-one-level4/ckpt/gen12.pt",
+      "sha256": "7a490c4eb364fb2a7a17c8cdc232fc677fe3048b5a877ec986d6aeed8a7a1832",
+      "bytes": 3495307
     },
     {
       "path": "codex/arena/METHODOLOGY.md",
@@ -961,8 +1141,8 @@
     {
       "path": "codex/coordination.md",
       "source": "workspace/colony-one-level4/codex/coordination.md",
-      "sha256": "e107203566f3ed23a312f6851f525d389f97dea3ed6d75791cd37394c4d13800",
-      "bytes": 74549
+      "sha256": "3d8a53972278e7141cc99b028db64e052629490f6a92b95904031cf3a86929c5",
+      "bytes": 111255
     },
     {
       "path": "codex/distillation/README.md",
@@ -2903,6 +3083,12 @@
       "bytes": 343
     },
     {
+      "path": "cpu_budget.json",
+      "source": "workspace/colony-one-level4/cpu_budget.json",
+      "sha256": "8e4aca67285504e8b15d90fb648fb1b69c046cfa67540429922cd68d4ee25cbf",
+      "bytes": 299
+    },
+    {
       "path": "data/ext_astra_policy_v1/chunk0000.npz",
       "source": "workspace/colony-one-level4/data/ext_astra_policy_v1/chunk0000.npz",
       "sha256": "b413c9fa6265468141063a8c4c9c6955520329466b924d5a29c0acad669b0019",
@@ -3569,10 +3755,346 @@
       "bytes": 598
     },
     {
+      "path": "evolve_firewall/candidates.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/candidates.py",
+      "sha256": "38311e2ee146e9474214bcbde111b9d282f3ec2be56d8893ff996ae42492fde6",
+      "bytes": 10905
+    },
+    {
+      "path": "evolve_firewall/certs.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/certs.py",
+      "sha256": "f39e0257516a744c5873b70e00e63f33c9d26d69b670563bb707cba6a257680b",
+      "bytes": 12905
+    },
+    {
+      "path": "evolve_firewall/certs6.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/certs6.py",
+      "sha256": "db4a6229859bb467769f70c627a16a7d9088d5ebba8054fe0dd173aeaa3e5d4d",
+      "bytes": 10469
+    },
+    {
+      "path": "evolve_firewall/collect.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/collect.py",
+      "sha256": "e8f78f49eaab4f590e5b98ee6cd9d8938b56f4b6a180202fa1c2181ea3d3450b",
+      "bytes": 3089
+    },
+    {
+      "path": "evolve_firewall/evaluate.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/evaluate.py",
+      "sha256": "2a9be52bd3df35fc1c549964c733240fa08c6c2521d397c3d72c25503c376998",
+      "bytes": 5573
+    },
+    {
+      "path": "evolve_firewall/final.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/final.py",
+      "sha256": "52aea4ffd02b93bc9f8c8e424048dcf2b5fa7b068264deb5daa619e76d9e93c4",
+      "bytes": 2980
+    },
+    {
+      "path": "evolve_firewall/freq.json",
+      "source": "workspace/colony-one-level4/evolve_firewall/freq.json",
+      "sha256": "4a15f8df7ec21e4b780627f08c6ff86d8bfd27fa4e72da8712a45a31c8d5a4d7",
+      "bytes": 837
+    },
+    {
+      "path": "evolve_firewall/freq.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/freq.py",
+      "sha256": "a60d4499aad80dec0d4c5f0bbe7704a89ea4a12e706842172362a284dcae2eeb",
+      "bytes": 2845
+    },
+    {
+      "path": "evolve_firewall/freq_raw.json",
+      "source": "workspace/colony-one-level4/evolve_firewall/freq_raw.json",
+      "sha256": "2313ad42e642284ca170f21cfe9d65179742d282f69a9e792ebd2b768bd2e90a",
+      "bytes": 476
+    },
+    {
+      "path": "evolve_firewall/generations.json",
+      "source": "workspace/colony-one-level4/evolve_firewall/generations.json",
+      "sha256": "1340a9426413bf2ac25928feb8759c47657ae4dbdf3f42d5987105deff779bec",
+      "bytes": 50220
+    },
+    {
+      "path": "evolve_firewall/ground.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/ground.py",
+      "sha256": "51d4b038536ab663ecf6ecd01dc4869b2f290f90cd1c215c7051bdef245d0a2c",
+      "bytes": 2013
+    },
+    {
+      "path": "evolve_firewall/hunt.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/hunt.py",
+      "sha256": "7cda483ff24faf19adb753a05de99f9aa4d07ef289bf0058ccc5b32c22daa661",
+      "bytes": 2608
+    },
+    {
+      "path": "evolve_firewall/hunt_5.json",
+      "source": "workspace/colony-one-level4/evolve_firewall/hunt_5.json",
+      "sha256": "4827babd1f93e09b4e3d0a40f6b1e82bd4d7af530abdb2ba580c6efe22128247",
+      "bytes": 773
+    },
+    {
+      "path": "evolve_firewall/oracle.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/oracle.py",
+      "sha256": "3b9d0372cb98e1f102e594f725c61701e197b342cbdb1e12ecc2d17516f4b569",
+      "bytes": 7929
+    },
+    {
+      "path": "evolve_firewall/synth.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/synth.py",
+      "sha256": "874f04bc1e3e074a0849fcdafee05b91abbb37ba84e1e46a60c2da3fa26e264c",
+      "bytes": 4760
+    },
+    {
+      "path": "evolve_firewall/validate_oracle.py",
+      "source": "workspace/colony-one-level4/evolve_firewall/validate_oracle.py",
+      "sha256": "ec60a07a979add6a411acd43d11b5963bcb050fff08187aeb38ac46008517ee3",
+      "bytes": 2694
+    },
+    {
+      "path": "evolve_loss/ablate.py",
+      "source": "workspace/colony-one-level4/evolve_loss/ablate.py",
+      "sha256": "8a4800afa004bb01da053089bb3d68f308deea2a98da76dc504a9a6f10ac45eb",
+      "bytes": 4589
+    },
+    {
+      "path": "evolve_loss/analyze.py",
+      "source": "workspace/colony-one-level4/evolve_loss/analyze.py",
+      "sha256": "9c85698a21b38685979cb1feba624428bfb466d7804c4767e9d83057c785caf3",
+      "bytes": 1531
+    },
+    {
+      "path": "evolve_loss/bf.py",
+      "source": "workspace/colony-one-level4/evolve_loss/bf.py",
+      "sha256": "1cd96a968b4f4f7001c6d4b5ea50b79bda69af901d4348a84b0535a9845a7977",
+      "bytes": 10061
+    },
+    {
+      "path": "evolve_loss/cert.py",
+      "source": "workspace/colony-one-level4/evolve_loss/cert.py",
+      "sha256": "60e90f91e68b3ce339dd5d836f90f9bfe3bb4a69614fd6c080c5e6421a14c615",
+      "bytes": 16702
+    },
+    {
+      "path": "evolve_loss/crosscheck.py",
+      "source": "workspace/colony-one-level4/evolve_loss/crosscheck.py",
+      "sha256": "8dd08df74067d3b8718111211b94af1e3d73027de36ce5d58759138711d3beff",
+      "bytes": 1391
+    },
+    {
+      "path": "evolve_loss/crosscheck1.log",
+      "source": "workspace/colony-one-level4/evolve_loss/crosscheck1.log",
+      "sha256": "cc0b60a947b4220ac910392242cad88d124623f4c7197461306d0edf280af98e",
+      "bytes": 43
+    },
+    {
+      "path": "evolve_loss/crosscheck_synth.log",
+      "source": "workspace/colony-one-level4/evolve_loss/crosscheck_synth.log",
+      "sha256": "11f0bd04958a5d0b5f362440883e5059bda3cf2649bd9ce8010639da600b329f",
+      "bytes": 43
+    },
+    {
+      "path": "evolve_loss/dense_check.py",
+      "source": "workspace/colony-one-level4/evolve_loss/dense_check.py",
+      "sha256": "809819d5a09c5b1f8729abcce7259ddc788c1b4b738e778925b1f773c10019bd",
+      "bytes": 1219
+    },
+    {
+      "path": "evolve_loss/diag.py",
+      "source": "workspace/colony-one-level4/evolve_loss/diag.py",
+      "sha256": "998e1e49903c87c37fa5ff131d1b72e72b0dc734fc9c2788a94cc1eca32e75e5",
+      "bytes": 2391
+    },
+    {
+      "path": "evolve_loss/eval_g6_cheap_labels_holdout.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g6_cheap_labels_holdout.log",
+      "sha256": "2bb2979d03463597d819ab2bb5136609036e269d9c70ec8133c5d51880ab8831",
+      "bytes": 565
+    },
+    {
+      "path": "evolve_loss/eval_g6_cheap_labels_spvps.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g6_cheap_labels_spvps.log",
+      "sha256": "b55c89729c43b2834af726ade88291907e1db4603e73d590c0df5a5e14b0db47",
+      "bytes": 564
+    },
+    {
+      "path": "evolve_loss/eval_g6_cheap_labels_synth.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g6_cheap_labels_synth.log",
+      "sha256": "9192350e791e81a4b20e2a0b2bf282555d39317ebac473d587c5e0e110f4489d",
+      "bytes": 570
+    },
+    {
+      "path": "evolve_loss/eval_g7_final_labels_holdout.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g7_final_labels_holdout.log",
+      "sha256": "8d284a9aacca642ef775b2e04f49821cd59ed1983117ddee3a611d144c276a74",
+      "bytes": 497
+    },
+    {
+      "path": "evolve_loss/eval_g7_final_labels_spvps.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g7_final_labels_spvps.log",
+      "sha256": "5a0256fdb9238a75977051022b769b4089f9b86eab1dc4ae5de88d8ed000833b",
+      "bytes": 495
+    },
+    {
+      "path": "evolve_loss/eval_g7_final_labels_synth.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g7_final_labels_synth.log",
+      "sha256": "ac5a494a8a46c8c8234d4cb73b9e172d80f8149902e4d85667ad91ee077077d8",
+      "bytes": 504
+    },
+    {
+      "path": "evolve_loss/eval_g8_final_labels_holdout.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g8_final_labels_holdout.log",
+      "sha256": "be1dcbe9489250aa0346808e2e271c152b8e24f48469b5bbc6610f235b1ad244",
+      "bytes": 643
+    },
+    {
+      "path": "evolve_loss/eval_g8_final_labels_spvps.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g8_final_labels_spvps.log",
+      "sha256": "2b9525b08dffa104097b63dc623baf9aa67cb09a5e7b748d662a0abb93502555",
+      "bytes": 641
+    },
+    {
+      "path": "evolve_loss/eval_g8_final_labels_synth.log",
+      "source": "workspace/colony-one-level4/evolve_loss/eval_g8_final_labels_synth.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evolve_loss/evolve.py",
+      "source": "workspace/colony-one-level4/evolve_loss/evolve.py",
+      "sha256": "35c14dee905131631568c5c70ff4abb4821b4d354d4a173704e683bf9777d0c1",
+      "bytes": 2425
+    },
+    {
+      "path": "evolve_loss/gen23.log",
+      "source": "workspace/colony-one-level4/evolve_loss/gen23.log",
+      "sha256": "2bfb7d47f3519ba7e4a28883b5b3c4fa88cf970d8874678ae83e8b51058c7455",
+      "bytes": 1183
+    },
+    {
+      "path": "evolve_loss/gen4.log",
+      "source": "workspace/colony-one-level4/evolve_loss/gen4.log",
+      "sha256": "587e0c8dfe603694916eafe0254cb556100269129489bf750609ce4a7a3dbafa",
+      "bytes": 553
+    },
+    {
+      "path": "evolve_loss/gen5.log",
+      "source": "workspace/colony-one-level4/evolve_loss/gen5.log",
+      "sha256": "a8be46b058eb8025aae266f83529cb96494d12742fa4382ea4f3237aaf0fcfa7",
+      "bytes": 676
+    },
+    {
+      "path": "evolve_loss/generations.json",
+      "source": "workspace/colony-one-level4/evolve_loss/generations.json",
+      "sha256": "b29a58f48b8e8483175024a460bb35ebeb8b918dd8e1ba7c967450e31f184f33",
+      "bytes": 7945
+    },
+    {
+      "path": "evolve_loss/gens.py",
+      "source": "workspace/colony-one-level4/evolve_loss/gens.py",
+      "sha256": "aaf062a497fbf23036dbeb63194ce57e97584f149b33d6f85d669ebcf6596a89",
+      "bytes": 4858
+    },
+    {
+      "path": "evolve_loss/geom.py",
+      "source": "workspace/colony-one-level4/evolve_loss/geom.py",
+      "sha256": "9be4e8584396b63de142ac55f1157aa1d7ac0d869e90a052c65fc6b0d09649d7",
+      "bytes": 3858
+    },
+    {
+      "path": "evolve_loss/label.py",
+      "source": "workspace/colony-one-level4/evolve_loss/label.py",
+      "sha256": "24937e3d50e6d380fcd531fa7c5a9a4d97be5d4209ac164b24b71732b4ca5819",
+      "bytes": 2319
+    },
+    {
+      "path": "evolve_loss/label_holdout.log",
+      "source": "workspace/colony-one-level4/evolve_loss/label_holdout.log",
+      "sha256": "41380590586ac8764626a371713ac8e43a6666a84740996a8dda522234e37b5b",
+      "bytes": 316
+    },
+    {
+      "path": "evolve_loss/label_spvps.log",
+      "source": "workspace/colony-one-level4/evolve_loss/label_spvps.log",
+      "sha256": "d5602cfeba950d22c2ff507764dfedcc247ac4efa7bb621fab22e02a013dd6bf",
+      "bytes": 470
+    },
+    {
+      "path": "evolve_loss/label_synth.log",
+      "source": "workspace/colony-one-level4/evolve_loss/label_synth.log",
+      "sha256": "7d761663c0a57558612691773fa2137f576a7112e71ff12407504e9ecf673a7f",
+      "bytes": 267
+    },
+    {
+      "path": "evolve_loss/naive.py",
+      "source": "workspace/colony-one-level4/evolve_loss/naive.py",
+      "sha256": "188d5d25ba276b59ac2ac1f919d511e904933240cc4544553af8e77efe291142",
+      "bytes": 2731
+    },
+    {
+      "path": "evolve_loss/synth.py",
+      "source": "workspace/colony-one-level4/evolve_loss/synth.py",
+      "sha256": "38841638f6cd1447daa384fe1d240f856575453d07cde3b251492e0d97046241",
+      "bytes": 2234
+    },
+    {
+      "path": "evolve_loss/test_slots.py",
+      "source": "workspace/colony-one-level4/evolve_loss/test_slots.py",
+      "sha256": "2f61db07136d82683b25dbb4d7f7989735c6d892a071b1cffdb51bd5bc5e684c",
+      "bytes": 2880
+    },
+    {
+      "path": "evolve_targets/analyze.py",
+      "source": "workspace/colony-one-level4/evolve_targets/analyze.py",
+      "sha256": "68542f50ce05b938dd033ee7270ea79d85b174f6a675156e883972e3c0eb4b9f",
+      "bytes": 9528
+    },
+    {
+      "path": "evolve_targets/results.json",
+      "source": "workspace/colony-one-level4/evolve_targets/results.json",
+      "sha256": "e94f828abdaadfb217c125acd409dd1cba241fdad64942d9ac6caeebb9cc27e9",
+      "bytes": 42543
+    },
+    {
+      "path": "evolve_targets/search.py",
+      "source": "workspace/colony-one-level4/evolve_targets/search.py",
+      "sha256": "7aeaeb86fab05a151257d4a22587a678aa1bfe9624f633608682b8ba950d97a1",
+      "bytes": 9039
+    },
+    {
+      "path": "evolve_targets/targets.py",
+      "source": "workspace/colony-one-level4/evolve_targets/targets.py",
+      "sha256": "b68cd7f54a9211dd25c92ad17025d808e8e64727d4b1f3364af0a0b80c925162",
+      "bytes": 2702
+    },
+    {
+      "path": "final_clip.py",
+      "source": "workspace/colony-one-level4/final_clip.py",
+      "sha256": "92ba72c5067047894a5a8ea3cdaf9dc379a7c7066352866aa6219a540e7ceb23",
+      "bytes": 1183
+    },
+    {
+      "path": "learner.py",
+      "source": "workspace/colony-one-level4/learner.py",
+      "sha256": "e6d448310977a51b66523fab9576145d67428125c12cafbd6322b49338a3954a",
+      "bytes": 6975
+    },
+    {
+      "path": "learner_cfg.json",
+      "source": "workspace/colony-one-level4/learner_cfg.json",
+      "sha256": "621a3d87be4043a9ed1369c8767a1b611b011a6d073dd6a5e9930e1918c21946",
+      "bytes": 226
+    },
+    {
       "path": "loop.py",
       "source": "workspace/colony-one-level4/loop.py",
       "sha256": "e467f1f69913b0d7a1bb63c73647162a6f999669840ff328d5325f4b2f2addc8",
       "bytes": 4614
+    },
+    {
+      "path": "loop_state.json",
+      "source": "workspace/colony-one-level4/loop_state.json",
+      "sha256": "4d89dc0472b34bfde5075a34ddfb034bdf0859eee9f3ee934da405252bd75ef8",
+      "bytes": 24659
     },
     {
       "path": "match_cost.py",
@@ -3623,6 +4145,18 @@
       "bytes": 12011
     },
     {
+      "path": "policy_targets.py",
+      "source": "workspace/colony-one-level4/policy_targets.py",
+      "sha256": "b68cd7f54a9211dd25c92ad17025d808e8e64727d4b1f3364af0a0b80c925162",
+      "bytes": 2702
+    },
+    {
+      "path": "ps_train.sh",
+      "source": "workspace/colony-one-level4/ps_train.sh",
+      "sha256": "d8351ee190d9c6c25054b78d9a9de6746d00cd360b85b5f314a026d419050286",
+      "bytes": 177
+    },
+    {
       "path": "random.onnx",
       "source": "workspace/colony-one-level4/random.onnx",
       "sha256": "107229a18420ead8843a6250a1388cc8066895521a3b052e7b3c74034d76e77b",
@@ -3633,6 +4167,18 @@
       "source": "workspace/colony-one-level4/reexport.py",
       "sha256": "2cb5746075d22b417110d63e447915bd7b4f8c71f4dd0fa280df1ef793886013",
       "bytes": 574
+    },
+    {
+      "path": "release/E5/model.onnx",
+      "source": "workspace/colony-one-level4/release/E5/model.onnx",
+      "sha256": "f829803c7fb86988411b25d238975ddf42596f04466d8296f498a4fc979634ba",
+      "bytes": 3530256
+    },
+    {
+      "path": "release/big80x6_a/model.onnx",
+      "source": "workspace/colony-one-level4/release/big80x6_a/model.onnx",
+      "sha256": "b24017ad9fc9a82a2d7c626b8a9335cd0847cec4091805c40a40aea00bc1d748",
+      "bytes": 3530257
     },
     {
       "path": "release/gen01/model.onnx",
@@ -3833,6 +4379,30 @@
       "bytes": 13013
     },
     {
+      "path": "release/gen07/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen07/model.onnx",
+      "sha256": "8b23b6a7f80089aef590beb69a829738e3c8c66dcd5ccbb652820142dbabcebd",
+      "bytes": 1479694
+    },
+    {
+      "path": "release/gen09/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen09/model.onnx",
+      "sha256": "449bf3a8b6e33667101222b24131cb5ed28eabe5c82488f23157df5d2caf640b",
+      "bytes": 3530257
+    },
+    {
+      "path": "release/gen12/model.onnx",
+      "source": "workspace/colony-one-level4/release/gen12/model.onnx",
+      "sha256": "540cc1b0403fbc10f5b90a4d71a377c3bd7048084a01ff5a84229eaaa591c1ed",
+      "bytes": 3530257
+    },
+    {
+      "path": "research_ext.py",
+      "source": "workspace/colony-one-level4/research_ext.py",
+      "sha256": "27439648ec2dfb85433e43f8312454b011e28a3d1cc372bc212b6e427b53686a",
+      "bytes": 3411
+    },
+    {
       "path": "research_inputs/colony_one_research_for_astra_opus.md",
       "source": "colony_one_research_for_astra_opus.md",
       "sha256": "21f71ba01290fe5caec56ec519dca92a4af2af4f6a5555676f7c5fc1610f2413",
@@ -3901,16 +4471,118 @@
       "bytes": 615
     },
     {
+      "path": "test_overrides.py",
+      "source": "workspace/colony-one-level4/test_overrides.py",
+      "sha256": "e3862e1da490c07100cc9bad14b333e85ba1e25f9e3a1725743574b0d2a9f129",
+      "bytes": 551
+    },
+    {
       "path": "test_win.py",
       "source": "workspace/colony-one-level4/test_win.py",
       "sha256": "6c8999b3f0fba2e1bfd618ffeebc5306abb1e83745cd433610af28170be90762",
       "bytes": 1362
     },
     {
+      "path": "threepiece/build_threepiece.py",
+      "source": "workspace/colony-one-level4/threepiece/build_threepiece.py",
+      "sha256": "ff94e107e42ecc1955bbe4f9e5ca352a7c631740b22a3ff617f07a46982b74e3",
+      "bytes": 10682
+    },
+    {
+      "path": "threepiece/gen06-endgame-3p.build.json",
+      "source": "workspace/colony-one-level4/threepiece/gen06-endgame-3p.build.json",
+      "sha256": "f5ae948f0c0b979239fa2b2935b4f75637e23c0fec6696697499193410e1c35e",
+      "bytes": 870
+    },
+    {
+      "path": "threepiece/gen06-endgame-3p.onnx",
+      "source": "workspace/colony-one-level4/threepiece/gen06-endgame-3p.onnx",
+      "sha256": "4ce13e390698d1841018f4ced4b4f6f82bebde17cbb7cf0fdeaa0dd97bf3de94",
+      "bytes": 1531995
+    },
+    {
+      "path": "threepiece/make_manifest.py",
+      "source": "workspace/colony-one-level4/threepiece/make_manifest.py",
+      "sha256": "a90d549f38f4b43d33232f048b6a0d1141daf299575865c82fb24d444d24cc39",
+      "bytes": 5511
+    },
+    {
+      "path": "threepiece/verify-audit.json",
+      "source": "workspace/colony-one-level4/threepiece/verify-audit.json",
+      "sha256": "cd3370707c5e6fe6b88c332cc4397d16bc62ec6193931a0aceefce01d974fd8f",
+      "bytes": 1144
+    },
+    {
+      "path": "threepiece/verify-batches.json",
+      "source": "workspace/colony-one-level4/threepiece/verify-batches.json",
+      "sha256": "6d7a5cb0014dfaf562b1659c81c43a7f348698ab578120f2aa36bb8ea4de372c",
+      "bytes": 875
+    },
+    {
+      "path": "threepiece/verify-check.json",
+      "source": "workspace/colony-one-level4/threepiece/verify-check.json",
+      "sha256": "51038440ad010171e4bdf19f74ce2d306f2f7689e498948c8174951eeaa9422d",
+      "bytes": 4091
+    },
+    {
+      "path": "threepiece/verify-passthrough.json",
+      "source": "workspace/colony-one-level4/threepiece/verify-passthrough.json",
+      "sha256": "2be41fa1065f48805ea49634d74e504e145582f5be14147a7d298254d5afb889",
+      "bytes": 448
+    },
+    {
+      "path": "threepiece/verify-pooled.log",
+      "source": "workspace/colony-one-level4/threepiece/verify-pooled.log",
+      "sha256": "c993f04f2dd54d6fba6ca47a4eb02e42b59f7d80adb12150ce7b98de9a7b5d5f",
+      "bytes": 340
+    },
+    {
+      "path": "threepiece/verify-positives.json",
+      "source": "workspace/colony-one-level4/threepiece/verify-positives.json",
+      "sha256": "9af97cf2fc399b278f0cb49130368660ca8884d316316bce853b25ce1132e72d",
+      "bytes": 1034
+    },
+    {
+      "path": "threepiece/verify_threepiece.py",
+      "source": "workspace/colony-one-level4/threepiece/verify_threepiece.py",
+      "sha256": "57dec2479f387b20258fa09663b381ef3ca9bf3d68b2160699d42daff48540c2",
+      "bytes": 25692
+    },
+    {
+      "path": "time_check.sh",
+      "source": "workspace/colony-one-level4/time_check.sh",
+      "sha256": "4377a0599f36f39cce0f1ceb15686a01b761c769da82e987ba593d47137133c1",
+      "bytes": 429
+    },
+    {
       "path": "train.py",
       "source": "workspace/colony-one-level4/train.py",
-      "sha256": "8e90cad91be762cbaad11c80d98466699784969a8380def045fb86303baf7210",
-      "bytes": 13013
+      "sha256": "638cb50b654b688ca31c01e44817f9661e27148c2a093503a863bac31ea277c0",
+      "bytes": 14030
+    },
+    {
+      "path": "verify_win/results.json",
+      "source": "workspace/colony-one-level4/verify_win/results.json",
+      "sha256": "2bc798d7944f90b1dc89d4057d240399ff8f3aef0f976356716fae40e2f5453f",
+      "bytes": 7940
+    },
+    {
+      "path": "verify_win/verify_win.py",
+      "source": "workspace/colony-one-level4/verify_win/verify_win.py",
+      "sha256": "598d92841a9ed5b39ce49d21e34f1cd4df1fb227651a3910f2cf350bdbe3e4ac",
+      "bytes": 13919
+    },
+    {
+      "path": "vps_sync.py",
+      "source": "workspace/colony-one-level4/vps_sync.py",
+      "sha256": "3a295d430721e3c3d5aaa105c553a73492460cfef6caf7c06d2aba5e3074bd8d",
+      "bytes": 3384
+    },
+    {
+      "path": "widen.py",
+      "source": "workspace/colony-one-level4/widen.py",
+      "sha256": "246ce7577dd1f65a9852aee7aa8eed3ba118ef001d2f30f84578ca7e707e7b31",
+      "bytes": 4363
     },
     {
       "path": "wpy.sh",
@@ -3920,5 +4592,5 @@
     }
   ],
   "missing_optional": [],
-  "snapshot_utc": "2026-10-23T16:22:53.863211+00:00"
+  "snapshot_utc": "2026-10-24T10:06:47.888009+00:00"
 }

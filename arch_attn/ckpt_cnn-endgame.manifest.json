@@ -1,0 +1,9 @@
+{
+  "base": "arch_attn\\ckpt_cnn.onnx",
+  "base_sha256": "5a0e7281c5a2608de1c06c6a46dad06e27c8e188a75079657c7d4bb4a9c7313d",
+  "output": "arch_attn\\ckpt_cnn-endgame.onnx",
+  "sha256": "11dd85aeefd66750ef3f5e7781e316936a30408dbc72631447abe2b31b81a06d",
+  "bytes": 1479554,
+  "added_nodes": 88,
+  "added_weight_bytes": 33572
+}

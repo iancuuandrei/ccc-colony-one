@@ -1,0 +1,275 @@
+[
+ {
+  "generation": "g1_konly",
+  "rule": "Mover has only its Kernel. Enumerate all Kernel lines of the remaining actions (8 or 8x8, incl. attack-redirect on a guarded enemy Kernel); no line captures the enemy Kernel, at least one line exists, and every line ends in losing_final = bare-Kernel resolution lost | shrink-after-our-turn kills our K (not theirs) | enemy R1/R2 kill on the (shrunk) board | Cyan mover with K on the next ring and enemy K able to shuffle.",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 7980,
+  "violations": 0,
+  "coverage": 0.8145,
+  "seconds": 55.0,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 4537
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3443
+   }
+  }
+ },
+ {
+  "generation": "g2_konly_ew3",
+  "rule": "g1 with the enemy-kill test EW extended: R3e discovered attack (an enemy blocker relocates off the slider-Kernel segment, K unguarded after) and R4e (an enemy Daemon/Trace shot removes our only blocker of a slider line; K unguarded after).",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 8001,
+  "violations": 0,
+  "coverage": 0.8166,
+  "seconds": 327.6,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 4554
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3447
+   }
+  }
+ },
+ {
+  "generation": "g3_konly_plus_oneply",
+  "rule": "g2, plus for actions_left == 1 with own non-Kernel pieces: enumerate all 76 fixed (piece type, offset) action slots exactly as rules.py; no slot wins, some slot is legal, and every legal slot's successor satisfies losing_final (EW level 3).",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 9355,
+  "violations": 0,
+  "coverage": 0.9548,
+  "seconds": 438.3,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 5908
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3447
+   }
+  }
+ },
+ {
+  "generation": "g4_full",
+  "rule": "g3, plus for actions_left == 2 with own non-Kernel pieces: for every legal first action slot (none winning, at least one legal) the successor satisfies the actions_left == 1 one-ply certificate (76 x 76 slots).",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 9765,
+  "violations": 0,
+  "coverage": 0.9966,
+  "seconds": 298.1,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 5908
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3857
+   }
+  }
+ },
+ {
+  "generation": "g5_full_ebk",
+  "rule": "g4, with losing_final also accepting EBK: the enemy has only its Kernel, we have <= 1 non-Kernel piece, and the enemy Kernel's two actions (capturing that piece if any) end where the bare-Kernels resolution at the end of the enemy's turn goes to the enemy (Chebyshev > 2 and smaller ring, or equal ring with the enemy real Magenta).",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 9798,
+  "violations": 0,
+  "coverage": 1.0,
+  "seconds": 267.1,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 5934
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3864
+   }
+  }
+ },
+ {
+  "generation": "g7_final",
+  "rule": "Final cert.cert_loss(two_ply=True): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> Kernel-only 8x8 tree, else 76x76 two-ply. Same logic as g5.",
+  "labels": "labels_holdout.npz",
+  "positions": 250000,
+  "bruteforce_lost": 5745,
+  "flagged": 5745,
+  "violations": 0,
+  "coverage": 1.0,
+  "seconds": 221.8,
+  "by_actions_left": {
+   "1": {
+    "lost": 3899,
+    "flagged": 3899
+   },
+   "2": {
+    "lost": 1846,
+    "flagged": 1846
+   }
+  }
+ },
+ {
+  "generation": "g7_final",
+  "rule": "Final cert.cert_loss(two_ply=True): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> Kernel-only 8x8 tree, else 76x76 two-ply. Same logic as g5.",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 9798,
+  "violations": 0,
+  "coverage": 1.0,
+  "seconds": 454.6,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 5934
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3864
+   }
+  }
+ },
+ {
+  "generation": "g6_cheap",
+  "rule": "Port-friendly subset of g5 via cert.cert_loss(two_ply=False): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> only Kernel-only movers (8x8 Kernel tree). losing_final = bare-Kernels | shrink | EW level 3 | EBK.",
+  "labels": "labels_holdout.npz",
+  "positions": 250000,
+  "bruteforce_lost": 5745,
+  "flagged": 5588,
+  "violations": 0,
+  "coverage": 0.9727,
+  "seconds": 81.9,
+  "by_actions_left": {
+   "1": {
+    "lost": 3899,
+    "flagged": 3899
+   },
+   "2": {
+    "lost": 1846,
+    "flagged": 1689
+   }
+  }
+ },
+ {
+  "generation": "g6_cheap",
+  "rule": "Port-friendly subset of g5 via cert.cert_loss(two_ply=False): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> only Kernel-only movers (8x8 Kernel tree). losing_final = bare-Kernels | shrink | EW level 3 | EBK.",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 9383,
+  "violations": 0,
+  "coverage": 0.9576,
+  "seconds": 164.8,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 5934
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3449
+   }
+  }
+ },
+ {
+  "generation": "g7_final",
+  "rule": "Final cert.cert_loss(two_ply=True): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> Kernel-only 8x8 tree, else 76x76 two-ply. Same logic as g5.",
+  "labels": "labels_synth.npz",
+  "positions": 193840,
+  "bruteforce_lost": 57079,
+  "flagged": 57076,
+  "violations": 0,
+  "coverage": 0.9999,
+  "seconds": 919.8,
+  "by_actions_left": {
+   "1": {
+    "lost": 42170,
+    "flagged": 42167
+   },
+   "2": {
+    "lost": 14909,
+    "flagged": 14909
+   }
+  }
+ },
+ {
+  "generation": "g6_cheap",
+  "rule": "Port-friendly subset of g5 via cert.cert_loss(two_ply=False): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> only Kernel-only movers (8x8 Kernel tree). losing_final = bare-Kernels | shrink | EW level 3 | EBK.",
+  "labels": "labels_synth.npz",
+  "positions": 193840,
+  "bruteforce_lost": 57079,
+  "flagged": 53833,
+  "violations": 0,
+  "coverage": 0.9431,
+  "seconds": 252.2,
+  "by_actions_left": {
+   "1": {
+    "lost": 42170,
+    "flagged": 42167
+   },
+   "2": {
+    "lost": 14909,
+    "flagged": 11666
+   }
+  }
+ },
+ {
+  "generation": "g8_final",
+  "rule": "g7 with the Cyan-mover shrink clause relaxed: our Kernel on the next ring at the end of our turn loses if ANY enemy piece has a quiet move to an empty square (it can move there and back, so the enemy completes its turn and the ring locks), instead of requiring a free square next to the enemy Kernel.",
+  "labels": "labels_spvps.npz",
+  "positions": 399968,
+  "bruteforce_lost": 9798,
+  "flagged": 9798,
+  "violations": 0,
+  "coverage": 1.0,
+  "seconds": 351.0,
+  "by_actions_left": {
+   "1": {
+    "lost": 5934,
+    "flagged": 5934
+   },
+   "2": {
+    "lost": 3864,
+    "flagged": 3864
+   }
+  }
+ },
+ {
+  "generation": "g8_final",
+  "rule": "g7 with the Cyan-mover shrink clause relaxed: our Kernel on the next ring at the end of our turn loses if ANY enemy piece has a quiet move to an empty square (it can move there and back, so the enemy completes its turn and the ring locks), instead of requiring a free square next to the enemy Kernel.",
+  "labels": "labels_holdout.npz",
+  "positions": 250000,
+  "bruteforce_lost": 5745,
+  "flagged": 5745,
+  "violations": 0,
+  "coverage": 1.0,
+  "seconds": 316.8,
+  "by_actions_left": {
+   "1": {
+    "lost": 3899,
+    "flagged": 3899
+   },
+   "2": {
+    "lost": 1846,
+    "flagged": 1846
+   }
+  }
+ }
+]

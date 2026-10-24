@@ -1,0 +1,32 @@
+{
+  "mode": "batches",
+  "results": {
+    "batch1": {
+      "states": 320,
+      "flagged": 120,
+      "derived_flag_equals_proof": true,
+      "nonfamily_policy_bitwise": true,
+      "nonfamily_value_bitwise": true,
+      "family_value_099": true,
+      "family_policy_base_or_base_plus_30": true
+    },
+    "batch8": {
+      "states": 320,
+      "flagged": 120,
+      "derived_flag_equals_proof": true,
+      "nonfamily_policy_bitwise": true,
+      "nonfamily_value_bitwise": true,
+      "family_value_099": true,
+      "family_policy_base_or_base_plus_30": true
+    },
+    "batch16": {
+      "states": 320,
+      "flagged": 120,
+      "derived_flag_equals_proof": true,
+      "nonfamily_policy_bitwise": true,
+      "nonfamily_value_bitwise": true,
+      "family_value_099": true,
+      "family_policy_base_or_base_plus_30": true
+    }
+  }
+}

@@ -1,0 +1,2478 @@
+{
+ "setup": {
+  "model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen04-endgame.onnx",
+  "positions_sampled": 620,
+  "positions_used": 620,
+  "skipped": 0,
+  "source": "data/sp_gen04-endgame_* (completed dirs), key left > 3, seed 7",
+  "sims": {
+   "deep_ground_truth": 3200,
+   "selfplay_target_search": 250,
+   "referee": 100,
+   "independent_child_search_per_action": 128
+  },
+  "search": "mcts.run, MCTSConfig(simulations=..., add_root_noise=False), c_puct 1.5, batch 8",
+  "gumbel": "pi'=softmax(log prior + (50+maxN)*c_scale*q01), completedQ: Q(a) visited, v_mix (mctx, prior-weighted) unvisited, q01 = min-max over legal; c_scale 0.1 ('gumbel'), 1.0 ('gumbel_c1'); 'gumbel_vw' uses v_mix=(v_net+sumW)/(1+sumN)",
+  "softq": "softmax(Q/tau) over visited actions, raw Q in [-1,1]",
+  "ground_truth_deep": "best = argmax N of the deep search; Q_deep = W/N; actions the deep search never visited are filled with their independent child-search value for regret",
+  "ground_truth_child": "Q_child(a) = (v_net + sumW)/(1+sumN) of a 128-sim search from the child position, sign-corrected; terminal transitions exact; best = argmax Q_child",
+  "ce": "-sum p_deep log((1-0.001)pi + 0.001/L)",
+  "decision_100": "argmax visits of a 100-sim no-noise search; inject/X = root prior replaced by target X (interior nodes keep the network prior): perfect-fit-at-root proxy, not a trained network",
+  "ci": "bootstrap over positions, 2000 resamples; diff_* are paired"
+ },
+ "ground_truth_stats": {
+  "deep_top_action_visit_share_mean": 0.6681,
+  "deep_best_equals_child_best": 0.5935,
+  "mid250_argmax_equals_deep_best": 0.729,
+  "deep_visit_entropy_mean": 1.0011,
+  "n_legal_mean": 18.17,
+  "actions_left_counts": {
+   "1": 302,
+   "2": 318
+  }
+ },
+ "targets_from_250": {
+  "prior": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.70083,
+     1.62435,
+     1.7764
+    ],
+    "diff_vs_visits_ci95": [
+     0.31208,
+     0.25033,
+     0.37005
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00665,
+     0.00545,
+     0.00787
+    ],
+    "diff_vs_visits_ci95": [
+     0.00665,
+     0.00542,
+     0.00788
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.34738,
+     0.32396,
+     0.36982
+    ],
+    "diff_vs_visits_ci95": [
+     -0.13774,
+     -0.15262,
+     -0.12331
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.17977,
+     0.16445,
+     0.19646
+    ],
+    "diff_vs_visits_ci95": [
+     0.10423,
+     0.09122,
+     0.11774
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.16502,
+     0.14877,
+     0.1821
+    ],
+    "diff_vs_visits_ci95": [
+     0.10259,
+     0.08908,
+     0.11784
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.38387,
+     0.34677,
+     0.42258
+    ],
+    "diff_vs_visits_ci95": [
+     -0.17097,
+     -0.20484,
+     -0.14028
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.55645,
+     0.51774,
+     0.59516
+    ],
+    "diff_vs_visits_ci95": [
+     -0.17258,
+     -0.20645,
+     -0.13871
+    ]
+   }
+  },
+  "visits": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.38875,
+     1.3076,
+     1.46905
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.48512,
+     0.4621,
+     0.50927
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.07555,
+     0.0706,
+     0.08095
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.06243,
+     0.05691,
+     0.06802
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.55484,
+     0.51613,
+     0.59355
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.72903,
+     0.69355,
+     0.7629
+    ]
+   }
+  },
+  "gumbel": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     2.28706,
+     2.12482,
+     2.45249
+    ],
+    "diff_vs_visits_ci95": [
+     0.89831,
+     0.77009,
+     1.02981
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00126,
+     0.0009,
+     0.00166
+    ],
+    "diff_vs_visits_ci95": [
+     0.00126,
+     0.00091,
+     0.00165
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.59137,
+     0.55888,
+     0.62236
+    ],
+    "diff_vs_visits_ci95": [
+     0.10625,
+     0.08528,
+     0.12661
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.02924,
+     0.02533,
+     0.0337
+    ],
+    "diff_vs_visits_ci95": [
+     -0.0463,
+     -0.05005,
+     -0.04253
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.02016,
+     0.0168,
+     0.02358
+    ],
+    "diff_vs_visits_ci95": [
+     -0.04227,
+     -0.04639,
+     -0.03797
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.60806,
+     0.56935,
+     0.6452
+    ],
+    "diff_vs_visits_ci95": [
+     0.05323,
+     0.02258,
+     0.08387
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.66613,
+     0.62899,
+     0.70484
+    ],
+    "diff_vs_visits_ci95": [
+     -0.0629,
+     -0.09839,
+     -0.02903
+    ]
+   }
+  },
+  "gumbel_vw": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     2.28364,
+     2.12122,
+     2.44954
+    ],
+    "diff_vs_visits_ci95": [
+     0.89489,
+     0.76691,
+     1.03316
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00375,
+     0.00303,
+     0.00454
+    ],
+    "diff_vs_visits_ci95": [
+     0.00375,
+     0.00302,
+     0.00455
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.58647,
+     0.5559,
+     0.61706
+    ],
+    "diff_vs_visits_ci95": [
+     0.10135,
+     0.08209,
+     0.12147
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.03342,
+     0.02942,
+     0.03794
+    ],
+    "diff_vs_visits_ci95": [
+     -0.04213,
+     -0.04587,
+     -0.03839
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.02457,
+     0.02112,
+     0.02839
+    ],
+    "diff_vs_visits_ci95": [
+     -0.03786,
+     -0.04218,
+     -0.03377
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.60806,
+     0.56935,
+     0.64677
+    ],
+    "diff_vs_visits_ci95": [
+     0.05323,
+     0.02097,
+     0.08387
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.66613,
+     0.63226,
+     0.70323
+    ],
+    "diff_vs_visits_ci95": [
+     -0.0629,
+     -0.09839,
+     -0.02742
+    ]
+   }
+  },
+  "gumbel_c1": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     4.09708,
+     3.83834,
+     4.35797
+    ],
+    "diff_vs_visits_ci95": [
+     2.70833,
+     2.49814,
+     2.92231
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     2e-05,
+     1e-05,
+     4e-05
+    ],
+    "diff_vs_visits_ci95": [
+     2e-05,
+     1e-05,
+     4e-05
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.5915,
+     0.55394,
+     0.6275
+    ],
+    "diff_vs_visits_ci95": [
+     0.10638,
+     0.07709,
+     0.13785
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.02363,
+     0.01934,
+     0.02868
+    ],
+    "diff_vs_visits_ci95": [
+     -0.05192,
+     -0.0566,
+     -0.04737
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01417,
+     0.01048,
+     0.01816
+    ],
+    "diff_vs_visits_ci95": [
+     -0.04826,
+     -0.05355,
+     -0.04336
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.57903,
+     0.54032,
+     0.61774
+    ],
+    "diff_vs_visits_ci95": [
+     0.02419,
+     -0.0129,
+     0.06129
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.60484,
+     0.56774,
+     0.64355
+    ],
+    "diff_vs_visits_ci95": [
+     -0.12419,
+     -0.1629,
+     -0.08387
+    ]
+   }
+  },
+  "softq_0.05": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.66963,
+     1.57432,
+     1.77344
+    ],
+    "diff_vs_visits_ci95": [
+     0.28088,
+     0.23382,
+     0.32744
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_visits_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.45782,
+     0.42944,
+     0.48553
+    ],
+    "diff_vs_visits_ci95": [
+     -0.0273,
+     -0.04612,
+     -0.00752
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.04843,
+     0.04389,
+     0.05332
+    ],
+    "diff_vs_visits_ci95": [
+     -0.02712,
+     -0.03121,
+     -0.02297
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.03227,
+     0.02816,
+     0.03648
+    ],
+    "diff_vs_visits_ci95": [
+     -0.03016,
+     -0.03442,
+     -0.02614
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.58226,
+     0.54355,
+     0.61935
+    ],
+    "diff_vs_visits_ci95": [
+     0.02742,
+     -0.00968,
+     0.06452
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.58226,
+     0.54512,
+     0.6194
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14677,
+     -0.18871,
+     -0.10645
+    ]
+   }
+  },
+  "softq_0.1": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.63852,
+     1.55202,
+     1.72266
+    ],
+    "diff_vs_visits_ci95": [
+     0.24977,
+     0.21433,
+     0.28483
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_visits_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.36969,
+     0.34516,
+     0.39437
+    ],
+    "diff_vs_visits_ci95": [
+     -0.11543,
+     -0.13282,
+     -0.09952
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.08529,
+     0.07904,
+     0.09159
+    ],
+    "diff_vs_visits_ci95": [
+     0.00974,
+     0.00455,
+     0.01458
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.06001,
+     0.05475,
+     0.06541
+    ],
+    "diff_vs_visits_ci95": [
+     -0.00242,
+     -0.00619,
+     0.00118
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.58226,
+     0.54194,
+     0.62097
+    ],
+    "diff_vs_visits_ci95": [
+     0.02742,
+     -0.00806,
+     0.06613
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.58226,
+     0.54355,
+     0.62097
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14677,
+     -0.18548,
+     -0.10484
+    ]
+   }
+  },
+  "softq_0.2": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.81998,
+     1.74025,
+     1.89478
+    ],
+    "diff_vs_visits_ci95": [
+     0.43123,
+     0.39019,
+     0.47184
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_visits_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.27312,
+     0.25321,
+     0.29291
+    ],
+    "diff_vs_visits_ci95": [
+     -0.212,
+     -0.22908,
+     -0.19518
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.14126,
+     0.13276,
+     0.1505
+    ],
+    "diff_vs_visits_ci95": [
+     0.06571,
+     0.05909,
+     0.07296
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.10827,
+     0.10047,
+     0.11636
+    ],
+    "diff_vs_visits_ci95": [
+     0.04584,
+     0.041,
+     0.05105
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.58226,
+     0.54516,
+     0.61935
+    ],
+    "diff_vs_visits_ci95": [
+     0.02742,
+     -0.00968,
+     0.06452
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.58226,
+     0.54032,
+     0.62097
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14677,
+     -0.1871,
+     -0.10806
+    ]
+   }
+  },
+  "mix_visits_gumbel": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.38729,
+     1.30543,
+     1.472
+    ],
+    "diff_vs_visits_ci95": [
+     -0.00146,
+     -0.02849,
+     0.02359
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00063,
+     0.00045,
+     0.00084
+    ],
+    "diff_vs_visits_ci95": [
+     0.00063,
+     0.00045,
+     0.00083
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.53824,
+     0.51287,
+     0.56334
+    ],
+    "diff_vs_visits_ci95": [
+     0.05313,
+     0.04298,
+     0.06297
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.05239,
+     0.04824,
+     0.0565
+    ],
+    "diff_vs_visits_ci95": [
+     -0.02315,
+     -0.02513,
+     -0.0213
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.0413,
+     0.03737,
+     0.04556
+    ],
+    "diff_vs_visits_ci95": [
+     -0.02113,
+     -0.02322,
+     -0.0192
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.60484,
+     0.56613,
+     0.64516
+    ],
+    "diff_vs_visits_ci95": [
+     0.05,
+     0.01935,
+     0.07903
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.68387,
+     0.64839,
+     0.72101
+    ],
+    "diff_vs_visits_ci95": [
+     -0.04516,
+     -0.07742,
+     -0.01129
+    ]
+   }
+  }
+ },
+ "targets_from_100": {
+  "prior": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.70083,
+     1.62404,
+     1.77633
+    ],
+    "diff_vs_visits_ci95": [
+     0.12025,
+     0.0556,
+     0.17843
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00665,
+     0.0055,
+     0.00797
+    ],
+    "diff_vs_visits_ci95": [
+     0.00665,
+     0.00547,
+     0.00798
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.34738,
+     0.32436,
+     0.37058
+    ],
+    "diff_vs_visits_ci95": [
+     -0.06351,
+     -0.07372,
+     -0.05301
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.17977,
+     0.16445,
+     0.19527
+    ],
+    "diff_vs_visits_ci95": [
+     0.06401,
+     0.05403,
+     0.07506
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.16502,
+     0.14882,
+     0.18275
+    ],
+    "diff_vs_visits_ci95": [
+     0.06502,
+     0.05392,
+     0.07617
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.38387,
+     0.34677,
+     0.42258
+    ],
+    "diff_vs_visits_ci95": [
+     -0.12258,
+     -0.15323,
+     -0.09355
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.55645,
+     0.51774,
+     0.59516
+    ],
+    "diff_vs_visits_ci95": [
+     -0.10645,
+     -0.14032,
+     -0.07581
+    ]
+   }
+  },
+  "visits": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.58059,
+     1.48937,
+     1.6723
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.41089,
+     0.389,
+     0.43323
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.11576,
+     0.10844,
+     0.12363
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.1,
+     0.09193,
+     0.10823
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.50645,
+     0.46613,
+     0.54839
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.6629,
+     0.62419,
+     0.70161
+    ]
+   }
+  },
+  "gumbel": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.99703,
+     1.87223,
+     2.12702
+    ],
+    "diff_vs_visits_ci95": [
+     0.41645,
+     0.32907,
+     0.51705
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00244,
+     0.00192,
+     0.00302
+    ],
+    "diff_vs_visits_ci95": [
+     0.00244,
+     0.00192,
+     0.00298
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.52476,
+     0.4943,
+     0.55557
+    ],
+    "diff_vs_visits_ci95": [
+     0.11388,
+     0.09526,
+     0.13311
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.04862,
+     0.04372,
+     0.05388
+    ],
+    "diff_vs_visits_ci95": [
+     -0.06715,
+     -0.07292,
+     -0.06146
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.04175,
+     0.0365,
+     0.04782
+    ],
+    "diff_vs_visits_ci95": [
+     -0.05824,
+     -0.06455,
+     -0.0522
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.55484,
+     0.51613,
+     0.59516
+    ],
+    "diff_vs_visits_ci95": [
+     0.04839,
+     0.01774,
+     0.07903
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.59677,
+     0.55806,
+     0.63387
+    ],
+    "diff_vs_visits_ci95": [
+     -0.06613,
+     -0.10161,
+     -0.03226
+    ]
+   }
+  },
+  "gumbel_vw": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.99637,
+     1.87134,
+     2.11666
+    ],
+    "diff_vs_visits_ci95": [
+     0.41579,
+     0.31694,
+     0.51176
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00378,
+     0.00306,
+     0.00453
+    ],
+    "diff_vs_visits_ci95": [
+     0.00378,
+     0.00309,
+     0.00452
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.5215,
+     0.49273,
+     0.55041
+    ],
+    "diff_vs_visits_ci95": [
+     0.11061,
+     0.09106,
+     0.1301
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.05167,
+     0.04666,
+     0.05684
+    ],
+    "diff_vs_visits_ci95": [
+     -0.06409,
+     -0.07009,
+     -0.05847
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.04499,
+     0.0395,
+     0.05072
+    ],
+    "diff_vs_visits_ci95": [
+     -0.05501,
+     -0.0613,
+     -0.04927
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.55484,
+     0.51452,
+     0.59516
+    ],
+    "diff_vs_visits_ci95": [
+     0.04839,
+     0.01774,
+     0.07742
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.59677,
+     0.55645,
+     0.63548
+    ],
+    "diff_vs_visits_ci95": [
+     -0.06613,
+     -0.1,
+     -0.03226
+    ]
+   }
+  },
+  "gumbel_c1": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     4.3495,
+     4.08504,
+     4.6089
+    ],
+    "diff_vs_visits_ci95": [
+     2.76891,
+     2.54562,
+     2.98173
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     7e-05,
+     4e-05,
+     0.00011
+    ],
+    "diff_vs_visits_ci95": [
+     7e-05,
+     4e-05,
+     0.00012
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.52074,
+     0.48112,
+     0.55737
+    ],
+    "diff_vs_visits_ci95": [
+     0.10985,
+     0.07761,
+     0.14405
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.0328,
+     0.02792,
+     0.03795
+    ],
+    "diff_vs_visits_ci95": [
+     -0.08296,
+     -0.09049,
+     -0.07544
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.02834,
+     0.02207,
+     0.0359
+    ],
+    "diff_vs_visits_ci95": [
+     -0.07166,
+     -0.07955,
+     -0.06363
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.53871,
+     0.50161,
+     0.57903
+    ],
+    "diff_vs_visits_ci95": [
+     0.03226,
+     -0.00484,
+     0.06935
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.53226,
+     0.49355,
+     0.57101
+    ],
+    "diff_vs_visits_ci95": [
+     -0.13065,
+     -0.17097,
+     -0.0871
+    ]
+   }
+  },
+  "softq_0.05": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.91291,
+     1.79432,
+     2.02973
+    ],
+    "diff_vs_visits_ci95": [
+     0.33232,
+     0.26838,
+     0.40164
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_visits_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.42731,
+     0.39822,
+     0.45702
+    ],
+    "diff_vs_visits_ci95": [
+     0.01642,
+     -0.00456,
+     0.03907
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.05566,
+     0.05023,
+     0.06166
+    ],
+    "diff_vs_visits_ci95": [
+     -0.06011,
+     -0.06719,
+     -0.053
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.04456,
+     0.03895,
+     0.05053
+    ],
+    "diff_vs_visits_ci95": [
+     -0.05544,
+     -0.0624,
+     -0.04908
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.54032,
+     0.50157,
+     0.57907
+    ],
+    "diff_vs_visits_ci95": [
+     0.03387,
+     -0.00323,
+     0.07258
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.51452,
+     0.47419,
+     0.55165
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14839,
+     -0.19194,
+     -0.10645
+    ]
+   }
+  },
+  "softq_0.1": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.77767,
+     1.68204,
+     1.87719
+    ],
+    "diff_vs_visits_ci95": [
+     0.19708,
+     0.15488,
+     0.23823
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_visits_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.35361,
+     0.3297,
+     0.37933
+    ],
+    "diff_vs_visits_ci95": [
+     -0.05728,
+     -0.07447,
+     -0.03965
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.0878,
+     0.08139,
+     0.0944
+    ],
+    "diff_vs_visits_ci95": [
+     -0.02796,
+     -0.03449,
+     -0.02119
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.06921,
+     0.06248,
+     0.07644
+    ],
+    "diff_vs_visits_ci95": [
+     -0.03078,
+     -0.03682,
+     -0.02522
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.54032,
+     0.50319,
+     0.58065
+    ],
+    "diff_vs_visits_ci95": [
+     0.03387,
+     -0.00806,
+     0.07097
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.51452,
+     0.47581,
+     0.55484
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14839,
+     -0.19032,
+     -0.10484
+    ]
+   }
+  },
+  "softq_0.2": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.90539,
+     1.81939,
+     1.99193
+    ],
+    "diff_vs_visits_ci95": [
+     0.3248,
+     0.28756,
+     0.36097
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_visits_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.26686,
+     0.24732,
+     0.28644
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14403,
+     -0.16016,
+     -0.12859
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.14178,
+     0.13347,
+     0.15061
+    ],
+    "diff_vs_visits_ci95": [
+     0.02602,
+     0.0195,
+     0.03286
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.11429,
+     0.10542,
+     0.12301
+    ],
+    "diff_vs_visits_ci95": [
+     0.0143,
+     0.00868,
+     0.01977
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.54032,
+     0.5,
+     0.58065
+    ],
+    "diff_vs_visits_ci95": [
+     0.03387,
+     -0.00645,
+     0.06935
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.51452,
+     0.47419,
+     0.55484
+    ],
+    "diff_vs_visits_ci95": [
+     -0.14839,
+     -0.19032,
+     -0.10645
+    ]
+   }
+  },
+  "mix_visits_gumbel": {
+   "ce_deep_visits": {
+    "mean_ci95": [
+     1.47968,
+     1.39624,
+     1.56194
+    ],
+    "diff_vs_visits_ci95": [
+     -0.1009,
+     -0.13928,
+     -0.06333
+    ]
+   },
+   "mass_unvisited_by_deep": {
+    "mean_ci95": [
+     0.00122,
+     0.00097,
+     0.00151
+    ],
+    "diff_vs_visits_ci95": [
+     0.00122,
+     0.00096,
+     0.00152
+    ]
+   },
+   "p_best_deep": {
+    "mean_ci95": [
+     0.46783,
+     0.44331,
+     0.49205
+    ],
+    "diff_vs_visits_ci95": [
+     0.05694,
+     0.04754,
+     0.06662
+    ]
+   },
+   "regret_child": {
+    "mean_ci95": [
+     0.08219,
+     0.07647,
+     0.08788
+    ],
+    "diff_vs_visits_ci95": [
+     -0.03357,
+     -0.03661,
+     -0.03056
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.07087,
+     0.06495,
+     0.0776
+    ],
+    "diff_vs_visits_ci95": [
+     -0.02912,
+     -0.03212,
+     -0.02609
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.55484,
+     0.51774,
+     0.59355
+    ],
+    "diff_vs_visits_ci95": [
+     0.04839,
+     0.02419,
+     0.07419
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.62903,
+     0.59032,
+     0.66613
+    ],
+    "diff_vs_visits_ci95": [
+     -0.03387,
+     -0.06452,
+     -0.00323
+    ]
+   }
+  }
+ },
+ "decision_100sim": {
+  "referee_plain": {
+   "regret_child": {
+    "mean_ci95": [
+     0.04279,
+     0.03561,
+     0.04995
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.01677,
+     0.01201,
+     0.02188
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.0318,
+     0.02611,
+     0.03776
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.01376,
+     0.00944,
+     0.01873
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.50645,
+     0.46935,
+     0.54516
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.06452,
+     -0.0871,
+     -0.04194
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.6629,
+     0.62419,
+     0.7
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.05161,
+     -0.07742,
+     -0.02742
+    ]
+   }
+  },
+  "inject/prior": {
+   "regret_child": {
+    "mean_ci95": [
+     0.04279,
+     0.03611,
+     0.04985
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.01677,
+     0.01209,
+     0.02181
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.0318,
+     0.02597,
+     0.03778
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.01376,
+     0.00952,
+     0.01856
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.50645,
+     0.46774,
+     0.54516
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.06452,
+     -0.0871,
+     -0.04355
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.6629,
+     0.62581,
+     0.7
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.05161,
+     -0.07585,
+     -0.02581
+    ]
+   }
+  },
+  "inject/visits": {
+   "regret_child": {
+    "mean_ci95": [
+     0.02602,
+     0.02116,
+     0.0314
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01677,
+     -0.02219,
+     -0.0118
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01804,
+     0.01409,
+     0.02238
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01376,
+     -0.01817,
+     -0.00945
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.57097,
+     0.53387,
+     0.61133
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.06452,
+     0.04355,
+     0.0871
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.71452,
+     0.68065,
+     0.74839
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.05161,
+     0.02899,
+     0.07746
+    ]
+   }
+  },
+  "inject/gumbel": {
+   "regret_child": {
+    "mean_ci95": [
+     0.02035,
+     0.01645,
+     0.02451
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.02244,
+     -0.02885,
+     -0.01658
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00567,
+     -0.00992,
+     -0.00214
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01329,
+     0.00969,
+     0.01721
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01852,
+     -0.02441,
+     -0.01295
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00475,
+     -0.00862,
+     -0.00093
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.60161,
+     0.56448,
+     0.64032
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.09516,
+     0.05964,
+     0.13065
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.03065,
+     0.00157,
+     0.0629
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.65484,
+     0.61935,
+     0.69194
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.00806,
+     -0.04839,
+     0.02903
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.05968,
+     -0.09355,
+     -0.02581
+    ]
+   }
+  },
+  "inject/gumbel_vw": {
+   "regret_child": {
+    "mean_ci95": [
+     0.01971,
+     0.0158,
+     0.0237
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.02308,
+     -0.02962,
+     -0.01707
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00631,
+     -0.01026,
+     -0.00269
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01279,
+     0.0091,
+     0.01685
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01902,
+     -0.02509,
+     -0.01344
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00525,
+     -0.00908,
+     -0.0014
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.60323,
+     0.56452,
+     0.64032
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.09677,
+     0.05968,
+     0.1323
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.03226,
+     0.0,
+     0.0629
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.65484,
+     0.61935,
+     0.69355
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.00806,
+     -0.04677,
+     0.03065
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.05968,
+     -0.09677,
+     -0.02419
+    ]
+   }
+  },
+  "inject/gumbel_c1": {
+   "regret_child": {
+    "mean_ci95": [
+     0.0233,
+     0.01899,
+     0.02785
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01949,
+     -0.02605,
+     -0.01308
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00272,
+     -0.00725,
+     0.00143
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01368,
+     0.01006,
+     0.01797
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01812,
+     -0.02392,
+     -0.01212
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00435,
+     -0.00827,
+     -0.00027
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.57742,
+     0.53871,
+     0.61452
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.07097,
+     0.03065,
+     0.11129
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.00645,
+     -0.03065,
+     0.04355
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.60161,
+     0.56448,
+     0.63871
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.06129,
+     -0.10645,
+     -0.01774
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.1129,
+     -0.15,
+     -0.07581
+    ]
+   }
+  },
+  "inject/softq_0.05": {
+   "regret_child": {
+    "mean_ci95": [
+     0.02185,
+     0.01749,
+     0.02677
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.02094,
+     -0.02798,
+     -0.01417
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00417,
+     -0.00867,
+     9e-05
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01393,
+     0.01007,
+     0.01807
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01787,
+     -0.02419,
+     -0.01192
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00411,
+     -0.00806,
+     -4e-05
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.59839,
+     0.56125,
+     0.63871
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.09194,
+     0.05161,
+     0.13226
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.02742,
+     -0.00968,
+     0.06452
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.58871,
+     0.55,
+     0.62742
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.07419,
+     -0.11774,
+     -0.02581
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.12581,
+     -0.16613,
+     -0.08548
+    ]
+   }
+  },
+  "inject/softq_0.1": {
+   "regret_child": {
+    "mean_ci95": [
+     0.02114,
+     0.01707,
+     0.0255
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.02165,
+     -0.02834,
+     -0.01533
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00488,
+     -0.00904,
+     -0.00073
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01534,
+     0.01162,
+     0.01944
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01647,
+     -0.02263,
+     -0.0104
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.0027,
+     -0.00702,
+     0.00145
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.61129,
+     0.57258,
+     0.64839
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.10484,
+     0.06613,
+     0.14355
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.04032,
+     0.00645,
+     0.07581
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.5871,
+     0.54839,
+     0.62581
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.07581,
+     -0.1194,
+     -0.03065
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.12742,
+     -0.16452,
+     -0.09032
+    ]
+   }
+  },
+  "inject/softq_0.2": {
+   "regret_child": {
+    "mean_ci95": [
+     0.02332,
+     0.01866,
+     0.02862
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01947,
+     -0.02573,
+     -0.01373
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.0027,
+     -0.00633,
+     0.001
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01817,
+     0.01415,
+     0.02256
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01364,
+     -0.0197,
+     -0.00773
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.00013,
+     -0.00356,
+     0.00394
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.57903,
+     0.54032,
+     0.61613
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.07258,
+     0.03387,
+     0.1081
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.00806,
+     -0.02581,
+     0.04032
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.56129,
+     0.52258,
+     0.6
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.10161,
+     -0.14516,
+     -0.05806
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.15323,
+     -0.19032,
+     -0.1177
+    ]
+   }
+  },
+  "inject/mix_visits_gumbel": {
+   "regret_child": {
+    "mean_ci95": [
+     0.01985,
+     0.01574,
+     0.02455
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.02294,
+     -0.02861,
+     -0.01771
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00617,
+     -0.00886,
+     -0.00384
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01212,
+     0.00875,
+     0.01566
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01968,
+     -0.02515,
+     -0.0146
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.00592,
+     -0.00907,
+     -0.00293
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.61935,
+     0.57903,
+     0.65484
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.1129,
+     0.08065,
+     0.14359
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.04839,
+     0.02097,
+     0.07419
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.68387,
+     0.64839,
+     0.71774
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.02097,
+     -0.01613,
+     0.0581
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.03065,
+     -0.06129,
+     0.0
+    ]
+   }
+  },
+  "inject/deep_visits_oracle": {
+   "regret_child": {
+    "mean_ci95": [
+     0.01588,
+     0.01259,
+     0.01962
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.02691,
+     -0.03336,
+     -0.02071
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.01014,
+     -0.01468,
+     -0.00596
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.00089,
+     5e-05,
+     0.0019
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.03091,
+     -0.03718,
+     -0.02519
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.01714,
+     -0.02151,
+     -0.01337
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.62742,
+     0.58871,
+     0.66617
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.12097,
+     0.08871,
+     0.15484
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.05645,
+     0.02419,
+     0.08871
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.9,
+     0.87581,
+     0.92258
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.2371,
+     0.20161,
+     0.27258
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.18548,
+     0.15161,
+     0.21774
+    ]
+   }
+  },
+  "selfplay_mid_250": {
+   "regret_child": {
+    "mean_ci95": [
+     0.02703,
+     0.02242,
+     0.03192
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01576,
+     -0.02182,
+     -0.01061
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.00101,
+     -0.00223,
+     0.00339
+    ]
+   },
+   "regret_deep": {
+    "mean_ci95": [
+     0.01925,
+     0.01515,
+     0.02377
+    ],
+    "diff_vs_referee_plain_ci95": [
+     -0.01255,
+     -0.01746,
+     -0.00835
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.00121,
+     -0.0005,
+     0.00303
+    ]
+   },
+   "top1_child": {
+    "mean_ci95": [
+     0.55484,
+     0.51613,
+     0.59198
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.04839,
+     0.02742,
+     0.07097
+    ],
+    "diff_vs_inject_visits_ci95": [
+     -0.01613,
+     -0.03226,
+     -0.00161
+    ]
+   },
+   "top1_deep": {
+    "mean_ci95": [
+     0.72903,
+     0.69516,
+     0.76452
+    ],
+    "diff_vs_referee_plain_ci95": [
+     0.06613,
+     0.04194,
+     0.09032
+    ],
+    "diff_vs_inject_visits_ci95": [
+     0.01452,
+     -0.00484,
+     0.03391
+    ]
+   }
+  }
+ },
+ "breakdown_targets_from_250": {
+  "by_actions_left": {
+   "actions_left=1": {
+    "n": 302,
+    "prior/top1_deep": 0.61921,
+    "prior/regret_deep": 0.16434,
+    "prior/regret_child": 0.20004,
+    "visits/top1_deep": 0.76821,
+    "visits/regret_deep": 0.05434,
+    "visits/regret_child": 0.07432,
+    "gumbel/top1_deep": 0.73179,
+    "gumbel/regret_deep": 0.0172,
+    "gumbel/regret_child": 0.02374,
+    "gumbel_vw/top1_deep": 0.73179,
+    "gumbel_vw/regret_deep": 0.02225,
+    "gumbel_vw/regret_child": 0.02894,
+    "gumbel_c1/top1_deep": 0.69536,
+    "gumbel_c1/regret_deep": 0.01177,
+    "gumbel_c1/regret_child": 0.01726,
+    "softq_0.05/top1_deep": 0.66556,
+    "softq_0.05/regret_deep": 0.02651,
+    "softq_0.05/regret_child": 0.04645,
+    "softq_0.1/top1_deep": 0.66556,
+    "softq_0.1/regret_deep": 0.05489,
+    "softq_0.1/regret_child": 0.09321,
+    "softq_0.2/top1_deep": 0.66556,
+    "softq_0.2/regret_deep": 0.1046,
+    "softq_0.2/regret_child": 0.16148,
+    "mix_visits_gumbel/top1_deep": 0.75497,
+    "mix_visits_gumbel/regret_deep": 0.03577,
+    "mix_visits_gumbel/regret_child": 0.04903
+   },
+   "actions_left=2": {
+    "n": 318,
+    "prior/top1_deep": 0.49686,
+    "prior/regret_deep": 0.16566,
+    "prior/regret_child": 0.16052,
+    "visits/top1_deep": 0.69182,
+    "visits/regret_deep": 0.07011,
+    "visits/regret_child": 0.07671,
+    "gumbel/top1_deep": 0.60377,
+    "gumbel/regret_deep": 0.02298,
+    "gumbel/regret_child": 0.03447,
+    "gumbel_vw/top1_deep": 0.60377,
+    "gumbel_vw/regret_deep": 0.02678,
+    "gumbel_vw/regret_child": 0.03767,
+    "gumbel_c1/top1_deep": 0.51887,
+    "gumbel_c1/regret_deep": 0.01645,
+    "gumbel_c1/regret_child": 0.02968,
+    "softq_0.05/top1_deep": 0.50314,
+    "softq_0.05/regret_deep": 0.03774,
+    "softq_0.05/regret_child": 0.0503,
+    "softq_0.1/top1_deep": 0.50314,
+    "softq_0.1/regret_deep": 0.06486,
+    "softq_0.1/regret_child": 0.07776,
+    "softq_0.2/top1_deep": 0.50314,
+    "softq_0.2/regret_deep": 0.11175,
+    "softq_0.2/regret_child": 0.12205,
+    "mix_visits_gumbel/top1_deep": 0.61635,
+    "mix_visits_gumbel/regret_deep": 0.04655,
+    "mix_visits_gumbel/regret_child": 0.05559
+   }
+  },
+  "contested_positions_mid_argmax_ne_deep_best": {
+   "n": 168,
+   "prior/top1_deep": 0.07738,
+   "prior/regret_deep": 0.14708,
+   "prior/p_best_deep": 0.11697,
+   "prior/top1_child": 0.125,
+   "visits/top1_deep": 0.0,
+   "visits/regret_deep": 0.08716,
+   "visits/p_best_deep": 0.14726,
+   "visits/top1_child": 0.26786,
+   "gumbel/top1_deep": 0.27381,
+   "gumbel/regret_deep": 0.04869,
+   "gumbel/p_best_deep": 0.22093,
+   "gumbel/top1_child": 0.45238,
+   "gumbel_vw/top1_deep": 0.27381,
+   "gumbel_vw/regret_deep": 0.05228,
+   "gumbel_vw/p_best_deep": 0.21898,
+   "gumbel_vw/top1_child": 0.45238,
+   "gumbel_c1/top1_deep": 0.27381,
+   "gumbel_c1/regret_deep": 0.03672,
+   "gumbel_c1/p_best_deep": 0.26527,
+   "gumbel_c1/top1_child": 0.41667,
+   "softq_0.05/top1_deep": 0.25595,
+   "softq_0.05/regret_deep": 0.05675,
+   "softq_0.05/p_best_deep": 0.205,
+   "softq_0.05/top1_child": 0.39881,
+   "softq_0.1/top1_deep": 0.25595,
+   "softq_0.1/regret_deep": 0.08062,
+   "softq_0.1/p_best_deep": 0.16507,
+   "softq_0.1/top1_child": 0.39881,
+   "softq_0.2/top1_deep": 0.25595,
+   "softq_0.2/regret_deep": 0.11172,
+   "softq_0.2/p_best_deep": 0.12839,
+   "softq_0.2/top1_child": 0.39881,
+   "mix_visits_gumbel/top1_deep": 0.25595,
+   "mix_visits_gumbel/regret_deep": 0.06793,
+   "mix_visits_gumbel/p_best_deep": 0.1841,
+   "mix_visits_gumbel/top1_child": 0.42857
+  },
+  "positions_where_visits_and_gumbel_argmax_differ": {
+   "n": 175,
+   "prior/top1_deep": 0.42857,
+   "prior/regret_deep": 0.10834,
+   "prior/top1_child": 0.13714,
+   "prior/regret_child": 0.1262,
+   "visits/top1_deep": 0.48571,
+   "visits/regret_deep": 0.05992,
+   "visits/top1_child": 0.18286,
+   "visits/regret_child": 0.0748,
+   "gumbel/top1_deep": 0.26286,
+   "gumbel/regret_deep": 0.03153,
+   "gumbel/top1_child": 0.37143,
+   "gumbel/regret_child": 0.04126,
+   "gumbel_vw/top1_deep": 0.26286,
+   "gumbel_vw/regret_deep": 0.03428,
+   "gumbel_vw/top1_child": 0.37143,
+   "gumbel_vw/regret_child": 0.04382,
+   "gumbel_c1/top1_deep": 0.24,
+   "gumbel_c1/regret_deep": 0.02274,
+   "gumbel_c1/top1_child": 0.34286,
+   "gumbel_c1/regret_child": 0.03191,
+   "softq_0.05/top1_deep": 0.22857,
+   "softq_0.05/regret_deep": 0.03942,
+   "softq_0.05/top1_child": 0.33143,
+   "softq_0.05/regret_child": 0.05145,
+   "softq_0.1/top1_deep": 0.22857,
+   "softq_0.1/regret_deep": 0.05594,
+   "softq_0.1/top1_child": 0.33143,
+   "softq_0.1/regret_child": 0.07538,
+   "softq_0.2/top1_deep": 0.22857,
+   "softq_0.2/regret_deep": 0.08146,
+   "softq_0.2/top1_child": 0.33143,
+   "softq_0.2/regret_child": 0.10789,
+   "mix_visits_gumbel/top1_deep": 0.32571,
+   "mix_visits_gumbel/regret_deep": 0.04572,
+   "mix_visits_gumbel/top1_child": 0.36,
+   "mix_visits_gumbel/regret_child": 0.05803
+  }
+ },
+ "cost": {
+  "wall_seconds_mean_per_position": {
+   "ref": 0.0948,
+   "mid": 0.2368,
+   "deep": 3.2738,
+   "child": 2.1587,
+   "inject_each": 0.0972
+  },
+  "wall_seconds_median_per_position": {
+   "ref": 0.0801,
+   "mid": 0.2052,
+   "deep": 3.0316,
+   "child": 1.9632,
+   "inject_each": 0.085
+  },
+  "all_targets_compute_seconds_mean": 0.00021812870967580472,
+  "note": "4 processes on a machine at ~100% CPU from other jobs; times are relative, not absolute"
+ }
+}

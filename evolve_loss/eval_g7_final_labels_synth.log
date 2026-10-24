@@ -1,0 +1,21 @@
+{
+ "generation": "g7_final",
+ "rule": "Final cert.cert_loss(two_ply=True): actions_left == 1 -> 76-slot one-ply; actions_left == 2 -> Kernel-only 8x8 tree, else 76x76 two-ply. Same logic as g5.",
+ "labels": "labels_synth.npz",
+ "positions": 193840,
+ "bruteforce_lost": 57079,
+ "flagged": 57076,
+ "violations": 0,
+ "coverage": 0.9999,
+ "seconds": 919.8,
+ "by_actions_left": {
+  "1": {
+   "lost": 42170,
+   "flagged": 42167
+  },
+  "2": {
+   "lost": 14909,
+   "flagged": 14909
+  }
+ }
+}

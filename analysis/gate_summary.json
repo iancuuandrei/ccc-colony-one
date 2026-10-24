@@ -1,0 +1,472 @@
+{
+ "note": "Paired arena summaries (exact referee MCTS, 100 sims, Level 4 scene, each seed played with both colours). Game histories omitted.",
+ "results": [
+  {
+   "file": "attn-vs-cnn.json",
+   "a": "ckpt_attn-endgame.onnx",
+   "b": "ckpt_cnn-endgame.onnx",
+   "games": 400,
+   "a_wins": 238,
+   "a_rate": 0.595,
+   "a_cyan_wins": 133,
+   "a_magenta_wins": 105,
+   "mean_actions": 45.6
+  },
+  {
+   "file": "big-vs-gen07.json",
+   "a": "big80x6_a-endgame.onnx",
+   "b": "gen07-endgame.onnx",
+   "games": 400,
+   "a_wins": 224,
+   "a_rate": 0.56,
+   "a_cyan_wins": 118,
+   "a_magenta_wins": 106,
+   "mean_actions": 50.2
+  },
+  {
+   "file": "calib-T1.0_s0.6_o1.0.json",
+   "a": "T1.0_s0.6_o1.0-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 200,
+   "a_wins": 76,
+   "a_rate": 0.38,
+   "a_cyan_wins": 34,
+   "a_magenta_wins": 42,
+   "mean_actions": 52.8
+  },
+  {
+   "file": "calib-T1.0_s1.0_o3.0.json",
+   "a": "T1.0_s1.0_o3.0-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 200,
+   "a_wins": 105,
+   "a_rate": 0.525,
+   "a_cyan_wins": 54,
+   "a_magenta_wins": 51,
+   "mean_actions": 50.0
+  },
+  {
+   "file": "calib-T1.0_s1.0_o8.0.json",
+   "a": "T1.0_s1.0_o8.0-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 200,
+   "a_wins": 82,
+   "a_rate": 0.41,
+   "a_cyan_wins": 38,
+   "a_magenta_wins": 44,
+   "mean_actions": 49.5
+  },
+  {
+   "file": "calib-T1.4_s1.0_o1.0.json",
+   "a": "T1.4_s1.0_o1.0-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 200,
+   "a_wins": 106,
+   "a_rate": 0.53,
+   "a_cyan_wins": 57,
+   "a_magenta_wins": 49,
+   "mean_actions": 47.8
+  },
+  {
+   "file": "gen01-vs-h1.json",
+   "a": "gen01.onnx",
+   "b": "model-h1.onnx",
+   "games": 400,
+   "a_wins": 399,
+   "a_rate": 0.9975,
+   "a_cyan_wins": 199,
+   "a_magenta_wins": 200,
+   "mean_actions": 29.9
+  },
+  {
+   "file": "gen01-vs-tactical-v2.json",
+   "a": "gen01.onnx",
+   "b": "model-tactical-v2.onnx",
+   "games": 400,
+   "a_wins": 388,
+   "a_rate": 0.97,
+   "a_cyan_wins": 196,
+   "a_magenta_wins": 192,
+   "mean_actions": 38.9
+  },
+  {
+   "file": "gen01-vs-tactical.json",
+   "a": "gen01.onnx",
+   "b": "model-tactical.onnx",
+   "games": 400,
+   "a_wins": 395,
+   "a_rate": 0.9875,
+   "a_cyan_wins": 198,
+   "a_magenta_wins": 197,
+   "mean_actions": 30.6
+  },
+  {
+   "file": "gen01big-vs-gen01.json",
+   "a": "gen01big.onnx",
+   "b": "gen01.onnx",
+   "games": 300,
+   "a_wins": 150,
+   "a_rate": 0.5,
+   "a_cyan_wins": 74,
+   "a_magenta_wins": 76,
+   "mean_actions": 48.1
+  },
+  {
+   "file": "gen02-gate.json",
+   "a": "gen02-endgame.onnx",
+   "b": "gen01.onnx",
+   "games": 400,
+   "a_wins": 310,
+   "a_rate": 0.775,
+   "a_cyan_wins": 155,
+   "a_magenta_wins": 155,
+   "mean_actions": 46.3
+  },
+  {
+   "file": "gen02-tactical.json",
+   "a": "gen02-endgame.onnx",
+   "b": "model-tactical-v2.onnx",
+   "games": 200,
+   "a_wins": 200,
+   "a_rate": 1.0,
+   "a_cyan_wins": 100,
+   "a_magenta_wins": 100,
+   "mean_actions": 37.6
+  },
+  {
+   "file": "gen03-gate.json",
+   "a": "gen03-endgame.onnx",
+   "b": "gen02-endgame.onnx",
+   "games": 400,
+   "a_wins": 296,
+   "a_rate": 0.74,
+   "a_cyan_wins": 145,
+   "a_magenta_wins": 151,
+   "mean_actions": 46.8
+  },
+  {
+   "file": "gen03-tactical.json",
+   "a": "gen03-endgame.onnx",
+   "b": "model-tactical-v2.onnx",
+   "games": 100,
+   "a_wins": 98,
+   "a_rate": 0.98,
+   "a_cyan_wins": 48,
+   "a_magenta_wins": 50,
+   "mean_actions": 38.5
+  },
+  {
+   "file": "gen04-gate.json",
+   "a": "gen04-endgame.onnx",
+   "b": "gen03-endgame.onnx",
+   "games": 400,
+   "a_wins": 239,
+   "a_rate": 0.5975,
+   "a_cyan_wins": 111,
+   "a_magenta_wins": 128,
+   "mean_actions": 48.6
+  },
+  {
+   "file": "gen04-tactical.json",
+   "a": "gen04-endgame.onnx",
+   "b": "model-tactical-v2.onnx",
+   "games": 100,
+   "a_wins": 100,
+   "a_rate": 1.0,
+   "a_cyan_wins": 50,
+   "a_magenta_wins": 50,
+   "mean_actions": 37.5
+  },
+  {
+   "file": "gen04q-vs-gen04.json",
+   "a": "gen04q-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 400,
+   "a_wins": 178,
+   "a_rate": 0.445,
+   "a_cyan_wins": 83,
+   "a_magenta_wins": 95,
+   "mean_actions": 49.1
+  },
+  {
+   "file": "gen05-gate.json",
+   "a": "gen05-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 400,
+   "a_wins": 280,
+   "a_rate": 0.7,
+   "a_cyan_wins": 135,
+   "a_magenta_wins": 145,
+   "mean_actions": 47.4
+  },
+  {
+   "file": "gen05v-gate.json",
+   "a": "gen05v-endgame.onnx",
+   "b": "gen04-endgame.onnx",
+   "games": 400,
+   "a_wins": 241,
+   "a_rate": 0.6025,
+   "a_cyan_wins": 119,
+   "a_magenta_wins": 122,
+   "mean_actions": 49.2
+  },
+  {
+   "file": "gen06-gate.json",
+   "a": "gen06-endgame.onnx",
+   "b": "gen05-endgame.onnx",
+   "games": 400,
+   "a_wins": 297,
+   "a_rate": 0.7425,
+   "a_cyan_wins": 167,
+   "a_magenta_wins": 130,
+   "mean_actions": 47.8
+  },
+  {
+   "file": "gen06v-gate.json",
+   "a": "gen06v-endgame.onnx",
+   "b": "gen05-endgame.onnx",
+   "games": 400,
+   "a_wins": 289,
+   "a_rate": 0.7225,
+   "a_cyan_wins": 155,
+   "a_magenta_wins": 134,
+   "mean_actions": 49.7
+  },
+  {
+   "file": "gen07-gate.json",
+   "a": "gen07-endgame.onnx",
+   "b": "gen06-endgame.onnx",
+   "games": 400,
+   "a_wins": 241,
+   "a_rate": 0.6025,
+   "a_cyan_wins": 134,
+   "a_magenta_wins": 107,
+   "mean_actions": 48.7
+  },
+  {
+   "file": "gen07v-gate.json",
+   "a": "gen07v-endgame.onnx",
+   "b": "gen06-endgame.onnx",
+   "games": 400,
+   "a_wins": 215,
+   "a_rate": 0.5375,
+   "a_cyan_wins": 127,
+   "a_magenta_wins": 88,
+   "mean_actions": 48.5
+  },
+  {
+   "file": "gen09-gate.json",
+   "a": "gen09-endgame.onnx",
+   "b": "big80x6_a-endgame.onnx",
+   "games": 400,
+   "a_wins": 301,
+   "a_rate": 0.7525,
+   "a_cyan_wins": 158,
+   "a_magenta_wins": 143,
+   "mean_actions": 48.3
+  },
+  {
+   "file": "gen10-gate.json",
+   "a": "gen10-endgame.onnx",
+   "b": "gen09-endgame.onnx",
+   "games": 400,
+   "a_wins": 209,
+   "a_rate": 0.5225,
+   "a_cyan_wins": 111,
+   "a_magenta_wins": 98,
+   "mean_actions": 47.4
+  },
+  {
+   "file": "gen11-gate.json",
+   "a": "gen11-endgame.onnx",
+   "b": "gen10-endgame.onnx",
+   "games": 400,
+   "a_wins": 206,
+   "a_rate": 0.515,
+   "a_cyan_wins": 119,
+   "a_magenta_wins": 87,
+   "mean_actions": 47.2
+  },
+  {
+   "file": "gen12-gate.json",
+   "a": "gen12-endgame.onnx",
+   "b": "gen10-endgame.onnx",
+   "games": 400,
+   "a_wins": 251,
+   "a_rate": 0.6275,
+   "a_cyan_wins": 136,
+   "a_magenta_wins": 115,
+   "mean_actions": 48.5
+  },
+  {
+   "file": "gen12-vs-gen09.json",
+   "a": "model.onnx",
+   "b": "model.onnx",
+   "games": 400,
+   "a_wins": 277,
+   "a_rate": 0.6925,
+   "a_cyan_wins": 146,
+   "a_magenta_wins": 131,
+   "mean_actions": 50.8
+  }
+ ],
+ "learner_history": [
+  {
+   "gen": 2,
+   "gates": null,
+   "gate": 0.775,
+   "chosen": null,
+   "promoted": true,
+   "main_args": null,
+   "variant_args": null,
+   "note": null
+  },
+  {
+   "gen": 3,
+   "gates": null,
+   "gate": 0.74,
+   "chosen": null,
+   "promoted": true,
+   "main_args": null,
+   "variant_args": null,
+   "note": null
+  },
+  {
+   "gen": 4,
+   "gates": null,
+   "gate": 0.5975,
+   "chosen": null,
+   "promoted": true,
+   "main_args": null,
+   "variant_args": null,
+   "note": null
+  },
+  {
+   "gen": 5,
+   "gates": {
+    "gen05": 0.7,
+    "gen05v": 0.6025
+   },
+   "gate": 0.7,
+   "chosen": "gen05",
+   "promoted": true,
+   "main_args": [],
+   "variant_args": [
+    "--opp-aux",
+    "0.15",
+    "--surprise",
+    "0.5"
+   ],
+   "note": null
+  },
+  {
+   "gen": 6,
+   "gates": {
+    "gen06": 0.7425,
+    "gen06v": 0.7225
+   },
+   "gate": 0.7425,
+   "chosen": "gen06",
+   "promoted": true,
+   "main_args": [],
+   "variant_args": [
+    "--steps",
+    "1500"
+   ],
+   "note": null
+  },
+  {
+   "gen": 7,
+   "gates": {
+    "gen07": 0.6025,
+    "gen07v": 0.5375
+   },
+   "gate": 0.6025,
+   "chosen": "gen07",
+   "promoted": true,
+   "main_args": [
+    "--ext-frac",
+    "0.06"
+   ],
+   "variant_args": [
+    "--ext-frac",
+    "0.06",
+    "--policy-mix",
+    "0.5"
+   ],
+   "note": null
+  },
+  {
+   "gen": 8,
+   "gates": {
+    "big80x6_a": 0.56
+   },
+   "gate": 0.56,
+   "chosen": "big80x6_a",
+   "promoted": true,
+   "main_args": null,
+   "variant_args": null,
+   "note": "Net2Net-widened gen07 -> 80x6, 4000 steps lr 1e-3 on gen07 window"
+  },
+  {
+   "gen": 9,
+   "gates": {
+    "gen09": 0.7525
+   },
+   "gate": 0.7525,
+   "chosen": "gen09",
+   "promoted": true,
+   "main_args": [
+    "--ext-frac",
+    "0.06"
+   ],
+   "variant_args": null,
+   "note": null
+  },
+  {
+   "gen": 10,
+   "gates": {
+    "gen10": 0.5225
+   },
+   "gate": 0.5225,
+   "chosen": "gen10",
+   "promoted": true,
+   "main_args": [
+    "--ext-frac",
+    "0.06"
+   ],
+   "variant_args": null,
+   "note": null
+  },
+  {
+   "gen": 11,
+   "gates": {
+    "gen11": 0.515
+   },
+   "gate": 0.515,
+   "chosen": "gen11",
+   "promoted": false,
+   "main_args": [
+    "--ext-frac",
+    "0.06"
+   ],
+   "variant_args": null,
+   "note": null
+  },
+  {
+   "gen": 12,
+   "gates": {
+    "gen12": 0.6275
+   },
+   "gate": 0.6275,
+   "chosen": "gen12",
+   "promoted": true,
+   "main_args": [
+    "--ext-frac",
+    "0.06"
+   ],
+   "variant_args": null,
+   "note": null
+  }
+ ]
+}

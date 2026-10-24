@@ -52,8 +52,26 @@ def main():
     a, b = str(Path(o.a).resolve()), str(Path(o.b).resolve())
     jobs = [(a, b, s, c, o.sims) for s in range(o.start, o.start + o.games) for c in (True, False)]
     t = time.time()
-    with ProcessPoolExecutor(o.workers) as ex:
-        res = list(ex.map(play, jobs))
+    from concurrent.futures.process import BrokenProcessPool
+    done = {}
+    for attempt in range(4):   # a killed worker breaks the pool: rebuild it and replay only missing games
+        todo = [j for k, j in enumerate(jobs) if k not in done]
+        if not todo:
+            break
+        keys = [k for k in range(len(jobs)) if k not in done]
+        try:
+            with ProcessPoolExecutor(o.workers) as ex:
+                futs = {ex.submit(play, j): k for k, j in zip(keys, todo)}
+                for f in futs:
+                    try:
+                        done[futs[f]] = f.result()
+                    except BrokenProcessPool:
+                        raise
+        except BrokenProcessPool:
+            print(json.dumps({'warning': 'worker died, retrying missing games', 'done': len(done)}), flush=True)
+    if len(done) != len(jobs):
+        raise SystemExit(f'arena incomplete: {len(done)}/{len(jobs)}')
+    res = [done[k] for k in range(len(jobs))]
     wins = sum(r['a_won'] for r in res)
     cy = [r for r in res if r['a_cyan']]; mg = [r for r in res if not r['a_cyan']]
     summary = {'a': o.a, 'b': o.b, 'games': len(res), 'a_wins': wins, 'a_rate': wins / len(res),

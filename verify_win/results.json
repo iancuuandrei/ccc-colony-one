@@ -1,0 +1,185 @@
+{
+ "positions_total": 203193,
+ "positions_checked": 203193,
+ "no_enemy_kernel": 0,
+ "actions_left_counts": {
+  "1": 101489,
+  "2": 101704
+ },
+ "seconds_rules_numpy": 5.4,
+ "seconds_bruteforce": 62.7,
+ "hit_geometry_vs_engine_mismatch": 0,
+ "bruteforce_wins": 13882,
+ "R1_flag": 5889,
+ "R1_violations": 0,
+ "R1_misses": 7993,
+ "R1_misses_by_actions_left": {
+  "1": 0,
+  "2": 7993
+ },
+ "R1_misses_primary_category": {
+  "self:approach": 7808,
+  "self:approach-capture": 178,
+  "other:discovered(vacate-ray)": 5,
+  "self:shoot-then-attack": 1,
+  "other:capture-unblock/unguard": 1
+ },
+ "R1_misses_category_any": {
+  "self:approach": 7808,
+  "self:approach-capture": 204,
+  "other:discovered(vacate-ray)": 35,
+  "self:shoot-then-attack": 1,
+  "other:capture-unblock/unguard": 1
+ },
+ "R2_flag": 8197,
+ "R2_violations": 0,
+ "R2_vs_bruteforce_selfrelocation_mismatch": 0,
+ "R1_or_R2_flag": 13875,
+ "R1_or_R2_violations": 0,
+ "R1_or_R2_misses": 7,
+ "R1_or_R2_misses_primary_category": {
+  "other:discovered(vacate-ray)": 5,
+  "self:shoot-then-attack": 1,
+  "other:capture-unblock/unguard": 1
+ },
+ "examples": {
+  "R1_violation": [],
+  "R2_violation": [],
+  "R2_mismatch": [],
+  "miss_self:approach": {
+   "i": 38,
+   "al": 2,
+   "g": 0,
+   "board": "0 ## ## ## ## ## ## ## ##\n1 ##  .  .  .  .  .  . ##\n2 ##  .  .  .  .  .  . ##\n3 ##  .  .  . ke  .  . ##\n4 ##  .  .  .  .  .  . ##\n5 ##  . EX KE  .  .  . ##\n6 ##  .  .  .  .  .  . ##\n7 ## ## ## ## ## ## ## ##\n   0  1  2  3  4  5  6  7",
+   "line": "((Action(from_pos=(5, 3), to_pos=(4, 3), kind='move'), (True, None, None)), (Action(from_pos=(4, 3), to_pos=(3, 4), kind='move'), None))"
+  },
+  "miss_self:approach-capture": {
+   "i": 462,
+   "al": 2,
+   "g": 1,
+   "board": "0  .  . ex  .  .  .  . ke\n1  .  .  .  .  .  . ic  .\n2  .  .  .  .  .  .  . tr\n3  .  . de  .  .  .  .  .\n4 PI  .  .  .  .  . DE  .\n5 TR  .  .  .  .  .  .  .\n6  . IC  . EX  .  .  .  .\n7 KE  .  .  .  .  .  .  .\n   0  1  2  3  4  5  6  7",
+   "line": "((Action(from_pos=(4, 6), to_pos=(1, 6), kind='move'), (True, 'ICE', (1, 6))), (Action(from_pos=(1, 6), to_pos=(0, 7), kind='shoot'), None))"
+  },
+  "miss_self:shoot-then-attack": {
+   "i": 107605,
+   "al": 2,
+   "g": 1,
+   "board": "0  .  .  .  .  .  .  .  .\n1  .  .  .  .  .  .  .  .\n2  .  .  .  .  .  .  .  .\n3  .  . DE ic ke  .  . tr\n4  .  .  .  .  .  .  .  .\n5  . KE  .  .  .  .  .  .\n6  . IC  .  .  .  .  .  .\n7  .  .  .  .  .  .  .  .\n   0  1  2  3  4  5  6  7",
+   "line": "((Action(from_pos=(3, 2), to_pos=(3, 3), kind='shoot'), (False, 'ICE', (3, 3))), (Action(from_pos=(3, 2), to_pos=(3, 4), kind='move'), None))"
+  },
+  "miss_other:discovered(vacate-ray)": {
+   "i": 12739,
+   "al": 2,
+   "g": 0,
+   "board": "0 ## ## ## ## ## ## ## ##\n1 ##  .  .  .  .  .  . ##\n2 ##  .  .  .  .  .  . ##\n3 ##  .  .  . ke  .  . ##\n4 ##  .  .  .  .  .  . ##\n5 ##  . EX  .  .  .  . ##\n6 ## TR KE  .  .  .  . ##\n7 ## ## ## ## ## ## ## ##\n   0  1  2  3  4  5  6  7",
+   "line": "((Action(from_pos=(5, 2), to_pos=(3, 1), kind='move'), (True, None, None)), (Action(from_pos=(6, 1), to_pos=(3, 4), kind='shoot'), None))"
+  },
+  "miss_other:capture-unblock/unguard": {
+   "i": 117469,
+   "al": 2,
+   "g": 1,
+   "board": "0  .  .  .  .  .  .  .  .\n1  . PI  .  .  .  .  .  .\n2  .  .  .  .  . ic  .  .\n3  .  .  .  .  .  . tr  .\n4  .  .  .  .  . ke  .  .\n5  .  .  .  .  . EX  .  .\n6 KE TR  .  .  .  .  .  .\n7  . IC  .  .  . DE  .  .\n   0  1  2  3  4  5  6  7",
+   "line": "((Action(from_pos=(5, 5), to_pos=(3, 6), kind='move'), (True, 'TRACE', (3, 6))), (Action(from_pos=(7, 5), to_pos=(4, 5), kind='move'), None))"
+  },
+  "R1_or_R2_residual_misses": [
+   {
+    "i": 12739,
+    "al": 2,
+    "g": 0,
+    "board": "0 ## ## ## ## ## ## ## ##\n1 ##  .  .  .  .  .  . ##\n2 ##  .  .  .  .  .  . ##\n3 ##  .  .  . ke  .  . ##\n4 ##  .  .  .  .  .  . ##\n5 ##  . EX  .  .  .  . ##\n6 ## TR KE  .  .  .  . ##\n7 ## ## ## ## ## ## ## ##\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "other:discovered(vacate-ray)"
+     ],
+     "line": "((Action(from_pos=(5, 2), to_pos=(3, 1), kind='move'), (True, None, None)), (Action(from_pos=(6, 1), to_pos=(3, 4), kind='shoot'), None))"
+    }
+   },
+   {
+    "i": 12817,
+    "al": 2,
+    "g": 0,
+    "board": "0  .  .  .  .  .  .  .  .\n1  .  .  .  .  .  .  . ic\n2  .  .  .  .  .  .  .  .\n3  .  .  . ke  .  .  .  .\n4  .  .  .  .  .  .  .  .\n5  . EX  .  .  .  .  .  .\n6 TR KE  .  .  .  .  .  .\n7  .  . IC  .  .  .  .  .\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "other:discovered(vacate-ray)"
+     ],
+     "line": "((Action(from_pos=(5, 1), to_pos=(3, 0), kind='move'), (True, None, None)), (Action(from_pos=(6, 0), to_pos=(3, 3), kind='shoot'), None))"
+    }
+   },
+   {
+    "i": 89810,
+    "al": 2,
+    "g": 0,
+    "board": "0  .  .  .  .  .  .  .  .\n1  .  .  .  .  .  . ic  .\n2  .  .  .  . ke  .  . tr\n3  .  .  .  .  .  .  .  .\n4  .  . EX  .  .  .  .  .\n5  . TR KE  .  .  .  .  .\n6  .  .  .  .  .  .  .  .\n7  . DE  .  .  .  .  .  .\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "other:discovered(vacate-ray)"
+     ],
+     "line": "((Action(from_pos=(4, 2), to_pos=(2, 1), kind='move'), (True, None, None)), (Action(from_pos=(5, 1), to_pos=(2, 4), kind='shoot'), None))"
+    }
+   },
+   {
+    "i": 106271,
+    "al": 2,
+    "g": 0,
+    "board": "0 ## ## ## ## ## ## ## ##\n1 ##  .  .  .  .  .  . ##\n2 ##  .  .  . ke  .  . ##\n3 ##  .  .  .  .  .  . ##\n4 ##  . EX  .  .  .  . ##\n5 ## TR KE  .  .  .  . ##\n6 ##  .  .  .  .  .  . ##\n7 ## ## ## ## ## ## ## ##\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "other:discovered(vacate-ray)"
+     ],
+     "line": "((Action(from_pos=(4, 2), to_pos=(2, 1), kind='move'), (True, None, None)), (Action(from_pos=(5, 1), to_pos=(2, 4), kind='shoot'), None))"
+    }
+   },
+   {
+    "i": 107605,
+    "al": 2,
+    "g": 1,
+    "board": "0  .  .  .  .  .  .  .  .\n1  .  .  .  .  .  .  .  .\n2  .  .  .  .  .  .  .  .\n3  .  . DE ic ke  .  . tr\n4  .  .  .  .  .  .  .  .\n5  . KE  .  .  .  .  .  .\n6  . IC  .  .  .  .  .  .\n7  .  .  .  .  .  .  .  .\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "self:shoot-then-attack"
+     ],
+     "line": "((Action(from_pos=(3, 2), to_pos=(3, 3), kind='shoot'), (False, 'ICE', (3, 3))), (Action(from_pos=(3, 2), to_pos=(3, 4), kind='move'), None))"
+    }
+   },
+   {
+    "i": 117469,
+    "al": 2,
+    "g": 1,
+    "board": "0  .  .  .  .  .  .  .  .\n1  . PI  .  .  .  .  .  .\n2  .  .  .  .  . ic  .  .\n3  .  .  .  .  .  . tr  .\n4  .  .  .  .  . ke  .  .\n5  .  .  .  .  . EX  .  .\n6 KE TR  .  .  .  .  .  .\n7  . IC  .  .  . DE  .  .\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "other:capture-unblock/unguard"
+     ],
+     "line": "((Action(from_pos=(5, 5), to_pos=(3, 6), kind='move'), (True, 'TRACE', (3, 6))), (Action(from_pos=(7, 5), to_pos=(4, 5), kind='move'), None))"
+    }
+   },
+   {
+    "i": 182007,
+    "al": 2,
+    "g": 0,
+    "board": "0  .  .  . de  .  .  .  .\n1  .  .  .  .  .  .  . tr\n2  .  .  .  . ke  .  .  .\n3  .  .  .  .  .  .  .  .\n4  .  . EX  .  .  .  .  .\n5  . TR  .  .  .  .  .  .\n6 KE IC  .  .  .  .  .  .\n7  .  . DE  .  .  .  .  .\n   0  1  2  3  4  5  6  7",
+    "res": {
+     "win": true,
+     "hit_engine": false,
+     "cats": [
+      "other:discovered(vacate-ray)"
+     ],
+     "line": "((Action(from_pos=(4, 2), to_pos=(2, 1), kind='move'), (True, None, None)), (Action(from_pos=(5, 1), to_pos=(2, 4), kind='shoot'), None))"
+    }
+   }
+  ]
+ }
+}

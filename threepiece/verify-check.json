@@ -1,0 +1,149 @@
+{
+  "mode": "check",
+  "base": {
+    "exit": 0,
+    "report": {
+      "model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\ckpt\\gen06-endgame.onnx",
+      "bytes": 1479383,
+      "nodes": 696,
+      "disallowed_ops": [],
+      "dry_run_s": 1.02,
+      "batch8_ms": 4.392,
+      "ops": {
+        "Reshape": 16,
+        "Slice": 8,
+        "ReduceSum": 18,
+        "Gather": 34,
+        "Sub": 12,
+        "Clip": 26,
+        "MatMul": 156,
+        "Mul": 136,
+        "Add": 179,
+        "ReduceMean": 5,
+        "Abs": 1,
+        "Unsqueeze": 27,
+        "Concat": 3,
+        "Conv": 13,
+        "Relu": 15,
+        "Gemm": 6,
+        "Sigmoid": 2,
+        "Transpose": 1,
+        "Tanh": 1,
+        "Div": 1,
+        "ReduceMax": 2,
+        "Greater": 6,
+        "Equal": 10,
+        "And": 7,
+        "Or": 4,
+        "Cast": 2,
+        "Max": 1,
+        "Where": 4
+      }
+    }
+  },
+  "wrapper": {
+    "exit": 0,
+    "report": {
+      "model": "D:\\dev\\CCC-OMNI\\workspace\\colony-one-level4\\threepiece\\gen06-endgame-3p.onnx",
+      "bytes": 1531995,
+      "nodes": 747,
+      "disallowed_ops": [],
+      "dry_run_s": 0.9773,
+      "batch8_ms": 3.472,
+      "ops": {
+        "Reshape": 20,
+        "Slice": 8,
+        "ReduceSum": 23,
+        "Gather": 34,
+        "Sub": 18,
+        "Clip": 26,
+        "MatMul": 162,
+        "Mul": 148,
+        "Add": 183,
+        "ReduceMean": 5,
+        "Abs": 3,
+        "Unsqueeze": 27,
+        "Concat": 3,
+        "Conv": 13,
+        "Relu": 15,
+        "Gemm": 6,
+        "Sigmoid": 2,
+        "Transpose": 1,
+        "Tanh": 1,
+        "Div": 1,
+        "ReduceMax": 3,
+        "Greater": 8,
+        "Equal": 12,
+        "And": 9,
+        "Or": 4,
+        "Cast": 3,
+        "Max": 1,
+        "Where": 6,
+        "Split": 2
+      }
+    }
+  },
+  "latency": {
+    "method": "wall perf_counter per call, single-thread ORT, interleaved alternating order, real self-play obs; host shared with self-play actors",
+    "batch1": {
+      "ms_median": {
+        "base": 1.1118742500048029,
+        "wrapper": 1.1933562500053085,
+        "increment_only": 0.0860240000019985
+      },
+      "ms_min_of_rounds": {
+        "base": 0.9150820000013482,
+        "wrapper": 0.9728714999982913,
+        "increment_only": 0.06835799999862502
+      },
+      "delta_ms_median": 0.08148200000050565,
+      "delta_pct_median": 7.328346708285904,
+      "delta_ms_min": 0.05778949999694305,
+      "delta_pct_min": 6.315226394668216,
+      "paired_delta_ms_median": 0.06832349999967846,
+      "paired_delta_pct_median": 6.024519415947738,
+      "rounds": 80,
+      "runs_per_round": 200
+    },
+    "batch8": {
+      "ms_median": {
+        "base": 4.649498250000761,
+        "wrapper": 4.612768500001039,
+        "increment_only": 0.14288950000263867
+      },
+      "ms_min_of_rounds": {
+        "base": 3.1104099999993196,
+        "wrapper": 3.223526000001584,
+        "increment_only": 0.10153999999602092
+      },
+      "delta_ms_median": -0.03672974999972212,
+      "delta_pct_median": -0.7899723373315792,
+      "delta_ms_min": 0.11311600000226463,
+      "delta_pct_min": 3.6366909829343763,
+      "paired_delta_ms_median": 0.2052815000024566,
+      "paired_delta_pct_median": 4.469482568734984,
+      "rounds": 80,
+      "runs_per_round": 200
+    },
+    "batch16": {
+      "ms_median": {
+        "base": 8.287907749995611,
+        "wrapper": 9.28157724999437,
+        "increment_only": 0.2876949999972567
+      },
+      "ms_min_of_rounds": {
+        "base": 4.934124000001248,
+        "wrapper": 5.2502910000021075,
+        "increment_only": 0.134389499999088
+      },
+      "delta_ms_median": 0.9936694999987594,
+      "delta_pct_median": 11.989388998680472,
+      "delta_ms_min": 0.31616700000085984,
+      "delta_pct_min": 6.4077635665577,
+      "paired_delta_ms_median": 0.47940574999756835,
+      "paired_delta_pct_median": 5.958804119357475,
+      "rounds": 80,
+      "runs_per_round": 200
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "rows": 114982,
+ "policy_rows": 31384,
+ "files": 18,
+ "arch_attn/ckpt_cnn.pt": {
+  "arch": "cnn",
+  "policy_kl": 0.4163355579371359,
+  "top1_vs_search": 0.6267524853428499,
+  "value_mse": 0.4060201758195118
+ },
+ "arch_attn/seed99/ckpt_cnn.pt": {
+  "arch": "cnn",
+  "policy_kl": 0.4179783954080683,
+  "top1_vs_search": 0.6186273260260005,
+  "value_mse": 0.4052728575752448
+ },
+ "arch_attn/ckpt_attn_l4.pt": {
+  "arch": "attn",
+  "policy_kl": 0.430073179093788,
+  "top1_vs_search": 0.6129875095590109,
+  "value_mse": 0.38807887207897557
+ },
+ "arch_attn/ckpt_attn.pt": {
+  "arch": "attn",
+  "policy_kl": 0.4005807489574548,
+  "top1_vs_search": 0.6316275809329595,
+  "value_mse": 0.3924261356129553
+ },
+ "arch_attn/seed99/ckpt_attn.pt": {
+  "arch": "attn",
+  "policy_kl": 0.41079388180163146,
+  "top1_vs_search": 0.6312133571246495,
+  "value_mse": 0.393095474016237
+ },
+ "ckpt/gen04.pt": {
+  "arch": "cnn",
+  "policy_kl": 0.43693657222828514,
+  "top1_vs_search": 0.6391154728524089,
+  "value_mse": 0.4421346599104235
+ },
+ "note": "out-of-window: 9 completed sp_gen05/gen06 folders newer than the training window; ckpt_attn = d64 L3 + conv after layer 1; ckpt_attn_l4 = d64 L4 pure attention"
+}

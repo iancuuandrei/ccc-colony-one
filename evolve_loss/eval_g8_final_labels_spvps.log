@@ -1,0 +1,21 @@
+{
+ "generation": "g8_final",
+ "rule": "g7 with the Cyan-mover shrink clause relaxed: our Kernel on the next ring at the end of our turn loses if ANY enemy piece has a quiet move to an empty square (it can move there and back, so the enemy completes its turn and the ring locks), instead of requiring a free square next to the enemy Kernel.",
+ "labels": "labels_spvps.npz",
+ "positions": 399968,
+ "bruteforce_lost": 9798,
+ "flagged": 9798,
+ "violations": 0,
+ "coverage": 1.0,
+ "seconds": 351.0,
+ "by_actions_left": {
+  "1": {
+   "lost": 5934,
+   "flagged": 5934
+  },
+  "2": {
+   "lost": 3864,
+   "flagged": 3864
+  }
+ }
+}

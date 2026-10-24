@@ -1,0 +1,50 @@
+{
+ "positions_total": 1457567,
+ "shrink_round_positions": 153222,
+ "shrink_round_share": 0.1051,
+ "WIN": 2835,
+ "LOSS": 4135,
+ "WIN_M": 2835,
+ "WIN_C": 0,
+ "LOSS_M": 9,
+ "LOSS_C": 4126,
+ "certified_share_of_shrink_round": 0.0455,
+ "certified_share_of_all_positions": 0.00478,
+ "tier1_certified": 2883,
+ "by_shrink": {
+  "0": {
+   "positions": 118397,
+   "WIN": 324,
+   "LOSS": 1185
+  },
+  "1": {
+   "positions": 30998,
+   "WIN": 1256,
+   "LOSS": 1610
+  },
+  "2": {
+   "positions": 3827,
+   "WIN": 1255,
+   "LOSS": 1340
+  },
+  "3": {
+   "positions": 0,
+   "WIN": 0,
+   "LOSS": 0
+  }
+ },
+ "by_mover": {
+  "CYAN": {
+   "positions": 78605,
+   "WIN": 0,
+   "LOSS": 4126
+  },
+  "MAGENTA": {
+   "positions": 74617,
+   "WIN": 2835,
+   "LOSS": 9
+  }
+ },
+ "z_agree_WIN": 1.0,
+ "z_agree_LOSS": 1.0
+}

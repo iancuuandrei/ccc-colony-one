@@ -1,0 +1,2291 @@
+[
+ {
+  "generation": "gen0",
+  "doc": "Naive sketch: 'own Kernel on the locking ring with no free inner neighbour, no R1/R2 kill, enemy Kernel off the ring -> loss'; 'enemy Kernel on the ring, ours off -> win'. Colour-blind.",
+  "time": "2026-10-23 18:52:12",
+  "sets": {
+   "selfplay": {
+    "LOSS": {
+     "checked": 42453,
+     "flagged": 210,
+     "violations": 194,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0164,
+     "fw_coverage": 0.0324
+    },
+    "WIN": {
+     "checked": 42453,
+     "flagged": 2209,
+     "violations": 1675,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1676,
+     "fw_coverage": 0.8664
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS": {
+     "checked": 12000,
+     "flagged": 867,
+     "violations": 328,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.2245,
+     "fw_coverage": 0.3335
+    },
+    "WIN": {
+     "checked": 12000,
+     "flagged": 1965,
+     "violations": 828,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.1677,
+     "fw_coverage": 0.2577
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS": {
+     "checked": 12000,
+     "flagged": 125,
+     "violations": 48,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.065,
+     "fw_coverage": 0.1282
+    },
+    "WIN": {
+     "checked": 12000,
+     "flagged": 2459,
+     "violations": 740,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.2417,
+     "fw_coverage": 0.2856
+    }
+   }
+  },
+  "totals": {
+   "LOSS": {
+    "flagged": 1202,
+    "violations": 570,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN": {
+    "flagged": 6633,
+    "violations": 3243,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": false
+ },
+ {
+  "generation": "gen1",
+  "doc": "+ exact escape with the actions left (E1; E2 vacate-then-step; E3 ring-step-then-in), + colour asymmetry: shrink after Magenta's turn, both burning -> Magenta. LOSS_C ignores where Magenta's Kernel is; WIN only for Magenta to move (Cyan gets no turn).",
+  "time": "2026-10-23 18:52:12",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 9,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0092,
+     "fw_coverage": 0.0182
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0072,
+     "fw_coverage": 0.0142
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 412,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1293,
+     "fw_coverage": 1.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1274,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.5306,
+     "fw_coverage": 0.6002
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 261,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.1087,
+     "fw_coverage": 0.1615
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 5070,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7478,
+     "fw_coverage": 0.9548
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 246,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.2078,
+     "fw_coverage": 0.2427
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 31,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.0262,
+     "fw_coverage": 0.053
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4060,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5709,
+     "fw_coverage": 0.9918
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 1529,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 299,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 9542,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen2",
+  "doc": "+ sound own-turn no-kill (adds R3x one-blocker rays, >=2 guards), + bare-Kernel safety: LOSS_C needs a non-losing Magenta reply (Cyan non-Kernels not in {1,2}, or Magenta Kernel keeps >= a+1 empty neighbours -> step out and back), WIN_M needs a capture-free line (quiet move, or Cyan non-Kernels not in [1,a]); positions with only Kernels are left to the endgame wrapper.",
+  "time": "2026-10-23 18:52:12",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 9,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0092,
+     "fw_coverage": 0.0182
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0072,
+     "fw_coverage": 0.0142
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1286,
+     "fw_coverage": 1.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1255,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.5227,
+     "fw_coverage": 0.5916
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 261,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.1087,
+     "fw_coverage": 0.1615
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4928,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7268,
+     "fw_coverage": 0.923
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 187,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.1579,
+     "fw_coverage": 0.2393
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 31,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.0262,
+     "fw_coverage": 0.053
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 3750,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5273,
+     "fw_coverage": 0.8978
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 1451,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 299,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 9088,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen3",
+  "doc": "+ WIN_C2: Cyan to move with 2 actions 'passes' (a quiet move and back restores the board), then Magenta's Kernel is doomed exactly like LOSS_M seen from Magenta (no escape in 2, no kill in 2, Cyan's Kernel off the ring).",
+  "time": "2026-10-23 18:52:12",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 9,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0092,
+     "fw_coverage": 0.0182
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0072,
+     "fw_coverage": 0.0142
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1286,
+     "fw_coverage": 1.0
+    },
+    "WIN_C2": {
+     "checked": 42453,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1255,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.5227,
+     "fw_coverage": 0.5916
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 261,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.1087,
+     "fw_coverage": 0.1615
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4928,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7268,
+     "fw_coverage": 0.923
+    },
+    "WIN_C2": {
+     "checked": 12000,
+     "flagged": 4,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.0006,
+     "fw_coverage": 0.0009
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 187,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.1579,
+     "fw_coverage": 0.2393
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 31,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.0262,
+     "fw_coverage": 0.053
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 3750,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5273,
+     "fw_coverage": 0.8978
+    },
+    "WIN_C2": {
+     "checked": 12000,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 1451,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 299,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 9088,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_C2": {
+    "flagged": 4,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen4",
+  "doc": "+ WIN_C: Cyan to move (1 or 2 actions) wins when an explicit plan -- pass (2 actions), one Kernel step (1 action) or two Kernel steps (2 actions) onto empty squares -- leaves Magenta's Kernel doomed (on the ring, no escape in 2, no kill in 2, Cyan's Kernel off the ring).",
+  "time": "2026-10-23 18:52:12",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 9,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0092,
+     "fw_coverage": 0.0182
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0072,
+     "fw_coverage": 0.0142
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1286,
+     "fw_coverage": 1.0
+    },
+    "WIN_C": {
+     "checked": 42453,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1255,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.5227,
+     "fw_coverage": 0.5916
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 261,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.1087,
+     "fw_coverage": 0.1615
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4928,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7268,
+     "fw_coverage": 0.923
+    },
+    "WIN_C": {
+     "checked": 12000,
+     "flagged": 25,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.0037,
+     "fw_coverage": 0.0057
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 187,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.1579,
+     "fw_coverage": 0.2393
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 31,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.0262,
+     "fw_coverage": 0.053
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 3750,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5273,
+     "fw_coverage": 0.8978
+    },
+    "WIN_C": {
+     "checked": 12000,
+     "flagged": 3,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.0004,
+     "fw_coverage": 0.0011
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 1451,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 299,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 9088,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_C": {
+    "flagged": 28,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen5",
+  "doc": "+ LOSS_CK (Kernel squeeze): Cyan to move whose only legal actions are Kernel steps; every Kernel plan ends on the locking ring (burns), or in a bare-Kernel loss, or on a square where Magenta's sound kill rules R1/R2 fire -> certified loss (firewall + tactics).",
+  "time": "2026-10-23 18:52:12",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 9,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0092,
+     "fw_coverage": 0.0182
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0072,
+     "fw_coverage": 0.0142
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1286,
+     "fw_coverage": 1.0
+    },
+    "WIN_C": {
+     "checked": 42453,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    },
+    "LOSS_CK": {
+     "checked": 42453,
+     "flagged": 556,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.5691,
+     "fw_coverage": 0.4534
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1255,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.5227,
+     "fw_coverage": 0.5916
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 261,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.1087,
+     "fw_coverage": 0.1615
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4928,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7268,
+     "fw_coverage": 0.923
+    },
+    "WIN_C": {
+     "checked": 12000,
+     "flagged": 25,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.0037,
+     "fw_coverage": 0.0057
+    },
+    "LOSS_CK": {
+     "checked": 12000,
+     "flagged": 181,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.0754,
+     "fw_coverage": 0.0285
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 187,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.1579,
+     "fw_coverage": 0.2393
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 31,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.0262,
+     "fw_coverage": 0.053
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 3750,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5273,
+     "fw_coverage": 0.8978
+    },
+    "WIN_C": {
+     "checked": 12000,
+     "flagged": 3,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.0004,
+     "fw_coverage": 0.0011
+    },
+    "LOSS_CK": {
+     "checked": 12000,
+     "flagged": 201,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.1698,
+     "fw_coverage": 0.094
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 1451,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 299,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 9088,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_C": {
+    "flagged": 28,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_CK": {
+    "flagged": 938,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen6",
+  "doc": "Exactness pass. escape_x: under no-kill an action onto the enemy Kernel never moves ours (exact escape). LOSS_C6 = LOSS_C(escape_x) | a=1 full squeeze (every legal Cyan action -> bare loss, sound Magenta kill R1/R2, or Kernel burns with a non-losing Magenta reply) | a=2 Kernel-only squeeze with redirected attacks (guard removal in sacrifice order). LOSS_M6 with escape_x. WIN_M6: any Magenta line avoiding bare Kernels within distance 2 (quiet, capture-and-return, sound kill, count, far Kernels). WIN_C6: plans with escape_x.",
+  "time": "2026-10-23 19:33:21",
+  "sets": {
+   "selfplay": {
+    "LOSS_C6": {
+     "checked": 42453,
+     "flagged": 900,
+     "violations": 0,
+     "certain": 969,
+     "fw_certain": 487,
+     "coverage": 0.9288,
+     "fw_coverage": 0.8871
+    },
+    "LOSS_M6": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 8,
+     "fw_certain": 7,
+     "coverage": 0.875,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 1832,
+     "fw_certain": 307,
+     "coverage": 0.2238,
+     "fw_coverage": 1.0
+    },
+    "WIN_C6": {
+     "checked": 42453,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 1355,
+     "fw_certain": 0,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C6": {
+     "checked": 12000,
+     "flagged": 1849,
+     "violations": 0,
+     "certain": 2059,
+     "fw_certain": 1274,
+     "coverage": 0.898,
+     "fw_coverage": 0.894
+    },
+    "LOSS_M6": {
+     "checked": 12000,
+     "flagged": 342,
+     "violations": 0,
+     "certain": 342,
+     "fw_certain": 342,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 12000,
+     "flagged": 5067,
+     "violations": 0,
+     "certain": 5391,
+     "fw_certain": 4201,
+     "coverage": 0.9399,
+     "fw_coverage": 0.9993
+    },
+    "WIN_C6": {
+     "checked": 12000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 1389,
+     "fw_certain": 199,
+     "coverage": 0.0266,
+     "fw_coverage": 0.1859
+    }
+   },
+   "synth_boxed_22": {
+    "LOSS_C6": {
+     "checked": 20000,
+     "flagged": 3089,
+     "violations": 0,
+     "certain": 3378,
+     "fw_certain": 2045,
+     "coverage": 0.9144,
+     "fw_coverage": 0.909
+    },
+    "LOSS_M6": {
+     "checked": 20000,
+     "flagged": 552,
+     "violations": 0,
+     "certain": 552,
+     "fw_certain": 552,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 20000,
+     "flagged": 8560,
+     "violations": 0,
+     "certain": 9092,
+     "fw_certain": 7055,
+     "coverage": 0.9415,
+     "fw_coverage": 0.9997
+    },
+    "WIN_C6": {
+     "checked": 20000,
+     "flagged": 47,
+     "violations": 0,
+     "certain": 2288,
+     "fw_certain": 271,
+     "coverage": 0.0205,
+     "fw_coverage": 0.1734
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C6": {
+     "checked": 12000,
+     "flagged": 1022,
+     "violations": 0,
+     "certain": 1115,
+     "fw_certain": 516,
+     "coverage": 0.9166,
+     "fw_coverage": 0.8798
+    },
+    "LOSS_M6": {
+     "checked": 12000,
+     "flagged": 68,
+     "violations": 0,
+     "certain": 69,
+     "fw_certain": 69,
+     "coverage": 0.9855,
+     "fw_coverage": 0.9855
+    },
+    "WIN_M6": {
+     "checked": 12000,
+     "flagged": 4017,
+     "violations": 0,
+     "certain": 4639,
+     "fw_certain": 2775,
+     "coverage": 0.8659,
+     "fw_coverage": 0.9845
+    },
+    "WIN_C6": {
+     "checked": 12000,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 2473,
+     "fw_certain": 23,
+     "coverage": 0.0028,
+     "fw_coverage": 0.2174
+    }
+   },
+   "synth_shrink_23": {
+    "LOSS_C6": {
+     "checked": 20000,
+     "flagged": 1710,
+     "violations": 0,
+     "certain": 1879,
+     "fw_certain": 898,
+     "coverage": 0.9101,
+     "fw_coverage": 0.8864
+    },
+    "LOSS_M6": {
+     "checked": 20000,
+     "flagged": 112,
+     "violations": 0,
+     "certain": 112,
+     "fw_certain": 112,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 20000,
+     "flagged": 6743,
+     "violations": 0,
+     "certain": 7851,
+     "fw_certain": 4679,
+     "coverage": 0.8589,
+     "fw_coverage": 0.9842
+    },
+    "WIN_C6": {
+     "checked": 20000,
+     "flagged": 14,
+     "violations": 0,
+     "certain": 4082,
+     "fw_certain": 36,
+     "coverage": 0.0034,
+     "fw_coverage": 0.2778
+    }
+   },
+   "synth_sparse_21": {
+    "LOSS_C6": {
+     "checked": 20000,
+     "flagged": 2502,
+     "violations": 0,
+     "certain": 2671,
+     "fw_certain": 774,
+     "coverage": 0.9367,
+     "fw_coverage": 0.8618
+    },
+    "LOSS_M6": {
+     "checked": 20000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 45,
+     "fw_certain": 45,
+     "coverage": 0.8222,
+     "fw_coverage": 0.8222
+    },
+    "WIN_M6": {
+     "checked": 20000,
+     "flagged": 6789,
+     "violations": 0,
+     "certain": 8412,
+     "fw_certain": 3840,
+     "coverage": 0.8071,
+     "fw_coverage": 0.9768
+    },
+    "WIN_C6": {
+     "checked": 20000,
+     "flagged": 1,
+     "violations": 0,
+     "certain": 4556,
+     "fw_certain": 3,
+     "coverage": 0.0002,
+     "fw_coverage": 0.3333
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C6": {
+    "flagged": 11072,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M6": {
+    "flagged": 1118,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M6": {
+    "flagged": 31586,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_C6": {
+    "flagged": 106,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen7",
+  "doc": "+ full two-action squeeze for Cyan: every legal pair of Cyan actions (any pieces; the second action generated on the board after the first) ends in a bare-Kernel loss, a sound Magenta kill (R1/R2), or the Cyan Kernel burning with a non-losing Magenta reply. Prefilter: all Kernel-only plans lose (necessary).",
+  "time": "2026-10-23 19:33:21",
+  "sets": {
+   "selfplay": {
+    "LOSS_C7": {
+     "checked": 42453,
+     "flagged": 955,
+     "violations": 0,
+     "certain": 969,
+     "fw_certain": 487,
+     "coverage": 0.9856,
+     "fw_coverage": 0.9938
+    },
+    "LOSS_M6": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 8,
+     "fw_certain": 7,
+     "coverage": 0.875,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 1832,
+     "fw_certain": 307,
+     "coverage": 0.2238,
+     "fw_coverage": 1.0
+    },
+    "WIN_C6": {
+     "checked": 42453,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 1355,
+     "fw_certain": 0,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C7": {
+     "checked": 12000,
+     "flagged": 1951,
+     "violations": 0,
+     "certain": 2059,
+     "fw_certain": 1274,
+     "coverage": 0.9475,
+     "fw_coverage": 0.9199
+    },
+    "LOSS_M6": {
+     "checked": 12000,
+     "flagged": 342,
+     "violations": 0,
+     "certain": 342,
+     "fw_certain": 342,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 12000,
+     "flagged": 5067,
+     "violations": 0,
+     "certain": 5391,
+     "fw_certain": 4201,
+     "coverage": 0.9399,
+     "fw_coverage": 0.9993
+    },
+    "WIN_C6": {
+     "checked": 12000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 1389,
+     "fw_certain": 199,
+     "coverage": 0.0266,
+     "fw_coverage": 0.1859
+    }
+   },
+   "synth_boxed_22": {
+    "LOSS_C7": {
+     "checked": 20000,
+     "flagged": 3216,
+     "violations": 0,
+     "certain": 3378,
+     "fw_certain": 2045,
+     "coverage": 0.952,
+     "fw_coverage": 0.9267
+    },
+    "LOSS_M6": {
+     "checked": 20000,
+     "flagged": 552,
+     "violations": 0,
+     "certain": 552,
+     "fw_certain": 552,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 20000,
+     "flagged": 8560,
+     "violations": 0,
+     "certain": 9092,
+     "fw_certain": 7055,
+     "coverage": 0.9415,
+     "fw_coverage": 0.9997
+    },
+    "WIN_C6": {
+     "checked": 20000,
+     "flagged": 47,
+     "violations": 0,
+     "certain": 2288,
+     "fw_certain": 271,
+     "coverage": 0.0205,
+     "fw_coverage": 0.1734
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C7": {
+     "checked": 12000,
+     "flagged": 1098,
+     "violations": 0,
+     "certain": 1115,
+     "fw_certain": 516,
+     "coverage": 0.9848,
+     "fw_coverage": 0.9806
+    },
+    "LOSS_M6": {
+     "checked": 12000,
+     "flagged": 68,
+     "violations": 0,
+     "certain": 69,
+     "fw_certain": 69,
+     "coverage": 0.9855,
+     "fw_coverage": 0.9855
+    },
+    "WIN_M6": {
+     "checked": 12000,
+     "flagged": 4017,
+     "violations": 0,
+     "certain": 4639,
+     "fw_certain": 2775,
+     "coverage": 0.8659,
+     "fw_coverage": 0.9845
+    },
+    "WIN_C6": {
+     "checked": 12000,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 2473,
+     "fw_certain": 23,
+     "coverage": 0.0028,
+     "fw_coverage": 0.2174
+    }
+   },
+   "synth_shrink_23": {
+    "LOSS_C7": {
+     "checked": 20000,
+     "flagged": 1843,
+     "violations": 0,
+     "certain": 1879,
+     "fw_certain": 898,
+     "coverage": 0.9808,
+     "fw_coverage": 0.9811
+    },
+    "LOSS_M6": {
+     "checked": 20000,
+     "flagged": 112,
+     "violations": 0,
+     "certain": 112,
+     "fw_certain": 112,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M6": {
+     "checked": 20000,
+     "flagged": 6743,
+     "violations": 0,
+     "certain": 7851,
+     "fw_certain": 4679,
+     "coverage": 0.8589,
+     "fw_coverage": 0.9842
+    },
+    "WIN_C6": {
+     "checked": 20000,
+     "flagged": 14,
+     "violations": 0,
+     "certain": 4082,
+     "fw_certain": 36,
+     "coverage": 0.0034,
+     "fw_coverage": 0.2778
+    }
+   },
+   "synth_sparse_21": {
+    "LOSS_C7": {
+     "checked": 20000,
+     "flagged": 2600,
+     "violations": 0,
+     "certain": 2671,
+     "fw_certain": 774,
+     "coverage": 0.9734,
+     "fw_coverage": 0.9496
+    },
+    "LOSS_M6": {
+     "checked": 20000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 45,
+     "fw_certain": 45,
+     "coverage": 0.8222,
+     "fw_coverage": 0.8222
+    },
+    "WIN_M6": {
+     "checked": 20000,
+     "flagged": 6789,
+     "violations": 0,
+     "certain": 8412,
+     "fw_certain": 3840,
+     "coverage": 0.8071,
+     "fw_coverage": 0.9768
+    },
+    "WIN_C6": {
+     "checked": 20000,
+     "flagged": 1,
+     "violations": 0,
+     "certain": 4556,
+     "fw_certain": 3,
+     "coverage": 0.0002,
+     "fw_coverage": 0.3333
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C7": {
+    "flagged": 11663,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M6": {
+    "flagged": 1118,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M6": {
+    "flagged": 31586,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_C6": {
+    "flagged": 106,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "gen8_tier1",
+  "doc": "Tier 1 only (pure fixed shift operations, no enumeration): LOSS_C core with escape_x, LOSS_M, WIN_M of gen6.",
+  "time": "2026-10-23 19:54:06",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 9,
+     "violations": 0,
+     "certain": 969,
+     "fw_certain": 487,
+     "coverage": 0.0093,
+     "fw_coverage": 0.0185
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 8,
+     "fw_certain": 7,
+     "coverage": 0.875,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 1832,
+     "fw_certain": 307,
+     "coverage": 0.2238,
+     "fw_coverage": 1.0
+    },
+    "LOSS": {
+     "checked": 42453,
+     "flagged": 16,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.0164,
+     "fw_coverage": 0.0324
+    },
+    "WIN": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1286,
+     "fw_coverage": 1.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1313,
+     "violations": 0,
+     "certain": 2059,
+     "fw_certain": 1274,
+     "coverage": 0.6377,
+     "fw_coverage": 0.7959
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 342,
+     "violations": 0,
+     "certain": 342,
+     "fw_certain": 342,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 5067,
+     "violations": 0,
+     "certain": 5391,
+     "fw_certain": 4201,
+     "coverage": 0.9399,
+     "fw_coverage": 0.9993
+    },
+    "LOSS": {
+     "checked": 12000,
+     "flagged": 1655,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.6893,
+     "fw_coverage": 0.8391
+    },
+    "WIN": {
+     "checked": 12000,
+     "flagged": 5067,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7473,
+     "fw_coverage": 0.9541
+    }
+   },
+   "synth_boxed_22": {
+    "LOSS_C": {
+     "checked": 20000,
+     "flagged": 2136,
+     "violations": 0,
+     "certain": 3378,
+     "fw_certain": 2045,
+     "coverage": 0.6323,
+     "fw_coverage": 0.8068
+    },
+    "LOSS_M": {
+     "checked": 20000,
+     "flagged": 552,
+     "violations": 0,
+     "certain": 552,
+     "fw_certain": 552,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 20000,
+     "flagged": 8560,
+     "violations": 0,
+     "certain": 9092,
+     "fw_certain": 7055,
+     "coverage": 0.9415,
+     "fw_coverage": 0.9997
+    },
+    "LOSS": {
+     "checked": 20000,
+     "flagged": 2688,
+     "violations": 0,
+     "certain": 3930,
+     "fw_certain": 2597,
+     "coverage": 0.684,
+     "fw_coverage": 0.8479
+    },
+    "WIN": {
+     "checked": 20000,
+     "flagged": 8560,
+     "violations": 0,
+     "certain": 11380,
+     "fw_certain": 7326,
+     "coverage": 0.7522,
+     "fw_coverage": 0.9627
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 224,
+     "violations": 0,
+     "certain": 1115,
+     "fw_certain": 516,
+     "coverage": 0.2009,
+     "fw_coverage": 0.3198
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 68,
+     "violations": 0,
+     "certain": 69,
+     "fw_certain": 69,
+     "coverage": 0.9855,
+     "fw_coverage": 0.9855
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4017,
+     "violations": 0,
+     "certain": 4639,
+     "fw_certain": 2775,
+     "coverage": 0.8659,
+     "fw_coverage": 0.9845
+    },
+    "LOSS": {
+     "checked": 12000,
+     "flagged": 292,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.2466,
+     "fw_coverage": 0.3983
+    },
+    "WIN": {
+     "checked": 12000,
+     "flagged": 4017,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5648,
+     "fw_coverage": 0.9764
+    }
+   },
+   "synth_shrink_23": {
+    "LOSS_C": {
+     "checked": 20000,
+     "flagged": 400,
+     "violations": 0,
+     "certain": 1879,
+     "fw_certain": 898,
+     "coverage": 0.2129,
+     "fw_coverage": 0.3363
+    },
+    "LOSS_M": {
+     "checked": 20000,
+     "flagged": 112,
+     "violations": 0,
+     "certain": 112,
+     "fw_certain": 112,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 20000,
+     "flagged": 6743,
+     "violations": 0,
+     "certain": 7851,
+     "fw_certain": 4679,
+     "coverage": 0.8589,
+     "fw_coverage": 0.9842
+    },
+    "LOSS": {
+     "checked": 20000,
+     "flagged": 512,
+     "violations": 0,
+     "certain": 1991,
+     "fw_certain": 1010,
+     "coverage": 0.2572,
+     "fw_coverage": 0.4099
+    },
+    "WIN": {
+     "checked": 20000,
+     "flagged": 6743,
+     "violations": 0,
+     "certain": 11933,
+     "fw_certain": 4715,
+     "coverage": 0.5651,
+     "fw_coverage": 0.9767
+    }
+   },
+   "synth_sparse_21": {
+    "LOSS_C": {
+     "checked": 20000,
+     "flagged": 322,
+     "violations": 0,
+     "certain": 2671,
+     "fw_certain": 774,
+     "coverage": 0.1206,
+     "fw_coverage": 0.062
+    },
+    "LOSS_M": {
+     "checked": 20000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 45,
+     "fw_certain": 45,
+     "coverage": 0.8222,
+     "fw_coverage": 0.8222
+    },
+    "WIN_M": {
+     "checked": 20000,
+     "flagged": 6789,
+     "violations": 0,
+     "certain": 8412,
+     "fw_certain": 3840,
+     "coverage": 0.8071,
+     "fw_coverage": 0.9768
+    },
+    "LOSS": {
+     "checked": 20000,
+     "flagged": 359,
+     "violations": 0,
+     "certain": 2716,
+     "fw_certain": 819,
+     "coverage": 0.1322,
+     "fw_coverage": 0.1038
+    },
+    "WIN": {
+     "checked": 20000,
+     "flagged": 6789,
+     "violations": 0,
+     "certain": 12968,
+     "fw_certain": 3843,
+     "coverage": 0.5235,
+     "fw_coverage": 0.9761
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 4404,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 1118,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 31586,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS": {
+    "flagged": 5522,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN": {
+    "flagged": 31586,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "final",
+  "doc": "Final = final.certify (gen7 logic): unions WIN / LOSS and parts.",
+  "time": "2026-10-23 19:54:06",
+  "sets": {
+   "selfplay": {
+    "LOSS_C": {
+     "checked": 42453,
+     "flagged": 955,
+     "violations": 0,
+     "certain": 969,
+     "fw_certain": 487,
+     "coverage": 0.9856,
+     "fw_coverage": 0.9938
+    },
+    "LOSS_M": {
+     "checked": 42453,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 8,
+     "fw_certain": 7,
+     "coverage": 0.875,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 1832,
+     "fw_certain": 307,
+     "coverage": 0.2238,
+     "fw_coverage": 1.0
+    },
+    "WIN_C": {
+     "checked": 42453,
+     "flagged": 0,
+     "violations": 0,
+     "certain": 1355,
+     "fw_certain": 0,
+     "coverage": 0.0,
+     "fw_coverage": 0.0
+    },
+    "LOSS": {
+     "checked": 42453,
+     "flagged": 962,
+     "violations": 0,
+     "certain": 977,
+     "fw_certain": 494,
+     "coverage": 0.9846,
+     "fw_coverage": 0.9939
+    },
+    "WIN": {
+     "checked": 42453,
+     "flagged": 410,
+     "violations": 0,
+     "certain": 3187,
+     "fw_certain": 307,
+     "coverage": 0.1286,
+     "fw_coverage": 1.0
+    }
+   },
+   "synth_boxed_12": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1951,
+     "violations": 0,
+     "certain": 2059,
+     "fw_certain": 1274,
+     "coverage": 0.9475,
+     "fw_coverage": 0.9199
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 342,
+     "violations": 0,
+     "certain": 342,
+     "fw_certain": 342,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 5067,
+     "violations": 0,
+     "certain": 5391,
+     "fw_certain": 4201,
+     "coverage": 0.9399,
+     "fw_coverage": 0.9993
+    },
+    "WIN_C": {
+     "checked": 12000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 1389,
+     "fw_certain": 199,
+     "coverage": 0.0266,
+     "fw_coverage": 0.1859
+    },
+    "LOSS": {
+     "checked": 12000,
+     "flagged": 2293,
+     "violations": 0,
+     "certain": 2401,
+     "fw_certain": 1616,
+     "coverage": 0.955,
+     "fw_coverage": 0.9369
+    },
+    "WIN": {
+     "checked": 12000,
+     "flagged": 5104,
+     "violations": 0,
+     "certain": 6780,
+     "fw_certain": 4400,
+     "coverage": 0.7528,
+     "fw_coverage": 0.9625
+    }
+   },
+   "synth_boxed_22": {
+    "LOSS_C": {
+     "checked": 20000,
+     "flagged": 3216,
+     "violations": 0,
+     "certain": 3378,
+     "fw_certain": 2045,
+     "coverage": 0.952,
+     "fw_coverage": 0.9267
+    },
+    "LOSS_M": {
+     "checked": 20000,
+     "flagged": 552,
+     "violations": 0,
+     "certain": 552,
+     "fw_certain": 552,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 20000,
+     "flagged": 8560,
+     "violations": 0,
+     "certain": 9092,
+     "fw_certain": 7055,
+     "coverage": 0.9415,
+     "fw_coverage": 0.9997
+    },
+    "WIN_C": {
+     "checked": 20000,
+     "flagged": 47,
+     "violations": 0,
+     "certain": 2288,
+     "fw_certain": 271,
+     "coverage": 0.0205,
+     "fw_coverage": 0.1734
+    },
+    "LOSS": {
+     "checked": 20000,
+     "flagged": 3768,
+     "violations": 0,
+     "certain": 3930,
+     "fw_certain": 2597,
+     "coverage": 0.9588,
+     "fw_coverage": 0.9422
+    },
+    "WIN": {
+     "checked": 20000,
+     "flagged": 8607,
+     "violations": 0,
+     "certain": 11380,
+     "fw_certain": 7326,
+     "coverage": 0.7563,
+     "fw_coverage": 0.9692
+    }
+   },
+   "synth_shrink_11": {
+    "LOSS_C": {
+     "checked": 12000,
+     "flagged": 1098,
+     "violations": 0,
+     "certain": 1115,
+     "fw_certain": 516,
+     "coverage": 0.9848,
+     "fw_coverage": 0.9806
+    },
+    "LOSS_M": {
+     "checked": 12000,
+     "flagged": 68,
+     "violations": 0,
+     "certain": 69,
+     "fw_certain": 69,
+     "coverage": 0.9855,
+     "fw_coverage": 0.9855
+    },
+    "WIN_M": {
+     "checked": 12000,
+     "flagged": 4017,
+     "violations": 0,
+     "certain": 4639,
+     "fw_certain": 2775,
+     "coverage": 0.8659,
+     "fw_coverage": 0.9845
+    },
+    "WIN_C": {
+     "checked": 12000,
+     "flagged": 7,
+     "violations": 0,
+     "certain": 2473,
+     "fw_certain": 23,
+     "coverage": 0.0028,
+     "fw_coverage": 0.2174
+    },
+    "LOSS": {
+     "checked": 12000,
+     "flagged": 1166,
+     "violations": 0,
+     "certain": 1184,
+     "fw_certain": 585,
+     "coverage": 0.9848,
+     "fw_coverage": 0.9812
+    },
+    "WIN": {
+     "checked": 12000,
+     "flagged": 4024,
+     "violations": 0,
+     "certain": 7112,
+     "fw_certain": 2798,
+     "coverage": 0.5658,
+     "fw_coverage": 0.9782
+    }
+   },
+   "synth_shrink_23": {
+    "LOSS_C": {
+     "checked": 20000,
+     "flagged": 1843,
+     "violations": 0,
+     "certain": 1879,
+     "fw_certain": 898,
+     "coverage": 0.9808,
+     "fw_coverage": 0.9811
+    },
+    "LOSS_M": {
+     "checked": 20000,
+     "flagged": 112,
+     "violations": 0,
+     "certain": 112,
+     "fw_certain": 112,
+     "coverage": 1.0,
+     "fw_coverage": 1.0
+    },
+    "WIN_M": {
+     "checked": 20000,
+     "flagged": 6743,
+     "violations": 0,
+     "certain": 7851,
+     "fw_certain": 4679,
+     "coverage": 0.8589,
+     "fw_coverage": 0.9842
+    },
+    "WIN_C": {
+     "checked": 20000,
+     "flagged": 14,
+     "violations": 0,
+     "certain": 4082,
+     "fw_certain": 36,
+     "coverage": 0.0034,
+     "fw_coverage": 0.2778
+    },
+    "LOSS": {
+     "checked": 20000,
+     "flagged": 1955,
+     "violations": 0,
+     "certain": 1991,
+     "fw_certain": 1010,
+     "coverage": 0.9819,
+     "fw_coverage": 0.9832
+    },
+    "WIN": {
+     "checked": 20000,
+     "flagged": 6757,
+     "violations": 0,
+     "certain": 11933,
+     "fw_certain": 4715,
+     "coverage": 0.5662,
+     "fw_coverage": 0.9788
+    }
+   },
+   "synth_sparse_21": {
+    "LOSS_C": {
+     "checked": 20000,
+     "flagged": 2600,
+     "violations": 0,
+     "certain": 2671,
+     "fw_certain": 774,
+     "coverage": 0.9734,
+     "fw_coverage": 0.9496
+    },
+    "LOSS_M": {
+     "checked": 20000,
+     "flagged": 37,
+     "violations": 0,
+     "certain": 45,
+     "fw_certain": 45,
+     "coverage": 0.8222,
+     "fw_coverage": 0.8222
+    },
+    "WIN_M": {
+     "checked": 20000,
+     "flagged": 6789,
+     "violations": 0,
+     "certain": 8412,
+     "fw_certain": 3840,
+     "coverage": 0.8071,
+     "fw_coverage": 0.9768
+    },
+    "WIN_C": {
+     "checked": 20000,
+     "flagged": 1,
+     "violations": 0,
+     "certain": 4556,
+     "fw_certain": 3,
+     "coverage": 0.0002,
+     "fw_coverage": 0.3333
+    },
+    "LOSS": {
+     "checked": 20000,
+     "flagged": 2637,
+     "violations": 0,
+     "certain": 2716,
+     "fw_certain": 819,
+     "coverage": 0.9709,
+     "fw_coverage": 0.9426
+    },
+    "WIN": {
+     "checked": 20000,
+     "flagged": 6790,
+     "violations": 0,
+     "certain": 12968,
+     "fw_certain": 3843,
+     "coverage": 0.5236,
+     "fw_coverage": 0.9763
+    }
+   }
+  },
+  "totals": {
+   "LOSS_C": {
+    "flagged": 11663,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS_M": {
+    "flagged": 1118,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_M": {
+    "flagged": 31586,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN_C": {
+    "flagged": 106,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "LOSS": {
+    "flagged": 12781,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   },
+   "WIN": {
+    "flagged": 31692,
+    "violations": 0,
+    "certain": 0,
+    "fw_certain": 0,
+    "correct": 0,
+    "fw_correct": 0
+   }
+  },
+  "zero_violations": true
+ },
+ {
+  "generation": "lemmas",
+  "time": "2026-10-23 19:54:07",
+  "sets": {
+   "selfplay": {
+    "esc_checked": 2820,
+    "esc_formula1_brute0": 0,
+    "esc_formula0_brute1": 0,
+    "nokill_checked": 42453,
+    "nokill_flagged": 39600,
+    "nokill_violations": 0,
+    "nokill_recall": 0.9986,
+    "quiet_mismatch": 0,
+    "killsound_flagged": 2793,
+    "killsound_violations": 0
+   },
+   "synth_boxed_12": {
+    "esc_checked": 10035,
+    "esc_formula1_brute0": 219,
+    "esc_formula0_brute1": 0,
+    "nokill_checked": 12000,
+    "nokill_flagged": 9611,
+    "nokill_violations": 0,
+    "nokill_recall": 0.9991,
+    "quiet_mismatch": 0,
+    "killsound_flagged": 2372,
+    "killsound_violations": 0
+   },
+   "synth_boxed_22": {
+    "esc_checked": 16888,
+    "esc_formula1_brute0": 340,
+    "esc_formula0_brute1": 0,
+    "nokill_checked": 20000,
+    "nokill_flagged": 15931,
+    "nokill_violations": 0,
+    "nokill_recall": 0.9991,
+    "quiet_mismatch": 0,
+    "killsound_flagged": 4043,
+    "killsound_violations": 0
+   },
+   "synth_shrink_11": {
+    "esc_checked": 8197,
+    "esc_formula1_brute0": 90,
+    "esc_formula0_brute1": 0,
+    "nokill_checked": 12000,
+    "nokill_flagged": 7754,
+    "nokill_violations": 0,
+    "nokill_recall": 0.9986,
+    "quiet_mismatch": 0,
+    "killsound_flagged": 4226,
+    "killsound_violations": 0
+   },
+   "synth_shrink_23": {
+    "esc_checked": 13862,
+    "esc_formula1_brute0": 161,
+    "esc_formula0_brute1": 0,
+    "nokill_checked": 20000,
+    "nokill_flagged": 12903,
+    "nokill_violations": 0,
+    "nokill_recall": 0.9986,
+    "quiet_mismatch": 0,
+    "killsound_flagged": 7065,
+    "killsound_violations": 0
+   },
+   "synth_sparse_21": {
+    "esc_checked": 13581,
+    "esc_formula1_brute0": 106,
+    "esc_formula0_brute1": 0,
+    "nokill_checked": 20000,
+    "nokill_flagged": 11310,
+    "nokill_violations": 0,
+    "nokill_recall": 0.9992,
+    "quiet_mismatch": 0,
+    "killsound_flagged": 8677,
+    "killsound_violations": 0
+   }
+  }
+ },
+ {
+  "generation": "hunt_5",
+  "time": "2026-10-23 19:54:45",
+  "doc": "120k synthetic positions (shrink/boxed/sparse), oracle run on every flagged one",
+  "result": {
+   "generated": 120000,
+   "flagged_any": 61085,
+   "seconds_gen": 582.6,
+   "seconds_oracle": 42.2,
+   "gens": {
+    "gen1": {
+     "LOSS_C": {
+      "flagged": 5737,
+      "checked": 5737,
+      "violations": 1
+     },
+     "LOSS_M": {
+      "flagged": 1062,
+      "checked": 1062,
+      "violations": 0
+     },
+     "WIN_M": {
+      "flagged": 44216,
+      "checked": 44216,
+      "violations": 0
+     }
+    },
+    "gen7": {
+     "LOSS_C7": {
+      "flagged": 15282,
+      "checked": 15282,
+      "violations": 0
+     },
+     "LOSS_M6": {
+      "flagged": 1409,
+      "checked": 1409,
+      "violations": 0
+     },
+     "WIN_M6": {
+      "flagged": 43867,
+      "checked": 43867,
+      "violations": 0
+     },
+     "WIN_C6": {
+      "flagged": 142,
+      "checked": 142,
+      "violations": 0
+     }
+    }
+   }
+  }
+ },
+ {
+  "generation": "gen1_counterexample",
+  "doc": "hunt_5_violations.npz: round 24, Cyan Kernel boxed in the 4x4 corner, Magenta Kernel unguarded; Cyan Exploit jumps off the Trace diagonal -> discovered Trace shot kills (R1/R2 miss it). gen1 claims LOSS_C, true value +1; caught by R3x in gen2+."
+ },
+ {
+  "generation": "oracle_validation",
+  "doc": "validate_oracle.py: apply/undo alpha-beta oracle vs independent env.clone()+env.step search",
+  "result": "checked 750 positions, mismatches 0, env values {0: 382, 1: 303, -1: 65}, 366s"
+ },
+ {
+  "generation": "selfplay_frequency",
+  "result": {
+   "positions_total": 1457567,
+   "shrink_round_positions": 153222,
+   "shrink_round_share": 0.1051,
+   "WIN": 2835,
+   "LOSS": 4135,
+   "WIN_M": 2835,
+   "WIN_C": 0,
+   "LOSS_M": 9,
+   "LOSS_C": 4126,
+   "certified_share_of_shrink_round": 0.0455,
+   "certified_share_of_all_positions": 0.00478,
+   "tier1_certified": 2883,
+   "by_shrink": {
+    "0": {
+     "positions": 118397,
+     "WIN": 324,
+     "LOSS": 1185
+    },
+    "1": {
+     "positions": 30998,
+     "WIN": 1256,
+     "LOSS": 1610
+    },
+    "2": {
+     "positions": 3827,
+     "WIN": 1255,
+     "LOSS": 1340
+    },
+    "3": {
+     "positions": 0,
+     "WIN": 0,
+     "LOSS": 0
+    }
+   },
+   "by_mover": {
+    "CYAN": {
+     "positions": 78605,
+     "WIN": 0,
+     "LOSS": 4126
+    },
+    "MAGENTA": {
+     "positions": 74617,
+     "WIN": 2835,
+     "LOSS": 9
+    }
+   },
+   "z_agree_WIN": 1.0,
+   "z_agree_LOSS": 1.0
+  }
+ }
+]

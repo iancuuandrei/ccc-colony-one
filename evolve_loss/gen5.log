@@ -1,0 +1,21 @@
+{
+ "generation": "g5_full_ebk",
+ "rule": "g4, with losing_final also accepting EBK: the enemy has only its Kernel, we have <= 1 non-Kernel piece, and the enemy Kernel's two actions (capturing that piece if any) end where the bare-Kernels resolution at the end of the enemy's turn goes to the enemy (Chebyshev > 2 and smaller ring, or equal ring with the enemy real Magenta).",
+ "labels": "labels_spvps.npz",
+ "positions": 399968,
+ "bruteforce_lost": 9798,
+ "flagged": 9798,
+ "violations": 0,
+ "coverage": 1.0,
+ "seconds": 267.1,
+ "by_actions_left": {
+  "1": {
+   "lost": 5934,
+   "flagged": 5934
+  },
+  "2": {
+   "lost": 3864,
+   "flagged": 3864
+  }
+ }
+}
