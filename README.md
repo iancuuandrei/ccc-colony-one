@@ -1,5 +1,15 @@
 # Colony: One — a policy/value network for the Level 4 tournament
 
+**🏆 1st place in Cluj · 7th place worldwide** — Cloudflight Coding Contest, 23 October 2026
+
+**Team**
+
+| | Member |
+|---|---|
+| <img src="https://github.com/iancuuandrei.png" width="48"> | [@iancuuandrei](https://github.com/iancuuandrei) |
+| <img src="https://github.com/TApop26.png" width="48"> | [@TApop26](https://github.com/TApop26) |
+| <img src="https://github.com/MirceaGodiac.png" width="48"> | [@MirceaGodiac](https://github.com/MirceaGodiac) |
+
 This repository contains our entry for **Level 4 of the Cloudflight Coding Contest "Colony: One"** (23 October 2026). We submitted one ONNX file that judges positions, and the organisers' **fixed** PUCT tree search (100 simulations per action) used it to play a live Glicko-2 tournament against the other teams.
 
 The final uploaded model is **gen12** (`release/gen12/model.onnx`, SHA-256 `540cc1b0403fbc10f5b90a4d71a377c3bd7048084a01ff5a84229eaaa591c1ed`). Over one afternoon we went from a hand-built evaluator to a self-play-trained residual network with exact tactical rules built into the graph:
