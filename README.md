@@ -201,6 +201,12 @@ The last 28 complete tournament games were replayed exactly by the engine.
 
 All coordination went through one shared log, `codex/coordination.md`.
 
+**RunPod and the bigger-teacher plan.** On the RunPod GPU we also tried a much larger network, well beyond the 5 MiB submission limit (for example a 128ch×8 Net2Net teacher). The plan was to use it as a teacher and distil it into an 80×6 student that fits the limit. This never worked end to end, because the internet connection was too poor to move files reliably between the pod and our PC:
+- data windows, checkpoints and candidate models had to go through manual Jupyter downloads and `runpodctl` transfers, which were slow and often failed;
+- so the pod mostly trained on the one data snapshot it had received, and the large teacher could not join the shared self-play/training loop in time.
+
+Only the submission-size models trained on the pod (E2, E5) made it back to the PC.
+
 Compute:
 - a 32-thread PC with an RTX 5050 (training under WSL);
 - a 16-vCPU VPS for self-play;
